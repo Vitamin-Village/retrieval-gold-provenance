@@ -387,7 +387,7 @@ def answer_tau(recs: list[dict], dense: dict) -> list[dict]:
 
 # ----------------------------------------------------------------------------- manuscript cross-checks
 def lead_float(cell: str) -> float:
-    return float(re.match(r"\s*([+-]?\d+\.\d+)", cell).group(1))
+    return float(re.match(r"\s*([+-]?\d+\.\d+)", cell.replace("$-$", "-")).group(1))
 
 
 def stars(p: float) -> int:

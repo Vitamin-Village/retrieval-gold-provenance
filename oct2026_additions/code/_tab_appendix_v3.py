@@ -38,6 +38,11 @@ for b, bl in BENCH:
 L += [r"\bottomrule", r"\end{tabular}"]
 (TAB / "tab_readerref.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
 
+def sgn(v):
+    """Signed value to three decimals, with a true minus sign."""
+    return f"{v:+.3f}".replace("-", "$-$")
+
+
 L = [r"\begin{tabular}{lllrrrr}", r"\toprule",
      r"Reader & Retriever & Split & $n$ flip & EM $\Delta$ flip & $n$ none & EM $\Delta$ none\\", r"\midrule"]
 for tag, rl in READERS:
@@ -46,8 +51,8 @@ for tag, rl in READERS:
     for sy, syl in SYS:
         for sp, sl in SPLIT:
             m = P[("2wiki", sp, sy)]
-            L.append(" & ".join([rl, syl, sl, str(m["n_flips_pos"]), f"{m['em_diff_on_retrieval_flips_pos']:+.3f}",
-                                 str(m["n_no_flip"]), f"{m['em_diff_on_no_flip']:+.3f}"]) + r"\\")
+            L.append(" & ".join([rl, syl, sl, str(m["n_flips_pos"]), sgn(m['em_diff_on_retrieval_flips_pos']),
+                                 str(m["n_no_flip"]), sgn(m['em_diff_on_no_flip'])]) + r"\\")
 L += [r"\bottomrule", r"\end{tabular}"]
 (TAB / "tab_mediation.tex").write_text("\n".join(L) + "\n", encoding="utf-8")
 

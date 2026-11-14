@@ -22,8 +22,12 @@ The materials come in two parts. Each part has its own README with a file-by-fil
 | Census, Table 1 and Appendix B | `aug2026_original/census/` |
 | Human raters, Appendix B.4 | `oct2026_additions/human_validation/v4/public/` |
 | Logged LM raters, Appendix B.5 | `oct2026_additions/human_validation/llm_census_logged/` |
-| Controlled KG swap, Table 3 | `aug2026_original/swap/`, `aug2026_original/metaqa/`, `aug2026_original/stark/`, `oct2026_additions/graphragbench_swap/` |
-| What carries the inflation, Table 4 | `oct2026_additions/zero_edge/`, `oct2026_additions/concentration/`, `oct2026_additions/realistic_structure/`, and the transplant results under `aug2026_original/swap/` |
+| Source traces, Appendix B.10 | `oct2026_additions/results/grb_provenance/`, `oct2026_additions/results/grade_stark_provenance/` |
+| Published pairs, Appendix B.11 | `aug2026_original/census/published_gains_*`, `oct2026_additions/results/published_pairs_*` |
+| Controlled KG swap, Table 3 | `aug2026_original/swap/`, `aug2026_original/metaqa/`, `oct2026_additions/external/metaqa/`, `aug2026_original/stark/`, `oct2026_additions/graphragbench_swap/` |
+| What carries the inflation, Table 4 | `oct2026_additions/zero_edge/`, `oct2026_additions/concentration/`, `oct2026_additions/realistic_structure/`, `oct2026_additions/hipporag2_swap/`, and the transplant results under `aug2026_original/swap/` |
+| Index precision, Appendix C.5 | `oct2026_additions/results/index_precision_*` |
+| Training exposure, Appendix C.6 | `oct2026_additions/results/e2e_qa/<reader>/memorization_strata.*`, `oct2026_additions/results/openie_extractor_exposure/` |
 | Answer accuracy with fixed readers | `oct2026_additions/results/e2e_qa/` |
 | HippoRAG 2, Appendix C.7 | `oct2026_additions/hipporag2_swap/` |
 | Judge validation, Appendix C.10 | `oct2026_additions/human_validation/judge_spotcheck_v1/`, `oct2026_additions/human_validation/judge_spotcheck_v4/`, `oct2026_additions/human_validation/llm_spotcheck_v3/` |
@@ -41,7 +45,7 @@ It prints the agreement of the two primary raters over the 29 axis-level judgmen
 
 ## What is not included
 
-Text that the authors could not confirm they may redistribute is left out, with identifiers, hashes, and rebuild steps in its place: the 2WikiMultiHop (Wikipedia) passage text, the GraphRAG-Bench medical corpus, and the passages of the reference benchmark. The workbooks returned by the human raters are not included because their document properties and save paths name the raters' institution and their `Rater_info` sheets hold the raters' initials; the ratings are released as exports without those fields. The filled sheets in `oct2026_additions/human_validation/llm_spotcheck_v3/returned/` are a different case: three language models filled them, not people. No API key is included.
+Text that the authors could not confirm they may redistribute is left out, with identifiers, hashes, and rebuild steps in its place: the 2WikiMultiHop (Wikipedia) passage text, the GraphRAG-Bench medical corpus, and the passages of the reference benchmark (its papers are listed with their arXiv URLs in `aug2026_original/benchmark/corpus_manifest.json`). The one place that quotes benchmark text is the per-unit rater task, 130 gold units among which are 40 supporting sentences of 2WikiMultiHop, 20 of HotpotQA, and the openings of 20 MuSiQue paragraphs (see the third-party section of `oct2026_additions/README.md`). The workbooks returned by the human raters are not included because their document properties and save paths name the raters' institution and their `Rater_info` sheets hold the raters' initials; the ratings are released as exports without those fields. The filled sheets in `oct2026_additions/human_validation/llm_spotcheck_v3/returned/` are a different case: three language models filled them, not people. No API key is included.
 
 ## Licenses
 

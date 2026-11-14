@@ -27,7 +27,9 @@ script with its raw five-model matrix. The census-versus-published-gains
 table of the paper's appendix is backed by published_gains_sources.md (the
 thirty published graph-versus-lexical pairs with their source tables) and
 published_gains_summary.py with its stats JSON (the per-benchmark medians and
-the descriptive rank correlations).
+the descriptive rank correlations). published_gains_sensitivity.py and its CSV
+recompute those correlations when the further pairs of the cited tables are
+added (the sensitivity stated in Appendix B.11).
 
 Two notes on reading the census records next to the paper. First, the
 `mechanism` field of per_axis_assignments.json has three labels.
@@ -71,7 +73,9 @@ slice is a 13-item feasibility artifact and is domain-imbalanced (10 textile,
 2 steel, 1 construction, 0 semiconductor), as recorded in its data card.
 Because per-paper redistribution rights were not verified, source passage
 text is excluded; exact end-to-end retrieval reruns require lawful
-reacquisition using the released identifiers and URLs.
+reacquisition using the released identifiers and URLs
+(`benchmark/corpus_manifest.json` lists the 205 papers of the corpus with the
+arXiv version that was downloaded and the hashes of its PDF and extracted text).
 
 `rater_code/` carries the shared judge machinery and model backends used by
 the benchmark verifiers; model identities and decoding settings are in

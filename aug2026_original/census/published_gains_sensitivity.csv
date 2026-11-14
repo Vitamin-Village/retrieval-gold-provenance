@@ -1,0 +1,49 @@
+tier,paper,table,benchmark,system,baseline,metric,system_value,baseline_value,gain_pp,class,dense_baseline
+T17,HippoRAG,T2,MuSiQue,HippoRAG (ColBERTv2),BM25,R@2,40.9,32.3,8.6,corpus,False
+T17,HippoRAG,T2,MuSiQue,HippoRAG (ColBERTv2),BM25,R@5,51.9,41.2,10.7,corpus,False
+T17,HippoRAG,T2,2Wiki,HippoRAG (ColBERTv2),BM25,R@2,70.7,51.8,18.9,corpus,False
+T17,HippoRAG,T2,2Wiki,HippoRAG (ColBERTv2),BM25,R@5,89.1,61.9,27.2,corpus,False
+T17,HippoRAG,T2,HotpotQA,HippoRAG (ColBERTv2),BM25,R@2,60.5,55.4,5.1,corpus,False
+T17,HippoRAG,T2,HotpotQA,HippoRAG (ColBERTv2),BM25,R@5,77.7,72.2,5.5,corpus,False
+T17,HippoRAG 2,T3,NQ,HippoRAG 2,BM25,R@5,78.0,56.1,21.9,corpus,False
+T17,HippoRAG 2,T3,MuSiQue,HippoRAG 2,BM25,R@5,74.7,43.5,31.2,corpus,False
+T17,HippoRAG 2,T3,2Wiki,HippoRAG 2,BM25,R@5,90.4,65.3,25.1,corpus,False
+T17,HippoRAG 2,T3,HotpotQA,HippoRAG 2,BM25,R@5,96.3,74.8,21.5,corpus,False
+T17,HippoRAG 2,T3,NQ,HippoRAG (reproduced),BM25,R@5,44.4,56.1,-11.7,corpus,False
+T17,HopRAG,T2,MuSiQue,HopRAG,BM25,EM,42.2,13.8,28.4,corpus,False
+b,HopRAG,T2,2Wiki,HopRAG,BM25,EM,61.1,40.3,20.8,corpus,False
+b,HopRAG,T2,HotpotQA,HopRAG,BM25,EM,62.0,41.2,20.8,corpus,False
+b,HopRAG,T2,MuSiQue,GraphRAG (local),BM25,EM,12.1,13.8,-1.7,corpus,False
+b,HopRAG,T2,2Wiki,GraphRAG (local),BM25,EM,22.5,40.3,-17.8,corpus,False
+b,HopRAG,T2,HotpotQA,GraphRAG (local),BM25,EM,31.7,41.2,-9.5,corpus,False
+T17,KG-CQR,T1,MultiHop-RAG,KG-CQR + BM25,BM25,mAP,0.25,0.241,0.9,corpus,False
+T17,KG-CQR,T1,MultiHop-RAG,KG-CQR + BM25,BM25,R@10,0.372,0.353,1.9,corpus,False
+T17,KG-CQR,T1,MultiHop-RAG,KG-CQR + BM25,BM25,R@25,0.532,0.486,4.6,corpus,False
+T17,GraphRetriever,T2,NQ,GraphRetriever + ParReader++,Text-match + ParReader++,EM test,33.5,28.7,4.8,wiki,False
+T17,GraphRetriever,T2,TriviaQA,GraphRetriever + ParReader++,Text-match + ParReader++,EM test,55.0,54.0,1.0,wiki,False
+T17,MoR,T1,STaRK-Amazon,MoR,BM25,Hit@1,52.19,44.94,7.3,KB,False
+T17,MoR,T1,STaRK-MAG,MoR,BM25,Hit@1,58.19,25.85,32.3,KB,False
+T17,MoR,T1,STaRK-Prime,MoR,BM25,Hit@1,36.41,12.75,23.7,KB,False
+a,MoR,T1,STaRK-Amazon,QA-GNN,BM25,Hit@1,26.56,44.94,-18.4,KB,False
+T17,MoR,T1,STaRK-MAG,QA-GNN,BM25,Hit@1,12.88,25.85,-13.0,KB,False
+a,MoR,T1,STaRK-Prime,QA-GNN,BM25,Hit@1,8.85,12.75,-3.9,KB,False
+b,MoR,T1,STaRK-MAG,ToG,BM25,Hit@1,13.16,25.85,-12.7,KB,False
+b,MoR,T1,STaRK-Prime,ToG,BM25,Hit@1,6.07,12.75,-6.7,KB,False
+b,GraphRAG-Bench,T4,GraphRAG-Bench,MS-GraphRAG (local),RAG w/ rerank,Novel Complex evidence recall,73.03,64.47,8.6,corpus,True
+T17,GraphRAG-Bench,T4,GraphRAG-Bench,HippoRAG,RAG w/ rerank,Novel Complex evidence recall,87.91,64.47,23.4,corpus,True
+b,GraphRAG-Bench,T4,GraphRAG-Bench,HippoRAG2,RAG w/ rerank,Novel Complex evidence recall,69.77,64.47,5.3,corpus,True
+T17,GraphRAG-Bench,T4,GraphRAG-Bench,LightRAG,RAG w/ rerank,Novel Complex evidence recall,85.52,64.47,21.1,corpus,True
+b,GraphRAG-Bench,T4,GraphRAG-Bench,Fast-GraphRAG,RAG w/ rerank,Novel Complex evidence recall,73.51,64.47,9.0,corpus,True
+b,GraphRAG-Bench,T4,GraphRAG-Bench,Lazy-GraphRAG,RAG w/ rerank,Novel Complex evidence recall,57.73,64.47,-6.7,corpus,True
+b,PullNet,T3,MetaQA,KV-Mem* KB (1-hop),KV-Mem* text,Hits@1,96.2,75.4,20.8,KB,False
+b,PullNet,T3,MetaQA,KV-Mem* KB (2-hop),KV-Mem* text,Hits@1,82.7,7.0,75.7,KB,False
+b,PullNet,T3,MetaQA,KV-Mem* KB (3-hop),KV-Mem* text,Hits@1,48.9,19.5,29.4,KB,False
+b,PullNet,T3,MetaQA,GRAFT-Net* KB (1-hop),GRAFT-Net* text,Hits@1,97.0,82.5,14.5,KB,False
+T17,PullNet,T3,MetaQA,GRAFT-Net* KB (2-hop),GRAFT-Net* text,Hits@1,94.8,36.2,58.6,KB,False
+T17,PullNet,T3,MetaQA,GRAFT-Net* KB (3-hop),GRAFT-Net* text,Hits@1,77.7,40.2,37.5,KB,False
+b,PullNet,T3,MetaQA,PullNet KB (1-hop),PullNet text,Hits@1,97.0,84.4,12.6,KB,False
+T17,PullNet,T3,MetaQA,PullNet KB (2-hop),PullNet text,Hits@1,99.9,81.0,18.9,KB,False
+T17,PullNet,T3,MetaQA,PullNet KB (3-hop),PullNet text,Hits@1,91.4,78.2,13.2,KB,False
+T17,PullNet,T4,WebQSP,KV-Mem* KB,KV-Mem* text,Hits@1,46.7,23.2,23.5,KB,False
+T17,PullNet,T4,WebQSP,GRAFT-Net* KB,GRAFT-Net* text,Hits@1,66.4,24.9,41.5,KB,False
+T17,PullNet,T4,WebQSP,PullNet KB,PullNet text,Hits@1,68.1,24.8,43.3,KB,False

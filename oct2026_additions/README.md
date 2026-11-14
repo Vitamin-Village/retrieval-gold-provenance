@@ -58,11 +58,11 @@ Every number in the paper that is not in `aug2026_original/` is traceable to a f
 | results/e2e_qa/judge_cache_<judge>.jsonl | judge verdicts keyed by (question, gold, prediction) | code/e2e_qa_judge.py |
 | results/e2e_qa/<reader>/memorization_2wiki.jsonl, memorization_strata.md/.json | training-exposure probe: closed-book recall of every 2WikiMultiHop evidence triple, and the answer-level swap stratified by closed-book answer and evidence recall (all four benchmarks) | code/e2e_memorization_probe.py |
 | results/e2e_qa/variant_pairs.md/.json | answer-level pairs for the realistic structures (live Wikidata, full MetaQA KB), Appendix C.3 | code/_e2e_variant_pairs.py |
-| results/e2e_qa_cls/<reader>/summary.md/.json, per_question.jsonl, judge_mistral_small_24b.md/.json | end-to-end QA with the BGE-M3 cells re-run on the [CLS]-pooled vectors (all other cells are cache hits and identical to results/e2e_qa/); readers llama3_1_8b, qwen2_5_14b; judge verdicts in results/e2e_qa_cls/judge_cache_mistral_small_24b.jsonl. results/e2e_qa_cls/mistral_small_24b/summary.json is the third reader's summary, the same file as results/e2e_qa/mistral_small_24b/summary.json (that reader has no BGE-M3 cell), so that code/e2e_dose_across_cells.py --res results/e2e_qa_cls finds all three readers | code/e2e_qa_swap.py --bge-variant cls, code/e2e_qa_judge.py --res results/e2e_qa_cls |
+| results/e2e_qa_cls/<reader>/summary.md/.json, per_question.jsonl, generations.jsonl (the raw reader outputs of this run), judge_mistral_small_24b.md/.json | end-to-end QA with the BGE-M3 cells re-run on the [CLS]-pooled vectors (all other cells are cache hits and identical to results/e2e_qa/); readers llama3_1_8b, qwen2_5_14b; judge verdicts in results/e2e_qa_cls/judge_cache_mistral_small_24b.jsonl. results/e2e_qa_cls/mistral_small_24b/summary.json is the third reader's summary, the same file as results/e2e_qa/mistral_small_24b/summary.json (that reader has no BGE-M3 cell), so that code/e2e_dose_across_cells.py --res results/e2e_qa_cls finds all three readers | code/e2e_qa_swap.py --bge-variant cls, code/e2e_qa_judge.py --res results/e2e_qa_cls |
 | results/e2e_dose_across_cells.md/.json, e2e_dose_across_cells_cls.md/.json | answer-level swap against retrieval-level swap across every cell (mean-pooled and [CLS]-pooled BGE-M3 cells); the `--suffix _cls` run also draws Figure 7 of the paper, written as `figures/fig_e2e_cells_cls.pdf` (not included) | code/e2e_dose_across_cells.py (--res results/e2e_qa_cls --suffix _cls) |
 | results/tables/e2e_numbers.json | numbers behind Table 3 and the prose | code/e2e_tex_tables.py |
 | results/tables/e2e_multiple_comparison.json, dose_curves.json, tab_e2e_swap_em.md, tab_e2e_swap_f1.md, tab_decirc.md | Holm/BH corrections, dose curves, swap and de-circularization tables in Markdown (the three Markdown tables lack the HippoRAG 2 rows that a rerun adds); code/e2e_qa_figures.py also draws Figures 5 and 6 | code/e2e_qa_figures.py, code/e2e_tex_tables.py |
-| (not shipped) external/2wiki/sub200/_dose_work/ | the dose-curve KGs (`f00/` to `f100/`) and the per-question dose retrieval outputs (`eval_f00.json` to `eval_f100.json`) behind the cells `dose_f00` to `dose_f100`; `aug2026_original/swap/code/_swap_dose_response.py` (seed 20260608) regenerates them deterministically from the aligned KG and must run before `code/e2e_qa_swap.py` scores the dose cells (like every retrieval run, it needs the 2WikiMultiHop passage text) | aug2026_original/swap/code/_swap_dose_response.py |
+| external/2wiki/sub200/_dose_work/ | the dose-curve KGs (`f00/` to `f100/`) and the per-question dose retrieval outputs (`eval_f00.json` to `eval_f100.json`) behind the cells `dose_f00` to `dose_f100`; `aug2026_original/swap/code/_swap_dose_response.py` (seed 20260608) wrote them from the aligned KG; to regenerate them it must run before `code/e2e_qa_swap.py` scores the dose cells (like every retrieval run, it needs the 2WikiMultiHop passage text). The `benchmark` field of the `eval_f*.json` files is given relative to the working tree | aug2026_original/swap/code/_swap_dose_response.py |
 | results/tables/*.tex | the LaTeX tables the manuscript inputs: tab_e2e_merged_v3.tex (Table 3) by code/_tab_e2e_v3.py; tab_memorization.tex and tab_memorization_main.tex by code/_tab_memorization_v3.py; tab_readerref.tex, tab_mediation.tex and tab_linkcounts.tex by code/_tab_appendix_v3.py. tab_third_reader.tex by code/larger_readers_table.py from results/e2e_qa/mistral_small_24b/ and claude_sonnet_5_5/summary.json. Typeset without a script: tab_quotes_full.tex (Tables 6 and 7), the verbatim construction quotes of the 29 census judgments from the cited benchmark papers | see Contents |
 | manuscript/eacl2027_camera_ready.tex, eacl2027_camera_ready.aux | the LaTeX source of the published paper and the label file of its compile; code/headline_margins.py reads them for its Table 3 and Table 36 cross-checks | - |
 | results/kg_passage_link_counts.json | passages linked by the aligned and the independent KG and their gold fraction, the first and held-out splits of every benchmark (Table 28; the compositional split is in results/twowiki_comp200_summary.*) | code/kg_passage_link_counts.py |
@@ -83,7 +83,7 @@ Every number in the paper that is not in `aug2026_original/` is traceable to a f
 | external/2wiki/comp200/ | the compositional 2WikiMultiHop split (Appendix C.1, Question type): qa.jsonl, comp200_manifest.json (selection record), manifest.json (passage records with the text removed, PASSAGE_TEXT_REMOVED.md), the aligned (kg_silver/) and independent (kg_openie/) KG files, and the frozen per-question vectors _kgswap_*.json of the hybrid, PPR, hybrid-PPR and HippoRAG 2 retrievers (BM25 in each file of the first three) | code/make_comp200.py, code/build_openie_kg.py, code/_kg_swap_2wiki_comp200.py, code/_kg_swap_hipporag2_comp200.py, code/_kg_swap_hipporag2_comp200_score.py |
 | results/twowiki_comp200/PROTOCOL.md | the protocol of the compositional split, fixed before the split was built (released copy, see Code layout) | - |
 | results/twowiki_comp200/e2e_qa/<reader>/summary.md/.json, per_question.jsonl, generations.jsonl | end-to-end QA on the compositional split, readers llama3_1_8b and qwen2_5_14b | code/_e2e_twowiki_comp200.py (runs code/e2e_qa_swap.py) |
-| results/twowiki_comp200/hipporag2/summary.md/.json | HippoRAG 2 on the compositional split | code/_kg_swap_hipporag2_comp200_score.py |
+| results/twowiki_comp200/hipporag2/summary.md/.json, runs/<run>/retrieval.jsonl | HippoRAG 2 on the compositional split; the per-question retrieval files have the fields of hipporag2_swap/runs/<run>/retrieval.jsonl | code/_kg_swap_hipporag2_comp200_score.py |
 | results/twowiki_comp200_summary.md/.json | the compositional split: retrieval swap, graph-over-BM25 margins, answer-level swap, link counts and corpus checks, with the first and held-out splits for comparison | code/twowiki_comp200_summary.py |
 | results/index_precision_summary.md/.json | index precision at question-matched KG nodes against controlled-swap magnitude | code/index_precision.py |
 | results/headline_margins_summary.md/.json, results/figures/fig_headline_margins.pdf | graph-over-BM25 hit@5 margins under the aligned and the independent KG and, on 2WikiMultiHop and MetaQA, the realistic structures, verdict flips, retriever-ranking agreement, answer-level repeat; the paper's Figure 2 | code/headline_margins.py |
@@ -118,7 +118,7 @@ Every number in the paper that is not in `aug2026_original/` is traceable to a f
 - GRADE and STaRK code: the traced files in `results/grade_stark_provenance/sources/` ship with their repositories' licenses (GRADE: Apache-2.0 with an MIT text; STaRK: MIT); see `THIRD_PARTY_NOTICE.md` there.
 - Wikidata: the live-Wikidata KG of 2WikiMultiHop (`realistic_structure/2wiki/<split>/kg_wikidata/`, and the vectors and HippoRAG 2 runs built on it) is derived from Wikidata, whose structured data are available under CC0 1.0.
 - MetaQA: the full-KB KG (`realistic_structure/metaqa/<split>/kg_fullkb/` and its vectors) is derived from the MetaQA knowledge base (kb.txt, built from WikiMovies); see `aug2026_original/DATA_LICENSES.md`, `aug2026_original/licenses/metaqa_acquisition.md` and `aug2026_original/licenses/WIKIMOVIES_CC_BY_3.0.txt`.
-- The other 2WikiMultiHop-, MetaQA- and STaRK-derived files (KGs, splits, per-question vectors) follow `aug2026_original/DATA_LICENSES.md`; as in `aug2026_original/`, no 2WikiMultiHop/Wikipedia passage text is included (the 2WikiMultiHop example passages quoted in `results/openie_extractor_exposure/summary.*` are replaced by a placeholder; the OpenIE KG files hold extracted phrases, which are short spans of the passages).
+- The other 2WikiMultiHop-, MetaQA- and STaRK-derived files (KGs, splits, per-question vectors) follow `aug2026_original/DATA_LICENSES.md`; as in `aug2026_original/`, no 2WikiMultiHop/Wikipedia passage text is included (the 2WikiMultiHop example passages quoted in `results/openie_extractor_exposure/summary.*` are replaced by a placeholder; the OpenIE KG files hold extracted phrases, which are short spans of the passages). The one exception is the per-unit rater task: `human_validation/items_partB.json`, the PartB sheets of `human_validation/v3/sheets/`, `human_validation/llm_census_logged/prompts/partB_conditionA.jsonl` and the `user` fields of `human_validation/llm_census_logged/raw.jsonl` quote 130 gold units from released benchmark files, among them 40 supporting sentences of 2WikiMultiHop, 20 of HotpotQA and the openings of 20 MuSiQue paragraphs, which are Wikipedia text (HotpotQA is distributed under CC BY-SA 4.0 and MuSiQue under CC BY 4.0).
 
 ## Working-tree layout
 
@@ -182,7 +182,7 @@ The scripts resolve every input and output from their own location in the author
 - `code/rater_validation.py` <- `analysis/rater_validation.py`
 - `code/twowiki_comp200_summary.py` <- `analysis/twowiki_comp200_summary.py`
 
-Shipped copies differ from the working-tree files only as follows. Absolute paths are made relative to `paper/`. `code/index_precision.py` defaults its cache to `analysis/_index_precision_cache`, cites its declaration as `analysis/index_precision_PREREG.md`, and names the secondary predictor "C_KG with GraphRAG-Bench at bin 2 (0.5)" `C_KG_grb_bin2`, as do `results/index_precision_summary.*` (values unchanged). `code/_grade_stark_provenance_trace.py` defaults its input folder to `external/grade_stark_trace/`. `code/llm_census_logged.py` reads `human_validation/items_partB.json`, and its `--score` reports agreement with the census only; the build re-runs it and checks that every number of `result.json` equals the result of the full scorer in the working tree. `human_validation/v3/build_package_v3.py` reads the released item files, and its docstring describes only the released package and the materials of the logged LM raters; it writes the reworded `_comment` of `answer_key_v3.json`. The `_comment` fields of `human_validation/reference_bins.json`, `items_29.json`, `v3/answer_key_v3.json` and `llm_spotcheck_v3/package/sealed_key_v3.json` are rewritten (contents otherwise unchanged). The sealed build records `human_validation/v4/SEALED_build.json` and `human_validation/judge_spotcheck_v4/SEALED_judge_build.json` list the SHA-256 of their inputs; every input ships with that hash except `human_validation/items_29.json`, where its `_comment` is rewritten (items unchanged), recorded as b4ab88534d1805b1d67f4b389d9fd9a64ec408e4cee59151713ce2be13a9371b; `human_validation/llm_spotcheck_v3/package/sealed_key_v3.json`, where its `_comment` is rewritten (keys unchanged), recorded as fa35e5f57732c627f7b5c2ce20c4096fdbda46ab78387f5e59ee287f7239bf55; `human_validation/llm_spotcheck_v3/result_v3.json`, where one key is renamed (numbers unchanged), recorded as 92508ebb4fb1c1e13ed8713eb4ce268982407a5eb683bba3e422c879e0aa35ad; `human_validation/reference_bins.json`, where its `_comment` is rewritten (bins unchanged), recorded as 22a0efbe7a4d65fa7e6424ccf8fa3303698dfc2098201c07ad62470b940afb61; `human_validation/v3/answer_key_v3.json`, where its `_comment` is rewritten (keys unchanged), recorded as 1b56171733f84f7f664a84cb8406aeae454643e317d8d94a8c610e722c09665e. `human_validation/llm_census_logged/PROTOCOL.md`, `human_validation/v4/PROTOCOL_v4.md`, `human_validation/judge_spotcheck_v4/PROTOCOL_judge_v4.md` and `results/twowiki_comp200/PROTOCOL.md` are released copies: the first line gives the SHA-256 of the protocol as written, each passage outside the scope of this paper is replaced by `[omitted]`, and the rest is verbatim. In `human_validation/llm_spotcheck_v3/`, the scorer and its outputs call the earlier human rater `v1 human rater` (numbers unchanged), `result_v3.md` has a title line naming the raters as LMs, and the docstrings of `package/score_spotcheck_v3.py` and `package/build_spotcheck_v3.py` describe the released package (the latter names its input file `per_question_20260924.jsonl` and writes the reworded `_comment` of `sealed_key_v3.json`), and `package/AUDIT_v1.md` is its item-by-item verification table with the scope path of the release. `pool_stats.json` is shipped as hashed in the sealed build record. Docstrings and comments of `code/_grb_provenance_trace.py` no longer name files that are not released. In `results/openie_extractor_exposure/summary.*` the quoted 2WikiMultiHop and GraphRAG-Bench example passages read `[passage text not included in the release]` (MetaQA quotes kept; `code/_openie_extractor_exposure.py` writes them in full from the passage files). In `human_validation/judge_spotcheck_v4/`, the docstring of `score_judge_v4.py` and one sentence it writes into `result_judge_v4.md` no longer name the plan of an earlier spot-check design, which is not released, and the scorer and its report call the v1 rater the first human rater (numbers unchanged). `results/census_kappa_ci_output.txt` holds the block of the console output behind Table 9. The blank workbooks of `human_validation/v3/sheets/` and `human_validation/llm_spotcheck_v3/package/sheets/` carry the English Office defaults in their document-property, style and theme parts (cell values unchanged). `external/2wiki/comp200/manifest.json` has its passage text removed (PASSAGE_TEXT_REMOVED.md there), and `hipporag2_swap/2wiki/<split>/_kgswap_hipporag2_kg_openie_edgeprov.json` is scored at release from the run outputs with the scorer's `vectors` function (checked against `hipporag2_swap/summary.json`). The sub-READMEs give paths and commands as they apply in this release. `code/headline_margins.py` and `results/headline_margins_summary.json` name the manuscript files as released here (`manuscript/eacl2027_camera_ready.tex` and `.aux`), and the script accepts the table path that source uses.
+Shipped copies differ from the working-tree files only as follows. Absolute paths are made relative to `paper/`. `code/index_precision.py` defaults its cache to `analysis/_index_precision_cache`, cites its declaration as `analysis/index_precision_PREREG.md`, and names the secondary predictor "C_KG with GraphRAG-Bench at bin 2 (0.5)" `C_KG_grb_bin2`, as do `results/index_precision_summary.*` (values unchanged). `code/_grade_stark_provenance_trace.py` defaults its input folder to `external/grade_stark_trace/`. `code/llm_census_logged.py` reads `human_validation/items_partB.json`, and its `--score` reports agreement with the census only; the build re-runs it and checks that every number of `result.json` equals the result of the full scorer in the working tree. `human_validation/v3/build_package_v3.py` reads the released item files, and its docstring describes only the released package and the materials of the logged LM raters; it writes the reworded `_comment` of `answer_key_v3.json`. The `_comment` fields of `human_validation/reference_bins.json`, `items_29.json`, `v3/answer_key_v3.json` and `llm_spotcheck_v3/package/sealed_key_v3.json` are rewritten (contents otherwise unchanged). The sealed build records `human_validation/v4/SEALED_build.json` and `human_validation/judge_spotcheck_v4/SEALED_judge_build.json` list the SHA-256 of their inputs; every input ships with that hash except `human_validation/items_29.json`, where its `_comment` is rewritten (items unchanged), recorded as b4ab88534d1805b1d67f4b389d9fd9a64ec408e4cee59151713ce2be13a9371b; `human_validation/llm_spotcheck_v3/package/sealed_key_v3.json`, where its `_comment` is rewritten (keys unchanged), recorded as fa35e5f57732c627f7b5c2ce20c4096fdbda46ab78387f5e59ee287f7239bf55; `human_validation/llm_spotcheck_v3/result_v3.json`, where one key is renamed (numbers unchanged), recorded as 92508ebb4fb1c1e13ed8713eb4ce268982407a5eb683bba3e422c879e0aa35ad; `human_validation/reference_bins.json`, where its `_comment` is rewritten (bins unchanged), recorded as 22a0efbe7a4d65fa7e6424ccf8fa3303698dfc2098201c07ad62470b940afb61; `human_validation/v3/answer_key_v3.json`, where its `_comment` is rewritten (keys unchanged), recorded as 1b56171733f84f7f664a84cb8406aeae454643e317d8d94a8c610e722c09665e. `human_validation/llm_census_logged/PROTOCOL.md`, `human_validation/v4/PROTOCOL_v4.md`, `human_validation/judge_spotcheck_v4/PROTOCOL_judge_v4.md` and `results/twowiki_comp200/PROTOCOL.md` are released copies: the first line gives the SHA-256 of the protocol as written, each passage outside the scope of this paper is replaced by `[omitted]`, and the rest is verbatim. In `human_validation/llm_spotcheck_v3/`, the scorer and its outputs call the earlier human rater `v1 human rater` (numbers unchanged), `result_v3.md` has a title line naming the raters as LMs, and the docstrings of `package/score_spotcheck_v3.py` and `package/build_spotcheck_v3.py` describe the released package (the latter names its input file `per_question_20260924.jsonl` and writes the reworded `_comment` of `sealed_key_v3.json`), and `package/AUDIT_v1.md` is its item-by-item verification table with the scope path of the release. `pool_stats.json` is shipped as hashed in the sealed build record. Docstrings and comments of `code/_grb_provenance_trace.py` no longer name files that are not released. In `results/openie_extractor_exposure/summary.*` the quoted 2WikiMultiHop and GraphRAG-Bench example passages read `[passage text not included in the release]` (MetaQA quotes kept; `code/_openie_extractor_exposure.py` writes them in full from the passage files). In `human_validation/judge_spotcheck_v4/`, the docstring of `score_judge_v4.py` and one sentence it writes into `result_judge_v4.md` no longer name the plan of an earlier spot-check design, which is not released, and the scorer and its report call the v1 rater the first human rater (numbers unchanged). `results/census_kappa_ci_output.txt` holds the block of the console output behind Table 9. The blank workbooks of `human_validation/v3/sheets/` and `human_validation/llm_spotcheck_v3/package/sheets/` carry the English Office defaults in their document-property, style and theme parts (cell values unchanged). `external/2wiki/comp200/manifest.json` has its passage text removed (PASSAGE_TEXT_REMOVED.md there), and `hipporag2_swap/2wiki/<split>/_kgswap_hipporag2_kg_openie_edgeprov.json` is scored at release from the run outputs with the scorer's `vectors` function (checked against `hipporag2_swap/summary.json`). The sub-READMEs give paths and commands as they apply in this release. `code/headline_margins.py` and `results/headline_margins_summary.json` name the manuscript files as released here (`manuscript/eacl2027_camera_ready.tex` and `.aux`), and the script accepts the table path that source uses. `code/_tab_e2e_v3.py`, `code/_tab_appendix_v3.py` and `code/_tab_memorization_v3.py` write negative values with a minus sign and round an exact half at the third decimal away from zero, as the tables of the paper print them (`results/e2e_qa/qwen2_5_14b/memorization_strata.md` prints the one such value, 0.0525, as +0.052). The SHA-256 values in `human_validation/llm_census_logged/prompts/manifest.json` and the `system_sha256` fields are those of the prompt files with LF line ends; the files here have CRLF line ends.
 
 ## Reproduction
 
@@ -261,9 +261,9 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `code/_kg_swap_variant.py` 22f42cc98cd14278
 - `code/_kg_zero_edge_2wiki.py` ca6aae66678a7ea3
 - `code/_openie_extractor_exposure.py` b805ec014346a8f7
-- `code/_tab_appendix_v3.py` 7d441ca4527c32fc
-- `code/_tab_e2e_v3.py` c978cdb8a1af9dbd
-- `code/_tab_memorization_v3.py` e9c5c7fac4172ffd
+- `code/_tab_appendix_v3.py` c1c40061366d423a
+- `code/_tab_e2e_v3.py` 7c025dfca759f121
+- `code/_tab_memorization_v3.py` aa63f642a032a089
 - `code/build_graphragbench_swap_data.py` 8375fd16c7be9950
 - `code/build_openie_kg.py` bea5ac0ff059a6d9
 - `code/build_wikidata_kg_2wiki.py` aa3e682e67e0e5a5
@@ -274,7 +274,7 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `code/e2e_qa_swap.py` d239677429e15ca1
 - `code/e2e_tex_tables.py` 80d357097d1f4118
 - `code/generate_fig3_census.py` ee0ddeb711060846
-- `code/headline_margins.py` 6f10d417fa4b1535
+- `code/headline_margins.py` f9cd0ed5dd418d2f
 - `code/index_precision.py` 350215658e9503f3
 - `code/kg_passage_link_counts.py` 27e397d592a5873e
 - `code/larger_readers_table.py` 542b40db96778767
@@ -380,6 +380,21 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `external/2wiki/comp200/manifest.json` 49e37e2c71a18762
 - `external/2wiki/comp200/PASSAGE_TEXT_REMOVED.md` c35d1095f3a07350
 - `external/2wiki/comp200/qa.jsonl` 185cd21496bce73b
+- `external/2wiki/sub200/_dose_work/eval_f00.json` 23c363b314a42e51
+- `external/2wiki/sub200/_dose_work/eval_f100.json` b3d73c250758e4e3
+- `external/2wiki/sub200/_dose_work/eval_f25.json` af214461ffb8d671
+- `external/2wiki/sub200/_dose_work/eval_f50.json` c86330f5ec5a15a2
+- `external/2wiki/sub200/_dose_work/eval_f75.json` 2cf1a1434f8ce710
+- `external/2wiki/sub200/_dose_work/f00/proposed_kg_edges.json` 4f53cda18c2baa0c
+- `external/2wiki/sub200/_dose_work/f00/proposed_kg_nodes.json` 9568d0d99e8ce90b
+- `external/2wiki/sub200/_dose_work/f100/proposed_kg_edges.json` 4481dc4739dc889b
+- `external/2wiki/sub200/_dose_work/f100/proposed_kg_nodes.json` 9568d0d99e8ce90b
+- `external/2wiki/sub200/_dose_work/f25/proposed_kg_edges.json` 4d687809bde310c7
+- `external/2wiki/sub200/_dose_work/f25/proposed_kg_nodes.json` 9568d0d99e8ce90b
+- `external/2wiki/sub200/_dose_work/f50/proposed_kg_edges.json` 14b1deeff520e119
+- `external/2wiki/sub200/_dose_work/f50/proposed_kg_nodes.json` 9568d0d99e8ce90b
+- `external/2wiki/sub200/_dose_work/f75/proposed_kg_edges.json` 81bcafc64fb7be56
+- `external/2wiki/sub200/_dose_work/f75/proposed_kg_nodes.json` 9568d0d99e8ce90b
 - `external/metaqa/holdout200/_kgswap_kg_openie.json` 59a947564ec619bf
 - `external/metaqa/holdout200/_kgswap_kg_silver.json` 9a37e0ddce49e741
 - `external/metaqa/holdout200/_kgswap_ppr_kg_openie.json` 343bce272ffacc88
@@ -583,8 +598,8 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `human_validation/v4/to_send/rater_2_v4.zip` 8c296c20cdbc8b7f
 - `human_validation/v4/to_send/rater_3_v4.zip` 06b47d2e187fea11
 - `human_validation/v4/WORKED_EXAMPLES_v4.md` 68da3e15c58c4cd8
-- `manuscript/eacl2027_camera_ready.aux` 8c97b428c3832d1b
-- `manuscript/eacl2027_camera_ready.tex` a13e8230d2c53da9
+- `manuscript/eacl2027_camera_ready.aux` 1eaaffe65fe1ae65
+- `manuscript/eacl2027_camera_ready.tex` 55a330a5f70a9384
 - `realistic_structure/2wiki/holdout200/_kgswap_hipporag2_kg_wikidata.json` 404c23d72f107e2b
 - `realistic_structure/2wiki/holdout200/_kgswap_ppr_kg_wikidata.json` 2cec215470bd9b9e
 - `realistic_structure/2wiki/holdout200/_kgswap_proposed_v3_kg_wikidata.json` 7e0469cfb887ec32
@@ -661,12 +676,14 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `results/e2e_qa/variant_pairs.json` b3a0cf7ed8c36731
 - `results/e2e_qa/variant_pairs.md` 6d1918a8e766a191
 - `results/e2e_qa_cls/judge_cache_mistral_small_24b.jsonl` 045a3f2945e2c0be
+- `results/e2e_qa_cls/llama3_1_8b/generations.jsonl` e69d261fae6e7df0
 - `results/e2e_qa_cls/llama3_1_8b/judge_mistral_small_24b.json` 9cfd10df0a26e0ee
 - `results/e2e_qa_cls/llama3_1_8b/judge_mistral_small_24b.md` 96113e88f89566e4
 - `results/e2e_qa_cls/llama3_1_8b/per_question.jsonl` bf66af4b21d66eb5
 - `results/e2e_qa_cls/llama3_1_8b/summary.json` 0727a08543d3239c
 - `results/e2e_qa_cls/llama3_1_8b/summary.md` 7ef49619497649b4
 - `results/e2e_qa_cls/mistral_small_24b/summary.json` 8f2506f82839816a
+- `results/e2e_qa_cls/qwen2_5_14b/generations.jsonl` 27a49c75dca57687
 - `results/e2e_qa_cls/qwen2_5_14b/judge_mistral_small_24b.json` d3320c4e67663181
 - `results/e2e_qa_cls/qwen2_5_14b/judge_mistral_small_24b.md` 800c7b6f69ba6fa6
 - `results/e2e_qa_cls/qwen2_5_14b/per_question.jsonl` eb8f326e8e2079ee
@@ -733,14 +750,14 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `results/tables/e2e_multiple_comparison.json` 322459cdb24802b7
 - `results/tables/e2e_numbers.json` 42d9b6b9cf669b09
 - `results/tables/tab_decirc.md` 81001bf7adfe9ec4
-- `results/tables/tab_e2e_merged_v3.tex` ed7c9fc8d54cef14
+- `results/tables/tab_e2e_merged_v3.tex` 490231f19516313e
 - `results/tables/tab_e2e_swap_em.md` 9a6314f10731e620
 - `results/tables/tab_e2e_swap_f1.md` 12c621fb1d700af6
 - `results/tables/tab_linkcounts.tex` 7e6fb9978d25c6f5
-- `results/tables/tab_mediation.tex` 0b74fd294a69c2c8
-- `results/tables/tab_memorization.tex` abec4cca1de54634
+- `results/tables/tab_mediation.tex` 1fac61124684f1ff
+- `results/tables/tab_memorization.tex` a0a5cb017ba8853b
 - `results/tables/tab_memorization_main.tex` 91cdeb04d99421e2
-- `results/tables/tab_quotes_full.tex` 9b2c68b925725882
+- `results/tables/tab_quotes_full.tex` 3348a4f2cef3e619
 - `results/tables/tab_readerref.tex` aa25922e1e8cb227
 - `results/tables/tab_third_reader.tex` f5961f23958b2d90
 - `results/twowiki_comp200/e2e_qa/llama3_1_8b/generations.jsonl` 727236124cde1938
@@ -751,6 +768,8 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `results/twowiki_comp200/e2e_qa/qwen2_5_14b/per_question.jsonl` 0e5d8594b044a5b5
 - `results/twowiki_comp200/e2e_qa/qwen2_5_14b/summary.json` d56e587952a5a1d0
 - `results/twowiki_comp200/e2e_qa/qwen2_5_14b/summary.md` 60717838b70c68d1
+- `results/twowiki_comp200/hipporag2/runs/comp200__kg_openie/retrieval.jsonl` 4691aa5b836be112
+- `results/twowiki_comp200/hipporag2/runs/comp200__kg_silver/retrieval.jsonl` aa8457c4008cea33
 - `results/twowiki_comp200/hipporag2/summary.json` c1047bafa33d5a47
 - `results/twowiki_comp200/hipporag2/summary.md` e9ed0b79fd5d3861
 - `results/twowiki_comp200/PROTOCOL.md` aaa62ea30225be80

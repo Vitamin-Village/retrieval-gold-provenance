@@ -3,6 +3,7 @@
 swap cells that survive the Holm correction listed in tables/e2e_multiple_comparison.json.
 Writes tables/tab_e2e_merged_v3.tex. Run after eval/e2e_tex_tables.py."""
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,7 +29,7 @@ for line in open(TAB / "tab_e2e_merged.tex", encoding="utf-8").read().split("\n"
             cells[idx] = val + end
         cells[1] = LABEL[cells[1]]
         line = " & ".join(cells)
-    out.append(line)
+    out.append(re.sub(r"(?<= )-(?=0\.\d{3})", "$-$", line))  # true minus sign on negative swaps
 n_dag = sum(l.count("dagger") for l in out)
 (TAB / "tab_e2e_merged_v3.tex").write_text("\n".join(out), encoding="utf-8")
 print("wrote tab_e2e_merged_v3.tex with", n_dag, "Holm daggers (expected", len(holm), ")")

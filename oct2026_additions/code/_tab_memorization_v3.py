@@ -2,6 +2,7 @@
 from results/e2e_qa/<reader>/memorization_strata.json (eval/e2e_memorization_probe.py).
 Pooled over the two splits. Run from paper/: python eval/_tab_memorization_v3.py"""
 import json
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +14,12 @@ STRATA_2W = [("all", "all questions"), ("closed-book wrong", "closed-book wrong"
              ("neither (cb wrong, evidence not recalled)", "c.b. wrong, not all triples recalled"),
              ("strict (cb wrong, no evidence triple recalled)", "c.b. wrong, no triple recalled")]
 STRATA_GRB = [("all", "all questions"), ("closed-book wrong", "closed-book wrong"), ("closed-book right", "closed-book right")]
+
+
+def half_up(x):
+    """Signed value to three decimals; an exact half rounds away from zero (0.0525 -> +0.053)."""
+    d = Decimal(repr(round(x, 9))).quantize(Decimal("0.001"), rounding=ROUND_HALF_UP)
+    return f"{d:+.3f}"
 
 
 def star(p):
@@ -33,7 +40,7 @@ def cell(tag, b, sy, st):
     s = D.get((tag, b, sy, st))
     if not s or not s.get("n"):
         return "-", "-"
-    return str(s["n"]), f"${s['diff']:+.3f}{star(s['p'])}$"
+    return str(s["n"]), f"${half_up(s['diff'])}{star(s['p'])}$"
 
 
 L = [r"\begin{tabular}{lllrrrr}", r"\toprule",
