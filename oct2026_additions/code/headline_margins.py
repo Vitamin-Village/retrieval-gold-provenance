@@ -64,7 +64,7 @@ READERS = {"qwen2_5_14b": "Qwen2.5-14B", "llama3_1_8b": "Llama-3.1-8B"}
 JUDGE = "mistral-small:24b"
 TABLE_ROWS = {"Hybrid": "hybrid", "PPR": "ppr", "Hybrid-PPR": "hybrid_ppr"}
 
-# Figure: Okabe-Ito vermillion / bluish green, the circular / independent colors of Figure 3.
+# Figure: Okabe-Ito vermillion / bluish green, the circular / independent colors of Figure 4.
 # Validated with the dataviz validator (light surface): CVD dE 11.0, normal-vision dE 25.8, contrast >= 3:1.
 C_ALIGNED, C_INDEP = "#D55E00", "#009E73"
 C_REAL = "#0072B2"  # Okabe-Ito blue: structures not induced from the evaluated questions

@@ -81,7 +81,7 @@ Pooled, class 1 gains exceed class 2 gains (23.7 vs 18.9). That gap comes from c
 
 Class 1 is also confounded in other ways. All eleven class-1 pairs use answer or entity Hits@1, and seven are KBQA "KB vs text-corpus" contrasts from 2018–2019 (PullNet Tables 2 and 5), not passage retrieval against a lexical retriever over the same passages.
 
-**What this means for B.9's closing sentence.** None of the 30 pairs uses a question-induced structure, which is the swap's maximal aligned arm. The high-C_KG gains in the published record come from two sources:
+**What this means for B.11's closing sentence.** None of the 30 pairs uses a question-induced structure, which is the swap's maximal aligned arm. The high-C_KG gains in the published record come from two sources:
 
 - **Class 1 (full gold-source KBs).** These are KBQA or STaRK settings, and they correspond to the paper's "realistic full KB" condition. There, on 2WikiMultiHop (live Wikidata KG) and MetaQA (full KB), the paper's controls inflate only pure PPR, and only modestly; STaRK-Prime's KB over the whole corpus also inflates the hybrid-PPR retriever in one held-out cell.
 - **Class 2 (self-built OpenIE graphs on 2WikiMultiHop and GraphRAG-Bench).** Here the manuscript's own partial-alignment evidence applies (line ~754: the OpenIE KG contains 73.0% and 80.9% of the silver inventory's node surface forms). HippoRAG attributes its 2Wiki gain to "2WikiMultiHopQA's entity-centric design, which is particularly well-suited for HippoRAG" (arXiv 2405.14831, p.6, §4).

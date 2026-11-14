@@ -45,7 +45,7 @@ Text that the authors could not confirm they may redistribute is left out, with 
 
 ## Licenses
 
-Code written by the authors is under the MIT License (`LICENSE`). Annotations, ratings, census records, benchmark records, and result files written by the authors are under CC BY 4.0 (`LICENSE-DATA.md`). Third-party data keep their own terms, listed in `aug2026_original/DATA_LICENSES.md` and in the "Licenses and third-party data" section of `oct2026_additions/README.md`; files derived from those sources remain subject to them.
+Code written by the authors is under the MIT License (`LICENSE`); the license does not cover data files or the third-party code files copied under `oct2026_additions/results/grade_stark_provenance/sources/`, which keep their own licenses (`THIRD_PARTY_NOTICE.md` there). Annotations, ratings, census records, benchmark records, and result files written by the authors are under CC BY 4.0 (`LICENSE-DATA.md`). Third-party data keep their own terms, listed in `aug2026_original/DATA_LICENSES.md` and in the "Licenses and third-party data" section of `oct2026_additions/README.md`; files derived from those sources remain subject to them.
 
 ## Citation
 
