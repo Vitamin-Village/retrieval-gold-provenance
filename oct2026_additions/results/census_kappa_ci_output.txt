@@ -1,0 +1,12 @@
+n axis-level judgments        : 29
+exact agreement              : 25 of 29 (86.2%)
+off-by-one                   : 4
+|diff|>=2                    : 0
+quadratic-weighted Cohen k   : 0.9767  (95% CI [0.948, 0.995])
+linear-weighted Cohen kappa  : 0.9265
+ordinal Krippendorff alpha   : 0.9382
+disagreements (4):
+   2Wiki/answer               A=bin4 B=bin3
+   qa_v4/answer               A=bin4 B=bin3
+   NQ/answer                  A=bin0 B=bin1
+   TriviaQA/evidence          A=bin4 B=bin3

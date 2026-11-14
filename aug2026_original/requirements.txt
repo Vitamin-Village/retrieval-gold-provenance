@@ -1,0 +1,6 @@
+# Exact versions used for the 2026-07-15 offline checks.
+# This is a verification environment, not a recovered historical lockfile.
+numpy==1.26.4
+scipy==1.13.1
+PyYAML==6.0
+pytest==7.1.1

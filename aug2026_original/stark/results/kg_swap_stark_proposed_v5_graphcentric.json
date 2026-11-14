@@ -1,0 +1,62 @@
+[
+  {
+    "name": "STaRK-sub200",
+    "system": "proposed_v5_graphcentric",
+    "n": 200,
+    "silver": {
+      "graph": 0.125,
+      "bm25": 0.135,
+      "delta": -0.01
+    },
+    "openie": {
+      "graph": 0.1,
+      "bm25": 0.135,
+      "delta": -0.035
+    },
+    "swap_delta": 0.025,
+    "mean_paired_diff": 0.025,
+    "ci95": [
+      -0.01,
+      0.065
+    ],
+    "discordant_pos": 10,
+    "discordant_neg": 5,
+    "sign_test_p": 0.3017578125,
+    "matched_reachable": {
+      "n": 30,
+      "silver_graph": 0.8333,
+      "openie_graph": 0.6667
+    },
+    "bm25_identical_across_conditions": true
+  },
+  {
+    "name": "STaRK-holdout200",
+    "system": "proposed_v5_graphcentric",
+    "n": 200,
+    "silver": {
+      "graph": 0.27,
+      "bm25": 0.215,
+      "delta": 0.055
+    },
+    "openie": {
+      "graph": 0.205,
+      "bm25": 0.215,
+      "delta": -0.01
+    },
+    "swap_delta": 0.065,
+    "mean_paired_diff": 0.065,
+    "ci95": [
+      0.025,
+      0.11
+    ],
+    "discordant_pos": 16,
+    "discordant_neg": 3,
+    "sign_test_p": 0.004425048828125,
+    "matched_reachable": {
+      "n": 57,
+      "silver_graph": 0.9474,
+      "openie_graph": 0.7193
+    },
+    "bm25_identical_across_conditions": true
+  }
+]

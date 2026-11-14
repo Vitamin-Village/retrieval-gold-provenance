@@ -1,0 +1,26 @@
+{
+ "claude-opus-5": {
+  "n": 100,
+  "agreement_with_v1_human": 0.81,
+  "unsure_or_unparsed": 0,
+  "models_returned": [
+   "claude-opus-5"
+  ]
+ },
+ "claude-sonnet-5": {
+  "n": 100,
+  "agreement_with_v1_human": 0.82,
+  "unsure_or_unparsed": 0,
+  "models_returned": [
+   "claude-sonnet-5"
+  ]
+ },
+ "claude-haiku-4-5": {
+  "n": 100,
+  "agreement_with_v1_human": 0.69,
+  "unsure_or_unparsed": 0,
+  "models_returned": [
+   "claude-haiku-4-5-20251001"
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "task": "answer-paper verification (S3)",
+  "cohens_kappa": 0.7885,
+  "status": "measured",
+  "gate": 0.6,
+  "gate_passed": true,
+  "n_spotcheck": 40,
+  "raw_agreement": 0.725,
+  "verifier_accepted_n": 26,
+  "rater_agrees_on_accepted": 23,
+  "raters": {
+    "rater_1_verifier": "gemini-2.5-flash (Google)",
+    "rater_2_blind": "claude-haiku-4-5 (Anthropic), rubric=verification_rater_rubric.md"
+  },
+  "generator": "mistral-small:24b (local Ollama)",
+  "iaa_type": "cross-model (NOT human)",
+  "method": "Gemini verifier votes vs blind Claude rater votes over a 40-item spotcheck of the pilot_kappa1 run; reconstructed options byte-identical to verifier (40/40); rater blind to verifier vote and true_index.",
+  "note": "Substantial cross-model agreement (>0.6 gate, >0.7 project test-retest threshold). Validates the S3 verification step is reliable. Generated 2026-05-29."
+}

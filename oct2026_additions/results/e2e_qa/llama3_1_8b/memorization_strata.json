@@ -1,0 +1,2166 @@
+{
+ "model": "llama3.1:8b",
+ "triple_recall": 0.16125,
+ "strata": [
+  {
+   "n": 200,
+   "diff": 0.05,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "pos": 18,
+   "neg": 8,
+   "p": 0.07551869750022888,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.05699481865284974,
+   "ci": [
+    0.010362694300518135,
+    0.10880829015544041
+   ],
+   "pos": 18,
+   "neg": 7,
+   "p": 0.043285250663757324,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.42857142857142855,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 192,
+   "diff": 0.052083333333333336,
+   "ci": [
+    0.0,
+    0.10416666666666667
+   ],
+   "pos": 18,
+   "neg": 8,
+   "p": 0.07551869750022888,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 8,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 185,
+   "diff": 0.05945945945945946,
+   "ci": [
+    0.005405405405405406,
+    0.11351351351351352
+   ],
+   "pos": 18,
+   "neg": 7,
+   "p": 0.043285250663757324,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 141,
+   "diff": 0.07092198581560284,
+   "ci": [
+    0.014184397163120567,
+    0.1276595744680851
+   ],
+   "pos": 14,
+   "neg": 4,
+   "p": 0.0308837890625,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": 0.06,
+   "ci": [
+    0.015,
+    0.105
+   ],
+   "pos": 18,
+   "neg": 6,
+   "p": 0.022655844688415527,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.06735751295336788,
+   "ci": [
+    0.02072538860103627,
+    0.11398963730569948
+   ],
+   "pos": 18,
+   "neg": 5,
+   "p": 0.010622024536132812,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.42857142857142855,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 191,
+   "diff": 0.06282722513089005,
+   "ci": [
+    0.015706806282722512,
+    0.11518324607329843
+   ],
+   "pos": 18,
+   "neg": 6,
+   "p": 0.022655844688415527,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 9,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 184,
+   "diff": 0.07065217391304347,
+   "ci": [
+    0.021739130434782608,
+    0.11956521739130435
+   ],
+   "pos": 18,
+   "neg": 5,
+   "p": 0.010622024536132812,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 136,
+   "diff": 0.0661764705882353,
+   "ci": [
+    0.007352941176470588,
+    0.1323529411764706
+   ],
+   "pos": 14,
+   "neg": 5,
+   "p": 0.063568115234375,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 400,
+   "diff": 0.055,
+   "ci": [
+    0.0225,
+    0.09
+   ],
+   "pos": 36,
+   "neg": 14,
+   "p": 0.0026021714567221466,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 386,
+   "diff": 0.06217616580310881,
+   "ci": [
+    0.02849740932642487,
+    0.09585492227979274
+   ],
+   "pos": 36,
+   "neg": 12,
+   "p": 0.0007172696733945827,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 14,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.35714285714285715,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 2,
+   "p": 0.5,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 383,
+   "diff": 0.057441253263707574,
+   "ci": [
+    0.02349869451697128,
+    0.09399477806788512
+   ],
+   "pos": 36,
+   "neg": 14,
+   "p": 0.0026021714567221466,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 17,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 369,
+   "diff": 0.06504065040650407,
+   "ci": [
+    0.02981029810298103,
+    0.10298102981029811
+   ],
+   "pos": 36,
+   "neg": 12,
+   "p": 0.0007172696733945827,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 277,
+   "diff": 0.06859205776173286,
+   "ci": [
+    0.02527075812274368,
+    0.11191335740072202
+   ],
+   "pos": 28,
+   "neg": 9,
+   "p": 0.0025632079923525453,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": 0.14,
+   "ci": [
+    0.08,
+    0.2
+   ],
+   "pos": 34,
+   "neg": 6,
+   "p": 8.364584573428147e-06,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.15025906735751296,
+   "ci": [
+    0.09326424870466321,
+    0.21243523316062177
+   ],
+   "pos": 34,
+   "neg": 5,
+   "p": 2.4299079086631536e-06,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.42857142857142855,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 192,
+   "diff": 0.14583333333333334,
+   "ci": [
+    0.08333333333333333,
+    0.20833333333333334
+   ],
+   "pos": 34,
+   "neg": 6,
+   "p": 8.364584573428147e-06,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 8,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 185,
+   "diff": 0.15675675675675677,
+   "ci": [
+    0.0972972972972973,
+    0.22162162162162163
+   ],
+   "pos": 34,
+   "neg": 5,
+   "p": 2.4299079086631536e-06,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 141,
+   "diff": 0.1276595744680851,
+   "ci": [
+    0.06382978723404255,
+    0.19858156028368795
+   ],
+   "pos": 22,
+   "neg": 4,
+   "p": 0.0005335211753845215,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": 0.1,
+   "ci": [
+    0.04,
+    0.16
+   ],
+   "pos": 30,
+   "neg": 10,
+   "p": 0.0022214337732293643,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.10880829015544041,
+   "ci": [
+    0.046632124352331605,
+    0.17098445595854922
+   ],
+   "pos": 30,
+   "neg": 9,
+   "p": 0.0010650196345523,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.42857142857142855,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 191,
+   "diff": 0.10471204188481675,
+   "ci": [
+    0.041884816753926704,
+    0.16753926701570682
+   ],
+   "pos": 30,
+   "neg": 10,
+   "p": 0.0022214337732293643,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 9,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 184,
+   "diff": 0.11413043478260869,
+   "ci": [
+    0.05434782608695652,
+    0.1793478260869565
+   ],
+   "pos": 30,
+   "neg": 9,
+   "p": 0.0010650196345523,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 136,
+   "diff": 0.11764705882352941,
+   "ci": [
+    0.04411764705882353,
+    0.19117647058823528
+   ],
+   "pos": 21,
+   "neg": 5,
+   "p": 0.002493917942047119,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 400,
+   "diff": 0.12,
+   "ci": [
+    0.0775,
+    0.1625
+   ],
+   "pos": 64,
+   "neg": 16,
+   "p": 5.871330414596199e-08,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 386,
+   "diff": 0.12953367875647667,
+   "ci": [
+    0.08549222797927461,
+    0.17357512953367876
+   ],
+   "pos": 64,
+   "neg": 14,
+   "p": 8.582179419760152e-09,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 14,
+   "diff": -0.14285714285714285,
+   "ci": [
+    -0.35714285714285715,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 2,
+   "p": 0.5,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 383,
+   "diff": 0.12532637075718014,
+   "ci": [
+    0.08093994778067885,
+    0.16971279373368145
+   ],
+   "pos": 64,
+   "neg": 16,
+   "p": 5.871330414596199e-08,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 17,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 369,
+   "diff": 0.13550135501355012,
+   "ci": [
+    0.0921409214092141,
+    0.18157181571815717
+   ],
+   "pos": 64,
+   "neg": 14,
+   "p": 8.582179419760152e-09,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 277,
+   "diff": 0.12274368231046931,
+   "ci": [
+    0.07581227436823104,
+    0.17328519855595667
+   ],
+   "pos": 43,
+   "neg": 9,
+   "p": 2.0377698612961126e-06,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": 0.33,
+   "ci": [
+    0.26,
+    0.4
+   ],
+   "pos": 70,
+   "neg": 4,
+   "p": 1.2898469490022716e-16,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.3160621761658031,
+   "ci": [
+    0.24352331606217617,
+    0.38860103626943004
+   ],
+   "pos": 65,
+   "neg": 4,
+   "p": 3.1147468230931924e-15,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": 0.7142857142857143,
+   "ci": [
+    0.42857142857142855,
+    1.0
+   ],
+   "pos": 5,
+   "neg": 0,
+   "p": 0.0625,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 192,
+   "diff": 0.3385416666666667,
+   "ci": [
+    0.265625,
+    0.4114583333333333
+   ],
+   "pos": 69,
+   "neg": 4,
+   "p": 2.4422670374772693e-16,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 8,
+   "diff": 0.125,
+   "ci": [
+    0.0,
+    0.375
+   ],
+   "pos": 1,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 185,
+   "diff": 0.32432432432432434,
+   "ci": [
+    0.24864864864864866,
+    0.3945945945945946
+   ],
+   "pos": 64,
+   "neg": 4,
+   "p": 5.873990530091966e-15,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 141,
+   "diff": 0.2978723404255319,
+   "ci": [
+    0.2127659574468085,
+    0.3829787234042553
+   ],
+   "pos": 46,
+   "neg": 4,
+   "p": 4.461782054931973e-10,
+   "bench": "2wiki",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": 0.26,
+   "ci": [
+    0.18,
+    0.34
+   ],
+   "pos": 67,
+   "neg": 15,
+   "p": 5.257316976900643e-09,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 193,
+   "diff": 0.25906735751295334,
+   "ci": [
+    0.17616580310880828,
+    0.342098445595853
+   ],
+   "pos": 65,
+   "neg": 15,
+   "p": 1.4114668409813958e-08,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 7,
+   "diff": 0.2857142857142857,
+   "ci": [
+    0.0,
+    0.5714285714285714
+   ],
+   "pos": 2,
+   "neg": 0,
+   "p": 0.5,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 191,
+   "diff": 0.2617801047120419,
+   "ci": [
+    0.17801047120418848,
+    0.34554973821989526
+   ],
+   "pos": 65,
+   "neg": 15,
+   "p": 1.4114668409813958e-08,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 9,
+   "diff": 0.2222222222222222,
+   "ci": [
+    0.0,
+    0.5555555555555556
+   ],
+   "pos": 2,
+   "neg": 0,
+   "p": 0.5,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 184,
+   "diff": 0.2608695652173913,
+   "ci": [
+    0.17391304347826086,
+    0.34782608695652173
+   ],
+   "pos": 63,
+   "neg": 15,
+   "p": 3.748661169432698e-08,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 136,
+   "diff": 0.27941176470588236,
+   "ci": [
+    0.17647058823529413,
+    0.375
+   ],
+   "pos": 49,
+   "neg": 11,
+   "p": 7.561280982396751e-07,
+   "bench": "2wiki",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 400,
+   "diff": 0.295,
+   "ci": [
+    0.24,
+    0.35
+   ],
+   "pos": 137,
+   "neg": 19,
+   "p": 3.1062763997368497e-23,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 386,
+   "diff": 0.28756476683937826,
+   "ci": [
+    0.23056994818652848,
+    0.34196891191709844
+   ],
+   "pos": 130,
+   "neg": 19,
+   "p": 1.5845286212458737e-21,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 14,
+   "diff": 0.5,
+   "ci": [
+    0.21428571428571427,
+    0.7857142857142857
+   ],
+   "pos": 7,
+   "neg": 0,
+   "p": 0.015625,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 383,
+   "diff": 0.3002610966057441,
+   "ci": [
+    0.2454308093994778,
+    0.35509138381201044
+   ],
+   "pos": 134,
+   "neg": 19,
+   "p": 1.6844384330714513e-22,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "evidence not recalled"
+  },
+  {
+   "n": 17,
+   "diff": 0.17647058823529413,
+   "ci": [
+    0.0,
+    0.35294117647058826
+   ],
+   "pos": 3,
+   "neg": 0,
+   "p": 0.25,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "evidence recalled"
+  },
+  {
+   "n": 369,
+   "diff": 0.2926829268292683,
+   "ci": [
+    0.23577235772357724,
+    0.34959349593495936
+   ],
+   "pos": 127,
+   "neg": 19,
+   "p": 8.426668768018535e-21,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "neither (cb wrong, evidence not recalled)"
+  },
+  {
+   "n": 277,
+   "diff": 0.2888086642599278,
+   "ci": [
+    0.22382671480144403,
+    0.35379061371841153
+   ],
+   "pos": 95,
+   "neg": 15,
+   "p": 2.1416081364290228e-15,
+   "bench": "2wiki",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "strict (cb wrong, no evidence triple recalled)"
+  },
+  {
+   "n": 200,
+   "diff": -0.03,
+   "ci": [
+    -0.065,
+    0.0
+   ],
+   "pos": 3,
+   "neg": 9,
+   "p": 0.14599609375,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 170,
+   "diff": -0.023529411764705882,
+   "ci": [
+    -0.058823529411764705,
+    0.011764705882352941
+   ],
+   "pos": 3,
+   "neg": 7,
+   "p": 0.34375,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 30,
+   "diff": -0.06666666666666667,
+   "ci": [
+    -0.16666666666666666,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 2,
+   "p": 0.5,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": -0.015,
+   "ci": [
+    -0.05,
+    0.02
+   ],
+   "pos": 5,
+   "neg": 8,
+   "p": 0.5810546875,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 166,
+   "diff": -0.018072289156626505,
+   "ci": [
+    -0.04819277108433735,
+    0.012048192771084338
+   ],
+   "pos": 2,
+   "neg": 5,
+   "p": 0.453125,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 34,
+   "diff": 0.0,
+   "ci": [
+    -0.14705882352941177,
+    0.14705882352941177
+   ],
+   "pos": 3,
+   "neg": 3,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": -0.0225,
+   "ci": [
+    -0.0475,
+    0.0025
+   ],
+   "pos": 8,
+   "neg": 17,
+   "p": 0.10775214433670044,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 336,
+   "diff": -0.020833333333333332,
+   "ci": [
+    -0.044642857142857144,
+    0.002976190476190476
+   ],
+   "pos": 5,
+   "neg": 12,
+   "p": 0.143463134765625,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 64,
+   "diff": -0.03125,
+   "ci": [
+    -0.125,
+    0.046875
+   ],
+   "pos": 3,
+   "neg": 5,
+   "p": 0.7265625,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.02,
+   "ci": [
+    -0.035,
+    0.075
+   ],
+   "pos": 17,
+   "neg": 13,
+   "p": 0.584664711728692,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 170,
+   "diff": 0.01764705882352941,
+   "ci": [
+    -0.041176470588235294,
+    0.07647058823529412
+   ],
+   "pos": 14,
+   "neg": 11,
+   "p": 0.6900379657745361,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 30,
+   "diff": 0.03333333333333333,
+   "ci": [
+    -0.1,
+    0.16666666666666666
+   ],
+   "pos": 3,
+   "neg": 2,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.025,
+   "ci": [
+    -0.02,
+    0.075
+   ],
+   "pos": 14,
+   "neg": 9,
+   "p": 0.4048728942871094,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 166,
+   "diff": 0.030120481927710843,
+   "ci": [
+    -0.018072289156626505,
+    0.08433734939759036
+   ],
+   "pos": 12,
+   "neg": 7,
+   "p": 0.359283447265625,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 34,
+   "diff": 0.0,
+   "ci": [
+    -0.11764705882352941,
+    0.11764705882352941
+   ],
+   "pos": 2,
+   "neg": 2,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.0225,
+   "ci": [
+    -0.015,
+    0.0575
+   ],
+   "pos": 31,
+   "neg": 22,
+   "p": 0.27167916606550335,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 336,
+   "diff": 0.023809523809523808,
+   "ci": [
+    -0.01488095238095238,
+    0.0625
+   ],
+   "pos": 26,
+   "neg": 18,
+   "p": 0.2912152365458951,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 64,
+   "diff": 0.015625,
+   "ci": [
+    -0.078125,
+    0.109375
+   ],
+   "pos": 5,
+   "neg": 4,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.06,
+   "ci": [
+    0.01,
+    0.11
+   ],
+   "pos": 20,
+   "neg": 8,
+   "p": 0.03569813817739487,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 170,
+   "diff": 0.06470588235294118,
+   "ci": [
+    0.0058823529411764705,
+    0.12352941176470589
+   ],
+   "pos": 19,
+   "neg": 8,
+   "p": 0.052238985896110535,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 30,
+   "diff": 0.03333333333333333,
+   "ci": [
+    0.0,
+    0.1
+   ],
+   "pos": 1,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.01,
+   "ci": [
+    -0.04,
+    0.055
+   ],
+   "pos": 13,
+   "neg": 11,
+   "p": 0.8388197422027588,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 166,
+   "diff": 0.024096385542168676,
+   "ci": [
+    -0.030120481927710843,
+    0.0783132530120482
+   ],
+   "pos": 12,
+   "neg": 8,
+   "p": 0.5034446716308594,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 34,
+   "diff": -0.058823529411764705,
+   "ci": [
+    -0.17647058823529413,
+    0.058823529411764705
+   ],
+   "pos": 1,
+   "neg": 3,
+   "p": 0.625,
+   "bench": "metaqa",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.035,
+   "ci": [
+    0.0,
+    0.07
+   ],
+   "pos": 33,
+   "neg": 19,
+   "p": 0.07039422106706228,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 336,
+   "diff": 0.044642857142857144,
+   "ci": [
+    0.005952380952380952,
+    0.08333333333333333
+   ],
+   "pos": 31,
+   "neg": 16,
+   "p": 0.03998605682605216,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 64,
+   "diff": -0.015625,
+   "ci": [
+    -0.078125,
+    0.046875
+   ],
+   "pos": 2,
+   "neg": 3,
+   "p": 1.0,
+   "bench": "metaqa",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": -0.03,
+   "ci": [
+    -0.06,
+    0.0
+   ],
+   "pos": 2,
+   "neg": 8,
+   "p": 0.109375,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": -0.03076923076923077,
+   "ci": [
+    -0.06153846153846154,
+    0.0
+   ],
+   "pos": 2,
+   "neg": 8,
+   "p": 0.109375,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": -0.015,
+   "ci": [
+    -0.045,
+    0.015
+   ],
+   "pos": 3,
+   "neg": 6,
+   "p": 0.5078125,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": -0.015384615384615385,
+   "ci": [
+    -0.046153846153846156,
+    0.015384615384615385
+   ],
+   "pos": 3,
+   "neg": 6,
+   "p": 0.5078125,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": -0.0225,
+   "ci": [
+    -0.045,
+    -0.0025
+   ],
+   "pos": 5,
+   "neg": 14,
+   "p": 0.063568115234375,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 390,
+   "diff": -0.023076923076923078,
+   "ci": [
+    -0.046153846153846156,
+    -0.002564102564102564
+   ],
+   "pos": 5,
+   "neg": 14,
+   "p": 0.063568115234375,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 10,
+   "diff": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 0,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": -0.01,
+   "ci": [
+    -0.04,
+    0.015
+   ],
+   "pos": 3,
+   "neg": 5,
+   "p": 0.7265625,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": -0.005128205128205128,
+   "ci": [
+    -0.03076923076923077,
+    0.020512820512820513
+   ],
+   "pos": 3,
+   "neg": 4,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": -0.2,
+   "ci": [
+    -0.6,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.01,
+   "ci": [
+    -0.025,
+    0.045
+   ],
+   "pos": 7,
+   "neg": 5,
+   "p": 0.7744140625,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": 0.015384615384615385,
+   "ci": [
+    -0.015384615384615385,
+    0.05128205128205128
+   ],
+   "pos": 7,
+   "neg": 4,
+   "p": 0.548828125,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": -0.2,
+   "ci": [
+    -0.6,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 1,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.0,
+   "ci": [
+    -0.0225,
+    0.0225
+   ],
+   "pos": 10,
+   "neg": 10,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 390,
+   "diff": 0.005128205128205128,
+   "ci": [
+    -0.015384615384615385,
+    0.02564102564102564
+   ],
+   "pos": 10,
+   "neg": 8,
+   "p": 0.8145294189453125,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 10,
+   "diff": -0.2,
+   "ci": [
+    -0.5,
+    0.0
+   ],
+   "pos": 0,
+   "neg": 2,
+   "p": 0.5,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.0,
+   "ci": [
+    -0.035,
+    0.04
+   ],
+   "pos": 7,
+   "neg": 7,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": 0.005128205128205128,
+   "ci": [
+    -0.02564102564102564,
+    0.035897435897435895
+   ],
+   "pos": 6,
+   "neg": 5,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": -0.2,
+   "ci": [
+    -0.8,
+    0.4
+   ],
+   "pos": 1,
+   "neg": 2,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.02,
+   "ci": [
+    -0.03,
+    0.065
+   ],
+   "pos": 14,
+   "neg": 10,
+   "p": 0.5412561893463135,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 195,
+   "diff": 0.0,
+   "ci": [
+    -0.046153846153846156,
+    0.046153846153846156
+   ],
+   "pos": 10,
+   "neg": 10,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 5,
+   "diff": 0.8,
+   "ci": [
+    0.4,
+    1.0
+   ],
+   "pos": 4,
+   "neg": 0,
+   "p": 0.125,
+   "bench": "stark",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.01,
+   "ci": [
+    -0.02,
+    0.04006249999999909
+   ],
+   "pos": 21,
+   "neg": 17,
+   "p": 0.6271025701571489,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 390,
+   "diff": 0.002564102564102564,
+   "ci": [
+    -0.02564102564102564,
+    0.03076923076923077
+   ],
+   "pos": 16,
+   "neg": 15,
+   "p": 1.0,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 10,
+   "diff": 0.3,
+   "ci": [
+    -0.2,
+    0.8
+   ],
+   "pos": 5,
+   "neg": 2,
+   "p": 0.453125,
+   "bench": "stark",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.05,
+   "ci": [
+    0.004875000000000114,
+    0.1
+   ],
+   "pos": 18,
+   "neg": 8,
+   "p": 0.07551869750022888,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 81,
+   "diff": 0.06172839506172839,
+   "ci": [
+    -0.012345679012345678,
+    0.13580246913580246
+   ],
+   "pos": 7,
+   "neg": 2,
+   "p": 0.1796875,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 119,
+   "diff": 0.04201680672268908,
+   "ci": [
+    -0.025210084033613446,
+    0.1092436974789916
+   ],
+   "pos": 11,
+   "neg": 6,
+   "p": 0.332305908203125,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.005,
+   "ci": [
+    -0.04,
+    0.05
+   ],
+   "pos": 11,
+   "neg": 10,
+   "p": 1.0,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 86,
+   "diff": 0.011627906976744186,
+   "ci": [
+    -0.05813953488372093,
+    0.09302325581395349
+   ],
+   "pos": 6,
+   "neg": 5,
+   "p": 1.0,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 114,
+   "diff": 0.0,
+   "ci": [
+    -0.05263157894736842,
+    0.05263157894736842
+   ],
+   "pos": 5,
+   "neg": 5,
+   "p": 1.0,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.0275,
+   "ci": [
+    -0.005,
+    0.06
+   ],
+   "pos": 29,
+   "neg": 18,
+   "p": 0.14386508844054902,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "all"
+  },
+  {
+   "n": 167,
+   "diff": 0.03592814371257485,
+   "ci": [
+    -0.017964071856287425,
+    0.08982035928143713
+   ],
+   "pos": 13,
+   "neg": 7,
+   "p": 0.26317596435546875,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 233,
+   "diff": 0.02145922746781116,
+   "ci": [
+    -0.02145922746781116,
+    0.06437768240343347
+   ],
+   "pos": 16,
+   "neg": 11,
+   "p": 0.44206833839416504,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "audited",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.09,
+   "ci": [
+    0.025,
+    0.16
+   ],
+   "pos": 34,
+   "neg": 16,
+   "p": 0.015346677832630107,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 81,
+   "diff": 0.13580246913580246,
+   "ci": [
+    0.024691358024691357,
+    0.25925925925925924
+   ],
+   "pos": 18,
+   "neg": 7,
+   "p": 0.043285250663757324,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 119,
+   "diff": 0.058823529411764705,
+   "ci": [
+    -0.025210084033613446,
+    0.14285714285714285
+   ],
+   "pos": 16,
+   "neg": 9,
+   "p": 0.2295229434967041,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.07,
+   "ci": [
+    0.0,
+    0.14
+   ],
+   "pos": 33,
+   "neg": 19,
+   "p": 0.07039422106706228,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 86,
+   "diff": 0.023255813953488372,
+   "ci": [
+    -0.08139534883720931,
+    0.12790697674418605
+   ],
+   "pos": 12,
+   "neg": 10,
+   "p": 0.8318119049072266,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 114,
+   "diff": 0.10526315789473684,
+   "ci": [
+    0.017543859649122806,
+    0.20175438596491227
+   ],
+   "pos": 21,
+   "neg": 9,
+   "p": 0.04277394525706768,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.08,
+   "ci": [
+    0.0325,
+    0.13
+   ],
+   "pos": 67,
+   "neg": 35,
+   "p": 0.001992805585714059,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "all"
+  },
+  {
+   "n": 167,
+   "diff": 0.07784431137724551,
+   "ci": [
+    0.0,
+    0.15568862275449102
+   ],
+   "pos": 30,
+   "neg": 17,
+   "p": 0.07894069368148848,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 233,
+   "diff": 0.0815450643776824,
+   "ci": [
+    0.02145922746781116,
+    0.14163090128755365
+   ],
+   "pos": 37,
+   "neg": 18,
+   "p": 0.014453833533827731,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "graph_centric",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.175,
+   "ci": [
+    0.085,
+    0.265
+   ],
+   "pos": 62,
+   "neg": 27,
+   "p": 0.0002655853429874699,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 81,
+   "diff": 0.25925925925925924,
+   "ci": [
+    0.1111111111111111,
+    0.4074074074074074
+   ],
+   "pos": 31,
+   "neg": 10,
+   "p": 0.0014504910141113214,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 119,
+   "diff": 0.11764705882352941,
+   "ci": [
+    0.008403361344537815,
+    0.226890756302521
+   ],
+   "pos": 31,
+   "neg": 17,
+   "p": 0.05946337525377032,
+   "bench": "graphragbench",
+   "split": "sub200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 200,
+   "diff": 0.045,
+   "ci": [
+    -0.04,
+    0.13
+   ],
+   "pos": 43,
+   "neg": 34,
+   "p": 0.36203179773966154,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 86,
+   "diff": 0.06976744186046512,
+   "ci": [
+    -0.046511627906976744,
+    0.19767441860465115
+   ],
+   "pos": 18,
+   "neg": 12,
+   "p": 0.361594608053565,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 114,
+   "diff": 0.02631578947368421,
+   "ci": [
+    -0.09649122807017543,
+    0.14912280701754385
+   ],
+   "pos": 25,
+   "neg": 22,
+   "p": 0.7708669945730264,
+   "bench": "graphragbench",
+   "split": "holdout200",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  },
+  {
+   "n": 400,
+   "diff": 0.11,
+   "ci": [
+    0.0475,
+    0.1725
+   ],
+   "pos": 105,
+   "neg": 61,
+   "p": 0.0007940632804698404,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "all"
+  },
+  {
+   "n": 167,
+   "diff": 0.16167664670658682,
+   "ci": [
+    0.0658682634730539,
+    0.25748502994011974
+   ],
+   "pos": 49,
+   "neg": 22,
+   "p": 0.0018204049356112858,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book wrong"
+  },
+  {
+   "n": 233,
+   "diff": 0.07296137339055794,
+   "ci": [
+    -0.008583690987124463,
+    0.15450643776824036
+   ],
+   "pos": 56,
+   "neg": 39,
+   "p": 0.10017333048675542,
+   "bench": "graphragbench",
+   "split": "pooled",
+   "system": "ppr",
+   "stratum": "closed-book right"
+  }
+ ]
+}

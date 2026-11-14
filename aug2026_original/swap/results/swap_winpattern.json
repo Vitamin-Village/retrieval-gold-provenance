@@ -1,0 +1,24 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "n": 200,
+    "bm25_mismatch_across_conditions": 0,
+    "silver_gain_questions": 37,
+    "silver_gain_bm25_miss": 29,
+    "silver_gain_bm25_hit": 8,
+    "silver_loss_questions": 5,
+    "silver_loss_bm25_miss": 2,
+    "silver_loss_bm25_hit": 3
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "n": 200,
+    "bm25_mismatch_across_conditions": 0,
+    "silver_gain_questions": 33,
+    "silver_gain_bm25_miss": 24,
+    "silver_gain_bm25_hit": 9,
+    "silver_loss_questions": 10,
+    "silver_loss_bm25_miss": 2,
+    "silver_loss_bm25_hit": 8
+  }
+]

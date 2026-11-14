@@ -1,0 +1,10599 @@
+[
+  {
+    "node_id": "n::'neath the arizona skies",
+    "name": "'Neath the Arizona Skies",
+    "type": "entity",
+    "aliases": [
+      "'Neath the Arizona Skies"
+    ],
+    "source_docs": [
+      "'neath the arizona skies"
+    ]
+  },
+  {
+    "node_id": "n::12 dates of christmas",
+    "name": "12 Dates of Christmas",
+    "type": "entity",
+    "aliases": [
+      "12 Dates of Christmas"
+    ],
+    "source_docs": [
+      "12 dates of christmas"
+    ]
+  },
+  {
+    "node_id": "n::13 ghosts",
+    "name": "13 Ghosts",
+    "type": "entity",
+    "aliases": [
+      "13 Ghosts"
+    ],
+    "source_docs": [
+      "13 ghosts"
+    ]
+  },
+  {
+    "node_id": "n::1776",
+    "name": "1776",
+    "type": "entity",
+    "aliases": [
+      "1776"
+    ],
+    "source_docs": [
+      "1776"
+    ]
+  },
+  {
+    "node_id": "n::1928",
+    "name": "1928",
+    "type": "entity",
+    "aliases": [
+      "1928"
+    ],
+    "source_docs": [
+      "noah's ark"
+    ]
+  },
+  {
+    "node_id": "n::1933",
+    "name": "1933",
+    "type": "entity",
+    "aliases": [
+      "1933"
+    ],
+    "source_docs": [
+      "the bitter tea of general yen"
+    ]
+  },
+  {
+    "node_id": "n::1938",
+    "name": "1938",
+    "type": "entity",
+    "aliases": [
+      "1938"
+    ],
+    "source_docs": [
+      "port of shadows"
+    ]
+  },
+  {
+    "node_id": "n::1940",
+    "name": "1940",
+    "type": "entity",
+    "aliases": [
+      "1940"
+    ],
+    "source_docs": [
+      "escape"
+    ]
+  },
+  {
+    "node_id": "n::1941",
+    "name": "1941",
+    "type": "entity",
+    "aliases": [
+      "1941"
+    ],
+    "source_docs": [
+      "1941"
+    ]
+  },
+  {
+    "node_id": "n::1945",
+    "name": "1945",
+    "type": "entity",
+    "aliases": [
+      "1945"
+    ],
+    "source_docs": [
+      "caesar and cleopatra",
+      "madonna of the seven moons"
+    ]
+  },
+  {
+    "node_id": "n::1948",
+    "name": "1948",
+    "type": "entity",
+    "aliases": [
+      "1948"
+    ],
+    "source_docs": [
+      "state of the union"
+    ]
+  },
+  {
+    "node_id": "n::1951",
+    "name": "1951",
+    "type": "entity",
+    "aliases": [
+      "1951"
+    ],
+    "source_docs": [
+      "gold raiders"
+    ]
+  },
+  {
+    "node_id": "n::1952",
+    "name": "1952",
+    "type": "entity",
+    "aliases": [
+      "1952"
+    ],
+    "source_docs": [
+      "hans christian andersen"
+    ]
+  },
+  {
+    "node_id": "n::1955",
+    "name": "1955",
+    "type": "entity",
+    "aliases": [
+      "1955"
+    ],
+    "source_docs": [
+      "the phenix city story"
+    ]
+  },
+  {
+    "node_id": "n::1958",
+    "name": "1958",
+    "type": "entity",
+    "aliases": [
+      "1958"
+    ],
+    "source_docs": [
+      "fiend without a face"
+    ]
+  },
+  {
+    "node_id": "n::1960",
+    "name": "1960",
+    "type": "entity",
+    "aliases": [
+      "1960"
+    ],
+    "source_docs": [
+      "pay or die"
+    ]
+  },
+  {
+    "node_id": "n::1965",
+    "name": "1965",
+    "type": "entity",
+    "aliases": [
+      "1965"
+    ],
+    "source_docs": [
+      "the ipcress file",
+      "the war lord"
+    ]
+  },
+  {
+    "node_id": "n::1969",
+    "name": "1969",
+    "type": "entity",
+    "aliases": [
+      "1969"
+    ],
+    "source_docs": [
+      "1969"
+    ]
+  },
+  {
+    "node_id": "n::1970",
+    "name": "1970",
+    "type": "entity",
+    "aliases": [
+      "1970"
+    ],
+    "source_docs": [
+      "the boys in the band"
+    ]
+  },
+  {
+    "node_id": "n::1971",
+    "name": "1971",
+    "type": "entity",
+    "aliases": [
+      "1971"
+    ],
+    "source_docs": [
+      "let's scare jessica to death",
+      "the emigrants"
+    ]
+  },
+  {
+    "node_id": "n::1972",
+    "name": "1972",
+    "type": "entity",
+    "aliases": [
+      "1972"
+    ],
+    "source_docs": [
+      "the new land"
+    ]
+  },
+  {
+    "node_id": "n::1976",
+    "name": "1976",
+    "type": "entity",
+    "aliases": [
+      "1976"
+    ],
+    "source_docs": [
+      "the first nudie musical"
+    ]
+  },
+  {
+    "node_id": "n::1977",
+    "name": "1977",
+    "type": "entity",
+    "aliases": [
+      "1977"
+    ],
+    "source_docs": [
+      "looking for mr. goodbar"
+    ]
+  },
+  {
+    "node_id": "n::1983",
+    "name": "1983",
+    "type": "entity",
+    "aliases": [
+      "1983"
+    ],
+    "source_docs": [
+      "the creature wasn't nice"
+    ]
+  },
+  {
+    "node_id": "n::1985",
+    "name": "1985",
+    "type": "entity",
+    "aliases": [
+      "1985"
+    ],
+    "source_docs": [
+      "secret admirer"
+    ]
+  },
+  {
+    "node_id": "n::1988",
+    "name": "1988",
+    "type": "entity",
+    "aliases": [
+      "1988"
+    ],
+    "source_docs": [
+      "the milagro beanfield war"
+    ]
+  },
+  {
+    "node_id": "n::1989",
+    "name": "1989",
+    "type": "entity",
+    "aliases": [
+      "1989"
+    ],
+    "source_docs": [
+      "rude awakening"
+    ]
+  },
+  {
+    "node_id": "n::1991",
+    "name": "1991",
+    "type": "entity",
+    "aliases": [
+      "1991"
+    ],
+    "source_docs": [
+      "shout"
+    ]
+  },
+  {
+    "node_id": "n::1992",
+    "name": "1992",
+    "type": "entity",
+    "aliases": [
+      "1992"
+    ],
+    "source_docs": [
+      "swoon"
+    ]
+  },
+  {
+    "node_id": "n::1993",
+    "name": "1993",
+    "type": "entity",
+    "aliases": [
+      "1993"
+    ],
+    "source_docs": [
+      "what's love got to do with it"
+    ]
+  },
+  {
+    "node_id": "n::1995",
+    "name": "1995",
+    "type": "entity",
+    "aliases": [
+      "1995"
+    ],
+    "source_docs": [
+      "the basketball diaries"
+    ]
+  },
+  {
+    "node_id": "n::1996",
+    "name": "1996",
+    "type": "entity",
+    "aliases": [
+      "1996"
+    ],
+    "source_docs": [
+      "hotel de love",
+      "kingpin",
+      "set it off",
+      "the craft"
+    ]
+  },
+  {
+    "node_id": "n::1997",
+    "name": "1997",
+    "type": "entity",
+    "aliases": [
+      "1997"
+    ],
+    "source_docs": [
+      "nowhere"
+    ]
+  },
+  {
+    "node_id": "n::1998",
+    "name": "1998",
+    "type": "entity",
+    "aliases": [
+      "1998"
+    ],
+    "source_docs": [
+      "caught up",
+      "the governess",
+      "urban legend"
+    ]
+  },
+  {
+    "node_id": "n::1999",
+    "name": "1999",
+    "type": "entity",
+    "aliases": [
+      "1999"
+    ],
+    "source_docs": [
+      "jawbreaker"
+    ]
+  },
+  {
+    "node_id": "n::2000",
+    "name": "2000",
+    "type": "entity",
+    "aliases": [
+      "2000"
+    ],
+    "source_docs": [
+      "king of the jungle"
+    ]
+  },
+  {
+    "node_id": "n::2001",
+    "name": "2001",
+    "type": "entity",
+    "aliases": [
+      "2001"
+    ],
+    "source_docs": [
+      "me without you"
+    ]
+  },
+  {
+    "node_id": "n::2001 maniacs",
+    "name": "2001 Maniacs",
+    "type": "entity",
+    "aliases": [
+      "2001 Maniacs"
+    ],
+    "source_docs": [
+      "2001 maniacs"
+    ]
+  },
+  {
+    "node_id": "n::2002",
+    "name": "2002",
+    "type": "entity",
+    "aliases": [
+      "2002"
+    ],
+    "source_docs": [
+      "deuces wild",
+      "whale rider"
+    ]
+  },
+  {
+    "node_id": "n::2004",
+    "name": "2004",
+    "type": "entity",
+    "aliases": [
+      "2004"
+    ],
+    "source_docs": [
+      "puppet master vs demonic toys"
+    ]
+  },
+  {
+    "node_id": "n::2006",
+    "name": "2006",
+    "type": "entity",
+    "aliases": [
+      "2006"
+    ],
+    "source_docs": [
+      "half light",
+      "the ugly duckling and me!"
+    ]
+  },
+  {
+    "node_id": "n::2007",
+    "name": "2007",
+    "type": "entity",
+    "aliases": [
+      "2007"
+    ],
+    "source_docs": [
+      "missionary man",
+      "murder party",
+      "savage grace",
+      "when nietzsche wept"
+    ]
+  },
+  {
+    "node_id": "n::2008",
+    "name": "2008",
+    "type": "entity",
+    "aliases": [
+      "2008"
+    ],
+    "source_docs": [
+      "the flight before christmas"
+    ]
+  },
+  {
+    "node_id": "n::2009",
+    "name": "2009",
+    "type": "entity",
+    "aliases": [
+      "2009"
+    ],
+    "source_docs": [
+      "bandslam",
+      "command performance",
+      "sorority wars"
+    ]
+  },
+  {
+    "node_id": "n::2010",
+    "name": "2010",
+    "type": "entity",
+    "aliases": [
+      "2010"
+    ],
+    "source_docs": [
+      "2010"
+    ]
+  },
+  {
+    "node_id": "n::2011",
+    "name": "2011",
+    "type": "entity",
+    "aliases": [
+      "2011"
+    ],
+    "source_docs": [
+      "12 dates of christmas",
+      "geek charming",
+      "the roommate"
+    ]
+  },
+  {
+    "node_id": "n::2013",
+    "name": "2013",
+    "type": "entity",
+    "aliases": [
+      "2013"
+    ],
+    "source_docs": [
+      "blue ruin"
+    ]
+  },
+  {
+    "node_id": "n::2014",
+    "name": "2014",
+    "type": "entity",
+    "aliases": [
+      "2014"
+    ],
+    "source_docs": [
+      "dark house",
+      "non-stop"
+    ]
+  },
+  {
+    "node_id": "n::44 inch chest",
+    "name": "44 Inch Chest",
+    "type": "entity",
+    "aliases": [
+      "44 Inch Chest"
+    ],
+    "source_docs": [
+      "44 inch chest"
+    ]
+  },
+  {
+    "node_id": "n::a bridge too far",
+    "name": "A Bridge Too Far",
+    "type": "entity",
+    "aliases": [
+      "A Bridge Too Far"
+    ],
+    "source_docs": [
+      "a bridge too far"
+    ]
+  },
+  {
+    "node_id": "n::a claymation christmas celebration",
+    "name": "A Claymation Christmas Celebration",
+    "type": "entity",
+    "aliases": [
+      "A Claymation Christmas Celebration"
+    ],
+    "source_docs": [
+      "a claymation christmas celebration"
+    ]
+  },
+  {
+    "node_id": "n::a couch in new york",
+    "name": "A Couch in New York",
+    "type": "entity",
+    "aliases": [
+      "A Couch in New York"
+    ],
+    "source_docs": [
+      "a couch in new york"
+    ]
+  },
+  {
+    "node_id": "n::a dangerous profession",
+    "name": "A Dangerous Profession",
+    "type": "entity",
+    "aliases": [
+      "A Dangerous Profession"
+    ],
+    "source_docs": [
+      "a dangerous profession"
+    ]
+  },
+  {
+    "node_id": "n::a film with me in it",
+    "name": "A Film with Me in It",
+    "type": "entity",
+    "aliases": [
+      "A Film with Me in It"
+    ],
+    "source_docs": [
+      "a film with me in it"
+    ]
+  },
+  {
+    "node_id": "n::a force of one",
+    "name": "A Force of One",
+    "type": "entity",
+    "aliases": [
+      "A Force of One"
+    ],
+    "source_docs": [
+      "a force of one"
+    ]
+  },
+  {
+    "node_id": "n::a hard day's night",
+    "name": "A Hard Day's Night",
+    "type": "entity",
+    "aliases": [
+      "A Hard Day's Night"
+    ],
+    "source_docs": [
+      "a hard day's night"
+    ]
+  },
+  {
+    "node_id": "n::a haunted house",
+    "name": "A Haunted House",
+    "type": "entity",
+    "aliases": [
+      "A Haunted House"
+    ],
+    "source_docs": [
+      "a haunted house"
+    ]
+  },
+  {
+    "node_id": "n::a haunted house 2",
+    "name": "A Haunted House 2",
+    "type": "entity",
+    "aliases": [
+      "A Haunted House 2"
+    ],
+    "source_docs": [
+      "a haunted house 2"
+    ]
+  },
+  {
+    "node_id": "n::above the law",
+    "name": "Above the Law",
+    "type": "entity",
+    "aliases": [
+      "Above the Law"
+    ],
+    "source_docs": [
+      "above the law"
+    ]
+  },
+  {
+    "node_id": "n::action",
+    "name": "Action",
+    "type": "entity",
+    "aliases": [
+      "Action"
+    ],
+    "source_docs": [
+      "above the law",
+      "black moon rising",
+      "the longest day",
+      "the watch"
+    ]
+  },
+  {
+    "node_id": "n::adam bernstein",
+    "name": "Adam Bernstein",
+    "type": "entity",
+    "aliases": [
+      "Adam Bernstein"
+    ],
+    "source_docs": [
+      "it's pat",
+      "six ways to sunday"
+    ]
+  },
+  {
+    "node_id": "n::adam green",
+    "name": "Adam Green",
+    "type": "entity",
+    "aliases": [
+      "Adam Green"
+    ],
+    "source_docs": [
+      "chillerama"
+    ]
+  },
+  {
+    "node_id": "n::adam rifkin",
+    "name": "Adam Rifkin",
+    "type": "entity",
+    "aliases": [
+      "Adam Rifkin"
+    ],
+    "source_docs": [
+      "chillerama"
+    ]
+  },
+  {
+    "node_id": "n::adventure",
+    "name": "Adventure",
+    "type": "entity",
+    "aliases": [
+      "Adventure"
+    ],
+    "source_docs": [
+      "huckleberry finn",
+      "the adventures of mark twain",
+      "the wiz",
+      "tom sawyer"
+    ]
+  },
+  {
+    "node_id": "n::adão e eva",
+    "name": "Adão e Eva",
+    "type": "entity",
+    "aliases": [
+      "Adão e Eva"
+    ],
+    "source_docs": [
+      "adão e eva"
+    ]
+  },
+  {
+    "node_id": "n::against the current",
+    "name": "Against the Current",
+    "type": "entity",
+    "aliases": [
+      "Against the Current"
+    ],
+    "source_docs": [
+      "against the current"
+    ]
+  },
+  {
+    "node_id": "n::aidan gillen",
+    "name": "Aidan Gillen",
+    "type": "entity",
+    "aliases": [
+      "Aidan Gillen"
+    ],
+    "source_docs": [
+      "blitz"
+    ]
+  },
+  {
+    "node_id": "n::alan austin",
+    "name": "Alan Austin",
+    "type": "entity",
+    "aliases": [
+      "Alan Austin"
+    ],
+    "source_docs": [
+      "pay or die"
+    ]
+  },
+  {
+    "node_id": "n::alan bates",
+    "name": "Alan Bates",
+    "type": "entity",
+    "aliases": [
+      "Alan Bates"
+    ],
+    "source_docs": [
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::alan taylor",
+    "name": "Alan Taylor",
+    "type": "entity",
+    "aliases": [
+      "Alan Taylor"
+    ],
+    "source_docs": [
+      "palookaville",
+      "the emperor's new clothes"
+    ]
+  },
+  {
+    "node_id": "n::alberto cavalcanti",
+    "name": "Alberto Cavalcanti",
+    "type": "entity",
+    "aliases": [
+      "Alberto Cavalcanti"
+    ],
+    "source_docs": [
+      "dead of night",
+      "went the day well?"
+    ]
+  },
+  {
+    "node_id": "n::aldo ray",
+    "name": "Aldo Ray",
+    "type": "entity",
+    "aliases": [
+      "Aldo Ray"
+    ],
+    "source_docs": [
+      "men in war"
+    ]
+  },
+  {
+    "node_id": "n::alejandro rey",
+    "name": "Alejandro Rey",
+    "type": "entity",
+    "aliases": [
+      "Alejandro Rey"
+    ],
+    "source_docs": [
+      "moscow on the hudson"
+    ]
+  },
+  {
+    "node_id": "n::alex rebar",
+    "name": "Alex Rebar",
+    "type": "entity",
+    "aliases": [
+      "Alex Rebar"
+    ],
+    "source_docs": [
+      "the incredible melting man"
+    ]
+  },
+  {
+    "node_id": "n::alexander knox",
+    "name": "Alexander Knox",
+    "type": "entity",
+    "aliases": [
+      "Alexander Knox"
+    ],
+    "source_docs": [
+      "sister kenny"
+    ]
+  },
+  {
+    "node_id": "n::alison lohman",
+    "name": "Alison Lohman",
+    "type": "entity",
+    "aliases": [
+      "Alison Lohman"
+    ],
+    "source_docs": [
+      "matchstick men"
+    ]
+  },
+  {
+    "node_id": "n::all that heaven allows",
+    "name": "All That Heaven Allows",
+    "type": "entity",
+    "aliases": [
+      "All That Heaven Allows"
+    ],
+    "source_docs": [
+      "all that heaven allows"
+    ]
+  },
+  {
+    "node_id": "n::allison hayes",
+    "name": "Allison Hayes",
+    "type": "entity",
+    "aliases": [
+      "Allison Hayes"
+    ],
+    "source_docs": [
+      "the unearthly"
+    ]
+  },
+  {
+    "node_id": "n::aly michalka",
+    "name": "Aly Michalka",
+    "type": "entity",
+    "aliases": [
+      "Aly Michalka"
+    ],
+    "source_docs": [
+      "bandslam",
+      "the roommate"
+    ]
+  },
+  {
+    "node_id": "n::amanda walsh",
+    "name": "Amanda Walsh",
+    "type": "entity",
+    "aliases": [
+      "Amanda Walsh"
+    ],
+    "source_docs": [
+      "these girls"
+    ]
+  },
+  {
+    "node_id": "n::amazon women on the moon",
+    "name": "Amazon Women on the Moon",
+    "type": "entity",
+    "aliases": [
+      "Amazon Women on the Moon"
+    ],
+    "source_docs": [
+      "amazon women on the moon"
+    ]
+  },
+  {
+    "node_id": "n::ambush",
+    "name": "Ambush",
+    "type": "entity",
+    "aliases": [
+      "Ambush"
+    ],
+    "source_docs": [
+      "ambush"
+    ]
+  },
+  {
+    "node_id": "n::an actor's revenge",
+    "name": "An Actor's Revenge",
+    "type": "entity",
+    "aliases": [
+      "An Actor's Revenge"
+    ],
+    "source_docs": [
+      "an actor's revenge"
+    ]
+  },
+  {
+    "node_id": "n::an autumn afternoon",
+    "name": "An Autumn Afternoon",
+    "type": "entity",
+    "aliases": [
+      "An Autumn Afternoon"
+    ],
+    "source_docs": [
+      "an autumn afternoon"
+    ]
+  },
+  {
+    "node_id": "n::andrew davis",
+    "name": "Andrew Davis",
+    "type": "entity",
+    "aliases": [
+      "Andrew Davis"
+    ],
+    "source_docs": [
+      "above the law",
+      "steal big steal little"
+    ]
+  },
+  {
+    "node_id": "n::andrew divoff",
+    "name": "Andrew Divoff",
+    "type": "entity",
+    "aliases": [
+      "Andrew Divoff"
+    ],
+    "source_docs": [
+      "the rage",
+      "wishmaster"
+    ]
+  },
+  {
+    "node_id": "n::andrew traucki",
+    "name": "Andrew Traucki",
+    "type": "entity",
+    "aliases": [
+      "Andrew Traucki"
+    ],
+    "source_docs": [
+      "black water",
+      "the reef"
+    ]
+  },
+  {
+    "node_id": "n::animation",
+    "name": "Animation",
+    "type": "entity",
+    "aliases": [
+      "Animation"
+    ],
+    "source_docs": [
+      "a claymation christmas celebration"
+    ]
+  },
+  {
+    "node_id": "n::anna magnani",
+    "name": "Anna Magnani",
+    "type": "entity",
+    "aliases": [
+      "Anna Magnani"
+    ],
+    "source_docs": [
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::anna may wong",
+    "name": "Anna May Wong",
+    "type": "entity",
+    "aliases": [
+      "Anna May Wong"
+    ],
+    "source_docs": [
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::anne heche",
+    "name": "Anne Heche",
+    "type": "entity",
+    "aliases": [
+      "Anne Heche"
+    ],
+    "source_docs": [
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::anne sundberg",
+    "name": "Anne Sundberg",
+    "type": "entity",
+    "aliases": [
+      "Anne Sundberg"
+    ],
+    "source_docs": [
+      "the devil came on horseback"
+    ]
+  },
+  {
+    "node_id": "n::annie proulx",
+    "name": "Annie Proulx",
+    "type": "entity",
+    "aliases": [
+      "Annie Proulx"
+    ],
+    "source_docs": [
+      "brokeback mountain",
+      "the shipping news"
+    ]
+  },
+  {
+    "node_id": "n::anthony quinn",
+    "name": "Anthony Quinn",
+    "type": "entity",
+    "aliases": [
+      "Anthony Quinn"
+    ],
+    "source_docs": [
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::antonio moreno",
+    "name": "Antonio Moreno",
+    "type": "entity",
+    "aliases": [
+      "Antonio Moreno"
+    ],
+    "source_docs": [
+      "creature from the black lagoon",
+      "the temptress"
+    ]
+  },
+  {
+    "node_id": "n::antti tuuri",
+    "name": "Antti Tuuri",
+    "type": "entity",
+    "aliases": [
+      "Antti Tuuri"
+    ],
+    "source_docs": [
+      "ambush"
+    ]
+  },
+  {
+    "node_id": "n::any which way you can",
+    "name": "Any Which Way You Can",
+    "type": "entity",
+    "aliases": [
+      "Any Which Way You Can"
+    ],
+    "source_docs": [
+      "any which way you can"
+    ]
+  },
+  {
+    "node_id": "n::ariel vromen",
+    "name": "Ariel Vromen",
+    "type": "entity",
+    "aliases": [
+      "Ariel Vromen"
+    ],
+    "source_docs": [
+      "danika",
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::arne glimcher",
+    "name": "Arne Glimcher",
+    "type": "entity",
+    "aliases": [
+      "Arne Glimcher"
+    ],
+    "source_docs": [
+      "just cause",
+      "the mambo kings"
+    ]
+  },
+  {
+    "node_id": "n::aron gaudet",
+    "name": "Aron Gaudet",
+    "type": "entity",
+    "aliases": [
+      "Aron Gaudet"
+    ],
+    "source_docs": [
+      "beneath the harvest sky"
+    ]
+  },
+  {
+    "node_id": "n::arthur crabtree",
+    "name": "Arthur Crabtree",
+    "type": "entity",
+    "aliases": [
+      "Arthur Crabtree"
+    ],
+    "source_docs": [
+      "fiend without a face",
+      "madonna of the seven moons"
+    ]
+  },
+  {
+    "node_id": "n::arthur hiller",
+    "name": "Arthur Hiller",
+    "type": "entity",
+    "aliases": [
+      "Arthur Hiller"
+    ],
+    "source_docs": [
+      "nightwing"
+    ]
+  },
+  {
+    "node_id": "n::arthur wimperis",
+    "name": "Arthur Wimperis",
+    "type": "entity",
+    "aliases": [
+      "Arthur Wimperis"
+    ],
+    "source_docs": [
+      "the divorce of lady x"
+    ]
+  },
+  {
+    "node_id": "n::ashton holmes",
+    "name": "Ashton Holmes",
+    "type": "entity",
+    "aliases": [
+      "Ashton Holmes"
+    ],
+    "source_docs": [
+      "wind chill"
+    ]
+  },
+  {
+    "node_id": "n::avenue montaigne",
+    "name": "Avenue Montaigne",
+    "type": "entity",
+    "aliases": [
+      "Avenue Montaigne"
+    ],
+    "source_docs": [
+      "avenue montaigne"
+    ]
+  },
+  {
+    "node_id": "n::ayesha dharker",
+    "name": "Ayesha Dharker",
+    "type": "entity",
+    "aliases": [
+      "Ayesha Dharker"
+    ],
+    "source_docs": [
+      "loins of punjab presents",
+      "the terrorist"
+    ]
+  },
+  {
+    "node_id": "n::bad luck love",
+    "name": "Bad Luck Love",
+    "type": "entity",
+    "aliases": [
+      "Bad Luck Love"
+    ],
+    "source_docs": [
+      "bad luck love"
+    ]
+  },
+  {
+    "node_id": "n::bandit queen",
+    "name": "Bandit Queen",
+    "type": "entity",
+    "aliases": [
+      "Bandit Queen"
+    ],
+    "source_docs": [
+      "bandit queen"
+    ]
+  },
+  {
+    "node_id": "n::bandslam",
+    "name": "Bandslam",
+    "type": "entity",
+    "aliases": [
+      "Bandslam"
+    ],
+    "source_docs": [
+      "bandslam"
+    ]
+  },
+  {
+    "node_id": "n::barry battles",
+    "name": "Barry Battles",
+    "type": "entity",
+    "aliases": [
+      "Barry Battles"
+    ],
+    "source_docs": [
+      "the baytown outlaws"
+    ]
+  },
+  {
+    "node_id": "n::barry munday",
+    "name": "Barry Munday",
+    "type": "entity",
+    "aliases": [
+      "Barry Munday"
+    ],
+    "source_docs": [
+      "barry munday"
+    ]
+  },
+  {
+    "node_id": "n::barry watson",
+    "name": "Barry Watson",
+    "type": "entity",
+    "aliases": [
+      "Barry Watson"
+    ],
+    "source_docs": [
+      "my future boyfriend"
+    ]
+  },
+  {
+    "node_id": "n::basil dearden",
+    "name": "Basil Dearden",
+    "type": "entity",
+    "aliases": [
+      "Basil Dearden"
+    ],
+    "source_docs": [
+      "dead of night"
+    ]
+  },
+  {
+    "node_id": "n::ben maddow",
+    "name": "Ben Maddow",
+    "type": "entity",
+    "aliases": [
+      "Ben Maddow"
+    ],
+    "source_docs": [
+      "men in war",
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::ben nott",
+    "name": "Ben Nott",
+    "type": "entity",
+    "aliases": [
+      "Ben Nott"
+    ],
+    "source_docs": [
+      "drift"
+    ]
+  },
+  {
+    "node_id": "n::beneath the harvest sky",
+    "name": "Beneath the Harvest Sky",
+    "type": "entity",
+    "aliases": [
+      "Beneath the Harvest Sky"
+    ],
+    "source_docs": [
+      "beneath the harvest sky"
+    ]
+  },
+  {
+    "node_id": "n::bengt forslund",
+    "name": "Bengt Forslund",
+    "type": "entity",
+    "aliases": [
+      "Bengt Forslund"
+    ],
+    "source_docs": [
+      "the emigrants",
+      "the new land"
+    ]
+  },
+  {
+    "node_id": "n::bernardo bertolucci",
+    "name": "Bernardo Bertolucci",
+    "type": "entity",
+    "aliases": [
+      "Bernardo Bertolucci"
+    ],
+    "source_docs": [
+      "the triumph of love"
+    ]
+  },
+  {
+    "node_id": "n::bernie mac",
+    "name": "Bernie Mac",
+    "type": "entity",
+    "aliases": [
+      "Bernie Mac"
+    ],
+    "source_docs": [
+      "the original kings of comedy"
+    ]
+  },
+  {
+    "node_id": "n::bert i. gordon",
+    "name": "Bert I. Gordon",
+    "type": "entity",
+    "aliases": [
+      "Bert I. Gordon"
+    ],
+    "source_docs": [
+      "the boy and the pirates"
+    ]
+  },
+  {
+    "node_id": "n::bette gordon",
+    "name": "Bette Gordon",
+    "type": "entity",
+    "aliases": [
+      "Bette Gordon"
+    ],
+    "source_docs": [
+      "handsome harry"
+    ]
+  },
+  {
+    "node_id": "n::bette midler",
+    "name": "Bette Midler",
+    "type": "entity",
+    "aliases": [
+      "Bette Midler"
+    ],
+    "source_docs": [
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::beulah bondi",
+    "name": "Beulah Bondi",
+    "type": "entity",
+    "aliases": [
+      "Beulah Bondi"
+    ],
+    "source_docs": [
+      "street scene"
+    ]
+  },
+  {
+    "node_id": "n::big night",
+    "name": "Big Night",
+    "type": "entity",
+    "aliases": [
+      "Big Night"
+    ],
+    "source_docs": [
+      "big night"
+    ]
+  },
+  {
+    "node_id": "n::big stan",
+    "name": "Big Stan",
+    "type": "entity",
+    "aliases": [
+      "Big Stan"
+    ],
+    "source_docs": [
+      "big stan"
+    ]
+  },
+  {
+    "node_id": "n::bill kerby",
+    "name": "Bill Kerby",
+    "type": "entity",
+    "aliases": [
+      "Bill Kerby"
+    ],
+    "source_docs": [
+      "little richard",
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::bill moseley",
+    "name": "Bill Moseley",
+    "type": "entity",
+    "aliases": [
+      "Bill Moseley"
+    ],
+    "source_docs": [
+      "the devil's rejects",
+      "the texas chainsaw massacre 2"
+    ]
+  },
+  {
+    "node_id": "n::bing crosby",
+    "name": "Bing Crosby",
+    "type": "entity",
+    "aliases": [
+      "Bing Crosby"
+    ],
+    "source_docs": [
+      "road to singapore"
+    ]
+  },
+  {
+    "node_id": "n::bird people",
+    "name": "Bird People",
+    "type": "entity",
+    "aliases": [
+      "Bird People"
+    ],
+    "source_docs": [
+      "bird people"
+    ]
+  },
+  {
+    "node_id": "n::black moon rising",
+    "name": "Black Moon Rising",
+    "type": "entity",
+    "aliases": [
+      "Black Moon Rising"
+    ],
+    "source_docs": [
+      "black moon rising"
+    ]
+  },
+  {
+    "node_id": "n::black water",
+    "name": "Black Water",
+    "type": "entity",
+    "aliases": [
+      "Black Water"
+    ],
+    "source_docs": [
+      "black water"
+    ]
+  },
+  {
+    "node_id": "n::blitz",
+    "name": "Blitz",
+    "type": "entity",
+    "aliases": [
+      "Blitz"
+    ],
+    "source_docs": [
+      "blitz"
+    ]
+  },
+  {
+    "node_id": "n::blood river",
+    "name": "Blood River",
+    "type": "entity",
+    "aliases": [
+      "Blood River"
+    ],
+    "source_docs": [
+      "blood river"
+    ]
+  },
+  {
+    "node_id": "n::blue ruin",
+    "name": "Blue Ruin",
+    "type": "entity",
+    "aliases": [
+      "Blue Ruin"
+    ],
+    "source_docs": [
+      "blue ruin"
+    ]
+  },
+  {
+    "node_id": "n::bob hope",
+    "name": "Bob Hope",
+    "type": "entity",
+    "aliases": [
+      "Bob Hope"
+    ],
+    "source_docs": [
+      "road to singapore"
+    ]
+  },
+  {
+    "node_id": "n::bob odenkirk",
+    "name": "Bob Odenkirk",
+    "type": "entity",
+    "aliases": [
+      "Bob Odenkirk"
+    ],
+    "source_docs": [
+      "let's go to prison"
+    ]
+  },
+  {
+    "node_id": "n::bodyguards and assassins",
+    "name": "Bodyguards and Assassins",
+    "type": "entity",
+    "aliases": [
+      "Bodyguards and Assassins"
+    ],
+    "source_docs": [
+      "bodyguards and assassins"
+    ]
+  },
+  {
+    "node_id": "n::border incident",
+    "name": "Border Incident",
+    "type": "entity",
+    "aliases": [
+      "Border Incident"
+    ],
+    "source_docs": [
+      "border incident"
+    ]
+  },
+  {
+    "node_id": "n::boris karloff",
+    "name": "Boris Karloff",
+    "type": "entity",
+    "aliases": [
+      "Boris Karloff"
+    ],
+    "source_docs": [
+      "the lost patrol"
+    ]
+  },
+  {
+    "node_id": "n::boris sagal",
+    "name": "Boris Sagal",
+    "type": "entity",
+    "aliases": [
+      "Boris Sagal"
+    ],
+    "source_docs": [
+      "the omega man"
+    ]
+  },
+  {
+    "node_id": "n::brad ingelsby",
+    "name": "Brad Ingelsby",
+    "type": "entity",
+    "aliases": [
+      "Brad Ingelsby"
+    ],
+    "source_docs": [
+      "out of the furnace"
+    ]
+  },
+  {
+    "node_id": "n::breathing room",
+    "name": "Breathing Room",
+    "type": "entity",
+    "aliases": [
+      "Breathing Room"
+    ],
+    "source_docs": [
+      "breathing room"
+    ]
+  },
+  {
+    "node_id": "n::brenda de banzie",
+    "name": "Brenda de Banzie",
+    "type": "entity",
+    "aliases": [
+      "Brenda de Banzie"
+    ],
+    "source_docs": [
+      "hobson's choice",
+      "the mark"
+    ]
+  },
+  {
+    "node_id": "n::brian austin green",
+    "name": "Brian Austin Green",
+    "type": "entity",
+    "aliases": [
+      "Brian Austin Green"
+    ],
+    "source_docs": [
+      "this time around"
+    ]
+  },
+  {
+    "node_id": "n::brian taylor",
+    "name": "Brian Taylor",
+    "type": "entity",
+    "aliases": [
+      "Brian Taylor"
+    ],
+    "source_docs": [
+      "crank",
+      "gamer"
+    ]
+  },
+  {
+    "node_id": "n::briana evigan",
+    "name": "Briana Evigan",
+    "type": "entity",
+    "aliases": [
+      "Briana Evigan"
+    ],
+    "source_docs": [
+      "burning bright"
+    ]
+  },
+  {
+    "node_id": "n::brokeback mountain",
+    "name": "Brokeback Mountain",
+    "type": "entity",
+    "aliases": [
+      "Brokeback Mountain"
+    ],
+    "source_docs": [
+      "brokeback mountain"
+    ]
+  },
+  {
+    "node_id": "n::broken lullaby",
+    "name": "Broken Lullaby",
+    "type": "entity",
+    "aliases": [
+      "Broken Lullaby"
+    ],
+    "source_docs": [
+      "broken lullaby"
+    ]
+  },
+  {
+    "node_id": "n::brooklyn",
+    "name": "Brooklyn",
+    "type": "entity",
+    "aliases": [
+      "Brooklyn"
+    ],
+    "source_docs": [
+      "brooklyn"
+    ]
+  },
+  {
+    "node_id": "n::brother bear 2",
+    "name": "Brother Bear 2",
+    "type": "entity",
+    "aliases": [
+      "Brother Bear 2"
+    ],
+    "source_docs": [
+      "brother bear 2"
+    ]
+  },
+  {
+    "node_id": "n::bruce kimmel",
+    "name": "Bruce Kimmel",
+    "type": "entity",
+    "aliases": [
+      "Bruce Kimmel"
+    ],
+    "source_docs": [
+      "the creature wasn't nice",
+      "the first nudie musical"
+    ]
+  },
+  {
+    "node_id": "n::bryan gordon",
+    "name": "Bryan Gordon",
+    "type": "entity",
+    "aliases": [
+      "Bryan Gordon"
+    ],
+    "source_docs": [
+      "career opportunities",
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::bunny and the bull",
+    "name": "Bunny and the Bull",
+    "type": "entity",
+    "aliases": [
+      "Bunny and the Bull"
+    ],
+    "source_docs": [
+      "bunny and the bull"
+    ]
+  },
+  {
+    "node_id": "n::burning bright",
+    "name": "Burning Bright",
+    "type": "entity",
+    "aliases": [
+      "Burning Bright"
+    ],
+    "source_docs": [
+      "burning bright"
+    ]
+  },
+  {
+    "node_id": "n::burr debenning",
+    "name": "Burr DeBenning",
+    "type": "entity",
+    "aliases": [
+      "Burr DeBenning"
+    ],
+    "source_docs": [
+      "the incredible melting man"
+    ]
+  },
+  {
+    "node_id": "n::byambasuren davaa",
+    "name": "Byambasuren Davaa",
+    "type": "entity",
+    "aliases": [
+      "Byambasuren Davaa"
+    ],
+    "source_docs": [
+      "the cave of the yellow dog",
+      "the story of the weeping camel"
+    ]
+  },
+  {
+    "node_id": "n::cabin in the sky",
+    "name": "Cabin in the Sky",
+    "type": "entity",
+    "aliases": [
+      "Cabin in the Sky"
+    ],
+    "source_docs": [
+      "cabin in the sky"
+    ]
+  },
+  {
+    "node_id": "n::caesar and cleopatra",
+    "name": "Caesar and Cleopatra",
+    "type": "entity",
+    "aliases": [
+      "Caesar and Cleopatra"
+    ],
+    "source_docs": [
+      "caesar and cleopatra"
+    ]
+  },
+  {
+    "node_id": "n::campbell scott",
+    "name": "Campbell Scott",
+    "type": "entity",
+    "aliases": [
+      "Campbell Scott"
+    ],
+    "source_docs": [
+      "big night",
+      "off the map"
+    ]
+  },
+  {
+    "node_id": "n::car 54, where are you?",
+    "name": "Car 54, Where Are You?",
+    "type": "entity",
+    "aliases": [
+      "Car 54, Where Are You?"
+    ],
+    "source_docs": [
+      "car 54, where are you?"
+    ]
+  },
+  {
+    "node_id": "n::career opportunities",
+    "name": "Career Opportunities",
+    "type": "entity",
+    "aliases": [
+      "Career Opportunities"
+    ],
+    "source_docs": [
+      "career opportunities"
+    ]
+  },
+  {
+    "node_id": "n::carl gottlieb",
+    "name": "Carl Gottlieb",
+    "type": "entity",
+    "aliases": [
+      "Carl Gottlieb"
+    ],
+    "source_docs": [
+      "amazon women on the moon",
+      "caveman"
+    ]
+  },
+  {
+    "node_id": "n::carl lumbly",
+    "name": "Carl Lumbly",
+    "type": "entity",
+    "aliases": [
+      "Carl Lumbly"
+    ],
+    "source_docs": [
+      "little richard"
+    ]
+  },
+  {
+    "node_id": "n::carlos brooks",
+    "name": "Carlos Brooks",
+    "type": "entity",
+    "aliases": [
+      "Carlos Brooks"
+    ],
+    "source_docs": [
+      "burning bright",
+      "quid pro quo"
+    ]
+  },
+  {
+    "node_id": "n::carlos diegues",
+    "name": "Carlos Diegues",
+    "type": "entity",
+    "aliases": [
+      "Carlos Diegues"
+    ],
+    "source_docs": [
+      "god is brazilian",
+      "orfeu"
+    ]
+  },
+  {
+    "node_id": "n::carly pope",
+    "name": "Carly Pope",
+    "type": "entity",
+    "aliases": [
+      "Carly Pope"
+    ],
+    "source_docs": [
+      "this time around"
+    ]
+  },
+  {
+    "node_id": "n::carmen",
+    "name": "Carmen",
+    "type": "entity",
+    "aliases": [
+      "Carmen"
+    ],
+    "source_docs": [
+      "carmen"
+    ]
+  },
+  {
+    "node_id": "n::carolina moon",
+    "name": "Carolina Moon",
+    "type": "entity",
+    "aliases": [
+      "Carolina Moon"
+    ],
+    "source_docs": [
+      "carolina moon"
+    ]
+  },
+  {
+    "node_id": "n::caroline dhavernas",
+    "name": "Caroline Dhavernas",
+    "type": "entity",
+    "aliases": [
+      "Caroline Dhavernas"
+    ],
+    "source_docs": [
+      "father and guns",
+      "these girls"
+    ]
+  },
+  {
+    "node_id": "n::cary grant",
+    "name": "Cary Grant",
+    "type": "entity",
+    "aliases": [
+      "Cary Grant"
+    ],
+    "source_docs": [
+      "hot saturday"
+    ]
+  },
+  {
+    "node_id": "n::cashback",
+    "name": "Cashback",
+    "type": "entity",
+    "aliases": [
+      "Cashback"
+    ],
+    "source_docs": [
+      "cashback"
+    ]
+  },
+  {
+    "node_id": "n::caught up",
+    "name": "Caught Up",
+    "type": "entity",
+    "aliases": [
+      "Caught Up"
+    ],
+    "source_docs": [
+      "caught up"
+    ]
+  },
+  {
+    "node_id": "n::cavalcade",
+    "name": "Cavalcade",
+    "type": "entity",
+    "aliases": [
+      "Cavalcade"
+    ],
+    "source_docs": [
+      "cavalcade"
+    ]
+  },
+  {
+    "node_id": "n::caveman",
+    "name": "Caveman",
+    "type": "entity",
+    "aliases": [
+      "Caveman"
+    ],
+    "source_docs": [
+      "caveman"
+    ]
+  },
+  {
+    "node_id": "n::cedric the entertainer",
+    "name": "Cedric the Entertainer",
+    "type": "entity",
+    "aliases": [
+      "Cedric the Entertainer"
+    ],
+    "source_docs": [
+      "the original kings of comedy"
+    ]
+  },
+  {
+    "node_id": "n::chantal akerman",
+    "name": "Chantal Akerman",
+    "type": "entity",
+    "aliases": [
+      "Chantal Akerman"
+    ],
+    "source_docs": [
+      "a couch in new york",
+      "news from home"
+    ]
+  },
+  {
+    "node_id": "n::charles crichton",
+    "name": "Charles Crichton",
+    "type": "entity",
+    "aliases": [
+      "Charles Crichton"
+    ],
+    "source_docs": [
+      "dead of night"
+    ]
+  },
+  {
+    "node_id": "n::charles e. israel",
+    "name": "Charles E. Israel",
+    "type": "entity",
+    "aliases": [
+      "Charles E. Israel"
+    ],
+    "source_docs": [
+      "the mark"
+    ]
+  },
+  {
+    "node_id": "n::charles herbert",
+    "name": "Charles Herbert",
+    "type": "entity",
+    "aliases": [
+      "Charles Herbert"
+    ],
+    "source_docs": [
+      "13 ghosts",
+      "the boy and the pirates"
+    ]
+  },
+  {
+    "node_id": "n::charles kaufman",
+    "name": "Charles Kaufman",
+    "type": "entity",
+    "aliases": [
+      "Charles Kaufman"
+    ],
+    "source_docs": [
+      "the story of esther costello"
+    ]
+  },
+  {
+    "node_id": "n::charles macarthur",
+    "name": "Charles MacArthur",
+    "type": "entity",
+    "aliases": [
+      "Charles MacArthur"
+    ],
+    "source_docs": [
+      "the sin of madelon claudet"
+    ]
+  },
+  {
+    "node_id": "n::charles martin",
+    "name": "Charles Martin",
+    "type": "entity",
+    "aliases": [
+      "Charles Martin"
+    ],
+    "source_docs": [
+      "i'll be seeing you",
+      "my dear secretary"
+    ]
+  },
+  {
+    "node_id": "n::charlie tahan",
+    "name": "Charlie Tahan",
+    "type": "entity",
+    "aliases": [
+      "Charlie Tahan"
+    ],
+    "source_docs": [
+      "burning bright"
+    ]
+  },
+  {
+    "node_id": "n::charly",
+    "name": "Charly",
+    "type": "entity",
+    "aliases": [
+      "Charly"
+    ],
+    "source_docs": [
+      "charly"
+    ]
+  },
+  {
+    "node_id": "n::cherry falls",
+    "name": "Cherry Falls",
+    "type": "entity",
+    "aliases": [
+      "Cherry Falls"
+    ],
+    "source_docs": [
+      "cherry falls"
+    ]
+  },
+  {
+    "node_id": "n::cheryl ladd",
+    "name": "Cheryl Ladd",
+    "type": "entity",
+    "aliases": [
+      "Cheryl Ladd"
+    ],
+    "source_docs": [
+      "millennium",
+      "poison ivy"
+    ]
+  },
+  {
+    "node_id": "n::chi mcbride",
+    "name": "Chi McBride",
+    "type": "entity",
+    "aliases": [
+      "Chi McBride"
+    ],
+    "source_docs": [
+      "let's go to prison",
+      "roll bounce"
+    ]
+  },
+  {
+    "node_id": "n::chillerama",
+    "name": "Chillerama",
+    "type": "entity",
+    "aliases": [
+      "Chillerama"
+    ],
+    "source_docs": [
+      "chillerama"
+    ]
+  },
+  {
+    "node_id": "n::chloë sevigny",
+    "name": "Chloë Sevigny",
+    "type": "entity",
+    "aliases": [
+      "Chloë Sevigny"
+    ],
+    "source_docs": [
+      "barry munday"
+    ]
+  },
+  {
+    "node_id": "n::chris d'arienzo",
+    "name": "Chris D'Arienzo",
+    "type": "entity",
+    "aliases": [
+      "Chris D'Arienzo"
+    ],
+    "source_docs": [
+      "barry munday",
+      "rock of ages"
+    ]
+  },
+  {
+    "node_id": "n::chris evans",
+    "name": "Chris Evans",
+    "type": "entity",
+    "aliases": [
+      "Chris Evans"
+    ],
+    "source_docs": [
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::chris menges",
+    "name": "Chris Menges",
+    "type": "entity",
+    "aliases": [
+      "Chris Menges"
+    ],
+    "source_docs": [
+      "crisscross"
+    ]
+  },
+  {
+    "node_id": "n::chris parnell",
+    "name": "Chris Parnell",
+    "type": "entity",
+    "aliases": [
+      "Chris Parnell"
+    ],
+    "source_docs": [
+      "labor pains"
+    ]
+  },
+  {
+    "node_id": "n::christine lahti",
+    "name": "Christine Lahti",
+    "type": "entity",
+    "aliases": [
+      "Christine Lahti"
+    ],
+    "source_docs": [
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::christmas eve",
+    "name": "Christmas Eve",
+    "type": "entity",
+    "aliases": [
+      "Christmas Eve"
+    ],
+    "source_docs": [
+      "christmas eve"
+    ]
+  },
+  {
+    "node_id": "n::chrystine brouillet",
+    "name": "Chrystine Brouillet",
+    "type": "entity",
+    "aliases": [
+      "Chrystine Brouillet"
+    ],
+    "source_docs": [
+      "good neighbors"
+    ]
+  },
+  {
+    "node_id": "n::chuck hustmyre",
+    "name": "Chuck Hustmyre",
+    "type": "entity",
+    "aliases": [
+      "Chuck Hustmyre"
+    ],
+    "source_docs": [
+      "house of the rising sun"
+    ]
+  },
+  {
+    "node_id": "n::chuck norris",
+    "name": "Chuck Norris",
+    "type": "entity",
+    "aliases": [
+      "Chuck Norris"
+    ],
+    "source_docs": [
+      "a force of one"
+    ]
+  },
+  {
+    "node_id": "n::cid ricketts sumner",
+    "name": "Cid Ricketts Sumner",
+    "type": "entity",
+    "aliases": [
+      "Cid Ricketts Sumner"
+    ],
+    "source_docs": [
+      "pinky"
+    ]
+  },
+  {
+    "node_id": "n::claire bloom",
+    "name": "Claire Bloom",
+    "type": "entity",
+    "aliases": [
+      "Claire Bloom"
+    ],
+    "source_docs": [
+      "charly"
+    ]
+  },
+  {
+    "node_id": "n::clara bingham",
+    "name": "Clara Bingham",
+    "type": "entity",
+    "aliases": [
+      "Clara Bingham"
+    ],
+    "source_docs": [
+      "north country"
+    ]
+  },
+  {
+    "node_id": "n::clare peploe",
+    "name": "Clare Peploe",
+    "type": "entity",
+    "aliases": [
+      "Clare Peploe"
+    ],
+    "source_docs": [
+      "rough magic",
+      "the triumph of love"
+    ]
+  },
+  {
+    "node_id": "n::clayne crawford",
+    "name": "Clayne Crawford",
+    "type": "entity",
+    "aliases": [
+      "Clayne Crawford"
+    ],
+    "source_docs": [
+      "the baytown outlaws",
+      "the perfect host"
+    ]
+  },
+  {
+    "node_id": "n::cleavant derricks",
+    "name": "Cleavant Derricks",
+    "type": "entity",
+    "aliases": [
+      "Cleavant Derricks"
+    ],
+    "source_docs": [
+      "moscow on the hudson",
+      "off beat"
+    ]
+  },
+  {
+    "node_id": "n::cliff gorman",
+    "name": "Cliff Gorman",
+    "type": "entity",
+    "aliases": [
+      "Cliff Gorman"
+    ],
+    "source_docs": [
+      "king of the jungle",
+      "the boys in the band"
+    ]
+  },
+  {
+    "node_id": "n::cliff robertson",
+    "name": "Cliff Robertson",
+    "type": "entity",
+    "aliases": [
+      "Cliff Robertson"
+    ],
+    "source_docs": [
+      "charly"
+    ]
+  },
+  {
+    "node_id": "n::clint eastwood",
+    "name": "Clint Eastwood",
+    "type": "entity",
+    "aliases": [
+      "Clint Eastwood"
+    ],
+    "source_docs": [
+      "any which way you can",
+      "thunderbolt and lightfoot"
+    ]
+  },
+  {
+    "node_id": "n::clive brook",
+    "name": "Clive Brook",
+    "type": "entity",
+    "aliases": [
+      "Clive Brook"
+    ],
+    "source_docs": [
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::clu gulager",
+    "name": "Clu Gulager",
+    "type": "entity",
+    "aliases": [
+      "Clu Gulager"
+    ],
+    "source_docs": [
+      "a force of one"
+    ]
+  },
+  {
+    "node_id": "n::colin farrell",
+    "name": "Colin Farrell",
+    "type": "entity",
+    "aliases": [
+      "Colin Farrell"
+    ],
+    "source_docs": [
+      "london boulevard"
+    ]
+  },
+  {
+    "node_id": "n::coma",
+    "name": "Coma",
+    "type": "entity",
+    "aliases": [
+      "Coma"
+    ],
+    "source_docs": [
+      "coma"
+    ]
+  },
+  {
+    "node_id": "n::comedy",
+    "name": "Comedy",
+    "type": "entity",
+    "aliases": [
+      "Comedy"
+    ],
+    "source_docs": [
+      "a film with me in it",
+      "big stan",
+      "bunny and the bull",
+      "car 54, where are you?",
+      "christmas eve",
+      "friends with kids",
+      "henry's crime",
+      "it's pat",
+      "kissing jessica stein",
+      "let it ride",
+      "loaded weapon 1",
+      "moms' night out",
+      "paddington",
+      "six ways to sunday",
+      "the internship",
+      "the texas chainsaw massacre 2",
+      "the watch",
+      "turtle diary",
+      "why me?"
+    ]
+  },
+  {
+    "node_id": "n::comin' at ya!",
+    "name": "Comin' at Ya!",
+    "type": "entity",
+    "aliases": [
+      "Comin' at Ya!"
+    ],
+    "source_docs": [
+      "comin' at ya!"
+    ]
+  },
+  {
+    "node_id": "n::command performance",
+    "name": "Command Performance",
+    "type": "entity",
+    "aliases": [
+      "Command Performance"
+    ],
+    "source_docs": [
+      "command performance"
+    ]
+  },
+  {
+    "node_id": "n::confessions of a teenage drama queen",
+    "name": "Confessions of a Teenage Drama Queen",
+    "type": "entity",
+    "aliases": [
+      "Confessions of a Teenage Drama Queen"
+    ],
+    "source_docs": [
+      "confessions of a teenage drama queen"
+    ]
+  },
+  {
+    "node_id": "n::cooking with stella",
+    "name": "Cooking with Stella",
+    "type": "entity",
+    "aliases": [
+      "Cooking with Stella"
+    ],
+    "source_docs": [
+      "cooking with stella"
+    ]
+  },
+  {
+    "node_id": "n::cornelius ryan",
+    "name": "Cornelius Ryan",
+    "type": "entity",
+    "aliases": [
+      "Cornelius Ryan"
+    ],
+    "source_docs": [
+      "a bridge too far",
+      "the longest day"
+    ]
+  },
+  {
+    "node_id": "n::cornell woolrich",
+    "name": "Cornell Woolrich",
+    "type": "entity",
+    "aliases": [
+      "Cornell Woolrich"
+    ],
+    "source_docs": [
+      "the window"
+    ]
+  },
+  {
+    "node_id": "n::counsellor at law",
+    "name": "Counsellor at Law",
+    "type": "entity",
+    "aliases": [
+      "Counsellor at Law"
+    ],
+    "source_docs": [
+      "counsellor at law"
+    ]
+  },
+  {
+    "node_id": "n::craig rosenberg",
+    "name": "Craig Rosenberg",
+    "type": "entity",
+    "aliases": [
+      "Craig Rosenberg"
+    ],
+    "source_docs": [
+      "half light",
+      "hotel de love"
+    ]
+  },
+  {
+    "node_id": "n::crank",
+    "name": "Crank",
+    "type": "entity",
+    "aliases": [
+      "Crank"
+    ],
+    "source_docs": [
+      "crank"
+    ]
+  },
+  {
+    "node_id": "n::crazy heart",
+    "name": "Crazy Heart",
+    "type": "entity",
+    "aliases": [
+      "Crazy Heart"
+    ],
+    "source_docs": [
+      "crazy heart"
+    ]
+  },
+  {
+    "node_id": "n::creature from the black lagoon",
+    "name": "Creature from the Black Lagoon",
+    "type": "entity",
+    "aliases": [
+      "Creature from the Black Lagoon"
+    ],
+    "source_docs": [
+      "creature from the black lagoon"
+    ]
+  },
+  {
+    "node_id": "n::crime",
+    "name": "Crime",
+    "type": "entity",
+    "aliases": [
+      "Crime"
+    ],
+    "source_docs": [
+      "44 inch chest",
+      "henry's crime",
+      "loaded weapon 1",
+      "no man's land",
+      "the craigslist killer"
+    ]
+  },
+  {
+    "node_id": "n::criminal",
+    "name": "Criminal",
+    "type": "entity",
+    "aliases": [
+      "Criminal"
+    ],
+    "source_docs": [
+      "criminal"
+    ]
+  },
+  {
+    "node_id": "n::crisscross",
+    "name": "CrissCross",
+    "type": "entity",
+    "aliases": [
+      "CrissCross"
+    ],
+    "source_docs": [
+      "crisscross"
+    ]
+  },
+  {
+    "node_id": "n::cross creek",
+    "name": "Cross Creek",
+    "type": "entity",
+    "aliases": [
+      "Cross Creek"
+    ],
+    "source_docs": [
+      "cross creek"
+    ]
+  },
+  {
+    "node_id": "n::csny/déjà vu",
+    "name": "CSNY/Déjà Vu",
+    "type": "entity",
+    "aliases": [
+      "CSNY/Déjà Vu"
+    ],
+    "source_docs": [
+      "csny/déjà vu"
+    ]
+  },
+  {
+    "node_id": "n::d. david morin",
+    "name": "D. David Morin",
+    "type": "entity",
+    "aliases": [
+      "D. David Morin"
+    ],
+    "source_docs": [
+      "time changer"
+    ]
+  },
+  {
+    "node_id": "n::d.l. hughley",
+    "name": "D.L. Hughley",
+    "type": "entity",
+    "aliases": [
+      "D.L. Hughley"
+    ],
+    "source_docs": [
+      "the brothers",
+      "the original kings of comedy"
+    ]
+  },
+  {
+    "node_id": "n::dan mccall",
+    "name": "Dan McCall",
+    "type": "entity",
+    "aliases": [
+      "Dan McCall"
+    ],
+    "source_docs": [
+      "jack the bear"
+    ]
+  },
+  {
+    "node_id": "n::dangerous beauty",
+    "name": "Dangerous Beauty",
+    "type": "entity",
+    "aliases": [
+      "Dangerous Beauty"
+    ],
+    "source_docs": [
+      "dangerous beauty"
+    ]
+  },
+  {
+    "node_id": "n::dangerous ground",
+    "name": "Dangerous Ground",
+    "type": "entity",
+    "aliases": [
+      "Dangerous Ground"
+    ],
+    "source_docs": [
+      "dangerous ground"
+    ]
+  },
+  {
+    "node_id": "n::danika",
+    "name": "Danika",
+    "type": "entity",
+    "aliases": [
+      "Danika"
+    ],
+    "source_docs": [
+      "danika"
+    ]
+  },
+  {
+    "node_id": "n::danish",
+    "name": "Danish",
+    "type": "entity",
+    "aliases": [
+      "Danish"
+    ],
+    "source_docs": [
+      "the five obstructions"
+    ]
+  },
+  {
+    "node_id": "n::danièle thompson",
+    "name": "Danièle Thompson",
+    "type": "entity",
+    "aliases": [
+      "Danièle Thompson"
+    ],
+    "source_docs": [
+      "avenue montaigne",
+      "jet lag"
+    ]
+  },
+  {
+    "node_id": "n::dany boon",
+    "name": "Dany Boon",
+    "type": "entity",
+    "aliases": [
+      "Dany Boon"
+    ],
+    "source_docs": [
+      "nothing to declare",
+      "supercondriaque"
+    ]
+  },
+  {
+    "node_id": "n::darin scott",
+    "name": "Darin Scott",
+    "type": "entity",
+    "aliases": [
+      "Darin Scott"
+    ],
+    "source_docs": [
+      "caught up",
+      "dark house"
+    ]
+  },
+  {
+    "node_id": "n::dark house",
+    "name": "Dark House",
+    "type": "entity",
+    "aliases": [
+      "Dark House"
+    ],
+    "source_docs": [
+      "dark house"
+    ]
+  },
+  {
+    "node_id": "n::dark mirror",
+    "name": "Dark Mirror",
+    "type": "entity",
+    "aliases": [
+      "Dark Mirror"
+    ],
+    "source_docs": [
+      "dark mirror"
+    ]
+  },
+  {
+    "node_id": "n::darrell roodt",
+    "name": "Darrell Roodt",
+    "type": "entity",
+    "aliases": [
+      "Darrell Roodt"
+    ],
+    "source_docs": [
+      "dangerous ground",
+      "yesterday"
+    ]
+  },
+  {
+    "node_id": "n::dave bautista",
+    "name": "Dave Bautista",
+    "type": "entity",
+    "aliases": [
+      "Dave Bautista"
+    ],
+    "source_docs": [
+      "guardians of the galaxy",
+      "house of the rising sun"
+    ]
+  },
+  {
+    "node_id": "n::david arnott",
+    "name": "David Arnott",
+    "type": "entity",
+    "aliases": [
+      "David Arnott"
+    ],
+    "source_docs": [
+      "crisscross",
+      "the last man"
+    ]
+  },
+  {
+    "node_id": "n::david greenwalt",
+    "name": "David Greenwalt",
+    "type": "entity",
+    "aliases": [
+      "David Greenwalt"
+    ],
+    "source_docs": [
+      "rude awakening",
+      "secret admirer"
+    ]
+  },
+  {
+    "node_id": "n::david johansen",
+    "name": "David Johansen",
+    "type": "entity",
+    "aliases": [
+      "David Johansen"
+    ],
+    "source_docs": [
+      "car 54, where are you?",
+      "let it ride"
+    ]
+  },
+  {
+    "node_id": "n::david lean",
+    "name": "David Lean",
+    "type": "entity",
+    "aliases": [
+      "David Lean"
+    ],
+    "source_docs": [
+      "hobson's choice"
+    ]
+  },
+  {
+    "node_id": "n::david muñoz",
+    "name": "David Muñoz",
+    "type": "entity",
+    "aliases": [
+      "David Muñoz"
+    ],
+    "source_docs": [
+      "exorcismus",
+      "the devil's backbone"
+    ]
+  },
+  {
+    "node_id": "n::david nerlich",
+    "name": "David Nerlich",
+    "type": "entity",
+    "aliases": [
+      "David Nerlich"
+    ],
+    "source_docs": [
+      "black water"
+    ]
+  },
+  {
+    "node_id": "n::dead of night",
+    "name": "Dead of Night",
+    "type": "entity",
+    "aliases": [
+      "Dead of Night"
+    ],
+    "source_docs": [
+      "dead of night"
+    ]
+  },
+  {
+    "node_id": "n::dean stockwell",
+    "name": "Dean Stockwell",
+    "type": "entity",
+    "aliases": [
+      "Dean Stockwell"
+    ],
+    "source_docs": [
+      "human highway"
+    ]
+  },
+  {
+    "node_id": "n::deepa mehta",
+    "name": "Deepa Mehta",
+    "type": "entity",
+    "aliases": [
+      "Deepa Mehta"
+    ],
+    "source_docs": [
+      "cooking with stella"
+    ]
+  },
+  {
+    "node_id": "n::dennis hopper",
+    "name": "Dennis Hopper",
+    "type": "entity",
+    "aliases": [
+      "Dennis Hopper"
+    ],
+    "source_docs": [
+      "human highway"
+    ]
+  },
+  {
+    "node_id": "n::deuces wild",
+    "name": "Deuces Wild",
+    "type": "entity",
+    "aliases": [
+      "Deuces Wild"
+    ],
+    "source_docs": [
+      "deuces wild"
+    ]
+  },
+  {
+    "node_id": "n::diana ossana",
+    "name": "Diana Ossana",
+    "type": "entity",
+    "aliases": [
+      "Diana Ossana"
+    ],
+    "source_docs": [
+      "brokeback mountain"
+    ]
+  },
+  {
+    "node_id": "n::diary of a lost girl",
+    "name": "Diary of a Lost Girl",
+    "type": "entity",
+    "aliases": [
+      "Diary of a Lost Girl"
+    ],
+    "source_docs": [
+      "diary of a lost girl"
+    ]
+  },
+  {
+    "node_id": "n::diary of a wimpy kid",
+    "name": "Diary of a Wimpy Kid",
+    "type": "entity",
+    "aliases": [
+      "Diary of a Wimpy Kid"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid"
+    ]
+  },
+  {
+    "node_id": "n::dick richards",
+    "name": "Dick Richards",
+    "type": "entity",
+    "aliases": [
+      "Dick Richards"
+    ],
+    "source_docs": [
+      "farewell, my lovely",
+      "march or die"
+    ]
+  },
+  {
+    "node_id": "n::diego boneta",
+    "name": "Diego Boneta",
+    "type": "entity",
+    "aliases": [
+      "Diego Boneta"
+    ],
+    "source_docs": [
+      "rock of ages"
+    ]
+  },
+  {
+    "node_id": "n::diego luna",
+    "name": "Diego Luna",
+    "type": "entity",
+    "aliases": [
+      "Diego Luna"
+    ],
+    "source_docs": [
+      "criminal"
+    ]
+  },
+  {
+    "node_id": "n::dilip mehta",
+    "name": "Dilip Mehta",
+    "type": "entity",
+    "aliases": [
+      "Dilip Mehta"
+    ],
+    "source_docs": [
+      "cooking with stella"
+    ]
+  },
+  {
+    "node_id": "n::dolph lundgren",
+    "name": "Dolph Lundgren",
+    "type": "entity",
+    "aliases": [
+      "Dolph Lundgren"
+    ],
+    "source_docs": [
+      "command performance",
+      "missionary man"
+    ]
+  },
+  {
+    "node_id": "n::don cheadle",
+    "name": "Don Cheadle",
+    "type": "entity",
+    "aliases": [
+      "Don Cheadle"
+    ],
+    "source_docs": [
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::dorothy lamour",
+    "name": "Dorothy Lamour",
+    "type": "entity",
+    "aliases": [
+      "Dorothy Lamour"
+    ],
+    "source_docs": [
+      "road to singapore"
+    ]
+  },
+  {
+    "node_id": "n::double suicide",
+    "name": "Double Suicide",
+    "type": "entity",
+    "aliases": [
+      "Double Suicide"
+    ],
+    "source_docs": [
+      "double suicide"
+    ]
+  },
+  {
+    "node_id": "n::drama",
+    "name": "Drama",
+    "type": "entity",
+    "aliases": [
+      "Drama"
+    ],
+    "source_docs": [
+      "44 inch chest",
+      "hawaii, oslo",
+      "joe the king",
+      "october baby",
+      "poison ivy",
+      "the craigslist killer",
+      "the forgiveness of blood",
+      "the goddess",
+      "the jimmy show",
+      "the last valley",
+      "the story of the weeping camel",
+      "to sir, with love",
+      "turtle diary",
+      "up periscope",
+      "w.e.",
+      "warrior",
+      "ways to live forever"
+    ]
+  },
+  {
+    "node_id": "n::dream demon",
+    "name": "Dream Demon",
+    "type": "entity",
+    "aliases": [
+      "Dream Demon"
+    ],
+    "source_docs": [
+      "dream demon"
+    ]
+  },
+  {
+    "node_id": "n::drift",
+    "name": "Drift",
+    "type": "entity",
+    "aliases": [
+      "Drift"
+    ],
+    "source_docs": [
+      "drift"
+    ]
+  },
+  {
+    "node_id": "n::dudley nichols",
+    "name": "Dudley Nichols",
+    "type": "entity",
+    "aliases": [
+      "Dudley Nichols"
+    ],
+    "source_docs": [
+      "mourning becomes electra",
+      "pinky",
+      "sister kenny"
+    ]
+  },
+  {
+    "node_id": "n::dylan moran",
+    "name": "Dylan Moran",
+    "type": "entity",
+    "aliases": [
+      "Dylan Moran"
+    ],
+    "source_docs": [
+      "a film with me in it",
+      "good vibrations"
+    ]
+  },
+  {
+    "node_id": "n::dédée d'anvers",
+    "name": "Dédée d'Anvers",
+    "type": "entity",
+    "aliases": [
+      "Dédée d'Anvers"
+    ],
+    "source_docs": [
+      "dédée d'anvers"
+    ]
+  },
+  {
+    "node_id": "n::edgar selwyn",
+    "name": "Edgar Selwyn",
+    "type": "entity",
+    "aliases": [
+      "Edgar Selwyn"
+    ],
+    "source_docs": [
+      "skyscraper souls",
+      "the sin of madelon claudet"
+    ]
+  },
+  {
+    "node_id": "n::edna l. lee",
+    "name": "Edna L. Lee",
+    "type": "entity",
+    "aliases": [
+      "Edna L. Lee"
+    ],
+    "source_docs": [
+      "all that heaven allows",
+      "queen bee"
+    ]
+  },
+  {
+    "node_id": "n::edward knoblock",
+    "name": "Edward Knoblock",
+    "type": "entity",
+    "aliases": [
+      "Edward Knoblock"
+    ],
+    "source_docs": [
+      "the sin of madelon claudet"
+    ]
+  },
+  {
+    "node_id": "n::elmer rice",
+    "name": "Elmer Rice",
+    "type": "entity",
+    "aliases": [
+      "Elmer Rice"
+    ],
+    "source_docs": [
+      "counsellor at law",
+      "street scene"
+    ]
+  },
+  {
+    "node_id": "n::emilia fox",
+    "name": "Emilia Fox",
+    "type": "entity",
+    "aliases": [
+      "Emilia Fox"
+    ],
+    "source_docs": [
+      "cashback",
+      "ways to live forever"
+    ]
+  },
+  {
+    "node_id": "n::emily blunt",
+    "name": "Emily Blunt",
+    "type": "entity",
+    "aliases": [
+      "Emily Blunt"
+    ],
+    "source_docs": [
+      "wind chill"
+    ]
+  },
+  {
+    "node_id": "n::emma roberts",
+    "name": "Emma Roberts",
+    "type": "entity",
+    "aliases": [
+      "Emma Roberts"
+    ],
+    "source_docs": [
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::emmet otter's jug-band christmas",
+    "name": "Emmet Otter's Jug-Band Christmas",
+    "type": "entity",
+    "aliases": [
+      "Emmet Otter's Jug-Band Christmas"
+    ],
+    "source_docs": [
+      "emmet otter's jug-band christmas"
+    ]
+  },
+  {
+    "node_id": "n::emory cohen",
+    "name": "Emory Cohen",
+    "type": "entity",
+    "aliases": [
+      "Emory Cohen"
+    ],
+    "source_docs": [
+      "beneath the harvest sky",
+      "brooklyn"
+    ]
+  },
+  {
+    "node_id": "n::english",
+    "name": "English",
+    "type": "entity",
+    "aliases": [
+      "English"
+    ],
+    "source_docs": [
+      "broken lullaby",
+      "dédée d'anvers",
+      "girl on a bicycle",
+      "late phases",
+      "night train to lisbon",
+      "the mambo kings",
+      "zambezia"
+    ]
+  },
+  {
+    "node_id": "n::enzo barboni",
+    "name": "Enzo Barboni",
+    "type": "entity",
+    "aliases": [
+      "Enzo Barboni"
+    ],
+    "source_docs": [
+      "even angels eat beans",
+      "man of the east"
+    ]
+  },
+  {
+    "node_id": "n::eric garcia",
+    "name": "Eric Garcia",
+    "type": "entity",
+    "aliases": [
+      "Eric Garcia"
+    ],
+    "source_docs": [
+      "matchstick men",
+      "repo men"
+    ]
+  },
+  {
+    "node_id": "n::erik poppe",
+    "name": "Erik Poppe",
+    "type": "entity",
+    "aliases": [
+      "Erik Poppe"
+    ],
+    "source_docs": [
+      "hawaii, oslo",
+      "troubled water"
+    ]
+  },
+  {
+    "node_id": "n::erin brown",
+    "name": "Erin Brown",
+    "type": "entity",
+    "aliases": [
+      "Erin Brown"
+    ],
+    "source_docs": [
+      "the rage"
+    ]
+  },
+  {
+    "node_id": "n::ernest borgnine",
+    "name": "Ernest Borgnine",
+    "type": "entity",
+    "aliases": [
+      "Ernest Borgnine"
+    ],
+    "source_docs": [
+      "pay or die"
+    ]
+  },
+  {
+    "node_id": "n::ernst lubitsch",
+    "name": "Ernst Lubitsch",
+    "type": "entity",
+    "aliases": [
+      "Ernst Lubitsch"
+    ],
+    "source_docs": [
+      "i don't want to be a man",
+      "if i had a million"
+    ]
+  },
+  {
+    "node_id": "n::escape",
+    "name": "Escape",
+    "type": "entity",
+    "aliases": [
+      "Escape"
+    ],
+    "source_docs": [
+      "escape"
+    ]
+  },
+  {
+    "node_id": "n::estelle taylor",
+    "name": "Estelle Taylor",
+    "type": "entity",
+    "aliases": [
+      "Estelle Taylor"
+    ],
+    "source_docs": [
+      "street scene"
+    ]
+  },
+  {
+    "node_id": "n::ethan coen",
+    "name": "Ethan Coen",
+    "type": "entity",
+    "aliases": [
+      "Ethan Coen"
+    ],
+    "source_docs": [
+      "fargo",
+      "the big lebowski"
+    ]
+  },
+  {
+    "node_id": "n::ethel waters",
+    "name": "Ethel Waters",
+    "type": "entity",
+    "aliases": [
+      "Ethel Waters"
+    ],
+    "source_docs": [
+      "cabin in the sky",
+      "pinky"
+    ]
+  },
+  {
+    "node_id": "n::eugene mirman",
+    "name": "Eugene Mirman",
+    "type": "entity",
+    "aliases": [
+      "Eugene Mirman"
+    ],
+    "source_docs": [
+      "when jews were funny"
+    ]
+  },
+  {
+    "node_id": "n::evan hunter",
+    "name": "Evan Hunter",
+    "type": "entity",
+    "aliases": [
+      "Evan Hunter"
+    ],
+    "source_docs": [
+      "fuzz"
+    ]
+  },
+  {
+    "node_id": "n::even angels eat beans",
+    "name": "Even Angels Eat Beans",
+    "type": "entity",
+    "aliases": [
+      "Even Angels Eat Beans"
+    ],
+    "source_docs": [
+      "even angels eat beans"
+    ]
+  },
+  {
+    "node_id": "n::exorcismus",
+    "name": "Exorcismus",
+    "type": "entity",
+    "aliases": [
+      "Exorcismus"
+    ],
+    "source_docs": [
+      "exorcismus"
+    ]
+  },
+  {
+    "node_id": "n::eye of the devil",
+    "name": "Eye of the Devil",
+    "type": "entity",
+    "aliases": [
+      "Eye of the Devil"
+    ],
+    "source_docs": [
+      "eye of the devil"
+    ]
+  },
+  {
+    "node_id": "n::faith baldwin",
+    "name": "Faith Baldwin",
+    "type": "entity",
+    "aliases": [
+      "Faith Baldwin"
+    ],
+    "source_docs": [
+      "skyscraper souls"
+    ]
+  },
+  {
+    "node_id": "n::family",
+    "name": "Family",
+    "type": "entity",
+    "aliases": [
+      "Family"
+    ],
+    "source_docs": [
+      "the story of the weeping camel"
+    ]
+  },
+  {
+    "node_id": "n::fantasy",
+    "name": "Fantasy",
+    "type": "entity",
+    "aliases": [
+      "Fantasy"
+    ],
+    "source_docs": [
+      "the golden voyage of sinbad",
+      "the wiz"
+    ]
+  },
+  {
+    "node_id": "n::farewell, my lovely",
+    "name": "Farewell, My Lovely",
+    "type": "entity",
+    "aliases": [
+      "Farewell, My Lovely"
+    ],
+    "source_docs": [
+      "farewell, my lovely"
+    ]
+  },
+  {
+    "node_id": "n::fargo",
+    "name": "Fargo",
+    "type": "entity",
+    "aliases": [
+      "Fargo"
+    ],
+    "source_docs": [
+      "fargo"
+    ]
+  },
+  {
+    "node_id": "n::father and guns",
+    "name": "Father and Guns",
+    "type": "entity",
+    "aliases": [
+      "Father and Guns"
+    ],
+    "source_docs": [
+      "father and guns"
+    ]
+  },
+  {
+    "node_id": "n::ferdinando baldi",
+    "name": "Ferdinando Baldi",
+    "type": "entity",
+    "aliases": [
+      "Ferdinando Baldi"
+    ],
+    "source_docs": [
+      "comin' at ya!",
+      "treasure of the four crowns"
+    ]
+  },
+  {
+    "node_id": "n::fiddler on the roof",
+    "name": "Fiddler on the Roof",
+    "type": "entity",
+    "aliases": [
+      "Fiddler on the Roof"
+    ],
+    "source_docs": [
+      "fiddler on the roof"
+    ]
+  },
+  {
+    "node_id": "n::fiend without a face",
+    "name": "Fiend Without a Face",
+    "type": "entity",
+    "aliases": [
+      "Fiend Without a Face"
+    ],
+    "source_docs": [
+      "fiend without a face"
+    ]
+  },
+  {
+    "node_id": "n::filth and wisdom",
+    "name": "Filth and Wisdom",
+    "type": "entity",
+    "aliases": [
+      "Filth and Wisdom"
+    ],
+    "source_docs": [
+      "filth and wisdom"
+    ]
+  },
+  {
+    "node_id": "n::fires on the plain",
+    "name": "Fires on the Plain",
+    "type": "entity",
+    "aliases": [
+      "Fires on the Plain"
+    ],
+    "source_docs": [
+      "fires on the plain"
+    ]
+  },
+  {
+    "node_id": "n::flannel pajamas",
+    "name": "Flannel Pajamas",
+    "type": "entity",
+    "aliases": [
+      "Flannel Pajamas"
+    ],
+    "source_docs": [
+      "flannel pajamas"
+    ]
+  },
+  {
+    "node_id": "n::flash gordon",
+    "name": "Flash Gordon",
+    "type": "entity",
+    "aliases": [
+      "Flash Gordon"
+    ],
+    "source_docs": [
+      "flash gordon"
+    ]
+  },
+  {
+    "node_id": "n::florence rice",
+    "name": "Florence Rice",
+    "type": "entity",
+    "aliases": [
+      "Florence Rice"
+    ],
+    "source_docs": [
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::forest whitaker",
+    "name": "Forest Whitaker",
+    "type": "entity",
+    "aliases": [
+      "Forest Whitaker"
+    ],
+    "source_docs": [
+      "repo men"
+    ]
+  },
+  {
+    "node_id": "n::frances",
+    "name": "Frances",
+    "type": "entity",
+    "aliases": [
+      "Frances"
+    ],
+    "source_docs": [
+      "frances"
+    ]
+  },
+  {
+    "node_id": "n::frank whaley",
+    "name": "Frank Whaley",
+    "type": "entity",
+    "aliases": [
+      "Frank Whaley"
+    ],
+    "source_docs": [
+      "career opportunities",
+      "joe the king",
+      "the jimmy show"
+    ]
+  },
+  {
+    "node_id": "n::franklin j. schaffner",
+    "name": "Franklin J. Schaffner",
+    "type": "entity",
+    "aliases": [
+      "Franklin J. Schaffner"
+    ],
+    "source_docs": [
+      "sphinx"
+    ]
+  },
+  {
+    "node_id": "n::fred niblo",
+    "name": "Fred Niblo",
+    "type": "entity",
+    "aliases": [
+      "Fred Niblo"
+    ],
+    "source_docs": [
+      "the temptress"
+    ]
+  },
+  {
+    "node_id": "n::frederic forrest",
+    "name": "Frederic Forrest",
+    "type": "entity",
+    "aliases": [
+      "Frederic Forrest"
+    ],
+    "source_docs": [
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::french",
+    "name": "French",
+    "type": "entity",
+    "aliases": [
+      "French"
+    ],
+    "source_docs": [
+      "a couch in new york",
+      "avenue montaigne",
+      "carmen",
+      "dédée d'anvers",
+      "juliet of the spirits",
+      "les mistons",
+      "lila says",
+      "me, myself and mum",
+      "nothing to declare",
+      "supercondriaque",
+      "the pelican",
+      "yves saint laurent"
+    ]
+  },
+  {
+    "node_id": "n::friends with kids",
+    "name": "Friends with Kids",
+    "type": "entity",
+    "aliases": [
+      "Friends with Kids"
+    ],
+    "source_docs": [
+      "friends with kids"
+    ]
+  },
+  {
+    "node_id": "n::fugitive pieces",
+    "name": "Fugitive Pieces",
+    "type": "entity",
+    "aliases": [
+      "Fugitive Pieces"
+    ],
+    "source_docs": [
+      "fugitive pieces"
+    ]
+  },
+  {
+    "node_id": "n::fuzz",
+    "name": "Fuzz",
+    "type": "entity",
+    "aliases": [
+      "Fuzz"
+    ],
+    "source_docs": [
+      "fuzz"
+    ]
+  },
+  {
+    "node_id": "n::g.o.r.a.",
+    "name": "G.O.R.A.",
+    "type": "entity",
+    "aliases": [
+      "G.O.R.A."
+    ],
+    "source_docs": [
+      "g.o.r.a."
+    ]
+  },
+  {
+    "node_id": "n::gabriel cowan",
+    "name": "Gabriel Cowan",
+    "type": "entity",
+    "aliases": [
+      "Gabriel Cowan"
+    ],
+    "source_docs": [
+      "breathing room",
+      "growth"
+    ]
+  },
+  {
+    "node_id": "n::gabriel pascal",
+    "name": "Gabriel Pascal",
+    "type": "entity",
+    "aliases": [
+      "Gabriel Pascal"
+    ],
+    "source_docs": [
+      "caesar and cleopatra",
+      "major barbara"
+    ]
+  },
+  {
+    "node_id": "n::gail parent",
+    "name": "Gail Parent",
+    "type": "entity",
+    "aliases": [
+      "Gail Parent"
+    ],
+    "source_docs": [
+      "confessions of a teenage drama queen",
+      "the main event"
+    ]
+  },
+  {
+    "node_id": "n::gamer",
+    "name": "Gamer",
+    "type": "entity",
+    "aliases": [
+      "Gamer"
+    ],
+    "source_docs": [
+      "gamer"
+    ]
+  },
+  {
+    "node_id": "n::gareth evans",
+    "name": "Gareth Evans",
+    "type": "entity",
+    "aliases": [
+      "Gareth Evans"
+    ],
+    "source_docs": [
+      "merantau",
+      "the raid 2"
+    ]
+  },
+  {
+    "node_id": "n::garret dillahunt",
+    "name": "Garret Dillahunt",
+    "type": "entity",
+    "aliases": [
+      "Garret Dillahunt"
+    ],
+    "source_docs": [
+      "burning bright"
+    ]
+  },
+  {
+    "node_id": "n::gary hardwick",
+    "name": "Gary Hardwick",
+    "type": "entity",
+    "aliases": [
+      "Gary Hardwick"
+    ],
+    "source_docs": [
+      "the brothers"
+    ]
+  },
+  {
+    "node_id": "n::gate of hell",
+    "name": "Gate of Hell",
+    "type": "entity",
+    "aliases": [
+      "Gate of Hell"
+    ],
+    "source_docs": [
+      "gate of hell"
+    ]
+  },
+  {
+    "node_id": "n::gavin macleod",
+    "name": "Gavin MacLeod",
+    "type": "entity",
+    "aliases": [
+      "Gavin MacLeod"
+    ],
+    "source_docs": [
+      "the secrets of jonathan sperry",
+      "time changer"
+    ]
+  },
+  {
+    "node_id": "n::geek charming",
+    "name": "Geek Charming",
+    "type": "entity",
+    "aliases": [
+      "Geek Charming"
+    ],
+    "source_docs": [
+      "geek charming"
+    ]
+  },
+  {
+    "node_id": "n::gene quintano",
+    "name": "Gene Quintano",
+    "type": "entity",
+    "aliases": [
+      "Gene Quintano"
+    ],
+    "source_docs": [
+      "loaded weapon 1",
+      "why me?"
+    ]
+  },
+  {
+    "node_id": "n::geoffrey lewis",
+    "name": "Geoffrey Lewis",
+    "type": "entity",
+    "aliases": [
+      "Geoffrey Lewis"
+    ],
+    "source_docs": [
+      "any which way you can",
+      "thunderbolt and lightfoot"
+    ]
+  },
+  {
+    "node_id": "n::geoffrey wright",
+    "name": "Geoffrey Wright",
+    "type": "entity",
+    "aliases": [
+      "Geoffrey Wright"
+    ],
+    "source_docs": [
+      "cherry falls",
+      "romper stomper"
+    ]
+  },
+  {
+    "node_id": "n::george cukor",
+    "name": "George Cukor",
+    "type": "entity",
+    "aliases": [
+      "George Cukor"
+    ],
+    "source_docs": [
+      "i'll be seeing you"
+    ]
+  },
+  {
+    "node_id": "n::george harrison",
+    "name": "George Harrison",
+    "type": "entity",
+    "aliases": [
+      "George Harrison"
+    ],
+    "source_docs": [
+      "a hard day's night",
+      "help!"
+    ]
+  },
+  {
+    "node_id": "n::george kennedy",
+    "name": "George Kennedy",
+    "type": "entity",
+    "aliases": [
+      "George Kennedy"
+    ],
+    "source_docs": [
+      "thunderbolt and lightfoot"
+    ]
+  },
+  {
+    "node_id": "n::george murphy",
+    "name": "George Murphy",
+    "type": "entity",
+    "aliases": [
+      "George Murphy"
+    ],
+    "source_docs": [
+      "border incident"
+    ]
+  },
+  {
+    "node_id": "n::george o'brien",
+    "name": "George O'Brien",
+    "type": "entity",
+    "aliases": [
+      "George O'Brien"
+    ],
+    "source_docs": [
+      "gold raiders",
+      "noah's ark"
+    ]
+  },
+  {
+    "node_id": "n::german",
+    "name": "German",
+    "type": "entity",
+    "aliases": [
+      "German"
+    ],
+    "source_docs": [
+      "carmen",
+      "girl on a bicycle",
+      "i don't want to be a man",
+      "pandora's box"
+    ]
+  },
+  {
+    "node_id": "n::gilbert gottfried",
+    "name": "Gilbert Gottfried",
+    "type": "entity",
+    "aliases": [
+      "Gilbert Gottfried"
+    ],
+    "source_docs": [
+      "problem child",
+      "when jews were funny"
+    ]
+  },
+  {
+    "node_id": "n::gilbert wakefield",
+    "name": "Gilbert Wakefield",
+    "type": "entity",
+    "aliases": [
+      "Gilbert Wakefield"
+    ],
+    "source_docs": [
+      "the divorce of lady x"
+    ]
+  },
+  {
+    "node_id": "n::girl on a bicycle",
+    "name": "Girl on a Bicycle",
+    "type": "entity",
+    "aliases": [
+      "Girl on a Bicycle"
+    ],
+    "source_docs": [
+      "girl on a bicycle"
+    ]
+  },
+  {
+    "node_id": "n::gita pullapilly",
+    "name": "Gita Pullapilly",
+    "type": "entity",
+    "aliases": [
+      "Gita Pullapilly"
+    ],
+    "source_docs": [
+      "beneath the harvest sky"
+    ]
+  },
+  {
+    "node_id": "n::god is brazilian",
+    "name": "God Is Brazilian",
+    "type": "entity",
+    "aliases": [
+      "God Is Brazilian"
+    ],
+    "source_docs": [
+      "god is brazilian"
+    ]
+  },
+  {
+    "node_id": "n::godfrey reggio",
+    "name": "Godfrey Reggio",
+    "type": "entity",
+    "aliases": [
+      "Godfrey Reggio"
+    ],
+    "source_docs": [
+      "naqoyqatsi",
+      "powaqqatsi"
+    ]
+  },
+  {
+    "node_id": "n::godzilla vs. mechagodzilla",
+    "name": "Godzilla vs. Mechagodzilla",
+    "type": "entity",
+    "aliases": [
+      "Godzilla vs. Mechagodzilla"
+    ],
+    "source_docs": [
+      "godzilla vs. mechagodzilla"
+    ]
+  },
+  {
+    "node_id": "n::godzilla vs. megalon",
+    "name": "Godzilla vs. Megalon",
+    "type": "entity",
+    "aliases": [
+      "Godzilla vs. Megalon"
+    ],
+    "source_docs": [
+      "godzilla vs. megalon"
+    ]
+  },
+  {
+    "node_id": "n::gold raiders",
+    "name": "Gold Raiders",
+    "type": "entity",
+    "aliases": [
+      "Gold Raiders"
+    ],
+    "source_docs": [
+      "gold raiders"
+    ]
+  },
+  {
+    "node_id": "n::good neighbors",
+    "name": "Good Neighbors",
+    "type": "entity",
+    "aliases": [
+      "Good Neighbors"
+    ],
+    "source_docs": [
+      "good neighbors"
+    ]
+  },
+  {
+    "node_id": "n::good vibrations",
+    "name": "Good Vibrations",
+    "type": "entity",
+    "aliases": [
+      "Good Vibrations"
+    ],
+    "source_docs": [
+      "good vibrations"
+    ]
+  },
+  {
+    "node_id": "n::gorky park",
+    "name": "Gorky Park",
+    "type": "entity",
+    "aliases": [
+      "Gorky Park"
+    ],
+    "source_docs": [
+      "gorky park"
+    ]
+  },
+  {
+    "node_id": "n::grace zaring stone",
+    "name": "Grace Zaring Stone",
+    "type": "entity",
+    "aliases": [
+      "Grace Zaring Stone"
+    ],
+    "source_docs": [
+      "escape",
+      "the bitter tea of general yen"
+    ]
+  },
+  {
+    "node_id": "n::gracie's choice",
+    "name": "Gracie's Choice",
+    "type": "entity",
+    "aliases": [
+      "Gracie's Choice"
+    ],
+    "source_docs": [
+      "gracie's choice"
+    ]
+  },
+  {
+    "node_id": "n::greek",
+    "name": "Greek",
+    "type": "entity",
+    "aliases": [
+      "Greek"
+    ],
+    "source_docs": [
+      "fugitive pieces"
+    ]
+  },
+  {
+    "node_id": "n::greg latter",
+    "name": "Greg Latter",
+    "type": "entity",
+    "aliases": [
+      "Greg Latter"
+    ],
+    "source_docs": [
+      "dangerous ground",
+      "night train to lisbon"
+    ]
+  },
+  {
+    "node_id": "n::gregory jacobs",
+    "name": "Gregory Jacobs",
+    "type": "entity",
+    "aliases": [
+      "Gregory Jacobs"
+    ],
+    "source_docs": [
+      "criminal",
+      "wind chill"
+    ]
+  },
+  {
+    "node_id": "n::growth",
+    "name": "Growth",
+    "type": "entity",
+    "aliases": [
+      "Growth"
+    ],
+    "source_docs": [
+      "growth"
+    ]
+  },
+  {
+    "node_id": "n::guardians of the galaxy",
+    "name": "Guardians of the Galaxy",
+    "type": "entity",
+    "aliases": [
+      "Guardians of the Galaxy"
+    ],
+    "source_docs": [
+      "guardians of the galaxy"
+    ]
+  },
+  {
+    "node_id": "n::guillaume gallienne",
+    "name": "Guillaume Gallienne",
+    "type": "entity",
+    "aliases": [
+      "Guillaume Gallienne"
+    ],
+    "source_docs": [
+      "me, myself and mum",
+      "yves saint laurent"
+    ]
+  },
+  {
+    "node_id": "n::gérard blain",
+    "name": "Gérard Blain",
+    "type": "entity",
+    "aliases": [
+      "Gérard Blain"
+    ],
+    "source_docs": [
+      "les mistons",
+      "the pelican"
+    ]
+  },
+  {
+    "node_id": "n::half light",
+    "name": "Half Light",
+    "type": "entity",
+    "aliases": [
+      "Half Light"
+    ],
+    "source_docs": [
+      "half light"
+    ]
+  },
+  {
+    "node_id": "n::handsome harry",
+    "name": "Handsome Harry",
+    "type": "entity",
+    "aliases": [
+      "Handsome Harry"
+    ],
+    "source_docs": [
+      "handsome harry"
+    ]
+  },
+  {
+    "node_id": "n::hans christian andersen",
+    "name": "Hans Christian Andersen",
+    "type": "entity",
+    "aliases": [
+      "Hans Christian Andersen"
+    ],
+    "source_docs": [
+      "hans christian andersen"
+    ]
+  },
+  {
+    "node_id": "n::hardy krüger",
+    "name": "Hardy Krüger",
+    "type": "entity",
+    "aliases": [
+      "Hardy Krüger"
+    ],
+    "source_docs": [
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::harley cokeliss",
+    "name": "Harley Cokeliss",
+    "type": "entity",
+    "aliases": [
+      "Harley Cokeliss"
+    ],
+    "source_docs": [
+      "black moon rising",
+      "dream demon"
+    ]
+  },
+  {
+    "node_id": "n::harold brighouse",
+    "name": "Harold Brighouse",
+    "type": "entity",
+    "aliases": [
+      "Harold Brighouse"
+    ],
+    "source_docs": [
+      "hobson's choice"
+    ]
+  },
+  {
+    "node_id": "n::harry dean stanton",
+    "name": "Harry Dean Stanton",
+    "type": "entity",
+    "aliases": [
+      "Harry Dean Stanton"
+    ],
+    "source_docs": [
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::harry hervey",
+    "name": "Harry Hervey",
+    "type": "entity",
+    "aliases": [
+      "Harry Hervey"
+    ],
+    "source_docs": [
+      "road to singapore",
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::harry lee",
+    "name": "Harry Lee",
+    "type": "entity",
+    "aliases": [
+      "Harry Lee"
+    ],
+    "source_docs": [
+      "all that heaven allows"
+    ]
+  },
+  {
+    "node_id": "n::harry ralston",
+    "name": "Harry Ralston",
+    "type": "entity",
+    "aliases": [
+      "Harry Ralston"
+    ],
+    "source_docs": [
+      "the last man"
+    ]
+  },
+  {
+    "node_id": "n::harvey fergusson",
+    "name": "Harvey Fergusson",
+    "type": "entity",
+    "aliases": [
+      "Harvey Fergusson"
+    ],
+    "source_docs": [
+      "hot saturday",
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::hawaii, oslo",
+    "name": "Hawaii, Oslo",
+    "type": "entity",
+    "aliases": [
+      "Hawaii, Oslo"
+    ],
+    "source_docs": [
+      "hawaii, oslo"
+    ]
+  },
+  {
+    "node_id": "n::hawk the slayer",
+    "name": "Hawk the Slayer",
+    "type": "entity",
+    "aliases": [
+      "Hawk the Slayer"
+    ],
+    "source_docs": [
+      "hawk the slayer"
+    ]
+  },
+  {
+    "node_id": "n::heather sears",
+    "name": "Heather Sears",
+    "type": "entity",
+    "aliases": [
+      "Heather Sears"
+    ],
+    "source_docs": [
+      "room at the top",
+      "the story of esther costello"
+    ]
+  },
+  {
+    "node_id": "n::helen broderick",
+    "name": "Helen Broderick",
+    "type": "entity",
+    "aliases": [
+      "Helen Broderick"
+    ],
+    "source_docs": [
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::hell to eternity",
+    "name": "Hell to Eternity",
+    "type": "entity",
+    "aliases": [
+      "Hell to Eternity"
+    ],
+    "source_docs": [
+      "hell to eternity"
+    ]
+  },
+  {
+    "node_id": "n::help!",
+    "name": "Help!",
+    "type": "entity",
+    "aliases": [
+      "Help!"
+    ],
+    "source_docs": [
+      "help!"
+    ]
+  },
+  {
+    "node_id": "n::henry's crime",
+    "name": "Henry's Crime",
+    "type": "entity",
+    "aliases": [
+      "Henry's Crime"
+    ],
+    "source_docs": [
+      "henry's crime"
+    ]
+  },
+  {
+    "node_id": "n::hi diddle diddle",
+    "name": "Hi Diddle Diddle",
+    "type": "entity",
+    "aliases": [
+      "Hi Diddle Diddle"
+    ],
+    "source_docs": [
+      "hi diddle diddle"
+    ]
+  },
+  {
+    "node_id": "n::history",
+    "name": "History",
+    "type": "entity",
+    "aliases": [
+      "History"
+    ],
+    "source_docs": [
+      "the longest day"
+    ]
+  },
+  {
+    "node_id": "n::hobson's choice",
+    "name": "Hobson's Choice",
+    "type": "entity",
+    "aliases": [
+      "Hobson's Choice"
+    ],
+    "source_docs": [
+      "hobson's choice"
+    ]
+  },
+  {
+    "node_id": "n::holly lewis",
+    "name": "Holly Lewis",
+    "type": "entity",
+    "aliases": [
+      "Holly Lewis"
+    ],
+    "source_docs": [
+      "these girls"
+    ]
+  },
+  {
+    "node_id": "n::hopi",
+    "name": "Hopi",
+    "type": "entity",
+    "aliases": [
+      "Hopi"
+    ],
+    "source_docs": [
+      "powaqqatsi"
+    ]
+  },
+  {
+    "node_id": "n::horror",
+    "name": "Horror",
+    "type": "entity",
+    "aliases": [
+      "Horror"
+    ],
+    "source_docs": [
+      "dream demon",
+      "the devil's rejects",
+      "the texas chainsaw massacre 2"
+    ]
+  },
+  {
+    "node_id": "n::hot saturday",
+    "name": "Hot Saturday",
+    "type": "entity",
+    "aliases": [
+      "Hot Saturday"
+    ],
+    "source_docs": [
+      "hot saturday"
+    ]
+  },
+  {
+    "node_id": "n::hotel de love",
+    "name": "Hotel de Love",
+    "type": "entity",
+    "aliases": [
+      "Hotel de Love"
+    ],
+    "source_docs": [
+      "hotel de love"
+    ]
+  },
+  {
+    "node_id": "n::hotel for dogs",
+    "name": "Hotel for Dogs",
+    "type": "entity",
+    "aliases": [
+      "Hotel for Dogs"
+    ],
+    "source_docs": [
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::house of the rising sun",
+    "name": "House of the Rising Sun",
+    "type": "entity",
+    "aliases": [
+      "House of the Rising Sun"
+    ],
+    "source_docs": [
+      "house of the rising sun"
+    ]
+  },
+  {
+    "node_id": "n::howard da silva",
+    "name": "Howard Da Silva",
+    "type": "entity",
+    "aliases": [
+      "Howard Da Silva"
+    ],
+    "source_docs": [
+      "1776",
+      "border incident"
+    ]
+  },
+  {
+    "node_id": "n::howard zieff",
+    "name": "Howard Zieff",
+    "type": "entity",
+    "aliases": [
+      "Howard Zieff"
+    ],
+    "source_docs": [
+      "the main event"
+    ]
+  },
+  {
+    "node_id": "n::howie mandel",
+    "name": "Howie Mandel",
+    "type": "entity",
+    "aliases": [
+      "Howie Mandel"
+    ],
+    "source_docs": [
+      "when jews were funny"
+    ]
+  },
+  {
+    "node_id": "n::huckleberry finn",
+    "name": "Huckleberry Finn",
+    "type": "entity",
+    "aliases": [
+      "Huckleberry Finn"
+    ],
+    "source_docs": [
+      "huckleberry finn"
+    ]
+  },
+  {
+    "node_id": "n::human highway",
+    "name": "Human Highway",
+    "type": "entity",
+    "aliases": [
+      "Human Highway"
+    ],
+    "source_docs": [
+      "human highway"
+    ]
+  },
+  {
+    "node_id": "n::i don't want to be a man",
+    "name": "I Don't Want to Be a Man",
+    "type": "entity",
+    "aliases": [
+      "I Don't Want to Be a Man"
+    ],
+    "source_docs": [
+      "i don't want to be a man"
+    ]
+  },
+  {
+    "node_id": "n::i'll be seeing you",
+    "name": "I'll Be Seeing You",
+    "type": "entity",
+    "aliases": [
+      "I'll Be Seeing You"
+    ],
+    "source_docs": [
+      "i'll be seeing you"
+    ]
+  },
+  {
+    "node_id": "n::ian dalrymple",
+    "name": "Ian Dalrymple",
+    "type": "entity",
+    "aliases": [
+      "Ian Dalrymple"
+    ],
+    "source_docs": [
+      "the divorce of lady x"
+    ]
+  },
+  {
+    "node_id": "n::if i had a million",
+    "name": "If I Had a Million",
+    "type": "entity",
+    "aliases": [
+      "If I Had a Million"
+    ],
+    "source_docs": [
+      "if i had a million"
+    ]
+  },
+  {
+    "node_id": "n::iko uwais",
+    "name": "Iko Uwais",
+    "type": "entity",
+    "aliases": [
+      "Iko Uwais"
+    ],
+    "source_docs": [
+      "merantau",
+      "the raid 2"
+    ]
+  },
+  {
+    "node_id": "n::iris",
+    "name": "Iris",
+    "type": "entity",
+    "aliases": [
+      "Iris"
+    ],
+    "source_docs": [
+      "iris"
+    ]
+  },
+  {
+    "node_id": "n::it's pat",
+    "name": "It's Pat",
+    "type": "entity",
+    "aliases": [
+      "It's Pat"
+    ],
+    "source_docs": [
+      "it's pat"
+    ]
+  },
+  {
+    "node_id": "n::italian",
+    "name": "Italian",
+    "type": "entity",
+    "aliases": [
+      "Italian"
+    ],
+    "source_docs": [
+      "even angels eat beans",
+      "juliet of the spirits",
+      "man of the east",
+      "respiro"
+    ]
+  },
+  {
+    "node_id": "n::j. lee thompson",
+    "name": "J. Lee Thompson",
+    "type": "entity",
+    "aliases": [
+      "J. Lee Thompson"
+    ],
+    "source_docs": [
+      "eye of the devil",
+      "north west frontier"
+    ]
+  },
+  {
+    "node_id": "n::jack arnold",
+    "name": "Jack Arnold",
+    "type": "entity",
+    "aliases": [
+      "Jack Arnold"
+    ],
+    "source_docs": [
+      "creature from the black lagoon"
+    ]
+  },
+  {
+    "node_id": "n::jack palance",
+    "name": "Jack Palance",
+    "type": "entity",
+    "aliases": [
+      "Jack Palance"
+    ],
+    "source_docs": [
+      "hawk the slayer"
+    ]
+  },
+  {
+    "node_id": "n::jack the bear",
+    "name": "Jack the Bear",
+    "type": "entity",
+    "aliases": [
+      "Jack the Bear"
+    ],
+    "source_docs": [
+      "jack the bear"
+    ]
+  },
+  {
+    "node_id": "n::jack warden",
+    "name": "Jack Warden",
+    "type": "entity",
+    "aliases": [
+      "Jack Warden"
+    ],
+    "source_docs": [
+      "problem child"
+    ]
+  },
+  {
+    "node_id": "n::jackie chan",
+    "name": "Jackie Chan",
+    "type": "entity",
+    "aliases": [
+      "Jackie Chan"
+    ],
+    "source_docs": [
+      "the accidental spy"
+    ]
+  },
+  {
+    "node_id": "n::jacob tierney",
+    "name": "Jacob Tierney",
+    "type": "entity",
+    "aliases": [
+      "Jacob Tierney"
+    ],
+    "source_docs": [
+      "good neighbors",
+      "the trotsky"
+    ]
+  },
+  {
+    "node_id": "n::jacques prévert",
+    "name": "Jacques Prévert",
+    "type": "entity",
+    "aliases": [
+      "Jacques Prévert"
+    ],
+    "source_docs": [
+      "port of shadows",
+      "stormy waters"
+    ]
+  },
+  {
+    "node_id": "n::jake t. austin",
+    "name": "Jake T. Austin",
+    "type": "entity",
+    "aliases": [
+      "Jake T. Austin"
+    ],
+    "source_docs": [
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::james clavell",
+    "name": "James Clavell",
+    "type": "entity",
+    "aliases": [
+      "James Clavell"
+    ],
+    "source_docs": [
+      "the last valley",
+      "to sir, with love"
+    ]
+  },
+  {
+    "node_id": "n::james gunn",
+    "name": "James Gunn",
+    "type": "entity",
+    "aliases": [
+      "James Gunn"
+    ],
+    "source_docs": [
+      "guardians of the galaxy"
+    ]
+  },
+  {
+    "node_id": "n::james hadley chase",
+    "name": "James Hadley Chase",
+    "type": "entity",
+    "aliases": [
+      "James Hadley Chase"
+    ],
+    "source_docs": [
+      "rough magic"
+    ]
+  },
+  {
+    "node_id": "n::james hayman",
+    "name": "James Hayman",
+    "type": "entity",
+    "aliases": [
+      "James Hayman"
+    ],
+    "source_docs": [
+      "12 dates of christmas",
+      "sorority wars"
+    ]
+  },
+  {
+    "node_id": "n::jamey sheridan",
+    "name": "Jamey Sheridan",
+    "type": "entity",
+    "aliases": [
+      "Jamey Sheridan"
+    ],
+    "source_docs": [
+      "handsome harry",
+      "whispers in the dark"
+    ]
+  },
+  {
+    "node_id": "n::japanese",
+    "name": "Japanese",
+    "type": "entity",
+    "aliases": [
+      "Japanese"
+    ],
+    "source_docs": [
+      "an autumn afternoon",
+      "double suicide",
+      "fires on the plain",
+      "godzilla vs. mechagodzilla",
+      "godzilla vs. megalon",
+      "hell to eternity",
+      "summer wars",
+      "wolf children"
+    ]
+  },
+  {
+    "node_id": "n::jared stern",
+    "name": "Jared Stern",
+    "type": "entity",
+    "aliases": [
+      "Jared Stern"
+    ],
+    "source_docs": [
+      "the internship",
+      "the watch"
+    ]
+  },
+  {
+    "node_id": "n::jason statham",
+    "name": "Jason Statham",
+    "type": "entity",
+    "aliases": [
+      "Jason Statham"
+    ],
+    "source_docs": [
+      "blitz"
+    ]
+  },
+  {
+    "node_id": "n::jawbreaker",
+    "name": "Jawbreaker",
+    "type": "entity",
+    "aliases": [
+      "Jawbreaker"
+    ],
+    "source_docs": [
+      "jawbreaker"
+    ]
+  },
+  {
+    "node_id": "n::jean smart",
+    "name": "Jean Smart",
+    "type": "entity",
+    "aliases": [
+      "Jean Smart"
+    ],
+    "source_docs": [
+      "barry munday"
+    ]
+  },
+  {
+    "node_id": "n::jeff bridges",
+    "name": "Jeff Bridges",
+    "type": "entity",
+    "aliases": [
+      "Jeff Bridges"
+    ],
+    "source_docs": [
+      "thunderbolt and lightfoot"
+    ]
+  },
+  {
+    "node_id": "n::jeff lipsky",
+    "name": "Jeff Lipsky",
+    "type": "entity",
+    "aliases": [
+      "Jeff Lipsky"
+    ],
+    "source_docs": [
+      "flannel pajamas"
+    ]
+  },
+  {
+    "node_id": "n::jeffrey hornaday",
+    "name": "Jeffrey Hornaday",
+    "type": "entity",
+    "aliases": [
+      "Jeffrey Hornaday"
+    ],
+    "source_docs": [
+      "geek charming",
+      "shout"
+    ]
+  },
+  {
+    "node_id": "n::jenifer lewis",
+    "name": "Jenifer Lewis",
+    "type": "entity",
+    "aliases": [
+      "Jenifer Lewis"
+    ],
+    "source_docs": [
+      "little richard"
+    ]
+  },
+  {
+    "node_id": "n::jennifer connelly",
+    "name": "Jennifer Connelly",
+    "type": "entity",
+    "aliases": [
+      "Jennifer Connelly"
+    ],
+    "source_docs": [
+      "career opportunities"
+    ]
+  },
+  {
+    "node_id": "n::jennifer morrison",
+    "name": "Jennifer Morrison",
+    "type": "entity",
+    "aliases": [
+      "Jennifer Morrison"
+    ],
+    "source_docs": [
+      "big stan",
+      "warrior"
+    ]
+  },
+  {
+    "node_id": "n::jennifer o'neill",
+    "name": "Jennifer O'Neill",
+    "type": "entity",
+    "aliases": [
+      "Jennifer O'Neill"
+    ],
+    "source_docs": [
+      "a force of one"
+    ]
+  },
+  {
+    "node_id": "n::jennifer westfeldt",
+    "name": "Jennifer Westfeldt",
+    "type": "entity",
+    "aliases": [
+      "Jennifer Westfeldt"
+    ],
+    "source_docs": [
+      "friends with kids",
+      "kissing jessica stein"
+    ]
+  },
+  {
+    "node_id": "n::jens lien",
+    "name": "Jens Lien",
+    "type": "entity",
+    "aliases": [
+      "Jens Lien"
+    ],
+    "source_docs": [
+      "jonny vang",
+      "the bothersome man"
+    ]
+  },
+  {
+    "node_id": "n::jeremy podeswa",
+    "name": "Jeremy Podeswa",
+    "type": "entity",
+    "aliases": [
+      "Jeremy Podeswa"
+    ],
+    "source_docs": [
+      "fugitive pieces",
+      "the five senses"
+    ]
+  },
+  {
+    "node_id": "n::jeremy saulnier",
+    "name": "Jeremy Saulnier",
+    "type": "entity",
+    "aliases": [
+      "Jeremy Saulnier"
+    ],
+    "source_docs": [
+      "blue ruin",
+      "murder party"
+    ]
+  },
+  {
+    "node_id": "n::jeremy suarez",
+    "name": "Jeremy Suarez",
+    "type": "entity",
+    "aliases": [
+      "Jeremy Suarez"
+    ],
+    "source_docs": [
+      "brother bear 2",
+      "zambezia"
+    ]
+  },
+  {
+    "node_id": "n::jesse andrews",
+    "name": "Jesse Andrews",
+    "type": "entity",
+    "aliases": [
+      "Jesse Andrews"
+    ],
+    "source_docs": [
+      "me and earl and the dying girl"
+    ]
+  },
+  {
+    "node_id": "n::jet lag",
+    "name": "Jet Lag",
+    "type": "entity",
+    "aliases": [
+      "Jet Lag"
+    ],
+    "source_docs": [
+      "jet lag"
+    ]
+  },
+  {
+    "node_id": "n::jim thompson",
+    "name": "Jim Thompson",
+    "type": "entity",
+    "aliases": [
+      "Jim Thompson"
+    ],
+    "source_docs": [
+      "the killing"
+    ]
+  },
+  {
+    "node_id": "n::joan severance",
+    "name": "Joan Severance",
+    "type": "entity",
+    "aliases": [
+      "Joan Severance"
+    ],
+    "source_docs": [
+      "the last seduction ii"
+    ]
+  },
+  {
+    "node_id": "n::joaquim leitão",
+    "name": "Joaquim Leitão",
+    "type": "entity",
+    "aliases": [
+      "Joaquim Leitão"
+    ],
+    "source_docs": [
+      "adão e eva",
+      "tentação"
+    ]
+  },
+  {
+    "node_id": "n::joe dante",
+    "name": "Joe Dante",
+    "type": "entity",
+    "aliases": [
+      "Joe Dante"
+    ],
+    "source_docs": [
+      "amazon women on the moon"
+    ]
+  },
+  {
+    "node_id": "n::joe lynch",
+    "name": "Joe Lynch",
+    "type": "entity",
+    "aliases": [
+      "Joe Lynch"
+    ],
+    "source_docs": [
+      "chillerama"
+    ]
+  },
+  {
+    "node_id": "n::joe the king",
+    "name": "Joe the King",
+    "type": "entity",
+    "aliases": [
+      "Joe the King"
+    ],
+    "source_docs": [
+      "joe the king"
+    ]
+  },
+  {
+    "node_id": "n::joel coen",
+    "name": "Joel Coen",
+    "type": "entity",
+    "aliases": [
+      "Joel Coen"
+    ],
+    "source_docs": [
+      "fargo",
+      "the big lebowski"
+    ]
+  },
+  {
+    "node_id": "n::joel mchale",
+    "name": "Joel McHale",
+    "type": "entity",
+    "aliases": [
+      "Joel McHale"
+    ],
+    "source_docs": [
+      "open season 2",
+      "ted"
+    ]
+  },
+  {
+    "node_id": "n::john bayley",
+    "name": "John Bayley",
+    "type": "entity",
+    "aliases": [
+      "John Bayley"
+    ],
+    "source_docs": [
+      "iris"
+    ]
+  },
+  {
+    "node_id": "n::john braine",
+    "name": "John Braine",
+    "type": "entity",
+    "aliases": [
+      "John Braine"
+    ],
+    "source_docs": [
+      "room at the top"
+    ]
+  },
+  {
+    "node_id": "n::john c. reilly",
+    "name": "John C. Reilly",
+    "type": "entity",
+    "aliases": [
+      "John C. Reilly"
+    ],
+    "source_docs": [
+      "criminal"
+    ]
+  },
+  {
+    "node_id": "n::john carradine",
+    "name": "John Carradine",
+    "type": "entity",
+    "aliases": [
+      "John Carradine"
+    ],
+    "source_docs": [
+      "the unearthly"
+    ]
+  },
+  {
+    "node_id": "n::john crowley",
+    "name": "John Crowley",
+    "type": "entity",
+    "aliases": [
+      "John Crowley"
+    ],
+    "source_docs": [
+      "brooklyn"
+    ]
+  },
+  {
+    "node_id": "n::john goodman",
+    "name": "John Goodman",
+    "type": "entity",
+    "aliases": [
+      "John Goodman"
+    ],
+    "source_docs": [
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::john landis",
+    "name": "John Landis",
+    "type": "entity",
+    "aliases": [
+      "John Landis"
+    ],
+    "source_docs": [
+      "amazon women on the moon"
+    ]
+  },
+  {
+    "node_id": "n::john lennon",
+    "name": "John Lennon",
+    "type": "entity",
+    "aliases": [
+      "John Lennon"
+    ],
+    "source_docs": [
+      "a hard day's night",
+      "help!"
+    ]
+  },
+  {
+    "node_id": "n::john nichols",
+    "name": "John Nichols",
+    "type": "entity",
+    "aliases": [
+      "John Nichols"
+    ],
+    "source_docs": [
+      "the milagro beanfield war",
+      "the sterile cuckoo"
+    ]
+  },
+  {
+    "node_id": "n::john ritter",
+    "name": "John Ritter",
+    "type": "entity",
+    "aliases": [
+      "John Ritter"
+    ],
+    "source_docs": [
+      "problem child"
+    ]
+  },
+  {
+    "node_id": "n::john suits",
+    "name": "John Suits",
+    "type": "entity",
+    "aliases": [
+      "John Suits"
+    ],
+    "source_docs": [
+      "breathing room"
+    ]
+  },
+  {
+    "node_id": "n::john terry",
+    "name": "John Terry",
+    "type": "entity",
+    "aliases": [
+      "John Terry"
+    ],
+    "source_docs": [
+      "hawk the slayer"
+    ]
+  },
+  {
+    "node_id": "n::john william corrington",
+    "name": "John William Corrington",
+    "type": "entity",
+    "aliases": [
+      "John William Corrington"
+    ],
+    "source_docs": [
+      "the omega man",
+      "von richthofen and brown"
+    ]
+  },
+  {
+    "node_id": "n::johnny simmons",
+    "name": "Johnny Simmons",
+    "type": "entity",
+    "aliases": [
+      "Johnny Simmons"
+    ],
+    "source_docs": [
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::jon bernthal",
+    "name": "Jon Bernthal",
+    "type": "entity",
+    "aliases": [
+      "Jon Bernthal"
+    ],
+    "source_docs": [
+      "me and earl and the dying girl",
+      "snitch"
+    ]
+  },
+  {
+    "node_id": "n::jon erwin",
+    "name": "Jon Erwin",
+    "type": "entity",
+    "aliases": [
+      "Jon Erwin"
+    ],
+    "source_docs": [
+      "moms' night out",
+      "october baby"
+    ]
+  },
+  {
+    "node_id": "n::jonny vang",
+    "name": "Jonny Vang",
+    "type": "entity",
+    "aliases": [
+      "Jonny Vang"
+    ],
+    "source_docs": [
+      "jonny vang"
+    ]
+  },
+  {
+    "node_id": "n::josh charles",
+    "name": "Josh Charles",
+    "type": "entity",
+    "aliases": [
+      "Josh Charles"
+    ],
+    "source_docs": [
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::joshua marston",
+    "name": "Joshua Marston",
+    "type": "entity",
+    "aliases": [
+      "Joshua Marston"
+    ],
+    "source_docs": [
+      "maria full of grace",
+      "the forgiveness of blood"
+    ]
+  },
+  {
+    "node_id": "n::joão ubaldo ribeiro",
+    "name": "João Ubaldo Ribeiro",
+    "type": "entity",
+    "aliases": [
+      "João Ubaldo Ribeiro"
+    ],
+    "source_docs": [
+      "god is brazilian"
+    ]
+  },
+  {
+    "node_id": "n::jude law",
+    "name": "Jude Law",
+    "type": "entity",
+    "aliases": [
+      "Jude Law"
+    ],
+    "source_docs": [
+      "repo men"
+    ]
+  },
+  {
+    "node_id": "n::judge reinhold",
+    "name": "Judge Reinhold",
+    "type": "entity",
+    "aliases": [
+      "Judge Reinhold"
+    ],
+    "source_docs": [
+      "off beat"
+    ]
+  },
+  {
+    "node_id": "n::judy greer",
+    "name": "Judy Greer",
+    "type": "entity",
+    "aliases": [
+      "Judy Greer"
+    ],
+    "source_docs": [
+      "barry munday"
+    ]
+  },
+  {
+    "node_id": "n::julianne hough",
+    "name": "Julianne Hough",
+    "type": "entity",
+    "aliases": [
+      "Julianne Hough"
+    ],
+    "source_docs": [
+      "rock of ages"
+    ]
+  },
+  {
+    "node_id": "n::juliet of the spirits",
+    "name": "Juliet of the Spirits",
+    "type": "entity",
+    "aliases": [
+      "Juliet of the Spirits"
+    ],
+    "source_docs": [
+      "juliet of the spirits"
+    ]
+  },
+  {
+    "node_id": "n::jun fukuda",
+    "name": "Jun Fukuda",
+    "type": "entity",
+    "aliases": [
+      "Jun Fukuda"
+    ],
+    "source_docs": [
+      "godzilla vs. mechagodzilla",
+      "godzilla vs. megalon"
+    ]
+  },
+  {
+    "node_id": "n::just cause",
+    "name": "Just Cause",
+    "type": "entity",
+    "aliases": [
+      "Just Cause"
+    ],
+    "source_docs": [
+      "just cause"
+    ]
+  },
+  {
+    "node_id": "n::justin kirk",
+    "name": "Justin Kirk",
+    "type": "entity",
+    "aliases": [
+      "Justin Kirk"
+    ],
+    "source_docs": [
+      "against the current",
+      "flannel pajamas"
+    ]
+  },
+  {
+    "node_id": "n::jørgen leth",
+    "name": "Jørgen Leth",
+    "type": "entity",
+    "aliases": [
+      "Jørgen Leth"
+    ],
+    "source_docs": [
+      "the five obstructions",
+      "the perfect human"
+    ]
+  },
+  {
+    "node_id": "n::kari skogland",
+    "name": "Kari Skogland",
+    "type": "entity",
+    "aliases": [
+      "Kari Skogland"
+    ],
+    "source_docs": [
+      "the stone angel"
+    ]
+  },
+  {
+    "node_id": "n::kate lanier",
+    "name": "Kate Lanier",
+    "type": "entity",
+    "aliases": [
+      "Kate Lanier"
+    ],
+    "source_docs": [
+      "set it off",
+      "what's love got to do with it"
+    ]
+  },
+  {
+    "node_id": "n::katina paxinou",
+    "name": "Katina Paxinou",
+    "type": "entity",
+    "aliases": [
+      "Katina Paxinou"
+    ],
+    "source_docs": [
+      "mourning becomes electra"
+    ]
+  },
+  {
+    "node_id": "n::kawa",
+    "name": "Kawa",
+    "type": "entity",
+    "aliases": [
+      "Kawa"
+    ],
+    "source_docs": [
+      "kawa"
+    ]
+  },
+  {
+    "node_id": "n::kay johnson",
+    "name": "Kay Johnson",
+    "type": "entity",
+    "aliases": [
+      "Kay Johnson"
+    ],
+    "source_docs": [
+      "madam satan"
+    ]
+  },
+  {
+    "node_id": "n::kazuo hasegawa",
+    "name": "Kazuo Hasegawa",
+    "type": "entity",
+    "aliases": [
+      "Kazuo Hasegawa"
+    ],
+    "source_docs": [
+      "an actor's revenge",
+      "gate of hell"
+    ]
+  },
+  {
+    "node_id": "n::keira knightley",
+    "name": "Keira Knightley",
+    "type": "entity",
+    "aliases": [
+      "Keira Knightley"
+    ],
+    "source_docs": [
+      "london boulevard"
+    ]
+  },
+  {
+    "node_id": "n::kelly lynch",
+    "name": "Kelly Lynch",
+    "type": "entity",
+    "aliases": [
+      "Kelly Lynch"
+    ],
+    "source_docs": [
+      "mr. magoo"
+    ]
+  },
+  {
+    "node_id": "n::ken bruen",
+    "name": "Ken Bruen",
+    "type": "entity",
+    "aliases": [
+      "Ken Bruen"
+    ],
+    "source_docs": [
+      "blitz",
+      "london boulevard"
+    ]
+  },
+  {
+    "node_id": "n::ken howard",
+    "name": "Ken Howard",
+    "type": "entity",
+    "aliases": [
+      "Ken Howard"
+    ],
+    "source_docs": [
+      "1776"
+    ]
+  },
+  {
+    "node_id": "n::ken selden",
+    "name": "Ken Selden",
+    "type": "entity",
+    "aliases": [
+      "Ken Selden"
+    ],
+    "source_docs": [
+      "cherry falls"
+    ]
+  },
+  {
+    "node_id": "n::kim stanley",
+    "name": "Kim Stanley",
+    "type": "entity",
+    "aliases": [
+      "Kim Stanley"
+    ],
+    "source_docs": [
+      "frances",
+      "the goddess"
+    ]
+  },
+  {
+    "node_id": "n::king of the jungle",
+    "name": "King of the Jungle",
+    "type": "entity",
+    "aliases": [
+      "King of the Jungle"
+    ],
+    "source_docs": [
+      "king of the jungle"
+    ]
+  },
+  {
+    "node_id": "n::kingpin",
+    "name": "Kingpin",
+    "type": "entity",
+    "aliases": [
+      "Kingpin"
+    ],
+    "source_docs": [
+      "kingpin"
+    ]
+  },
+  {
+    "node_id": "n::kissing jessica stein",
+    "name": "Kissing Jessica Stein",
+    "type": "entity",
+    "aliases": [
+      "Kissing Jessica Stein"
+    ],
+    "source_docs": [
+      "kissing jessica stein"
+    ]
+  },
+  {
+    "node_id": "n::labor pains",
+    "name": "Labor Pains",
+    "type": "entity",
+    "aliases": [
+      "Labor Pains"
+    ],
+    "source_docs": [
+      "labor pains"
+    ]
+  },
+  {
+    "node_id": "n::lady chatterley",
+    "name": "Lady Chatterley",
+    "type": "entity",
+    "aliases": [
+      "Lady Chatterley"
+    ],
+    "source_docs": [
+      "lady chatterley"
+    ]
+  },
+  {
+    "node_id": "n::larry mcmurtry",
+    "name": "Larry McMurtry",
+    "type": "entity",
+    "aliases": [
+      "Larry McMurtry"
+    ],
+    "source_docs": [
+      "brokeback mountain"
+    ]
+  },
+  {
+    "node_id": "n::lars von trier",
+    "name": "Lars von Trier",
+    "type": "entity",
+    "aliases": [
+      "Lars von Trier"
+    ],
+    "source_docs": [
+      "the five obstructions"
+    ]
+  },
+  {
+    "node_id": "n::late phases",
+    "name": "Late Phases",
+    "type": "entity",
+    "aliases": [
+      "Late Phases"
+    ],
+    "source_docs": [
+      "late phases"
+    ]
+  },
+  {
+    "node_id": "n::laura leedy",
+    "name": "Laura Leedy",
+    "type": "entity",
+    "aliases": [
+      "Laura Leedy"
+    ],
+    "source_docs": [
+      "north country"
+    ]
+  },
+  {
+    "node_id": "n::leon",
+    "name": "Leon",
+    "type": "entity",
+    "aliases": [
+      "Leon"
+    ],
+    "source_docs": [
+      "little richard"
+    ]
+  },
+  {
+    "node_id": "n::leon janney",
+    "name": "Leon Janney",
+    "type": "entity",
+    "aliases": [
+      "Leon Janney"
+    ],
+    "source_docs": [
+      "charly"
+    ]
+  },
+  {
+    "node_id": "n::les mistons",
+    "name": "Les Mistons",
+    "type": "entity",
+    "aliases": [
+      "Les Mistons"
+    ],
+    "source_docs": [
+      "les mistons"
+    ]
+  },
+  {
+    "node_id": "n::leslie nielsen",
+    "name": "Leslie Nielsen",
+    "type": "entity",
+    "aliases": [
+      "Leslie Nielsen"
+    ],
+    "source_docs": [
+      "mr. magoo"
+    ]
+  },
+  {
+    "node_id": "n::let it ride",
+    "name": "Let It Ride",
+    "type": "entity",
+    "aliases": [
+      "Let It Ride"
+    ],
+    "source_docs": [
+      "let it ride"
+    ]
+  },
+  {
+    "node_id": "n::let's go to prison",
+    "name": "Let's Go to Prison",
+    "type": "entity",
+    "aliases": [
+      "Let's Go to Prison"
+    ],
+    "source_docs": [
+      "let's go to prison"
+    ]
+  },
+  {
+    "node_id": "n::let's scare jessica to death",
+    "name": "Let's Scare Jessica to Death",
+    "type": "entity",
+    "aliases": [
+      "Let's Scare Jessica to Death"
+    ],
+    "source_docs": [
+      "let's scare jessica to death"
+    ]
+  },
+  {
+    "node_id": "n::lila says",
+    "name": "Lila Says",
+    "type": "entity",
+    "aliases": [
+      "Lila Says"
+    ],
+    "source_docs": [
+      "lila says"
+    ]
+  },
+  {
+    "node_id": "n::lilia skala",
+    "name": "Lilia Skala",
+    "type": "entity",
+    "aliases": [
+      "Lilia Skala"
+    ],
+    "source_docs": [
+      "charly",
+      "lilies of the field"
+    ]
+  },
+  {
+    "node_id": "n::liliana cavani",
+    "name": "Liliana Cavani",
+    "type": "entity",
+    "aliases": [
+      "Liliana Cavani"
+    ],
+    "source_docs": [
+      "ripley's game",
+      "the night porter"
+    ]
+  },
+  {
+    "node_id": "n::lilies of the field",
+    "name": "Lilies of the Field",
+    "type": "entity",
+    "aliases": [
+      "Lilies of the Field"
+    ],
+    "source_docs": [
+      "lilies of the field"
+    ]
+  },
+  {
+    "node_id": "n::lillian roth",
+    "name": "Lillian Roth",
+    "type": "entity",
+    "aliases": [
+      "Lillian Roth"
+    ],
+    "source_docs": [
+      "madam satan"
+    ]
+  },
+  {
+    "node_id": "n::lindsay lohan",
+    "name": "Lindsay Lohan",
+    "type": "entity",
+    "aliases": [
+      "Lindsay Lohan"
+    ],
+    "source_docs": [
+      "labor pains"
+    ]
+  },
+  {
+    "node_id": "n::lionel white",
+    "name": "Lionel White",
+    "type": "entity",
+    "aliases": [
+      "Lionel White"
+    ],
+    "source_docs": [
+      "the killing"
+    ]
+  },
+  {
+    "node_id": "n::little richard",
+    "name": "Little Richard",
+    "type": "entity",
+    "aliases": [
+      "Little Richard"
+    ],
+    "source_docs": [
+      "little richard"
+    ]
+  },
+  {
+    "node_id": "n::loaded weapon 1",
+    "name": "Loaded Weapon 1",
+    "type": "entity",
+    "aliases": [
+      "Loaded Weapon 1"
+    ],
+    "source_docs": [
+      "loaded weapon 1"
+    ]
+  },
+  {
+    "node_id": "n::loins of punjab presents",
+    "name": "Loins of Punjab Presents",
+    "type": "entity",
+    "aliases": [
+      "Loins of Punjab Presents"
+    ],
+    "source_docs": [
+      "loins of punjab presents"
+    ]
+  },
+  {
+    "node_id": "n::london boulevard",
+    "name": "London Boulevard",
+    "type": "entity",
+    "aliases": [
+      "London Boulevard"
+    ],
+    "source_docs": [
+      "london boulevard"
+    ]
+  },
+  {
+    "node_id": "n::looking for mr. goodbar",
+    "name": "Looking for Mr. Goodbar",
+    "type": "entity",
+    "aliases": [
+      "Looking for Mr. Goodbar"
+    ],
+    "source_docs": [
+      "looking for mr. goodbar"
+    ]
+  },
+  {
+    "node_id": "n::louise brooks",
+    "name": "Louise Brooks",
+    "type": "entity",
+    "aliases": [
+      "Louise Brooks"
+    ],
+    "source_docs": [
+      "diary of a lost girl",
+      "pandora's box"
+    ]
+  },
+  {
+    "node_id": "n::luke kirby",
+    "name": "Luke Kirby",
+    "type": "entity",
+    "aliases": [
+      "Luke Kirby"
+    ],
+    "source_docs": [
+      "labor pains",
+      "take this waltz"
+    ]
+  },
+  {
+    "node_id": "n::lupe ontiveros",
+    "name": "Lupe Ontiveros",
+    "type": "entity",
+    "aliases": [
+      "Lupe Ontiveros"
+    ],
+    "source_docs": [
+      "dark mirror",
+      "real women have curves"
+    ]
+  },
+  {
+    "node_id": "n::lynn root",
+    "name": "Lynn Root",
+    "type": "entity",
+    "aliases": [
+      "Lynn Root"
+    ],
+    "source_docs": [
+      "cabin in the sky"
+    ]
+  },
+  {
+    "node_id": "n::madam satan",
+    "name": "Madam Satan",
+    "type": "entity",
+    "aliases": [
+      "Madam Satan"
+    ],
+    "source_docs": [
+      "madam satan"
+    ]
+  },
+  {
+    "node_id": "n::madonna",
+    "name": "Madonna",
+    "type": "entity",
+    "aliases": [
+      "Madonna"
+    ],
+    "source_docs": [
+      "filth and wisdom",
+      "w.e."
+    ]
+  },
+  {
+    "node_id": "n::madonna of the seven moons",
+    "name": "Madonna of the Seven Moons",
+    "type": "entity",
+    "aliases": [
+      "Madonna of the Seven Moons"
+    ],
+    "source_docs": [
+      "madonna of the seven moons"
+    ]
+  },
+  {
+    "node_id": "n::maggie gyllenhaal",
+    "name": "Maggie Gyllenhaal",
+    "type": "entity",
+    "aliases": [
+      "Maggie Gyllenhaal"
+    ],
+    "source_docs": [
+      "criminal"
+    ]
+  },
+  {
+    "node_id": "n::major barbara",
+    "name": "Major Barbara",
+    "type": "entity",
+    "aliases": [
+      "Major Barbara"
+    ],
+    "source_docs": [
+      "major barbara"
+    ]
+  },
+  {
+    "node_id": "n::malcolm d. lee",
+    "name": "Malcolm D. Lee",
+    "type": "entity",
+    "aliases": [
+      "Malcolm D. Lee"
+    ],
+    "source_docs": [
+      "roll bounce"
+    ]
+  },
+  {
+    "node_id": "n::malcolm venville",
+    "name": "Malcolm Venville",
+    "type": "entity",
+    "aliases": [
+      "Malcolm Venville"
+    ],
+    "source_docs": [
+      "44 inch chest",
+      "henry's crime"
+    ]
+  },
+  {
+    "node_id": "n::mamoru hosoda",
+    "name": "Mamoru Hosoda",
+    "type": "entity",
+    "aliases": [
+      "Mamoru Hosoda"
+    ],
+    "source_docs": [
+      "summer wars",
+      "wolf children"
+    ]
+  },
+  {
+    "node_id": "n::man of the east",
+    "name": "Man of the East",
+    "type": "entity",
+    "aliases": [
+      "Man of the East"
+    ],
+    "source_docs": [
+      "man of the east"
+    ]
+  },
+  {
+    "node_id": "n::manish acharya",
+    "name": "Manish Acharya",
+    "type": "entity",
+    "aliases": [
+      "Manish Acharya"
+    ],
+    "source_docs": [
+      "loins of punjab presents"
+    ]
+  },
+  {
+    "node_id": "n::march or die",
+    "name": "March or Die",
+    "type": "entity",
+    "aliases": [
+      "March or Die"
+    ],
+    "source_docs": [
+      "march or die"
+    ]
+  },
+  {
+    "node_id": "n::margaret laurence",
+    "name": "Margaret Laurence",
+    "type": "entity",
+    "aliases": [
+      "Margaret Laurence"
+    ],
+    "source_docs": [
+      "rachel, rachel",
+      "the stone angel"
+    ]
+  },
+  {
+    "node_id": "n::margaret rosenthal",
+    "name": "Margaret Rosenthal",
+    "type": "entity",
+    "aliases": [
+      "Margaret Rosenthal"
+    ],
+    "source_docs": [
+      "dangerous beauty"
+    ]
+  },
+  {
+    "node_id": "n::maria full of grace",
+    "name": "Maria Full of Grace",
+    "type": "entity",
+    "aliases": [
+      "Maria Full of Grace"
+    ],
+    "source_docs": [
+      "maria full of grace"
+    ]
+  },
+  {
+    "node_id": "n::marilyn buferd",
+    "name": "Marilyn Buferd",
+    "type": "entity",
+    "aliases": [
+      "Marilyn Buferd"
+    ],
+    "source_docs": [
+      "the unearthly"
+    ]
+  },
+  {
+    "node_id": "n::marina hands",
+    "name": "Marina Hands",
+    "type": "entity",
+    "aliases": [
+      "Marina Hands"
+    ],
+    "source_docs": [
+      "lady chatterley"
+    ]
+  },
+  {
+    "node_id": "n::marisa tomei",
+    "name": "Marisa Tomei",
+    "type": "entity",
+    "aliases": [
+      "Marisa Tomei"
+    ],
+    "source_docs": [
+      "danika"
+    ]
+  },
+  {
+    "node_id": "n::marivaux",
+    "name": "Marivaux",
+    "type": "entity",
+    "aliases": [
+      "Marivaux"
+    ],
+    "source_docs": [
+      "the triumph of love"
+    ]
+  },
+  {
+    "node_id": "n::marjorie kinnan rawlings",
+    "name": "Marjorie Kinnan Rawlings",
+    "type": "entity",
+    "aliases": [
+      "Marjorie Kinnan Rawlings"
+    ],
+    "source_docs": [
+      "cross creek",
+      "the yearling"
+    ]
+  },
+  {
+    "node_id": "n::mark neveldine",
+    "name": "Mark Neveldine",
+    "type": "entity",
+    "aliases": [
+      "Mark Neveldine"
+    ],
+    "source_docs": [
+      "crank",
+      "gamer"
+    ]
+  },
+  {
+    "node_id": "n::mark wahlberg",
+    "name": "Mark Wahlberg",
+    "type": "entity",
+    "aliases": [
+      "Mark Wahlberg"
+    ],
+    "source_docs": [
+      "ted"
+    ]
+  },
+  {
+    "node_id": "n::marlene dietrich",
+    "name": "Marlene Dietrich",
+    "type": "entity",
+    "aliases": [
+      "Marlene Dietrich"
+    ],
+    "source_docs": [
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::marlon wayans",
+    "name": "Marlon Wayans",
+    "type": "entity",
+    "aliases": [
+      "Marlon Wayans"
+    ],
+    "source_docs": [
+      "a haunted house",
+      "a haunted house 2"
+    ]
+  },
+  {
+    "node_id": "n::marshall herskovitz",
+    "name": "Marshall Herskovitz",
+    "type": "entity",
+    "aliases": [
+      "Marshall Herskovitz"
+    ],
+    "source_docs": [
+      "dangerous beauty",
+      "jack the bear"
+    ]
+  },
+  {
+    "node_id": "n::martin cruz smith",
+    "name": "Martin Cruz Smith",
+    "type": "entity",
+    "aliases": [
+      "Martin Cruz Smith"
+    ],
+    "source_docs": [
+      "gorky park",
+      "nightwing"
+    ]
+  },
+  {
+    "node_id": "n::martin rackin",
+    "name": "Martin Rackin",
+    "type": "entity",
+    "aliases": [
+      "Martin Rackin"
+    ],
+    "source_docs": [
+      "a dangerous profession"
+    ]
+  },
+  {
+    "node_id": "n::matchstick men",
+    "name": "Matchstick Men",
+    "type": "entity",
+    "aliases": [
+      "Matchstick Men"
+    ],
+    "source_docs": [
+      "matchstick men"
+    ]
+  },
+  {
+    "node_id": "n::matt keeslar",
+    "name": "Matt Keeslar",
+    "type": "entity",
+    "aliases": [
+      "Matt Keeslar"
+    ],
+    "source_docs": [
+      "mr. magoo"
+    ]
+  },
+  {
+    "node_id": "n::max minghella",
+    "name": "Max Minghella",
+    "type": "entity",
+    "aliases": [
+      "Max Minghella"
+    ],
+    "source_docs": [
+      "not safe for work"
+    ]
+  },
+  {
+    "node_id": "n::me and earl and the dying girl",
+    "name": "Me and Earl and the Dying Girl",
+    "type": "entity",
+    "aliases": [
+      "Me and Earl and the Dying Girl"
+    ],
+    "source_docs": [
+      "me and earl and the dying girl"
+    ]
+  },
+  {
+    "node_id": "n::me without you",
+    "name": "Me Without You",
+    "type": "entity",
+    "aliases": [
+      "Me Without You"
+    ],
+    "source_docs": [
+      "me without you"
+    ]
+  },
+  {
+    "node_id": "n::me, myself and mum",
+    "name": "Me, Myself and Mum",
+    "type": "entity",
+    "aliases": [
+      "Me, Myself and Mum"
+    ],
+    "source_docs": [
+      "me, myself and mum"
+    ]
+  },
+  {
+    "node_id": "n::meg tilly",
+    "name": "Meg Tilly",
+    "type": "entity",
+    "aliases": [
+      "Meg Tilly"
+    ],
+    "source_docs": [
+      "off beat"
+    ]
+  },
+  {
+    "node_id": "n::men in war",
+    "name": "Men in War",
+    "type": "entity",
+    "aliases": [
+      "Men in War"
+    ],
+    "source_docs": [
+      "men in war"
+    ]
+  },
+  {
+    "node_id": "n::merantau",
+    "name": "Merantau",
+    "type": "entity",
+    "aliases": [
+      "Merantau"
+    ],
+    "source_docs": [
+      "merantau"
+    ]
+  },
+  {
+    "node_id": "n::michael apted",
+    "name": "Michael Apted",
+    "type": "entity",
+    "aliases": [
+      "Michael Apted"
+    ],
+    "source_docs": [
+      "gorky park"
+    ]
+  },
+  {
+    "node_id": "n::michael crichton",
+    "name": "Michael Crichton",
+    "type": "entity",
+    "aliases": [
+      "Michael Crichton"
+    ],
+    "source_docs": [
+      "coma"
+    ]
+  },
+  {
+    "node_id": "n::michael gladis",
+    "name": "Michael Gladis",
+    "type": "entity",
+    "aliases": [
+      "Michael Gladis"
+    ],
+    "source_docs": [
+      "not safe for work"
+    ]
+  },
+  {
+    "node_id": "n::michael hegner",
+    "name": "Michael Hegner",
+    "type": "entity",
+    "aliases": [
+      "Michael Hegner"
+    ],
+    "source_docs": [
+      "the flight before christmas",
+      "the ugly duckling and me!"
+    ]
+  },
+  {
+    "node_id": "n::michael oliver",
+    "name": "Michael Oliver",
+    "type": "entity",
+    "aliases": [
+      "Michael Oliver"
+    ],
+    "source_docs": [
+      "problem child"
+    ]
+  },
+  {
+    "node_id": "n::michael redgrave",
+    "name": "Michael Redgrave",
+    "type": "entity",
+    "aliases": [
+      "Michael Redgrave"
+    ],
+    "source_docs": [
+      "mourning becomes electra"
+    ]
+  },
+  {
+    "node_id": "n::michael seitzman",
+    "name": "Michael Seitzman",
+    "type": "entity",
+    "aliases": [
+      "Michael Seitzman"
+    ],
+    "source_docs": [
+      "north country"
+    ]
+  },
+  {
+    "node_id": "n::michael shannon",
+    "name": "Michael Shannon",
+    "type": "entity",
+    "aliases": [
+      "Michael Shannon"
+    ],
+    "source_docs": [
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::michael tiddes",
+    "name": "Michael Tiddes",
+    "type": "entity",
+    "aliases": [
+      "Michael Tiddes"
+    ],
+    "source_docs": [
+      "a haunted house",
+      "a haunted house 2"
+    ]
+  },
+  {
+    "node_id": "n::michel côté",
+    "name": "Michel Côté",
+    "type": "entity",
+    "aliases": [
+      "Michel Côté"
+    ],
+    "source_docs": [
+      "father and guns"
+    ]
+  },
+  {
+    "node_id": "n::michelle williams",
+    "name": "Michelle Williams",
+    "type": "entity",
+    "aliases": [
+      "Michelle Williams"
+    ],
+    "source_docs": [
+      "take this waltz"
+    ]
+  },
+  {
+    "node_id": "n::mike epps",
+    "name": "Mike Epps",
+    "type": "entity",
+    "aliases": [
+      "Mike Epps"
+    ],
+    "source_docs": [
+      "open season 2"
+    ]
+  },
+  {
+    "node_id": "n::mike hodges",
+    "name": "Mike Hodges",
+    "type": "entity",
+    "aliases": [
+      "Mike Hodges"
+    ],
+    "source_docs": [
+      "flash gordon"
+    ]
+  },
+  {
+    "node_id": "n::mila kunis",
+    "name": "Mila Kunis",
+    "type": "entity",
+    "aliases": [
+      "Mila Kunis"
+    ],
+    "source_docs": [
+      "ted"
+    ]
+  },
+  {
+    "node_id": "n::millennium",
+    "name": "Millennium",
+    "type": "entity",
+    "aliases": [
+      "Millennium"
+    ],
+    "source_docs": [
+      "millennium"
+    ]
+  },
+  {
+    "node_id": "n::missionary man",
+    "name": "Missionary Man",
+    "type": "entity",
+    "aliases": [
+      "Missionary Man"
+    ],
+    "source_docs": [
+      "missionary man"
+    ]
+  },
+  {
+    "node_id": "n::moms' night out",
+    "name": "Moms' Night Out",
+    "type": "entity",
+    "aliases": [
+      "Moms' Night Out"
+    ],
+    "source_docs": [
+      "moms' night out"
+    ]
+  },
+  {
+    "node_id": "n::monsters",
+    "name": "Monsters",
+    "type": "entity",
+    "aliases": [
+      "Monsters"
+    ],
+    "source_docs": [
+      "monsters"
+    ]
+  },
+  {
+    "node_id": "n::morgan o'neill",
+    "name": "Morgan O'Neill",
+    "type": "entity",
+    "aliases": [
+      "Morgan O'Neill"
+    ],
+    "source_docs": [
+      "drift",
+      "the factory"
+    ]
+  },
+  {
+    "node_id": "n::moscow on the hudson",
+    "name": "Moscow on the Hudson",
+    "type": "entity",
+    "aliases": [
+      "Moscow on the Hudson"
+    ],
+    "source_docs": [
+      "moscow on the hudson"
+    ]
+  },
+  {
+    "node_id": "n::mourning becomes electra",
+    "name": "Mourning Becomes Electra",
+    "type": "entity",
+    "aliases": [
+      "Mourning Becomes Electra"
+    ],
+    "source_docs": [
+      "mourning becomes electra"
+    ]
+  },
+  {
+    "node_id": "n::mr. magoo",
+    "name": "Mr. Magoo",
+    "type": "entity",
+    "aliases": [
+      "Mr. Magoo"
+    ],
+    "source_docs": [
+      "mr. magoo"
+    ]
+  },
+  {
+    "node_id": "n::murder party",
+    "name": "Murder Party",
+    "type": "entity",
+    "aliases": [
+      "Murder Party"
+    ],
+    "source_docs": [
+      "murder party"
+    ]
+  },
+  {
+    "node_id": "n::musical",
+    "name": "Musical",
+    "type": "entity",
+    "aliases": [
+      "Musical"
+    ],
+    "source_docs": [
+      "huckleberry finn",
+      "tom sawyer"
+    ]
+  },
+  {
+    "node_id": "n::my dear secretary",
+    "name": "My Dear Secretary",
+    "type": "entity",
+    "aliases": [
+      "My Dear Secretary"
+    ],
+    "source_docs": [
+      "my dear secretary"
+    ]
+  },
+  {
+    "node_id": "n::my future boyfriend",
+    "name": "My Future Boyfriend",
+    "type": "entity",
+    "aliases": [
+      "My Future Boyfriend"
+    ],
+    "source_docs": [
+      "my future boyfriend"
+    ]
+  },
+  {
+    "node_id": "n::myles connolly",
+    "name": "Myles Connolly",
+    "type": "entity",
+    "aliases": [
+      "Myles Connolly"
+    ],
+    "source_docs": [
+      "hans christian andersen",
+      "state of the union"
+    ]
+  },
+  {
+    "node_id": "n::myron healey",
+    "name": "Myron Healey",
+    "type": "entity",
+    "aliases": [
+      "Myron Healey"
+    ],
+    "source_docs": [
+      "the incredible melting man",
+      "the unearthly"
+    ]
+  },
+  {
+    "node_id": "n::mystery",
+    "name": "Mystery",
+    "type": "entity",
+    "aliases": [
+      "Mystery"
+    ],
+    "source_docs": [
+      "the morning after"
+    ]
+  },
+  {
+    "node_id": "n::nancy carroll",
+    "name": "Nancy Carroll",
+    "type": "entity",
+    "aliases": [
+      "Nancy Carroll"
+    ],
+    "source_docs": [
+      "hot saturday"
+    ]
+  },
+  {
+    "node_id": "n::naqoyqatsi",
+    "name": "Naqoyqatsi",
+    "type": "entity",
+    "aliases": [
+      "Naqoyqatsi"
+    ],
+    "source_docs": [
+      "naqoyqatsi"
+    ]
+  },
+  {
+    "node_id": "n::natto wada",
+    "name": "Natto Wada",
+    "type": "entity",
+    "aliases": [
+      "Natto Wada"
+    ],
+    "source_docs": [
+      "an actor's revenge",
+      "fires on the plain"
+    ]
+  },
+  {
+    "node_id": "n::nazanin boniadi",
+    "name": "Nazanin Boniadi",
+    "type": "entity",
+    "aliases": [
+      "Nazanin Boniadi"
+    ],
+    "source_docs": [
+      "shirin in love"
+    ]
+  },
+  {
+    "node_id": "n::neil paterson",
+    "name": "Neil Paterson",
+    "type": "entity",
+    "aliases": [
+      "Neil Paterson"
+    ],
+    "source_docs": [
+      "room at the top"
+    ]
+  },
+  {
+    "node_id": "n::neil young",
+    "name": "Neil Young",
+    "type": "entity",
+    "aliases": [
+      "Neil Young"
+    ],
+    "source_docs": [
+      "csny/déjà vu",
+      "human highway"
+    ]
+  },
+  {
+    "node_id": "n::news from home",
+    "name": "News from Home",
+    "type": "entity",
+    "aliases": [
+      "News from Home"
+    ],
+    "source_docs": [
+      "news from home"
+    ]
+  },
+  {
+    "node_id": "n::nicholas monsarrat",
+    "name": "Nicholas Monsarrat",
+    "type": "entity",
+    "aliases": [
+      "Nicholas Monsarrat"
+    ],
+    "source_docs": [
+      "the story of esther costello"
+    ]
+  },
+  {
+    "node_id": "n::nick chinlund",
+    "name": "Nick Chinlund",
+    "type": "entity",
+    "aliases": [
+      "Nick Chinlund"
+    ],
+    "source_docs": [
+      "mr. magoo",
+      "wyvern"
+    ]
+  },
+  {
+    "node_id": "n::nick damici",
+    "name": "Nick Damici",
+    "type": "entity",
+    "aliases": [
+      "Nick Damici"
+    ],
+    "source_docs": [
+      "late phases",
+      "stake land"
+    ]
+  },
+  {
+    "node_id": "n::nick stahl",
+    "name": "Nick Stahl",
+    "type": "entity",
+    "aliases": [
+      "Nick Stahl"
+    ],
+    "source_docs": [
+      "quid pro quo"
+    ]
+  },
+  {
+    "node_id": "n::nick tomnay",
+    "name": "Nick Tomnay",
+    "type": "entity",
+    "aliases": [
+      "Nick Tomnay"
+    ],
+    "source_docs": [
+      "the perfect host"
+    ]
+  },
+  {
+    "node_id": "n::nicolas cage",
+    "name": "Nicolas Cage",
+    "type": "entity",
+    "aliases": [
+      "Nicolas Cage"
+    ],
+    "source_docs": [
+      "matchstick men"
+    ]
+  },
+  {
+    "node_id": "n::nicole perlman",
+    "name": "Nicole Perlman",
+    "type": "entity",
+    "aliases": [
+      "Nicole Perlman"
+    ],
+    "source_docs": [
+      "guardians of the galaxy"
+    ]
+  },
+  {
+    "node_id": "n::nigel green",
+    "name": "Nigel Green",
+    "type": "entity",
+    "aliases": [
+      "Nigel Green"
+    ],
+    "source_docs": [
+      "play dirty",
+      "the ipcress file"
+    ]
+  },
+  {
+    "node_id": "n::night train to lisbon",
+    "name": "Night Train to Lisbon",
+    "type": "entity",
+    "aliases": [
+      "Night Train to Lisbon"
+    ],
+    "source_docs": [
+      "night train to lisbon"
+    ]
+  },
+  {
+    "node_id": "n::nightwing",
+    "name": "Nightwing",
+    "type": "entity",
+    "aliases": [
+      "Nightwing"
+    ],
+    "source_docs": [
+      "nightwing"
+    ]
+  },
+  {
+    "node_id": "n::niki caro",
+    "name": "Niki Caro",
+    "type": "entity",
+    "aliases": [
+      "Niki Caro"
+    ],
+    "source_docs": [
+      "north country",
+      "whale rider"
+    ]
+  },
+  {
+    "node_id": "n::nipsey russell",
+    "name": "Nipsey Russell",
+    "type": "entity",
+    "aliases": [
+      "Nipsey Russell"
+    ],
+    "source_docs": [
+      "car 54, where are you?",
+      "the wiz"
+    ]
+  },
+  {
+    "node_id": "n::no man's land",
+    "name": "No Man's Land",
+    "type": "entity",
+    "aliases": [
+      "No Man's Land"
+    ],
+    "source_docs": [
+      "no man's land"
+    ]
+  },
+  {
+    "node_id": "n::noah's ark",
+    "name": "Noah's Ark",
+    "type": "entity",
+    "aliases": [
+      "Noah's Ark"
+    ],
+    "source_docs": [
+      "noah's ark"
+    ]
+  },
+  {
+    "node_id": "n::non-stop",
+    "name": "Non-Stop",
+    "type": "entity",
+    "aliases": [
+      "Non-Stop"
+    ],
+    "source_docs": [
+      "non-stop"
+    ]
+  },
+  {
+    "node_id": "n::norman jewison",
+    "name": "Norman Jewison",
+    "type": "entity",
+    "aliases": [
+      "Norman Jewison"
+    ],
+    "source_docs": [
+      "fiddler on the roof"
+    ]
+  },
+  {
+    "node_id": "n::north country",
+    "name": "North Country",
+    "type": "entity",
+    "aliases": [
+      "North Country"
+    ],
+    "source_docs": [
+      "north country"
+    ]
+  },
+  {
+    "node_id": "n::north west frontier",
+    "name": "North West Frontier",
+    "type": "entity",
+    "aliases": [
+      "North West Frontier"
+    ],
+    "source_docs": [
+      "north west frontier"
+    ]
+  },
+  {
+    "node_id": "n::norwegian",
+    "name": "Norwegian",
+    "type": "entity",
+    "aliases": [
+      "Norwegian"
+    ],
+    "source_docs": [
+      "jonny vang",
+      "the bothersome man"
+    ]
+  },
+  {
+    "node_id": "n::not safe for work",
+    "name": "Not Safe for Work",
+    "type": "entity",
+    "aliases": [
+      "Not Safe for Work"
+    ],
+    "source_docs": [
+      "not safe for work"
+    ]
+  },
+  {
+    "node_id": "n::nothing to declare",
+    "name": "Nothing to Declare",
+    "type": "entity",
+    "aliases": [
+      "Nothing to Declare"
+    ],
+    "source_docs": [
+      "nothing to declare"
+    ]
+  },
+  {
+    "node_id": "n::nowhere",
+    "name": "Nowhere",
+    "type": "entity",
+    "aliases": [
+      "Nowhere"
+    ],
+    "source_docs": [
+      "nowhere"
+    ]
+  },
+  {
+    "node_id": "n::october baby",
+    "name": "October Baby",
+    "type": "entity",
+    "aliases": [
+      "October Baby"
+    ],
+    "source_docs": [
+      "october baby"
+    ]
+  },
+  {
+    "node_id": "n::off beat",
+    "name": "Off Beat",
+    "type": "entity",
+    "aliases": [
+      "Off Beat"
+    ],
+    "source_docs": [
+      "off beat"
+    ]
+  },
+  {
+    "node_id": "n::off the map",
+    "name": "Off the Map",
+    "type": "entity",
+    "aliases": [
+      "Off the Map"
+    ],
+    "source_docs": [
+      "off the map"
+    ]
+  },
+  {
+    "node_id": "n::olli saarela",
+    "name": "Olli Saarela",
+    "type": "entity",
+    "aliases": [
+      "Olli Saarela"
+    ],
+    "source_docs": [
+      "ambush",
+      "bad luck love"
+    ]
+  },
+  {
+    "node_id": "n::one from the heart",
+    "name": "One from the Heart",
+    "type": "entity",
+    "aliases": [
+      "One from the Heart"
+    ],
+    "source_docs": [
+      "one from the heart"
+    ]
+  },
+  {
+    "node_id": "n::open season 2",
+    "name": "Open Season 2",
+    "type": "entity",
+    "aliases": [
+      "Open Season 2"
+    ],
+    "source_docs": [
+      "open season 2"
+    ]
+  },
+  {
+    "node_id": "n::orfeu",
+    "name": "Orfeu",
+    "type": "entity",
+    "aliases": [
+      "Orfeu"
+    ],
+    "source_docs": [
+      "orfeu"
+    ]
+  },
+  {
+    "node_id": "n::otokichi mikami",
+    "name": "Otokichi Mikami",
+    "type": "entity",
+    "aliases": [
+      "Otokichi Mikami"
+    ],
+    "source_docs": [
+      "an actor's revenge"
+    ]
+  },
+  {
+    "node_id": "n::out of the furnace",
+    "name": "Out of the Furnace",
+    "type": "entity",
+    "aliases": [
+      "Out of the Furnace"
+    ],
+    "source_docs": [
+      "out of the furnace"
+    ]
+  },
+  {
+    "node_id": "n::pablo proenza",
+    "name": "Pablo Proenza",
+    "type": "entity",
+    "aliases": [
+      "Pablo Proenza"
+    ],
+    "source_docs": [
+      "dark mirror"
+    ]
+  },
+  {
+    "node_id": "n::paddington",
+    "name": "Paddington",
+    "type": "entity",
+    "aliases": [
+      "Paddington"
+    ],
+    "source_docs": [
+      "paddington"
+    ]
+  },
+  {
+    "node_id": "n::paddy considine",
+    "name": "Paddy Considine",
+    "type": "entity",
+    "aliases": [
+      "Paddy Considine"
+    ],
+    "source_docs": [
+      "blitz"
+    ]
+  },
+  {
+    "node_id": "n::palookaville",
+    "name": "Palookaville",
+    "type": "entity",
+    "aliases": [
+      "Palookaville"
+    ],
+    "source_docs": [
+      "palookaville"
+    ]
+  },
+  {
+    "node_id": "n::pandora's box",
+    "name": "Pandora's Box",
+    "type": "entity",
+    "aliases": [
+      "Pandora's Box"
+    ],
+    "source_docs": [
+      "pandora's box"
+    ]
+  },
+  {
+    "node_id": "n::pascale ferran",
+    "name": "Pascale Ferran",
+    "type": "entity",
+    "aliases": [
+      "Pascale Ferran"
+    ],
+    "source_docs": [
+      "bird people",
+      "lady chatterley"
+    ]
+  },
+  {
+    "node_id": "n::patricia cardoso",
+    "name": "Patricia Cardoso",
+    "type": "entity",
+    "aliases": [
+      "Patricia Cardoso"
+    ],
+    "source_docs": [
+      "real women have curves"
+    ]
+  },
+  {
+    "node_id": "n::patricia highsmith",
+    "name": "Patricia Highsmith",
+    "type": "entity",
+    "aliases": [
+      "Patricia Highsmith"
+    ],
+    "source_docs": [
+      "ripley's game"
+    ]
+  },
+  {
+    "node_id": "n::patrick wilson",
+    "name": "Patrick Wilson",
+    "type": "entity",
+    "aliases": [
+      "Patrick Wilson"
+    ],
+    "source_docs": [
+      "barry munday"
+    ]
+  },
+  {
+    "node_id": "n::paul king",
+    "name": "Paul King",
+    "type": "entity",
+    "aliases": [
+      "Paul King"
+    ],
+    "source_docs": [
+      "bunny and the bull",
+      "paddington"
+    ]
+  },
+  {
+    "node_id": "n::paul mccartney",
+    "name": "Paul McCartney",
+    "type": "entity",
+    "aliases": [
+      "Paul McCartney"
+    ],
+    "source_docs": [
+      "a hard day's night",
+      "help!"
+    ]
+  },
+  {
+    "node_id": "n::paul newman",
+    "name": "Paul Newman",
+    "type": "entity",
+    "aliases": [
+      "Paul Newman"
+    ],
+    "source_docs": [
+      "rachel, rachel"
+    ]
+  },
+  {
+    "node_id": "n::paul osborn",
+    "name": "Paul Osborn",
+    "type": "entity",
+    "aliases": [
+      "Paul Osborn"
+    ],
+    "source_docs": [
+      "the yearling"
+    ]
+  },
+  {
+    "node_id": "n::pay or die",
+    "name": "Pay or Die",
+    "type": "entity",
+    "aliases": [
+      "Pay or Die"
+    ],
+    "source_docs": [
+      "pay or die"
+    ]
+  },
+  {
+    "node_id": "n::peg fenwick",
+    "name": "Peg Fenwick",
+    "type": "entity",
+    "aliases": [
+      "Peg Fenwick"
+    ],
+    "source_docs": [
+      "all that heaven allows"
+    ]
+  },
+  {
+    "node_id": "n::persian",
+    "name": "Persian",
+    "type": "entity",
+    "aliases": [
+      "Persian"
+    ],
+    "source_docs": [
+      "the stoning of soraya m."
+    ]
+  },
+  {
+    "node_id": "n::peter horton",
+    "name": "Peter Horton",
+    "type": "entity",
+    "aliases": [
+      "Peter Horton"
+    ],
+    "source_docs": [
+      "amazon women on the moon"
+    ]
+  },
+  {
+    "node_id": "n::peter werner",
+    "name": "Peter Werner",
+    "type": "entity",
+    "aliases": [
+      "Peter Werner"
+    ],
+    "source_docs": [
+      "gracie's choice",
+      "no man's land"
+    ]
+  },
+  {
+    "node_id": "n::peyo",
+    "name": "Peyo",
+    "type": "entity",
+    "aliases": [
+      "Peyo"
+    ],
+    "source_docs": [
+      "the smurfs",
+      "the smurfs 2"
+    ]
+  },
+  {
+    "node_id": "n::philip dunne",
+    "name": "Philip Dunne",
+    "type": "entity",
+    "aliases": [
+      "Philip Dunne"
+    ],
+    "source_docs": [
+      "pinky"
+    ]
+  },
+  {
+    "node_id": "n::philip merivale",
+    "name": "Philip Merivale",
+    "type": "entity",
+    "aliases": [
+      "Philip Merivale"
+    ],
+    "source_docs": [
+      "sister kenny"
+    ]
+  },
+  {
+    "node_id": "n::pie in the sky",
+    "name": "Pie in the Sky",
+    "type": "entity",
+    "aliases": [
+      "Pie in the Sky"
+    ],
+    "source_docs": [
+      "pie in the sky"
+    ]
+  },
+  {
+    "node_id": "n::pinchas perry",
+    "name": "Pinchas Perry",
+    "type": "entity",
+    "aliases": [
+      "Pinchas Perry"
+    ],
+    "source_docs": [
+      "the chicago 8",
+      "when nietzsche wept"
+    ]
+  },
+  {
+    "node_id": "n::pinky",
+    "name": "Pinky",
+    "type": "entity",
+    "aliases": [
+      "Pinky"
+    ],
+    "source_docs": [
+      "pinky"
+    ]
+  },
+  {
+    "node_id": "n::play dirty",
+    "name": "Play Dirty",
+    "type": "entity",
+    "aliases": [
+      "Play Dirty"
+    ],
+    "source_docs": [
+      "play dirty"
+    ]
+  },
+  {
+    "node_id": "n::poison ivy",
+    "name": "Poison Ivy",
+    "type": "entity",
+    "aliases": [
+      "Poison Ivy"
+    ],
+    "source_docs": [
+      "poison ivy"
+    ]
+  },
+  {
+    "node_id": "n::pola negri",
+    "name": "Pola Negri",
+    "type": "entity",
+    "aliases": [
+      "Pola Negri"
+    ],
+    "source_docs": [
+      "carmen",
+      "hi diddle diddle"
+    ]
+  },
+  {
+    "node_id": "n::port of shadows",
+    "name": "Port of Shadows",
+    "type": "entity",
+    "aliases": [
+      "Port of Shadows"
+    ],
+    "source_docs": [
+      "port of shadows"
+    ]
+  },
+  {
+    "node_id": "n::portuguese",
+    "name": "Portuguese",
+    "type": "entity",
+    "aliases": [
+      "Portuguese"
+    ],
+    "source_docs": [
+      "adão e eva",
+      "tentação"
+    ]
+  },
+  {
+    "node_id": "n::powaqqatsi",
+    "name": "Powaqqatsi",
+    "type": "entity",
+    "aliases": [
+      "Powaqqatsi"
+    ],
+    "source_docs": [
+      "powaqqatsi"
+    ]
+  },
+  {
+    "node_id": "n::problem child",
+    "name": "Problem Child",
+    "type": "entity",
+    "aliases": [
+      "Problem Child"
+    ],
+    "source_docs": [
+      "problem child"
+    ]
+  },
+  {
+    "node_id": "n::puppet master vs demonic toys",
+    "name": "Puppet Master vs Demonic Toys",
+    "type": "entity",
+    "aliases": [
+      "Puppet Master vs Demonic Toys"
+    ],
+    "source_docs": [
+      "puppet master vs demonic toys"
+    ]
+  },
+  {
+    "node_id": "n::queen bee",
+    "name": "Queen Bee",
+    "type": "entity",
+    "aliases": [
+      "Queen Bee"
+    ],
+    "source_docs": [
+      "queen bee"
+    ]
+  },
+  {
+    "node_id": "n::quid pro quo",
+    "name": "Quid Pro Quo",
+    "type": "entity",
+    "aliases": [
+      "Quid Pro Quo"
+    ],
+    "source_docs": [
+      "quid pro quo"
+    ]
+  },
+  {
+    "node_id": "n::rachael harris",
+    "name": "Rachael Harris",
+    "type": "entity",
+    "aliases": [
+      "Rachael Harris"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid"
+    ]
+  },
+  {
+    "node_id": "n::rachel true",
+    "name": "Rachel True",
+    "type": "entity",
+    "aliases": [
+      "Rachel True"
+    ],
+    "source_docs": [
+      "nowhere",
+      "the craft"
+    ]
+  },
+  {
+    "node_id": "n::rachel, rachel",
+    "name": "Rachel, Rachel",
+    "type": "entity",
+    "aliases": [
+      "Rachel, Rachel"
+    ],
+    "source_docs": [
+      "rachel, rachel"
+    ]
+  },
+  {
+    "node_id": "n::raja gosnell",
+    "name": "Raja Gosnell",
+    "type": "entity",
+    "aliases": [
+      "Raja Gosnell"
+    ],
+    "source_docs": [
+      "the smurfs",
+      "the smurfs 2"
+    ]
+  },
+  {
+    "node_id": "n::ramin niami",
+    "name": "Ramin Niami",
+    "type": "entity",
+    "aliases": [
+      "Ramin Niami"
+    ],
+    "source_docs": [
+      "shirin in love",
+      "somewhere in the city"
+    ]
+  },
+  {
+    "node_id": "n::ranald macdougall",
+    "name": "Ranald MacDougall",
+    "type": "entity",
+    "aliases": [
+      "Ranald MacDougall"
+    ],
+    "source_docs": [
+      "queen bee"
+    ]
+  },
+  {
+    "node_id": "n::randolph scott",
+    "name": "Randolph Scott",
+    "type": "entity",
+    "aliases": [
+      "Randolph Scott"
+    ],
+    "source_docs": [
+      "hot saturday"
+    ]
+  },
+  {
+    "node_id": "n::raul julia",
+    "name": "Raul Julia",
+    "type": "entity",
+    "aliases": [
+      "Raul Julia"
+    ],
+    "source_docs": [
+      "one from the heart",
+      "the morning after"
+    ]
+  },
+  {
+    "node_id": "n::ray harryhausen",
+    "name": "Ray Harryhausen",
+    "type": "entity",
+    "aliases": [
+      "Ray Harryhausen"
+    ],
+    "source_docs": [
+      "sinbad and the eye of the tiger",
+      "the golden voyage of sinbad"
+    ]
+  },
+  {
+    "node_id": "n::ray liotta",
+    "name": "Ray Liotta",
+    "type": "entity",
+    "aliases": [
+      "Ray Liotta"
+    ],
+    "source_docs": [
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::raymond massey",
+    "name": "Raymond Massey",
+    "type": "entity",
+    "aliases": [
+      "Raymond Massey"
+    ],
+    "source_docs": [
+      "mourning becomes electra"
+    ]
+  },
+  {
+    "node_id": "n::real women have curves",
+    "name": "Real Women Have Curves",
+    "type": "entity",
+    "aliases": [
+      "Real Women Have Curves"
+    ],
+    "source_docs": [
+      "real women have curves"
+    ]
+  },
+  {
+    "node_id": "n::rebecca gayheart",
+    "name": "Rebecca Gayheart",
+    "type": "entity",
+    "aliases": [
+      "Rebecca Gayheart"
+    ],
+    "source_docs": [
+      "jawbreaker",
+      "urban legend"
+    ]
+  },
+  {
+    "node_id": "n::reginald berkeley",
+    "name": "Reginald Berkeley",
+    "type": "entity",
+    "aliases": [
+      "Reginald Berkeley"
+    ],
+    "source_docs": [
+      "broken lullaby",
+      "cavalcade"
+    ]
+  },
+  {
+    "node_id": "n::reginald denny",
+    "name": "Reginald Denny",
+    "type": "entity",
+    "aliases": [
+      "Reginald Denny"
+    ],
+    "source_docs": [
+      "madam satan",
+      "the lost patrol"
+    ]
+  },
+  {
+    "node_id": "n::repo men",
+    "name": "Repo Men",
+    "type": "entity",
+    "aliases": [
+      "Repo Men"
+    ],
+    "source_docs": [
+      "repo men"
+    ]
+  },
+  {
+    "node_id": "n::respiro",
+    "name": "Respiro",
+    "type": "entity",
+    "aliases": [
+      "Respiro"
+    ],
+    "source_docs": [
+      "respiro"
+    ]
+  },
+  {
+    "node_id": "n::ric roman waugh",
+    "name": "Ric Roman Waugh",
+    "type": "entity",
+    "aliases": [
+      "Ric Roman Waugh"
+    ],
+    "source_docs": [
+      "snitch"
+    ]
+  },
+  {
+    "node_id": "n::ricardo montalban",
+    "name": "Ricardo Montalban",
+    "type": "entity",
+    "aliases": [
+      "Ricardo Montalban"
+    ],
+    "source_docs": [
+      "border incident"
+    ]
+  },
+  {
+    "node_id": "n::rich christiano",
+    "name": "Rich Christiano",
+    "type": "entity",
+    "aliases": [
+      "Rich Christiano"
+    ],
+    "source_docs": [
+      "the secrets of jonathan sperry",
+      "time changer"
+    ]
+  },
+  {
+    "node_id": "n::rich, young and pretty",
+    "name": "Rich, Young and Pretty",
+    "type": "entity",
+    "aliases": [
+      "Rich, Young and Pretty"
+    ],
+    "source_docs": [
+      "rich, young and pretty"
+    ]
+  },
+  {
+    "node_id": "n::richard a. colla",
+    "name": "Richard A. Colla",
+    "type": "entity",
+    "aliases": [
+      "Richard A. Colla"
+    ],
+    "source_docs": [
+      "fuzz",
+      "zig zag"
+    ]
+  },
+  {
+    "node_id": "n::richard eyre",
+    "name": "Richard Eyre",
+    "type": "entity",
+    "aliases": [
+      "Richard Eyre"
+    ],
+    "source_docs": [
+      "iris",
+      "the other man"
+    ]
+  },
+  {
+    "node_id": "n::richard h. landau",
+    "name": "Richard H. Landau",
+    "type": "entity",
+    "aliases": [
+      "Richard H. Landau"
+    ],
+    "source_docs": [
+      "christmas eve",
+      "up periscope"
+    ]
+  },
+  {
+    "node_id": "n::richard kiley",
+    "name": "Richard Kiley",
+    "type": "entity",
+    "aliases": [
+      "Richard Kiley"
+    ],
+    "source_docs": [
+      "looking for mr. goodbar",
+      "the phenix city story"
+    ]
+  },
+  {
+    "node_id": "n::richard m. sherman",
+    "name": "Richard M. Sherman",
+    "type": "entity",
+    "aliases": [
+      "Richard M. Sherman"
+    ],
+    "source_docs": [
+      "huckleberry finn",
+      "tom sawyer"
+    ]
+  },
+  {
+    "node_id": "n::ricki stern",
+    "name": "Ricki Stern",
+    "type": "entity",
+    "aliases": [
+      "Ricki Stern"
+    ],
+    "source_docs": [
+      "the devil came on horseback",
+      "the end of america"
+    ]
+  },
+  {
+    "node_id": "n::riley smith",
+    "name": "Riley Smith",
+    "type": "entity",
+    "aliases": [
+      "Riley Smith"
+    ],
+    "source_docs": [
+      "shirin in love"
+    ]
+  },
+  {
+    "node_id": "n::ripley's game",
+    "name": "Ripley's Game",
+    "type": "entity",
+    "aliases": [
+      "Ripley's Game"
+    ],
+    "source_docs": [
+      "ripley's game"
+    ]
+  },
+  {
+    "node_id": "n::road to singapore",
+    "name": "Road to Singapore",
+    "type": "entity",
+    "aliases": [
+      "Road to Singapore"
+    ],
+    "source_docs": [
+      "road to singapore"
+    ]
+  },
+  {
+    "node_id": "n::robert adetuyi",
+    "name": "Robert Adetuyi",
+    "type": "entity",
+    "aliases": [
+      "Robert Adetuyi"
+    ],
+    "source_docs": [
+      "stomp the yard",
+      "turn it up"
+    ]
+  },
+  {
+    "node_id": "n::robert capron",
+    "name": "Robert Capron",
+    "type": "entity",
+    "aliases": [
+      "Robert Capron"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid"
+    ]
+  },
+  {
+    "node_id": "n::robert hamer",
+    "name": "Robert Hamer",
+    "type": "entity",
+    "aliases": [
+      "Robert Hamer"
+    ],
+    "source_docs": [
+      "dead of night"
+    ]
+  },
+  {
+    "node_id": "n::robert k. weiss",
+    "name": "Robert K. Weiss",
+    "type": "entity",
+    "aliases": [
+      "Robert K. Weiss"
+    ],
+    "source_docs": [
+      "amazon women on the moon"
+    ]
+  },
+  {
+    "node_id": "n::robert kurtzman",
+    "name": "Robert Kurtzman",
+    "type": "entity",
+    "aliases": [
+      "Robert Kurtzman"
+    ],
+    "source_docs": [
+      "the rage",
+      "wishmaster"
+    ]
+  },
+  {
+    "node_id": "n::robert mundi",
+    "name": "Robert Mundi",
+    "type": "entity",
+    "aliases": [
+      "Robert Mundi"
+    ],
+    "source_docs": [
+      "rough magic"
+    ]
+  },
+  {
+    "node_id": "n::robert n. bradbury",
+    "name": "Robert N. Bradbury",
+    "type": "entity",
+    "aliases": [
+      "Robert N. Bradbury"
+    ],
+    "source_docs": [
+      "the lawless frontier"
+    ]
+  },
+  {
+    "node_id": "n::robert ryan",
+    "name": "Robert Ryan",
+    "type": "entity",
+    "aliases": [
+      "Robert Ryan"
+    ],
+    "source_docs": [
+      "men in war"
+    ]
+  },
+  {
+    "node_id": "n::robert taylor",
+    "name": "Robert Taylor",
+    "type": "entity",
+    "aliases": [
+      "Robert Taylor"
+    ],
+    "source_docs": [
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::robin cook",
+    "name": "Robin Cook",
+    "type": "entity",
+    "aliases": [
+      "Robin Cook"
+    ],
+    "source_docs": [
+      "coma",
+      "sphinx"
+    ]
+  },
+  {
+    "node_id": "n::robin estridge",
+    "name": "Robin Estridge",
+    "type": "entity",
+    "aliases": [
+      "Robin Estridge"
+    ],
+    "source_docs": [
+      "eye of the devil",
+      "north west frontier"
+    ]
+  },
+  {
+    "node_id": "n::robin williams",
+    "name": "Robin Williams",
+    "type": "entity",
+    "aliases": [
+      "Robin Williams"
+    ],
+    "source_docs": [
+      "moscow on the hudson"
+    ]
+  },
+  {
+    "node_id": "n::rock of ages",
+    "name": "Rock of Ages",
+    "type": "entity",
+    "aliases": [
+      "Rock of Ages"
+    ],
+    "source_docs": [
+      "rock of ages"
+    ]
+  },
+  {
+    "node_id": "n::rodney dangerfield",
+    "name": "Rodney Dangerfield",
+    "type": "entity",
+    "aliases": [
+      "Rodney Dangerfield"
+    ],
+    "source_docs": [
+      "when jews were funny"
+    ]
+  },
+  {
+    "node_id": "n::roger corman",
+    "name": "Roger Corman",
+    "type": "entity",
+    "aliases": [
+      "Roger Corman"
+    ],
+    "source_docs": [
+      "von richthofen and brown"
+    ]
+  },
+  {
+    "node_id": "n::roll bounce",
+    "name": "Roll Bounce",
+    "type": "entity",
+    "aliases": [
+      "Roll Bounce"
+    ],
+    "source_docs": [
+      "roll bounce"
+    ]
+  },
+  {
+    "node_id": "n::romance",
+    "name": "Romance",
+    "type": "entity",
+    "aliases": [
+      "Romance"
+    ],
+    "source_docs": [
+      "romance"
+    ]
+  },
+  {
+    "node_id": "n::romper stomper",
+    "name": "Romper Stomper",
+    "type": "entity",
+    "aliases": [
+      "Romper Stomper"
+    ],
+    "source_docs": [
+      "romper stomper"
+    ]
+  },
+  {
+    "node_id": "n::ron o'neal",
+    "name": "Ron O'Neal",
+    "type": "entity",
+    "aliases": [
+      "Ron O'Neal"
+    ],
+    "source_docs": [
+      "a force of one",
+      "super fly"
+    ]
+  },
+  {
+    "node_id": "n::room at the top",
+    "name": "Room at the Top",
+    "type": "entity",
+    "aliases": [
+      "Room at the Top"
+    ],
+    "source_docs": [
+      "room at the top"
+    ]
+  },
+  {
+    "node_id": "n::rosalind russell",
+    "name": "Rosalind Russell",
+    "type": "entity",
+    "aliases": [
+      "Rosalind Russell"
+    ],
+    "source_docs": [
+      "mourning becomes electra",
+      "sister kenny"
+    ]
+  },
+  {
+    "node_id": "n::rosemary forsyth",
+    "name": "Rosemary Forsyth",
+    "type": "entity",
+    "aliases": [
+      "Rosemary Forsyth"
+    ],
+    "source_docs": [
+      "the war lord",
+      "what ever happened to aunt alice?"
+    ]
+  },
+  {
+    "node_id": "n::rough magic",
+    "name": "Rough Magic",
+    "type": "entity",
+    "aliases": [
+      "Rough Magic"
+    ],
+    "source_docs": [
+      "rough magic"
+    ]
+  },
+  {
+    "node_id": "n::rude awakening",
+    "name": "Rude Awakening",
+    "type": "entity",
+    "aliases": [
+      "Rude Awakening"
+    ],
+    "source_docs": [
+      "rude awakening"
+    ]
+  },
+  {
+    "node_id": "n::russ tamblyn",
+    "name": "Russ Tamblyn",
+    "type": "entity",
+    "aliases": [
+      "Russ Tamblyn"
+    ],
+    "source_docs": [
+      "human highway"
+    ]
+  },
+  {
+    "node_id": "n::russell hoban",
+    "name": "Russell Hoban",
+    "type": "entity",
+    "aliases": [
+      "Russell Hoban"
+    ],
+    "source_docs": [
+      "emmet otter's jug-band christmas",
+      "turtle diary"
+    ]
+  },
+  {
+    "node_id": "n::rémy girard",
+    "name": "Rémy Girard",
+    "type": "entity",
+    "aliases": [
+      "Rémy Girard"
+    ],
+    "source_docs": [
+      "father and guns"
+    ]
+  },
+  {
+    "node_id": "n::sam rockwell",
+    "name": "Sam Rockwell",
+    "type": "entity",
+    "aliases": [
+      "Sam Rockwell"
+    ],
+    "source_docs": [
+      "matchstick men"
+    ]
+  },
+  {
+    "node_id": "n::sandra goldbacher",
+    "name": "Sandra Goldbacher",
+    "type": "entity",
+    "aliases": [
+      "Sandra Goldbacher"
+    ],
+    "source_docs": [
+      "me without you",
+      "the governess"
+    ]
+  },
+  {
+    "node_id": "n::santosh sivan",
+    "name": "Santosh Sivan",
+    "type": "entity",
+    "aliases": [
+      "Santosh Sivan"
+    ],
+    "source_docs": [
+      "the terrorist"
+    ]
+  },
+  {
+    "node_id": "n::sara rue",
+    "name": "Sara Rue",
+    "type": "entity",
+    "aliases": [
+      "Sara Rue"
+    ],
+    "source_docs": [
+      "my future boyfriend",
+      "this time around"
+    ]
+  },
+  {
+    "node_id": "n::sara sugarman",
+    "name": "Sara Sugarman",
+    "type": "entity",
+    "aliases": [
+      "Sara Sugarman"
+    ],
+    "source_docs": [
+      "confessions of a teenage drama queen"
+    ]
+  },
+  {
+    "node_id": "n::sarah silverman",
+    "name": "Sarah Silverman",
+    "type": "entity",
+    "aliases": [
+      "Sarah Silverman"
+    ],
+    "source_docs": [
+      "take this waltz"
+    ]
+  },
+  {
+    "node_id": "n::savage grace",
+    "name": "Savage Grace",
+    "type": "entity",
+    "aliases": [
+      "Savage Grace"
+    ],
+    "source_docs": [
+      "savage grace"
+    ]
+  },
+  {
+    "node_id": "n::scoot mcnairy",
+    "name": "Scoot McNairy",
+    "type": "entity",
+    "aliases": [
+      "Scoot McNairy"
+    ],
+    "source_docs": [
+      "monsters",
+      "non-stop"
+    ]
+  },
+  {
+    "node_id": "n::scott cooper",
+    "name": "Scott Cooper",
+    "type": "entity",
+    "aliases": [
+      "Scott Cooper"
+    ],
+    "source_docs": [
+      "crazy heart",
+      "out of the furnace"
+    ]
+  },
+  {
+    "node_id": "n::scott kalvert",
+    "name": "Scott Kalvert",
+    "type": "entity",
+    "aliases": [
+      "Scott Kalvert"
+    ],
+    "source_docs": [
+      "deuces wild",
+      "the basketball diaries"
+    ]
+  },
+  {
+    "node_id": "n::secret admirer",
+    "name": "Secret Admirer",
+    "type": "entity",
+    "aliases": [
+      "Secret Admirer"
+    ],
+    "source_docs": [
+      "secret admirer"
+    ]
+  },
+  {
+    "node_id": "n::seema biswas",
+    "name": "Seema Biswas",
+    "type": "entity",
+    "aliases": [
+      "Seema Biswas"
+    ],
+    "source_docs": [
+      "bandit queen",
+      "cooking with stella"
+    ]
+  },
+  {
+    "node_id": "n::set it off",
+    "name": "Set It Off",
+    "type": "entity",
+    "aliases": [
+      "Set It Off"
+    ],
+    "source_docs": [
+      "set it off"
+    ]
+  },
+  {
+    "node_id": "n::seth macfarlane",
+    "name": "Seth MacFarlane",
+    "type": "entity",
+    "aliases": [
+      "Seth MacFarlane"
+    ],
+    "source_docs": [
+      "ted"
+    ]
+  },
+  {
+    "node_id": "n::seth rogen",
+    "name": "Seth Rogen",
+    "type": "entity",
+    "aliases": [
+      "Seth Rogen"
+    ],
+    "source_docs": [
+      "take this waltz"
+    ]
+  },
+  {
+    "node_id": "n::shanghai express",
+    "name": "Shanghai Express",
+    "type": "entity",
+    "aliases": [
+      "Shanghai Express"
+    ],
+    "source_docs": [
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::sheila terry",
+    "name": "Sheila Terry",
+    "type": "entity",
+    "aliases": [
+      "Sheila Terry"
+    ],
+    "source_docs": [
+      "'neath the arizona skies",
+      "the lawless frontier"
+    ]
+  },
+  {
+    "node_id": "n::shima iwashita",
+    "name": "Shima Iwashita",
+    "type": "entity",
+    "aliases": [
+      "Shima Iwashita"
+    ],
+    "source_docs": [
+      "an autumn afternoon",
+      "double suicide"
+    ]
+  },
+  {
+    "node_id": "n::shirin in love",
+    "name": "Shirin in Love",
+    "type": "entity",
+    "aliases": [
+      "Shirin in Love"
+    ],
+    "source_docs": [
+      "shirin in love"
+    ]
+  },
+  {
+    "node_id": "n::shohreh aghdashloo",
+    "name": "Shohreh Aghdashloo",
+    "type": "entity",
+    "aliases": [
+      "Shohreh Aghdashloo"
+    ],
+    "source_docs": [
+      "the report",
+      "the stoning of soraya m."
+    ]
+  },
+  {
+    "node_id": "n::short",
+    "name": "Short",
+    "type": "entity",
+    "aliases": [
+      "Short"
+    ],
+    "source_docs": [
+      "cashback"
+    ]
+  },
+  {
+    "node_id": "n::shout",
+    "name": "Shout",
+    "type": "entity",
+    "aliases": [
+      "Shout"
+    ],
+    "source_docs": [
+      "shout"
+    ]
+  },
+  {
+    "node_id": "n::sidney buchman",
+    "name": "Sidney Buchman",
+    "type": "entity",
+    "aliases": [
+      "Sidney Buchman"
+    ],
+    "source_docs": [
+      "the mark"
+    ]
+  },
+  {
+    "node_id": "n::sidney poitier",
+    "name": "Sidney Poitier",
+    "type": "entity",
+    "aliases": [
+      "Sidney Poitier"
+    ],
+    "source_docs": [
+      "lilies of the field"
+    ]
+  },
+  {
+    "node_id": "n::simon boyes",
+    "name": "Simon Boyes",
+    "type": "entity",
+    "aliases": [
+      "Simon Boyes"
+    ],
+    "source_docs": [
+      "blood river",
+      "not safe for work"
+    ]
+  },
+  {
+    "node_id": "n::simon leys",
+    "name": "Simon Leys",
+    "type": "entity",
+    "aliases": [
+      "Simon Leys"
+    ],
+    "source_docs": [
+      "the emperor's new clothes"
+    ]
+  },
+  {
+    "node_id": "n::sinbad and the eye of the tiger",
+    "name": "Sinbad and the Eye of the Tiger",
+    "type": "entity",
+    "aliases": [
+      "Sinbad and the Eye of the Tiger"
+    ],
+    "source_docs": [
+      "sinbad and the eye of the tiger"
+    ]
+  },
+  {
+    "node_id": "n::sister kenny",
+    "name": "Sister Kenny",
+    "type": "entity",
+    "aliases": [
+      "Sister Kenny"
+    ],
+    "source_docs": [
+      "sister kenny"
+    ]
+  },
+  {
+    "node_id": "n::six ways to sunday",
+    "name": "Six Ways to Sunday",
+    "type": "entity",
+    "aliases": [
+      "Six Ways to Sunday"
+    ],
+    "source_docs": [
+      "six ways to sunday"
+    ]
+  },
+  {
+    "node_id": "n::skyscraper souls",
+    "name": "Skyscraper Souls",
+    "type": "entity",
+    "aliases": [
+      "Skyscraper Souls"
+    ],
+    "source_docs": [
+      "skyscraper souls"
+    ]
+  },
+  {
+    "node_id": "n::snitch",
+    "name": "Snitch",
+    "type": "entity",
+    "aliases": [
+      "Snitch"
+    ],
+    "source_docs": [
+      "snitch"
+    ]
+  },
+  {
+    "node_id": "n::somewhere in the city",
+    "name": "Somewhere in the City",
+    "type": "entity",
+    "aliases": [
+      "Somewhere in the City"
+    ],
+    "source_docs": [
+      "somewhere in the city"
+    ]
+  },
+  {
+    "node_id": "n::sondra locke",
+    "name": "Sondra Locke",
+    "type": "entity",
+    "aliases": [
+      "Sondra Locke"
+    ],
+    "source_docs": [
+      "any which way you can"
+    ]
+  },
+  {
+    "node_id": "n::sorority wars",
+    "name": "Sorority Wars",
+    "type": "entity",
+    "aliases": [
+      "Sorority Wars"
+    ],
+    "source_docs": [
+      "sorority wars"
+    ]
+  },
+  {
+    "node_id": "n::spanish",
+    "name": "Spanish",
+    "type": "entity",
+    "aliases": [
+      "Spanish"
+    ],
+    "source_docs": [
+      "carmen",
+      "the devil's backbone"
+    ]
+  },
+  {
+    "node_id": "n::sphinx",
+    "name": "Sphinx",
+    "type": "entity",
+    "aliases": [
+      "Sphinx"
+    ],
+    "source_docs": [
+      "sphinx"
+    ]
+  },
+  {
+    "node_id": "n::sport",
+    "name": "Sport",
+    "type": "entity",
+    "aliases": [
+      "Sport"
+    ],
+    "source_docs": [
+      "warrior"
+    ]
+  },
+  {
+    "node_id": "n::stake land",
+    "name": "Stake Land",
+    "type": "entity",
+    "aliases": [
+      "Stake Land"
+    ],
+    "source_docs": [
+      "stake land"
+    ]
+  },
+  {
+    "node_id": "n::stand up and fight",
+    "name": "Stand Up and Fight",
+    "type": "entity",
+    "aliases": [
+      "Stand Up and Fight"
+    ],
+    "source_docs": [
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::stanley kubrick",
+    "name": "Stanley Kubrick",
+    "type": "entity",
+    "aliases": [
+      "Stanley Kubrick"
+    ],
+    "source_docs": [
+      "the killing"
+    ]
+  },
+  {
+    "node_id": "n::stanley mann",
+    "name": "Stanley Mann",
+    "type": "entity",
+    "aliases": [
+      "Stanley Mann"
+    ],
+    "source_docs": [
+      "the mark"
+    ]
+  },
+  {
+    "node_id": "n::stanley tucci",
+    "name": "Stanley Tucci",
+    "type": "entity",
+    "aliases": [
+      "Stanley Tucci"
+    ],
+    "source_docs": [
+      "big night"
+    ]
+  },
+  {
+    "node_id": "n::state of the union",
+    "name": "State of the Union",
+    "type": "entity",
+    "aliases": [
+      "State of the Union"
+    ],
+    "source_docs": [
+      "state of the union"
+    ]
+  },
+  {
+    "node_id": "n::steal big steal little",
+    "name": "Steal Big Steal Little",
+    "type": "entity",
+    "aliases": [
+      "Steal Big Steal Little"
+    ],
+    "source_docs": [
+      "steal big steal little"
+    ]
+  },
+  {
+    "node_id": "n::stephen tolkin",
+    "name": "Stephen Tolkin",
+    "type": "entity",
+    "aliases": [
+      "Stephen Tolkin"
+    ],
+    "source_docs": [
+      "carolina moon",
+      "the craigslist killer"
+    ]
+  },
+  {
+    "node_id": "n::steve harvey",
+    "name": "Steve Harvey",
+    "type": "entity",
+    "aliases": [
+      "Steve Harvey"
+    ],
+    "source_docs": [
+      "the original kings of comedy"
+    ]
+  },
+  {
+    "node_id": "n::steve zahn",
+    "name": "Steve Zahn",
+    "type": "entity",
+    "aliases": [
+      "Steve Zahn"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid"
+    ]
+  },
+  {
+    "node_id": "n::steven zaillian",
+    "name": "Steven Zaillian",
+    "type": "entity",
+    "aliases": [
+      "Steven Zaillian"
+    ],
+    "source_docs": [
+      "jack the bear"
+    ]
+  },
+  {
+    "node_id": "n::stomp the yard",
+    "name": "Stomp the Yard",
+    "type": "entity",
+    "aliases": [
+      "Stomp the Yard"
+    ],
+    "source_docs": [
+      "stomp the yard"
+    ]
+  },
+  {
+    "node_id": "n::stormy waters",
+    "name": "Stormy Waters",
+    "type": "entity",
+    "aliases": [
+      "Stormy Waters"
+    ],
+    "source_docs": [
+      "stormy waters"
+    ]
+  },
+  {
+    "node_id": "n::street scene",
+    "name": "Street Scene",
+    "type": "entity",
+    "aliases": [
+      "Street Scene"
+    ],
+    "source_docs": [
+      "street scene"
+    ]
+  },
+  {
+    "node_id": "n::summer wars",
+    "name": "Summer Wars",
+    "type": "entity",
+    "aliases": [
+      "Summer Wars"
+    ],
+    "source_docs": [
+      "summer wars"
+    ]
+  },
+  {
+    "node_id": "n::super fly",
+    "name": "Super Fly",
+    "type": "entity",
+    "aliases": [
+      "Super Fly"
+    ],
+    "source_docs": [
+      "super fly"
+    ]
+  },
+  {
+    "node_id": "n::supercondriaque",
+    "name": "Supercondriaque",
+    "type": "entity",
+    "aliases": [
+      "Supercondriaque"
+    ],
+    "source_docs": [
+      "supercondriaque"
+    ]
+  },
+  {
+    "node_id": "n::swoon",
+    "name": "Swoon",
+    "type": "entity",
+    "aliases": [
+      "Swoon"
+    ],
+    "source_docs": [
+      "swoon"
+    ]
+  },
+  {
+    "node_id": "n::sylvain white",
+    "name": "Sylvain White",
+    "type": "entity",
+    "aliases": [
+      "Sylvain White"
+    ],
+    "source_docs": [
+      "stomp the yard"
+    ]
+  },
+  {
+    "node_id": "n::sylvia sidney",
+    "name": "Sylvia Sidney",
+    "type": "entity",
+    "aliases": [
+      "Sylvia Sidney"
+    ],
+    "source_docs": [
+      "street scene"
+    ]
+  },
+  {
+    "node_id": "n::take this waltz",
+    "name": "Take This Waltz",
+    "type": "entity",
+    "aliases": [
+      "Take This Waltz"
+    ],
+    "source_docs": [
+      "take this waltz"
+    ]
+  },
+  {
+    "node_id": "n::tamala jones",
+    "name": "Tamala Jones",
+    "type": "entity",
+    "aliases": [
+      "Tamala Jones"
+    ],
+    "source_docs": [
+      "little richard"
+    ]
+  },
+  {
+    "node_id": "n::tammy lauren",
+    "name": "Tammy Lauren",
+    "type": "entity",
+    "aliases": [
+      "Tammy Lauren"
+    ],
+    "source_docs": [
+      "wishmaster"
+    ]
+  },
+  {
+    "node_id": "n::ted",
+    "name": "Ted",
+    "type": "entity",
+    "aliases": [
+      "Ted"
+    ],
+    "source_docs": [
+      "ted"
+    ]
+  },
+  {
+    "node_id": "n::ted tetzlaff",
+    "name": "Ted Tetzlaff",
+    "type": "entity",
+    "aliases": [
+      "Ted Tetzlaff"
+    ],
+    "source_docs": [
+      "a dangerous profession",
+      "the window"
+    ]
+  },
+  {
+    "node_id": "n::teddy chan",
+    "name": "Teddy Chan",
+    "type": "entity",
+    "aliases": [
+      "Teddy Chan"
+    ],
+    "source_docs": [
+      "bodyguards and assassins",
+      "the accidental spy"
+    ]
+  },
+  {
+    "node_id": "n::teinosuke kinugasa",
+    "name": "Teinosuke Kinugasa",
+    "type": "entity",
+    "aliases": [
+      "Teinosuke Kinugasa"
+    ],
+    "source_docs": [
+      "an actor's revenge",
+      "gate of hell"
+    ]
+  },
+  {
+    "node_id": "n::tentação",
+    "name": "Tentação",
+    "type": "entity",
+    "aliases": [
+      "Tentação"
+    ],
+    "source_docs": [
+      "tentação"
+    ]
+  },
+  {
+    "node_id": "n::terry marcel",
+    "name": "Terry Marcel",
+    "type": "entity",
+    "aliases": [
+      "Terry Marcel"
+    ],
+    "source_docs": [
+      "hawk the slayer",
+      "the last seduction ii"
+    ]
+  },
+  {
+    "node_id": "n::the accidental spy",
+    "name": "The Accidental Spy",
+    "type": "entity",
+    "aliases": [
+      "The Accidental Spy"
+    ],
+    "source_docs": [
+      "the accidental spy"
+    ]
+  },
+  {
+    "node_id": "n::the adventures of mark twain",
+    "name": "The Adventures of Mark Twain",
+    "type": "entity",
+    "aliases": [
+      "The Adventures of Mark Twain"
+    ],
+    "source_docs": [
+      "the adventures of mark twain"
+    ]
+  },
+  {
+    "node_id": "n::the basketball diaries",
+    "name": "The Basketball Diaries",
+    "type": "entity",
+    "aliases": [
+      "The Basketball Diaries"
+    ],
+    "source_docs": [
+      "the basketball diaries"
+    ]
+  },
+  {
+    "node_id": "n::the baytown outlaws",
+    "name": "The Baytown Outlaws",
+    "type": "entity",
+    "aliases": [
+      "The Baytown Outlaws"
+    ],
+    "source_docs": [
+      "the baytown outlaws"
+    ]
+  },
+  {
+    "node_id": "n::the beatles",
+    "name": "The Beatles",
+    "type": "entity",
+    "aliases": [
+      "The Beatles"
+    ],
+    "source_docs": [
+      "a hard day's night",
+      "help!"
+    ]
+  },
+  {
+    "node_id": "n::the big lebowski",
+    "name": "The Big Lebowski",
+    "type": "entity",
+    "aliases": [
+      "The Big Lebowski"
+    ],
+    "source_docs": [
+      "the big lebowski"
+    ]
+  },
+  {
+    "node_id": "n::the bitter tea of general yen",
+    "name": "The Bitter Tea of General Yen",
+    "type": "entity",
+    "aliases": [
+      "The Bitter Tea of General Yen"
+    ],
+    "source_docs": [
+      "the bitter tea of general yen"
+    ]
+  },
+  {
+    "node_id": "n::the bothersome man",
+    "name": "The Bothersome Man",
+    "type": "entity",
+    "aliases": [
+      "The Bothersome Man"
+    ],
+    "source_docs": [
+      "the bothersome man"
+    ]
+  },
+  {
+    "node_id": "n::the boy and the pirates",
+    "name": "The Boy and the Pirates",
+    "type": "entity",
+    "aliases": [
+      "The Boy and the Pirates"
+    ],
+    "source_docs": [
+      "the boy and the pirates"
+    ]
+  },
+  {
+    "node_id": "n::the boys in the band",
+    "name": "The Boys in the Band",
+    "type": "entity",
+    "aliases": [
+      "The Boys in the Band"
+    ],
+    "source_docs": [
+      "the boys in the band"
+    ]
+  },
+  {
+    "node_id": "n::the brothers",
+    "name": "The Brothers",
+    "type": "entity",
+    "aliases": [
+      "The Brothers"
+    ],
+    "source_docs": [
+      "the brothers"
+    ]
+  },
+  {
+    "node_id": "n::the cave of the yellow dog",
+    "name": "The Cave of the Yellow Dog",
+    "type": "entity",
+    "aliases": [
+      "The Cave of the Yellow Dog"
+    ],
+    "source_docs": [
+      "the cave of the yellow dog"
+    ]
+  },
+  {
+    "node_id": "n::the chicago 8",
+    "name": "The Chicago 8",
+    "type": "entity",
+    "aliases": [
+      "The Chicago 8"
+    ],
+    "source_docs": [
+      "the chicago 8"
+    ]
+  },
+  {
+    "node_id": "n::the craft",
+    "name": "The Craft",
+    "type": "entity",
+    "aliases": [
+      "The Craft"
+    ],
+    "source_docs": [
+      "the craft"
+    ]
+  },
+  {
+    "node_id": "n::the craigslist killer",
+    "name": "The Craigslist Killer",
+    "type": "entity",
+    "aliases": [
+      "The Craigslist Killer"
+    ],
+    "source_docs": [
+      "the craigslist killer"
+    ]
+  },
+  {
+    "node_id": "n::the creature wasn't nice",
+    "name": "The Creature Wasn't Nice",
+    "type": "entity",
+    "aliases": [
+      "The Creature Wasn't Nice"
+    ],
+    "source_docs": [
+      "the creature wasn't nice"
+    ]
+  },
+  {
+    "node_id": "n::the desperados",
+    "name": "The Desperados",
+    "type": "entity",
+    "aliases": [
+      "The Desperados"
+    ],
+    "source_docs": [
+      "the desperados"
+    ]
+  },
+  {
+    "node_id": "n::the devil came on horseback",
+    "name": "The Devil Came on Horseback",
+    "type": "entity",
+    "aliases": [
+      "The Devil Came on Horseback"
+    ],
+    "source_docs": [
+      "the devil came on horseback"
+    ]
+  },
+  {
+    "node_id": "n::the devil's backbone",
+    "name": "The Devil's Backbone",
+    "type": "entity",
+    "aliases": [
+      "The Devil's Backbone"
+    ],
+    "source_docs": [
+      "the devil's backbone"
+    ]
+  },
+  {
+    "node_id": "n::the devil's rejects",
+    "name": "The Devil's Rejects",
+    "type": "entity",
+    "aliases": [
+      "The Devil's Rejects"
+    ],
+    "source_docs": [
+      "the devil's rejects"
+    ]
+  },
+  {
+    "node_id": "n::the divorce of lady x",
+    "name": "The Divorce of Lady X",
+    "type": "entity",
+    "aliases": [
+      "The Divorce of Lady X"
+    ],
+    "source_docs": [
+      "the divorce of lady x"
+    ]
+  },
+  {
+    "node_id": "n::the emigrants",
+    "name": "The Emigrants",
+    "type": "entity",
+    "aliases": [
+      "The Emigrants"
+    ],
+    "source_docs": [
+      "the emigrants"
+    ]
+  },
+  {
+    "node_id": "n::the emperor's new clothes",
+    "name": "The Emperor's New Clothes",
+    "type": "entity",
+    "aliases": [
+      "The Emperor's New Clothes"
+    ],
+    "source_docs": [
+      "the emperor's new clothes"
+    ]
+  },
+  {
+    "node_id": "n::the end of america",
+    "name": "The End of America",
+    "type": "entity",
+    "aliases": [
+      "The End of America"
+    ],
+    "source_docs": [
+      "the end of america"
+    ]
+  },
+  {
+    "node_id": "n::the factory",
+    "name": "The Factory",
+    "type": "entity",
+    "aliases": [
+      "The Factory"
+    ],
+    "source_docs": [
+      "the factory"
+    ]
+  },
+  {
+    "node_id": "n::the first nudie musical",
+    "name": "The First Nudie Musical",
+    "type": "entity",
+    "aliases": [
+      "The First Nudie Musical"
+    ],
+    "source_docs": [
+      "the first nudie musical"
+    ]
+  },
+  {
+    "node_id": "n::the five obstructions",
+    "name": "The Five Obstructions",
+    "type": "entity",
+    "aliases": [
+      "The Five Obstructions"
+    ],
+    "source_docs": [
+      "the five obstructions"
+    ]
+  },
+  {
+    "node_id": "n::the five senses",
+    "name": "The Five Senses",
+    "type": "entity",
+    "aliases": [
+      "The Five Senses"
+    ],
+    "source_docs": [
+      "the five senses"
+    ]
+  },
+  {
+    "node_id": "n::the flight before christmas",
+    "name": "The Flight Before Christmas",
+    "type": "entity",
+    "aliases": [
+      "The Flight Before Christmas"
+    ],
+    "source_docs": [
+      "the flight before christmas"
+    ]
+  },
+  {
+    "node_id": "n::the forgiveness of blood",
+    "name": "The Forgiveness of Blood",
+    "type": "entity",
+    "aliases": [
+      "The Forgiveness of Blood"
+    ],
+    "source_docs": [
+      "the forgiveness of blood"
+    ]
+  },
+  {
+    "node_id": "n::the goddess",
+    "name": "The Goddess",
+    "type": "entity",
+    "aliases": [
+      "The Goddess"
+    ],
+    "source_docs": [
+      "the goddess"
+    ]
+  },
+  {
+    "node_id": "n::the golden voyage of sinbad",
+    "name": "The Golden Voyage of Sinbad",
+    "type": "entity",
+    "aliases": [
+      "The Golden Voyage of Sinbad"
+    ],
+    "source_docs": [
+      "the golden voyage of sinbad"
+    ]
+  },
+  {
+    "node_id": "n::the governess",
+    "name": "The Governess",
+    "type": "entity",
+    "aliases": [
+      "The Governess"
+    ],
+    "source_docs": [
+      "the governess"
+    ]
+  },
+  {
+    "node_id": "n::the house on telegraph hill",
+    "name": "The House on Telegraph Hill",
+    "type": "entity",
+    "aliases": [
+      "The House on Telegraph Hill"
+    ],
+    "source_docs": [
+      "the house on telegraph hill"
+    ]
+  },
+  {
+    "node_id": "n::the iceman",
+    "name": "The Iceman",
+    "type": "entity",
+    "aliases": [
+      "The Iceman"
+    ],
+    "source_docs": [
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::the incredible melting man",
+    "name": "The Incredible Melting Man",
+    "type": "entity",
+    "aliases": [
+      "The Incredible Melting Man"
+    ],
+    "source_docs": [
+      "the incredible melting man"
+    ]
+  },
+  {
+    "node_id": "n::the internship",
+    "name": "The Internship",
+    "type": "entity",
+    "aliases": [
+      "The Internship"
+    ],
+    "source_docs": [
+      "the internship"
+    ]
+  },
+  {
+    "node_id": "n::the ipcress file",
+    "name": "The Ipcress File",
+    "type": "entity",
+    "aliases": [
+      "The Ipcress File"
+    ],
+    "source_docs": [
+      "the ipcress file"
+    ]
+  },
+  {
+    "node_id": "n::the jimmy show",
+    "name": "The Jimmy Show",
+    "type": "entity",
+    "aliases": [
+      "The Jimmy Show"
+    ],
+    "source_docs": [
+      "the jimmy show"
+    ]
+  },
+  {
+    "node_id": "n::the killing",
+    "name": "The Killing",
+    "type": "entity",
+    "aliases": [
+      "The Killing"
+    ],
+    "source_docs": [
+      "the killing"
+    ]
+  },
+  {
+    "node_id": "n::the last man",
+    "name": "The Last Man",
+    "type": "entity",
+    "aliases": [
+      "The Last Man"
+    ],
+    "source_docs": [
+      "the last man"
+    ]
+  },
+  {
+    "node_id": "n::the last seduction ii",
+    "name": "The Last Seduction II",
+    "type": "entity",
+    "aliases": [
+      "The Last Seduction II"
+    ],
+    "source_docs": [
+      "the last seduction ii"
+    ]
+  },
+  {
+    "node_id": "n::the last valley",
+    "name": "The Last Valley",
+    "type": "entity",
+    "aliases": [
+      "The Last Valley"
+    ],
+    "source_docs": [
+      "the last valley"
+    ]
+  },
+  {
+    "node_id": "n::the lawless frontier",
+    "name": "The Lawless Frontier",
+    "type": "entity",
+    "aliases": [
+      "The Lawless Frontier"
+    ],
+    "source_docs": [
+      "the lawless frontier"
+    ]
+  },
+  {
+    "node_id": "n::the longest day",
+    "name": "The Longest Day",
+    "type": "entity",
+    "aliases": [
+      "The Longest Day"
+    ],
+    "source_docs": [
+      "the longest day"
+    ]
+  },
+  {
+    "node_id": "n::the lost patrol",
+    "name": "The Lost Patrol",
+    "type": "entity",
+    "aliases": [
+      "The Lost Patrol"
+    ],
+    "source_docs": [
+      "the lost patrol"
+    ]
+  },
+  {
+    "node_id": "n::the main event",
+    "name": "The Main Event",
+    "type": "entity",
+    "aliases": [
+      "The Main Event"
+    ],
+    "source_docs": [
+      "the main event"
+    ]
+  },
+  {
+    "node_id": "n::the mambo kings",
+    "name": "The Mambo Kings",
+    "type": "entity",
+    "aliases": [
+      "The Mambo Kings"
+    ],
+    "source_docs": [
+      "the mambo kings"
+    ]
+  },
+  {
+    "node_id": "n::the mark",
+    "name": "The Mark",
+    "type": "entity",
+    "aliases": [
+      "The Mark"
+    ],
+    "source_docs": [
+      "the mark"
+    ]
+  },
+  {
+    "node_id": "n::the milagro beanfield war",
+    "name": "The Milagro Beanfield War",
+    "type": "entity",
+    "aliases": [
+      "The Milagro Beanfield War"
+    ],
+    "source_docs": [
+      "the milagro beanfield war"
+    ]
+  },
+  {
+    "node_id": "n::the morning after",
+    "name": "The Morning After",
+    "type": "entity",
+    "aliases": [
+      "The Morning After"
+    ],
+    "source_docs": [
+      "the morning after"
+    ]
+  },
+  {
+    "node_id": "n::the new land",
+    "name": "The New Land",
+    "type": "entity",
+    "aliases": [
+      "The New Land"
+    ],
+    "source_docs": [
+      "the new land"
+    ]
+  },
+  {
+    "node_id": "n::the night porter",
+    "name": "The Night Porter",
+    "type": "entity",
+    "aliases": [
+      "The Night Porter"
+    ],
+    "source_docs": [
+      "the night porter"
+    ]
+  },
+  {
+    "node_id": "n::the omega man",
+    "name": "The Omega Man",
+    "type": "entity",
+    "aliases": [
+      "The Omega Man"
+    ],
+    "source_docs": [
+      "the omega man"
+    ]
+  },
+  {
+    "node_id": "n::the original kings of comedy",
+    "name": "The Original Kings of Comedy",
+    "type": "entity",
+    "aliases": [
+      "The Original Kings of Comedy"
+    ],
+    "source_docs": [
+      "the original kings of comedy"
+    ]
+  },
+  {
+    "node_id": "n::the other man",
+    "name": "The Other Man",
+    "type": "entity",
+    "aliases": [
+      "The Other Man"
+    ],
+    "source_docs": [
+      "the other man"
+    ]
+  },
+  {
+    "node_id": "n::the pelican",
+    "name": "The Pelican",
+    "type": "entity",
+    "aliases": [
+      "The Pelican"
+    ],
+    "source_docs": [
+      "the pelican"
+    ]
+  },
+  {
+    "node_id": "n::the perfect host",
+    "name": "The Perfect Host",
+    "type": "entity",
+    "aliases": [
+      "The Perfect Host"
+    ],
+    "source_docs": [
+      "the perfect host"
+    ]
+  },
+  {
+    "node_id": "n::the perfect human",
+    "name": "The Perfect Human",
+    "type": "entity",
+    "aliases": [
+      "The Perfect Human"
+    ],
+    "source_docs": [
+      "the perfect human"
+    ]
+  },
+  {
+    "node_id": "n::the phenix city story",
+    "name": "The Phenix City Story",
+    "type": "entity",
+    "aliases": [
+      "The Phenix City Story"
+    ],
+    "source_docs": [
+      "the phenix city story"
+    ]
+  },
+  {
+    "node_id": "n::the proud and the beautiful",
+    "name": "The Proud and the Beautiful",
+    "type": "entity",
+    "aliases": [
+      "The Proud and the Beautiful"
+    ],
+    "source_docs": [
+      "the proud and the beautiful"
+    ]
+  },
+  {
+    "node_id": "n::the rage",
+    "name": "The Rage",
+    "type": "entity",
+    "aliases": [
+      "The Rage"
+    ],
+    "source_docs": [
+      "the rage"
+    ]
+  },
+  {
+    "node_id": "n::the raid 2",
+    "name": "The Raid 2",
+    "type": "entity",
+    "aliases": [
+      "The Raid 2"
+    ],
+    "source_docs": [
+      "the raid 2"
+    ]
+  },
+  {
+    "node_id": "n::the reef",
+    "name": "The Reef",
+    "type": "entity",
+    "aliases": [
+      "The Reef"
+    ],
+    "source_docs": [
+      "the reef"
+    ]
+  },
+  {
+    "node_id": "n::the report",
+    "name": "The Report",
+    "type": "entity",
+    "aliases": [
+      "The Report"
+    ],
+    "source_docs": [
+      "the report"
+    ]
+  },
+  {
+    "node_id": "n::the roommate",
+    "name": "The Roommate",
+    "type": "entity",
+    "aliases": [
+      "The Roommate"
+    ],
+    "source_docs": [
+      "the roommate"
+    ]
+  },
+  {
+    "node_id": "n::the rose",
+    "name": "The Rose",
+    "type": "entity",
+    "aliases": [
+      "The Rose"
+    ],
+    "source_docs": [
+      "the rose"
+    ]
+  },
+  {
+    "node_id": "n::the secret of santa vittoria",
+    "name": "The Secret of Santa Vittoria",
+    "type": "entity",
+    "aliases": [
+      "The Secret of Santa Vittoria"
+    ],
+    "source_docs": [
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::the secrets of jonathan sperry",
+    "name": "The Secrets of Jonathan Sperry",
+    "type": "entity",
+    "aliases": [
+      "The Secrets of Jonathan Sperry"
+    ],
+    "source_docs": [
+      "the secrets of jonathan sperry"
+    ]
+  },
+  {
+    "node_id": "n::the shipping news",
+    "name": "The Shipping News",
+    "type": "entity",
+    "aliases": [
+      "The Shipping News"
+    ],
+    "source_docs": [
+      "the shipping news"
+    ]
+  },
+  {
+    "node_id": "n::the sin of madelon claudet",
+    "name": "The Sin of Madelon Claudet",
+    "type": "entity",
+    "aliases": [
+      "The Sin of Madelon Claudet"
+    ],
+    "source_docs": [
+      "the sin of madelon claudet"
+    ]
+  },
+  {
+    "node_id": "n::the smurfs",
+    "name": "The Smurfs",
+    "type": "entity",
+    "aliases": [
+      "The Smurfs"
+    ],
+    "source_docs": [
+      "the smurfs"
+    ]
+  },
+  {
+    "node_id": "n::the smurfs 2",
+    "name": "The Smurfs 2",
+    "type": "entity",
+    "aliases": [
+      "The Smurfs 2"
+    ],
+    "source_docs": [
+      "the smurfs 2"
+    ]
+  },
+  {
+    "node_id": "n::the sterile cuckoo",
+    "name": "The Sterile Cuckoo",
+    "type": "entity",
+    "aliases": [
+      "The Sterile Cuckoo"
+    ],
+    "source_docs": [
+      "the sterile cuckoo"
+    ]
+  },
+  {
+    "node_id": "n::the stone angel",
+    "name": "The Stone Angel",
+    "type": "entity",
+    "aliases": [
+      "The Stone Angel"
+    ],
+    "source_docs": [
+      "the stone angel"
+    ]
+  },
+  {
+    "node_id": "n::the stoning of soraya m.",
+    "name": "The Stoning of Soraya M.",
+    "type": "entity",
+    "aliases": [
+      "The Stoning of Soraya M."
+    ],
+    "source_docs": [
+      "the stoning of soraya m."
+    ]
+  },
+  {
+    "node_id": "n::the story of esther costello",
+    "name": "The Story of Esther Costello",
+    "type": "entity",
+    "aliases": [
+      "The Story of Esther Costello"
+    ],
+    "source_docs": [
+      "the story of esther costello"
+    ]
+  },
+  {
+    "node_id": "n::the story of the weeping camel",
+    "name": "The Story of the Weeping Camel",
+    "type": "entity",
+    "aliases": [
+      "The Story of the Weeping Camel"
+    ],
+    "source_docs": [
+      "the story of the weeping camel"
+    ]
+  },
+  {
+    "node_id": "n::the temptress",
+    "name": "The Temptress",
+    "type": "entity",
+    "aliases": [
+      "The Temptress"
+    ],
+    "source_docs": [
+      "the temptress"
+    ]
+  },
+  {
+    "node_id": "n::the terrorist",
+    "name": "The Terrorist",
+    "type": "entity",
+    "aliases": [
+      "The Terrorist"
+    ],
+    "source_docs": [
+      "the terrorist"
+    ]
+  },
+  {
+    "node_id": "n::the texas chainsaw massacre 2",
+    "name": "The Texas Chainsaw Massacre 2",
+    "type": "entity",
+    "aliases": [
+      "The Texas Chainsaw Massacre 2"
+    ],
+    "source_docs": [
+      "the texas chainsaw massacre 2"
+    ]
+  },
+  {
+    "node_id": "n::the thief of bagdad",
+    "name": "The Thief of Bagdad",
+    "type": "entity",
+    "aliases": [
+      "The Thief of Bagdad"
+    ],
+    "source_docs": [
+      "the thief of bagdad"
+    ]
+  },
+  {
+    "node_id": "n::the triumph of love",
+    "name": "The Triumph of Love",
+    "type": "entity",
+    "aliases": [
+      "The Triumph of Love"
+    ],
+    "source_docs": [
+      "the triumph of love"
+    ]
+  },
+  {
+    "node_id": "n::the trotsky",
+    "name": "The Trotsky",
+    "type": "entity",
+    "aliases": [
+      "The Trotsky"
+    ],
+    "source_docs": [
+      "the trotsky"
+    ]
+  },
+  {
+    "node_id": "n::the ugly duckling and me!",
+    "name": "The Ugly Duckling and Me!",
+    "type": "entity",
+    "aliases": [
+      "The Ugly Duckling and Me!"
+    ],
+    "source_docs": [
+      "the ugly duckling and me!"
+    ]
+  },
+  {
+    "node_id": "n::the unearthly",
+    "name": "The Unearthly",
+    "type": "entity",
+    "aliases": [
+      "The Unearthly"
+    ],
+    "source_docs": [
+      "the unearthly"
+    ]
+  },
+  {
+    "node_id": "n::the war lord",
+    "name": "The War Lord",
+    "type": "entity",
+    "aliases": [
+      "The War Lord"
+    ],
+    "source_docs": [
+      "the war lord"
+    ]
+  },
+  {
+    "node_id": "n::the watch",
+    "name": "The Watch",
+    "type": "entity",
+    "aliases": [
+      "The Watch"
+    ],
+    "source_docs": [
+      "the watch"
+    ]
+  },
+  {
+    "node_id": "n::the window",
+    "name": "The Window",
+    "type": "entity",
+    "aliases": [
+      "The Window"
+    ],
+    "source_docs": [
+      "the window"
+    ]
+  },
+  {
+    "node_id": "n::the wiz",
+    "name": "The Wiz",
+    "type": "entity",
+    "aliases": [
+      "The Wiz"
+    ],
+    "source_docs": [
+      "the wiz"
+    ]
+  },
+  {
+    "node_id": "n::the yearling",
+    "name": "The Yearling",
+    "type": "entity",
+    "aliases": [
+      "The Yearling"
+    ],
+    "source_docs": [
+      "the yearling"
+    ]
+  },
+  {
+    "node_id": "n::these girls",
+    "name": "These Girls",
+    "type": "entity",
+    "aliases": [
+      "These Girls"
+    ],
+    "source_docs": [
+      "these girls"
+    ]
+  },
+  {
+    "node_id": "n::this time around",
+    "name": "This Time Around",
+    "type": "entity",
+    "aliases": [
+      "This Time Around"
+    ],
+    "source_docs": [
+      "this time around"
+    ]
+  },
+  {
+    "node_id": "n::thomas cobb",
+    "name": "Thomas Cobb",
+    "type": "entity",
+    "aliases": [
+      "Thomas Cobb"
+    ],
+    "source_docs": [
+      "crazy heart"
+    ]
+  },
+  {
+    "node_id": "n::thor freudenthal",
+    "name": "Thor Freudenthal",
+    "type": "entity",
+    "aliases": [
+      "Thor Freudenthal"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid",
+      "hotel for dogs"
+    ]
+  },
+  {
+    "node_id": "n::thriller",
+    "name": "Thriller",
+    "type": "entity",
+    "aliases": [
+      "Thriller"
+    ],
+    "source_docs": [
+      "poison ivy"
+    ]
+  },
+  {
+    "node_id": "n::thunderbolt and lightfoot",
+    "name": "Thunderbolt and Lightfoot",
+    "type": "entity",
+    "aliases": [
+      "Thunderbolt and Lightfoot"
+    ],
+    "source_docs": [
+      "thunderbolt and lightfoot"
+    ]
+  },
+  {
+    "node_id": "n::tim sullivan",
+    "name": "Tim Sullivan",
+    "type": "entity",
+    "aliases": [
+      "Tim Sullivan"
+    ],
+    "source_docs": [
+      "2001 maniacs",
+      "chillerama"
+    ]
+  },
+  {
+    "node_id": "n::tim whelan",
+    "name": "Tim Whelan",
+    "type": "entity",
+    "aliases": [
+      "Tim Whelan"
+    ],
+    "source_docs": [
+      "the divorce of lady x",
+      "the thief of bagdad"
+    ]
+  },
+  {
+    "node_id": "n::time changer",
+    "name": "Time Changer",
+    "type": "entity",
+    "aliases": [
+      "Time Changer"
+    ],
+    "source_docs": [
+      "time changer"
+    ]
+  },
+  {
+    "node_id": "n::to sir, with love",
+    "name": "To Sir, with Love",
+    "type": "entity",
+    "aliases": [
+      "To Sir, with Love"
+    ],
+    "source_docs": [
+      "to sir, with love"
+    ]
+  },
+  {
+    "node_id": "n::tom kalin",
+    "name": "Tom Kalin",
+    "type": "entity",
+    "aliases": [
+      "Tom Kalin"
+    ],
+    "source_docs": [
+      "savage grace",
+      "swoon"
+    ]
+  },
+  {
+    "node_id": "n::tom sawyer",
+    "name": "Tom Sawyer",
+    "type": "entity",
+    "aliases": [
+      "Tom Sawyer"
+    ],
+    "source_docs": [
+      "tom sawyer"
+    ]
+  },
+  {
+    "node_id": "n::tony anthony",
+    "name": "Tony Anthony",
+    "type": "entity",
+    "aliases": [
+      "Tony Anthony"
+    ],
+    "source_docs": [
+      "comin' at ya!",
+      "treasure of the four crowns"
+    ]
+  },
+  {
+    "node_id": "n::topol",
+    "name": "Topol",
+    "type": "entity",
+    "aliases": [
+      "Topol"
+    ],
+    "source_docs": [
+      "fiddler on the roof",
+      "flash gordon"
+    ]
+  },
+  {
+    "node_id": "n::treasure of the four crowns",
+    "name": "Treasure of the Four Crowns",
+    "type": "entity",
+    "aliases": [
+      "Treasure of the Four Crowns"
+    ],
+    "source_docs": [
+      "treasure of the four crowns"
+    ]
+  },
+  {
+    "node_id": "n::troubled water",
+    "name": "Troubled Water",
+    "type": "entity",
+    "aliases": [
+      "Troubled Water"
+    ],
+    "source_docs": [
+      "troubled water"
+    ]
+  },
+  {
+    "node_id": "n::turkish",
+    "name": "Turkish",
+    "type": "entity",
+    "aliases": [
+      "Turkish"
+    ],
+    "source_docs": [
+      "g.o.r.a.",
+      "vizontele"
+    ]
+  },
+  {
+    "node_id": "n::turn it up",
+    "name": "Turn It Up",
+    "type": "entity",
+    "aliases": [
+      "Turn It Up"
+    ],
+    "source_docs": [
+      "turn it up"
+    ]
+  },
+  {
+    "node_id": "n::turtle diary",
+    "name": "Turtle Diary",
+    "type": "entity",
+    "aliases": [
+      "Turtle Diary"
+    ],
+    "source_docs": [
+      "turtle diary"
+    ]
+  },
+  {
+    "node_id": "n::up periscope",
+    "name": "Up Periscope",
+    "type": "entity",
+    "aliases": [
+      "Up Periscope"
+    ],
+    "source_docs": [
+      "up periscope"
+    ]
+  },
+  {
+    "node_id": "n::urban legend",
+    "name": "Urban Legend",
+    "type": "entity",
+    "aliases": [
+      "Urban Legend"
+    ],
+    "source_docs": [
+      "urban legend"
+    ]
+  },
+  {
+    "node_id": "n::valentina cortese",
+    "name": "Valentina Cortese",
+    "type": "entity",
+    "aliases": [
+      "Valentina Cortese"
+    ],
+    "source_docs": [
+      "juliet of the spirits",
+      "the house on telegraph hill"
+    ]
+  },
+  {
+    "node_id": "n::vanessa angel",
+    "name": "Vanessa Angel",
+    "type": "entity",
+    "aliases": [
+      "Vanessa Angel"
+    ],
+    "source_docs": [
+      "kingpin",
+      "puppet master vs demonic toys"
+    ]
+  },
+  {
+    "node_id": "n::vic damone",
+    "name": "Vic Damone",
+    "type": "entity",
+    "aliases": [
+      "Vic Damone"
+    ],
+    "source_docs": [
+      "hell to eternity",
+      "rich, young and pretty"
+    ]
+  },
+  {
+    "node_id": "n::victor mclaglen",
+    "name": "Victor McLaglen",
+    "type": "entity",
+    "aliases": [
+      "Victor McLaglen"
+    ],
+    "source_docs": [
+      "the lost patrol"
+    ]
+  },
+  {
+    "node_id": "n::vince edwards",
+    "name": "Vince Edwards",
+    "type": "entity",
+    "aliases": [
+      "Vince Edwards"
+    ],
+    "source_docs": [
+      "the desperados",
+      "the killing"
+    ]
+  },
+  {
+    "node_id": "n::vincenzo amato",
+    "name": "Vincenzo Amato",
+    "type": "entity",
+    "aliases": [
+      "Vincenzo Amato"
+    ],
+    "source_docs": [
+      "girl on a bicycle",
+      "respiro"
+    ]
+  },
+  {
+    "node_id": "n::vinicius de moraes",
+    "name": "Vinicius de Moraes",
+    "type": "entity",
+    "aliases": [
+      "Vinicius de Moraes"
+    ],
+    "source_docs": [
+      "orfeu"
+    ]
+  },
+  {
+    "node_id": "n::virna lisi",
+    "name": "Virna Lisi",
+    "type": "entity",
+    "aliases": [
+      "Virna Lisi"
+    ],
+    "source_docs": [
+      "the secret of santa vittoria"
+    ]
+  },
+  {
+    "node_id": "n::vizontele",
+    "name": "Vizontele",
+    "type": "entity",
+    "aliases": [
+      "Vizontele"
+    ],
+    "source_docs": [
+      "vizontele"
+    ]
+  },
+  {
+    "node_id": "n::von richthofen and brown",
+    "name": "Von Richthofen and Brown",
+    "type": "entity",
+    "aliases": [
+      "Von Richthofen and Brown"
+    ],
+    "source_docs": [
+      "von richthofen and brown"
+    ]
+  },
+  {
+    "node_id": "n::w.e.",
+    "name": "W.E.",
+    "type": "entity",
+    "aliases": [
+      "W.E."
+    ],
+    "source_docs": [
+      "w.e."
+    ]
+  },
+  {
+    "node_id": "n::wallace beery",
+    "name": "Wallace Beery",
+    "type": "entity",
+    "aliases": [
+      "Wallace Beery"
+    ],
+    "source_docs": [
+      "stand up and fight"
+    ]
+  },
+  {
+    "node_id": "n::wallace ford",
+    "name": "Wallace Ford",
+    "type": "entity",
+    "aliases": [
+      "Wallace Ford"
+    ],
+    "source_docs": [
+      "the lost patrol"
+    ]
+  },
+  {
+    "node_id": "n::war",
+    "name": "War",
+    "type": "entity",
+    "aliases": [
+      "War"
+    ],
+    "source_docs": [
+      "war"
+    ]
+  },
+  {
+    "node_id": "n::warner oland",
+    "name": "Warner Oland",
+    "type": "entity",
+    "aliases": [
+      "Warner Oland"
+    ],
+    "source_docs": [
+      "shanghai express"
+    ]
+  },
+  {
+    "node_id": "n::warren duff",
+    "name": "Warren Duff",
+    "type": "entity",
+    "aliases": [
+      "Warren Duff"
+    ],
+    "source_docs": [
+      "a dangerous profession"
+    ]
+  },
+  {
+    "node_id": "n::warrior",
+    "name": "Warrior",
+    "type": "entity",
+    "aliases": [
+      "Warrior"
+    ],
+    "source_docs": [
+      "warrior"
+    ]
+  },
+  {
+    "node_id": "n::ways to live forever",
+    "name": "Ways to Live Forever",
+    "type": "entity",
+    "aliases": [
+      "Ways to Live Forever"
+    ],
+    "source_docs": [
+      "ways to live forever"
+    ]
+  },
+  {
+    "node_id": "n::went the day well?",
+    "name": "Went the Day Well?",
+    "type": "entity",
+    "aliases": [
+      "Went the Day Well?"
+    ],
+    "source_docs": [
+      "went the day well?"
+    ]
+  },
+  {
+    "node_id": "n::west beirut",
+    "name": "West Beirut",
+    "type": "entity",
+    "aliases": [
+      "West Beirut"
+    ],
+    "source_docs": [
+      "west beirut"
+    ]
+  },
+  {
+    "node_id": "n::whale rider",
+    "name": "Whale Rider",
+    "type": "entity",
+    "aliases": [
+      "Whale Rider"
+    ],
+    "source_docs": [
+      "whale rider"
+    ]
+  },
+  {
+    "node_id": "n::what ever happened to aunt alice?",
+    "name": "What Ever Happened to Aunt Alice?",
+    "type": "entity",
+    "aliases": [
+      "What Ever Happened to Aunt Alice?"
+    ],
+    "source_docs": [
+      "what ever happened to aunt alice?"
+    ]
+  },
+  {
+    "node_id": "n::what's love got to do with it",
+    "name": "What's Love Got to Do with It",
+    "type": "entity",
+    "aliases": [
+      "What's Love Got to Do with It"
+    ],
+    "source_docs": [
+      "what's love got to do with it"
+    ]
+  },
+  {
+    "node_id": "n::when jews were funny",
+    "name": "When Jews Were Funny",
+    "type": "entity",
+    "aliases": [
+      "When Jews Were Funny"
+    ],
+    "source_docs": [
+      "when jews were funny"
+    ]
+  },
+  {
+    "node_id": "n::when nietzsche wept",
+    "name": "When Nietzsche Wept",
+    "type": "entity",
+    "aliases": [
+      "When Nietzsche Wept"
+    ],
+    "source_docs": [
+      "when nietzsche wept"
+    ]
+  },
+  {
+    "node_id": "n::whispers in the dark",
+    "name": "Whispers in the Dark",
+    "type": "entity",
+    "aliases": [
+      "Whispers in the Dark"
+    ],
+    "source_docs": [
+      "whispers in the dark"
+    ]
+  },
+  {
+    "node_id": "n::why me?",
+    "name": "Why Me?",
+    "type": "entity",
+    "aliases": [
+      "Why Me?"
+    ],
+    "source_docs": [
+      "why me?"
+    ]
+  },
+  {
+    "node_id": "n::will vinton",
+    "name": "Will Vinton",
+    "type": "entity",
+    "aliases": [
+      "Will Vinton"
+    ],
+    "source_docs": [
+      "a claymation christmas celebration",
+      "the adventures of mark twain"
+    ]
+  },
+  {
+    "node_id": "n::william brookfield",
+    "name": "William Brookfield",
+    "type": "entity",
+    "aliases": [
+      "William Brookfield"
+    ],
+    "source_docs": [
+      "rough magic"
+    ]
+  },
+  {
+    "node_id": "n::william castle",
+    "name": "William Castle",
+    "type": "entity",
+    "aliases": [
+      "William Castle"
+    ],
+    "source_docs": [
+      "13 ghosts"
+    ]
+  },
+  {
+    "node_id": "n::william daniels",
+    "name": "William Daniels",
+    "type": "entity",
+    "aliases": [
+      "William Daniels"
+    ],
+    "source_docs": [
+      "1776"
+    ]
+  },
+  {
+    "node_id": "n::william dieterle",
+    "name": "William Dieterle",
+    "type": "entity",
+    "aliases": [
+      "William Dieterle"
+    ],
+    "source_docs": [
+      "i'll be seeing you"
+    ]
+  },
+  {
+    "node_id": "n::william smith",
+    "name": "William Smith",
+    "type": "entity",
+    "aliases": [
+      "William Smith"
+    ],
+    "source_docs": [
+      "any which way you can"
+    ]
+  },
+  {
+    "node_id": "n::wind chill",
+    "name": "Wind Chill",
+    "type": "entity",
+    "aliases": [
+      "Wind Chill"
+    ],
+    "source_docs": [
+      "wind chill"
+    ]
+  },
+  {
+    "node_id": "n::winona ryder",
+    "name": "Winona Ryder",
+    "type": "entity",
+    "aliases": [
+      "Winona Ryder"
+    ],
+    "source_docs": [
+      "the iceman"
+    ]
+  },
+  {
+    "node_id": "n::wishmaster",
+    "name": "Wishmaster",
+    "type": "entity",
+    "aliases": [
+      "Wishmaster"
+    ],
+    "source_docs": [
+      "wishmaster"
+    ]
+  },
+  {
+    "node_id": "n::witi ihimaera",
+    "name": "Witi Ihimaera",
+    "type": "entity",
+    "aliases": [
+      "Witi Ihimaera"
+    ],
+    "source_docs": [
+      "kawa",
+      "whale rider"
+    ]
+  },
+  {
+    "node_id": "n::wolf children",
+    "name": "Wolf Children",
+    "type": "entity",
+    "aliases": [
+      "Wolf Children"
+    ],
+    "source_docs": [
+      "wolf children"
+    ]
+  },
+  {
+    "node_id": "n::wyvern",
+    "name": "Wyvern",
+    "type": "entity",
+    "aliases": [
+      "Wyvern"
+    ],
+    "source_docs": [
+      "wyvern"
+    ]
+  },
+  {
+    "node_id": "n::yesterday",
+    "name": "Yesterday",
+    "type": "entity",
+    "aliases": [
+      "Yesterday"
+    ],
+    "source_docs": [
+      "yesterday"
+    ]
+  },
+  {
+    "node_id": "n::yves allégret",
+    "name": "Yves Allégret",
+    "type": "entity",
+    "aliases": [
+      "Yves Allégret"
+    ],
+    "source_docs": [
+      "dédée d'anvers",
+      "the proud and the beautiful"
+    ]
+  },
+  {
+    "node_id": "n::yves saint laurent",
+    "name": "Yves Saint Laurent",
+    "type": "entity",
+    "aliases": [
+      "Yves Saint Laurent"
+    ],
+    "source_docs": [
+      "yves saint laurent"
+    ]
+  },
+  {
+    "node_id": "n::zachary gordon",
+    "name": "Zachary Gordon",
+    "type": "entity",
+    "aliases": [
+      "Zachary Gordon"
+    ],
+    "source_docs": [
+      "diary of a wimpy kid"
+    ]
+  },
+  {
+    "node_id": "n::zambezia",
+    "name": "Zambezia",
+    "type": "entity",
+    "aliases": [
+      "Zambezia"
+    ],
+    "source_docs": [
+      "zambezia"
+    ]
+  },
+  {
+    "node_id": "n::ziad doueiri",
+    "name": "Ziad Doueiri",
+    "type": "entity",
+    "aliases": [
+      "Ziad Doueiri"
+    ],
+    "source_docs": [
+      "lila says",
+      "west beirut"
+    ]
+  },
+  {
+    "node_id": "n::zig zag",
+    "name": "Zig Zag",
+    "type": "entity",
+    "aliases": [
+      "Zig Zag"
+    ],
+    "source_docs": [
+      "zig zag"
+    ]
+  },
+  {
+    "node_id": "n::zohra lampert",
+    "name": "Zohra Lampert",
+    "type": "entity",
+    "aliases": [
+      "Zohra Lampert"
+    ],
+    "source_docs": [
+      "let's scare jessica to death",
+      "pay or die"
+    ]
+  },
+  {
+    "node_id": "n::zulu",
+    "name": "Zulu",
+    "type": "entity",
+    "aliases": [
+      "Zulu"
+    ],
+    "source_docs": [
+      "yesterday"
+    ]
+  },
+  {
+    "node_id": "n::ömer faruk sorak",
+    "name": "Ömer Faruk Sorak",
+    "type": "entity",
+    "aliases": [
+      "Ömer Faruk Sorak"
+    ],
+    "source_docs": [
+      "g.o.r.a.",
+      "vizontele"
+    ]
+  }
+]

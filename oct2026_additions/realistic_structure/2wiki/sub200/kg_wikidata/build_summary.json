@@ -1,0 +1,10 @@
+{
+ "split": "sub200",
+ "n_passages": 1256,
+ "n_resolved": 1086,
+ "n_exact_label_match": 936,
+ "n_triples": 22315,
+ "n_nodes": 11303,
+ "n_edges": 44430,
+ "n_object_entities": 11133
+}

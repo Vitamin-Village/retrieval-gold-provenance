@@ -1,0 +1,286 @@
+{
+  "description": "Coverage-stratified per-question hit@5 delta (graph - BM25) under the independent OpenIE KG; matching rule identical to _swap_vocab_align.py.",
+  "metric": "hit_at_k (hit@5)",
+  "seed": 20260612,
+  "n_boot": 10000,
+  "splits": [
+    {
+      "split": "sub200",
+      "n_questions": 200,
+      "validation": {
+        "mean_gold_title_coverage": 0.56,
+        "frac_questions_fully_covered": 0.34
+      },
+      "systems": {
+        "ppr": {
+          "strata": {
+            "full": {
+              "n": 68,
+              "graph_hit_at_5": 0.5147,
+              "bm25_hit_at_5": 0.2941,
+              "paired_delta": 0.2206,
+              "n_win_flip": 19
+            },
+            "partial": {
+              "n": 88,
+              "graph_hit_at_5": 0.4091,
+              "bm25_hit_at_5": 0.3182,
+              "paired_delta": 0.0909,
+              "n_win_flip": 20
+            },
+            "none": {
+              "n": 44,
+              "graph_hit_at_5": 0.3182,
+              "bm25_hit_at_5": 0.5682,
+              "paired_delta": -0.25,
+              "n_win_flip": 4
+            }
+          },
+          "win_flip": {
+            "full": 19,
+            "partial": 20,
+            "none": 4
+          },
+          "full_vs_rest": {
+            "n_full": 68,
+            "n_rest": 132,
+            "delta_full": 0.2206,
+            "delta_rest": -0.0227,
+            "diff": 0.2433,
+            "bootstrap_ci95": [
+              0.0784,
+              0.4073
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        },
+        "proposed_v3": {
+          "strata": {
+            "full": {
+              "n": 68,
+              "graph_hit_at_5": 0.3676,
+              "bm25_hit_at_5": 0.2941,
+              "paired_delta": 0.0735,
+              "n_win_flip": 5
+            },
+            "partial": {
+              "n": 88,
+              "graph_hit_at_5": 0.3295,
+              "bm25_hit_at_5": 0.3182,
+              "paired_delta": 0.0114,
+              "n_win_flip": 5
+            },
+            "none": {
+              "n": 44,
+              "graph_hit_at_5": 0.4773,
+              "bm25_hit_at_5": 0.5682,
+              "paired_delta": -0.0909,
+              "n_win_flip": 2
+            }
+          },
+          "win_flip": {
+            "full": 5,
+            "partial": 5,
+            "none": 2
+          },
+          "full_vs_rest": {
+            "n_full": 68,
+            "n_rest": 132,
+            "delta_full": 0.0735,
+            "delta_rest": -0.0227,
+            "diff": 0.0963,
+            "bootstrap_ci95": [
+              0.0138,
+              0.1858
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        },
+        "proposed_v5_graphcentric": {
+          "strata": {
+            "full": {
+              "n": 68,
+              "graph_hit_at_5": 0.3824,
+              "bm25_hit_at_5": 0.2941,
+              "paired_delta": 0.0882,
+              "n_win_flip": 9
+            },
+            "partial": {
+              "n": 88,
+              "graph_hit_at_5": 0.3409,
+              "bm25_hit_at_5": 0.3182,
+              "paired_delta": 0.0227,
+              "n_win_flip": 5
+            },
+            "none": {
+              "n": 44,
+              "graph_hit_at_5": 0.5227,
+              "bm25_hit_at_5": 0.5682,
+              "paired_delta": -0.0455,
+              "n_win_flip": 3
+            }
+          },
+          "win_flip": {
+            "full": 9,
+            "partial": 5,
+            "none": 3
+          },
+          "full_vs_rest": {
+            "n_full": 68,
+            "n_rest": 132,
+            "delta_full": 0.0882,
+            "delta_rest": 0.0,
+            "diff": 0.0882,
+            "bootstrap_ci95": [
+              -0.0232,
+              0.2054
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        }
+      }
+    },
+    {
+      "split": "holdout200",
+      "n_questions": 200,
+      "validation": {
+        "mean_gold_title_coverage": 0.6125,
+        "frac_questions_fully_covered": 0.395
+      },
+      "systems": {
+        "ppr": {
+          "strata": {
+            "full": {
+              "n": 79,
+              "graph_hit_at_5": 0.5949,
+              "bm25_hit_at_5": 0.3038,
+              "paired_delta": 0.2911,
+              "n_win_flip": 33
+            },
+            "partial": {
+              "n": 87,
+              "graph_hit_at_5": 0.2989,
+              "bm25_hit_at_5": 0.3448,
+              "paired_delta": -0.046,
+              "n_win_flip": 9
+            },
+            "none": {
+              "n": 34,
+              "graph_hit_at_5": 0.3824,
+              "bm25_hit_at_5": 0.5,
+              "paired_delta": -0.1176,
+              "n_win_flip": 3
+            }
+          },
+          "win_flip": {
+            "full": 33,
+            "partial": 9,
+            "none": 3
+          },
+          "full_vs_rest": {
+            "n_full": 79,
+            "n_rest": 121,
+            "delta_full": 0.2911,
+            "delta_rest": -0.0661,
+            "diff": 0.3573,
+            "bootstrap_ci95": [
+              0.1806,
+              0.5296
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        },
+        "proposed_v3": {
+          "strata": {
+            "full": {
+              "n": 79,
+              "graph_hit_at_5": 0.3418,
+              "bm25_hit_at_5": 0.3038,
+              "paired_delta": 0.038,
+              "n_win_flip": 4
+            },
+            "partial": {
+              "n": 87,
+              "graph_hit_at_5": 0.3563,
+              "bm25_hit_at_5": 0.3448,
+              "paired_delta": 0.0115,
+              "n_win_flip": 7
+            },
+            "none": {
+              "n": 34,
+              "graph_hit_at_5": 0.4412,
+              "bm25_hit_at_5": 0.5,
+              "paired_delta": -0.0588,
+              "n_win_flip": 1
+            }
+          },
+          "win_flip": {
+            "full": 4,
+            "partial": 7,
+            "none": 1
+          },
+          "full_vs_rest": {
+            "n_full": 79,
+            "n_rest": 121,
+            "delta_full": 0.038,
+            "delta_rest": -0.0083,
+            "diff": 0.0462,
+            "bootstrap_ci95": [
+              -0.0408,
+              0.1371
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        },
+        "proposed_v5_graphcentric": {
+          "strata": {
+            "full": {
+              "n": 79,
+              "graph_hit_at_5": 0.3544,
+              "bm25_hit_at_5": 0.3038,
+              "paired_delta": 0.0506,
+              "n_win_flip": 6
+            },
+            "partial": {
+              "n": 87,
+              "graph_hit_at_5": 0.3563,
+              "bm25_hit_at_5": 0.3448,
+              "paired_delta": 0.0115,
+              "n_win_flip": 7
+            },
+            "none": {
+              "n": 34,
+              "graph_hit_at_5": 0.4412,
+              "bm25_hit_at_5": 0.5,
+              "paired_delta": -0.0588,
+              "n_win_flip": 1
+            }
+          },
+          "win_flip": {
+            "full": 6,
+            "partial": 7,
+            "none": 1
+          },
+          "full_vs_rest": {
+            "n_full": 79,
+            "n_rest": 121,
+            "delta_full": 0.0506,
+            "delta_rest": -0.0083,
+            "diff": 0.0589,
+            "bootstrap_ci95": [
+              -0.0369,
+              0.1586
+            ],
+            "n_boot": 10000,
+            "seed": 20260612
+          }
+        }
+      }
+    }
+  ]
+}

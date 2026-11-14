@@ -1,0 +1,134 @@
+[
+ {
+  "bench": "2wiki",
+  "split": "sub200",
+  "system": "proposed_v3",
+  "variant": "kg_wikidata",
+  "nodes": 11303,
+  "linked": 1086,
+  "gold_frac": 0.311,
+  "gold_covered": 0.876,
+  "hit5": 0.33,
+  "bm25": 0.365,
+  "hit5_silver": 0.535,
+  "hit5_openie": 0.375,
+  "diff_vs_openie": -0.045,
+  "ci95": [
+   -0.1,
+   0.01
+  ],
+  "pos": 12,
+  "neg": 21,
+  "p": 0.16275565745308995
+ },
+ {
+  "bench": "2wiki",
+  "split": "sub200",
+  "system": "ppr",
+  "variant": "kg_wikidata",
+  "nodes": 11303,
+  "linked": 1086,
+  "gold_frac": 0.311,
+  "gold_covered": 0.876,
+  "hit5": 0.5,
+  "bm25": 0.365,
+  "hit5_silver": 0.74,
+  "hit5_openie": 0.425,
+  "diff_vs_openie": 0.075,
+  "ci95": [
+   -0.015,
+   0.165
+  ],
+  "pos": 52,
+  "neg": 37,
+  "p": 0.13736797135565199
+ },
+ {
+  "bench": "2wiki",
+  "split": "sub200",
+  "system": "proposed_v5_graphcentric",
+  "variant": "kg_wikidata",
+  "nodes": 11303,
+  "linked": 1086,
+  "gold_frac": 0.311,
+  "gold_covered": 0.876,
+  "hit5": 0.38,
+  "bm25": 0.365,
+  "hit5_silver": 0.75,
+  "hit5_openie": 0.395,
+  "diff_vs_openie": -0.015,
+  "ci95": [
+   -0.075,
+   0.045
+  ],
+  "pos": 18,
+  "neg": 21,
+  "p": 0.7492586247608415
+ },
+ {
+  "bench": "2wiki",
+  "split": "holdout200",
+  "system": "proposed_v3",
+  "variant": "kg_wikidata",
+  "nodes": 11973,
+  "linked": 1086,
+  "gold_frac": 0.315,
+  "gold_covered": 0.881,
+  "hit5": 0.38,
+  "bm25": 0.355,
+  "hit5_silver": 0.48,
+  "hit5_openie": 0.365,
+  "diff_vs_openie": 0.015,
+  "ci95": [
+   -0.04,
+   0.075
+  ],
+  "pos": 19,
+  "neg": 16,
+  "p": 0.7358788008568808
+ },
+ {
+  "bench": "2wiki",
+  "split": "holdout200",
+  "system": "ppr",
+  "variant": "kg_wikidata",
+  "nodes": 11973,
+  "linked": 1086,
+  "gold_frac": 0.315,
+  "gold_covered": 0.881,
+  "hit5": 0.535,
+  "bm25": 0.355,
+  "hit5_silver": 0.74,
+  "hit5_openie": 0.43,
+  "diff_vs_openie": 0.105,
+  "ci95": [
+   0.01,
+   0.195
+  ],
+  "pos": 57,
+  "neg": 36,
+  "p": 0.03751423180190034
+ },
+ {
+  "bench": "2wiki",
+  "split": "holdout200",
+  "system": "proposed_v5_graphcentric",
+  "variant": "kg_wikidata",
+  "nodes": 11973,
+  "linked": 1086,
+  "gold_frac": 0.315,
+  "gold_covered": 0.881,
+  "hit5": 0.39,
+  "bm25": 0.355,
+  "hit5_silver": 0.705,
+  "hit5_openie": 0.37,
+  "diff_vs_openie": 0.02,
+  "ci95": [
+   -0.035,
+   0.075
+  ],
+  "pos": 18,
+  "neg": 14,
+  "p": 0.5966148958541453
+ }
+]

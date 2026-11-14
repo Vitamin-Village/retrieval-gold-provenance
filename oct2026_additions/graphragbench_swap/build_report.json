@@ -1,0 +1,18 @@
+{
+ "seed": 20260918,
+ "n_chunks": 1584,
+ "chunk_words": 120,
+ "min_recall": 0.6,
+ "stats": {
+  "total": 2062,
+  "type_ok": 1896,
+  "all_evidence_mapped": 1289,
+  "gold_size_ok": 1065
+ },
+ "eligible_by_type": {
+  "Fact Retrieval": 845,
+  "Complex Reasoning": 170,
+  "Contextual Summarize": 50
+ },
+ "n_selected": 400
+}

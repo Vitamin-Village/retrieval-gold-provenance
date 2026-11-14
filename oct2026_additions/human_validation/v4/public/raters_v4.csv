@@ -1,0 +1,4 @@
+rater,background,years_nlp_ir,relation,minutes_from_session_times,total_time_as_entered,att_a_alone_no_discussion,att_b_no_AI,att_c_package_only,quiz_correct_of_6,attention_pass,hard_integrity_flags,eligible
+R1,AI PhD student,1,"not an author, not involved in the project",94.0,1.5,yes,yes,yes,5,True,0,True
+R2,AI and data science PhD student,2,"not an author, not involved in the project",107.0,2,yes,yes,yes,5,True,0,True
+R3,Data science PhD student,1,"not an author, not involved in the project",110.0,2,yes,yes,yes,5,True,0,True

@@ -1,0 +1,294 @@
+{
+ "claude-opus-5-5": {
+  "send_temperature": true,
+  "temperature_probe": "accepted temperature=1.0",
+  "pilot": [
+   {
+    "stage": "quiz",
+    "item_id": "Q3",
+    "error": null,
+    "model_returned": "claude-opus-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "A",
+     "base": 3,
+     "final": 3,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "retrieved with a search engine... kept as gold evidence if it contains the answer string"
+    },
+    "usage": {
+     "input": 166,
+     "output": 387,
+     "cache_read": 0,
+     "cache_write": 3168
+    }
+   },
+   {
+    "stage": "partA",
+    "item_id": "OURSLOW_ANSWER",
+    "error": null,
+    "model_returned": "claude-opus-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "T",
+     "base": 0,
+     "final": 0,
+     "confidence": 2,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "short span quoted verbatim from the passage; the knowledge graph is never provided in the prompt"
+    },
+    "usage": {
+     "input": 235,
+     "output": 590,
+     "cache_read": 0,
+     "cache_write": 3654
+    }
+   },
+   {
+    "stage": "partB",
+    "item_id": "B4-003",
+    "error": null,
+    "model_returned": "claude-opus-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "Q1": 2,
+     "Q2": 1,
+     "flag": ""
+    },
+    "usage": {
+     "input": 496,
+     "output": 446,
+     "cache_read": 3654,
+     "cache_write": 0
+    }
+   }
+  ],
+  "checked_utc": "2026-09-29T11:39:17.941376+00:00"
+ },
+ "claude-sonnet-5-5": {
+  "send_temperature": true,
+  "temperature_probe": "accepted temperature=1.0",
+  "pilot": [
+   {
+    "stage": "quiz",
+    "item_id": "Q6",
+    "error": null,
+    "model_returned": "claude-sonnet-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "K",
+     "base": 1,
+     "final": 1,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "entity linker proposed for the question; the final choice ... made by the annotator from the text"
+    },
+    "usage": {
+     "input": 181,
+     "output": 364,
+     "cache_read": 0,
+     "cache_write": 3168
+    }
+   },
+   {
+    "stage": "partA",
+    "item_id": "WEBQSP_ANSWERENTITY",
+    "error": null,
+    "model_returned": "claude-sonnet-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "K",
+     "base": 4,
+     "final": 4,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "gold answers are the Freebase entities returned by executing the parse"
+    },
+    "usage": {
+     "input": 257,
+     "output": 271,
+     "cache_read": 0,
+     "cache_write": 3654
+    }
+   },
+   {
+    "stage": "partB",
+    "item_id": "B4-001",
+    "error": null,
+    "model_returned": "claude-sonnet-5-5",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "Q1": 2,
+     "Q2": 0,
+     "flag": ""
+    },
+    "usage": {
+     "input": 613,
+     "output": 273,
+     "cache_read": 3654,
+     "cache_write": 0
+    }
+   }
+  ],
+  "checked_utc": "2026-09-29T11:39:30.568559+00:00"
+ },
+ "claude-haiku-4-5": {
+  "send_temperature": true,
+  "temperature_probe": "accepted temperature=1.0",
+  "pilot": [
+   {
+    "stage": "quiz",
+    "item_id": "Q2",
+    "error": null,
+    "model_returned": "claude-haiku-4-5-20251001",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "A",
+     "base": 4,
+     "final": 4,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "contains the object value"
+    },
+    "usage": {
+     "input": 2544,
+     "output": 412,
+     "cache_read": 0,
+     "cache_write": 0
+    }
+   },
+   {
+    "stage": "partA",
+    "item_id": "MHRAG_ANSWER",
+    "error": null,
+    "model_returned": "claude-haiku-4-5-20251001",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "source": "T",
+     "base": 0,
+     "final": 0,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "No knowledge graph is used; paraphrased from article sentences"
+    },
+    "usage": {
+     "input": 2990,
+     "output": 739,
+     "cache_read": 0,
+     "cache_write": 0
+    }
+   },
+   {
+    "stage": "partB",
+    "item_id": "B5-009",
+    "error": null,
+    "model_returned": "claude-haiku-4-5-20251001",
+    "stop_reason": "end_turn",
+    "parsed": {
+     "ok": true,
+     "Q1": 2,
+     "Q2": 0,
+     "flag": ""
+    },
+    "usage": {
+     "input": 3062,
+     "output": 257,
+     "cache_read": 0,
+     "cache_write": 0
+    }
+   }
+  ],
+  "checked_utc": "2026-09-29T11:39:47.987337+00:00"
+ },
+ "gemini-3.8-flash": {
+  "pilot": [
+   {
+    "stage": "quiz",
+    "item_id": "Q1",
+    "error": null,
+    "model_returned": "gemini-3.8-flash",
+    "stop_reason": "STOP",
+    "parsed": {
+     "ok": true,
+     "source": "K",
+     "base": 4,
+     "final": 4,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "entities returned by executing those logical forms against the evaluation knowledge base"
+    },
+    "usage": {
+     "input": 2431,
+     "output": 75,
+     "thoughts": 345,
+     "cache_read": 0,
+     "cache_write": 0,
+     "total": 2851
+    }
+   },
+   {
+    "stage": "partA",
+    "item_id": "OURSUP_PATH",
+    "error": null,
+    "model_returned": "gemini-3.8-flash",
+    "stop_reason": "STOP",
+    "parsed": {
+     "ok": true,
+     "source": "K",
+     "base": 4,
+     "final": 4,
+     "confidence": 3,
+     "corrections": "none",
+     "corrections_in_list": true,
+     "key_phrase": "copied from the evaluation knowledge graph"
+    },
+    "usage": {
+     "input": 2817,
+     "output": 69,
+     "thoughts": 402,
+     "cache_read": 0,
+     "cache_write": 0,
+     "total": 3288
+    }
+   },
+   {
+    "stage": "partB",
+    "item_id": "B2-020",
+    "error": null,
+    "model_returned": "gemini-3.8-flash",
+    "stop_reason": "STOP",
+    "parsed": {
+     "ok": true,
+     "Q1": 1,
+     "Q2": 0,
+     "flag": ""
+    },
+    "usage": {
+     "input": 2955,
+     "output": 29,
+     "thoughts": 2684,
+     "cache_read": 0,
+     "cache_write": 0,
+     "total": 5668
+    }
+   }
+  ],
+  "checked_utc": "2026-09-29T11:40:09.400889+00:00"
+ }
+}

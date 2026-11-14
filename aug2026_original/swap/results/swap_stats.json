@@ -1,0 +1,26 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "n": 200,
+    "mean_paired_diff": 0.16,
+    "ci95": [
+      0.1,
+      0.22
+    ],
+    "discordant_pos": 37,
+    "discordant_neg": 5,
+    "sign_test_p": 4.4337048166198656e-07
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "n": 200,
+    "mean_paired_diff": 0.115,
+    "ci95": [
+      0.055,
+      0.18
+    ],
+    "discordant_pos": 33,
+    "discordant_neg": 10,
+    "sign_test_p": 0.0006061066312668117
+  }
+]

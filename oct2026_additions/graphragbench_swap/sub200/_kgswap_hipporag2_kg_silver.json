@@ -1,0 +1,5974 @@
+{
+  "benchmark": "external/graphragbench/sub200/qa.jsonl",
+  "n_qa": 200,
+  "top_k": 5,
+  "systems": [
+    "hipporag2"
+  ],
+  "metric_defs": {
+    "hit_at_k": "single gold => contained in top-K; multi-hop => BOTH gold contained",
+    "mrr": "single => 1/rank of gold; multi-hop => mean of the two golds' reciprocal ranks",
+    "answer_span_recall_at_k": "fraction of evidence snippets found in top-K passage text (text-based, KG-independent)",
+    "bridge_coverage_at_k": "multi-hop only: 1 iff both gold papers in top-K"
+  },
+  "results": {
+    "hipporag2": {
+      "summary": {
+        "n_qa": 200,
+        "overall": {
+          "hit_at_k": 0.805,
+          "mrr": 0.6385416666666667,
+          "answer_span_recall_at_k": 0.8665357142857143,
+          "bridge_coverage_at_k": 0.7216494845360825,
+          "n_multihop": 97
+        },
+        "by_qtype": {
+          "Complex Reasoning": {
+            "n_qa": 85,
+            "hit_at_k": 0.8352941176470589,
+            "mrr": 0.644313725490196,
+            "answer_span_recall_at_k": 0.9015686274509803,
+            "bridge_coverage_at_k": 0.7543859649122807
+          },
+          "Contextual Summarize": {
+            "n_qa": 25,
+            "hit_at_k": 0.84,
+            "mrr": 0.6516666666666666,
+            "answer_span_recall_at_k": 0.894,
+            "bridge_coverage_at_k": 0.8
+          },
+          "Fact Retrieval": {
+            "n_qa": 90,
+            "hit_at_k": 0.7666666666666667,
+            "mrr": 0.6294444444444445,
+            "answer_span_recall_at_k": 0.8258201058201057,
+            "bridge_coverage_at_k": 0.55
+          }
+        },
+        "by_domain": {
+          "unknown": {
+            "n_qa": 200,
+            "hit_at_k": 0.805,
+            "mrr": 0.6385416666666667,
+            "answer_span_recall_at_k": 0.8665357142857143,
+            "bridge_coverage_at_k": 0.7216494845360825
+          }
+        },
+        "per_qa": {
+          "qa_id": [
+            "grb_a8cbbb43e9a7",
+            "grb_815a8c27d1ce",
+            "grb_28c5305e7f74",
+            "grb_0c7aa3a72ad2",
+            "grb_74c0a1086a9a",
+            "grb_3cb37368073a",
+            "grb_c1bb7f27fc45",
+            "grb_cca8453f1200",
+            "grb_e7f92d968d1e",
+            "grb_308447f12a8a",
+            "grb_0e45e4721628",
+            "grb_0f47dcae31cc",
+            "grb_6976662e24d3",
+            "grb_1fb7327baaf8",
+            "grb_5cbd6b689b61",
+            "grb_0bfc74dee3c4",
+            "grb_b55139b3046a",
+            "grb_a58c482d2535",
+            "grb_9951cd1e78c5",
+            "grb_8b0616f2b741",
+            "grb_41db889a8965",
+            "grb_afa76471116e",
+            "grb_712ca113b492",
+            "grb_6d8b3059dd0a",
+            "grb_3bb781684f97",
+            "grb_03cf323a7057",
+            "grb_4a2399ebe2c8",
+            "grb_4496dc81c183",
+            "grb_fb3a7c4df5aa",
+            "grb_aa81e6281613",
+            "grb_e279f6f291bd",
+            "grb_5ffe139152a1",
+            "grb_e760017b9445",
+            "grb_1c33262c537b",
+            "grb_75a14d123235",
+            "grb_d2a37517dc35",
+            "grb_22cdeda584fe",
+            "grb_667151dfb8f4",
+            "grb_7288a164c016",
+            "grb_37b8ed70209a",
+            "grb_9c0033d51f71",
+            "grb_7e1ce1b144d9",
+            "grb_0e1a2dd18912",
+            "grb_857a196f04d0",
+            "grb_babbe9d7b6a6",
+            "grb_5c947a97e389",
+            "grb_225487077ae3",
+            "grb_7856a1b217b9",
+            "grb_74b63074d6df",
+            "grb_70d151cb62f6",
+            "grb_76dfcb4dcc5c",
+            "grb_3459b7b72569",
+            "grb_7a5416b9942b",
+            "grb_082f9d54622c",
+            "grb_9ba03970869f",
+            "grb_0d5d3feb4f6f",
+            "grb_6dc3e522e918",
+            "grb_63b1fb5a6b3d",
+            "grb_39753af60051",
+            "grb_2de8c7d91663",
+            "grb_9c809ff8c272",
+            "grb_1c30f5392f88",
+            "grb_c0828cf70bc2",
+            "grb_d14dbdd6fd91",
+            "grb_6ed943a92b5b",
+            "grb_302716d78d02",
+            "grb_170fb16bafc7",
+            "grb_6a4ac6cbfeba",
+            "grb_dbb016c50d01",
+            "grb_c3c78020a475",
+            "grb_d27827607d2b",
+            "grb_3b482b91fc79",
+            "grb_0d6d7ad387ac",
+            "grb_052dc58e8c32",
+            "grb_75246901ed8a",
+            "grb_58f00972424b",
+            "grb_ee664f4dd8af",
+            "grb_2cf14ff1b2a8",
+            "grb_838d225e83d0",
+            "grb_d0776d0d7cf8",
+            "grb_c67a8e6d209c",
+            "grb_40c7292ca245",
+            "grb_788329cc4a75",
+            "grb_71a204456a1b",
+            "grb_c6ef49ccc108",
+            "grb_181a8f208d60",
+            "grb_75633c31f322",
+            "grb_83025555bba7",
+            "grb_152ddbdf5cd1",
+            "grb_74684ceb6da9",
+            "grb_acd5b9c04729",
+            "grb_b116818109aa",
+            "grb_bb1b2719a4f5",
+            "grb_751b58bb7089",
+            "grb_535cea6d05c4",
+            "grb_dfd1b472a6ce",
+            "grb_211ad2e6fd3c",
+            "grb_03b69710a415",
+            "grb_159f7ef5dabd",
+            "grb_ee251f3eb120",
+            "grb_554dd5e64a0e",
+            "grb_d69cc4669cc3",
+            "grb_b41686061ed0",
+            "grb_a3a339b54d6a",
+            "grb_453505cd9974",
+            "grb_034919d25b6e",
+            "grb_2734992c6b45",
+            "grb_15b195de3160",
+            "grb_08055203d003",
+            "grb_589b94c9b849",
+            "grb_d5a2e8b58d9b",
+            "grb_04108b040d08",
+            "grb_4787de8c493f",
+            "grb_244776bf4de4",
+            "grb_212ef951cdbc",
+            "grb_59b0d76a3f6e",
+            "grb_29ddf248fb3a",
+            "grb_904b156593f7",
+            "grb_19d32291e906",
+            "grb_1a4a25780ef5",
+            "grb_0c225aa57f6e",
+            "grb_a6b626eb1dcc",
+            "grb_01a205eff5ae",
+            "grb_75f7efa8402b",
+            "grb_63ded733ceef",
+            "grb_24e71e876a51",
+            "grb_164299dd0312",
+            "grb_7875ece86b17",
+            "grb_326a9035a77b",
+            "grb_9930317f8402",
+            "grb_1f3e3a2fa9b3",
+            "grb_79a0fa3c931f",
+            "grb_4e2572509d58",
+            "grb_5962ed67dc31",
+            "grb_8f64e7257a53",
+            "grb_31541eacb504",
+            "grb_0c292450f375",
+            "grb_ed440994ae69",
+            "grb_2dd1ece52420",
+            "grb_b18b61532c4e",
+            "grb_3a61b538e237",
+            "grb_cf536ef21105",
+            "grb_bdc43b4938fc",
+            "grb_e6eb6cc65a8b",
+            "grb_81fadd16187f",
+            "grb_c11c0905b5b2",
+            "grb_beab1235a764",
+            "grb_0596951c1ace",
+            "grb_72039e060c94",
+            "grb_ba3675480f6d",
+            "grb_432a250aaf1c",
+            "grb_0f24a52c11d3",
+            "grb_85819d9f3a76",
+            "grb_01c151e2ed24",
+            "grb_e3e2f62f65a0",
+            "grb_220b3d358474",
+            "grb_07befe54659d",
+            "grb_1889476e9704",
+            "grb_06d63691307a",
+            "grb_ed247a66708f",
+            "grb_291777a3685d",
+            "grb_0d048ffb9b9e",
+            "grb_0d794e42da4b",
+            "grb_21e90c60b3ad",
+            "grb_1d58f5af7975",
+            "grb_73ee9d976910",
+            "grb_4594143da4ca",
+            "grb_0beb6f5e725d",
+            "grb_fda3ff829d99",
+            "grb_90f61dbf26ad",
+            "grb_4178146e9cea",
+            "grb_15c6850acf8b",
+            "grb_2b75681d3819",
+            "grb_74e8d88d5d50",
+            "grb_b0b3eda6205c",
+            "grb_7a7b4ea288ae",
+            "grb_e8f77db3a3f8",
+            "grb_b7fa654ed3d4",
+            "grb_d9bdfb3187e5",
+            "grb_4e6b1e51640c",
+            "grb_903b454ed757",
+            "grb_f216bb2d7c79",
+            "grb_b9dd3566e821",
+            "grb_3f73ffee0fd2",
+            "grb_b1c4be22d269",
+            "grb_04abc206b9ae",
+            "grb_aa7cf1be1555",
+            "grb_eda10b9a322c",
+            "grb_35930eacf4f3",
+            "grb_95b8d26a3f50",
+            "grb_616bb105bec7",
+            "grb_559a61124911",
+            "grb_301b27b2082d",
+            "grb_c4529d10d72f",
+            "grb_3189199cb584",
+            "grb_56b5c3716988",
+            "grb_f9b90983eeb4",
+            "grb_27aa674ac61d",
+            "grb_2c37936efc75",
+            "grb_2d0ce44da161"
+          ],
+          "hit_at_k": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "mrr": [
+            0.75,
+            0.41666666666666663,
+            0.5,
+            0.5,
+            1.0,
+            0.0,
+            0.2,
+            1.0,
+            0.75,
+            1.0,
+            0.5,
+            0.6666666666666666,
+            0.6666666666666666,
+            0.26666666666666666,
+            0.6666666666666666,
+            0.5,
+            1.0,
+            0.75,
+            0.5,
+            1.0,
+            0.41666666666666663,
+            1.0,
+            0.3333333333333333,
+            0.6666666666666666,
+            1.0,
+            1.0,
+            0.75,
+            1.0,
+            0.3333333333333333,
+            0.75,
+            1.0,
+            0.75,
+            0.75,
+            0.0,
+            0.6666666666666666,
+            0.75,
+            0.0,
+            0.5,
+            0.75,
+            0.0,
+            1.0,
+            1.0,
+            0.75,
+            0.29166666666666663,
+            0.6666666666666666,
+            0.125,
+            0.5,
+            1.0,
+            0.0,
+            0.41666666666666663,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.1,
+            0.75,
+            1.0,
+            0.75,
+            0.41666666666666663,
+            1.0,
+            1.0,
+            0.16666666666666666,
+            0.5,
+            0.75,
+            0.375,
+            0.75,
+            0.75,
+            1.0,
+            0.5,
+            0.16666666666666666,
+            0.75,
+            0.75,
+            0.1,
+            1.0,
+            0.0,
+            0.625,
+            1.0,
+            0.6666666666666666,
+            0.5,
+            0.625,
+            0.625,
+            0.41666666666666663,
+            0.0,
+            0.41666666666666663,
+            0.25,
+            0.5,
+            0.75,
+            0.75,
+            1.0,
+            0.6666666666666666,
+            0.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.41666666666666663,
+            1.0,
+            0.75,
+            0.3333333333333333,
+            0.41666666666666663,
+            1.0,
+            0.6666666666666666,
+            0.25,
+            0.6666666666666666,
+            0.75,
+            1.0,
+            0.5,
+            1.0,
+            0.0,
+            0.75,
+            1.0,
+            0.75,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.25,
+            0.6,
+            1.0,
+            0.25,
+            0.0,
+            0.75,
+            0.25,
+            1.0,
+            1.0,
+            1.0,
+            0.6666666666666666,
+            0.25,
+            1.0,
+            0.75,
+            0.0,
+            0.41666666666666663,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.75,
+            0.0,
+            1.0,
+            0.5,
+            0.625,
+            1.0,
+            0.41666666666666663,
+            0.125,
+            0.0,
+            0.75,
+            1.0,
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            0.0,
+            0.75,
+            1.0,
+            0.625,
+            1.0,
+            0.75,
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            0.5,
+            0.26666666666666666,
+            0.5,
+            0.0,
+            0.0,
+            0.6,
+            0.0,
+            0.5,
+            0.2,
+            0.75,
+            0.25,
+            0.75,
+            0.5,
+            0.29166666666666663,
+            0.5,
+            0.6666666666666666,
+            0.375,
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "answer_span_recall_at_k": [
+            1.0,
+            1.0,
+            0.6,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.3333333333333333,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.6666666666666666,
+            1.0,
+            1.0,
+            0.3333333333333333,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.8571428571428571,
+            1.0,
+            0.6666666666666666,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.75,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bridge_coverage_at_k": [
+            1.0,
+            1.0,
+            0.0,
+            null,
+            null,
+            0.0,
+            null,
+            null,
+            1.0,
+            null,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            null,
+            null,
+            1.0,
+            0.0,
+            null,
+            1.0,
+            null,
+            null,
+            1.0,
+            null,
+            null,
+            1.0,
+            null,
+            null,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            null,
+            0.0,
+            1.0,
+            null,
+            null,
+            null,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            null,
+            null,
+            1.0,
+            0.0,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            null,
+            null,
+            0.0,
+            null,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            null,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            null,
+            0.0,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            1.0,
+            null,
+            1.0,
+            null,
+            0.0,
+            1.0,
+            1.0,
+            null,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1.0,
+            null,
+            0.0,
+            null,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            1.0,
+            0.0,
+            null,
+            1.0,
+            0.0,
+            1.0,
+            null,
+            null,
+            0.0,
+            null,
+            null,
+            1.0,
+            null,
+            null,
+            null,
+            1.0,
+            null,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            null,
+            null,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            null,
+            0.0,
+            null,
+            null,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            null,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            null,
+            1.0,
+            null,
+            0.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            null,
+            1.0,
+            1.0,
+            1.0,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "multihop": [
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "system": "hipporag2"
+      },
+      "records": [
+        {
+          "qa_id": "grb_a8cbbb43e9a7",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1423",
+            "c1388"
+          ],
+          "retrieved_paper_ids": [
+            "c1423",
+            "c1388",
+            "c1385",
+            "c1389",
+            "c0680"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_815a8c27d1ce",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0482",
+            "c0484"
+          ],
+          "retrieved_paper_ids": [
+            "c0475",
+            "c0484",
+            "c0482",
+            "c1547",
+            "c0497"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_28c5305e7f74",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1275",
+            "c1277"
+          ],
+          "retrieved_paper_ids": [
+            "c1277",
+            "c1280",
+            "c1279",
+            "c1281",
+            "c1272"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.6,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_0c7aa3a72ad2",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0460"
+          ],
+          "retrieved_paper_ids": [
+            "c1164",
+            "c0460",
+            "c0457",
+            "c1211",
+            "c1170"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_74c0a1086a9a",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1164"
+          ],
+          "retrieved_paper_ids": [
+            "c1164",
+            "c1160",
+            "c1158",
+            "c1159",
+            "c1161"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_3cb37368073a",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0943",
+            "c0951"
+          ],
+          "retrieved_paper_ids": [
+            "c0907",
+            "c0916",
+            "c0902",
+            "c0894",
+            "c0922"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_c1bb7f27fc45",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0466"
+          ],
+          "retrieved_paper_ids": [
+            "c0458",
+            "c0527",
+            "c0528",
+            "c0459",
+            "c0466"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.2,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_cca8453f1200",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0203"
+          ],
+          "retrieved_paper_ids": [
+            "c0203",
+            "c0202",
+            "c0201",
+            "c0190",
+            "c0199"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_e7f92d968d1e",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1350",
+            "c1346"
+          ],
+          "retrieved_paper_ids": [
+            "c1350",
+            "c1346",
+            "c1342",
+            "c1343",
+            "c1344"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_308447f12a8a",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0460"
+          ],
+          "retrieved_paper_ids": [
+            "c0460",
+            "c0457",
+            "c0528",
+            "c0527",
+            "c0605"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0e45e4721628",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0516",
+            "c0073"
+          ],
+          "retrieved_paper_ids": [
+            "c0516",
+            "c0510",
+            "c0511",
+            "c1218",
+            "c1217"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.8,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_0f47dcae31cc",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0185",
+            "c0186"
+          ],
+          "retrieved_paper_ids": [
+            "c0186",
+            "c0190",
+            "c0185",
+            "c1160",
+            "c1158"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_6976662e24d3",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0276",
+            "c0273"
+          ],
+          "retrieved_paper_ids": [
+            "c0273",
+            "c0544",
+            "c0276",
+            "c0569",
+            "c0550"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_1fb7327baaf8",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0143",
+            "c1095"
+          ],
+          "retrieved_paper_ids": [
+            "c1135",
+            "c1108",
+            "c1095",
+            "c1123",
+            "c0143"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_5cbd6b689b61",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1296",
+            "c1299"
+          ],
+          "retrieved_paper_ids": [
+            "c1296",
+            "c1298",
+            "c1299",
+            "c0173",
+            "c1297"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_0bfc74dee3c4",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1275"
+          ],
+          "retrieved_paper_ids": [
+            "c1277",
+            "c1275",
+            "c1279",
+            "c0351",
+            "c1041"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b55139b3046a",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0838"
+          ],
+          "retrieved_paper_ids": [
+            "c0838",
+            "c0888",
+            "c0885",
+            "c1423",
+            "c0680"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_a58c482d2535",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0215",
+            "c0154"
+          ],
+          "retrieved_paper_ids": [
+            "c0215",
+            "c0154",
+            "c1008",
+            "c1014",
+            "c1046"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_9951cd1e78c5",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1490",
+            "c1014"
+          ],
+          "retrieved_paper_ids": [
+            "c1014",
+            "c1046",
+            "c0931",
+            "c0916",
+            "c0918"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_8b0616f2b741",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0203"
+          ],
+          "retrieved_paper_ids": [
+            "c0203",
+            "c0199",
+            "c0190",
+            "c0325",
+            "c0201"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_41db889a8965",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0218",
+            "c0134"
+          ],
+          "retrieved_paper_ids": [
+            "c0261",
+            "c0134",
+            "c0218",
+            "c0253",
+            "c1014"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_afa76471116e",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1218"
+          ],
+          "retrieved_paper_ids": [
+            "c1218",
+            "c0838",
+            "c1217",
+            "c0865",
+            "c0759"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_712ca113b492",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0516"
+          ],
+          "retrieved_paper_ids": [
+            "c0511",
+            "c0510",
+            "c0516",
+            "c0509",
+            "c0518"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_6d8b3059dd0a",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0367",
+            "c0979"
+          ],
+          "retrieved_paper_ids": [
+            "c0979",
+            "c0974",
+            "c0367",
+            "c1165",
+            "c0622"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_3bb781684f97",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1160"
+          ],
+          "retrieved_paper_ids": [
+            "c1160",
+            "c1158",
+            "c1159",
+            "c1161",
+            "c0264"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_03cf323a7057",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1271"
+          ],
+          "retrieved_paper_ids": [
+            "c1271",
+            "c1279",
+            "c1272",
+            "c0173",
+            "c0190"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_4a2399ebe2c8",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1296",
+            "c1298"
+          ],
+          "retrieved_paper_ids": [
+            "c1296",
+            "c1298",
+            "c1299",
+            "c1295",
+            "c1297"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_4496dc81c183",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1374"
+          ],
+          "retrieved_paper_ids": [
+            "c1374",
+            "c0186",
+            "c1372",
+            "c1371",
+            "c0895"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_fb3a7c4df5aa",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0869"
+          ],
+          "retrieved_paper_ids": [
+            "c0888",
+            "c0838",
+            "c0869",
+            "c0885",
+            "c0390"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_aa81e6281613",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0473",
+            "c0154"
+          ],
+          "retrieved_paper_ids": [
+            "c0473",
+            "c0154",
+            "c0974",
+            "c0174",
+            "c0991"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_e279f6f291bd",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0493"
+          ],
+          "retrieved_paper_ids": [
+            "c0493",
+            "c0495",
+            "c1547",
+            "c0497",
+            "c1514"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_5ffe139152a1",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1217",
+            "c1218"
+          ],
+          "retrieved_paper_ids": [
+            "c1218",
+            "c1217",
+            "c0274",
+            "c1219",
+            "c0516"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_e760017b9445",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0148",
+            "c0140"
+          ],
+          "retrieved_paper_ids": [
+            "c0140",
+            "c0148",
+            "c0137",
+            "c0145",
+            "c0143"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_1c33262c537b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1072"
+          ],
+          "retrieved_paper_ids": [
+            "c1069",
+            "c1095",
+            "c1144",
+            "c1068",
+            "c1496"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_75a14d123235",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0190",
+            "c0185"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c0186",
+            "c0185",
+            "c1159",
+            "c0193"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_d2a37517dc35",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0679",
+            "c0345"
+          ],
+          "retrieved_paper_ids": [
+            "c0679",
+            "c0345",
+            "c0682",
+            "c0683",
+            "c0648"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_22cdeda584fe",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0008"
+          ],
+          "retrieved_paper_ids": [
+            "c1457",
+            "c0103",
+            "c0875",
+            "c0000",
+            "c1452"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_667151dfb8f4",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0913",
+            "c0916"
+          ],
+          "retrieved_paper_ids": [
+            "c0916",
+            "c0902",
+            "c0931",
+            "c0918",
+            "c0915"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_7288a164c016",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1279",
+            "c1275"
+          ],
+          "retrieved_paper_ids": [
+            "c1279",
+            "c1275",
+            "c1276",
+            "c0899",
+            "c1272"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_37b8ed70209a",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0608"
+          ],
+          "retrieved_paper_ids": [
+            "c0457",
+            "c0460",
+            "c0613",
+            "c0131",
+            "c0527"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_9c0033d51f71",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1375"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1373",
+            "c1369",
+            "c1374",
+            "c1372"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_7e1ce1b144d9",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0172"
+          ],
+          "retrieved_paper_ids": [
+            "c0172",
+            "c0173",
+            "c0154",
+            "c0215",
+            "c0176"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0e1a2dd18912",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1182",
+            "c1195"
+          ],
+          "retrieved_paper_ids": [
+            "c1195",
+            "c1182",
+            "c1187",
+            "c1179",
+            "c1215"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_857a196f04d0",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1275",
+            "c1274"
+          ],
+          "retrieved_paper_ids": [
+            "c1279",
+            "c1271",
+            "c1275",
+            "c1274",
+            "c1276"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_babbe9d7b6a6",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1158",
+            "c1161"
+          ],
+          "retrieved_paper_ids": [
+            "c1158",
+            "c1160",
+            "c1161",
+            "c1159",
+            "c1533"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_5c947a97e389",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0173",
+            "c0120"
+          ],
+          "retrieved_paper_ids": [
+            "c1298",
+            "c1296",
+            "c1299",
+            "c0173",
+            "c1297"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_225487077ae3",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1250",
+            "c0613"
+          ],
+          "retrieved_paper_ids": [
+            "c1250",
+            "c1219",
+            "c1249",
+            "c0249",
+            "c0475"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_7856a1b217b9",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1164"
+          ],
+          "retrieved_paper_ids": [
+            "c1164",
+            "c1211",
+            "c1170",
+            "c1166",
+            "c1167"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_74b63074d6df",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0009"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1373",
+            "c1369",
+            "c0864",
+            "c0772"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_70d151cb62f6",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1279",
+            "c1275"
+          ],
+          "retrieved_paper_ids": [
+            "c1276",
+            "c1275",
+            "c1279",
+            "c1277",
+            "c1272"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_76dfcb4dcc5c",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0759",
+            "c0174"
+          ],
+          "retrieved_paper_ids": [
+            "c0176",
+            "c1297",
+            "c0173",
+            "c0516",
+            "c0177"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_3459b7b72569",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1161"
+          ],
+          "retrieved_paper_ids": [
+            "c1161",
+            "c1158",
+            "c1160",
+            "c0971",
+            "c0884"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_7a5416b9942b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1158"
+          ],
+          "retrieved_paper_ids": [
+            "c1158",
+            "c1160",
+            "c1159",
+            "c0186",
+            "c0190"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_082f9d54622c",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0516"
+          ],
+          "retrieved_paper_ids": [
+            "c0516",
+            "c0515",
+            "c0510",
+            "c0511",
+            "c1217"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_9ba03970869f",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0006"
+          ],
+          "retrieved_paper_ids": [
+            "c0006",
+            "c0000",
+            "c0003",
+            "c0007",
+            "c0008"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0d5d3feb4f6f",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0858",
+            "c1211"
+          ],
+          "retrieved_paper_ids": [
+            "c0390",
+            "c0391",
+            "c0143",
+            "c0387",
+            "c1211"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 0.3333333333333333,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_6dc3e522e918",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1547",
+            "c0495"
+          ],
+          "retrieved_paper_ids": [
+            "c0495",
+            "c1547",
+            "c1519",
+            "c0493",
+            "c1523"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_63b1fb5a6b3d",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0173"
+          ],
+          "retrieved_paper_ids": [
+            "c0173",
+            "c0172",
+            "c1462",
+            "c1463",
+            "c1195"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_39753af60051",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0042",
+            "c0124"
+          ],
+          "retrieved_paper_ids": [
+            "c0042",
+            "c0124",
+            "c0043",
+            "c0092",
+            "c0057"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_2de8c7d91663",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1123",
+            "c1124"
+          ],
+          "retrieved_paper_ids": [
+            "c1231",
+            "c1124",
+            "c1123",
+            "c0232",
+            "c0811"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_9c809ff8c272",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0457"
+          ],
+          "retrieved_paper_ids": [
+            "c0457",
+            "c0527",
+            "c1373",
+            "c0199",
+            "c1369"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_1c30f5392f88",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0017"
+          ],
+          "retrieved_paper_ids": [
+            "c0017",
+            "c0020",
+            "c0023",
+            "c0015",
+            "c0016"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_c0828cf70bc2",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0387",
+            "c0351"
+          ],
+          "retrieved_paper_ids": [
+            "c1547",
+            "c0495",
+            "c0387",
+            "c0390",
+            "c0368"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.75,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_d14dbdd6fd91",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0509"
+          ],
+          "retrieved_paper_ids": [
+            "c0511",
+            "c0509",
+            "c0510",
+            "c0517",
+            "c0514"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_6ed943a92b5b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0325",
+            "c0322"
+          ],
+          "retrieved_paper_ids": [
+            "c0325",
+            "c0322",
+            "c0390",
+            "c0357",
+            "c0329"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_302716d78d02",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0003",
+            "c0001"
+          ],
+          "retrieved_paper_ids": [
+            "c0000",
+            "c0003",
+            "c0006",
+            "c0001",
+            "c0009"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_170fb16bafc7",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1165",
+            "c1166"
+          ],
+          "retrieved_paper_ids": [
+            "c1165",
+            "c1166",
+            "c1164",
+            "c1211",
+            "c1170"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_6a4ac6cbfeba",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1197",
+            "c1196"
+          ],
+          "retrieved_paper_ids": [
+            "c1197",
+            "c1196",
+            "c1202",
+            "c1199",
+            "c1198"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_dbb016c50d01",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0173"
+          ],
+          "retrieved_paper_ids": [
+            "c0173",
+            "c1014",
+            "c0175",
+            "c0178",
+            "c1294"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_c3c78020a475",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1006",
+            "c0976"
+          ],
+          "retrieved_paper_ids": [
+            "c1006",
+            "c1547",
+            "c0497",
+            "c1533",
+            "c1003"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_d27827607d2b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0871",
+            "c0761"
+          ],
+          "retrieved_paper_ids": [
+            "c0828",
+            "c1068",
+            "c0761",
+            "c0931",
+            "c0853"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.6666666666666666,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_3b482b91fc79",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0511",
+            "c0510"
+          ],
+          "retrieved_paper_ids": [
+            "c0511",
+            "c0510",
+            "c0516",
+            "c1218",
+            "c0195"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_0d6d7ad387ac",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0170",
+            "c0194"
+          ],
+          "retrieved_paper_ids": [
+            "c0194",
+            "c0170",
+            "c1428",
+            "c1434",
+            "c1392"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_052dc58e8c32",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1548",
+            "c1533"
+          ],
+          "retrieved_paper_ids": [
+            "c0390",
+            "c0391",
+            "c0143",
+            "c1532",
+            "c1548"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 0.3333333333333333,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_75246901ed8a",
+          "qtype": "Contextual Summarize",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1272"
+          ],
+          "retrieved_paper_ids": [
+            "c1272",
+            "c0516",
+            "c0174",
+            "c1279",
+            "c0176"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_58f00972424b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0475",
+            "c0249"
+          ],
+          "retrieved_paper_ids": [
+            "c0247",
+            "c1337",
+            "c0293",
+            "c0564",
+            "c0843"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_ee664f4dd8af",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0001",
+            "c0000"
+          ],
+          "retrieved_paper_ids": [
+            "c0000",
+            "c0008",
+            "c0006",
+            "c0001",
+            "c0042"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_2cf14ff1b2a8",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1501"
+          ],
+          "retrieved_paper_ids": [
+            "c1501",
+            "c1514",
+            "c1519",
+            "c1508",
+            "c1507"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_838d225e83d0",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1211",
+            "c1170"
+          ],
+          "retrieved_paper_ids": [
+            "c1211",
+            "c1164",
+            "c1170",
+            "c1166",
+            "c1173"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_d0776d0d7cf8",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0000"
+          ],
+          "retrieved_paper_ids": [
+            "c0036",
+            "c0000",
+            "c0001",
+            "c0057",
+            "c0008"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_c67a8e6d209c",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1158",
+            "c1159"
+          ],
+          "retrieved_paper_ids": [
+            "c1158",
+            "c1160",
+            "c1161",
+            "c1159",
+            "c1374"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_40c7292ca245",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1173",
+            "c0648"
+          ],
+          "retrieved_paper_ids": [
+            "c0648",
+            "c0679",
+            "c0345",
+            "c1173",
+            "c0649"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_788329cc4a75",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1369",
+            "c1373"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1369",
+            "c1373",
+            "c1374",
+            "c0527"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_71a204456a1b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0194"
+          ],
+          "retrieved_paper_ids": [
+            "c0170",
+            "c0038",
+            "c0002",
+            "c1292",
+            "c0213"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_c6ef49ccc108",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1369",
+            "c1374"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1369",
+            "c1374",
+            "c1373",
+            "c1372"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_181a8f208d60",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1008"
+          ],
+          "retrieved_paper_ids": [
+            "c0215",
+            "c0154",
+            "c1014",
+            "c1008",
+            "c1385"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_75633c31f322",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1061",
+            "c0039"
+          ],
+          "retrieved_paper_ids": [
+            "c1061",
+            "c1064",
+            "c1067",
+            "c1095",
+            "c1055"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.75,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_83025555bba7",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0431",
+            "c0242"
+          ],
+          "retrieved_paper_ids": [
+            "c0431",
+            "c0242",
+            "c0227",
+            "c1037",
+            "c1046"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_152ddbdf5cd1",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0195",
+            "c0174"
+          ],
+          "retrieved_paper_ids": [
+            "c0195",
+            "c0174",
+            "c1279",
+            "c1272",
+            "c1270"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_74684ceb6da9",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0190"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c1346",
+            "c0185",
+            "c0527",
+            "c1159"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_acd5b9c04729",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0190",
+            "c0527"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c0185",
+            "c0527",
+            "c0186",
+            "c1346"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_b116818109aa",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0290"
+          ],
+          "retrieved_paper_ids": [
+            "c1373",
+            "c1374",
+            "c1375",
+            "c1369",
+            "c0265"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_bb1b2719a4f5",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0907"
+          ],
+          "retrieved_paper_ids": [
+            "c0907",
+            "c0935",
+            "c0902",
+            "c0969",
+            "c0894"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_751b58bb7089",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0233"
+          ],
+          "retrieved_paper_ids": [
+            "c1231",
+            "c0233",
+            "c0232",
+            "c0811",
+            "c0418"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_535cea6d05c4",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1161"
+          ],
+          "retrieved_paper_ids": [
+            "c1161",
+            "c1158",
+            "c1160",
+            "c0143",
+            "c0384"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_dfd1b472a6ce",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0176"
+          ],
+          "retrieved_paper_ids": [
+            "c0176",
+            "c0174",
+            "c0177",
+            "c0172",
+            "c0173"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_211ad2e6fd3c",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0006",
+            "c0036"
+          ],
+          "retrieved_paper_ids": [
+            "c0008",
+            "c0951",
+            "c0966",
+            "c0101",
+            "c0888"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_03b69710a415",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0190"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c1159",
+            "c0527",
+            "c0202",
+            "c1346"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_159f7ef5dabd",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0143"
+          ],
+          "retrieved_paper_ids": [
+            "c0140",
+            "c0143",
+            "c0137",
+            "c0145",
+            "c0142"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_ee251f3eb120",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0646"
+          ],
+          "retrieved_paper_ids": [
+            "c0646",
+            "c0679",
+            "c0708",
+            "c0697",
+            "c0645"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_554dd5e64a0e",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0261"
+          ],
+          "retrieved_paper_ids": [
+            "c0261",
+            "c0134",
+            "c0218",
+            "c0253",
+            "c0262"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_d69cc4669cc3",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0501"
+          ],
+          "retrieved_paper_ids": [
+            "c0501",
+            "c1576",
+            "c1529",
+            "c1580",
+            "c1530"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b41686061ed0",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0680",
+            "c0761"
+          ],
+          "retrieved_paper_ids": [
+            "c0858",
+            "c0761",
+            "c0680",
+            "c0158",
+            "c0157"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_a3a339b54d6a",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0457"
+          ],
+          "retrieved_paper_ids": [
+            "c0457",
+            "c0460",
+            "c0527",
+            "c0458",
+            "c0528"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_453505cd9974",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0173",
+            "c0172"
+          ],
+          "retrieved_paper_ids": [
+            "c0173",
+            "c0172",
+            "c0154",
+            "c0215",
+            "c0176"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_034919d25b6e",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1281"
+          ],
+          "retrieved_paper_ids": [
+            "c1277",
+            "c0012",
+            "c1281",
+            "c1275",
+            "c0125"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_2734992c6b45",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0242",
+            "c0227"
+          ],
+          "retrieved_paper_ids": [
+            "c0431",
+            "c0242",
+            "c0227",
+            "c1037",
+            "c0409"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_15b195de3160",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1248"
+          ],
+          "retrieved_paper_ids": [
+            "c1248",
+            "c1247",
+            "c1337",
+            "c1213",
+            "c1362"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_08055203d003",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1160",
+            "c1159"
+          ],
+          "retrieved_paper_ids": [
+            "c1160",
+            "c1158",
+            "c1159",
+            "c1161",
+            "c1374"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_589b94c9b849",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0113"
+          ],
+          "retrieved_paper_ids": [
+            "c1170",
+            "c0148",
+            "c1211",
+            "c0113",
+            "c0832"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_d5a2e8b58d9b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1275",
+            "c1276"
+          ],
+          "retrieved_paper_ids": [
+            "c1275",
+            "c1274",
+            "c1276",
+            "c1279",
+            "c1277"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_04108b040d08",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0488",
+            "c0475"
+          ],
+          "retrieved_paper_ids": [
+            "c0475",
+            "c0488",
+            "c0503",
+            "c1213",
+            "c0476"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_4787de8c493f",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0473"
+          ],
+          "retrieved_paper_ids": [
+            "c0473",
+            "c0154",
+            "c0974",
+            "c0490",
+            "c0991"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_244776bf4de4",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0199"
+          ],
+          "retrieved_paper_ids": [
+            "c0203",
+            "c0199",
+            "c0201",
+            "c0190",
+            "c0200"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_212ef951cdbc",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1514"
+          ],
+          "retrieved_paper_ids": [
+            "c1514",
+            "c1547",
+            "c0497",
+            "c1501",
+            "c0503"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_59b0d76a3f6e",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1317"
+          ],
+          "retrieved_paper_ids": [
+            "c1318",
+            "c1335",
+            "c1311",
+            "c1312",
+            "c1310"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_29ddf248fb3a",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1271",
+            "c1279"
+          ],
+          "retrieved_paper_ids": [
+            "c1271",
+            "c1279",
+            "c1272",
+            "c0511",
+            "c1275"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_904b156593f7",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0245"
+          ],
+          "retrieved_paper_ids": [
+            "c0245",
+            "c1046",
+            "c0215",
+            "c1011",
+            "c0830"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_19d32291e906",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1375",
+            "c1369"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1369",
+            "c1373",
+            "c0190",
+            "c1374"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_1a4a25780ef5",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0137"
+          ],
+          "retrieved_paper_ids": [
+            "c0162",
+            "c0137",
+            "c0154",
+            "c0153",
+            "c1271"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0c225aa57f6e",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0473"
+          ],
+          "retrieved_paper_ids": [
+            "c0473",
+            "c0975",
+            "c0154",
+            "c0490",
+            "c0974"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_a6b626eb1dcc",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0016"
+          ],
+          "retrieved_paper_ids": [
+            "c0016",
+            "c0890",
+            "c0014",
+            "c0013",
+            "c0753"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_01a205eff5ae",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0446"
+          ],
+          "retrieved_paper_ids": [
+            "c0446",
+            "c1144",
+            "c0249",
+            "c1041",
+            "c0248"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_75f7efa8402b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0974"
+          ],
+          "retrieved_paper_ids": [
+            "c0493",
+            "c0495",
+            "c1547",
+            "c0974",
+            "c0473"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_63ded733ceef",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0253",
+            "c0999"
+          ],
+          "retrieved_paper_ids": [
+            "c0253",
+            "c0447",
+            "c0482",
+            "c0370",
+            "c0999"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_24e71e876a51",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0446"
+          ],
+          "retrieved_paper_ids": [
+            "c0446",
+            "c0249",
+            "c0394",
+            "c1144",
+            "c0475"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_164299dd0312",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0258",
+            "c0325"
+          ],
+          "retrieved_paper_ids": [
+            "c0253",
+            "c0258",
+            "c0861",
+            "c0452",
+            "c1051"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_7875ece86b17",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0008"
+          ],
+          "retrieved_paper_ids": [
+            "c1457",
+            "c0875",
+            "c0119",
+            "c1453",
+            "c0888"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_326a9035a77b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0199",
+            "c0131"
+          ],
+          "retrieved_paper_ids": [
+            "c0199",
+            "c0131",
+            "c1375",
+            "c0056",
+            "c1373"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_9930317f8402",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0259"
+          ],
+          "retrieved_paper_ids": [
+            "c0261",
+            "c0134",
+            "c0253",
+            "c0259",
+            "c0263"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_1f3e3a2fa9b3",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0390"
+          ],
+          "retrieved_paper_ids": [
+            "c0390",
+            "c0322",
+            "c0325",
+            "c0391",
+            "c0345"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_79a0fa3c931f",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0623"
+          ],
+          "retrieved_paper_ids": [
+            "c0623",
+            "c0624",
+            "c0626",
+            "c0453",
+            "c0628"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_4e2572509d58",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1231"
+          ],
+          "retrieved_paper_ids": [
+            "c1231",
+            "c0232",
+            "c0811",
+            "c1026",
+            "c0233"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_5962ed67dc31",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1218",
+            "c0274"
+          ],
+          "retrieved_paper_ids": [
+            "c1218",
+            "c1217",
+            "c0274",
+            "c1219",
+            "c0384"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_8f64e7257a53",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0944",
+            "c0916"
+          ],
+          "retrieved_paper_ids": [
+            "c0970",
+            "c0916",
+            "c0968",
+            "c0907",
+            "c0894"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_31541eacb504",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1519"
+          ],
+          "retrieved_paper_ids": [
+            "c1519",
+            "c0495",
+            "c1547",
+            "c1520",
+            "c1548"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0c292450f375",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1245",
+            "c0356"
+          ],
+          "retrieved_paper_ids": [
+            "c1245",
+            "c0356",
+            "c0679",
+            "c0680",
+            "c0345"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_ed440994ae69",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0516",
+            "c0602"
+          ],
+          "retrieved_paper_ids": [
+            "c1346",
+            "c1350",
+            "c1374",
+            "c0126",
+            "c1347"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_2dd1ece52420",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0154",
+            "c0473"
+          ],
+          "retrieved_paper_ids": [
+            "c1298",
+            "c0473",
+            "c0154",
+            "c1296",
+            "c0174"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_b18b61532c4e",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1158"
+          ],
+          "retrieved_paper_ids": [
+            "c1158",
+            "c1160",
+            "c1159",
+            "c0186",
+            "c0200"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_3a61b538e237",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1373"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1373",
+            "c1369",
+            "c1374",
+            "c0527"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_cf536ef21105",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1046",
+            "c0371"
+          ],
+          "retrieved_paper_ids": [
+            "c1046",
+            "c1014",
+            "c0453",
+            "c1051",
+            "c0141"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.8,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_bdc43b4938fc",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0006"
+          ],
+          "retrieved_paper_ids": [
+            "c0006",
+            "c0000",
+            "c0003",
+            "c0007",
+            "c0008"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_e6eb6cc65a8b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1464"
+          ],
+          "retrieved_paper_ids": [
+            "c1464",
+            "c1393",
+            "c1440",
+            "c1452",
+            "c1439"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_81fadd16187f",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0450",
+            "c0256"
+          ],
+          "retrieved_paper_ids": [
+            "c0450",
+            "c0256",
+            "c0447",
+            "c0446",
+            "c0858"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_c11c0905b5b2",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0141"
+          ],
+          "retrieved_paper_ids": [
+            "c0867",
+            "c0473",
+            "c0154",
+            "c1431",
+            "c1430"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_beab1235a764",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1221"
+          ],
+          "retrieved_paper_ids": [
+            "c1221",
+            "c1219",
+            "c1225",
+            "c1218",
+            "c0173"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0596951c1ace",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0145"
+          ],
+          "retrieved_paper_ids": [
+            "c0143",
+            "c0145",
+            "c0907",
+            "c0137",
+            "c1014"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_72039e060c94",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0143",
+            "c0630"
+          ],
+          "retrieved_paper_ids": [
+            "c0143",
+            "c0961",
+            "c0312",
+            "c0630",
+            "c0106"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_ba3675480f6d",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0194"
+          ],
+          "retrieved_paper_ids": [
+            "c0194",
+            "c0170",
+            "c1268",
+            "c1269",
+            "c0195"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_432a250aaf1c",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1160",
+            "c1158"
+          ],
+          "retrieved_paper_ids": [
+            "c1161",
+            "c1158",
+            "c1160",
+            "c1159",
+            "c0310"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_0f24a52c11d3",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0106",
+            "c0312"
+          ],
+          "retrieved_paper_ids": [
+            "c0466",
+            "c0614",
+            "c0881",
+            "c0312",
+            "c0583"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_85819d9f3a76",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1014",
+            "c0976"
+          ],
+          "retrieved_paper_ids": [
+            "c0253",
+            "c0261",
+            "c1044",
+            "c0219",
+            "c0218"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_01c151e2ed24",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0390",
+            "c0391"
+          ],
+          "retrieved_paper_ids": [
+            "c0390",
+            "c0391",
+            "c0376",
+            "c0392",
+            "c1113"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_e3e2f62f65a0",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1373"
+          ],
+          "retrieved_paper_ids": [
+            "c1373",
+            "c1375",
+            "c1369",
+            "c1374",
+            "c0527"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_220b3d358474",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0006"
+          ],
+          "retrieved_paper_ids": [
+            "c0006",
+            "c0000",
+            "c0003",
+            "c0007",
+            "c0040"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_07befe54659d",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0390",
+            "c0391"
+          ],
+          "retrieved_paper_ids": [
+            "c0390",
+            "c0391",
+            "c0143",
+            "c0392",
+            "c0858"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_1889476e9704",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0172"
+          ],
+          "retrieved_paper_ids": [
+            "c0172",
+            "c0173",
+            "c0154",
+            "c0176",
+            "c0174"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_06d63691307a",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1385"
+          ],
+          "retrieved_paper_ids": [
+            "c1385",
+            "c1423",
+            "c0154",
+            "c0473",
+            "c1435"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_ed247a66708f",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1069"
+          ],
+          "retrieved_paper_ids": [
+            "c1069",
+            "c1095",
+            "c0143",
+            "c1144",
+            "c1123"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_291777a3685d",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0288"
+          ],
+          "retrieved_paper_ids": [
+            "c0134",
+            "c0218",
+            "c0288",
+            "c0261",
+            "c0559"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0d048ffb9b9e",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0453"
+          ],
+          "retrieved_paper_ids": [
+            "c1501",
+            "c1514",
+            "c0453",
+            "c0141",
+            "c0623"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_0d794e42da4b",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0125",
+            "c0012"
+          ],
+          "retrieved_paper_ids": [
+            "c1277",
+            "c1275",
+            "c1279",
+            "c1278",
+            "c1276"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_21e90c60b3ad",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0007"
+          ],
+          "retrieved_paper_ids": [
+            "c0007",
+            "c0006",
+            "c0000",
+            "c0512",
+            "c1375"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_1d58f5af7975",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1046"
+          ],
+          "retrieved_paper_ids": [
+            "c1046",
+            "c0245",
+            "c1011",
+            "c0215",
+            "c0231"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_73ee9d976910",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0194"
+          ],
+          "retrieved_paper_ids": [
+            "c0194",
+            "c0170",
+            "c1268",
+            "c1269",
+            "c0195"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_4594143da4ca",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0461",
+            "c0466"
+          ],
+          "retrieved_paper_ids": [
+            "c0466",
+            "c0461",
+            "c0608",
+            "c0525",
+            "c0457"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_0beb6f5e725d",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0525"
+          ],
+          "retrieved_paper_ids": [
+            "c0457",
+            "c0527",
+            "c1369",
+            "c0605",
+            "c0536"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_fda3ff829d99",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0201",
+            "c0202"
+          ],
+          "retrieved_paper_ids": [
+            "c0201",
+            "c0202",
+            "c0190",
+            "c0527",
+            "c0203"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_90f61dbf26ad",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0006"
+          ],
+          "retrieved_paper_ids": [
+            "c0006",
+            "c0000",
+            "c0003",
+            "c0007",
+            "c0041"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_4178146e9cea",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0503",
+            "c0497"
+          ],
+          "retrieved_paper_ids": [
+            "c0503",
+            "c1514",
+            "c1547",
+            "c0497",
+            "c1533"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_15c6850acf8b",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1161"
+          ],
+          "retrieved_paper_ids": [
+            "c1161",
+            "c1158",
+            "c1103",
+            "c1160",
+            "c1195"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_2b75681d3819",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0511",
+            "c0510"
+          ],
+          "retrieved_paper_ids": [
+            "c0511",
+            "c0510",
+            "c0516",
+            "c1218",
+            "c1271"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_74e8d88d5d50",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0692"
+          ],
+          "retrieved_paper_ids": [
+            "c0692",
+            "c0694",
+            "c0693",
+            "c0748",
+            "c0695"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b0b3eda6205c",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0132",
+            "c0126"
+          ],
+          "retrieved_paper_ids": [
+            "c0126",
+            "c0132",
+            "c0599",
+            "c0131",
+            "c0598"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_7a7b4ea288ae",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1385"
+          ],
+          "retrieved_paper_ids": [
+            "c1385",
+            "c0511",
+            "c0510",
+            "c1435",
+            "c1423"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_e8f77db3a3f8",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0190"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c0527",
+            "c0202",
+            "c0201",
+            "c0204"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b7fa654ed3d4",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1213",
+            "c0355"
+          ],
+          "retrieved_paper_ids": [
+            "c1213",
+            "c1217",
+            "c1144",
+            "c1215",
+            "c1216"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.8571428571428571,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_d9bdfb3187e5",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0680",
+            "c0888"
+          ],
+          "retrieved_paper_ids": [
+            "c0848",
+            "c0354",
+            "c0680",
+            "c0741",
+            "c0888"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_4e6b1e51640c",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0853",
+            "c1211"
+          ],
+          "retrieved_paper_ids": [
+            "c1211",
+            "c1578",
+            "c0858",
+            "c0761",
+            "c0869"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.6666666666666666,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_903b454ed757",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0943",
+            "c0922"
+          ],
+          "retrieved_paper_ids": [
+            "c0907",
+            "c0902",
+            "c0916",
+            "c0894",
+            "c0924"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_f216bb2d7c79",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0918"
+          ],
+          "retrieved_paper_ids": [
+            "c1271",
+            "c1279",
+            "c1218",
+            "c1014",
+            "c0173"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b9dd3566e821",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0201",
+            "c0868"
+          ],
+          "retrieved_paper_ids": [
+            "c0201",
+            "c0190",
+            "c0199",
+            "c0202",
+            "c0868"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_3f73ffee0fd2",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0195"
+          ],
+          "retrieved_paper_ids": [
+            "c0201",
+            "c0868",
+            "c0199",
+            "c0446",
+            "c1373"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_b1c4be22d269",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0518",
+            "c0650"
+          ],
+          "retrieved_paper_ids": [
+            "c0518",
+            "c0511",
+            "c1014",
+            "c0512",
+            "c0514"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.75,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "grb_04abc206b9ae",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0190"
+          ],
+          "retrieved_paper_ids": [
+            "c0199",
+            "c0204",
+            "c0203",
+            "c0202",
+            "c0190"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.2,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_aa7cf1be1555",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1373",
+            "c1375"
+          ],
+          "retrieved_paper_ids": [
+            "c1375",
+            "c1373",
+            "c0012",
+            "c0902",
+            "c1376"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_eda10b9a322c",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1011"
+          ],
+          "retrieved_paper_ids": [
+            "c0215",
+            "c0154",
+            "c1014",
+            "c1011",
+            "c1008"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_35930eacf4f3",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1275",
+            "c1277"
+          ],
+          "retrieved_paper_ids": [
+            "c1277",
+            "c1275",
+            "c0125",
+            "c1279",
+            "c0012"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_95b8d26a3f50",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0126"
+          ],
+          "retrieved_paper_ids": [
+            "c0132",
+            "c0126",
+            "c0599",
+            "c0598",
+            "c0594"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_616bb105bec7",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1249",
+            "c0475"
+          ],
+          "retrieved_paper_ids": [
+            "c0679",
+            "c0345",
+            "c0475",
+            "c1249",
+            "c0858"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_559a61124911",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0902"
+          ],
+          "retrieved_paper_ids": [
+            "c0916",
+            "c0902",
+            "c0922",
+            "c0918",
+            "c0894"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_301b27b2082d",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c1219",
+            "c1250"
+          ],
+          "retrieved_paper_ids": [
+            "c1219",
+            "c0613",
+            "c1250",
+            "c1218",
+            "c1221"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_c4529d10d72f",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0894",
+            "c0895"
+          ],
+          "retrieved_paper_ids": [
+            "c0907",
+            "c0894",
+            "c0904",
+            "c0895",
+            "c0902"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_3189199cb584",
+          "qtype": "Complex Reasoning",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c0018",
+            "c0015"
+          ],
+          "retrieved_paper_ids": [
+            "c0015",
+            "c0018",
+            "c0154",
+            "c0016",
+            "c0020"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "grb_56b5c3716988",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1144"
+          ],
+          "retrieved_paper_ids": [
+            "c1144",
+            "c1152",
+            "c0475",
+            "c1143",
+            "c0389"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_f9b90983eeb4",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c1297"
+          ],
+          "retrieved_paper_ids": [
+            "c1297",
+            "c1299",
+            "c0865",
+            "c0455",
+            "c0142"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_27aa674ac61d",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0190"
+          ],
+          "retrieved_paper_ids": [
+            "c0190",
+            "c1346",
+            "c0185",
+            "c0186",
+            "c1159"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_2c37936efc75",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0466"
+          ],
+          "retrieved_paper_ids": [
+            "c0466",
+            "c0461",
+            "c0525",
+            "c0614",
+            "c0457"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        },
+        {
+          "qa_id": "grb_2d0ce44da161",
+          "qtype": "Fact Retrieval",
+          "domain": "unknown",
+          "hop_count": 1,
+          "multihop": false,
+          "gold_paper_ids": [
+            "c0796"
+          ],
+          "retrieved_paper_ids": [
+            "c0796",
+            "c1218",
+            "c0888",
+            "c1217",
+            "c0858"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 1.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": null
+          }
+        }
+      ]
+    }
+  }
+}

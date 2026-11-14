@@ -1,0 +1,212 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q25",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.405,
+      "bm25": 0.365,
+      "delta": 0.04
+    },
+    "openie": {
+      "graph": 0.375,
+      "bm25": 0.365,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.535,
+      "bm25": 0.365,
+      "delta": 0.17
+    },
+    "delta_graph_vs_openie": 0.03,
+    "delta_graph_vs_silver": -0.13,
+    "swap_gap_closed_fraction": 0.1875,
+    "mean_paired_diff": 0.03,
+    "ci95": [
+      -0.02,
+      0.08
+    ],
+    "discordant_pos": 16,
+    "discordant_neg": 10,
+    "sign_test_p": 0.32693958282470703,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.25
+  },
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q50",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.42,
+      "bm25": 0.365,
+      "delta": 0.055
+    },
+    "openie": {
+      "graph": 0.375,
+      "bm25": 0.365,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.535,
+      "bm25": 0.365,
+      "delta": 0.17
+    },
+    "delta_graph_vs_openie": 0.045,
+    "delta_graph_vs_silver": -0.115,
+    "swap_gap_closed_fraction": 0.2812,
+    "mean_paired_diff": 0.045,
+    "ci95": [
+      -0.005,
+      0.095
+    ],
+    "discordant_pos": 18,
+    "discordant_neg": 9,
+    "sign_test_p": 0.12207812070846558,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.5
+  },
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q75",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.435,
+      "bm25": 0.365,
+      "delta": 0.07
+    },
+    "openie": {
+      "graph": 0.375,
+      "bm25": 0.365,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.535,
+      "bm25": 0.365,
+      "delta": 0.17
+    },
+    "delta_graph_vs_openie": 0.06,
+    "delta_graph_vs_silver": -0.1,
+    "swap_gap_closed_fraction": 0.375,
+    "mean_paired_diff": 0.06,
+    "ci95": [
+      0.005,
+      0.11
+    ],
+    "discordant_pos": 21,
+    "discordant_neg": 9,
+    "sign_test_p": 0.04277394525706768,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.75
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q25",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.35,
+      "bm25": 0.355,
+      "delta": -0.005
+    },
+    "openie": {
+      "graph": 0.365,
+      "bm25": 0.355,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.48,
+      "bm25": 0.355,
+      "delta": 0.125
+    },
+    "delta_graph_vs_openie": -0.015,
+    "delta_graph_vs_silver": -0.13,
+    "swap_gap_closed_fraction": -0.1304,
+    "mean_paired_diff": -0.015,
+    "ci95": [
+      -0.065,
+      0.035
+    ],
+    "discordant_pos": 11,
+    "discordant_neg": 14,
+    "sign_test_p": 0.6900379657745361,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.25
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q50",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.375,
+      "bm25": 0.355,
+      "delta": 0.02
+    },
+    "openie": {
+      "graph": 0.365,
+      "bm25": 0.355,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.48,
+      "bm25": 0.355,
+      "delta": 0.125
+    },
+    "delta_graph_vs_openie": 0.01,
+    "delta_graph_vs_silver": -0.105,
+    "swap_gap_closed_fraction": 0.087,
+    "mean_paired_diff": 0.01,
+    "ci95": [
+      -0.045,
+      0.065
+    ],
+    "discordant_pos": 16,
+    "discordant_neg": 14,
+    "sign_test_p": 0.855535551905632,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.5
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v3",
+    "condition": "Tq_kg_openie_svocab_q75",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.39,
+      "bm25": 0.355,
+      "delta": 0.035
+    },
+    "openie": {
+      "graph": 0.365,
+      "bm25": 0.355,
+      "delta": 0.01
+    },
+    "silver": {
+      "graph": 0.48,
+      "bm25": 0.355,
+      "delta": 0.125
+    },
+    "delta_graph_vs_openie": 0.025,
+    "delta_graph_vs_silver": -0.09,
+    "swap_gap_closed_fraction": 0.2174,
+    "mean_paired_diff": 0.025,
+    "ci95": [
+      -0.025,
+      0.08
+    ],
+    "discordant_pos": 17,
+    "discordant_neg": 12,
+    "sign_test_p": 0.45825831964612007,
+    "bm25_max_abs_dev": 0.0,
+    "q": 0.75
+  }
+]

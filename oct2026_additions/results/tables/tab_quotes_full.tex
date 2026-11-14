@@ -1,0 +1,67 @@
+% Verbatim construction quotes for all 29 axis-level census judgments.
+% Two table* floats (ACL two-column; longtable is not usable).
+% Rows ending in \tabularnewline because the narrow columns use \raggedright.
+
+\begin{table*}[p]\centering\footnotesize
+\setlength{\tabcolsep}{3pt}\tolerance=2000\emergencystretch=2pt
+\begin{tabular}{@{}p{0.125\textwidth}p{0.095\textwidth}cp{0.51\textwidth}p{0.13\textwidth}@{}}
+\toprule
+\raggedright Benchmark & Axis & $\Chat_a$ (bin) & Verbatim construction quote & \raggedright Source\tabularnewline
+\midrule
+\raggedright MuSiQue & passage & 0.00 (0) & ``We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets \ldots\ where instances are of the form $(q_i, p_i, a_i)$ referring to the question, the associated paragraph, and the answer, respectively.'' & \raggedright \citealp{trivedi2022musique}, \S5\tabularnewline
+ & answer & 0.00 (0) & ``$a_i$ is the answer to $q_i$, and thereby, $a_n$ is the answer to $Q$.'' ``We accept a head question if, on average, the predicted answers' word overlap \ldots\ with the answer label is $<0.5$.'' & \raggedright \citealp{trivedi2022musique}, \S4.1, \S5\tabularnewline
+\addlinespace[1.5pt]
+\raggedright HotpotQA & sentence & 0.00 (0) & ``\ldots\ we also ask the crowd workers to provide the supporting facts they use to answer the question, which we also provide as part of the dataset \ldots'' ``\ldots\ in this work, we focus on text-based question answering \ldots'' & \raggedright \citealp{yang2018hotpotqa}, \S1, \S2\tabularnewline
+ & answer & 0.00 (0) & ``\ldots\ crowd workers are shown multiple supporting context documents and asked explicitly to come up with questions requiring reasoning about all of the documents.'' ``\ldots\ check whether Turkers are providing answers that cover spans of entire tokens \ldots'' & \raggedright \citealp{yang2018hotpotqa}, \S1, App.~A.1\tabularnewline
+\addlinespace[1.5pt]
+\raggedright MultiHop-RAG & evidence & 0.00 (0) & ``For each article, we extract factual or opinion sentences using a trained language model. These factual sentences are later used as evidence for answering multi-hop queries.'' & \raggedright \citealp{tang2024multihoprag}, \S3.1\tabularnewline
+ & answer & 0.00 (0) & ``\ldots\ we employ GPT-4 to paraphrase the evidence, which we refer to as claims \ldots'' ``For each type of query, we feed the claim set to GPT-4 and prompt it with an instruction to generate a query with information from each claim.'' & \raggedright \citealp{tang2024multihoprag}, \S3.1\tabularnewline
+\addlinespace[1.5pt]
+\raggedright \textit{Ours, lower anchor} & passage & 0.00 (0) & ``You are given NO knowledge graph and must not invent facts.'' ``\,`evidence' is the exact passage substring that supports the answer.'' & \raggedright App.~\ref{app:prompts}\tabularnewline
+ & answer & 0.00 (0) & ``\ldots\ write a single QA item whose answer is derivable ONLY from the given passage text.'' ``\ldots\ the answer must be a short span quoted verbatim from the passage \ldots'' & \raggedright App.~\ref{app:prompts}\tabularnewline
+\addlinespace[1.5pt]
+\raggedright Natural Questions & answer & 0.00 (0) & ``\ldots\ the short answer is one or more entities that give a short answer to the question, or a boolean yes or no.'' ``\ldots\ annotators select the entity or set of entities within the long answer that answer the question.'' & \raggedright \citealp{kwiatkowski2019nq}, \S3, \S3.2\tabularnewline
+ & passage & 0.25 (1) & ``Annotators identify long answers by selecting the smallest HTML bounding box that contains all of the information required to answer the question.'' & \raggedright \citealp{kwiatkowski2019nq}, \S3.3\tabularnewline
+\addlinespace[1.5pt]
+\raggedright TriviaQA & answer & 0.00 (0) & ``TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents \ldots'' ``First we gathered question-answer pairs from 14 trivia and quiz-league websites.'' & \raggedright \citealp{joshi2017triviaqa}, Abstract, \S3\tabularnewline
+ & evidence & 0.75 (3) & ``\ldots\ based on the assumption that the presence of the answer string in an evidence document implies that the document does answer the question.'' ``\ldots\ we further filtered the evidence documents to exclude those missing the correct answer string \ldots'' & \raggedright \citealp{joshi2017triviaqa}, \S2, \S3\tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Verbatim construction quotes for every axis-level census judgment, part~1 of~2: the five benchmarks with $\Chat_{\kg}=0$ and our lower calibration anchor, in the order of Table~\ref{tab:census}. Each row is one gold-unit axis of one benchmark and gives the axis-level census value $\Chat_a$ with its bin under the rubric of Appendix~\ref{app:rubricfull}, a construction quote supporting that bin, and the quote's source. Quotes are verbatim from the benchmark's own paper or dataset documentation; \ldots\ marks omitted text, footnote markers are dropped, and sub- and superscripts are typeset as in the source. Section and appendix numbers refer to the cited paper, in its arXiv version where the bibliography lists one. The lower anchor is our own reference benchmark; its quotes are verbatim from its generator prompt (Appendix~\ref{app:prompts}), and its construction is described in Appendix~\ref{app:protocol}. Part~2 is Table~\ref{tab:quotesfull2}.}
+\label{tab:quotesfull1}
+\end{table*}
+
+\begin{table*}[p]\centering\footnotesize
+\setlength{\tabcolsep}{3pt}\tolerance=2000\emergencystretch=2pt
+\begin{tabular}{@{}p{0.125\textwidth}p{0.095\textwidth}cp{0.51\textwidth}p{0.13\textwidth}@{}}
+\toprule
+\raggedright Benchmark & Axis & $\Chat_a$ (bin) & Verbatim construction quote & \raggedright Source\tabularnewline
+\midrule
+\raggedright GRADE & passage & 0.25 (1) & ``\ldots\ we split each article into chunks with a total length of 128 to 256 tokens \ldots'' ``Retriever-side difficulty was defined based on the semantic distance between a question $q$ and its associated supporting chunks.'' & \raggedright \citealp{lee2025grade}, \S4.1, \S3.3\tabularnewline
+ & edge & 0.75 (3) & ``We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph \ldots'' ``\ldots\ all supporting facts are contained within the edge set $P$.'' ``\ldots\ we augmented the knowledge graph by adding mirrored inbound and outbound edges.'' & \raggedright \citealp{lee2025grade}, \S3.2, \S3.1\tabularnewline
+\addlinespace[1.5pt]
+\raggedright STaRK & textual & 0.25 (1) & ``\ldots\ we select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer. We extract textual properties \ldots\ from the textual information of the gold answer.'' & \raggedright \citealp{wu2024stark}, arXiv v1, \S3.3\tabularnewline
+ & answer-entity & 0.75 (3) & ``Initially, we sample a relation template \ldots\ and instantiate it into a relational requirement \ldots'' ``\ldots\ Only candidates that pass the verification across all models are included in the final ground truth answer set.'' & \raggedright \citealp{wu2024stark}, arXiv v1, \S3.3\tabularnewline
+\addlinespace[1.5pt]
+\raggedright GraphRAG-Bench & subgraph & 0.75 (3) & ``\ldots\ we first construct a knowledge graph from the corpus, then form logic chains using relevant triples from this graph.'' ``\ldots\ supported by advanced models combined with human checking for final confirmation.'' & \raggedright \citealp{graphragbench2025}, App.~A.3, C.5\tabularnewline
+ & answer & 0.75 (3) & ``\ldots\ uniquely supported by the input triplets.'' ``\ldots\ that require direct factual retrieval from the relations list.'' & \raggedright \citealp{graphragbench2025}, Figs.~8, 10\tabularnewline
+\addlinespace[1.5pt]
+\raggedright 2WikiMultiHop & sentence & 0.75 (3) & ``With relation $r_1$, we obtained the two values $o_1$ and $o_2$ from the two triples $(e_1, r_1, o_1)$ and $(e_2, r_1, o_2)$ \ldots'' ``SF is a set of sentence indices where the values $o_1$ and $o_2$ are extracted.'' & \raggedright \citealp{ho2020twowiki}, \S3.2\tabularnewline
+ & answer & 0.75 (3) & ``A question--answer pair is created by using the new triple $(e, r, e_2)$, its question is created from $(e, r)$ and its answer is $e_2$.'' ``$Q$ is obtained by replacing the two tokens \#name in the template by the two entity labels.'' & \raggedright \citealp{ho2020twowiki}, \S2.2, \S3.2\tabularnewline
+ & edge & 1.00 (4) & ``Evidence information in our dataset is a set of triples, where each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata \ldots'' & \raggedright \citealp{ho2020twowiki}, \S1\tabularnewline
+\addlinespace[1.5pt]
+\raggedright MetaQA & answer & 1.00 (4) & ``All questions in MetaQA are generated from the movie knowledge base in MovieQA.'' ``\ldots\ the algorithm is asked to output an entity in the knowledge graph which properly answers the question.'' & \raggedright \citealp{zhang2018metaqa}, dataset documentation; \S3.1\tabularnewline
+ & path & 1.00 (4) & ``The 2-hop and 3-hop datasets are generated from the same knowledge base \ldots'' ``For 2-hop questions, we design 21 question types in total: \textbullet\ Actor / Writer / Director to Movie to Actor / Writer / Director / Year / Language / Genre \ldots'' & \raggedright \citealp{zhang2018metaqa}, dataset documentation; arXiv App.~A\tabularnewline
+\addlinespace[1.5pt]
+\raggedright WebQSP & answer-entity & 1.00 (4) & ``\ldots\ provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase.'' ``\ldots\ re-annotated the \textsc{WebQuestions} dataset \ldots\ such that it contains both semantic parses and the derived answers.'' & \raggedright \citealp{yih2016webqsp}, \S1, \S2\tabularnewline
+ & path & 1.00 (4) & ``\ldots\ the core component is to represent the relation between the entity and the answer, referred as the inferential chain.'' ``\ldots\ requests the user to pick the Freebase predicate that represents the relationship between the answers and this topic entity.'' & \raggedright \citealp{yih2016webqsp}, \S2\tabularnewline
+\addlinespace[1.5pt]
+\raggedright \textit{Ours, upper anchor} & answer & 0.75 (3) & ``\ldots\ a template-built question set over that KG \ldots\ its answer text fills a template with the edge's relation phrase \ldots'' & \raggedright App.~\ref{app:protocol}\tabularnewline
+ & entity & 1.00 (4) & ``The anchor's gold entities \ldots\ are the endpoint identifiers \ldots\ of a KG edge, copied from the KG by code \ldots'' & \raggedright App.~\ref{app:protocol}\tabularnewline
+ & edge & 1.00 (4) & ``The anchor's gold entities, edge, and path are the endpoint identifiers and triple of a KG edge, copied from the KG by code \ldots'' & \raggedright App.~\ref{app:protocol}\tabularnewline
+ & path & 1.00 (4) & ``The anchor's gold entities, edge, and path are the endpoint identifiers and triple of a KG edge, copied from the KG by code \ldots'' & \raggedright App.~\ref{app:protocol}\tabularnewline
+\bottomrule
+\end{tabular}
+\caption{Verbatim construction quotes for every axis-level census judgment, part~2 of~2: the six KG-constructed benchmarks and our upper calibration anchor ($\Chat_{\kg}\geq0.75$). Each row is one gold-unit axis with its census value $\Chat_a$, its bin under the rubric of Appendix~\ref{app:rubricfull}, a verbatim quote supporting the bin (\ldots\ marks omissions), and the quote's source. STaRK quotes are from the paper's first arXiv version, which later versions reword. Upper-anchor quotes are from Appendix~\ref{app:protocol}. Part~1 is Table~\ref{tab:quotesfull1}.}
+\label{tab:quotesfull2}
+\end{table*}

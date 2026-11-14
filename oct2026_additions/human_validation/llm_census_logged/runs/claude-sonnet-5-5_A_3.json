@@ -1,0 +1,1186 @@
+{
+ "model": "claude-sonnet-5-5",
+ "condition": "A",
+ "run": 3,
+ "seed": 20260929213,
+ "complete": true,
+ "final": {
+  "MUSIQUE_PASSAGE": 0,
+  "MUSIQUE_ANSWER": 0,
+  "HOTPOT_SENTENCE": 0,
+  "HOTPOT_ANSWER": 0,
+  "MHRAG_EVIDENCE": 0,
+  "MHRAG_ANSWER": 0,
+  "OURSLOW_PASSAGE": 0,
+  "OURSLOW_ANSWER": 0,
+  "NQ_ANSWER": 0,
+  "NQ_PASSAGE": 0,
+  "GRADE_PASSAGE": 1,
+  "GRADE_EDGE": 3,
+  "STARK_TEXTUAL": 3,
+  "STARK_ANSWERENTITY": 3,
+  "TRIVIA_ANSWER": 0,
+  "TRIVIA_EVIDENCE": 3,
+  "GRB_SUBGRAPH": 3,
+  "GRB_ANSWER": 2,
+  "TWOWIKI_SENTENCE": 3,
+  "TWOWIKI_ANSWER": 4,
+  "TWOWIKI_EDGE": 4,
+  "METAQA_ANSWER": 4,
+  "METAQA_PATH": 4,
+  "WEBQSP_ANSWERENTITY": 4,
+  "WEBQSP_PATH": 4,
+  "OURSUP_ANSWER": 3,
+  "OURSUP_ENTITY": 4,
+  "OURSUP_EDGE": 4,
+  "OURSUP_PATH": 4
+ },
+ "base": {
+  "MUSIQUE_PASSAGE": 0,
+  "MUSIQUE_ANSWER": 0,
+  "HOTPOT_SENTENCE": 0,
+  "HOTPOT_ANSWER": 0,
+  "MHRAG_EVIDENCE": 0,
+  "MHRAG_ANSWER": 0,
+  "OURSLOW_PASSAGE": 0,
+  "OURSLOW_ANSWER": 0,
+  "NQ_ANSWER": 0,
+  "NQ_PASSAGE": 0,
+  "GRADE_PASSAGE": 1,
+  "GRADE_EDGE": 4,
+  "STARK_TEXTUAL": 3,
+  "STARK_ANSWERENTITY": 4,
+  "TRIVIA_ANSWER": 0,
+  "TRIVIA_EVIDENCE": 3,
+  "GRB_SUBGRAPH": 4,
+  "GRB_ANSWER": 3,
+  "TWOWIKI_SENTENCE": 3,
+  "TWOWIKI_ANSWER": 4,
+  "TWOWIKI_EDGE": 4,
+  "METAQA_ANSWER": 4,
+  "METAQA_PATH": 4,
+  "WEBQSP_ANSWERENTITY": 4,
+  "WEBQSP_PATH": 4,
+  "OURSUP_ANSWER": 3,
+  "OURSUP_ENTITY": 4,
+  "OURSUP_EDGE": 4,
+  "OURSUP_PATH": 4
+ },
+ "source": {
+  "MUSIQUE_PASSAGE": "T",
+  "MUSIQUE_ANSWER": "T",
+  "HOTPOT_SENTENCE": "T",
+  "HOTPOT_ANSWER": "T",
+  "MHRAG_EVIDENCE": "T",
+  "MHRAG_ANSWER": "T",
+  "OURSLOW_PASSAGE": "T",
+  "OURSLOW_ANSWER": "T",
+  "NQ_ANSWER": "T",
+  "NQ_PASSAGE": "T",
+  "GRADE_PASSAGE": "K",
+  "GRADE_EDGE": "K",
+  "STARK_TEXTUAL": "K",
+  "STARK_ANSWERENTITY": "K",
+  "TRIVIA_ANSWER": "T",
+  "TRIVIA_EVIDENCE": "A",
+  "GRB_SUBGRAPH": "K",
+  "GRB_ANSWER": "K",
+  "TWOWIKI_SENTENCE": "K",
+  "TWOWIKI_ANSWER": "K",
+  "TWOWIKI_EDGE": "K",
+  "METAQA_ANSWER": "K",
+  "METAQA_PATH": "K",
+  "WEBQSP_ANSWERENTITY": "K",
+  "WEBQSP_PATH": "K",
+  "OURSUP_ANSWER": "K",
+  "OURSUP_ENTITY": "K",
+  "OURSUP_EDGE": "K",
+  "OURSUP_PATH": "K"
+ },
+ "confidence": {
+  "MUSIQUE_PASSAGE": 3,
+  "MUSIQUE_ANSWER": 3,
+  "HOTPOT_SENTENCE": 3,
+  "HOTPOT_ANSWER": 3,
+  "MHRAG_EVIDENCE": 3,
+  "MHRAG_ANSWER": 3,
+  "OURSLOW_PASSAGE": 3,
+  "OURSLOW_ANSWER": 3,
+  "NQ_ANSWER": 3,
+  "NQ_PASSAGE": 3,
+  "GRADE_PASSAGE": 1,
+  "GRADE_EDGE": 3,
+  "STARK_TEXTUAL": 2,
+  "STARK_ANSWERENTITY": 2,
+  "TRIVIA_ANSWER": 3,
+  "TRIVIA_EVIDENCE": 2,
+  "GRB_SUBGRAPH": 2,
+  "GRB_ANSWER": 2,
+  "TWOWIKI_SENTENCE": 3,
+  "TWOWIKI_ANSWER": 3,
+  "TWOWIKI_EDGE": 3,
+  "METAQA_ANSWER": 3,
+  "METAQA_PATH": 3,
+  "WEBQSP_ANSWERENTITY": 3,
+  "WEBQSP_PATH": 2,
+  "OURSUP_ANSWER": 2,
+  "OURSUP_ENTITY": 3,
+  "OURSUP_EDGE": 3,
+  "OURSUP_PATH": 3
+ },
+ "partB": {
+  "B1-038": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-007": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B5-007": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-004": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-016": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-033": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-034": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-009": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-036": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-030": {
+   "Q1": 0,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-011": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-003": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-011": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-021": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B5-004": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-006": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-025": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-014": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-013": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-001": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-024": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-014": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-010": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-037": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-025": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-005": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B5-008": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-005": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-003": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-032": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-016": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": "Tucson is not the largest city in Arizona (Phoenix is); paragraph does not supply any step of the chain and does not contain the answer"
+  },
+  "B1-039": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-036": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-004": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-029": {
+   "Q1": 0,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-021": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-004": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B5-002": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-007": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-007": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B5-006": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-018": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-028": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-017": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-001": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-020": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-039": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": "Evidence sentence is a patient demographic statement unrelated to the SCC-subtype evidence relation; unit does not match structure."
+  },
+  "B1-013": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-015": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-026": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-010": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-008": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-019": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-018": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-013": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B5-005": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-005": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-012": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-006": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-015": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B5-010": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": "First triple's direction looks inverted: Jens Lien is a director, so 'directed_by' should link the film to him. 'Jonny Vang' looks like a film title. The answer is still the end of the path."
+  },
+  "B4-006": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-031": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-014": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-002": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-020": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-002": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-020": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-023": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-011": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-005": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-020": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-017": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-008": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-010": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-010": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-034": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-008": {
+   "Q1": 0,
+   "Q2": 1,
+   "flag": "Paragraph about Wisconsin politician Jerome Quinn is unrelated to KRSU/county-border question; it contains 'Green Bay' only incidentally (possible mismatched unit or gold answer)"
+  },
+  "B2-018": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-019": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-003": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-002": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-029": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-012": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": "Gold answer Presque Isle County (Michigan) is inconsistent with the unit, which places the prison in Georgia (most populous city Atlanta, Fulton County)."
+  },
+  "B1-024": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-035": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B5-009": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-022": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-017": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-008": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-017": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": "Evidence sentence mentions only chemotherapy; it omits gemtuzumab ozogamicin/targeted therapy that the gold answer and relation rely on"
+  },
+  "B3-003": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-037": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-018": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-027": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-023": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-001": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-014": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B5-001": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-032": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-015": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-007": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": "Sentence mentions only B lymphocytes; gold answer and relation say B or T, so the unit does not support the full answer"
+  },
+  "B4-009": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": "Paragraph is about Vivaldi's Orlando furioso RV 819; it does not mention Bajazet, Vivaldi's birthplace, or plague, so it does not look like a supporting step for this question."
+  },
+  "B5-003": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B3-009": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-016": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-019": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B4-011": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-038": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-030": {
+   "Q1": 1,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-022": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-009": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-033": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B4-013": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-002": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-012": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-028": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-031": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-016": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-015": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-026": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-001": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-004": {
+   "Q1": 1,
+   "Q2": 0,
+   "flag": "Sentence mentions melanoma risk only; the relation is about pancreatic cancer risk, so the sentence covers a different object."
+  },
+  "B1-027": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-012": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B1-040": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B2-040": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B2-035": {
+   "Q1": 0,
+   "Q2": 0,
+   "flag": ""
+  },
+  "B1-019": {
+   "Q1": 2,
+   "Q2": 1,
+   "flag": ""
+  },
+  "B3-006": {
+   "Q1": 2,
+   "Q2": 0,
+   "flag": ""
+  }
+ },
+ "qc": {
+  "n_requests": 167,
+  "quiz_correct_final": 6,
+  "attention": {
+   "CHECK_TEXT": 0,
+   "CHECK_KG": 4
+  },
+  "attention_pass": {
+   "CHECK_TEXT": true,
+   "CHECK_KG": true
+  },
+  "excluded_by_human_rules": false,
+  "complete": true,
+  "stop_reasons": {
+   "end_turn": 167
+  },
+  "models_returned": [
+   "claude-sonnet-5-5"
+  ],
+  "failed_parses": {},
+  "corrections_not_in_list": [],
+  "usage": {
+   "input": 70930,
+   "output": 47622,
+   "cache_read": 607302,
+   "cache_write": 0
+  },
+  "cost_usd": 0.7395404000000001
+ },
+ "partA_detail": {
+  "OURSUP_ENTITY": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "copied directly from the evaluation knowledge graph by code"
+  },
+  "MHRAG_EVIDENCE": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "extract factual or opinion sentences using a trained language model; No knowledge graph is used"
+  },
+  "OURSUP_PATH": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "copied from the evaluation knowledge graph"
+  },
+  "MUSIQUE_PASSAGE": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "the supporting paragraph for each hop is the annotated paragraph carried over from the source dataset. No knowledge graph is used"
+  },
+  "WEBQSP_ANSWERENTITY": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "gold answers are the Freebase entities returned by executing the parse"
+  },
+  "MHRAG_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "paraphrased from article sentences by GPT-4 ... No knowledge graph is used"
+  },
+  "HOTPOT_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "span written by the crowd worker over the Wikipedia paragraph text; no knowledge graph is involved"
+  },
+  "STARK_ANSWERENTITY": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "B3-2",
+   "corrections_in_list": true,
+   "key_phrase": "candidate nodes that satisfies the relational requirement; three Claude models verify, only candidates passing all are included (alt base 3)"
+  },
+  "GRADE_EDGE": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 3,
+   "confidence": 3,
+   "corrections": "B3-1",
+   "corrections_in_list": true,
+   "key_phrase": "shortest directed acyclic paths ... within the knowledge graph; semantic-clustering augmentation adds links beyond the original graph"
+  },
+  "METAQA_PATH": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "generated from the same knowledge base by relation-chain traversal"
+  },
+  "OURSLOW_PASSAGE": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "answer is derived ONLY from passage text; the KG is NEVER provided in the prompt"
+  },
+  "TWOWIKI_EDGE": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata"
+  },
+  "TWOWIKI_SENTENCE": {
+   "ok": true,
+   "source": "K",
+   "base": 3,
+   "final": 3,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "heuristic that checks whether the Wikidata object value appears in the Wikipedia article"
+  },
+  "OURSUP_EDGE": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "written directly from the knowledge-graph triple"
+  },
+  "GRADE_PASSAGE": {
+   "ok": true,
+   "source": "K",
+   "base": 1,
+   "final": 1,
+   "confidence": 1,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "selected by guidance from the question's path and answer, while the chunk text itself is source text; alt 3"
+  },
+  "CHECK_KG": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "exported unchanged from the evaluation knowledge graph by a script; no human or model edits or filters"
+  },
+  "GRB_SUBGRAPH": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "B3-2",
+   "corrections_in_list": true,
+   "key_phrase": "isolating evidence into localized subgraphs ... combined with human checking for final confirmation; alt base 3"
+  },
+  "TWOWIKI_ANSWER": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "the answer is the object entity of the Wikidata logical rule"
+  },
+  "TRIVIA_EVIDENCE": {
+   "ok": true,
+   "source": "A",
+   "base": 3,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "gathered after the fact and retained ... when they contain the answer string; alt 4"
+  },
+  "OURSUP_ANSWER": {
+   "ok": true,
+   "source": "K",
+   "base": 3,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "fills a template with the KG edge's relation_type and context; alt 4"
+  },
+  "GRB_ANSWER": {
+   "ok": true,
+   "source": "K",
+   "base": 3,
+   "final": 2,
+   "confidence": 2,
+   "corrections": "B3-2",
+   "corrections_in_list": true,
+   "key_phrase": "answer is anchored to the mined subgraph with its surface present in text, and human checking is applied"
+  },
+  "WEBQSP_PATH": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 2,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "gold semantic parse encodes this chain with Freebase identifiers; alt 3"
+  },
+  "TRIVIA_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "authored independently by trivia enthusiasts, before and independently of evidence gathering"
+  },
+  "MUSIQUE_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "human-annotated answer of the composed question's final hop, inherited from the source single-hop datasets; No knowledge graph is used"
+  },
+  "CHECK_TEXT": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "highlight the sentence that answers it. No knowledge graph is used, and nothing is selected by matching the answer string"
+  },
+  "NQ_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "selected by a human annotator as a span on the Wikipedia page"
+  },
+  "OURSLOW_ANSWER": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "the knowledge graph is never provided in the prompt; answer must be a short span quoted verbatim from the passage"
+  },
+  "STARK_TEXTUAL": {
+   "ok": true,
+   "source": "K",
+   "base": 3,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "textual properties extracted from the gold node's free text; fused into the query by a language model (alt 0)"
+  },
+  "NQ_PASSAGE": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "Annotators identify long answers by selecting the smallest HTML bounding box"
+  },
+  "HOTPOT_SENTENCE": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "ask the crowd workers to provide the supporting facts they use to answer"
+  },
+  "METAQA_ANSWER": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "the answer is the tail entity reached by traversing the knowledge-graph reasoning path"
+  }
+ },
+ "quiz_detail": {
+  "Q4": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 3,
+   "confidence": 3,
+   "corrections": "B3-1",
+   "corrections_in_list": true,
+   "key_phrase": "sampled from the knowledge graph after links discovered by embedding-based clustering (not present in the original graph) have been added"
+  },
+  "Q6": {
+   "ok": true,
+   "source": "K",
+   "base": 1,
+   "final": 1,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "shortlist of five passages that a knowledge-graph entity linker proposed; the final choice ... made by the annotator from the text"
+  },
+  "Q2": {
+   "ok": true,
+   "source": "K",
+   "base": 3,
+   "final": 3,
+   "confidence": 2,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "contains the object value of the question's knowledge-graph triple (located in text by matching a KG value); alt A/4"
+  },
+  "Q1": {
+   "ok": true,
+   "source": "K",
+   "base": 4,
+   "final": 4,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "gold answers are the entities returned by executing those logical forms against the evaluation knowledge base"
+  },
+  "Q5": {
+   "ok": true,
+   "source": "T",
+   "base": 0,
+   "final": 0,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "No knowledge graph is involved; each gold answer is a span of its source paragraph"
+  },
+  "Q3": {
+   "ok": true,
+   "source": "A",
+   "base": 3,
+   "final": 3,
+   "confidence": 3,
+   "corrections": "none",
+   "corrections_in_list": true,
+   "key_phrase": "retrieved with a search engine using the question text; kept as gold evidence if it contains the answer string"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "n_nodes": 7130,
+  "n_edges": 5670,
+  "n_synonym_edges": 2350,
+  "n_relation_edges": 3320,
+  "n_passages": 1250,
+  "n_passages_processed": 1250,
+  "n_parse_fail": 1,
+  "parse_fail_rate": 0.0008,
+  "nodes_with_source_docs": 7130,
+  "model": "llama3.1:8b",
+  "synonyms": "surface",
+  "wall_clock_seconds": 1792.01,
+  "kg_option": "B_openie_realistic"
+}

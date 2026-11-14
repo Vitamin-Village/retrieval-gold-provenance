@@ -1,0 +1,9 @@
+{
+ "variant": "silver_dilute_g31",
+ "target_gold_frac": 0.31,
+ "n_nongold_added": 761,
+ "seed": 20260920,
+ "linked": 1103,
+ "linked_gold": 342,
+ "gold_frac": 0.31
+}

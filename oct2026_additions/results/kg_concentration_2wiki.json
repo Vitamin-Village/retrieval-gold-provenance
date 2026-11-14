@@ -1,0 +1,550 @@
+{
+ "rows": [
+  {
+   "split": "sub200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.53,
+   "bm25": 0.365,
+   "silver_hit5": 0.535,
+   "openie_hit5": 0.375,
+   "diff_vs_openie": 0.155,
+   "ci95": [
+    0.095,
+    0.215
+   ],
+   "pos": 36,
+   "neg": 5,
+   "p": 7.84157236921601e-07
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.53,
+   "bm25": 0.365,
+   "silver_hit5": 0.535,
+   "openie_hit5": 0.375,
+   "diff_vs_openie": 0.155,
+   "ci95": [
+    0.1,
+    0.215
+   ],
+   "pos": 36,
+   "neg": 5,
+   "p": 7.84157236921601e-07
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.505,
+   "bm25": 0.365,
+   "silver_hit5": 0.535,
+   "openie_hit5": 0.375,
+   "diff_vs_openie": 0.13,
+   "ci95": [
+    0.075,
+    0.19
+   ],
+   "pos": 32,
+   "neg": 6,
+   "p": 2.4342560209333897e-05
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v3",
+   "variant": "openie_goldonly",
+   "linked": 384,
+   "linked_gold": 384,
+   "gold_frac": 1.0,
+   "hit5": 0.485,
+   "bm25": 0.365,
+   "silver_hit5": 0.535,
+   "openie_hit5": 0.375,
+   "diff_vs_openie": 0.11,
+   "ci95": [
+    0.07,
+    0.155
+   ],
+   "pos": 22,
+   "neg": 0,
+   "p": 4.76837158203125e-07
+  },
+  {
+   "split": "sub200",
+   "system": "ppr",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.725,
+   "bm25": 0.365,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.425,
+   "diff_vs_openie": 0.3,
+   "ci95": [
+    0.22,
+    0.38
+   ],
+   "pos": 74,
+   "neg": 14,
+   "p": 5.0891941127085865e-11
+  },
+  {
+   "split": "sub200",
+   "system": "ppr",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.67,
+   "bm25": 0.365,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.425,
+   "diff_vs_openie": 0.245,
+   "ci95": [
+    0.16,
+    0.33
+   ],
+   "pos": 69,
+   "neg": 20,
+   "p": 1.7769640600713887e-07
+  },
+  {
+   "split": "sub200",
+   "system": "ppr",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.395,
+   "bm25": 0.365,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.425,
+   "diff_vs_openie": -0.03,
+   "ci95": [
+    -0.12,
+    0.06
+   ],
+   "pos": 40,
+   "neg": 46,
+   "p": 0.5900356111485574
+  },
+  {
+   "split": "sub200",
+   "system": "ppr",
+   "variant": "openie_goldonly",
+   "linked": 384,
+   "linked_gold": 384,
+   "gold_frac": 1.0,
+   "hit5": 0.64,
+   "bm25": 0.365,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.425,
+   "diff_vs_openie": 0.215,
+   "ci95": [
+    0.16,
+    0.275
+   ],
+   "pos": 43,
+   "neg": 0,
+   "p": 2.2737367544323206e-13
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.75,
+   "bm25": 0.365,
+   "silver_hit5": 0.75,
+   "openie_hit5": 0.395,
+   "diff_vs_openie": 0.355,
+   "ci95": [
+    0.285,
+    0.425
+   ],
+   "pos": 75,
+   "neg": 4,
+   "p": 5.2434681244715905e-18
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.735,
+   "bm25": 0.365,
+   "silver_hit5": 0.75,
+   "openie_hit5": 0.395,
+   "diff_vs_openie": 0.34,
+   "ci95": [
+    0.27,
+    0.41
+   ],
+   "pos": 72,
+   "neg": 4,
+   "p": 3.589836803538052e-17
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.725,
+   "bm25": 0.365,
+   "silver_hit5": 0.75,
+   "openie_hit5": 0.395,
+   "diff_vs_openie": 0.33,
+   "ci95": [
+    0.26,
+    0.4
+   ],
+   "pos": 71,
+   "neg": 5,
+   "p": 5.249233110119942e-16
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "openie_goldonly",
+   "linked": 384,
+   "linked_gold": 384,
+   "gold_frac": 1.0,
+   "hit5": 0.695,
+   "bm25": 0.365,
+   "silver_hit5": 0.75,
+   "openie_hit5": 0.395,
+   "diff_vs_openie": 0.3,
+   "ci95": [
+    0.24,
+    0.365
+   ],
+   "pos": 60,
+   "neg": 0,
+   "p": 1.734723475976807e-18
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.48,
+   "bm25": 0.355,
+   "silver_hit5": 0.48,
+   "openie_hit5": 0.365,
+   "diff_vs_openie": 0.115,
+   "ci95": [
+    0.055,
+    0.175
+   ],
+   "pos": 33,
+   "neg": 10,
+   "p": 0.0006061066312668117
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.49,
+   "bm25": 0.355,
+   "silver_hit5": 0.48,
+   "openie_hit5": 0.365,
+   "diff_vs_openie": 0.125,
+   "ci95": [
+    0.06,
+    0.19
+   ],
+   "pos": 35,
+   "neg": 10,
+   "p": 0.00024708778460080794
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v3",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.475,
+   "bm25": 0.355,
+   "silver_hit5": 0.48,
+   "openie_hit5": 0.365,
+   "diff_vs_openie": 0.11,
+   "ci95": [
+    0.05,
+    0.17
+   ],
+   "pos": 31,
+   "neg": 9,
+   "p": 0.0006795482549932785
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v3",
+   "variant": "openie_goldonly",
+   "linked": 382,
+   "linked_gold": 382,
+   "gold_frac": 1.0,
+   "hit5": 0.485,
+   "bm25": 0.355,
+   "silver_hit5": 0.48,
+   "openie_hit5": 0.365,
+   "diff_vs_openie": 0.12,
+   "ci95": [
+    0.08,
+    0.165
+   ],
+   "pos": 24,
+   "neg": 0,
+   "p": 1.1920928955078125e-07
+  },
+  {
+   "split": "holdout200",
+   "system": "ppr",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.73,
+   "bm25": 0.355,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.43,
+   "diff_vs_openie": 0.3,
+   "ci95": [
+    0.22,
+    0.38
+   ],
+   "pos": 72,
+   "neg": 12,
+   "p": 1.3932285101509037e-11
+  },
+  {
+   "split": "holdout200",
+   "system": "ppr",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.66,
+   "bm25": 0.355,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.43,
+   "diff_vs_openie": 0.23,
+   "ci95": [
+    0.15,
+    0.315
+   ],
+   "pos": 64,
+   "neg": 18,
+   "p": 3.3155201688474993e-07
+  },
+  {
+   "split": "holdout200",
+   "system": "ppr",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.41,
+   "bm25": 0.355,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.43,
+   "diff_vs_openie": -0.02,
+   "ci95": [
+    -0.11,
+    0.07
+   ],
+   "pos": 41,
+   "neg": 45,
+   "p": 0.7465343822890573
+  },
+  {
+   "split": "holdout200",
+   "system": "ppr",
+   "variant": "openie_goldonly",
+   "linked": 382,
+   "linked_gold": 382,
+   "gold_frac": 1.0,
+   "hit5": 0.665,
+   "bm25": 0.355,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.43,
+   "diff_vs_openie": 0.235,
+   "ci95": [
+    0.18,
+    0.295
+   ],
+   "pos": 47,
+   "neg": 0,
+   "p": 1.4210854715202004e-14
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g75",
+   "linked": 456,
+   "linked_gold": 342,
+   "gold_frac": 0.75,
+   "hit5": 0.71,
+   "bm25": 0.355,
+   "silver_hit5": 0.705,
+   "openie_hit5": 0.37,
+   "diff_vs_openie": 0.34,
+   "ci95": [
+    0.275,
+    0.41
+   ],
+   "pos": 69,
+   "neg": 1,
+   "p": 1.2027867851011065e-19
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g50",
+   "linked": 684,
+   "linked_gold": 342,
+   "gold_frac": 0.5,
+   "hit5": 0.7,
+   "bm25": 0.355,
+   "silver_hit5": 0.705,
+   "openie_hit5": 0.37,
+   "diff_vs_openie": 0.33,
+   "ci95": [
+    0.26,
+    0.4
+   ],
+   "pos": 69,
+   "neg": 3,
+   "p": 2.6371947296289014e-17
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "silver_dilute_g31",
+   "linked": 1103,
+   "linked_gold": 342,
+   "gold_frac": 0.31,
+   "hit5": 0.68,
+   "bm25": 0.355,
+   "silver_hit5": 0.705,
+   "openie_hit5": 0.37,
+   "diff_vs_openie": 0.31,
+   "ci95": [
+    0.245,
+    0.375
+   ],
+   "pos": 64,
+   "neg": 2,
+   "p": 5.99563801384484e-17
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v5_graphcentric",
+   "variant": "openie_goldonly",
+   "linked": 382,
+   "linked_gold": 382,
+   "gold_frac": 1.0,
+   "hit5": 0.65,
+   "bm25": 0.355,
+   "silver_hit5": 0.705,
+   "openie_hit5": 0.37,
+   "diff_vs_openie": 0.28,
+   "ci95": [
+    0.22,
+    0.345
+   ],
+   "pos": 56,
+   "neg": 0,
+   "p": 2.7755575615628914e-17
+  }
+ ],
+ "stats": {
+  "sub200": {
+   "kg_silver": {
+    "linked": 342,
+    "linked_gold": 342,
+    "gold_frac": 1.0
+   },
+   "kg_openie": {
+    "linked": 1251,
+    "linked_gold": 384,
+    "gold_frac": 0.307
+   },
+   "silver_dilute_g75": {
+    "linked": 456,
+    "linked_gold": 342,
+    "gold_frac": 0.75
+   },
+   "silver_dilute_g50": {
+    "linked": 684,
+    "linked_gold": 342,
+    "gold_frac": 0.5
+   },
+   "silver_dilute_g31": {
+    "linked": 1103,
+    "linked_gold": 342,
+    "gold_frac": 0.31
+   },
+   "openie_goldonly": {
+    "linked": 384,
+    "linked_gold": 384,
+    "gold_frac": 1.0
+   }
+  },
+  "holdout200": {
+   "kg_silver": {
+    "linked": 342,
+    "linked_gold": 342,
+    "gold_frac": 1.0
+   },
+   "kg_openie": {
+    "linked": 1219,
+    "linked_gold": 382,
+    "gold_frac": 0.313
+   },
+   "silver_dilute_g75": {
+    "linked": 456,
+    "linked_gold": 342,
+    "gold_frac": 0.75
+   },
+   "silver_dilute_g50": {
+    "linked": 684,
+    "linked_gold": 342,
+    "gold_frac": 0.5
+   },
+   "silver_dilute_g31": {
+    "linked": 1103,
+    "linked_gold": 342,
+    "gold_frac": 0.31
+   },
+   "openie_goldonly": {
+    "linked": 382,
+    "linked_gold": 382,
+    "gold_frac": 1.0
+   }
+  }
+ }
+}

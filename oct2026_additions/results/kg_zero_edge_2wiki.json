@@ -1,0 +1,118 @@
+{
+ "rows": [
+  {
+   "split": "sub200",
+   "system": "proposed_v3",
+   "n_edges_removed": 391,
+   "n_nodes": 589,
+   "hit5_noedges": 0.505,
+   "bm25": 0.365,
+   "silver_hit5": 0.535,
+   "openie_hit5": 0.375,
+   "diff_vs_openie": 0.13,
+   "ci95": [
+    0.075,
+    0.19
+   ],
+   "pos": 32,
+   "neg": 6,
+   "p": 2.4342560209333897e-05,
+   "silver_minus_noedges": 0.03
+  },
+  {
+   "split": "sub200",
+   "system": "ppr",
+   "n_edges_removed": 391,
+   "n_nodes": 589,
+   "hit5_noedges": 0.025,
+   "bm25": 0.365,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.425,
+   "diff_vs_openie": -0.4,
+   "ci95": [
+    -0.475,
+    -0.325
+   ],
+   "pos": 3,
+   "neg": 83,
+   "p": 2.7421554294015713e-21,
+   "silver_minus_noedges": 0.715
+  },
+  {
+   "split": "sub200",
+   "system": "proposed_v5_graphcentric",
+   "n_edges_removed": 391,
+   "n_nodes": 589,
+   "hit5_noedges": 0.39,
+   "bm25": 0.365,
+   "silver_hit5": 0.75,
+   "openie_hit5": 0.395,
+   "diff_vs_openie": -0.005,
+   "ci95": [
+    -0.055,
+    0.045
+   ],
+   "pos": 13,
+   "neg": 14,
+   "p": 1.0,
+   "silver_minus_noedges": 0.36
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v3",
+   "n_edges_removed": 392,
+   "n_nodes": 593,
+   "hit5_noedges": 0.44,
+   "bm25": 0.355,
+   "silver_hit5": 0.48,
+   "openie_hit5": 0.365,
+   "diff_vs_openie": 0.075,
+   "ci95": [
+    0.015,
+    0.135
+   ],
+   "pos": 27,
+   "neg": 12,
+   "p": 0.023702702470473014,
+   "silver_minus_noedges": 0.04
+  },
+  {
+   "split": "holdout200",
+   "system": "ppr",
+   "n_edges_removed": 392,
+   "n_nodes": 593,
+   "hit5_noedges": 0.015,
+   "bm25": 0.355,
+   "silver_hit5": 0.74,
+   "openie_hit5": 0.43,
+   "diff_vs_openie": -0.415,
+   "ci95": [
+    -0.485,
+    -0.345
+   ],
+   "pos": 2,
+   "neg": 85,
+   "p": 4.948866508539911e-23,
+   "silver_minus_noedges": 0.725
+  },
+  {
+   "split": "holdout200",
+   "system": "proposed_v5_graphcentric",
+   "n_edges_removed": 392,
+   "n_nodes": 593,
+   "hit5_noedges": 0.375,
+   "bm25": 0.355,
+   "silver_hit5": 0.705,
+   "openie_hit5": 0.37,
+   "diff_vs_openie": 0.005,
+   "ci95": [
+    -0.04,
+    0.045
+   ],
+   "pos": 10,
+   "neg": 9,
+   "p": 1.0,
+   "silver_minus_noedges": 0.33
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "split": "sub200",
+    "n_silver_nodes": 589,
+    "n_openie_nodes": 9949,
+    "n_questions": 200,
+    "node_level": {
+      "omega_surface": 0.7301,
+      "omega_map": 0.3345,
+      "omega_map_given_surface": 0.4581,
+      "n_surface_matched": 430,
+      "n_map_inherited": 197
+    },
+    "question_level": {
+      "surface": {
+        "mean_gold_title_coverage": 0.56,
+        "frac_questions_fully_covered": 0.34
+      },
+      "mapping": {
+        "mean_gold_title_coverage": 0.37,
+        "frac_questions_fully_covered": 0.175
+      }
+    },
+    "reproduction_check": {
+      "target_mean": 0.56,
+      "target_fully": 0.34,
+      "got_mean": 0.56,
+      "got_fully": 0.34,
+      "passed": true
+    }
+  },
+  {
+    "split": "holdout200",
+    "n_silver_nodes": 593,
+    "n_openie_nodes": 9629,
+    "n_questions": 200,
+    "node_level": {
+      "omega_surface": 0.8094,
+      "omega_map": 0.344,
+      "omega_map_given_surface": 0.425,
+      "n_surface_matched": 480,
+      "n_map_inherited": 204
+    },
+    "question_level": {
+      "surface": {
+        "mean_gold_title_coverage": 0.6125,
+        "frac_questions_fully_covered": 0.395
+      },
+      "mapping": {
+        "mean_gold_title_coverage": 0.3875,
+        "frac_questions_fully_covered": 0.215
+      }
+    },
+    "reproduction_check": {
+      "target_mean": 0.6125,
+      "target_fully": 0.395,
+      "got_mean": 0.6125,
+      "got_fully": 0.395,
+      "passed": true
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v5_graphcentric",
+    "n": 200,
+    "silver": {
+      "graph": 0.75,
+      "bm25": 0.365,
+      "delta": 0.385
+    },
+    "openie": {
+      "graph": 0.395,
+      "bm25": 0.365,
+      "delta": 0.03
+    },
+    "swap_delta": 0.355,
+    "mean_paired_diff": 0.355,
+    "ci95": [
+      0.285,
+      0.43
+    ],
+    "discordant_pos": 75,
+    "discordant_neg": 4,
+    "sign_test_p": 5.2434681244715905e-18
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v5_graphcentric",
+    "n": 200,
+    "silver": {
+      "graph": 0.705,
+      "bm25": 0.355,
+      "delta": 0.35
+    },
+    "openie": {
+      "graph": 0.37,
+      "bm25": 0.355,
+      "delta": 0.015
+    },
+    "swap_delta": 0.335,
+    "mean_paired_diff": 0.335,
+    "ci95": [
+      0.27,
+      0.405
+    ],
+    "discordant_pos": 68,
+    "discordant_neg": 1,
+    "sign_test_p": 2.371692252312041e-19
+  }
+]

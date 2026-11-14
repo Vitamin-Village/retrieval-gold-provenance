@@ -1,0 +1,30 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 589,
+      "mean_gold_title_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 9949,
+      "mean_gold_title_coverage": 0.56,
+      "frac_questions_fully_covered": 0.34
+    }
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 593,
+      "mean_gold_title_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 9629,
+      "mean_gold_title_coverage": 0.6125,
+      "frac_questions_fully_covered": 0.395
+    }
+  }
+]

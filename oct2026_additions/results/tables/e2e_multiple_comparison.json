@@ -1,0 +1,25 @@
+{
+ "holm_sig": [
+  "2wiki|sub200|ppr|llama3_1_8b",
+  "2wiki|sub200|ppr|qwen2_5_14b",
+  "2wiki|holdout200|ppr|qwen2_5_14b",
+  "2wiki|holdout200|ppr|llama3_1_8b",
+  "graphragbench|sub200|ppr|qwen2_5_14b",
+  "2wiki|holdout200|graph_centric|qwen2_5_14b",
+  "2wiki|sub200|graph_centric|qwen2_5_14b",
+  "2wiki|sub200|graph_centric|llama3_1_8b",
+  "graphragbench|sub200|ppr|llama3_1_8b"
+ ],
+ "bh_sig": [
+  "2wiki|holdout200|graph_centric|llama3_1_8b",
+  "graphragbench|sub200|ppr|llama3_1_8b",
+  "2wiki|sub200|graph_centric|llama3_1_8b",
+  "2wiki|sub200|graph_centric|qwen2_5_14b",
+  "2wiki|holdout200|graph_centric|qwen2_5_14b",
+  "graphragbench|sub200|ppr|qwen2_5_14b",
+  "2wiki|holdout200|ppr|llama3_1_8b",
+  "2wiki|holdout200|ppr|qwen2_5_14b",
+  "2wiki|sub200|ppr|qwen2_5_14b",
+  "2wiki|sub200|ppr|llama3_1_8b"
+ ]
+}

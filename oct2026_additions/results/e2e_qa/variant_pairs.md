@@ -1,0 +1,26 @@
+| reader | bench | split | comparison | system | n | EM a | EM b | Δ [95% CI] | +/- | p | hit@5 Δ |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| llama3_1_8b | 2wiki | sub200 | live Wikidata vs OpenIE | audited | 200 | 0.155 | 0.130 | +0.025 [-0.020, +0.075] | 14/9 | 0.4 | -0.045 |
+| llama3_1_8b | 2wiki | holdout200 | live Wikidata vs OpenIE | audited | 200 | 0.180 | 0.155 | +0.025 [-0.020, +0.070] | 13/8 | 0.38 | +0.015 |
+| llama3_1_8b | 2wiki | sub200 | live Wikidata vs OpenIE | ppr | 200 | 0.180 | 0.145 | +0.035 [-0.030, +0.100] | 26/19 | 0.37 | +0.075 |
+| llama3_1_8b | 2wiki | holdout200 | live Wikidata vs OpenIE | ppr | 200 | 0.255 | 0.230 | +0.025 [-0.045, +0.095] | 29/24 | 0.58 | +0.105 |
+| llama3_1_8b | 2wiki | sub200 | live Wikidata vs OpenIE | graph_centric | 200 | 0.150 | 0.100 | +0.050 [-0.005, +0.105] | 21/11 | 0.11 | -0.015 |
+| llama3_1_8b | 2wiki | holdout200 | live Wikidata vs OpenIE | graph_centric | 200 | 0.155 | 0.165 | -0.010 [-0.060, +0.040] | 13/15 | 0.85 | +0.020 |
+| llama3_1_8b | metaqa | sub200 | full KB vs OpenIE | audited | 200 | 0.460 | 0.500 | -0.040 [-0.085, +0.000] | 6/14 | 0.12 | -0.080 |
+| llama3_1_8b | metaqa | holdout200 | full KB vs OpenIE | audited | 200 | 0.480 | 0.450 | +0.030 [-0.015, +0.075] | 14/8 | 0.29 | -0.070 |
+| llama3_1_8b | metaqa | sub200 | full KB vs OpenIE | ppr | 200 | 0.470 | 0.455 | +0.015 [-0.035, +0.065] | 14/11 | 0.69 | +0.060 |
+| llama3_1_8b | metaqa | holdout200 | full KB vs OpenIE | ppr | 200 | 0.455 | 0.485 | -0.030 [-0.080, +0.020] | 11/17 | 0.34 | +0.070 |
+| llama3_1_8b | metaqa | sub200 | full KB vs OpenIE | graph_centric | 200 | 0.470 | 0.445 | +0.025 [-0.025, +0.075] | 16/11 | 0.44 | -0.020 |
+| llama3_1_8b | metaqa | holdout200 | full KB vs OpenIE | graph_centric | 200 | 0.455 | 0.425 | +0.030 [-0.020, +0.080] | 17/11 | 0.34 | -0.015 |
+| qwen2_5_14b | 2wiki | sub200 | live Wikidata vs OpenIE | audited | 200 | 0.195 | 0.220 | -0.025 [-0.075, +0.025] | 11/16 | 0.44 | -0.045 |
+| qwen2_5_14b | 2wiki | holdout200 | live Wikidata vs OpenIE | audited | 200 | 0.210 | 0.220 | -0.010 [-0.065, +0.045] | 14/16 | 0.86 | +0.015 |
+| qwen2_5_14b | 2wiki | sub200 | live Wikidata vs OpenIE | ppr | 200 | 0.275 | 0.215 | +0.060 [-0.005, +0.125] | 30/18 | 0.11 | +0.075 |
+| qwen2_5_14b | 2wiki | holdout200 | live Wikidata vs OpenIE | ppr | 200 | 0.335 | 0.255 | +0.080 [+0.005, +0.155] | 39/23 | 0.056 | +0.105 |
+| qwen2_5_14b | 2wiki | sub200 | live Wikidata vs OpenIE | graph_centric | 200 | 0.205 | 0.200 | +0.005 [-0.055, +0.065] | 20/19 | 1 | -0.015 |
+| qwen2_5_14b | 2wiki | holdout200 | live Wikidata vs OpenIE | graph_centric | 200 | 0.225 | 0.230 | -0.005 [-0.060, +0.050] | 15/16 | 1 | +0.020 |
+| qwen2_5_14b | metaqa | sub200 | full KB vs OpenIE | audited | 200 | 0.365 | 0.350 | +0.015 [-0.030, +0.060] | 12/9 | 0.66 | -0.080 |
+| qwen2_5_14b | metaqa | holdout200 | full KB vs OpenIE | audited | 200 | 0.330 | 0.300 | +0.030 [-0.025, +0.085] | 18/12 | 0.36 | -0.070 |
+| qwen2_5_14b | metaqa | sub200 | full KB vs OpenIE | ppr | 200 | 0.315 | 0.340 | -0.025 [-0.070, +0.020] | 9/14 | 0.4 | +0.060 |
+| qwen2_5_14b | metaqa | holdout200 | full KB vs OpenIE | ppr | 200 | 0.295 | 0.295 | +0.000 [-0.045, +0.045] | 11/11 | 1 | +0.070 |
+| qwen2_5_14b | metaqa | sub200 | full KB vs OpenIE | graph_centric | 200 | 0.340 | 0.360 | -0.020 [-0.075, +0.035] | 13/17 | 0.58 | -0.020 |
+| qwen2_5_14b | metaqa | holdout200 | full KB vs OpenIE | graph_centric | 200 | 0.320 | 0.285 | +0.035 [-0.020, +0.090] | 19/12 | 0.28 | -0.015 |

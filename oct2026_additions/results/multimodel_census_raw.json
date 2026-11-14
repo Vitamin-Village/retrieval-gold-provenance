@@ -1,0 +1,133 @@
+{
+  "items": [
+    {
+      "name": "MuSiQue",
+      "ref": 0
+    },
+    {
+      "name": "HotpotQA",
+      "ref": 0
+    },
+    {
+      "name": "MultiHop-RAG",
+      "ref": 0
+    },
+    {
+      "name": "Natural Questions",
+      "ref": 1
+    },
+    {
+      "name": "GRADE",
+      "ref": 3
+    },
+    {
+      "name": "STaRK",
+      "ref": 3
+    },
+    {
+      "name": "TriviaQA",
+      "ref": 3
+    },
+    {
+      "name": "GraphRAG-Bench",
+      "ref": 3
+    },
+    {
+      "name": "2WikiMultiHop",
+      "ref": 4
+    },
+    {
+      "name": "MetaQA",
+      "ref": 4
+    },
+    {
+      "name": "WebQSP",
+      "ref": 4
+    },
+    {
+      "name": "Ours-upper-anchor",
+      "ref": 4
+    },
+    {
+      "name": "Ours-lower-anchor",
+      "ref": 0
+    }
+  ],
+  "raters": {
+    "claude:claude-opus-4-8": {
+      "MuSiQue": 0,
+      "HotpotQA": 0,
+      "MultiHop-RAG": 0,
+      "Natural Questions": 0,
+      "GRADE": 4,
+      "STaRK": 3,
+      "TriviaQA": 3,
+      "GraphRAG-Bench": 2,
+      "2WikiMultiHop": 4,
+      "MetaQA": 4,
+      "WebQSP": 4,
+      "Ours-upper-anchor": 4,
+      "Ours-lower-anchor": 0
+    },
+    "claude:claude-sonnet-4-5": {
+      "MuSiQue": 0,
+      "HotpotQA": 0,
+      "MultiHop-RAG": 0,
+      "Natural Questions": 1,
+      "GRADE": 4,
+      "STaRK": 3,
+      "TriviaQA": 3,
+      "GraphRAG-Bench": 2,
+      "2WikiMultiHop": 3,
+      "MetaQA": 3,
+      "WebQSP": 4,
+      "Ours-upper-anchor": 4,
+      "Ours-lower-anchor": 0
+    },
+    "qwen2.5:14b": {
+      "MuSiQue": 0,
+      "HotpotQA": 0,
+      "MultiHop-RAG": 0,
+      "Natural Questions": 1,
+      "GRADE": 3,
+      "STaRK": 2,
+      "TriviaQA": 3,
+      "GraphRAG-Bench": 1,
+      "2WikiMultiHop": 3,
+      "MetaQA": 4,
+      "WebQSP": 4,
+      "Ours-upper-anchor": 4,
+      "Ours-lower-anchor": 0
+    },
+    "llama3.1:8b": {
+      "MuSiQue": 2,
+      "HotpotQA": 2,
+      "MultiHop-RAG": 2,
+      "Natural Questions": 3,
+      "GRADE": 3,
+      "STaRK": 3,
+      "TriviaQA": 3,
+      "GraphRAG-Bench": 2,
+      "2WikiMultiHop": 3,
+      "MetaQA": 4,
+      "WebQSP": 3,
+      "Ours-upper-anchor": 4,
+      "Ours-lower-anchor": 2
+    },
+    "mistral-small:24b": {
+      "MuSiQue": 0,
+      "HotpotQA": 0,
+      "MultiHop-RAG": 0,
+      "Natural Questions": 1,
+      "GRADE": 3,
+      "STaRK": 3,
+      "TriviaQA": 3,
+      "GraphRAG-Bench": 2,
+      "2WikiMultiHop": 3,
+      "MetaQA": 3,
+      "WebQSP": 4,
+      "Ours-upper-anchor": 4,
+      "Ours-lower-anchor": 0
+    }
+  }
+}

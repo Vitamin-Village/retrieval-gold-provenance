@@ -1,0 +1,14 @@
+{
+ "n_candidates": 88,
+ "n_kept_both": 14,
+ "n_missing_second_verifier": 0,
+ "n_kappa_pairs": 88,
+ "verifier_cohen_kappa": 0.6377,
+ "verifiers": [
+  "gemini-2.5-flash",
+  "qwen2.5:14b"
+ ],
+ "n_after_leakage_gate": 13,
+ "n_frozen": 13,
+ "leakage_gate_report": "twohop_leakage_report.json"
+}

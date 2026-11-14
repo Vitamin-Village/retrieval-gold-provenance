@@ -1,0 +1,86 @@
+{
+  "dataset": "qa_independent_v1",
+  "frozen": true,
+  "iaa_limitation": "The frozen 112-item data card retains kappa=null because that full dataset was not independently double-annotated. The separately reported kappa=0.79 validates a 40-item blind cross-model spot-check of the verification protocol (35 non-abstain pairs), not human IAA.",
+  "kappa": {
+    "cohens_kappa": null,
+    "gate": 0.6,
+    "gate_passed": false,
+    "n_human_labels": 0,
+    "n_pairs_used": 0,
+    "note": "kappa is unmeasured: either no human labels were provided, or all surviving pairs fell in a single category (degenerate). Provide human labels covering at least 2 outcome categories to measure OpenAI-vs-human IAA. A fabricated kappa is NEVER written.",
+    "status": "kappa_unmeasured"
+  },
+  "known_issues": [
+    "Rows 97 and 98 (1-indexed) of qa_independent_v1.jsonl carry an identical question and answer string: the item was generated once as qtype=factual and once as qtype=paraphrase_alias, and the paraphrase variant retained the same surface form. The frozen set is released unchanged (n_total=112; 111 distinct question strings); per-question results in independent_eval_v1_frozen112.json cover both rows."
+  ],
+  "models": {
+    "generator": "mistral-small-24b (actual generator recorded on all frozen single-hop items)",
+    "rater": "frozen 112 not fully double-annotated; the blind second rater of the verification-protocol spot-check was Claude Haiku 4.5 (cross-model, not human)",
+    "verifier": "run-level verdict records gemini-2.5-flash; frozen row-level verifier=openai-gpt values were emitted by a legacy hard-coded writer and are not reliable provider provenance"
+  },
+  "n_total": 112,
+  "non_circularity_guarantee": "The gold labels are decided solely from raw corpus passage text and a cross-family non-extraction verifier panel. The proposed KG (its nodes, edges, and source_docs) is never imported or referenced anywhere in the gold-build pipeline (statically enforced by test_no_kg_imports), so the evaluation system cannot generate its own answers -- there is no circular code-dependency path from the KG to the gold.",
+  "per_domain_n": {
+    "construction": 30,
+    "semiconductor": 26,
+    "steel": 29,
+    "textile": 27
+  },
+  "power": {
+    "alpha": 0.05,
+    "effect_d": 0.3,
+    "per_domain_power": {
+      "construction": 0.3554627311655246,
+      "semiconductor": 0.31278161572292207,
+      "steel": 0.34489547794960396,
+      "textile": 0.3235509986219201
+    },
+    "pooled_n": 112,
+    "pooled_power": 0.8824555807898804,
+    "power_floor": 0.8
+  },
+  "power_gate_passed": true,
+  "qtype_by_domain": {
+    "construction": {
+      "comparison": 7,
+      "factual": 12,
+      "paraphrase_alias": 11
+    },
+    "semiconductor": {
+      "comparison": 10,
+      "factual": 9,
+      "paraphrase_alias": 7
+    },
+    "steel": {
+      "comparison": 7,
+      "factual": 12,
+      "paraphrase_alias": 10
+    },
+    "textile": {
+      "comparison": 11,
+      "factual": 8,
+      "paraphrase_alias": 8
+    }
+  },
+  "qtype_distribution": {
+    "comparison": 35,
+    "factual": 41,
+    "paraphrase_alias": 36
+  },
+  "release_scope": "Released: questions, answers, answer-paper identifiers, evidence spans, provenance/audit records, and the frozen per-question evaluation vectors. Source passage text is EXCLUDED because per-paper redistribution rights could not be verified; exact end-to-end retrieval reruns require lawfully re-acquiring the source documents (see DATA_LICENSES.md and README, 'Path layout').",
+  "verification_protocol_spotcheck": {
+    "artifact_dir": "benchmark/singlehop_verifier_spotcheck",
+    "blind_second_rater": "Claude Haiku 4.5 (Anthropic model; not human)",
+    "cohens_kappa": 0.7885196374622359,
+    "expected_agreement": 0.1893877551020408,
+    "generator": "mistral-small:24b (local Ollama)",
+    "n_exact_nonabstain": 29,
+    "n_pairs_used_nonabstain": 35,
+    "n_spotcheck": 40,
+    "observed_agreement_nonabstain": 0.8285714285714286,
+    "primary_verifier": "gemini-2.5-flash (Google), as recorded by the run-level verdict; raw provider responses are not available",
+    "scope": "40-item blind cross-model spot-check of the answer-paper verification protocol; not full double annotation of frozen 112"
+  },
+  "verifier_provenance_limitation": "The run-level verdict names Gemini 2.5 Flash, but every frozen row contains verifier=openai-gpt from a known hard-coded writer. Raw provider responses or receipts are not available, so the exact provider cannot be independently recovered. Frozen rows are left unchanged; see benchmark/SINGLEHOP_VERIFIER_PROVENANCE.md."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "n": 200,
+    "silver": {
+      "graph": 0.535,
+      "bm25": 0.365,
+      "delta": 0.17
+    },
+    "openie": {
+      "graph": 0.375,
+      "bm25": 0.365,
+      "delta": 0.01
+    },
+    "swap_delta": 0.16,
+    "matched_reachable": {
+      "n": 112,
+      "silver_graph": 0.9554,
+      "openie_graph": 0.6696
+    }
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "n": 200,
+    "silver": {
+      "graph": 0.48,
+      "bm25": 0.355,
+      "delta": 0.125
+    },
+    "openie": {
+      "graph": 0.365,
+      "bm25": 0.355,
+      "delta": 0.01
+    },
+    "swap_delta": 0.115,
+    "matched_reachable": {
+      "n": 106,
+      "silver_graph": 0.9057,
+      "openie_graph": 0.6887
+    }
+  }
+]

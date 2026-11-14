@@ -1,0 +1,14 @@
+{
+ "pool_unique_predictions": 4652,
+ "judge_correct_rate": 0.5111779879621668,
+ "reproduces_v1_sample_set": false,
+ "reproduces_v1_order": false,
+ "v1_sample_by_reader": {
+  "qwen2_5_14b": 80,
+  "llama3_1_8b": 20
+ },
+ "pool_by_reader": {
+  "llama3_1_8b": 2489,
+  "qwen2_5_14b": 2163
+ }
+}

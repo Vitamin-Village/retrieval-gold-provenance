@@ -1,0 +1,504 @@
+{
+  "report": {
+    "n_qa": 14,
+    "n_papers": 205,
+    "ngram": 3,
+    "n_flagged": 0,
+    "avg_worst_non_source_jaccard": 0.0005061353197529191,
+    "top5_worst_leaks": [
+      {
+        "qa_id": "qa00001",
+        "paper_id": "arxiv:2508.16397",
+        "jaccard": 0.0010621348911311736,
+        "rouge_l": 0.001986097318768619
+      },
+      {
+        "qa_id": "qa00011",
+        "paper_id": "arxiv:2101.00703",
+        "jaccard": 0.0006435006435006435,
+        "rouge_l": 0.0011961722488038275
+      },
+      {
+        "qa_id": "qa00012",
+        "paper_id": "arxiv:2309.09205",
+        "jaccard": 0.0004928536224741252,
+        "rouge_l": 0.0009310986964618251
+      },
+      {
+        "qa_id": "qa00003",
+        "paper_id": "arxiv:2510.25140",
+        "jaccard": 0.0004828585224529213,
+        "rouge_l": 0.0009124087591240877
+      },
+      {
+        "qa_id": "qa00000",
+        "paper_id": "arxiv:2603.09744",
+        "jaccard": 0.00047664442326024784,
+        "rouge_l": 0.0009025270758122743
+      }
+    ],
+    "per_qa": [
+      {
+        "qa_id": "qa00000",
+        "answer_sources": [
+          "arxiv:2605.21974",
+          "arxiv:2604.22891"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2603.09744",
+          "is_answer_source": false,
+          "jaccard": 0.00047664442326024784,
+          "rouge_l": 0.0009025270758122743,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0018115942028985507,
+          "rouge_l": 0.0034042553191489366,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.00047664442326024784,
+          "rouge_l": 0.0009025270758122743,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00001",
+        "answer_sources": [
+          "arxiv:2004.04822",
+          "arxiv:2406.14583"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2508.16397",
+          "is_answer_source": false,
+          "jaccard": 0.0010621348911311736,
+          "rouge_l": 0.001986097318768619,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.00043271311120726956,
+          "rouge_l": 0.0008003201280512204,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0010621348911311736,
+          "rouge_l": 0.001986097318768619,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00002",
+        "answer_sources": [
+          "arxiv:2509.00034",
+          "arxiv:2406.14583"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2307.03723",
+          "is_answer_source": false,
+          "jaccard": 0.0004411116012351125,
+          "rouge_l": 0.0008620689655172414,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0004580852038479157,
+          "rouge_l": 0.0008654262224145392,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004411116012351125,
+          "rouge_l": 0.0008620689655172414,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00003",
+        "answer_sources": [
+          "arxiv:2512.19723",
+          "arxiv:2505.11024"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2510.25140",
+          "is_answer_source": false,
+          "jaccard": 0.0004828585224529213,
+          "rouge_l": 0.0009124087591240877,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0009685230024213075,
+          "rouge_l": 0.001850994909763998,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004828585224529213,
+          "rouge_l": 0.0009124087591240877,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00004",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0013015184381778742,
+          "rouge_l": 0.0023640661938534274,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00005",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0013015184381778742,
+          "rouge_l": 0.0023640661938534274,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00006",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.0004314063848144953,
+          "rouge_l": 0.0008054772452678212,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.000869187309865276,
+          "rouge_l": 0.0015791551519936835,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004314063848144953,
+          "rouge_l": 0.0008054772452678212,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00007",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.00043122035360068997,
+          "rouge_l": 0.0008051529790660227,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0008688097306689834,
+          "rouge_l": 0.001578531965272297,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.00043122035360068997,
+          "rouge_l": 0.0008051529790660227,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00008",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.0004302925989672978,
+          "rouge_l": 0.0008035355564483728,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0013009540329575022,
+          "rouge_l": 0.0023631350925561244,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004302925989672978,
+          "rouge_l": 0.0008035355564483728,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00009",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0013015184381778742,
+          "rouge_l": 0.0023640661938534274,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.00043047783039173483,
+          "rouge_l": 0.0008038585209003215,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00010",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2502.01445",
+          "is_answer_source": false,
+          "jaccard": 0.0004314063848144953,
+          "rouge_l": 0.0008054772452678212,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.000869187309865276,
+          "rouge_l": 0.0015791551519936835,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004314063848144953,
+          "rouge_l": 0.0008054772452678212,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00011",
+        "answer_sources": [
+          "arxiv:2501.14190",
+          "arxiv:2412.03200"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2101.00703",
+          "is_answer_source": false,
+          "jaccard": 0.0006435006435006435,
+          "rouge_l": 0.0011961722488038275,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0009216589861751152,
+          "rouge_l": 0.0016757436112274822,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0006435006435006435,
+          "rouge_l": 0.0011961722488038275,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00012",
+        "answer_sources": [
+          "arxiv:2012.14794",
+          "arxiv:2005.09867"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2309.09205",
+          "is_answer_source": false,
+          "jaccard": 0.0004928536224741252,
+          "rouge_l": 0.0009310986964618251,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0010198878123406426,
+          "rouge_l": 0.001915708812260536,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004928536224741252,
+          "rouge_l": 0.0009310986964618251,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      },
+      {
+        "qa_id": "qa00013",
+        "answer_sources": [
+          "arxiv:1405.6177",
+          "arxiv:2204.09648"
+        ],
+        "n_papers": 205,
+        "worst_non_source_leak": {
+          "paper_id": "arxiv:2407.09359",
+          "is_answer_source": false,
+          "jaccard": 0.0004710315591144607,
+          "rouge_l": 0.0008357709987463437,
+          "tfidf_cosine": 0.0
+        },
+        "answer_metric_max": {
+          "jaccard": 0.0018475750577367205,
+          "rouge_l": 0.003505696757230499,
+          "tfidf_cosine": 0.0
+        },
+        "nonanswer_metric_max": {
+          "jaccard": 0.0004710315591144607,
+          "rouge_l": 0.0008357709987463437,
+          "tfidf_cosine": 0.0
+        },
+        "flagged": false
+      }
+    ]
+  },
+  "gate": {
+    "n_qa": 14,
+    "n_pass": 13,
+    "n_fail": 1,
+    "ngram": 3,
+    "rule": "DISCARD if, for any metric, max overlap with a NON-answer paper >= max overlap with an answer paper (relative gate), OR the answer surface form is embedded verbatim in the question.",
+    "per_qa": [
+      {
+        "qa_id": "qa00000",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00001",
+        "passed": false,
+        "reasons": [
+          "nonsource_ge_answer:jaccard",
+          "nonsource_ge_answer:rouge_l"
+        ]
+      },
+      {
+        "qa_id": "qa00002",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00003",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00004",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00005",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00006",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00007",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00008",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00009",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00010",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00011",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00012",
+        "passed": true,
+        "reasons": []
+      },
+      {
+        "qa_id": "qa00013",
+        "passed": true,
+        "reasons": []
+      }
+    ]
+  },
+  "passing_ids": [
+    "qa00000",
+    "qa00002",
+    "qa00003",
+    "qa00004",
+    "qa00005",
+    "qa00006",
+    "qa00007",
+    "qa00008",
+    "qa00009",
+    "qa00010",
+    "qa00011",
+    "qa00012",
+    "qa00013"
+  ]
+}

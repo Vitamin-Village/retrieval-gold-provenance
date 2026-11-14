@@ -1,0 +1,326 @@
+{
+  "all_rows": {
+    "score_name": "c_kg",
+    "n_rows": 30,
+    "row_level": {
+      "spearman_rho": 0.572,
+      "p_approx_two_sided": 0.000959
+    },
+    "n_benchmarks": 12,
+    "benchmark_median_level": {
+      "spearman_rho": 0.8716,
+      "p_approx_two_sided": 0.00022
+    },
+    "benchmark_medians": [
+      {
+        "benchmark": "2WikiMultiHopQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 25.1,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "GraphRAG-Bench",
+        "c_kg": 0.75,
+        "median_delta_pp": 22.25,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "HotpotQA",
+        "c_kg": 0.0,
+        "median_delta_pp": 5.5,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "MetaQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 28.2,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MuSiQue",
+        "c_kg": 0.0,
+        "median_delta_pp": 19.549999999999997,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MultiHop-RAG",
+        "c_kg": 0.0,
+        "median_delta_pp": 1.9,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "NaturalQuestions",
+        "c_kg": 0.0,
+        "median_delta_pp": 4.8,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "STaRK-Amazon",
+        "c_kg": 0.75,
+        "median_delta_pp": 7.3,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "STaRK-MAG",
+        "c_kg": 0.75,
+        "median_delta_pp": 9.649999999999999,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "STaRK-Prime",
+        "c_kg": 0.75,
+        "median_delta_pp": 23.7,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "TriviaQA",
+        "c_kg": 0.0,
+        "median_delta_pp": 1.0,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "WebQSP",
+        "c_kg": 1.0,
+        "median_delta_pp": 41.5,
+        "n_pairs": 3
+      }
+    ]
+  },
+  "headline_chat_sparse_baseline": {
+    "score_name": "c_hat",
+    "n_rows": 28,
+    "row_level": {
+      "spearman_rho": 0.4896,
+      "p_approx_two_sided": 0.008179
+    },
+    "n_benchmarks": 11,
+    "benchmark_median_level": {
+      "spearman_rho": 0.6831,
+      "p_approx_two_sided": 0.020514
+    },
+    "benchmark_medians": [
+      {
+        "benchmark": "2WikiMultiHopQA",
+        "c_hat": 1.0,
+        "median_delta_pp": 25.1,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "HotpotQA",
+        "c_hat": 0.0,
+        "median_delta_pp": 5.5,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "MetaQA",
+        "c_hat": 1.0,
+        "median_delta_pp": 28.2,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MuSiQue",
+        "c_hat": 0.0,
+        "median_delta_pp": 19.549999999999997,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MultiHop-RAG",
+        "c_hat": 0.0,
+        "median_delta_pp": 1.9,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "NaturalQuestions",
+        "c_hat": 0.25,
+        "median_delta_pp": 4.8,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "STaRK-Amazon",
+        "c_hat": 0.75,
+        "median_delta_pp": 7.3,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "STaRK-MAG",
+        "c_hat": 0.75,
+        "median_delta_pp": 9.649999999999999,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "STaRK-Prime",
+        "c_hat": 0.75,
+        "median_delta_pp": 23.7,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "TriviaQA",
+        "c_hat": 0.75,
+        "median_delta_pp": 1.0,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "WebQSP",
+        "c_hat": 1.0,
+        "median_delta_pp": 41.5,
+        "n_pairs": 3
+      }
+    ]
+  },
+  "bm25_paired_only": {
+    "score_name": "c_kg",
+    "n_rows": 28,
+    "row_level": {
+      "spearman_rho": 0.5753,
+      "p_approx_two_sided": 0.001362
+    },
+    "n_benchmarks": 11,
+    "benchmark_median_level": {
+      "spearman_rho": 0.8563,
+      "p_approx_two_sided": 0.000765
+    },
+    "benchmark_medians": [
+      {
+        "benchmark": "2WikiMultiHopQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 25.1,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "HotpotQA",
+        "c_kg": 0.0,
+        "median_delta_pp": 5.5,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "MetaQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 28.2,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MuSiQue",
+        "c_kg": 0.0,
+        "median_delta_pp": 19.549999999999997,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MultiHop-RAG",
+        "c_kg": 0.0,
+        "median_delta_pp": 1.9,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "NaturalQuestions",
+        "c_kg": 0.0,
+        "median_delta_pp": 4.8,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "STaRK-Amazon",
+        "c_kg": 0.75,
+        "median_delta_pp": 7.3,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "STaRK-MAG",
+        "c_kg": 0.75,
+        "median_delta_pp": 9.649999999999999,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "STaRK-Prime",
+        "c_kg": 0.75,
+        "median_delta_pp": 23.7,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "TriviaQA",
+        "c_kg": 0.0,
+        "median_delta_pp": 1.0,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "WebQSP",
+        "c_kg": 1.0,
+        "median_delta_pp": 41.5,
+        "n_pairs": 3
+      }
+    ]
+  },
+  "bm25_no_em_proxy": {
+    "score_name": "c_kg",
+    "n_rows": 25,
+    "row_level": {
+      "spearman_rho": 0.6107,
+      "p_approx_two_sided": 0.001185
+    },
+    "n_benchmarks": 10,
+    "benchmark_median_level": {
+      "spearman_rho": 0.854,
+      "p_approx_two_sided": 0.001661
+    },
+    "benchmark_medians": [
+      {
+        "benchmark": "2WikiMultiHopQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 25.1,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "HotpotQA",
+        "c_kg": 0.0,
+        "median_delta_pp": 5.5,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "MetaQA",
+        "c_kg": 1.0,
+        "median_delta_pp": 28.2,
+        "n_pairs": 4
+      },
+      {
+        "benchmark": "MuSiQue",
+        "c_kg": 0.0,
+        "median_delta_pp": 10.7,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "MultiHop-RAG",
+        "c_kg": 0.0,
+        "median_delta_pp": 1.9,
+        "n_pairs": 3
+      },
+      {
+        "benchmark": "NaturalQuestions",
+        "c_kg": 0.0,
+        "median_delta_pp": 5.1,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "STaRK-Amazon",
+        "c_kg": 0.75,
+        "median_delta_pp": 7.3,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "STaRK-MAG",
+        "c_kg": 0.75,
+        "median_delta_pp": 9.649999999999999,
+        "n_pairs": 2
+      },
+      {
+        "benchmark": "STaRK-Prime",
+        "c_kg": 0.75,
+        "median_delta_pp": 23.7,
+        "n_pairs": 1
+      },
+      {
+        "benchmark": "WebQSP",
+        "c_kg": 1.0,
+        "median_delta_pp": 41.5,
+        "n_pairs": 3
+      }
+    ]
+  }
+}

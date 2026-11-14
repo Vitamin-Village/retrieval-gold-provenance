@@ -1,0 +1,613 @@
+{
+ "aggregate": {
+  "n_raters": 17,
+  "n_ge_0.75_range": [
+   4,
+   6
+  ],
+  "flagged_ge_0.75_by_every_rater": [
+   "GRADE",
+   "2WikiMultiHop",
+   "MetaQA",
+   "WebQSP"
+  ],
+  "flagged_ge_0.5_by_every_rater": [
+   "GRADE",
+   "STaRK",
+   "2WikiMultiHop",
+   "MetaQA",
+   "WebQSP"
+  ],
+  "never_flagged_ge_0.5": [
+   "MuSiQue",
+   "HotpotQA",
+   "MultiHop-RAG",
+   "Natural Questions",
+   "TriviaQA"
+  ],
+  "spearman_range": [
+   0.7505553499465135,
+   0.8642201437576291
+  ]
+ },
+ "raters": [
+  {
+   "rater": "census (adjudicated LM)",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "primary LM rater A",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "primary LM rater B",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "human: non-author",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.7505553499465135,
+   "kg_bins": {
+    "GRADE": 4,
+    "STaRK": 4,
+    "GraphRAG-Bench": 4,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM logged: claude-opus-5-5",
+   "kind": "29 axes",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 5,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM logged: claude-sonnet-5-5",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM logged: gemini-3.8-flash",
+   "kind": "29 axes",
+   "n_ge_0.75": 6,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "GraphRAG-Bench",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM logged: claude-haiku-4-5",
+   "kind": "29 axes",
+   "n_ge_0.75": 4,
+   "n_ge_0.5": 5,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 2,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "human v4: R1",
+   "kind": "29 axes",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "human v4: R2",
+   "kind": "29 axes",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "human v4: R3",
+   "kind": "29 axes",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 5,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "human v4: median",
+   "kind": "29 axes",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM: claude-opus-4-8",
+   "kind": "headline axis",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8563488385776753,
+   "kg_bins": {
+    "GRADE": 4,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM: claude-sonnet-4-5",
+   "kind": "headline axis",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8040302522073697,
+   "kg_bins": {
+    "GRADE": 4,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 3,
+    "MetaQA": 3,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM: qwen2.5:14b",
+   "kind": "headline axis",
+   "n_ge_0.75": 4,
+   "n_ge_0.5": 5,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8642201437576291,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 2,
+    "GraphRAG-Bench": 1,
+    "2WikiMultiHop": 3,
+    "MetaQA": 4,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM: llama3.1:8b",
+   "kind": "headline axis",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.7738791177495933,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 3,
+    "MetaQA": 4,
+    "WebQSP": 3,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  },
+  {
+   "rater": "LM: mistral-small:24b",
+   "kind": "headline axis",
+   "n_ge_0.75": 5,
+   "n_ge_0.5": 6,
+   "flagged_ge_0.75": [
+    "GRADE",
+    "STaRK",
+    "2WikiMultiHop",
+    "MetaQA",
+    "WebQSP"
+   ],
+   "causal_flagged_ge_0.5": [
+    "2WikiMultiHop",
+    "MetaQA",
+    "GraphRAG-Bench",
+    "STaRK"
+   ],
+   "text_grounded_flagged": [],
+   "spearman_gain_medians": 0.8040302522073697,
+   "kg_bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 2,
+    "2WikiMultiHop": 3,
+    "MetaQA": 3,
+    "WebQSP": 4,
+    "MuSiQue": 0,
+    "HotpotQA": 0,
+    "MultiHop-RAG": 0,
+    "Natural Questions": 0,
+    "TriviaQA": 0
+   }
+  }
+ ]
+}

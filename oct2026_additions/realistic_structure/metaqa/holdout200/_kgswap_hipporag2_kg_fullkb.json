@@ -1,0 +1,6182 @@
+{
+  "benchmark": "external/metaqa/holdout200/qa.jsonl",
+  "n_qa": 200,
+  "top_k": 5,
+  "systems": [
+    "hipporag2"
+  ],
+  "metric_defs": {
+    "hit_at_k": "single gold => contained in top-K; multi-hop => BOTH gold contained",
+    "mrr": "single => 1/rank of gold; multi-hop => mean of the two golds' reciprocal ranks",
+    "answer_span_recall_at_k": "fraction of evidence snippets found in top-K passage text (text-based, KG-independent)",
+    "bridge_coverage_at_k": "multi-hop only: 1 iff both gold papers in top-K"
+  },
+  "results": {
+    "hipporag2": {
+      "summary": {
+        "n_qa": 200,
+        "overall": {
+          "hit_at_k": 0.59,
+          "mrr": 0.5302916666666667,
+          "answer_span_recall_at_k": 0.81,
+          "bridge_coverage_at_k": 0.59,
+          "n_multihop": 200
+        },
+        "by_qtype": {
+          "directed_by->directed_by": {
+            "n_qa": 3,
+            "hit_at_k": 1.0,
+            "mrr": 0.7222222222222222,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          },
+          "directed_by->has_genre": {
+            "n_qa": 13,
+            "hit_at_k": 0.6153846153846154,
+            "mrr": 0.5833333333333333,
+            "answer_span_recall_at_k": 0.9230769230769231,
+            "bridge_coverage_at_k": 0.6153846153846154
+          },
+          "directed_by->in_language": {
+            "n_qa": 12,
+            "hit_at_k": 0.6666666666666666,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.6666666666666666
+          },
+          "directed_by->release_year": {
+            "n_qa": 11,
+            "hit_at_k": 0.5454545454545454,
+            "mrr": 0.5568181818181818,
+            "answer_span_recall_at_k": 0.7727272727272727,
+            "bridge_coverage_at_k": 0.5454545454545454
+          },
+          "directed_by->starred_actors": {
+            "n_qa": 10,
+            "hit_at_k": 0.6,
+            "mrr": 0.5141666666666667,
+            "answer_span_recall_at_k": 0.8,
+            "bridge_coverage_at_k": 0.6
+          },
+          "directed_by->written_by": {
+            "n_qa": 11,
+            "hit_at_k": 0.6363636363636364,
+            "mrr": 0.6136363636363636,
+            "answer_span_recall_at_k": 0.7272727272727273,
+            "bridge_coverage_at_k": 0.6363636363636364
+          },
+          "starred_actors->directed_by": {
+            "n_qa": 11,
+            "hit_at_k": 0.18181818181818182,
+            "mrr": 0.3333333333333333,
+            "answer_span_recall_at_k": 0.5909090909090909,
+            "bridge_coverage_at_k": 0.18181818181818182
+          },
+          "starred_actors->has_genre": {
+            "n_qa": 14,
+            "hit_at_k": 0.6428571428571429,
+            "mrr": 0.5678571428571428,
+            "answer_span_recall_at_k": 0.8928571428571429,
+            "bridge_coverage_at_k": 0.6428571428571429
+          },
+          "starred_actors->in_language": {
+            "n_qa": 11,
+            "hit_at_k": 0.8181818181818182,
+            "mrr": 0.6742424242424242,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.8181818181818182
+          },
+          "starred_actors->release_year": {
+            "n_qa": 11,
+            "hit_at_k": 0.7272727272727273,
+            "mrr": 0.5583333333333333,
+            "answer_span_recall_at_k": 0.8636363636363636,
+            "bridge_coverage_at_k": 0.7272727272727273
+          },
+          "starred_actors->starred_actors": {
+            "n_qa": 10,
+            "hit_at_k": 0.6,
+            "mrr": 0.4958333333333333,
+            "answer_span_recall_at_k": 0.75,
+            "bridge_coverage_at_k": 0.6
+          },
+          "starred_actors->written_by": {
+            "n_qa": 11,
+            "hit_at_k": 0.6363636363636364,
+            "mrr": 0.4848484848484848,
+            "answer_span_recall_at_k": 0.7272727272727273,
+            "bridge_coverage_at_k": 0.6363636363636364
+          },
+          "written_by->directed_by": {
+            "n_qa": 11,
+            "hit_at_k": 0.6363636363636364,
+            "mrr": 0.5151515151515151,
+            "answer_span_recall_at_k": 0.7727272727272727,
+            "bridge_coverage_at_k": 0.6363636363636364
+          },
+          "written_by->has_genre": {
+            "n_qa": 14,
+            "hit_at_k": 0.5714285714285714,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.8928571428571429,
+            "bridge_coverage_at_k": 0.5714285714285714
+          },
+          "written_by->in_language": {
+            "n_qa": 12,
+            "hit_at_k": 0.4166666666666667,
+            "mrr": 0.5104166666666666,
+            "answer_span_recall_at_k": 0.9166666666666666,
+            "bridge_coverage_at_k": 0.4166666666666667
+          },
+          "written_by->release_year": {
+            "n_qa": 11,
+            "hit_at_k": 0.6363636363636364,
+            "mrr": 0.4810606060606061,
+            "answer_span_recall_at_k": 0.6818181818181818,
+            "bridge_coverage_at_k": 0.6363636363636364
+          },
+          "written_by->starred_actors": {
+            "n_qa": 11,
+            "hit_at_k": 0.5454545454545454,
+            "mrr": 0.4727272727272727,
+            "answer_span_recall_at_k": 0.6363636363636364,
+            "bridge_coverage_at_k": 0.5454545454545454
+          },
+          "written_by->written_by": {
+            "n_qa": 13,
+            "hit_at_k": 0.46153846153846156,
+            "mrr": 0.46474358974358976,
+            "answer_span_recall_at_k": 0.6923076923076923,
+            "bridge_coverage_at_k": 0.46153846153846156
+          }
+        },
+        "by_domain": {
+          "unknown": {
+            "n_qa": 200,
+            "hit_at_k": 0.59,
+            "mrr": 0.5302916666666667,
+            "answer_span_recall_at_k": 0.81,
+            "bridge_coverage_at_k": 0.59
+          }
+        },
+        "per_qa": {
+          "qa_id": [
+            "metaqa2h_5ae6b80e2430",
+            "metaqa2h_3515d17d4986",
+            "metaqa2h_a386dfa36ad9",
+            "metaqa2h_a472523ce1dc",
+            "metaqa2h_9b726a8488db",
+            "metaqa2h_3fddcd39a852",
+            "metaqa2h_0ffde9aa9e89",
+            "metaqa2h_3b7efeca9489",
+            "metaqa2h_a9bb39fa9905",
+            "metaqa2h_62784dba963a",
+            "metaqa2h_156b95553246",
+            "metaqa2h_bd92f24e9827",
+            "metaqa2h_195ae7d58c1b",
+            "metaqa2h_1d6a36033f98",
+            "metaqa2h_d9ef2195a6f3",
+            "metaqa2h_de1a8c940592",
+            "metaqa2h_01ed34a05755",
+            "metaqa2h_75e8bbe4ebfc",
+            "metaqa2h_85f8f7019fda",
+            "metaqa2h_3a7b9e98096f",
+            "metaqa2h_e3e6994e1f9d",
+            "metaqa2h_21e51add0a85",
+            "metaqa2h_f5c99d86e145",
+            "metaqa2h_d51166ac5359",
+            "metaqa2h_6d15a4396a4a",
+            "metaqa2h_c01459717cef",
+            "metaqa2h_a57e2ba02cc5",
+            "metaqa2h_b6fba6778cff",
+            "metaqa2h_a1288dd20dbf",
+            "metaqa2h_7cc7ef8b15a7",
+            "metaqa2h_e5d2d3d4ca50",
+            "metaqa2h_9eda230de262",
+            "metaqa2h_bd65cab18ab9",
+            "metaqa2h_1ffda5e078e8",
+            "metaqa2h_08809036c834",
+            "metaqa2h_268931f5998c",
+            "metaqa2h_8b177d20572e",
+            "metaqa2h_e86401cb54df",
+            "metaqa2h_9ffe46e8d48f",
+            "metaqa2h_51936bc2db0d",
+            "metaqa2h_577e0e5141fe",
+            "metaqa2h_b49a7209c1e6",
+            "metaqa2h_80c57146030c",
+            "metaqa2h_1cf671c24b5a",
+            "metaqa2h_033f818c1a3e",
+            "metaqa2h_61e60aff45cf",
+            "metaqa2h_3d06b6387deb",
+            "metaqa2h_e64b5a4c929e",
+            "metaqa2h_451cc4b951a9",
+            "metaqa2h_ade9392093d8",
+            "metaqa2h_ef2a54df3dbb",
+            "metaqa2h_d097fa4444b9",
+            "metaqa2h_1b9e8f232a3f",
+            "metaqa2h_95a714eb40a8",
+            "metaqa2h_fb5dfebaf804",
+            "metaqa2h_423fe88bc2c0",
+            "metaqa2h_1b63440791a3",
+            "metaqa2h_94083440c2c7",
+            "metaqa2h_33194714c0b5",
+            "metaqa2h_4c2d83ba7eb2",
+            "metaqa2h_01a02b67c1ec",
+            "metaqa2h_992e056a3aec",
+            "metaqa2h_9341cb5b854a",
+            "metaqa2h_40d1dc004ccb",
+            "metaqa2h_a074bd71e973",
+            "metaqa2h_c9a390a1eccd",
+            "metaqa2h_f9cc0eabeb38",
+            "metaqa2h_dd9d4b33178c",
+            "metaqa2h_0206ee72e6fe",
+            "metaqa2h_661d0d9b63c1",
+            "metaqa2h_4c84a568b5fe",
+            "metaqa2h_dce80203e2d3",
+            "metaqa2h_cee9225f2877",
+            "metaqa2h_c4e5891e7626",
+            "metaqa2h_8e23b950f716",
+            "metaqa2h_5c0d88f303f5",
+            "metaqa2h_a13a8342ae2e",
+            "metaqa2h_068233575473",
+            "metaqa2h_0c6ed2dbd6a9",
+            "metaqa2h_111ccbab9a46",
+            "metaqa2h_b41baa7455c0",
+            "metaqa2h_38952ea303c3",
+            "metaqa2h_83c549a2f359",
+            "metaqa2h_78177c71bec0",
+            "metaqa2h_4cf1429da902",
+            "metaqa2h_213d4d102dd2",
+            "metaqa2h_1affece4d7f6",
+            "metaqa2h_2f0f6a935d53",
+            "metaqa2h_be13668bb097",
+            "metaqa2h_c0b050e77d59",
+            "metaqa2h_9b0d068e9c38",
+            "metaqa2h_66ad808b5c7a",
+            "metaqa2h_abd56a1811dd",
+            "metaqa2h_6a47a70b2a1b",
+            "metaqa2h_9df8cecba532",
+            "metaqa2h_6ef8d0a2918f",
+            "metaqa2h_0fe4a5498696",
+            "metaqa2h_70ce9afd703a",
+            "metaqa2h_4fa8432a738a",
+            "metaqa2h_e34a36f1d111",
+            "metaqa2h_013f19f2b146",
+            "metaqa2h_5ef083fb9c39",
+            "metaqa2h_f60c06167514",
+            "metaqa2h_ee7db481a99f",
+            "metaqa2h_5a8ed205f1f7",
+            "metaqa2h_bdd27c08a3c5",
+            "metaqa2h_173064d35369",
+            "metaqa2h_870d97fb0ebc",
+            "metaqa2h_88f5be2ee577",
+            "metaqa2h_c9393f7c4d23",
+            "metaqa2h_6d9971b5bc9c",
+            "metaqa2h_fbe622adb8cc",
+            "metaqa2h_c2eb707984a1",
+            "metaqa2h_56fdcc826ff3",
+            "metaqa2h_8057ee3f0824",
+            "metaqa2h_ed7161c28423",
+            "metaqa2h_db162bdcbda9",
+            "metaqa2h_e0fba17fa7cd",
+            "metaqa2h_609792f02b0e",
+            "metaqa2h_649794686890",
+            "metaqa2h_60720b83c446",
+            "metaqa2h_70140523fcbd",
+            "metaqa2h_e848d9cc97df",
+            "metaqa2h_86963c96ebe0",
+            "metaqa2h_74413e933d1e",
+            "metaqa2h_f3151ecaca2b",
+            "metaqa2h_868d84ae1da8",
+            "metaqa2h_854e7e39133f",
+            "metaqa2h_62e17a8664f5",
+            "metaqa2h_d1bc400aaf5a",
+            "metaqa2h_9ac4e667f41a",
+            "metaqa2h_9c07a2f57d2d",
+            "metaqa2h_3760c00e459c",
+            "metaqa2h_7d342c3ea190",
+            "metaqa2h_14e8d21dfe7e",
+            "metaqa2h_26189868e082",
+            "metaqa2h_93a02e845936",
+            "metaqa2h_d94565206e44",
+            "metaqa2h_e7413862cac9",
+            "metaqa2h_489ca53dde8f",
+            "metaqa2h_9c40104caf67",
+            "metaqa2h_d38048c0608a",
+            "metaqa2h_6c21e1f2374e",
+            "metaqa2h_0a6700538f36",
+            "metaqa2h_696f1589ebf0",
+            "metaqa2h_c61012b0ab38",
+            "metaqa2h_11a63c99a989",
+            "metaqa2h_2624dd6ed8c8",
+            "metaqa2h_b4eefbe2a3d6",
+            "metaqa2h_d5c026a9fdc1",
+            "metaqa2h_bed9c20da5cc",
+            "metaqa2h_5b097faad31a",
+            "metaqa2h_819e80a8c4df",
+            "metaqa2h_4c8a37c06891",
+            "metaqa2h_caaa767c3c1a",
+            "metaqa2h_83a21a1a089b",
+            "metaqa2h_ba431bd40384",
+            "metaqa2h_06009f5bc76e",
+            "metaqa2h_b63d878e39df",
+            "metaqa2h_b7bcae374d53",
+            "metaqa2h_b73d54672228",
+            "metaqa2h_e05abd7ecbfe",
+            "metaqa2h_c3f85488fa9e",
+            "metaqa2h_3a9f6a25a387",
+            "metaqa2h_3e623eff9f33",
+            "metaqa2h_8ba48fa5ef3d",
+            "metaqa2h_98c5f540bfd0",
+            "metaqa2h_3c2dc79c7c90",
+            "metaqa2h_2d04a8eb79c2",
+            "metaqa2h_78e744fbaea7",
+            "metaqa2h_f1f60d158501",
+            "metaqa2h_f02c4b823fa8",
+            "metaqa2h_05fda8c5d4b3",
+            "metaqa2h_d67be64fcb86",
+            "metaqa2h_1f8c5e322489",
+            "metaqa2h_28743e2d6819",
+            "metaqa2h_48e7acd529fd",
+            "metaqa2h_f73fb6d5affb",
+            "metaqa2h_9df65438733a",
+            "metaqa2h_55241398bee7",
+            "metaqa2h_fe1ac39454e4",
+            "metaqa2h_f734ba455e01",
+            "metaqa2h_c41701f00b42",
+            "metaqa2h_9ee037b09f24",
+            "metaqa2h_cfc6835d8446",
+            "metaqa2h_8c06ea29a707",
+            "metaqa2h_70fd1da25722",
+            "metaqa2h_93d1baad7750",
+            "metaqa2h_9c001d541768",
+            "metaqa2h_940881a3fce7",
+            "metaqa2h_8f779bc5273e",
+            "metaqa2h_b15f243329c5",
+            "metaqa2h_06d9b472524d",
+            "metaqa2h_20767c8a0817",
+            "metaqa2h_96910007c221",
+            "metaqa2h_ce63bc32796a",
+            "metaqa2h_56203a0133d0",
+            "metaqa2h_c50dcda90d0b",
+            "metaqa2h_48666f8b3cf5",
+            "metaqa2h_9bd39ca2de1e"
+          ],
+          "hit_at_k": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "mrr": [
+            0.75,
+            0.75,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.6,
+            0.75,
+            0.5,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.0,
+            0.75,
+            0.75,
+            0.5,
+            0.5,
+            0.75,
+            0.0,
+            0.5,
+            0.25,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.0,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.625,
+            0.0,
+            0.5,
+            0.5,
+            0.625,
+            0.6666666666666666,
+            0.5,
+            0.75,
+            0.75,
+            0.125,
+            0.0,
+            0.0,
+            0.75,
+            0.0,
+            0.125,
+            0.625,
+            0.75,
+            0.75,
+            0.1,
+            0.75,
+            0.75,
+            0.0,
+            0.75,
+            0.625,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.625,
+            0.0,
+            0.41666666666666663,
+            0.6666666666666666,
+            0.75,
+            0.0,
+            0.0,
+            0.0,
+            0.75,
+            0.75,
+            0.125,
+            0.5,
+            0.41666666666666663,
+            0.75,
+            0.375,
+            0.6666666666666666,
+            0.5,
+            0.75,
+            0.1,
+            0.0,
+            0.75,
+            0.0,
+            0.75,
+            0.0,
+            0.5,
+            0.125,
+            0.25,
+            0.75,
+            0.25,
+            0.125,
+            0.41666666666666663,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.29166666666666663,
+            0.75,
+            0.25,
+            0.375,
+            0.0,
+            0.5,
+            0.6666666666666666,
+            0.5,
+            0.125,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.41666666666666663,
+            0.6,
+            0.41666666666666663,
+            0.5,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.75,
+            0.0,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.25,
+            0.375,
+            0.625,
+            0.75,
+            0.25,
+            0.75,
+            0.5,
+            0.75,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.625,
+            0.0,
+            0.75,
+            0.25,
+            0.75,
+            0.5,
+            0.5,
+            0.0,
+            0.35,
+            0.75,
+            0.75,
+            0.75,
+            0.25,
+            0.6666666666666666,
+            0.0,
+            0.6666666666666666,
+            0.75,
+            0.625,
+            0.41666666666666663,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.0,
+            0.75,
+            0.75,
+            0.75,
+            0.0,
+            0.75,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.0,
+            0.5,
+            0.1,
+            0.75,
+            0.625
+          ],
+          "answer_span_recall_at_k": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            0.5,
+            0.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "bridge_coverage_at_k": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "multihop": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "system": "hipporag2"
+      },
+      "records": [
+        {
+          "qa_id": "metaqa2h_5ae6b80e2430",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fantastic planet",
+            "gandahar"
+          ],
+          "retrieved_paper_ids": [
+            "fantastic planet",
+            "gandahar",
+            "the fire within",
+            "mon oncle",
+            "mutants"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3515d17d4986",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "indochine",
+            "man to man"
+          ],
+          "retrieved_paper_ids": [
+            "man to man",
+            "indochine",
+            "paris 36",
+            "trio",
+            "wargames"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a386dfa36ad9",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "grey gardens",
+            "the vow"
+          ],
+          "retrieved_paper_ids": [
+            "the vow",
+            "dick tracy",
+            "curse of chucky",
+            "the cruel sea",
+            "suddenly"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a472523ce1dc",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "love in the time of cholera",
+            "vincere"
+          ],
+          "retrieved_paper_ids": [
+            "vincere",
+            "the 10th victim",
+            "two women",
+            "a pistol for ringo",
+            "avanti!"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9b726a8488db",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "invisible target",
+            "the promise"
+          ],
+          "retrieved_paper_ids": [
+            "invisible target",
+            "the promise",
+            "wild things",
+            "3 ninjas",
+            "fire birds"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3fddcd39a852",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "12",
+            "burnt by the sun"
+          ],
+          "retrieved_paper_ids": [
+            "12",
+            "burnt by the sun",
+            "mimino",
+            "the adventures of picasso",
+            "mon oncle"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_0ffde9aa9e89",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "becket",
+            "the return of don camillo"
+          ],
+          "retrieved_paper_ids": [
+            "the return of don camillo",
+            "cemetery man",
+            "artemisia",
+            "geronimo",
+            "the missing star"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3b7efeca9489",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "buchanan rides alone",
+            "the deadly mantis"
+          ],
+          "retrieved_paper_ids": [
+            "buchanan rides alone",
+            "the deadly mantis",
+            "shane",
+            "crimes and misdemeanors",
+            "greenberg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a9bb39fa9905",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "purge",
+            "the resident"
+          ],
+          "retrieved_paper_ids": [
+            "purge",
+            "black ice",
+            "drifting clouds",
+            "the home of dark butterflies",
+            "the resident"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_62784dba963a",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the blue max",
+            "the fall of the roman empire"
+          ],
+          "retrieved_paper_ids": [
+            "the fall of the roman empire",
+            "the blue max",
+            "sabata",
+            "two women",
+            "teorema"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_156b95553246",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "i sell the dead",
+            "v/h/s"
+          ],
+          "retrieved_paper_ids": [
+            "i sell the dead",
+            "the adventures of baron munchausen",
+            "lake placid",
+            "mean girls",
+            "munchies"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_bd92f24e9827",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the battle of the sexes",
+            "the secret life of walter mitty"
+          ],
+          "retrieved_paper_ids": [
+            "the secret life of walter mitty",
+            "thunderball",
+            "princess caraboo",
+            "the adventures of picasso",
+            "trio"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_195ae7d58c1b",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sinbad and the eye of the tiger",
+            "the golden voyage of sinbad"
+          ],
+          "retrieved_paper_ids": [
+            "sinbad and the eye of the tiger",
+            "the golden voyage of sinbad",
+            "harry potter and the half-blood prince",
+            "127 hours",
+            "poison"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1d6a36033f98",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "johnny angel",
+            "the mask of dimitrios"
+          ],
+          "retrieved_paper_ids": [
+            "the mask of dimitrios",
+            "cobra",
+            "greenberg",
+            "crimes and misdemeanors",
+            "trois"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d9ef2195a6f3",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "donnie brasco",
+            "quiz show"
+          ],
+          "retrieved_paper_ids": [
+            "donnie brasco",
+            "quiz show",
+            "crimes and misdemeanors",
+            "escape plan",
+            "death proof"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_de1a8c940592",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "in country",
+            "the mambo kings"
+          ],
+          "retrieved_paper_ids": [
+            "crimes and misdemeanors",
+            "conflict",
+            "five fingers",
+            "constantine",
+            "cinderella man"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_01ed34a05755",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kissing a fool",
+            "phat beach"
+          ],
+          "retrieved_paper_ids": [
+            "kissing a fool",
+            "phat beach",
+            "roger dodger",
+            "easy wheels",
+            "the fighting temptations"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_75e8bbe4ebfc",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a study in terror",
+            "the adventures of baron munchausen"
+          ],
+          "retrieved_paper_ids": [
+            "the adventures of baron munchausen",
+            "a study in terror",
+            "millions",
+            "wild things",
+            "50/50"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_85f8f7019fda",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a dangerous profession",
+            "the horse soldiers"
+          ],
+          "retrieved_paper_ids": [
+            "a dangerous profession",
+            "no reservations",
+            "lock, stock and two smoking barrels",
+            "wild things",
+            "12"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3a7b9e98096f",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aloha summer",
+            "true believer"
+          ],
+          "retrieved_paper_ids": [
+            "aloha summer",
+            "from up on poppy hill",
+            "battle royale",
+            "an autumn afternoon",
+            "the sword of doom"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e3e6994e1f9d",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "in the land of blood and honey",
+            "unbroken"
+          ],
+          "retrieved_paper_ids": [
+            "unbroken",
+            "in the land of blood and honey",
+            "short cuts",
+            "50/50",
+            "lola versus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_21e51add0a85",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "55 days at peking",
+            "kind hearts and coronets"
+          ],
+          "retrieved_paper_ids": [
+            "verboten!",
+            "them!",
+            "hey ram",
+            "moonraker",
+            "spencer's mountain"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f5c99d86e145",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "asterix and cleopatra",
+            "the twelve tasks of asterix"
+          ],
+          "retrieved_paper_ids": [
+            "the twelve tasks of asterix",
+            "the adventures of picasso",
+            "rudo y cursi",
+            "under the same moon",
+            "the mambo kings"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d51166ac5359",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "black mask",
+            "so close"
+          ],
+          "retrieved_paper_ids": [
+            "kites",
+            "black mask",
+            "kuch kuch hota hai",
+            "in a world...",
+            "my name is khan"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_6d15a4396a4a",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oceans",
+            "winged migration"
+          ],
+          "retrieved_paper_ids": [
+            "oceans",
+            "winged migration",
+            "a summer's tale",
+            "afterwards",
+            "le havre"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c01459717cef",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "avanti!",
+            "the rare breed"
+          ],
+          "retrieved_paper_ids": [
+            "avanti!",
+            "princess caraboo",
+            "millions",
+            "kites",
+            "billy liar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a57e2ba02cc5",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "concrete night",
+            "fire-eater"
+          ],
+          "retrieved_paper_ids": [
+            "concrete night",
+            "fire-eater",
+            "the adventures of picasso",
+            "purge",
+            "the mambo kings"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b6fba6778cff",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "latitude zero",
+            "them!"
+          ],
+          "retrieved_paper_ids": [
+            "latitude zero",
+            "them!",
+            "paranorman",
+            "the verdict",
+            "the adventures of picasso"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a1288dd20dbf",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beyond",
+            "black ice"
+          ],
+          "retrieved_paper_ids": [
+            "black ice",
+            "beyond",
+            "purge",
+            "hawaii, oslo",
+            "tears of april"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_7cc7ef8b15a7",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hawaii, oslo",
+            "troubled water"
+          ],
+          "retrieved_paper_ids": [
+            "troubled water",
+            "hawaii, oslo",
+            "the adventures of picasso",
+            "purge",
+            "passion of mind"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e5d2d3d4ca50",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "la ciénaga",
+            "the holy girl"
+          ],
+          "retrieved_paper_ids": [
+            "la ciénaga",
+            "kites",
+            "the holy girl",
+            "the spanish earth",
+            "under the same moon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9eda230de262",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "poison",
+            "querelle"
+          ],
+          "retrieved_paper_ids": [
+            "poison",
+            "querelle",
+            "mon oncle",
+            "oceans",
+            "mutants"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_bd65cab18ab9",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kites",
+            "la mujer de mi hermano"
+          ],
+          "retrieved_paper_ids": [
+            "la mujer de mi hermano",
+            "kites",
+            "the mambo kings",
+            "cobra",
+            "maborosi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1ffda5e078e8",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "blood glacier",
+            "rammbock"
+          ],
+          "retrieved_paper_ids": [
+            "blood glacier",
+            "rammbock",
+            "carmen comes home",
+            "purge",
+            "kites"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_08809036c834",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aurora",
+            "the death of mr. lazarescu"
+          ],
+          "retrieved_paper_ids": [
+            "aurora",
+            "the death of mr. lazarescu",
+            "camera buff",
+            "letters to santa",
+            "despicable me"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_268931f5998c",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a bridge too far",
+            "the longest day"
+          ],
+          "retrieved_paper_ids": [
+            "the longest day",
+            "127 hours",
+            "the lion king",
+            "cobra",
+            "poison"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8b177d20572e",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "flying tigers",
+            "the youngest profession"
+          ],
+          "retrieved_paper_ids": [
+            "flying tigers",
+            "the youngest profession",
+            "the trials of oscar wilde",
+            "chisum",
+            "thunderball"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e86401cb54df",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the man from london",
+            "the turin horse"
+          ],
+          "retrieved_paper_ids": [
+            "the turin horse",
+            "le havre",
+            "the man from london",
+            "tears of april",
+            "frantic"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9ffe46e8d48f",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "planet of the apes",
+            "the bridge on the river kwai"
+          ],
+          "retrieved_paper_ids": [
+            "planet of the apes",
+            "the bridge on the river kwai",
+            "the fire within",
+            "breathless",
+            "millions"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_51936bc2db0d",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the invisible man returns",
+            "three smart girls grow up"
+          ],
+          "retrieved_paper_ids": [
+            "three smart girls grow up",
+            "mean girls",
+            "for colored girls",
+            "narrow margin",
+            "garden state"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_577e0e5141fe",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "evil toons",
+            "the shooter"
+          ],
+          "retrieved_paper_ids": [
+            "evil toons",
+            "the shooter",
+            "the onion field",
+            "breach",
+            "all american orgy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b49a7209c1e6",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "garden state",
+            "wish i was here"
+          ],
+          "retrieved_paper_ids": [
+            "garden state",
+            "wish i was here",
+            "zift",
+            "the baader meinhof complex",
+            "lust for love"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_80c57146030c",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mirrors 2",
+            "return to house on haunted hill"
+          ],
+          "retrieved_paper_ids": [
+            "rudo y cursi",
+            "the virgin spring",
+            "vacas",
+            "colossal youth",
+            "transamerica"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1cf671c24b5a",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the business",
+            "the football factory"
+          ],
+          "retrieved_paper_ids": [
+            "the football factory",
+            "the business",
+            "tere bin laden",
+            "monsieur ibrahim",
+            "hey ram"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_033f818c1a3e",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gidget",
+            "nancy goes to rio"
+          ],
+          "retrieved_paper_ids": [
+            "gidget",
+            "poison",
+            "nancy goes to rio",
+            "monsters",
+            "les girls"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_61e60aff45cf",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "de dana dan",
+            "main hoon na"
+          ],
+          "retrieved_paper_ids": [
+            "de dana dan",
+            "main hoon na",
+            "sun don't shine",
+            "shane",
+            "the rocky horror picture show"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3d06b6387deb",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fiend without a face",
+            "madonna of the seven moons"
+          ],
+          "retrieved_paper_ids": [
+            "madonna of the seven moons",
+            "o brother, where art thou?",
+            "127 hours",
+            "aaltra",
+            "threads"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e64b5a4c929e",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "100 rifles",
+            "will penny"
+          ],
+          "retrieved_paper_ids": [
+            "100 rifles",
+            "kes",
+            "the specials",
+            "poison",
+            "fire birds"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_451cc4b951a9",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tears of april",
+            "the home of dark butterflies"
+          ],
+          "retrieved_paper_ids": [
+            "tears of april",
+            "sweet land",
+            "attenberg",
+            "moonraker",
+            "gandahar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ade9392093d8",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "3 idiots",
+            "rang de basanti"
+          ],
+          "retrieved_paper_ids": [
+            "3 idiots",
+            "rang de basanti",
+            "samsara",
+            "monsieur ibrahim",
+            "hey ram"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ef2a54df3dbb",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "grill point",
+            "stopped on track"
+          ],
+          "retrieved_paper_ids": [
+            "stopped on track",
+            "grill point",
+            "the adventures of picasso",
+            "querelle",
+            "indochine"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d097fa4444b9",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "blood and bone",
+            "love and a bullet"
+          ],
+          "retrieved_paper_ids": [
+            "blood and bone",
+            "hey ram",
+            "love and a bullet",
+            "127 hours",
+            "in harm's way"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1b9e8f232a3f",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beneath the dark",
+            "the collection"
+          ],
+          "retrieved_paper_ids": [
+            "beneath the dark",
+            "joshua",
+            "stretch",
+            "the collection",
+            "roger dodger"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_95a714eb40a8",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the adjustment bureau",
+            "the bourne ultimatum"
+          ],
+          "retrieved_paper_ids": [
+            "noah's ark",
+            "mulholland falls",
+            "the fugitive kind",
+            "cool hand luke",
+            "lemony snicket's a series of unfortunate events"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_fb5dfebaf804",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "don juan demarco",
+            "girl on a bicycle"
+          ],
+          "retrieved_paper_ids": [
+            "girl on a bicycle",
+            "lemony snicket's a series of unfortunate events",
+            "lucky number slevin",
+            "the angel levine",
+            "diamonds are forever"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_423fe88bc2c0",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "freebie and the bean",
+            "race with the devil"
+          ],
+          "retrieved_paper_ids": [
+            "race with the devil",
+            "lola versus",
+            "lady liberty",
+            "death proof",
+            "norbit"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1b63440791a3",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "13",
+            "13 tzameti"
+          ],
+          "retrieved_paper_ids": [
+            "13 tzameti",
+            "aaltra",
+            "celine and julie go boating",
+            "13",
+            "tell no one"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_94083440c2c7",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a troll in central park",
+            "the life of reilly"
+          ],
+          "retrieved_paper_ids": [
+            "the life of reilly",
+            "mary reilly",
+            "a troll in central park",
+            "nine",
+            "millions"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_33194714c0b5",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "carrington",
+            "the secret agent"
+          ],
+          "retrieved_paper_ids": [
+            "carrington",
+            "four christmases",
+            "the last days of pompeii",
+            "orphan",
+            "champagne for caesar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_4c2d83ba7eb2",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "american history x",
+            "detachment"
+          ],
+          "retrieved_paper_ids": [
+            "american history x",
+            "detachment",
+            "poison",
+            "nine",
+            "fire birds"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_01a02b67c1ec",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "takers",
+            "this christmas"
+          ],
+          "retrieved_paper_ids": [
+            "this christmas",
+            "takers",
+            "a boy named charlie brown",
+            "home run",
+            "crack-up"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_992e056a3aec",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the best of everything",
+            "the first deadly sin"
+          ],
+          "retrieved_paper_ids": [
+            "rubin and ed",
+            "i love you, man",
+            "super",
+            "the first deadly sin",
+            "muppets most wanted"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9341cb5b854a",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the lion king",
+            "the sure thing"
+          ],
+          "retrieved_paper_ids": [
+            "the frozen ground",
+            "moonraker",
+            "mary reilly",
+            "lions for lambs",
+            "nativity!"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_40d1dc004ccb",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the diary of a chambermaid",
+            "the picture of dorian gray"
+          ],
+          "retrieved_paper_ids": [
+            "havoc",
+            "hud",
+            "this christmas",
+            "wait until dark",
+            "hot rod"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a074bd71e973",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "girl in progress",
+            "under the same moon"
+          ],
+          "retrieved_paper_ids": [
+            "girl in progress",
+            "under the same moon",
+            "four christmases",
+            "the river murders",
+            "the kids are all right"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c9a390a1eccd",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "darkon",
+            "king kelly"
+          ],
+          "retrieved_paper_ids": [
+            "them!",
+            "el norte",
+            "despicable me",
+            "kes",
+            "never say never again"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f9cc0eabeb38",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "new york minute",
+            "what a girl wants"
+          ],
+          "retrieved_paper_ids": [
+            "four christmases",
+            "house of dracula",
+            "poison",
+            "new york minute",
+            "the hunger"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_dd9d4b33178c",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "new waterford girl",
+            "the grand seduction"
+          ],
+          "retrieved_paper_ids": [
+            "new waterford girl",
+            "freebie and the bean",
+            "mean girls",
+            "the grand seduction",
+            "shane"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_0206ee72e6fe",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "never say never again",
+            "thunderball"
+          ],
+          "retrieved_paper_ids": [
+            "never say never again",
+            "thunderball",
+            "quicksilver",
+            "the twelve chairs",
+            "dick tracy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_661d0d9b63c1",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "den ofrivillige golfaren",
+            "the stig-helmer story"
+          ],
+          "retrieved_paper_ids": [
+            "den ofrivillige golfaren",
+            "the stig-helmer story",
+            "the adventures of picasso",
+            "the children of noisy village",
+            "smiles of a summer night"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_4c84a568b5fe",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "take her, she's mine",
+            "that touch of mink"
+          ],
+          "retrieved_paper_ids": [
+            "crimes and misdemeanors",
+            "once upon a time in the midlands",
+            "four christmases",
+            "wild things",
+            "take her, she's mine"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_dce80203e2d3",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "butterflies are free",
+            "funny face"
+          ],
+          "retrieved_paper_ids": [
+            "butterflies are free",
+            "funny face",
+            "kes",
+            "the darkest hour",
+            "gandahar"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_cee9225f2877",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "99 river street",
+            "riot in cell block 11"
+          ],
+          "retrieved_paper_ids": [
+            "riot in cell block 11",
+            "99 river street",
+            "the cruel sea",
+            "millions",
+            "the football factory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c4e5891e7626",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "how to train your dragon",
+            "how to train your dragon 2"
+          ],
+          "retrieved_paper_ids": [
+            "the sign of the cross",
+            "despicable me",
+            "thunderball",
+            "four christmases",
+            "the wolf of wall street"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8e23b950f716",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess caraboo",
+            "the company men"
+          ],
+          "retrieved_paper_ids": [
+            "the company men",
+            "princess caraboo",
+            "the invisible man returns",
+            "in harm's way",
+            "the wolf of wall street"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_5c0d88f303f5",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kissing jessica stein",
+            "the idolmaker"
+          ],
+          "retrieved_paper_ids": [
+            "kissing jessica stein",
+            "four christmases",
+            "joshua",
+            "the idolmaker",
+            "gandahar"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_a13a8342ae2e",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "paris 36",
+            "the chorus"
+          ],
+          "retrieved_paper_ids": [
+            "paris 36",
+            "the chorus",
+            "the young victoria",
+            "mirage",
+            "cold showers"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_068233575473",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "at first sight",
+            "awakenings"
+          ],
+          "retrieved_paper_ids": [
+            "awakenings",
+            "at first sight",
+            "until the end of the world",
+            "planet of the apes",
+            "kes"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_0c6ed2dbd6a9",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "flesh and bone",
+            "the fabulous baker boys"
+          ],
+          "retrieved_paper_ids": [
+            "the fabulous baker boys",
+            "kes",
+            "the beaver trilogy",
+            "the serpent and the rainbow",
+            "four christmases"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_111ccbab9a46",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "feds",
+            "troop beverly hills"
+          ],
+          "retrieved_paper_ids": [
+            "feds",
+            "troop beverly hills",
+            "four christmases",
+            "despicable me",
+            "death proof"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b41baa7455c0",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "god is brazilian",
+            "orfeu"
+          ],
+          "retrieved_paper_ids": [
+            "god is brazilian",
+            "orfeu",
+            "vacas",
+            "despicable me",
+            "princesas"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_38952ea303c3",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "collision course",
+            "we're back! a dinosaur's story"
+          ],
+          "retrieved_paper_ids": [
+            "collision course",
+            "alter egos",
+            "the oranges",
+            "les girls",
+            "lemony snicket's a series of unfortunate events"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_83c549a2f359",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kes",
+            "threads"
+          ],
+          "retrieved_paper_ids": [
+            "kes",
+            "threads",
+            "poison",
+            "the trials of oscar wilde",
+            "127 hours"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_78177c71bec0",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "courageous",
+            "the moment after"
+          ],
+          "retrieved_paper_ids": [
+            "the moment after",
+            "1969",
+            "white house down",
+            "courageous",
+            "kes"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_4cf1429da902",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a raisin in the sun",
+            "the color of friendship"
+          ],
+          "retrieved_paper_ids": [
+            "querelle",
+            "afterwards",
+            "the chorus",
+            "mutants",
+            "cq"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_213d4d102dd2",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aamir",
+            "table no. 21"
+          ],
+          "retrieved_paper_ids": [
+            "the spongebob squarepants movie",
+            "aamir",
+            "table no. 21",
+            "the householder",
+            "hey ram"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1affece4d7f6",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the gospel",
+            "trois"
+          ],
+          "retrieved_paper_ids": [
+            "trois",
+            "the rocky horror picture show",
+            "the gospel",
+            "hot rod",
+            "dick tracy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_2f0f6a935d53",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prom",
+            "sleepover"
+          ],
+          "retrieved_paper_ids": [
+            "prom",
+            "sleepover",
+            "crimes and misdemeanors",
+            "millions",
+            "in harm's way"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_be13668bb097",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the mouse on the moon",
+            "the twelve chairs"
+          ],
+          "retrieved_paper_ids": [
+            "the rocky horror picture show",
+            "funny about love",
+            "the bonfire of the vanities",
+            "crimes and misdemeanors",
+            "millions"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c0b050e77d59",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "jumping the broom",
+            "the fighting temptations"
+          ],
+          "retrieved_paper_ids": [
+            "shooting fish",
+            "cobra",
+            "wait until dark",
+            "mulholland falls",
+            "torture garden"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9b0d068e9c38",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a tree grows in brooklyn",
+            "the good earth"
+          ],
+          "retrieved_paper_ids": [
+            "shooting fish",
+            "escape plan",
+            "striking distance",
+            "five fingers",
+            "greenberg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_66ad808b5c7a",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "avenue montaigne",
+            "jet lag"
+          ],
+          "retrieved_paper_ids": [
+            "avenue montaigne",
+            "jet lag",
+            "five fingers",
+            "daniel",
+            "127 hours"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_abd56a1811dd",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "g",
+            "hav plenty"
+          ],
+          "retrieved_paper_ids": [
+            "hav plenty",
+            "g",
+            "hurt",
+            "the octagon",
+            "becket"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_6a47a70b2a1b",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "place vendôme",
+            "the adversary"
+          ],
+          "retrieved_paper_ids": [
+            "la ciénaga",
+            "transamerica",
+            "no reservations",
+            "place vendôme",
+            "for colored girls"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9df8cecba532",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "p.s.",
+            "roger dodger"
+          ],
+          "retrieved_paper_ids": [
+            "p.s.",
+            "nine",
+            "dick tracy",
+            "kid millions",
+            "short cuts"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_6ef8d0a2918f",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "old yeller",
+            "the great locomotive chase"
+          ],
+          "retrieved_paper_ids": [
+            "phffft",
+            "old yeller",
+            "the great locomotive chase",
+            "jeff, who lives at home",
+            "54"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_0fe4a5498696",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "room at the top",
+            "the story of esther costello"
+          ],
+          "retrieved_paper_ids": [
+            "room at the top",
+            "the story of esther costello",
+            "heartbreakers",
+            "the hearse",
+            "shining through"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_70ce9afd703a",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "amazon women on the moon",
+            "deathstalker ii"
+          ],
+          "retrieved_paper_ids": [
+            "grace of monaco",
+            "deathstalker ii",
+            "the immigrant",
+            "amazon women on the moon",
+            "mirage"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_4fa8432a738a",
+          "qtype": "directed_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hobo with a shotgun",
+            "v/h/s/2"
+          ],
+          "retrieved_paper_ids": [
+            "hobo with a shotgun",
+            "greenberg",
+            "v/h/s/2",
+            "takers",
+            "london"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e34a36f1d111",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "caged",
+            "there's always tomorrow"
+          ],
+          "retrieved_paper_ids": [
+            "caged",
+            "the baader meinhof complex",
+            "greenberg",
+            "i, frankenstein",
+            "shooting fish"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_013f19f2b146",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bolivia",
+            "chronicle of an escape"
+          ],
+          "retrieved_paper_ids": [
+            "chronicle of an escape",
+            "bolivia",
+            "under the same moon",
+            "rudo y cursi",
+            "tristana"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_5ef083fb9c39",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "crazy heart",
+            "out of the furnace"
+          ],
+          "retrieved_paper_ids": [
+            "the company men",
+            "roger dodger",
+            "they came to cordura",
+            "scoop",
+            "out of the furnace"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f60c06167514",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lemony snicket's a series of unfortunate events",
+            "rick"
+          ],
+          "retrieved_paper_ids": [
+            "harry potter and the half-blood prince",
+            "roger dodger",
+            "daniel",
+            "the football factory",
+            "crimes and misdemeanors"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ee7db481a99f",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mr. bean's holiday",
+            "the harry hill movie"
+          ],
+          "retrieved_paper_ids": [
+            "mr. bean's holiday",
+            "the harry hill movie",
+            "out of the furnace",
+            "cinderella man",
+            "the whole ten yards"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_5a8ed205f1f7",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "car 54, where are you?",
+            "the love god?"
+          ],
+          "retrieved_paper_ids": [
+            "main hoon na",
+            "de dana dan",
+            "short cuts",
+            "3 idiots",
+            "the invisible man returns"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_bdd27c08a3c5",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "breakin' all the rules",
+            "commandments"
+          ],
+          "retrieved_paper_ids": [
+            "commandments",
+            "breakin' all the rules",
+            "daniel",
+            "no reservations",
+            "50/50"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_173064d35369",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "pump up the volume",
+            "times square"
+          ],
+          "retrieved_paper_ids": [
+            "50/50",
+            "millions",
+            "360",
+            "the edge of love",
+            "the company men"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_870d97fb0ebc",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charley varrick",
+            "cobra"
+          ],
+          "retrieved_paper_ids": [
+            "cobra",
+            "wild wild west",
+            "pride and glory",
+            "diamonds are forever",
+            "five fingers"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_88f5be2ee577",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "goldeneye",
+            "hulk"
+          ],
+          "retrieved_paper_ids": [
+            "mutants",
+            "five fingers",
+            "frantic",
+            "hulk",
+            "the twelve chairs"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c9393f7c4d23",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the food of the gods",
+            "valdez is coming"
+          ],
+          "retrieved_paper_ids": [
+            "chilly scenes of winter",
+            "the food of the gods",
+            "five fingers",
+            "the defender",
+            "lemony snicket's a series of unfortunate events"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_6d9971b5bc9c",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "brooklyn rules",
+            "the wolf of wall street"
+          ],
+          "retrieved_paper_ids": [
+            "brooklyn rules",
+            "the wolf of wall street",
+            "until the end of the world",
+            "wild wild west",
+            "the turin horse"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_fbe622adb8cc",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "shanghai noon",
+            "showtime"
+          ],
+          "retrieved_paper_ids": [
+            "decoys",
+            "showtime",
+            "until the end of the world",
+            "dick tracy",
+            "captains of the clouds"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c2eb707984a1",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oklahoma!",
+            "starlift"
+          ],
+          "retrieved_paper_ids": [
+            "les girls",
+            "nine",
+            "them!",
+            "starlift",
+            "kes"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_56fdcc826ff3",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kites",
+            "la mujer de mi hermano"
+          ],
+          "retrieved_paper_ids": [
+            "the mambo kings",
+            "la mujer de mi hermano",
+            "kites",
+            "cobra",
+            "maborosi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8057ee3f0824",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "carmen comes home",
+            "twenty-four eyes"
+          ],
+          "retrieved_paper_ids": [
+            "twenty-four eyes",
+            "carmen comes home",
+            "millions",
+            "sound of the mountain",
+            "the twelve tasks of asterix"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ed7161c28423",
+          "qtype": "directed_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "infestation",
+            "the battle of shaker heights"
+          ],
+          "retrieved_paper_ids": [
+            "infestation",
+            "the battle of shaker heights",
+            "striking distance",
+            "superhero movie",
+            "escape plan"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_db162bdcbda9",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "primeval",
+            "the replacements"
+          ],
+          "retrieved_paper_ids": [
+            "the replacements",
+            "black dragons",
+            "sleepover",
+            "the lone ranger and the lost city of gold",
+            "no reservations"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e0fba17fa7cd",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "godzilla 2000",
+            "godzilla vs. megaguirus"
+          ],
+          "retrieved_paper_ids": [
+            "godzilla 2000",
+            "godzilla vs. megaguirus",
+            "cobra",
+            "brother",
+            "collision course"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_609792f02b0e",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "betty blue",
+            "trouble every day"
+          ],
+          "retrieved_paper_ids": [
+            "chalet girl",
+            "the unknown woman",
+            "betty blue",
+            "trouble every day",
+            "querelle"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_649794686890",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "it's a boy girl thing",
+            "kinky boots"
+          ],
+          "retrieved_paper_ids": [
+            "kinky boots",
+            "it's a boy girl thing",
+            "shane",
+            "showtime",
+            "rebel without a cause"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_60720b83c446",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hell and high water",
+            "hold back the dawn"
+          ],
+          "retrieved_paper_ids": [
+            "trio",
+            "hell and high water",
+            "j'accuse!",
+            "five fingers",
+            "verboten!"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_70140523fcbd",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the man with the golden arm",
+            "walk on the wild side"
+          ],
+          "retrieved_paper_ids": [
+            "the defender",
+            "the man with the golden arm",
+            "the children of noisy village",
+            "walk on the wild side",
+            "den ofrivillige golfaren"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e848d9cc97df",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "monster-in-law",
+            "over the hedge"
+          ],
+          "retrieved_paper_ids": [
+            "wild wild west",
+            "awakenings",
+            "the whole ten yards",
+            "the lion king",
+            "monsters"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_86963c96ebe0",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "history is made at night",
+            "viva villa!"
+          ],
+          "retrieved_paper_ids": [
+            "viva villa!",
+            "the wolf of wall street",
+            "a pistol for ringo",
+            "le havre",
+            "the trials of oscar wilde"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_74413e933d1e",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hello again",
+            "shining through"
+          ],
+          "retrieved_paper_ids": [
+            "shining through",
+            "the lookout",
+            "hello again",
+            "the limits of control",
+            "afterwards"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f3151ecaca2b",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the cruel sea",
+            "the story of esther costello"
+          ],
+          "retrieved_paper_ids": [
+            "the cruel sea",
+            "mutants",
+            "millions",
+            "the wolf of wall street",
+            "gandahar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_868d84ae1da8",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "open windows",
+            "the girlfriend experience"
+          ],
+          "retrieved_paper_ids": [
+            "conviction",
+            "p.s.",
+            "the frozen ground",
+            "the girlfriend experience",
+            "gandahar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_854e7e39133f",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a walk among the tombstones",
+            "the lookout"
+          ],
+          "retrieved_paper_ids": [
+            "the lookout",
+            "a walk among the tombstones",
+            "shane",
+            "i, frankenstein",
+            "scoop"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_62e17a8664f5",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "klimt",
+            "shattered image"
+          ],
+          "retrieved_paper_ids": [
+            "shattered image",
+            "rudo y cursi",
+            "klimt",
+            "100 rifles",
+            "salvador"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d1bc400aaf5a",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mean girls",
+            "the ladies man"
+          ],
+          "retrieved_paper_ids": [
+            "mean girls",
+            "crimes and misdemeanors",
+            "this is england",
+            "commandments",
+            "the bonfire of the vanities"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9ac4e667f41a",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "p.s.",
+            "roger dodger"
+          ],
+          "retrieved_paper_ids": [
+            "p.s.",
+            "kid millions",
+            "dick tracy",
+            "wild things",
+            "short cuts"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9c07a2f57d2d",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "c.o.g.",
+            "easier with practice"
+          ],
+          "retrieved_paper_ids": [
+            "c.o.g.",
+            "easier with practice",
+            "point break",
+            "lake placid",
+            "escape plan"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3760c00e459c",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "don't worry, i'm fine",
+            "welcome"
+          ],
+          "retrieved_paper_ids": [
+            "welcome",
+            "don't worry, i'm fine",
+            "mutants",
+            "the fire within",
+            "the oranges"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_7d342c3ea190",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "afghan luke",
+            "trailer park boys"
+          ],
+          "retrieved_paper_ids": [
+            "afghan luke",
+            "trailer park boys",
+            "rammbock",
+            "death proof",
+            "commandments"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_14e8d21dfe7e",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "shirin in love",
+            "somewhere in the city"
+          ],
+          "retrieved_paper_ids": [
+            "two women",
+            "shirin in love",
+            "somewhere in the city",
+            "the adventures of baron munchausen",
+            "13"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_26189868e082",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "smoke signals",
+            "the business of fancydancing"
+          ],
+          "retrieved_paper_ids": [
+            "the business of fancydancing",
+            "the adventures of baron munchausen",
+            "shane",
+            "the accidental husband",
+            "smoke signals"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_93a02e845936",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beyond the lights",
+            "the great debaters"
+          ],
+          "retrieved_paper_ids": [
+            "race with the devil",
+            "beyond the lights",
+            "the great debaters",
+            "50/50",
+            "room at the top"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d94565206e44",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "my favorite brunette",
+            "road to rio"
+          ],
+          "retrieved_paper_ids": [
+            "road to rio",
+            "superhero movie",
+            "the baader meinhof complex",
+            "rammbock",
+            "norbit"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e7413862cac9",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a funny thing happened on the way to the forum",
+            "the wrong box"
+          ],
+          "retrieved_paper_ids": [
+            "the wrong box",
+            "at long last love",
+            "escape plan",
+            "memory",
+            "cobra"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_489ca53dde8f",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "breathless",
+            "the public woman"
+          ],
+          "retrieved_paper_ids": [
+            "the public woman",
+            "breathless",
+            "les girls",
+            "the twelve tasks of asterix",
+            "unbroken"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9c40104caf67",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bunny and the bull",
+            "paddington"
+          ],
+          "retrieved_paper_ids": [
+            "paddington",
+            "the lion king",
+            "bunny and the bull",
+            "nightwing",
+            "apt pupil"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d38048c0608a",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "high life",
+            "niagara motel"
+          ],
+          "retrieved_paper_ids": [
+            "niagara motel",
+            "high life",
+            "harry potter and the half-blood prince",
+            "becket",
+            "the bonfire of the vanities"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_6c21e1f2374e",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "battleship",
+            "stretch"
+          ],
+          "retrieved_paper_ids": [
+            "stretch",
+            "battleship",
+            "the bonfire of the vanities",
+            "awakenings",
+            "the sign of the cross"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_0a6700538f36",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "southern comfort",
+            "the onion field"
+          ],
+          "retrieved_paper_ids": [
+            "the onion field",
+            "southern comfort",
+            "race with the devil",
+            "she's the man",
+            "the adventures of baron munchausen"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_696f1589ebf0",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bright victory",
+            "home of the brave"
+          ],
+          "retrieved_paper_ids": [
+            "alter egos",
+            "10",
+            "enemy at the gates",
+            "escape plan",
+            "afterwards"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c61012b0ab38",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "humanoids from the deep",
+            "the night that panicked america"
+          ],
+          "retrieved_paper_ids": [
+            "humanoids from the deep",
+            "wild wild west",
+            "50/50",
+            "seven psychopaths",
+            "pride and glory"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_11a63c99a989",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "100 feet",
+            "s. darko"
+          ],
+          "retrieved_paper_ids": [
+            "s. darko",
+            "the equalizer",
+            "50/50",
+            "something borrowed",
+            "wild wild west"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_2624dd6ed8c8",
+          "qtype": "starred_actors->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ringmaster",
+            "the defender"
+          ],
+          "retrieved_paper_ids": [
+            "ringmaster",
+            "the defender",
+            "greenberg",
+            "race with the devil",
+            "communion"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b4eefbe2a3d6",
+          "qtype": "directed_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the blue light",
+            "triumph of the will"
+          ],
+          "retrieved_paper_ids": [
+            "triumph of the will",
+            "the blue light",
+            "under the same moon",
+            "the baader meinhof complex",
+            "race with the devil"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d5c026a9fdc1",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "3 ninjas",
+            "eat a bowl of tea"
+          ],
+          "retrieved_paper_ids": [
+            "once upon a time in china and america",
+            "3 ninjas",
+            "black mask",
+            "wild things",
+            "wild wild west"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_bed9c20da5cc",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "down by law",
+            "the tiger and the snow"
+          ],
+          "retrieved_paper_ids": [
+            "short cuts",
+            "the tiger and the snow",
+            "awakenings",
+            "down by law",
+            "seven psychopaths"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_5b097faad31a",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "queen of blood",
+            "the night walker"
+          ],
+          "retrieved_paper_ids": [
+            "queen of blood",
+            "mary reilly",
+            "torture garden",
+            "the night walker",
+            "july rhapsody"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_819e80a8c4df",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "another earth",
+            "hurt"
+          ],
+          "retrieved_paper_ids": [
+            "another earth",
+            "hurt",
+            "crimes and misdemeanors",
+            "macarthur",
+            "until the end of the world"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_4c8a37c06891",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aloft",
+            "the milk of sorrow"
+          ],
+          "retrieved_paper_ids": [
+            "the holy girl",
+            "aloft",
+            "rudo y cursi",
+            "stretch",
+            "the fall of the roman empire"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_caaa767c3c1a",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "god's gun",
+            "sabata"
+          ],
+          "retrieved_paper_ids": [
+            "sabata",
+            "god's gun",
+            "phenomena",
+            "teorema",
+            "plot of fear"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_83a21a1a089b",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aaltra",
+            "mammuth"
+          ],
+          "retrieved_paper_ids": [
+            "aaltra",
+            "indochine",
+            "monsieur ibrahim",
+            "the adventures of picasso",
+            "mutants"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ba431bd40384",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "murk",
+            "stealing rembrandt"
+          ],
+          "retrieved_paper_ids": [
+            "murk",
+            "stealing rembrandt",
+            "the adventures of picasso",
+            "the cruel sea",
+            "the green butchers"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_06009f5bc76e",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "superhero movie",
+            "the specials"
+          ],
+          "retrieved_paper_ids": [
+            "superhero movie",
+            "28 hotel rooms",
+            "gunga din",
+            "shirin in love",
+            "dick tracy"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b63d878e39df",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the break-up",
+            "the wedding ringer"
+          ],
+          "retrieved_paper_ids": [
+            "the wedding ringer",
+            "50/50",
+            "point break",
+            "starlift",
+            "charley varrick"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b7bcae374d53",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mondo cane",
+            "plot of fear"
+          ],
+          "retrieved_paper_ids": [
+            "plot of fear",
+            "mondo cane",
+            "two women",
+            "cobra",
+            "sabata"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b73d54672228",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "constantine",
+            "mindhunters"
+          ],
+          "retrieved_paper_ids": [
+            "mindhunters",
+            "constantine",
+            "norbit",
+            "rubin and ed",
+            "verboten!"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_e05abd7ecbfe",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "cherry blossoms",
+            "enlightenment guaranteed"
+          ],
+          "retrieved_paper_ids": [
+            "cherry blossoms",
+            "the sword of doom",
+            "declaration of war",
+            "enlightenment guaranteed",
+            "le havre"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c3f85488fa9e",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "captains of the clouds",
+            "conflict"
+          ],
+          "retrieved_paper_ids": [
+            "the bourne ultimatum",
+            "house of usher",
+            "runner runner",
+            "the iron horse",
+            "hud"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3a9f6a25a387",
+          "qtype": "directed_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "diggers",
+            "motherhood"
+          ],
+          "retrieved_paper_ids": [
+            "diggers",
+            "motherhood",
+            "no reservations",
+            "the fountain",
+            "the lives of others"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3e623eff9f33",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "rubin and ed",
+            "the beaver trilogy"
+          ],
+          "retrieved_paper_ids": [
+            "kes",
+            "the beaver trilogy",
+            "death proof",
+            "torture garden",
+            "wild things"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8ba48fa5ef3d",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a tale of the wind",
+            "the spanish earth"
+          ],
+          "retrieved_paper_ids": [
+            "the spanish earth",
+            "a tale of the wind",
+            "this is england",
+            "the invisible man returns",
+            "jaws 3-d"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_98c5f540bfd0",
+          "qtype": "directed_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "palookaville",
+            "the emperor's new clothes"
+          ],
+          "retrieved_paper_ids": [
+            "palookaville",
+            "annie hall",
+            "avalanche",
+            "127 hours",
+            "the year my voice broke"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_3c2dc79c7c90",
+          "qtype": "directed_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a little bit of heaven",
+            "the woodsman"
+          ],
+          "retrieved_paper_ids": [
+            "the woodsman",
+            "millions",
+            "querelle",
+            "nine",
+            "the sign of the cross"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_2d04a8eb79c2",
+          "qtype": "starred_actors->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "joyful noise",
+            "the last five years"
+          ],
+          "retrieved_paper_ids": [
+            "the crying game",
+            "127 hours",
+            "moonraker",
+            "empire of the sun",
+            "thunderball"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_78e744fbaea7",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "king ralph",
+            "nuns on the run"
+          ],
+          "retrieved_paper_ids": [
+            "cobra",
+            "nuns on the run",
+            "le havre",
+            "indochine",
+            "king ralph"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f1f60d158501",
+          "qtype": "starred_actors->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "breathless",
+            "the public woman"
+          ],
+          "retrieved_paper_ids": [
+            "the public woman",
+            "breathless",
+            "unbroken",
+            "le havre",
+            "declaration of war"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f02c4b823fa8",
+          "qtype": "starred_actors->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "once upon a time in the midlands",
+            "raining stones"
+          ],
+          "retrieved_paper_ids": [
+            "raining stones",
+            "once upon a time in the midlands",
+            "127 hours",
+            "poison",
+            "cobra"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_05fda8c5d4b3",
+          "qtype": "written_by->starred_actors",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "god is brazilian",
+            "orfeu"
+          ],
+          "retrieved_paper_ids": [
+            "god is brazilian",
+            "orfeu",
+            "la ciénaga",
+            "salvador",
+            "vacas"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_d67be64fcb86",
+          "qtype": "written_by->directed_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fire birds",
+            "the experts"
+          ],
+          "retrieved_paper_ids": [
+            "3 needles",
+            "fire birds",
+            "the tingler",
+            "threads",
+            "billy liar"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_1f8c5e322489",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "200 motels",
+            "the space movie"
+          ],
+          "retrieved_paper_ids": [
+            "the space movie",
+            "poison",
+            "200 motels",
+            "funny about love",
+            "tough guys don't dance"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_28743e2d6819",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "come to the stable",
+            "dead ringer"
+          ],
+          "retrieved_paper_ids": [
+            "querelle",
+            "millions",
+            "aaltra",
+            "mon oncle",
+            "the oxford murders"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_48e7acd529fd",
+          "qtype": "written_by->release_year",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "8 mile",
+            "the mod squad"
+          ],
+          "retrieved_paper_ids": [
+            "8 mile",
+            "quicksilver",
+            "the mod squad",
+            "silver bullet",
+            "chilly scenes of winter"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f73fb6d5affb",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "circus",
+            "lost christmas"
+          ],
+          "retrieved_paper_ids": [
+            "lost christmas",
+            "circus",
+            "eden log",
+            "communion",
+            "c.o.g."
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9df65438733a",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "arbitrage",
+            "the informers"
+          ],
+          "retrieved_paper_ids": [
+            "arbitrage",
+            "crimes and misdemeanors",
+            "wargames",
+            "the informers",
+            "lemony snicket's a series of unfortunate events"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_55241398bee7",
+          "qtype": "written_by->written_by",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dick tracy",
+            "dick tracy vs. cueball"
+          ],
+          "retrieved_paper_ids": [
+            "such good friends",
+            "dick tracy",
+            "dick tracy vs. cueball",
+            "shooting fish",
+            "ishtar"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_fe1ac39454e4",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "my baby's daddy",
+            "the watermelon woman"
+          ],
+          "retrieved_paper_ids": [
+            "the watermelon woman",
+            "my baby's daddy",
+            "indochine",
+            "such good friends",
+            "cherry blossoms"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_f734ba455e01",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bugsy malone",
+            "zapped!"
+          ],
+          "retrieved_paper_ids": [
+            "zapped!",
+            "bugsy malone",
+            "macao",
+            "spiritual kung fu",
+            "against the dark"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c41701f00b42",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oz the great and powerful",
+            "the whole ten yards"
+          ],
+          "retrieved_paper_ids": [
+            "the whole ten yards",
+            "until the end of the world",
+            "oz the great and powerful",
+            "love and other catastrophes",
+            "kes"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9ee037b09f24",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "silver bullet",
+            "the nutcracker prince"
+          ],
+          "retrieved_paper_ids": [
+            "the nutcracker prince",
+            "mean girls",
+            "afterwards",
+            "the fighting temptations",
+            "mulholland falls"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_cfc6835d8446",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "j'accuse!",
+            "lucrezia borgia"
+          ],
+          "retrieved_paper_ids": [
+            "j'accuse!",
+            "ginger snaps",
+            "kes",
+            "g",
+            "alter egos"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8c06ea29a707",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "night and day",
+            "that hagen girl"
+          ],
+          "retrieved_paper_ids": [
+            "crimes and misdemeanors",
+            "127 hours",
+            "mulholland falls",
+            "phantom",
+            "tough guys don't dance"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_70fd1da25722",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dog days",
+            "import/export"
+          ],
+          "retrieved_paper_ids": [
+            "dog days",
+            "import/export",
+            "the baader meinhof complex",
+            "jud süß",
+            "the lives of others"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_93d1baad7750",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "central station",
+            "linha de passe"
+          ],
+          "retrieved_paper_ids": [
+            "linha de passe",
+            "central station",
+            "orfeu",
+            "the adventures of picasso",
+            "open windows"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9c001d541768",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "indochine",
+            "man to man"
+          ],
+          "retrieved_paper_ids": [
+            "man to man",
+            "indochine",
+            "the white sound",
+            "frantic",
+            "the fire within"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_940881a3fce7",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "all the fine young cannibals",
+            "kitty"
+          ],
+          "retrieved_paper_ids": [
+            "nine",
+            "in a world...",
+            "monsters",
+            "salmonberries",
+            "the adventures of picasso"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_8f779bc5273e",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a summer's tale",
+            "pauline at the beach"
+          ],
+          "retrieved_paper_ids": [
+            "pauline at the beach",
+            "a summer's tale",
+            "mutants",
+            "lullaby",
+            "the verdict"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_b15f243329c5",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "grace of monaco",
+            "la vie en rose"
+          ],
+          "retrieved_paper_ids": [
+            "la vie en rose",
+            "aaltra",
+            "mon oncle",
+            "oceans",
+            "indochine"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_06d9b472524d",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the match king",
+            "this is the night"
+          ],
+          "retrieved_paper_ids": [
+            "this is the night",
+            "the match king",
+            "beyond",
+            "sabata",
+            "samsara"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_20767c8a0817",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the grandfather",
+            "tristana"
+          ],
+          "retrieved_paper_ids": [
+            "the grandfather",
+            "the adventures of picasso",
+            "the spanish earth",
+            "eréndira",
+            "open windows"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_96910007c221",
+          "qtype": "starred_actors->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "maborosi",
+            "pistol opera"
+          ],
+          "retrieved_paper_ids": [
+            "pistol opera",
+            "maborosi",
+            "audition",
+            "carmen comes home",
+            "rusty knife"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_ce63bc32796a",
+          "qtype": "directed_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "place vendôme",
+            "the adversary"
+          ],
+          "retrieved_paper_ids": [
+            "la ciénaga",
+            "transamerica",
+            "rudo y cursi",
+            "the adventures of picasso",
+            "no reservations"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_56203a0133d0",
+          "qtype": "written_by->in_language",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "someday this pain will be useful to you",
+            "the city of your final destination"
+          ],
+          "retrieved_paper_ids": [
+            "the city of your final destination",
+            "hey ram",
+            "the crying game",
+            "127 hours",
+            "kites"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_c50dcda90d0b",
+          "qtype": "starred_actors->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a canterbury tale",
+            "pandora and the flying dutchman"
+          ],
+          "retrieved_paper_ids": [
+            "she's the man",
+            "the last of sheila",
+            "samsara",
+            "sweet land",
+            "a canterbury tale"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_48666f8b3cf5",
+          "qtype": "directed_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "all's faire in love",
+            "keeping up with the steins"
+          ],
+          "retrieved_paper_ids": [
+            "keeping up with the steins",
+            "all's faire in love",
+            "scoop",
+            "new year's eve",
+            "u.s. marshals"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "metaqa2h_9bd39ca2de1e",
+          "qtype": "written_by->has_genre",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oceans",
+            "winged migration"
+          ],
+          "retrieved_paper_ids": [
+            "oceans",
+            "poison",
+            "le havre",
+            "winged migration",
+            "afterwards"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

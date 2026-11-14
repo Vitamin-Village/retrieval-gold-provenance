@@ -1,0 +1,6063 @@
+{
+  "benchmark": "external/2wiki/comp200/qa.jsonl",
+  "n_qa": 200,
+  "top_k": 5,
+  "systems": [
+    "hipporag2"
+  ],
+  "metric_defs": {
+    "hit_at_k": "single gold => contained in top-K; multi-hop => BOTH gold contained",
+    "mrr": "single => 1/rank of gold; multi-hop => mean of the two golds' reciprocal ranks",
+    "answer_span_recall_at_k": "fraction of evidence snippets found in top-K passage text (text-based, KG-independent)",
+    "bridge_coverage_at_k": "multi-hop only: 1 iff both gold papers in top-K"
+  },
+  "results": {
+    "hipporag2": {
+      "summary": {
+        "n_qa": 200,
+        "overall": {
+          "hit_at_k": 0.725,
+          "mrr": 0.6010833333333334,
+          "answer_span_recall_at_k": 0.86,
+          "bridge_coverage_at_k": 0.725,
+          "n_multihop": 200
+        },
+        "by_qtype": {
+          "compositional": {
+            "n_qa": 200,
+            "hit_at_k": 0.725,
+            "mrr": 0.6010833333333334,
+            "answer_span_recall_at_k": 0.86,
+            "bridge_coverage_at_k": 0.725
+          }
+        },
+        "by_domain": {
+          "unknown": {
+            "n_qa": 200,
+            "hit_at_k": 0.725,
+            "mrr": 0.6010833333333334,
+            "answer_span_recall_at_k": 0.86,
+            "bridge_coverage_at_k": 0.725
+          }
+        },
+        "per_qa": {
+          "qa_id": [
+            "ba5b86880bdd11eba7f7acde48001122",
+            "50a388f20bde11eba7f7acde48001122",
+            "7d0964160bd911eba7f7acde48001122",
+            "afcff22e0bda11eba7f7acde48001122",
+            "49637d220bd911eba7f7acde48001122",
+            "c6b372a60bdd11eba7f7acde48001122",
+            "69b5d9640bdc11eba7f7acde48001122",
+            "e8ab96900bdd11eba7f7acde48001122",
+            "4554d82a0bd911eba7f7acde48001122",
+            "d85864ee0bdd11eba7f7acde48001122",
+            "c4a3fde40bda11eba7f7acde48001122",
+            "3ce3c11a0bde11eba7f7acde48001122",
+            "f7d085400bdd11eba7f7acde48001122",
+            "bd80de220bdc11eba7f7acde48001122",
+            "0464f5040bdc11eba7f7acde48001122",
+            "296eeafa0bda11eba7f7acde48001122",
+            "74f39a760bde11eba7f7acde48001122",
+            "534cb7600bdc11eba7f7acde48001122",
+            "5f2bb1060bd911eba7f7acde48001122",
+            "a9d6c4e40bdd11eba7f7acde48001122",
+            "7a8cb2f20bdd11eba7f7acde48001122",
+            "71cc6f3a0bde11eba7f7acde48001122",
+            "25072e8e0bdd11eba7f7acde48001122",
+            "db0ea97a0bdb11eba7f7acde48001122",
+            "1e71fb080bdd11eba7f7acde48001122",
+            "2e8f23e80bde11eba7f7acde48001122",
+            "f97902d60bd911eba7f7acde48001122",
+            "c7784ed00bda11eba7f7acde48001122",
+            "0f0c6f320bdc11eba7f7acde48001122",
+            "f718f7080bd911eba7f7acde48001122",
+            "eb9a4b7c0bdc11eba7f7acde48001122",
+            "a994c54e0bdd11eba7f7acde48001122",
+            "7c58eba00bdd11eba7f7acde48001122",
+            "7edd92340bda11eba7f7acde48001122",
+            "f9c3419e0bdd11eba7f7acde48001122",
+            "f5e3b9ca0bdb11eba7f7acde48001122",
+            "abc451060bdb11eba7f7acde48001122",
+            "ad4195740bdc11eba7f7acde48001122",
+            "6515bb800bdd11eba7f7acde48001122",
+            "161e9e380bde11eba7f7acde48001122",
+            "577638aa0bde11eba7f7acde48001122",
+            "065f8bac0bdd11eba7f7acde48001122",
+            "bac99ab40bd911eba7f7acde48001122",
+            "4b1b91720bde11eba7f7acde48001122",
+            "d6502e780bda11eba7f7acde48001122",
+            "b8407b060bdd11eba7f7acde48001122",
+            "1d4198820bde11eba7f7acde48001122",
+            "3c213a580bdb11eba7f7acde48001122",
+            "051f62de0bde11eba7f7acde48001122",
+            "3b2aa53e0bdc11eba7f7acde48001122",
+            "aca606aa0bdb11eba7f7acde48001122",
+            "f5d908320bda11eba7f7acde48001122",
+            "64d2a3ae0bdd11eba7f7acde48001122",
+            "83f6b9280bdd11eba7f7acde48001122",
+            "ccf4967c0bdd11eba7f7acde48001122",
+            "22457b2c0bda11eba7f7acde48001122",
+            "ce98e6620bd911eba7f7acde48001122",
+            "b886bb8e0bdd11eba7f7acde48001122",
+            "bb73c78a0bdb11eba7f7acde48001122",
+            "e026fe600bdd11eba7f7acde48001122",
+            "3d03e0260bde11eba7f7acde48001122",
+            "f835afce0bdd11eba7f7acde48001122",
+            "1dd33f080bde11eba7f7acde48001122",
+            "3525282c0bdb11eba7f7acde48001122",
+            "0eb5ac600bdc11eba7f7acde48001122",
+            "431901b20bde11eba7f7acde48001122",
+            "a8495c7e0bdb11eba7f7acde48001122",
+            "b124d8440bdd11eba7f7acde48001122",
+            "ee212a820bdc11eba7f7acde48001122",
+            "bda4c9080bdd11eba7f7acde48001122",
+            "604df5e40bde11eba7f7acde48001122",
+            "7728d6d80bdb11eba7f7acde48001122",
+            "fb971ec60bda11eba7f7acde48001122",
+            "a9f5546e0bdc11eba7f7acde48001122",
+            "21692f6a0bde11eba7f7acde48001122",
+            "614d88560bde11eba7f7acde48001122",
+            "f6add71c0bdd11eba7f7acde48001122",
+            "fd8e7e140bd911eba7f7acde48001122",
+            "6955589e0bde11eba7f7acde48001122",
+            "7ab091520bda11eba7f7acde48001122",
+            "e73b5e7a0bd911eba7f7acde48001122",
+            "43828fba0bde11eba7f7acde48001122",
+            "52e07b180bdc11eba7f7acde48001122",
+            "704c7d820bdc11eba7f7acde48001122",
+            "2e84e4680bda11eba7f7acde48001122",
+            "8a733da60bda11eba7f7acde48001122",
+            "55a00d6c0bd911eba7f7acde48001122",
+            "e2e9a9560bdb11eba7f7acde48001122",
+            "ab6cf1900bdb11eba7f7acde48001122",
+            "d9c894ec0bd911eba7f7acde48001122",
+            "c08a052e0bd911eba7f7acde48001122",
+            "6b55ac320bdb11eba7f7acde48001122",
+            "a703e1160bdd11eba7f7acde48001122",
+            "bcd01cde0bd911eba7f7acde48001122",
+            "9d6f4f4c0bdc11eba7f7acde48001122",
+            "c9e655000bd911eba7f7acde48001122",
+            "cf918c0c0bdb11eba7f7acde48001122",
+            "eecbf0620bdb11eba7f7acde48001122",
+            "2dba81d80bde11eba7f7acde48001122",
+            "70f2e9ae0bde11eba7f7acde48001122",
+            "173ae38a0bde11eba7f7acde48001122",
+            "c226ad120bdc11eba7f7acde48001122",
+            "93c09bfa0bdb11eba7f7acde48001122",
+            "0a9f880a0bda11eba7f7acde48001122",
+            "1a2865da0bda11eba7f7acde48001122",
+            "a9875b6e0bda11eba7f7acde48001122",
+            "05ead7ea0bdc11eba7f7acde48001122",
+            "09ce0d5c0bda11eba7f7acde48001122",
+            "09558be00bdd11eba7f7acde48001122",
+            "ee0650aa0bdb11eba7f7acde48001122",
+            "d7d4e6b20bda11eba7f7acde48001122",
+            "099f34280bda11eba7f7acde48001122",
+            "6f115d280bde11eba7f7acde48001122",
+            "597a839c0bdc11eba7f7acde48001122",
+            "db637b380bdd11eba7f7acde48001122",
+            "f0627cc80bdd11eba7f7acde48001122",
+            "11e2cf680bdb11eba7f7acde48001122",
+            "769106c40bda11eba7f7acde48001122",
+            "35cfb78a0bde11eba7f7acde48001122",
+            "6d504b8e0bde11eba7f7acde48001122",
+            "a90475fc0bdd11eba7f7acde48001122",
+            "6e2336660bde11eba7f7acde48001122",
+            "a87903f00bdd11eba7f7acde48001122",
+            "6590ada60bdb11eba7f7acde48001122",
+            "9ab545800bdd11eba7f7acde48001122",
+            "3717c0600bde11eba7f7acde48001122",
+            "588ade020bda11eba7f7acde48001122",
+            "95dcb2e60bdd11eba7f7acde48001122",
+            "c6ed0ee60bdb11eba7f7acde48001122",
+            "914b452c0bdc11eba7f7acde48001122",
+            "d4a10cfa0bda11eba7f7acde48001122",
+            "74207b920bdd11eba7f7acde48001122",
+            "3f20ed380bdc11eba7f7acde48001122",
+            "4e0e82c80bdd11eba7f7acde48001122",
+            "8a7214a20bdb11eba7f7acde48001122",
+            "6bf3797e0bdd11eba7f7acde48001122",
+            "8abaaafe0bdc11eba7f7acde48001122",
+            "08227b740bde11eba7f7acde48001122",
+            "36960bb00bde11eba7f7acde48001122",
+            "b62550940bdd11eba7f7acde48001122",
+            "d9f699040bda11eba7f7acde48001122",
+            "4018d3ac0bde11eba7f7acde48001122",
+            "67d94a440bdd11eba7f7acde48001122",
+            "1912aaac0bda11eba7f7acde48001122",
+            "01f233340bde11eba7f7acde48001122",
+            "0e18c6be0bde11eba7f7acde48001122",
+            "edb5bc2e0bdd11eba7f7acde48001122",
+            "944d41900bdb11eba7f7acde48001122",
+            "0a2d55960bda11eba7f7acde48001122",
+            "c76da93a0bda11eba7f7acde48001122",
+            "487df4740bdd11eba7f7acde48001122",
+            "896843220bdd11eba7f7acde48001122",
+            "4a8ffd360bdb11eba7f7acde48001122",
+            "b1a94a9a0bdb11eba7f7acde48001122",
+            "996b6cd60bdd11eba7f7acde48001122",
+            "13476e200bdd11eba7f7acde48001122",
+            "a33b25760bdd11eba7f7acde48001122",
+            "df9c17540bd911eba7f7acde48001122",
+            "1d3a02a40bdc11eba7f7acde48001122",
+            "7d9d5d720bdb11eba7f7acde48001122",
+            "7620acb80bde11eba7f7acde48001122",
+            "967b39ca0bdd11eba7f7acde48001122",
+            "b4999c400bdc11eba7f7acde48001122",
+            "1fed480c0bdd11eba7f7acde48001122",
+            "80be09780bdd11eba7f7acde48001122",
+            "aa0bb4660bdc11eba7f7acde48001122",
+            "5a3f89260bdc11eba7f7acde48001122",
+            "fb95c0000bdd11eba7f7acde48001122",
+            "b8cf608c0bdd11eba7f7acde48001122",
+            "4175aadc0bdd11eba7f7acde48001122",
+            "ca787aa80bdd11eba7f7acde48001122",
+            "391186b00bdb11eba7f7acde48001122",
+            "1b79de7c0bdb11eba7f7acde48001122",
+            "10b1efd80bdc11eba7f7acde48001122",
+            "c58a7e3e0bdc11eba7f7acde48001122",
+            "8d344f2e0bdc11eba7f7acde48001122",
+            "69cf04520bdc11eba7f7acde48001122",
+            "00c727580bde11eba7f7acde48001122",
+            "479265fa0bdc11eba7f7acde48001122",
+            "699c6cb00bda11eba7f7acde48001122",
+            "251db78c0bdb11eba7f7acde48001122",
+            "83bf3b5a0bd911eba7f7acde48001122",
+            "87b061a20bda11eba7f7acde48001122",
+            "e596b9500bdb11eba7f7acde48001122",
+            "f6e2b9280bdd11eba7f7acde48001122",
+            "73695ca80bda11eba7f7acde48001122",
+            "2de7f0e00bda11eba7f7acde48001122",
+            "b05e11340bdb11eba7f7acde48001122",
+            "5c67a4c00bde11eba7f7acde48001122",
+            "5cd23bea0bda11eba7f7acde48001122",
+            "dcfa30e80bda11eba7f7acde48001122",
+            "73b8967e0bda11eba7f7acde48001122",
+            "0e2fe3b40bdc11eba7f7acde48001122",
+            "74c24c8c0bde11eba7f7acde48001122",
+            "ad5795f80bdd11eba7f7acde48001122",
+            "e30064640bdd11eba7f7acde48001122",
+            "491a36140bdc11eba7f7acde48001122",
+            "8329478a0bd911eba7f7acde48001122",
+            "fab2aa100bdb11eba7f7acde48001122",
+            "7529522e0bde11eba7f7acde48001122"
+          ],
+          "hit_at_k": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "mrr": [
+            0.5,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.26666666666666666,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.625,
+            0.75,
+            0.5,
+            0.75,
+            0.1,
+            0.75,
+            0.41666666666666663,
+            0.75,
+            0.0,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.625,
+            0.5,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.625,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.16666666666666666,
+            0.75,
+            0.6,
+            0.75,
+            0.625,
+            0.6666666666666666,
+            0.25,
+            0.29166666666666663,
+            0.16666666666666666,
+            0.75,
+            0.41666666666666663,
+            0.29166666666666663,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.6666666666666666,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.5,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.625,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.5,
+            0.5,
+            0.16666666666666666,
+            0.625,
+            0.75,
+            0.75,
+            0.625,
+            0.375,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.16666666666666666,
+            0.75,
+            0.16666666666666666,
+            0.16666666666666666,
+            0.625,
+            0.75,
+            0.625,
+            0.16666666666666666,
+            0.375,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.5,
+            0.375,
+            0.75,
+            0.75,
+            0.41666666666666663,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.29166666666666663,
+            0.41666666666666663,
+            0.75,
+            0.75,
+            0.5,
+            0.125,
+            0.5,
+            0.5,
+            0.75,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.5,
+            0.6,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.6666666666666666,
+            0.75,
+            0.41666666666666663,
+            0.75,
+            0.5,
+            0.25,
+            0.29166666666666663,
+            0.75,
+            0.75,
+            0.25,
+            0.35,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.16666666666666666,
+            0.75,
+            0.35,
+            0.75,
+            0.375,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.6,
+            0.5,
+            0.5,
+            0.41666666666666663,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.625,
+            0.625,
+            0.75,
+            0.75,
+            0.75,
+            0.25,
+            0.35,
+            0.5
+          ],
+          "answer_span_recall_at_k": [
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5
+          ],
+          "bridge_coverage_at_k": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "multihop": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "system": "hipporag2"
+      },
+      "records": [
+        {
+          "qa_id": "ba5b86880bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bartolomeo ruspoli and khevenhüller-metsch",
+            "francesco ruspoli, 3rd prince of cerveteri"
+          ],
+          "retrieved_paper_ids": [
+            "bartolomeo ruspoli and khevenhüller-metsch",
+            "camillo ruspoli, duke of sueca",
+            "alessandro ruspoli, 4th prince of cerveteri",
+            "alessandro ruspoli, 2nd prince of cerveteri",
+            "francesco ruspoli, 8th prince of cerveteri"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "50a388f20bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eric young jr.",
+            "eric young (baseball)"
+          ],
+          "retrieved_paper_ids": [
+            "eric young (baseball)",
+            "eric young jr.",
+            "kevin young (basketball, born 1990)",
+            "pat young",
+            "charles young jr."
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7d0964160bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "only you (cee lo green song)",
+            "ceelo green"
+          ],
+          "retrieved_paper_ids": [
+            "only you (cee lo green song)",
+            "ceelo green",
+            "weng li-you",
+            "alex story (politician)",
+            "maggie hathaway"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "afcff22e0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the color of pomegranates",
+            "sergei parajanov"
+          ],
+          "retrieved_paper_ids": [
+            "the color of pomegranates",
+            "parajanov: the last spring",
+            "sergei parajanov",
+            "the legend of suram fortress",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "49637d220bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lila & eve",
+            "charles stone iii"
+          ],
+          "retrieved_paper_ids": [
+            "lila & eve",
+            "charles stone iii",
+            "chris matheson (screenwriter)",
+            "will brittain",
+            "jörn donner"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c6b372a60bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alessandro ruspoli, 9th prince of cerveteri",
+            "francesco ruspoli, 8th prince of cerveteri"
+          ],
+          "retrieved_paper_ids": [
+            "francesco ruspoli, 8th prince of cerveteri",
+            "alessandro ruspoli, 4th prince of cerveteri",
+            "alessandro ruspoli, 9th prince of cerveteri",
+            "alessandro ruspoli, 2nd prince of cerveteri",
+            "francesco ruspoli, 3rd prince of cerveteri"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "69b5d9640bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fight of the tertia (1952 film)",
+            "erik ode"
+          ],
+          "retrieved_paper_ids": [
+            "fight of the tertia (1952 film)",
+            "fight of the tertia (1929 film)",
+            "nathan juran",
+            "catrano catrani",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e8ab96900bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fox trap",
+            "jamie weston"
+          ],
+          "retrieved_paper_ids": [
+            "fox trap",
+            "kate lister",
+            "georg von trapp",
+            "melville shyer",
+            "max ophüls"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "4554d82a0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "det brinner ett ljus",
+            "stefan borsch"
+          ],
+          "retrieved_paper_ids": [
+            "i kväll jag tänder ett ljus",
+            "i kväll jag tänder ett ljus (album)",
+            "det brinner ett ljus",
+            "eva dahlgren",
+            "stefan borsch"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "d85864ee0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "catch my soul",
+            "patrick mcgoohan"
+          ],
+          "retrieved_paper_ids": [
+            "catch my soul",
+            "claudja barry",
+            "patrick mcgoohan",
+            "the karate kid (2010 film)",
+            "james ivory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c4a3fde40bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "april showers (1948 film)",
+            "james v. kern"
+          ],
+          "retrieved_paper_ids": [
+            "april showers (1948 film)",
+            "april showers (1923 film)",
+            "james basevi",
+            "ida may park",
+            "nathan juran"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3ce3c11a0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "roger de beaumont, 2nd earl of warwick",
+            "henry de beaumont, 1st earl of warwick"
+          ],
+          "retrieved_paper_ids": [
+            "roger de beaumont, 2nd earl of warwick",
+            "henry de beaumont, 5th earl of warwick",
+            "waleran de beaumont, 4th earl of warwick",
+            "margaret de beaumont, 7th countess of warwick",
+            "robert de beaumont, 2nd earl of leicester"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f7d085400bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "louis de vilmorin",
+            "philippe andré de vilmorin"
+          ],
+          "retrieved_paper_ids": [
+            "louis de vilmorin",
+            "philippe andré de vilmorin",
+            "elisa bailly de vilmorin",
+            "henry de vilmorin",
+            "mapie de toulouse-lautrec"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "bd80de220bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the loving women",
+            "fernando cortés"
+          ],
+          "retrieved_paper_ids": [
+            "the loving women",
+            "chris columbus (filmmaker)",
+            "fernando cortés",
+            "max ophüls",
+            "sam white (film producer)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0464f5040bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the witnesses",
+            "andré téchiné"
+          ],
+          "retrieved_paper_ids": [
+            "the witnesses",
+            "andré téchiné",
+            "denys desjardins",
+            "martin kunert",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "296eeafa0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the false step",
+            "gustaf gründgens"
+          ],
+          "retrieved_paper_ids": [
+            "the false step",
+            "gustaf gründgens",
+            "take one false step",
+            "chris columbus (filmmaker)",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "74f39a760bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "robert bertie, 3rd earl of lindsey",
+            "montagu bertie, 2nd earl of lindsey"
+          ],
+          "retrieved_paper_ids": [
+            "robert bertie, 3rd earl of lindsey",
+            "robert bertie, 4th duke of ancaster and kesteven",
+            "robert bertie, 1st earl of lindsey",
+            "robert bertie, 1st duke of ancaster and kesteven",
+            "elizabeth noel, viscountess campden"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "534cb7600bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "evil alien conquerors",
+            "chris matheson (screenwriter)"
+          ],
+          "retrieved_paper_ids": [
+            "evil alien conquerors",
+            "chris matheson (screenwriter)",
+            "julie delpy",
+            "henrik ruben genz",
+            "mikael håfström"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5f2bb1060bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "la yuma",
+            "florence jaugey"
+          ],
+          "retrieved_paper_ids": [
+            "la yuma",
+            "florence jaugey",
+            "julie delpy",
+            "james ivory",
+            "jörn donner"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a9d6c4e40bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "andrée yanacopoulo",
+            "hubert aquin"
+          ],
+          "retrieved_paper_ids": [
+            "andrée yanacopoulo",
+            "mohammed al-modiahki",
+            "hubert aquin",
+            "andrew upton",
+            "zelda fitzgerald"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7a8cb2f20bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "los secretos del buzón",
+            "catrano catrani"
+          ],
+          "retrieved_paper_ids": [
+            "los secretos del buzón",
+            "álvaro urquijo",
+            "enrique urquijo",
+            "catrano catrani",
+            "luis mandoki"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "71cc6f3a0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "musbah bint nasser",
+            "abdullah i of jordan"
+          ],
+          "retrieved_paper_ids": [
+            "musbah bint nasser",
+            "abdullah i of jordan",
+            "al-walid i",
+            "sermon of ali ibn husayn in damascus",
+            "sermon of zaynab bint ali in the court of yazid"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "25072e8e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the karate kid (2010 film)",
+            "harald zwart"
+          ],
+          "retrieved_paper_ids": [
+            "the karate kid (2010 film)",
+            "the karate kid",
+            "chad mcqueen",
+            "william zabka",
+            "tony o'dell"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "db0ea97a0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "undiscovered",
+            "meiert avis"
+          ],
+          "retrieved_paper_ids": [
+            "undiscovered",
+            "meiert avis",
+            "chris columbus (filmmaker)",
+            "max ophüls",
+            "jerzy skolimowski"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1e71fb080bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess béatrice of bourbon-two sicilies",
+            "prince ferdinand, duke of castro"
+          ],
+          "retrieved_paper_ids": [
+            "leopold, prince of salerno",
+            "princess urraca of bourbon-two sicilies",
+            "prince philip of bourbon-two sicilies",
+            "princess maría de los dolores of bourbon-two sicilies",
+            "princess béatrice of bourbon-two sicilies"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "2e8f23e80bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "publius aelius hadrianus afer",
+            "aelius hadrianus marullinus"
+          ],
+          "retrieved_paper_ids": [
+            "publius aelius hadrianus afer",
+            "aelius hadrianus marullinus",
+            "constantius chlorus",
+            "olaf iii of norway",
+            "humphrey de bohun, 3rd earl of hereford"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f97902d60bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "william nevill, 4th earl of abergavenny",
+            "henry nevill, 2nd earl of abergavenny"
+          ],
+          "retrieved_paper_ids": [
+            "george nevill, 1st earl of abergavenny",
+            "henry nevill, 2nd earl of abergavenny",
+            "william nevill, 4th earl of abergavenny",
+            "william nevill, 1st marquess of abergavenny",
+            "henry nevill, 3rd marquess of abergavenny"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c7784ed00bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "chha mana atha guntha",
+            "parbati ghose"
+          ],
+          "retrieved_paper_ids": [
+            "chha mana atha guntha",
+            "parbati ghose",
+            "nitin bose",
+            "t. s. nagabharana",
+            "melville shyer"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0f0c6f320bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "i'll say it",
+            "kathy griffin"
+          ],
+          "retrieved_paper_ids": [
+            "halldóra eldjárn",
+            "kristján eldjárn",
+            "say it (booty luv song)",
+            "say it, say it",
+            "say it ain't so"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.0,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f718f7080bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "leka, crown prince of albania (born 1982)",
+            "susan of albania"
+          ],
+          "retrieved_paper_ids": [
+            "leka, crown prince of albania (born 1982)",
+            "susan of albania",
+            "princess irene, duchess of aosta",
+            "ilir hoxha",
+            "princess theodora of greece and denmark (1906–1969)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "eb9a4b7c0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "breakaway (donna summer song)",
+            "donna summer"
+          ],
+          "retrieved_paper_ids": [
+            "breakaway (donna summer song)",
+            "donna summer",
+            "maggie hathaway",
+            "roger miller",
+            "janis joplin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a994c54e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "cursed for gold",
+            "olivier weber"
+          ],
+          "retrieved_paper_ids": [
+            "cursed for gold",
+            "olivier weber",
+            "chris columbus (filmmaker)",
+            "julie delpy",
+            "charles stone iii"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7c58eba00bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margarita pérez pallares",
+            "osvaldo hurtado"
+          ],
+          "retrieved_paper_ids": [
+            "margarita pérez pallares",
+            "osvaldo hurtado",
+            "heather d. gibson",
+            "fernando cortés",
+            "alan pownall"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7edd92340bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "carolina blues",
+            "leigh jason"
+          ],
+          "retrieved_paper_ids": [
+            "carolina blues",
+            "chris columbus (filmmaker)",
+            "leigh jason",
+            "john francis dillon (director)",
+            "sam white (film producer)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f9c3419e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hannah callowhill penn",
+            "william penn"
+          ],
+          "retrieved_paper_ids": [
+            "hannah callowhill penn",
+            "thomas penn",
+            "john penn (\"the american\")",
+            "william penn",
+            "andrée yanacopoulo"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f5e3b9ca0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "me and bobby mcgee",
+            "roger miller"
+          ],
+          "retrieved_paper_ids": [
+            "me and bobby mcgee",
+            "fred foster",
+            "janis joplin",
+            "today i started loving you again",
+            "chad mcqueen"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "abc451060bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fahd hariri",
+            "rafic hariri"
+          ],
+          "retrieved_paper_ids": [
+            "fahd hariri",
+            "rafic hariri",
+            "yazid ibn khalid al-qasri",
+            "brij sadanah",
+            "idris al-ma'mun"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ad4195740bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "octavie coudreau",
+            "henri coudreau"
+          ],
+          "retrieved_paper_ids": [
+            "henri coudreau",
+            "octavie coudreau",
+            "charles colmore grant, 7th baron de longueuil",
+            "richard lloyd george, 2nd earl lloyd-george of dwyfor",
+            "zelda fitzgerald"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6515bb800bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fort bliss (film)",
+            "claudia myers"
+          ],
+          "retrieved_paper_ids": [
+            "fort bliss (film)",
+            "oakes fegley",
+            "claudia myers",
+            "chris columbus (filmmaker)",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "161e9e380bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "that certain feeling",
+            "george gershwin"
+          ],
+          "retrieved_paper_ids": [
+            "that certain feeling",
+            "george gershwin",
+            "bing crosby",
+            "sergei rachmaninoff",
+            "janis joplin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "577638aa0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "şehzade murad",
+            "şehzade ahmet"
+          ],
+          "retrieved_paper_ids": [
+            "şehzade murad",
+            "şevkefza kadın",
+            "gülfem hatun",
+            "şehzade ahmet",
+            "bayezid ii"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "065f8bac0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the flashlight",
+            "ida may park"
+          ],
+          "retrieved_paper_ids": [
+            "the flashlight",
+            "ida may park",
+            "moonlighting (film)",
+            "james basevi",
+            "a man's country"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "bac99ab40bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "meritites i",
+            "khufu"
+          ],
+          "retrieved_paper_ids": [
+            "meritites i",
+            "meritites ii",
+            "khufu",
+            "sennedjem",
+            "charibert i"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4b1b91720bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "geodeung of geumgwan gaya",
+            "heo hwang-ok"
+          ],
+          "retrieved_paper_ids": [
+            "geodeung of geumgwan gaya",
+            "mapum of geumgwan gaya",
+            "queen mojong",
+            "sin po",
+            "geojilmi of geumgwan gaya"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "d6502e780bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "flavia maximiana theodora",
+            "constantius chlorus"
+          ],
+          "retrieved_paper_ids": [
+            "flavia maximiana theodora",
+            "anastasia (sister of constantine i)",
+            "julius constantius",
+            "eutropia (princess)",
+            "zelda fitzgerald"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "b8407b060bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "softly, as in a morning sunrise",
+            "sigmund romberg"
+          ],
+          "retrieved_paper_ids": [
+            "softly, as in a morning sunrise",
+            "sigmund romberg",
+            "giorgio calabrese",
+            "bounce (sarah connor song)",
+            "claudio mattone"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1d4198820bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "katherine reback",
+            "sonny king (artist)"
+          ],
+          "retrieved_paper_ids": [
+            "katherine reback",
+            "henry st john, 13th baron st john of bletso",
+            "robert bertie, 3rd earl of lindsey",
+            "andrew upton",
+            "princess catherine of schleswig-holstein-sonderburg-beck"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3c213a580bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "in the castle by the lake",
+            "eugen burg"
+          ],
+          "retrieved_paper_ids": [
+            "in the castle by the lake",
+            "eugen burg",
+            "ida may park",
+            "james basevi",
+            "j. charles haydon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "051f62de0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "augustus william, duke of brunswick-bevern",
+            "ernest ferdinand, duke of brunswick-lüneburg"
+          ],
+          "retrieved_paper_ids": [
+            "augustus william, duke of brunswick-bevern",
+            "charles william ferdinand, duke of brunswick",
+            "augustus william, duke of brunswick-lüneburg",
+            "william, duke of brunswick",
+            "duke louis ernest of brunswick-lüneburg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3b2aa53e0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "paulding farnham",
+            "sally james farnham"
+          ],
+          "retrieved_paper_ids": [
+            "paulding farnham",
+            "sally james farnham",
+            "zelda fitzgerald",
+            "hannah callowhill penn",
+            "george poulett, 8th earl poulett"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "aca606aa0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "şirin hatun",
+            "bayezid ii"
+          ],
+          "retrieved_paper_ids": [
+            "thado hsinhtein of tagaung",
+            "soe min kodawgyi",
+            "şirin hatun",
+            "gülfem hatun",
+            "sennedjem"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f5d908320bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "surviving picasso",
+            "james ivory"
+          ],
+          "retrieved_paper_ids": [
+            "surviving picasso",
+            "james ivory",
+            "julie delpy",
+            "jörn donner",
+            "laurent le bon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "64d2a3ae0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "augustus paulet, 15th marquess of winchester",
+            "john paulet, 14th marquess of winchester"
+          ],
+          "retrieved_paper_ids": [
+            "augustus paulet, 15th marquess of winchester",
+            "william paulet, 4th marquess of winchester",
+            "richard paulet, 17th marquess of winchester",
+            "john paulet, 2nd marquess of winchester",
+            "john paulet, 14th marquess of winchester"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "83f6b9280bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "infanta cristina of spain",
+            "juan carlos i of spain"
+          ],
+          "retrieved_paper_ids": [
+            "infanta cristina of spain",
+            "juan carlos i of spain",
+            "infanta maria josefa of spain",
+            "infanta maría teresa of spain",
+            "charles de la cerda"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ccf4967c0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "downloaded (film)",
+            "alex winter"
+          ],
+          "retrieved_paper_ids": [
+            "downloaded (film)",
+            "one love (nas song)",
+            "the karate kid (2010 film)",
+            "alex winter",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "22457b2c0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george howard, 4th earl of suffolk",
+            "theophilus howard, 2nd earl of suffolk"
+          ],
+          "retrieved_paper_ids": [
+            "george howard, 4th earl of suffolk",
+            "henry howard, 13th earl of suffolk",
+            "theophilus howard, 2nd earl of suffolk",
+            "michael howard, 21st earl of suffolk",
+            "edward howard, 8th earl of suffolk"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ce98e6620bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alessandro ruspoli, 2nd prince of cerveteri",
+            "francesco maria marescotti ruspoli, 1st prince of cerveteri"
+          ],
+          "retrieved_paper_ids": [
+            "francesco ruspoli, 3rd prince of cerveteri",
+            "alessandro ruspoli, 2nd prince of cerveteri",
+            "alessandro ruspoli, 4th prince of cerveteri",
+            "francesco ruspoli, 8th prince of cerveteri",
+            "bartolomeo ruspoli and khevenhüller-metsch"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "b886bb8e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "isabel de la cerda",
+            "luis de la cerda"
+          ],
+          "retrieved_paper_ids": [
+            "miguel cerda",
+            "charles de la cerda",
+            "isabel de la cerda",
+            "luis de la cerda",
+            "ferdinand de la cerda, lord of lara"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "bb73c78a0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "imagina of isenburg-limburg",
+            "adolf of germany"
+          ],
+          "retrieved_paper_ids": [
+            "john ii of isenburg-limburg",
+            "gerlach vi of isenburg-limburg",
+            "imagina of isenburg-limburg",
+            "gerlach iv of isenburg-limburg",
+            "gerlach v of isenburg-limburg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e026fe600bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "halldóra eldjárn",
+            "kristján eldjárn"
+          ],
+          "retrieved_paper_ids": [
+            "halldóra eldjárn",
+            "kristján eldjárn",
+            "ingerid of denmark",
+            "lasse dahlquist",
+            "zelda fitzgerald"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3d03e0260bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george lane-fox (mp)",
+            "james fox-lane"
+          ],
+          "retrieved_paper_ids": [
+            "george fox-lane, 1st baron bingley",
+            "james fox-lane",
+            "george lane-fox (mp)",
+            "richard lloyd george, 2nd earl lloyd-george of dwyfor",
+            "felicity lane-fox, baroness lane-fox"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f835afce0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret de stafford",
+            "philippa de beauchamp"
+          ],
+          "retrieved_paper_ids": [
+            "katherine de stafford",
+            "john sutton iii",
+            "philippa de beauchamp",
+            "margaret de stafford",
+            "robert de stafford"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1dd33f080bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "johann nicolaus bach",
+            "johann christoph bach"
+          ],
+          "retrieved_paper_ids": [
+            "johann nicolaus bach",
+            "johann christoph bach",
+            "martin hoffmann (luthier)",
+            "place of birth",
+            "georg von trapp"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3525282c0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aashiq (2001 film)",
+            "indra kumar"
+          ],
+          "retrieved_paper_ids": [
+            "aashiq (2001 film)",
+            "indra kumar",
+            "brij sadanah",
+            "emir baigazin",
+            "mel damski"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0eb5ac600bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "thado hsinhtein of tagaung",
+            "soe min kodawgyi"
+          ],
+          "retrieved_paper_ids": [
+            "thado hsinhtein of tagaung",
+            "soe min kodawgyi",
+            "thihapate of tagaung",
+            "heo hwang-ok",
+            "sin po"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "431901b20bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "paris: xy",
+            "zeka laplaine"
+          ],
+          "retrieved_paper_ids": [
+            "paris: xy",
+            "zeka laplaine",
+            "julie delpy",
+            "kim chapiron",
+            "max ophüls"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a8495c7e0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a walk in the spring rain",
+            "guy green (filmmaker)"
+          ],
+          "retrieved_paper_ids": [
+            "a walk in the spring rain",
+            "guy green (filmmaker)",
+            "bing crosby",
+            "julie delpy",
+            "james ivory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b124d8440bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "you've been trumped",
+            "anthony s. baxter"
+          ],
+          "retrieved_paper_ids": [
+            "you've been trumped",
+            "a dangerous game (2014 film)",
+            "anthony s. baxter",
+            "julie delpy",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ee212a820bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the trail of the lonesome pine (1923 film)",
+            "charles maigne"
+          ],
+          "retrieved_paper_ids": [
+            "the trail of the lonesome pine (1923 film)",
+            "the trail of the lonesome pine (1916 film)",
+            "the trail of the lonesome pine (1936 film)",
+            "sidney d. mitchell",
+            "the trail of the lonesome pine"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "bda4c9080bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "maria (wife of boris i of bulgaria)",
+            "boris i of bulgaria"
+          ],
+          "retrieved_paper_ids": [
+            "boris i of bulgaria",
+            "prince constantine constantinovich of russia",
+            "maria (wife of boris i of bulgaria)",
+            "prince gabriel constantinovich of russia",
+            "prince igor constantinovich of russia"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "604df5e40bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bounce (sarah connor song)",
+            "sarah connor (singer)"
+          ],
+          "retrieved_paper_ids": [
+            "bounce (sarah connor song)",
+            "sabrina salerno",
+            "sarah connor (singer)",
+            "alan pownall",
+            "donna summer"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7728d6d80bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "citizen mavzik",
+            "alan melikdjanian"
+          ],
+          "retrieved_paper_ids": [
+            "citizen mavzik",
+            "alan melikdjanian",
+            "emir baigazin",
+            "mel damski",
+            "moonlighting (film)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fb971ec60bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eel girl",
+            "paul campion (film director)"
+          ],
+          "retrieved_paper_ids": [
+            "eel girl",
+            "mikael håfström",
+            "melville shyer",
+            "julie delpy",
+            "mel damski"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "a9f5546e0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "waitrose duchy organic",
+            "charles, prince of wales"
+          ],
+          "retrieved_paper_ids": [
+            "waitrose duchy organic",
+            "mapie de toulouse-lautrec",
+            "henry de vilmorin",
+            "princess béatrice of bourbon-two sicilies",
+            "ekaterina malysheva"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "21692f6a0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "like someone in love",
+            "bing crosby"
+          ],
+          "retrieved_paper_ids": [
+            "like someone in love",
+            "sabrina salerno",
+            "a. j. sylvester",
+            "one love (nas song)",
+            "bounce (sarah connor song)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "614d88560bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "heavenly swallows",
+            "leonid kvinikhidze"
+          ],
+          "retrieved_paper_ids": [
+            "heavenly swallows",
+            "leonid kvinikhidze",
+            "julie delpy",
+            "melville shyer",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f6add71c0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "maggie hathaway",
+            "king coleman"
+          ],
+          "retrieved_paper_ids": [
+            "maggie hathaway",
+            "bradley hathaway",
+            "king coleman",
+            "sam white (film producer)",
+            "kathy griffin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fd8e7e140bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret, countess of anjou",
+            "charles, count of valois"
+          ],
+          "retrieved_paper_ids": [
+            "margaret, countess of anjou",
+            "charles, count of valois",
+            "margaret of valois, countess of blois",
+            "joan of valois, countess of hainaut",
+            "nicholas vaux, 1st baron vaux of harrowden"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6955589e0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "laughter and tears (1921 film)",
+            "b. e. doxat-pratt"
+          ],
+          "retrieved_paper_ids": [
+            "laughter and tears (1921 film)",
+            "brief encounter",
+            "the man behind the mask",
+            "b. e. doxat-pratt",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7ab091520bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "behind the mask (1932 film)",
+            "john francis dillon (director)"
+          ],
+          "retrieved_paper_ids": [
+            "behind the mask (1932 film)",
+            "the man behind the mask",
+            "james basevi",
+            "the face behind the mask (1977 film)",
+            "sidney d. mitchell"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e73b5e7a0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "jiang mianheng",
+            "wang yeping"
+          ],
+          "retrieved_paper_ids": [
+            "jiang mianheng",
+            "wang yeping",
+            "nicki minaj",
+            "julia warhola",
+            "kenneth gyang"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "43828fba0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bernard (son of charles the fat)",
+            "charles the fat"
+          ],
+          "retrieved_paper_ids": [
+            "bernard (son of charles the fat)",
+            "charles the fat",
+            "charles de la cerda",
+            "charles, count of valois",
+            "charles colmore grant, 7th baron de longueuil"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "52e07b180bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "you are the life",
+            "franz eckstein"
+          ],
+          "retrieved_paper_ids": [
+            "you are the life",
+            "franz eckstein",
+            "ida may park",
+            "melville shyer",
+            "guy green (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "704c7d820bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "karl eduard zachariae von lingenthal",
+            "karl salomo zachariae von lingenthal"
+          ],
+          "retrieved_paper_ids": [
+            "karl salomo zachariae von lingenthal",
+            "karl eduard zachariae von lingenthal",
+            "gustav von leonhard",
+            "martin hoffmann (luthier)",
+            "johann nicolaus bach"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "2e84e4680bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kailangan ko'y ikaw",
+            "joyce e. bernal"
+          ],
+          "retrieved_paper_ids": [
+            "kailangan ko'y ikaw",
+            "karla estrada",
+            "tum, my pledge of love",
+            "teddy soeriaatmadja",
+            "emir baigazin"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "8a733da60bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "(otto)",
+            "job roggeveen"
+          ],
+          "retrieved_paper_ids": [
+            "(otto)",
+            "job roggeveen",
+            "the karate kid",
+            "luis mandoki",
+            "manoel de oliveira"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "55a00d6c0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the wounded angel (film)",
+            "emir baigazin"
+          ],
+          "retrieved_paper_ids": [
+            "the wounded angel (film)",
+            "angel of the north (film)",
+            "emir baigazin",
+            "julie delpy",
+            "jerzy skolimowski"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "e2e9a9560bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "small town boy",
+            "glenn tryon"
+          ],
+          "retrieved_paper_ids": [
+            "small town boy",
+            "glenn tryon",
+            "sam white (film producer)",
+            "zeka laplaine",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ab6cf1900bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the united states of america (film)",
+            "james benning (film director)"
+          ],
+          "retrieved_paper_ids": [
+            "the united states of america (film)",
+            "maysville",
+            "melville shyer",
+            "james basevi",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "d9c894ec0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "good people (film)",
+            "henrik ruben genz"
+          ],
+          "retrieved_paper_ids": [
+            "good people (film)",
+            "henrik ruben genz",
+            "julie delpy",
+            "lovely man",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c08a052e0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "when you're smiling",
+            "louis armstrong"
+          ],
+          "retrieved_paper_ids": [
+            "when you're smiling",
+            "when you're smiling (disambiguation)",
+            "louis armstrong",
+            "tomas n'evergreen",
+            "scott fitzgerald (singer)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6b55ac320bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince john konstantinovich of russia",
+            "princess elisabeth of saxe-altenburg (1865–1927)"
+          ],
+          "retrieved_paper_ids": [
+            "prince constantine constantinovich of russia",
+            "prince igor constantinovich of russia",
+            "prince john konstantinovich of russia",
+            "prince gabriel constantinovich of russia",
+            "grand duke nicholas konstantinovich of russia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "a703e1160bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ginevra d'este",
+            "sigismondo pandolfo malatesta"
+          ],
+          "retrieved_paper_ids": [
+            "sam white (film producer)",
+            "i live on danger",
+            "ginevra d'este",
+            "zelda fitzgerald",
+            "francesco ruspoli, 8th prince of cerveteri"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "bcd01cde0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sixteen (1943 film)",
+            "carlos hugo christensen"
+          ],
+          "retrieved_paper_ids": [
+            "sixteen (1943 film)",
+            "carlos hugo christensen",
+            "ida may park",
+            "james basevi",
+            "guy green (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "9d6f4f4c0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tutyu and totyo",
+            "alexander korda"
+          ],
+          "retrieved_paper_ids": [
+            "tutyu and totyo",
+            "alexander korda",
+            "sergei parajanov",
+            "catrano catrani",
+            "brij sadanah"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c9e655000bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gustav von leonhard",
+            "karl cäsar von leonhard"
+          ],
+          "retrieved_paper_ids": [
+            "gustav von leonhard",
+            "karl cäsar von leonhard",
+            "johann christoph bach",
+            "karl salomo zachariae von lingenthal",
+            "prince gustav of thurn and taxis (1848–1914)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "cf918c0c0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dip (song)",
+            "nicki minaj"
+          ],
+          "retrieved_paper_ids": [
+            "dip (song)",
+            "place of birth",
+            "place of origin",
+            "bounce (sarah connor song)",
+            "georg von trapp"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "eecbf0620bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aahuti (1985 film)",
+            "t. s. nagabharana"
+          ],
+          "retrieved_paper_ids": [
+            "aahuti (1985 film)",
+            "julie delpy",
+            "parbati ghose",
+            "henry barakat",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "2dba81d80bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eleanor de clare",
+            "hugh despenser the younger"
+          ],
+          "retrieved_paper_ids": [
+            "eleanor de clare",
+            "elizabeth de clare",
+            "edward despenser (died 1342)",
+            "elizabeth le despenser, baroness berkeley",
+            "isabel le despenser, countess of arundel"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "70f2e9ae0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "idris al-ma'mun",
+            "abu yusuf yaqub al-mansur"
+          ],
+          "retrieved_paper_ids": [
+            "ma'mun ii",
+            "idris ii of morocco",
+            "idris al-ma'mun",
+            "al-abbas ibn al-ma'mun",
+            "ilir hoxha"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "173ae38a0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles james irwin grant, 6th baron de longueuil",
+            "charles william grant, 5th baron de longueuil"
+          ],
+          "retrieved_paper_ids": [
+            "charles james irwin grant, 6th baron de longueuil",
+            "charles colmore grant, 7th baron de longueuil",
+            "john charles moore grant, 9th baron de longueuil",
+            "charles william grant, 5th baron de longueuil",
+            "charles, count of valois"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c226ad120bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the alster case",
+            "j. charles haydon"
+          ],
+          "retrieved_paper_ids": [
+            "the alster case",
+            "j. charles haydon",
+            "jörn donner",
+            "melville shyer",
+            "alexander korda"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "93c09bfa0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "2 days in new york",
+            "julie delpy"
+          ],
+          "retrieved_paper_ids": [
+            "julie delpy",
+            "2 days in new york",
+            "martin kunert",
+            "chris columbus (filmmaker)",
+            "james ivory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0a9f880a0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the dressmaker from paris",
+            "paul bern"
+          ],
+          "retrieved_paper_ids": [
+            "the dressmaker from paris",
+            "adelaide heilbron",
+            "julie delpy",
+            "paul bern",
+            "the dressmaker (1988 film)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1a2865da0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "pontianak harum sundal malam 2",
+            "shuhaimi baba"
+          ],
+          "retrieved_paper_ids": [
+            "pontianak harum sundal malam",
+            "pontianak harum sundal malam 2",
+            "maya karin",
+            "shuhaimi baba",
+            "teddy soeriaatmadja"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a9875b6e0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the venice project",
+            "robert dornhelm"
+          ],
+          "retrieved_paper_ids": [
+            "the venice project",
+            "robert dornhelm",
+            "james basevi",
+            "werner von trapp",
+            "manoel de oliveira"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "05ead7ea0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beautiful mexico",
+            "ramón pereda"
+          ],
+          "retrieved_paper_ids": [
+            "beautiful mexico",
+            "ramón pereda",
+            "nayelly hernández",
+            "fernando cortés",
+            "luis mandoki"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "09ce0d5c0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dog pound (film)",
+            "kim chapiron"
+          ],
+          "retrieved_paper_ids": [
+            "dog pound (film)",
+            "kim chapiron",
+            "chris columbus (filmmaker)",
+            "julie delpy",
+            "zeka laplaine"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "09558be00bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sweetly you'll die through love",
+            "tulio demicheli"
+          ],
+          "retrieved_paper_ids": [
+            "sweetly you'll die through love",
+            "catrano catrani",
+            "paul bern",
+            "ida may park",
+            "brij sadanah"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "ee0650aa0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lady magdalene's",
+            "j. neil schulman"
+          ],
+          "retrieved_paper_ids": [
+            "catrano catrani",
+            "sergei parajanov",
+            "lady magdalene's",
+            "max ophüls",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "d7d4e6b20bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "i live on danger",
+            "sam white (film producer)"
+          ],
+          "retrieved_paper_ids": [
+            "i live on danger",
+            "sam white (film producer)",
+            "nathan juran",
+            "james basevi",
+            "come on danger"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "099f34280bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the zone (2017 film)",
+            "denys desjardins"
+          ],
+          "retrieved_paper_ids": [
+            "andré téchiné",
+            "the witnesses",
+            "the zone (2017 film)",
+            "jerzy skolimowski",
+            "nathan juran"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6f115d280bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess augusta of saxe-meiningen",
+            "bernhard ii, duke of saxe-meiningen"
+          ],
+          "retrieved_paper_ids": [
+            "prince karl anton august of schleswig-holstein-sonderburg-beck",
+            "sir theodore brinckman, 2nd baronet",
+            "princess augusta of saxe-meiningen",
+            "princess charlotte of saxe-meiningen",
+            "princess marie frederica of hesse-kassel"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "597a839c0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elizabeth fitzalan, duchess of norfolk",
+            "thomas de mowbray, 1st duke of norfolk"
+          ],
+          "retrieved_paper_ids": [
+            "elizabeth fitzalan, duchess of norfolk",
+            "joan fitzalan, countess of hereford",
+            "zelda fitzgerald",
+            "thomas de mowbray, 1st duke of norfolk",
+            "gerlach vi of isenburg-limburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "db637b380bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "henry scott, 1st earl of deloraine",
+            "james scott, 1st duke of monmouth"
+          ],
+          "retrieved_paper_ids": [
+            "henry scott, 1st earl of deloraine",
+            "james scott, 1st duke of monmouth",
+            "james peachey, 1st baron selsey",
+            "francis scott, 2nd earl of buccleuch",
+            "john scott, 1st earl of eldon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f0627cc80bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george ernest, count of erbach-wildenstein",
+            "george albert i, count of erbach-schönberg"
+          ],
+          "retrieved_paper_ids": [
+            "george ernest, count of erbach-wildenstein",
+            "george albert ii, count of erbach-fürstenau",
+            "george iv, count of erbach-fürstenau",
+            "george albert i, count of erbach-schönberg",
+            "george louis i, count of erbach-erbach"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "11e2cf680bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess eugénie of greece and denmark",
+            "princess marie bonaparte"
+          ],
+          "retrieved_paper_ids": [
+            "princess irene of greece and denmark",
+            "princess irene, duchess of aosta",
+            "princess eugénie of greece and denmark",
+            "princess eugénie of sweden",
+            "princess elizabeth of greece and denmark"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "769106c40bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oh boy, oh boy, oh boy!",
+            "lasse dahlquist"
+          ],
+          "retrieved_paper_ids": [
+            "cuddly dudley (singer)",
+            "lasse dahlquist",
+            "oh, boy! (the crickets song)",
+            "oh boy, oh boy, oh boy!",
+            "boy oh boy (racey song)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "35cfb78a0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "francisca pizarro yupanqui",
+            "francisco pizarro"
+          ],
+          "retrieved_paper_ids": [
+            "francisca pizarro yupanqui",
+            "quispe sisa",
+            "francisco pizarro",
+            "catrano catrani",
+            "francis i rákóczi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6d504b8e0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kathputli (1971 film)",
+            "brij sadanah"
+          ],
+          "retrieved_paper_ids": [
+            "kathputli (1971 film)",
+            "brij sadanah",
+            "k. s. l. swamy",
+            "chris columbus (filmmaker)",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a90475fc0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dreaming lhasa",
+            "ritu sarin"
+          ],
+          "retrieved_paper_ids": [
+            "dreaming lhasa",
+            "ritu sarin",
+            "max ophüls",
+            "julie delpy",
+            "emir baigazin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6e2336660bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "brief encounter",
+            "sergei rachmaninoff"
+          ],
+          "retrieved_paper_ids": [
+            "brief encounter",
+            "trevor howard",
+            "margaret barton",
+            "james basevi",
+            "james v. kern"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "a87903f00bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "yazid iii",
+            "al-walid i"
+          ],
+          "retrieved_paper_ids": [
+            "yazid ibn khalid al-qasri",
+            "yazid iii",
+            "sermon of ali ibn husayn in damascus",
+            "al-walid i",
+            "sermon of zaynab bint ali in the court of yazid"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6590ada60bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "war italian style",
+            "luigi scattini"
+          ],
+          "retrieved_paper_ids": [
+            "war italian style",
+            "luigi scattini",
+            "ciccio ingrassia",
+            "julie delpy",
+            "james ivory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "9ab545800bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "today i started loving you again",
+            "merle haggard"
+          ],
+          "retrieved_paper_ids": [
+            "today i started loving you again",
+            "merle haggard",
+            "sabrina salerno",
+            "tomas n'evergreen",
+            "loving you (elvis presley song)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3717c0600bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince gustav of thurn and taxis (1848–1914)",
+            "princess mathilde sophie of oettingen-oettingen and oettingen-spielberg"
+          ],
+          "retrieved_paper_ids": [
+            "prince raphael rainer of thurn and taxis",
+            "prince gustav of thurn and taxis (1848–1914)",
+            "princess mathilde sophie of oettingen-oettingen and oettingen-spielberg",
+            "prince max emanuel of thurn and taxis",
+            "prince victor of thurn and taxis"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "588ade020bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "visit or memories and confessions",
+            "manoel de oliveira"
+          ],
+          "retrieved_paper_ids": [
+            "visit or memories and confessions",
+            "manoel de oliveira",
+            "zeka laplaine",
+            "chris columbus (filmmaker)",
+            "ida may park"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "95dcb2e60bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "frances scott fitzgerald",
+            "zelda fitzgerald"
+          ],
+          "retrieved_paper_ids": [
+            "zelda fitzgerald",
+            "frances scott fitzgerald",
+            "a new leaf (short story)",
+            "frances stevenson",
+            "princess marie bonaparte"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c6ed0ee60bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sir theodore brinckman, 1st baronet",
+            "theodore henry broadhead"
+          ],
+          "retrieved_paper_ids": [
+            "sir theodore brinckman, 1st baronet",
+            "sir theodore brinckman, 2nd baronet",
+            "augustus paulet, 15th marquess of winchester",
+            "george fox-lane, 1st baron bingley",
+            "william paulet, 4th marquess of winchester"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "914b452c0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gaby: a true story",
+            "luis mandoki"
+          ],
+          "retrieved_paper_ids": [
+            "gaby: a true story",
+            "luis mandoki",
+            "fernando cortés",
+            "melville shyer",
+            "james ivory"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "d4a10cfa0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lost in the dark (1914 film)",
+            "nino martoglio"
+          ],
+          "retrieved_paper_ids": [
+            "lost in the dark (1914 film)",
+            "nino martoglio",
+            "dillo lombardi",
+            "j. charles haydon",
+            "ida may park"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "74207b920bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "old man drinking a glass of beer",
+            "george albert smith (film pioneer)"
+          ],
+          "retrieved_paper_ids": [
+            "old man drinking a glass of beer",
+            "george albert smith (film pioneer)",
+            "a glass of beer",
+            "melville shyer",
+            "manoel de oliveira"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3f20ed380bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "living on tokyo time",
+            "steven okazaki"
+          ],
+          "retrieved_paper_ids": [
+            "living on tokyo time",
+            "steven okazaki",
+            "chris columbus (filmmaker)",
+            "jerzy skolimowski",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4e0e82c80bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "oosaravelli",
+            "surender reddy"
+          ],
+          "retrieved_paper_ids": [
+            "oosaravelli",
+            "surender reddy",
+            "james basevi",
+            "manoel de oliveira",
+            "max ophüls"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8a7214a20bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "yandé codou, la griotte de senghor",
+            "yandé codou sène"
+          ],
+          "retrieved_paper_ids": [
+            "yandé codou, la griotte de senghor",
+            "yandé codou sène",
+            "julie delpy",
+            "françois de roubaix",
+            "sidney d. mitchell"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6bf3797e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "one love (carlene carter song)",
+            "carlene carter"
+          ],
+          "retrieved_paper_ids": [
+            "one love (carlene carter song)",
+            "carlene carter",
+            "one love (jennifer lopez song)",
+            "one love (nas song)",
+            "donna summer"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8abaaafe0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "francis i rákóczi",
+            "ilona zrínyi"
+          ],
+          "retrieved_paper_ids": [
+            "francis i rákóczi",
+            "ilona zrínyi",
+            "charles de la cerda",
+            "margaret, countess of anjou",
+            "margaret of bourbon (1438–1483)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "08227b740bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tum, my pledge of love",
+            "robin padilla"
+          ],
+          "retrieved_paper_ids": [
+            "tum, my pledge of love",
+            "kailangan ko'y ikaw",
+            "karla estrada",
+            "chris columbus (filmmaker)",
+            "nathan juran"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "36960bb00bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "abdul rashid ghazi",
+            "muhammad abdullah ghazi"
+          ],
+          "retrieved_paper_ids": [
+            "muhammad abdullah ghazi",
+            "abdul rashid ghazi",
+            "ghulam rasool gangi",
+            "abdul rashid (runner)",
+            "muhammad abdul rashid"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b62550940bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess catherine of schleswig-holstein-sonderburg-beck",
+            "peter august, duke of schleswig-holstein-sonderburg-beck"
+          ],
+          "retrieved_paper_ids": [
+            "prince karl anton august of schleswig-holstein-sonderburg-beck",
+            "augustus william, duke of brunswick-bevern",
+            "princess catherine of schleswig-holstein-sonderburg-beck",
+            "peter august, duke of schleswig-holstein-sonderburg-beck",
+            "friedrich wilhelm, duke of schleswig-holstein-sonderburg-glücksburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "d9f699040bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hedwig von trapp",
+            "georg von trapp"
+          ],
+          "retrieved_paper_ids": [
+            "werner von trapp",
+            "georg von trapp",
+            "hedwig von trapp",
+            "maria franziska von trapp",
+            "rupert von trapp"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4018d3ac0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "xiahou wei",
+            "xiahou yuan"
+          ],
+          "retrieved_paper_ids": [
+            "xiahou wei",
+            "xiahou yuan",
+            "jiang mianheng",
+            "gong wei",
+            "the karate kid (2010 film)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "67d94a440bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "humphry sibthorp (botanist)",
+            "john sibthorpe"
+          ],
+          "retrieved_paper_ids": [
+            "humphry sibthorp (botanist)",
+            "john sibthorpe",
+            "humphrey sibthorp (1744–1815)",
+            "henry nevill, 2nd earl of abergavenny",
+            "henry st john, 13th baron st john of bletso"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1912aaac0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "i'll be a bachelor 'til i die",
+            "hank williams"
+          ],
+          "retrieved_paper_ids": [
+            "i'll be a bachelor 'til i die",
+            "sabrina salerno",
+            "bradley hathaway",
+            "ceelo green",
+            "tomas n'evergreen"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "01f233340bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gülşah hatun",
+            "mehmed the conqueror"
+          ],
+          "retrieved_paper_ids": [
+            "gülfem hatun",
+            "şehzade murad",
+            "şevkefza kadın",
+            "gülşah hatun",
+            "istanbul sabiha gökçen international airport"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "0e18c6be0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "words of love",
+            "buddy holly"
+          ],
+          "retrieved_paper_ids": [
+            "words of love",
+            "words of love (disambiguation)",
+            "sonny west (musician)",
+            "janis joplin",
+            "roger miller"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "edb5bc2e0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "playing it wild",
+            "william duncan (actor)"
+          ],
+          "retrieved_paper_ids": [
+            "playing it wild",
+            "ida may park",
+            "henry kolker",
+            "buddy holly",
+            "zeka laplaine"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "944d41900bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "william everett",
+            "edward everett"
+          ],
+          "retrieved_paper_ids": [
+            "william everett",
+            "edward everett",
+            "william rockhill nelson",
+            "william everett potter",
+            "robert w. everett"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0a2d55960bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "last known address",
+            "françois de roubaix"
+          ],
+          "retrieved_paper_ids": [
+            "last known address",
+            "françois de roubaix",
+            "james basevi",
+            "sergei rachmaninoff",
+            "james v. kern"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c76da93a0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ma che freddo fa",
+            "claudio mattone"
+          ],
+          "retrieved_paper_ids": [
+            "ma che freddo fa",
+            "fred foster",
+            "claudio mattone",
+            "merle haggard",
+            "frank wildhorn"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "487df4740bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eestlane olen ja eestlaseks jään",
+            "ivo linna"
+          ],
+          "retrieved_paper_ids": [
+            "eestlane olen ja eestlaseks jään",
+            "ivo linna",
+            "eva dahlgren",
+            "scott fitzgerald (singer)",
+            "tomas n'evergreen"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "896843220bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret of bourbon (1438–1483)",
+            "charles i, duke of bourbon"
+          ],
+          "retrieved_paper_ids": [
+            "margaret of bourbon (1438–1483)",
+            "charles i, duke of bourbon",
+            "louis armand ii, prince of conti",
+            "louis françois, prince of conti",
+            "margaret, countess of vertus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4a8ffd360bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "homage at siesta time",
+            "leopoldo torre nilsson"
+          ],
+          "retrieved_paper_ids": [
+            "homage at siesta time",
+            "jerzy skolimowski",
+            "klezmer (film)",
+            "ida may park",
+            "manoel de oliveira"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "b1a94a9a0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "clare winnicott",
+            "donald winnicott"
+          ],
+          "retrieved_paper_ids": [
+            "clare winnicott",
+            "simon case",
+            "andrew upton",
+            "nigel paulet, 18th marquess of winchester",
+            "donald winnicott"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "996b6cd60bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "safeguard (magazine)",
+            "thomson reuters"
+          ],
+          "retrieved_paper_ids": [
+            "safeguard (magazine)",
+            "thomson reuters",
+            "all of me (boy oh boy)",
+            "roberto savio",
+            "john de margheriti"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "13476e200bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the blue and white lion",
+            "werner jacobs"
+          ],
+          "retrieved_paper_ids": [
+            "the blue and white lion",
+            "werner jacobs",
+            "manoel de oliveira",
+            "chris columbus (filmmaker)",
+            "sam white (film producer)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a33b25760bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "armand de vignerot du plessis",
+            "armand jean de vignerot du plessis"
+          ],
+          "retrieved_paper_ids": [
+            "armand de vignerot du plessis",
+            "armand jean de vignerot du plessis",
+            "louis armand ii, prince of conti",
+            "antoine de vignerot du plessis",
+            "armand, duc d'aiguillon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "df9c17540bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lovely man",
+            "teddy soeriaatmadja"
+          ],
+          "retrieved_paper_ids": [
+            "lovely man",
+            "max ophüls",
+            "good people (film)",
+            "nathan juran",
+            "jörn donner"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "1d3a02a40bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess helena of nassau",
+            "william, duke of nassau"
+          ],
+          "retrieved_paper_ids": [
+            "princess helena of nassau",
+            "princess helena of waldeck and pyrmont",
+            "william, duke of nassau",
+            "princess marie of waldeck and pyrmont",
+            "frederick augustus, duke of nassau"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7d9d5d720bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "nartaki (1963 film)",
+            "nitin bose"
+          ],
+          "retrieved_paper_ids": [
+            "nartaki (1963 film)",
+            "nitin bose",
+            "samaanta",
+            "k. s. l. swamy",
+            "james basevi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7620acb80bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "até que a sorte nos separe 2",
+            "roberto santucci"
+          ],
+          "retrieved_paper_ids": [
+            "até que a sorte nos separe",
+            "até que a sorte nos separe 2",
+            "roberto santucci",
+            "até que a sbórnia nos separe",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "967b39ca0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ängeln i rummet",
+            "eva dahlgren"
+          ],
+          "retrieved_paper_ids": [
+            "ängeln i rummet",
+            "eva dahlgren",
+            "bounce (sarah connor song)",
+            "i'll be home (meghan trainor song)",
+            "i kväll jag tänder ett ljus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b4999c400bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bhagyada bagilu",
+            "k. s. l. swamy"
+          ],
+          "retrieved_paper_ids": [
+            "bhagyada bagilu",
+            "nata sarvabhouma",
+            "parbati ghose",
+            "lovely man",
+            "brij sadanah"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "1fed480c0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince welf ernst of hanover",
+            "prince george william of hanover (1915–2006)"
+          ],
+          "retrieved_paper_ids": [
+            "prince ernst august of hanover (born 1983)",
+            "prince welf ernst of hanover",
+            "turiya hanover",
+            "alexandra, princess of leiningen",
+            "chantal hochuli"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "80be09780bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "marie of blois, duchess of anjou",
+            "louis i of anjou"
+          ],
+          "retrieved_paper_ids": [
+            "john ii, duke of lorraine",
+            "charles, count of valois",
+            "marie of blois, duchess of anjou",
+            "louis i of anjou",
+            "margaret, countess of anjou"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "aa0bb4660bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "summer's blood",
+            "lee demarbre"
+          ],
+          "retrieved_paper_ids": [
+            "summer's blood",
+            "lee demarbre",
+            "say it (booty luv song)",
+            "james basevi",
+            "melville shyer"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5a3f89260bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "abdulla the great",
+            "georges auric"
+          ],
+          "retrieved_paper_ids": [
+            "abdulla the great",
+            "georges auric",
+            "sidney d. mitchell",
+            "johann nicolaus bach",
+            "brij sadanah"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fb95c0000bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "iva mihanovic",
+            "maximilian schell"
+          ],
+          "retrieved_paper_ids": [
+            "stan marks",
+            "iva mihanovic",
+            "eva dahlgren",
+            "leka, crown prince of albania (born 1982)",
+            "sabrina salerno"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "b8cf608c0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george poulett, 8th earl poulett",
+            "william poulett, 7th earl poulett"
+          ],
+          "retrieved_paper_ids": [
+            "augustus paulet, 15th marquess of winchester",
+            "george poulett, 8th earl poulett",
+            "john paulet, 14th marquess of winchester",
+            "john poulett, 5th earl poulett",
+            "william poulett, 7th earl poulett"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4175aadc0bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "adolphe de leuven",
+            "adolph ribbing"
+          ],
+          "retrieved_paper_ids": [
+            "adolph ribbing",
+            "adolphe de leuven",
+            "louis i of anjou",
+            "louis armand ii, prince of conti",
+            "charles colmore grant, 7th baron de longueuil"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ca787aa80bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "the interrogation (film)",
+            "jörn donner"
+          ],
+          "retrieved_paper_ids": [
+            "the interrogation (film)",
+            "jörn donner",
+            "chris columbus (filmmaker)",
+            "son of the mask",
+            "chad mcqueen"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "391186b00bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "life marathon (eason chan)",
+            "eason chan"
+          ],
+          "retrieved_paper_ids": [
+            "life marathon (eason chan)",
+            "eason chan",
+            "henry palmé",
+            "eric chan",
+            "benny chan (actor)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1b79de7c0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "rumors (film)",
+            "friz freleng"
+          ],
+          "retrieved_paper_ids": [
+            "rumors (film)",
+            "friz freleng",
+            "james basevi",
+            "max ophüls",
+            "martin kunert"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "10b1efd80bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "seven women (1944 film)",
+            "benito perojo"
+          ],
+          "retrieved_paper_ids": [
+            "seven women (1944 film)",
+            "seven women (1953 film)",
+            "ida may park",
+            "james basevi",
+            "melville shyer"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "c58a7e3e0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "julie berwald",
+            "mathilda berwald"
+          ],
+          "retrieved_paper_ids": [
+            "mathilda berwald",
+            "julie berwald",
+            "jörn donner",
+            "julie delpy",
+            "julia warhola"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8d344f2e0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "olaf iii of norway",
+            "harald hardrada"
+          ],
+          "retrieved_paper_ids": [
+            "william, duke of nassau",
+            "frederick augustus, duke of nassau",
+            "olaf iii of norway",
+            "ingerid of denmark",
+            "olaf iii (disambiguation)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "69cf04520bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "there's no tomorrow (film)",
+            "max ophüls"
+          ],
+          "retrieved_paper_ids": [
+            "there's no tomorrow (film)",
+            "max ophüls",
+            "chris columbus (filmmaker)",
+            "julie delpy",
+            "jerzy skolimowski"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "00c727580bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "henry st john, 18th baron st john of bletso",
+            "beauchamp st john, 17th baron st john of bletso"
+          ],
+          "retrieved_paper_ids": [
+            "henry st john, 13th baron st john of bletso",
+            "henry st john, 18th baron st john of bletso",
+            "john st john, 20th baron st john of bletso",
+            "oliver st john, 1st baron st john of bletso",
+            "beauchamp st john, 17th baron st john of bletso"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "479265fa0bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "samaanta",
+            "nitin bose"
+          ],
+          "retrieved_paper_ids": [
+            "samaanta",
+            "nitin bose",
+            "nartaki (1963 film)",
+            "je suis le seigneur du château",
+            "dhai akshar prem ke"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "699c6cb00bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret lloyd george",
+            "david lloyd george"
+          ],
+          "retrieved_paper_ids": [
+            "richard lloyd george, 2nd earl lloyd-george of dwyfor",
+            "margaret lloyd george",
+            "frances stevenson",
+            "david lloyd george",
+            "a. j. sylvester"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "251db78c0bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "blood and henna",
+            "kenneth gyang"
+          ],
+          "retrieved_paper_ids": [
+            "blood and henna",
+            "kenneth gyang",
+            "jörn donner",
+            "jackie kong",
+            "chris columbus (filmmaker)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "83bf3b5a0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lothair ii",
+            "ermengarde of tours"
+          ],
+          "retrieved_paper_ids": [
+            "ermengarde of tours",
+            "lothair ii",
+            "teutberga",
+            "theobald of arles",
+            "bertha, daughter of lothair ii"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "87b061a20bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "moonlighting (film)",
+            "jerzy skolimowski"
+          ],
+          "retrieved_paper_ids": [
+            "moonlighting (film)",
+            "jerzy skolimowski",
+            "james basevi",
+            "ida may park",
+            "max ophüls"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "e596b9500bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a man's country",
+            "henry kolker"
+          ],
+          "retrieved_paper_ids": [
+            "a man's country",
+            "henry kolker",
+            "the flashlight",
+            "melville shyer",
+            "carlos hugo christensen"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f6e2b9280bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mohammed al-modiahki",
+            "zhu chen"
+          ],
+          "retrieved_paper_ids": [
+            "mohammed al-modiahki",
+            "fatima bint mubarak al ketbi",
+            "mehdi abrishamchi",
+            "lovely man",
+            "brij sadanah"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "73695ca80bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "secret defense (1998 film)",
+            "jacques rivette"
+          ],
+          "retrieved_paper_ids": [
+            "secret defense (1998 film)",
+            "chris columbus (filmmaker)",
+            "baglan mailybayev",
+            "martin kunert",
+            "jacques rivette"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "2de7f0e00bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "inescapable (song)",
+            "jessica mauboy"
+          ],
+          "retrieved_paper_ids": [
+            "inescapable (song)",
+            "sabrina salerno",
+            "scott fitzgerald (singer)",
+            "king coleman",
+            "nicki minaj"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "b05e11340bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "anastasia de torby",
+            "sophie of merenberg"
+          ],
+          "retrieved_paper_ids": [
+            "anastasia de torby",
+            "anastasia (sister of constantine i)",
+            "flavia maximiana theodora",
+            "louis armand ii, prince of conti",
+            "infanta maría teresa of spain"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5c67a4c00bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "teofila ludwika zasławska",
+            "władysław dominik zasławski"
+          ],
+          "retrieved_paper_ids": [
+            "aleksander dominik lubomirski",
+            "teofila ludwika zasławska",
+            "władysław dominik zasławski",
+            "marianna lubomirska",
+            "francis i rákóczi"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5cd23bea0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tumbleweed (film)",
+            "nathan juran"
+          ],
+          "retrieved_paper_ids": [
+            "tumbleweed (film)",
+            "relentless (1948 film)",
+            "nathan juran",
+            "chris columbus (filmmaker)",
+            "andré téchiné"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "dcfa30e80bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "appointment of love",
+            "henry barakat"
+          ],
+          "retrieved_paper_ids": [
+            "appointment of love",
+            "henry barakat",
+            "max ophüls",
+            "jerzy skolimowski",
+            "andrew upton"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "73b8967e0bda11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret, countess of anjou",
+            "charles ii of naples"
+          ],
+          "retrieved_paper_ids": [
+            "margaret, countess of anjou",
+            "joan of valois, countess of hainaut",
+            "margaret of valois, countess of blois",
+            "charles, count of valois",
+            "nicholas vaux, 1st baron vaux of harrowden"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "0e2fe3b40bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george carnegie, 6th earl of northesk",
+            "david carnegie, 4th earl of northesk"
+          ],
+          "retrieved_paper_ids": [
+            "george carnegie, 6th earl of northesk",
+            "william carnegie, 7th earl of northesk",
+            "david carnegie, 5th earl of northesk",
+            "david carnegie, 4th earl of northesk",
+            "david carnegie, 10th earl of northesk"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "74c24c8c0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "i love you, beth cooper (film)",
+            "chris columbus (filmmaker)"
+          ],
+          "retrieved_paper_ids": [
+            "i love you, beth cooper (film)",
+            "lauren storm",
+            "paul rust",
+            "chris columbus (filmmaker)",
+            "i love you, i love you not"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "ad5795f80bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mad youth",
+            "melville shyer"
+          ],
+          "retrieved_paper_ids": [
+            "mad youth",
+            "melville shyer",
+            "ida may park",
+            "chris columbus (filmmaker)",
+            "the karate kid (2010 film)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "e30064640bdd11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "renegade force",
+            "martin kunert"
+          ],
+          "retrieved_paper_ids": [
+            "renegade force",
+            "martin kunert",
+            "james ivory",
+            "melville shyer",
+            "julie delpy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "491a36140bdc11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "a string of pearls (song)",
+            "jerry gray (arranger)"
+          ],
+          "retrieved_paper_ids": [
+            "a string of pearls (song)",
+            "jerry gray (arranger)",
+            "janis joplin",
+            "string of pearls",
+            "george gershwin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8329478a0bd911eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sabiha gökçen",
+            "mustafa kemal atatürk"
+          ],
+          "retrieved_paper_ids": [
+            "ilir hoxha",
+            "sabiha gökçen",
+            "istanbul sabiha gökçen international airport",
+            "susan of albania",
+            "place of birth"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "fab2aa100bdb11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "humphrey de bohun, 2nd earl of hereford",
+            "henry de bohun, 1st earl of hereford"
+          ],
+          "retrieved_paper_ids": [
+            "humphrey de bohun, 3rd earl of hereford",
+            "humphrey de bohun, 2nd earl of hereford",
+            "humphrey de bohun, 7th earl of hereford",
+            "john de bohun, 5th earl of hereford",
+            "henry de bohun, 1st earl of hereford"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7529522e0bde11eba7f7acde48001122",
+          "qtype": "compositional",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hail, hail, the gang's all here",
+            "arthur sullivan"
+          ],
+          "retrieved_paper_ids": [
+            "hail, hail, the gang's all here",
+            "james basevi",
+            "paducah (song)",
+            "janis joplin",
+            "roger miller"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

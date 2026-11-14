@@ -1,0 +1,6063 @@
+{
+  "benchmark": "external/2wiki/sub200/qa.jsonl",
+  "n_qa": 200,
+  "top_k": 5,
+  "systems": [
+    "hipporag2"
+  ],
+  "metric_defs": {
+    "hit_at_k": "single gold => contained in top-K; multi-hop => BOTH gold contained",
+    "mrr": "single => 1/rank of gold; multi-hop => mean of the two golds' reciprocal ranks",
+    "answer_span_recall_at_k": "fraction of evidence snippets found in top-K passage text (text-based, KG-independent)",
+    "bridge_coverage_at_k": "multi-hop only: 1 iff both gold papers in top-K"
+  },
+  "results": {
+    "hipporag2": {
+      "summary": {
+        "n_qa": 200,
+        "overall": {
+          "hit_at_k": 0.645,
+          "mrr": 0.5561666666666667,
+          "answer_span_recall_at_k": 0.8175,
+          "bridge_coverage_at_k": 0.645,
+          "n_multihop": 200
+        },
+        "by_qtype": {
+          "inference": {
+            "n_qa": 200,
+            "hit_at_k": 0.645,
+            "mrr": 0.5561666666666667,
+            "answer_span_recall_at_k": 0.8175,
+            "bridge_coverage_at_k": 0.645
+          }
+        },
+        "by_domain": {
+          "unknown": {
+            "n_qa": 200,
+            "hit_at_k": 0.645,
+            "mrr": 0.5561666666666667,
+            "answer_span_recall_at_k": 0.8175,
+            "bridge_coverage_at_k": 0.645
+          }
+        },
+        "per_qa": {
+          "qa_id": [
+            "00efceca0bb011ebab90acde48001122",
+            "77f3d9300bb011ebab90acde48001122",
+            "c507cba60baf11ebab90acde48001122",
+            "08cae5720baf11ebab90acde48001122",
+            "6cca51a20baf11ebab90acde48001122",
+            "772d6a700bb011ebab90acde48001122",
+            "9ffcc4f60baf11ebab90acde48001122",
+            "a9ef43f80baf11ebab90acde48001122",
+            "5c8cd54e0baf11ebab90acde48001122",
+            "3473c0080bb011ebab90acde48001122",
+            "5b647fd60bb011ebab90acde48001122",
+            "03fbfaa80bb011ebab90acde48001122",
+            "7f3cf1aa0baf11ebab90acde48001122",
+            "8eb5dfe20bb011ebab90acde48001122",
+            "eb22870e0baf11ebab90acde48001122",
+            "f6e4582a0bae11ebab90acde48001122",
+            "772c5c660bb011ebab90acde48001122",
+            "dc8ae4a20baf11ebab90acde48001122",
+            "29970e8e0baf11ebab90acde48001122",
+            "5349f3b80baf11ebab90acde48001122",
+            "327a14420baf11ebab90acde48001122",
+            "0704c1220baf11ebab90acde48001122",
+            "5a8cbfba0bb011ebab90acde48001122",
+            "51a6d47c0baf11ebab90acde48001122",
+            "18562d340bb011ebab90acde48001122",
+            "2f6b6a520bb011ebab90acde48001122",
+            "32ebe13e0bb011ebab90acde48001122",
+            "f33672d00bae11ebab90acde48001122",
+            "9ffc814e0baf11ebab90acde48001122",
+            "27e926ca0bb011ebab90acde48001122",
+            "0ade3c6a0baf11ebab90acde48001122",
+            "135fde100bb011ebab90acde48001122",
+            "06d16e840bb011ebab90acde48001122",
+            "b583abd20baf11ebab90acde48001122",
+            "8879d5b60bb011ebab90acde48001122",
+            "6b6ef0280bb011ebab90acde48001122",
+            "6571cca00baf11ebab90acde48001122",
+            "c08b31300baf11ebab90acde48001122",
+            "3620b13c0baf11ebab90acde48001122",
+            "78bc5f540bb011ebab90acde48001122",
+            "5b637e060bb011ebab90acde48001122",
+            "5d6f28620bb011ebab90acde48001122",
+            "fcd3ff500baf11ebab90acde48001122",
+            "fc50265e0bae11ebab90acde48001122",
+            "6a59336a0bb011ebab90acde48001122",
+            "2023639c0bb011ebab90acde48001122",
+            "3a148dcc0baf11ebab90acde48001122",
+            "20beaf000bb011ebab90acde48001122",
+            "078bb0d80baf11ebab90acde48001122",
+            "ef4907cc0baf11ebab90acde48001122",
+            "656b25bc0baf11ebab90acde48001122",
+            "6709a7900baf11ebab90acde48001122",
+            "bc633e2c0baf11ebab90acde48001122",
+            "5b5dbeb20bb011ebab90acde48001122",
+            "3d2069fe0bb011ebab90acde48001122",
+            "b23a2b360baf11ebab90acde48001122",
+            "1a25fd560bb011ebab90acde48001122",
+            "d4f59b2e0baf11ebab90acde48001122",
+            "355b86a40bb011ebab90acde48001122",
+            "e5a5ff220baf11ebab90acde48001122",
+            "f96ad5460baf11ebab90acde48001122",
+            "b428fe9a0baf11ebab90acde48001122",
+            "fa3dab600baf11ebab90acde48001122",
+            "67d667340bb011ebab90acde48001122",
+            "5112118e0baf11ebab90acde48001122",
+            "c244022c0baf11ebab90acde48001122",
+            "43d7f2180baf11ebab90acde48001122",
+            "8cddc8520baf11ebab90acde48001122",
+            "4759b57e0bb011ebab90acde48001122",
+            "dd1995e40baf11ebab90acde48001122",
+            "6a6283f20bb011ebab90acde48001122",
+            "3ac46dd20baf11ebab90acde48001122",
+            "3b5373780bb011ebab90acde48001122",
+            "bc62d2520baf11ebab90acde48001122",
+            "416342440baf11ebab90acde48001122",
+            "623ea4080bb011ebab90acde48001122",
+            "f642ff480bae11ebab90acde48001122",
+            "f16f85580baf11ebab90acde48001122",
+            "6b6eb7bc0baf11ebab90acde48001122",
+            "03eecd9c0bb011ebab90acde48001122",
+            "09bf63b20bb011ebab90acde48001122",
+            "16a91a500bb011ebab90acde48001122",
+            "922e43120bb011ebab90acde48001122",
+            "a9ef98760baf11ebab90acde48001122",
+            "4294eaae0bb011ebab90acde48001122",
+            "05befb340baf11ebab90acde48001122",
+            "6577dfbe0baf11ebab90acde48001122",
+            "f0d4919c0baf11ebab90acde48001122",
+            "6a957b9a0bb011ebab90acde48001122",
+            "c4edf1f40baf11ebab90acde48001122",
+            "8da9b95c0bb011ebab90acde48001122",
+            "b99c67ae0baf11ebab90acde48001122",
+            "619580300bb011ebab90acde48001122",
+            "1f38945c0bb011ebab90acde48001122",
+            "6a7458d40bb011ebab90acde48001122",
+            "519aee780baf11ebab90acde48001122",
+            "82e88a160bb011ebab90acde48001122",
+            "a702db460baf11ebab90acde48001122",
+            "200805ca0bb011ebab90acde48001122",
+            "74c6f7200baf11ebab90acde48001122",
+            "049f6dbe0bb011ebab90acde48001122",
+            "899fb6360bb011ebab90acde48001122",
+            "f3b1d5820baf11ebab90acde48001122",
+            "8976d4d20bb011ebab90acde48001122",
+            "062884f40bb011ebab90acde48001122",
+            "cb255ec20baf11ebab90acde48001122",
+            "4d8f2e6a0bb011ebab90acde48001122",
+            "fa3b93d40baf11ebab90acde48001122",
+            "fec888ea0bae11ebab90acde48001122",
+            "0caebed80bb011ebab90acde48001122",
+            "60b814940baf11ebab90acde48001122",
+            "e9940b6a0baf11ebab90acde48001122",
+            "6a953aae0bb011ebab90acde48001122",
+            "534cb9fe0baf11ebab90acde48001122",
+            "e2c19fd80bae11ebab90acde48001122",
+            "7bb816f40baf11ebab90acde48001122",
+            "8e71c6c80baf11ebab90acde48001122",
+            "c80712260baf11ebab90acde48001122",
+            "656a0ea60bb011ebab90acde48001122",
+            "362f76f40baf11ebab90acde48001122",
+            "21fa6dce0baf11ebab90acde48001122",
+            "286b03160bb011ebab90acde48001122",
+            "f23c75180baf11ebab90acde48001122",
+            "8140e36c0baf11ebab90acde48001122",
+            "593584760bb011ebab90acde48001122",
+            "86aedade0baf11ebab90acde48001122",
+            "ef5046be0bae11ebab90acde48001122",
+            "5c8c93ae0baf11ebab90acde48001122",
+            "02f574780baf11ebab90acde48001122",
+            "e6606da80baf11ebab90acde48001122",
+            "53e7e9d80baf11ebab90acde48001122",
+            "97c6181e0baf11ebab90acde48001122",
+            "72a501e40baf11ebab90acde48001122",
+            "6a7e42180bb011ebab90acde48001122",
+            "81c8173c0bb011ebab90acde48001122",
+            "0290cd840baf11ebab90acde48001122",
+            "80cea3ec0baf11ebab90acde48001122",
+            "2f6aa3ba0bb011ebab90acde48001122",
+            "73ab605a0bb011ebab90acde48001122",
+            "5498821a0bb011ebab90acde48001122",
+            "6b6f51940bb011ebab90acde48001122",
+            "87a715180bb011ebab90acde48001122",
+            "07aae62e0baf11ebab90acde48001122",
+            "656745cc0bb011ebab90acde48001122",
+            "ace961ec0baf11ebab90acde48001122",
+            "29b5eaf60bb011ebab90acde48001122",
+            "43d525ba0baf11ebab90acde48001122",
+            "941b72e40bb011ebab90acde48001122",
+            "eb18a27a0baf11ebab90acde48001122",
+            "89956f1e0bb011ebab90acde48001122",
+            "df77d6d40baf11ebab90acde48001122",
+            "f243705c0baf11ebab90acde48001122",
+            "3e1323ac0baf11ebab90acde48001122",
+            "6842323e0bb011ebab90acde48001122",
+            "a704ed8c0baf11ebab90acde48001122",
+            "1faf51ba0baf11ebab90acde48001122",
+            "4c064bb40bb011ebab90acde48001122",
+            "adde63860baf11ebab90acde48001122",
+            "3d24d6740bb011ebab90acde48001122",
+            "f9d3a86e0baf11ebab90acde48001122",
+            "308416280bb011ebab90acde48001122",
+            "5c7842780baf11ebab90acde48001122",
+            "25a3e4780baf11ebab90acde48001122",
+            "77f2d5bc0bb011ebab90acde48001122",
+            "60814b660bb011ebab90acde48001122",
+            "c987d3880baf11ebab90acde48001122",
+            "c7fa16700baf11ebab90acde48001122",
+            "36a3fe2a0baf11ebab90acde48001122",
+            "f77e556e0baf11ebab90acde48001122",
+            "3e4f77020bb011ebab90acde48001122",
+            "59a1aeae0baf11ebab90acde48001122",
+            "56fb5d4e0baf11ebab90acde48001122",
+            "66137ff40bb011ebab90acde48001122",
+            "948c33ea0baf11ebab90acde48001122",
+            "f78d85300bae11ebab90acde48001122",
+            "3d28c6da0bb011ebab90acde48001122",
+            "5702c1920baf11ebab90acde48001122",
+            "fc031d360baf11ebab90acde48001122",
+            "5ead80ee0baf11ebab90acde48001122",
+            "18dadca00bb011ebab90acde48001122",
+            "5492d11c0bb011ebab90acde48001122",
+            "6c80bc4e0bb011ebab90acde48001122",
+            "56c857fe0bb011ebab90acde48001122",
+            "676bf7000bb011ebab90acde48001122",
+            "f64359840bae11ebab90acde48001122",
+            "f3c9cb920baf11ebab90acde48001122",
+            "1869092c0bb011ebab90acde48001122",
+            "f77cc1a40baf11ebab90acde48001122",
+            "070e11d20baf11ebab90acde48001122",
+            "6565ed260bb011ebab90acde48001122",
+            "fcd1f6ba0baf11ebab90acde48001122",
+            "0cafe4700bb011ebab90acde48001122",
+            "7da84dd40bb011ebab90acde48001122",
+            "77e657d80bb011ebab90acde48001122",
+            "6dd659b40bb011ebab90acde48001122",
+            "286321f00bb011ebab90acde48001122",
+            "5c04f9c00bb011ebab90acde48001122",
+            "d39e16700baf11ebab90acde48001122",
+            "09b8a2ac0bb011ebab90acde48001122",
+            "37f3bd380baf11ebab90acde48001122"
+          ],
+          "hit_at_k": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "mrr": [
+            0.25,
+            0.375,
+            0.5,
+            0.75,
+            0.41666666666666663,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.625,
+            0.6666666666666666,
+            0.225,
+            0.75,
+            0.625,
+            0.5,
+            0.75,
+            0.5,
+            0.5,
+            0.75,
+            0.625,
+            0.625,
+            0.6666666666666666,
+            0.41666666666666663,
+            0.16666666666666666,
+            0.75,
+            0.625,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.6,
+            0.5,
+            0.6666666666666666,
+            0.75,
+            0.75,
+            0.25,
+            0.5,
+            0.75,
+            0.41666666666666663,
+            0.16666666666666666,
+            0.5,
+            0.6,
+            0.25,
+            0.5,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.5,
+            0.41666666666666663,
+            0.16666666666666666,
+            0.75,
+            0.6666666666666666,
+            0.25,
+            0.125,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.5,
+            0.16666666666666666,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.225,
+            0.5,
+            0.75,
+            0.25,
+            0.6666666666666666,
+            0.75,
+            0.6666666666666666,
+            0.75,
+            0.6,
+            0.225,
+            0.25,
+            0.5,
+            0.75,
+            0.625,
+            0.75,
+            0.75,
+            0.5,
+            0.75,
+            0.6666666666666666,
+            0.5,
+            0.5,
+            0.6666666666666666,
+            0.5,
+            0.6666666666666666,
+            0.5,
+            0.75,
+            0.5,
+            0.6666666666666666,
+            0.1,
+            0.25,
+            0.5,
+            0.75,
+            0.5,
+            0.16666666666666666,
+            0.75,
+            0.75,
+            0.75,
+            0.41666666666666663,
+            0.25,
+            0.5,
+            0.35,
+            0.16666666666666666,
+            0.75,
+            0.75,
+            0.125,
+            0.35,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.26666666666666666,
+            0.75,
+            0.5,
+            0.5,
+            0.375,
+            0.25,
+            0.75,
+            0.75,
+            0.25,
+            0.75,
+            0.35,
+            0.75,
+            0.75,
+            0.25,
+            0.75,
+            0.6666666666666666,
+            0.25,
+            0.5,
+            0.41666666666666663,
+            0.6666666666666666,
+            0.75,
+            0.5,
+            0.26666666666666666,
+            0.75,
+            0.5,
+            0.25,
+            0.6,
+            0.5,
+            0.75,
+            0.75,
+            0.25,
+            0.75,
+            0.5,
+            0.75,
+            0.16666666666666666,
+            0.6,
+            0.25,
+            0.75,
+            0.26666666666666666,
+            0.75,
+            0.5,
+            0.5,
+            0.29166666666666663,
+            0.75,
+            0.6,
+            0.75,
+            0.375,
+            0.75,
+            0.6,
+            0.75,
+            0.6,
+            0.75,
+            0.16666666666666666,
+            0.75,
+            0.5,
+            0.16666666666666666,
+            0.41666666666666663,
+            0.75,
+            0.75,
+            0.75,
+            0.5,
+            0.5,
+            0.6666666666666666,
+            0.625,
+            0.75,
+            0.625,
+            0.75,
+            0.75,
+            0.41666666666666663,
+            0.16666666666666666,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.75,
+            0.16666666666666666,
+            0.625,
+            0.35
+          ],
+          "answer_span_recall_at_k": [
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            1.0,
+            0.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.5,
+            1.0,
+            1.0
+          ],
+          "bridge_coverage_at_k": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "multihop": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "system": "hipporag2"
+      },
+      "records": [
+        {
+          "qa_id": "00efceca0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george, emperor of trebizond",
+            "irene syrikaina"
+          ],
+          "retrieved_paper_ids": [
+            "irene of trebizond",
+            "george, emperor of trebizond",
+            "alexander of trebizond",
+            "manuel ii of trebizond",
+            "george iii, prince of anhalt-dessau"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "77f3d9300bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "germaine of foix",
+            "john of foix, viscount of narbonne"
+          ],
+          "retrieved_paper_ids": [
+            "john i, count of foix",
+            "germaine of foix",
+            "gaston of foix, duke of nemours",
+            "john of foix, viscount of narbonne",
+            "isabella, countess of foix"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c507cba60baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "catharine of bourbon",
+            "charles i, duke of bourbon"
+          ],
+          "retrieved_paper_ids": [
+            "catharine of bourbon",
+            "prince michel of bourbon-parma",
+            "antoinette de bourbon",
+            "isabella of bourbon",
+            "peter ii, duke of bourbon"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "08cae5720baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gilukhipa",
+            "shuttarna ii"
+          ],
+          "retrieved_paper_ids": [
+            "gilukhipa",
+            "shuttarna ii",
+            "hulagu khan",
+            "fujiwara no nagara",
+            "prithvipati shah"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6cca51a20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "piers butler of duiske",
+            "edward butler, 1st viscount galmoye"
+          ],
+          "retrieved_paper_ids": [
+            "piers fitzthomas butler",
+            "piers butler of duiske",
+            "edward butler, 1st viscount galmoye",
+            "thomas butler, 3rd baron cahir",
+            "edward butler, 2nd viscount galmoye"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "772d6a700bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george iii, prince of anhalt-dessau",
+            "ernest i, prince of anhalt-dessau"
+          ],
+          "retrieved_paper_ids": [
+            "george iii, prince of anhalt-dessau",
+            "george ii, prince of anhalt-dessau",
+            "sigismund iii, prince of anhalt-dessau",
+            "george i, prince of anhalt-dessau",
+            "joachim i, prince of anhalt-dessau"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "9ffcc4f60baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "kristian gullichsen",
+            "maire gullichsen"
+          ],
+          "retrieved_paper_ids": [
+            "kristian gullichsen",
+            "maire gullichsen",
+            "eystein glumra",
+            "friedrich, duke of schleswig-holstein-sonderburg-glücksburg",
+            "friedrich ferdinand, hereditary prince of schleswig-holstein"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a9ef43f80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "joan of valois, duchess of alençon",
+            "isabella of valois"
+          ],
+          "retrieved_paper_ids": [
+            "joan of valois, duchess of alençon",
+            "joan of valois, countess of beaumont",
+            "charles iii, count of alençon",
+            "marie of brittany, lady of la guerche",
+            "joan ii of navarre"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5c8cd54e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "empress murong",
+            "murong bao"
+          ],
+          "retrieved_paper_ids": [
+            "empress murong",
+            "murong bao",
+            "empress wang (chenghua)",
+            "purnima (hindi actress)",
+            "empress wang (jingtai)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3473c0080bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ibrahim shah of selangor",
+            "salehuddin of selangor"
+          ],
+          "retrieved_paper_ids": [
+            "ibrahim shah of selangor",
+            "muhammad shah of selangor",
+            "ibrahim shah of johor",
+            "salehuddin of selangor",
+            "ibrahim shah suri"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5b647fd60bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "petre bagration-gruzinsky",
+            "alexander bagration-gruzinsky"
+          ],
+          "retrieved_paper_ids": [
+            "petre bagration-gruzinsky",
+            "ana gruzinsky-golitsyn",
+            "alexander bagration-gruzinsky",
+            "petre gruzinsky",
+            "ana bagration-gruzinsky"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "03fbfaa80bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sharaf al-dawla",
+            "'adud al-dawla"
+          ],
+          "retrieved_paper_ids": [
+            "asfar ibn kurduya",
+            "ziyar ibn shahrakuya",
+            "baha al-dawla",
+            "sharaf al-dawla",
+            "'adud al-dawla"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.225,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7f3cf1aa0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "edsel ford ii",
+            "henry ford ii"
+          ],
+          "retrieved_paper_ids": [
+            "edsel ford ii",
+            "henry ford ii",
+            "john bugas",
+            "william clay ford sr.",
+            "cristina ford"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8eb5dfe20bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alessandro ruspoli, 9th prince of cerveteri",
+            "francesco ruspoli, 8th prince of cerveteri"
+          ],
+          "retrieved_paper_ids": [
+            "francesco ruspoli, 8th prince of cerveteri",
+            "francesco ruspoli, 3rd prince of cerveteri",
+            "alessandro ruspoli, 4th prince of cerveteri",
+            "alessandro ruspoli, 9th prince of cerveteri",
+            "bartolomeo ruspoli and khevenhüller-metsch"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "eb22870e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "frédéric prinz von anhalt",
+            "princess marie-auguste of anhalt"
+          ],
+          "retrieved_paper_ids": [
+            "frédéric prinz von anhalt",
+            "prince karl franz of prussia",
+            "elisabeth of bohemia (1358–1373)",
+            "augustus christian frederick, duke of anhalt-köthen",
+            "karl von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f6e4582a0bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "axel rosenkrantz",
+            "karen mowat"
+          ],
+          "retrieved_paper_ids": [
+            "axel rosenkrantz",
+            "karen mowat",
+            "karl von habsburg",
+            "archduke franz karl of austria",
+            "ernest ii, duke of saxe-coburg and gotha"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "772c5c660bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george fitzroy, 1st duke of northumberland",
+            "charles ii of england"
+          ],
+          "retrieved_paper_ids": [
+            "george fitzroy, 1st duke of northumberland",
+            "john george ii, duke of saxe-eisenach",
+            "elizabeth fitzhugh",
+            "james fitzjames, 1st duke of berwick",
+            "elizabeth boleyn, countess of wiltshire"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "dc8ae4a20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ōzato chōryō",
+            "shō shitsu"
+          ],
+          "retrieved_paper_ids": [
+            "ōzato chōryō",
+            "kaoru hatoyama",
+            "fujiwara no nagara",
+            "graziano rossi",
+            "zhao shoushan"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "29970e8e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john, count of brienne",
+            "walter iv, count of brienne"
+          ],
+          "retrieved_paper_ids": [
+            "john, count of brienne",
+            "walter iv, count of brienne",
+            "mary of lusignan, countess of brienne",
+            "john ii of brienne, count of eu",
+            "hugh, count of brienne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5349f3b80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beatrice of burgundy, lady of bourbon",
+            "robert, count of clermont"
+          ],
+          "retrieved_paper_ids": [
+            "beatrice of burgundy, lady of bourbon",
+            "agnes of dampierre",
+            "beatrice of bourbon, queen of bohemia",
+            "robert, count of clermont",
+            "beatrice of navarre, duchess of burgundy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "327a14420baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "agnès of navarre",
+            "joan ii of navarre"
+          ],
+          "retrieved_paper_ids": [
+            "agnès of navarre",
+            "charles de la cerda",
+            "luis vélez de guevara",
+            "joan ii of navarre",
+            "gaston of foix, duke of nemours"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0704c1220baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "peter grubb jr.",
+            "peter grubb (mason)"
+          ],
+          "retrieved_paper_ids": [
+            "peter grubb jr.",
+            "henry bates grubb",
+            "peter grubb (mason)",
+            "peter burroughs",
+            "greg penner"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5a8cbfba0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "countess claudine rhédey von kis-rhéde",
+            "duke alexander of württemberg (1804–1885)"
+          ],
+          "retrieved_paper_ids": [
+            "isabella of valois",
+            "countess claudine rhédey von kis-rhéde",
+            "duke alexander of württemberg (1804–1885)",
+            "baroness gösta von dem bussche-haddenhausen",
+            "kelly rondestvedt"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "51a6d47c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john ernest, duke of saxe-eisenach",
+            "christine of hesse-kassel (1578–1658)"
+          ],
+          "retrieved_paper_ids": [
+            "john george ii, duke of saxe-eisenach",
+            "fredericka elisabeth of saxe-eisenach",
+            "john ernest, duke of saxe-eisenach",
+            "johannetta of sayn-wittgenstein (1632–1701)",
+            "ernest ii, duke of saxe-coburg and gotha"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "18562d340bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gilbert kennedy, 4th earl of cassilis",
+            "gilbert kennedy, 3rd earl of cassilis"
+          ],
+          "retrieved_paper_ids": [
+            "gilbert kennedy, 4th earl of cassilis",
+            "gilbert kennedy, 3rd earl of cassilis",
+            "gilbert kennedy, 2nd earl of cassilis",
+            "john kennedy, 5th earl of cassilis",
+            "john kennedy, 6th earl of cassilis"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "2f6b6a520bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "walter long (died 1610)",
+            "robert long (soldier)"
+          ],
+          "retrieved_paper_ids": [
+            "walter long (died 1610)",
+            "sir walter long, 2nd baronet of whaddon",
+            "walter long (british army officer)",
+            "robert long (soldier)",
+            "walter iii of châtillon"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "32ebe13e0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "albert iv, prince of anhalt-köthen",
+            "john ii, prince of anhalt-zerbst"
+          ],
+          "retrieved_paper_ids": [
+            "albert iv, prince of anhalt-köthen",
+            "albert vi, prince of anhalt-köthen",
+            "adolph i, prince of anhalt-köthen",
+            "waldemar v, prince of anhalt-köthen",
+            "magnus, prince of anhalt-köthen"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f33672d00bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "farkas esterházy",
+            "gábor esterházy (1580–1626)"
+          ],
+          "retrieved_paper_ids": [
+            "farkas esterházy",
+            "gábor esterházy (1580–1626)",
+            "mohammad ilyas (cricketer)",
+            "john mackay (poet)",
+            "karl von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "9ffc814e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john, count of saint-pol",
+            "guy iv, count of saint-pol"
+          ],
+          "retrieved_paper_ids": [
+            "john, count of saint-pol",
+            "joan, countess of ligny",
+            "jeanne of bar, countess of marle and soissons",
+            "guy v, count of saint-pol",
+            "john of luxembourg, lord of beauvoir"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "27e926ca0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ahaziah of israel",
+            "jezebel"
+          ],
+          "retrieved_paper_ids": [
+            "ahaziah of israel",
+            "jezebel",
+            "karl von habsburg",
+            "tjuyu",
+            "adelaide of hungary (d. 1140)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0ade3c6a0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "edward venables-vernon-harcourt",
+            "george venables-vernon, 1st baron vernon"
+          ],
+          "retrieved_paper_ids": [
+            "edward venables-vernon-harcourt",
+            "george venables-vernon, 1st baron vernon",
+            "octavius vernon harcourt",
+            "leveson venables-vernon-harcourt",
+            "charles anson"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "135fde100bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "david pigot (cricketer, born 1929)",
+            "david pigot (cricketer, born 1900)"
+          ],
+          "retrieved_paper_ids": [
+            "david pigot (cricketer, born 1929)",
+            "david pigot (cricketer, born 1900)",
+            "james lyon, 7th earl of strathmore and kinghorne",
+            "wyndham goold",
+            "ivan benito"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "06d16e840bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "marie of cleves, duchess of orléans",
+            "mary of burgundy, duchess of cleves"
+          ],
+          "retrieved_paper_ids": [
+            "marie of cleves, duchess of orléans",
+            "mary of burgundy, duchess of cleves",
+            "charles d'orléans, duke of penthièvre",
+            "margaret of cleves, duchess of bavaria-munich",
+            "prince charles louis, duke of chartres"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b583abd20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sultan al-dawla",
+            "baha al-dawla"
+          ],
+          "retrieved_paper_ids": [
+            "sultan al-dawla",
+            "'adud al-dawla",
+            "ziyar ibn shahrakuya",
+            "abu kalijar",
+            "baha al-dawla"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8879d5b60bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince feodor alexandrovich of russia",
+            "irina paley"
+          ],
+          "retrieved_paper_ids": [
+            "prince feodor alexandrovich of russia",
+            "prince dmitri alexandrovich of russia",
+            "maria alexandrovna (marie of hesse)",
+            "grand duke paul alexandrovich of russia",
+            "grand duke george mikhailovich of russia (1863–1919)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6b6ef0280bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bermudo i of asturias",
+            "fruela of cantabria"
+          ],
+          "retrieved_paper_ids": [
+            "bermudo i of asturias",
+            "ermesinda",
+            "fruela of cantabria",
+            "alfonso vii of león and castile",
+            "alfonso de la cerda"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6571cca00baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sun luyu",
+            "sun quan"
+          ],
+          "retrieved_paper_ids": [
+            "sun luyu",
+            "sun quan",
+            "sun huan (jiming)",
+            "tjuyu",
+            "kaya alp"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c08b31300baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "james corrigan",
+            "lloyd corrigan"
+          ],
+          "retrieved_paper_ids": [
+            "james corrigan",
+            "lloyd corrigan",
+            "georgina fitzalan-howard, duchess of norfolk",
+            "david carnegie, 4th duke of fife",
+            "timothy west"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3620b13c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "adelaide of hungary (d. 1140)",
+            "soběslav i, duke of bohemia"
+          ],
+          "retrieved_paper_ids": [
+            "adelaide of rheinfelden",
+            "adelaide of hungary (d. 1140)",
+            "elisabeth of greater poland, duchess of bohemia",
+            "maria theresa",
+            "infanta maria adelaide of portugal"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "78bc5f540bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john i, count of soissons",
+            "adelaide, countess of soissons"
+          ],
+          "retrieved_paper_ids": [
+            "john i, count of soissons",
+            "renaud ii, count of soissons",
+            "nocher ii, count of soissons",
+            "john v, count of soissons",
+            "john iii, count of soissons"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5b637e060bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince nicolas, duke of ångermanland",
+            "christopher o'neill"
+          ],
+          "retrieved_paper_ids": [
+            "prince nicolas, duke of ångermanland",
+            "christopher o'neill",
+            "princess marie-françoise of bourbon-parma",
+            "baroness gösta von dem bussche-haddenhausen",
+            "charles ii, duke of parma"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5d6f28620bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "drogo of champagne",
+            "plectrude"
+          ],
+          "retrieved_paper_ids": [
+            "hugh of champagne",
+            "drogo of champagne",
+            "plectrude",
+            "theobald ii, count of champagne",
+            "adela of champagne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fcd3ff500baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "teriimaevarua iii",
+            "tamatoa v"
+          ],
+          "retrieved_paper_ids": [
+            "gepaepyris",
+            "tiberius julius cotys i",
+            "teriimaevarua iii",
+            "tjuyu",
+            "princess barbara of prussia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "fc50265e0bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince friedrich sigismund of prussia (1891–1927)",
+            "princess louise sophie of schleswig-holstein-sonderburg-augustenburg"
+          ],
+          "retrieved_paper_ids": [
+            "prince friedrich sigismund of prussia (1891–1927)",
+            "prince christian-sigismund of prussia",
+            "sigismund i, prince of anhalt-dessau",
+            "prince friedrich karl of prussia (1828–1885)",
+            "princess barbara of prussia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6a59336a0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "margaret of jülich",
+            "margaret of ravensberg"
+          ],
+          "retrieved_paper_ids": [
+            "margaret of jülich",
+            "gerhard vi of jülich, count of berg and ravensberg",
+            "margaret of cleves, duchess of bavaria-straubing",
+            "william v, duke of jülich",
+            "margaret of ravensberg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "2023639c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "zainal rashid al-mu'adzam shah i of kedah",
+            "ahmad tajuddin halim shah ii of kedah"
+          ],
+          "retrieved_paper_ids": [
+            "ahmad tajuddin mukarram shah of kedah",
+            "zainal rashid al-mu'adzam shah i of kedah",
+            "sallehuddin of kedah",
+            "zainal rashid mu'adzam shah ii of kedah",
+            "abdullah mu'adzam shah of kedah"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3a148dcc0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "fredegund",
+            "chilperic i"
+          ],
+          "retrieved_paper_ids": [
+            "fredegund",
+            "audovera",
+            "ingegerd birgersdotter of bjelbo",
+            "clovis ii",
+            "plectrude"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "20beaf000bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ursula pole, baroness stafford",
+            "henry stafford, 1st baron stafford"
+          ],
+          "retrieved_paper_ids": [
+            "ursula pole, baroness stafford",
+            "henry stafford, 1st baron stafford",
+            "robert de ferrers, 4th baron ferrers of chartley",
+            "gilbert kennedy, 3rd earl of cassilis",
+            "frances bowes-lyon, countess of strathmore and kinghorne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "078bb0d80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hans albrecht, hereditary prince of schleswig-holstein",
+            "princess marie melita of hohenlohe-langenburg"
+          ],
+          "retrieved_paper_ids": [
+            "hans albrecht, hereditary prince of schleswig-holstein",
+            "friedrich ferdinand, hereditary prince of schleswig-holstein",
+            "princess marie alexandra of schleswig-holstein",
+            "friedrich, duke of schleswig-holstein-sonderburg-glücksburg",
+            "albert, duke of schleswig-holstein"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "ef4907cc0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "busba kitiyakara",
+            "nakkhatra mangala"
+          ],
+          "retrieved_paper_ids": [
+            "busba kitiyakara",
+            "nakkhatra mangala",
+            "thawisan ladawan",
+            "kaya alp",
+            "lolo soetoro"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "656b25bc0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "chlothar iii",
+            "clovis ii"
+          ],
+          "retrieved_paper_ids": [
+            "chlothar iii",
+            "clovis ii",
+            "thomas butler, 3rd baron cahir",
+            "geoffrey iii, count of perche",
+            "cellach mac máele coba"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6709a7900baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "james cecil, 6th earl of salisbury",
+            "james cecil, 5th earl of salisbury"
+          ],
+          "retrieved_paper_ids": [
+            "james cecil, 6th earl of salisbury",
+            "james cecil, 5th earl of salisbury",
+            "james cecil, 1st marquess of salisbury",
+            "james cecil, 3rd earl of salisbury",
+            "margaret cecil, countess of salisbury"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "bc633e2c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "maria luisa of savoy",
+            "philip v of spain"
+          ],
+          "retrieved_paper_ids": [
+            "maria luisa of savoy",
+            "maria luisa, duchess of lucca",
+            "charles ii, duke of parma",
+            "princess maria luisa of savoy (1729–1767)",
+            "infanta blanca of spain"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5b5dbeb20bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "edward harley, 5th earl of oxford and earl mortimer",
+            "john harley (bishop, died 1788)"
+          ],
+          "retrieved_paper_ids": [
+            "edward harley, 5th earl of oxford and earl mortimer",
+            "edward harley, 4th earl of oxford and earl mortimer",
+            "alfred harley, 6th earl of oxford and earl mortimer",
+            "edward harley, 3rd earl of oxford and earl mortimer",
+            "edward harley, 2nd earl of oxford and earl mortimer"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3d2069fe0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess margaret of connaught",
+            "princess louise margaret of prussia"
+          ],
+          "retrieved_paper_ids": [
+            "alexander ramsay of mar",
+            "princess margaret of connaught",
+            "princess louise margaret of prussia",
+            "alexander ramsay (royal navy officer)",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b23a2b360baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sophie of france (1786-1787)",
+            "marie antoinette"
+          ],
+          "retrieved_paper_ids": [
+            "isabella of valois",
+            "sophie of france (1776-1783)",
+            "sophie of france (1786-1787)",
+            "sophie of france (1734–1782)",
+            "princess sophie of greece and denmark"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "1a25fd560bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sancho de la cerda, 1st marquis of la laguna",
+            "juan de la cerda, 4th duke of medinaceli"
+          ],
+          "retrieved_paper_ids": [
+            "sancho de la cerda, 1st marquis of la laguna",
+            "juan de la cerda, 4th duke of medinaceli",
+            "juan de la cerda, 5th duke of medinaceli",
+            "luis de la cerda, 1st marquis of cogolludo",
+            "alfonso de la cerda"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "d4f59b2e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "stephanie alfonso of castile",
+            "alfonso vii of león and castile"
+          ],
+          "retrieved_paper_ids": [
+            "stephanie alfonso of castile",
+            "alfonso de la cerda",
+            "alfonso vii of león and castile",
+            "violant of castile",
+            "sancho alfonso, 1st count of alburquerque"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "355b86a40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "aspasia annia regilla",
+            "herodes atticus"
+          ],
+          "retrieved_paper_ids": [
+            "cornelia (mother of the gracchi)",
+            "aspasia annia regilla",
+            "lucius vibullius hipparchus (grandson of herodes atticus)",
+            "publius licinius crassus dives (consul 205 bc)",
+            "roger iii, duke of apulia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e5a5ff220baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles howard, 7th earl of suffolk",
+            "henry howard, 6th earl of suffolk"
+          ],
+          "retrieved_paper_ids": [
+            "michael howard, 21st earl of suffolk",
+            "henrietta howard, countess of suffolk (died 1715)",
+            "edward howard, 8th earl of suffolk",
+            "charles howard, 7th earl of suffolk",
+            "henry howard, 13th earl of suffolk"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f96ad5460baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles of artois, count of eu",
+            "philip of artois, count of eu"
+          ],
+          "retrieved_paper_ids": [
+            "charles of artois, count of eu",
+            "philip of artois, count of eu",
+            "robert iv of artois, count of eu",
+            "john, count of eu",
+            "louis, count of évreux"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b428fe9a0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince rené of bourbon-parma",
+            "infanta maria antonia of portugal"
+          ],
+          "retrieved_paper_ids": [
+            "prince rené of bourbon-parma",
+            "prince michel of bourbon-parma",
+            "princess marie-françoise of bourbon-parma",
+            "princess margaret of denmark",
+            "archduchess maria anna of austria (1882–1940)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "fa3dab600baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "budashiri",
+            "jayaatu khan tugh temür"
+          ],
+          "retrieved_paper_ids": [
+            "budashiri",
+            "jayaatu khan tugh temür",
+            "tolui",
+            "hulagu khan",
+            "tulasi (actress)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "67d667340bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "william stanley (battle of bosworth)",
+            "thomas stanley, 1st earl of derby"
+          ],
+          "retrieved_paper_ids": [
+            "william stanley (battle of bosworth)",
+            "thomas stanley, 1st earl of derby",
+            "edward despenser, 1st baron despenser",
+            "stephen, king of england",
+            "elizabeth butler, countess of desmond"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5112118e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sibylla of burgundy, duchess of burgundy",
+            "william i, count of burgundy"
+          ],
+          "retrieved_paper_ids": [
+            "sibylla of burgundy, duchess of burgundy",
+            "florine of burgundy",
+            "isabella of bourbon",
+            "henry, son of robert i of burgundy",
+            "anne of burgundy"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "c244022c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sophie of france (1734–1782)",
+            "marie leszczyńska"
+          ],
+          "retrieved_paper_ids": [
+            "sophie of france (1776-1783)",
+            "sophie of france (1786-1787)",
+            "sophie of france (1734–1782)",
+            "princess sophie of greece and denmark",
+            "princess sophie of sweden"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "43d7f2180baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "maria of montpellier",
+            "eudokia komnene, wife of william viii of montpellier"
+          ],
+          "retrieved_paper_ids": [
+            "maria of montpellier",
+            "eudokia komnene, wife of william viii of montpellier",
+            "maria theresa",
+            "infante francisco de paula, duke of cádiz",
+            "maria luisa, duchess of lucca"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8cddc8520baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "titus junius brutus",
+            "lucius junius brutus"
+          ],
+          "retrieved_paper_ids": [
+            "titus junius brutus",
+            "tiberius junius brutus",
+            "lucius junius brutus",
+            "decimus junius brutus callaicus",
+            "junius brutus booth"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4759b57e0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john fitzgerald, 4th earl of desmond",
+            "gerald fitzgerald, 3rd earl of desmond"
+          ],
+          "retrieved_paper_ids": [
+            "john fitzgerald, 4th earl of desmond",
+            "thomas fitzgerald, 5th earl of desmond",
+            "john fitzgerald, de facto 12th earl of desmond",
+            "james fitzgerald, 14th earl of desmond",
+            "james fitzgerald, 6th earl of desmond"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "dd1995e40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lewis of luxembourg",
+            "john of luxembourg, lord of beauvoir"
+          ],
+          "retrieved_paper_ids": [
+            "marie of luxembourg, countess of vendôme",
+            "beatrice of luxembourg",
+            "marie of savoy, countess of saint-pol",
+            "lewis of luxembourg",
+            "john of luxembourg, lord of beauvoir"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.225,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6a6283f20bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess amalie of saxony",
+            "princess carolina of parma"
+          ],
+          "retrieved_paper_ids": [
+            "princess amalie of saxony",
+            "princess margaretha of saxony",
+            "elisabeth of bohemia (1358–1373)",
+            "karl von habsburg",
+            "princess amalie of hesse-darmstadt"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3ac46dd20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elisabeth of kalisz",
+            "bolesław the pious"
+          ],
+          "retrieved_paper_ids": [
+            "elisabeth of kalisz",
+            "bolesław the pious",
+            "elisabeth of greater poland, duchess of bohemia",
+            "elisabeth of wrocław",
+            "anna of greater poland"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3b5373780bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ernest ii, duke of saxe-coburg and gotha",
+            "princess alexandrine of baden"
+          ],
+          "retrieved_paper_ids": [
+            "ebba eriksdotter vasa",
+            "ernest ii, duke of saxe-coburg and gotha",
+            "alfred, duke of saxe-coburg and gotha",
+            "john ernest, duke of saxe-eisenach",
+            "dorothea maria of saxe-gotha-altenburg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "bc62d2520baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "coirpre mac fogartaig",
+            "fogartach mac néill"
+          ],
+          "retrieved_paper_ids": [
+            "fogartach mac néill",
+            "óengus mac colmáin",
+            "coirpre mac fogartaig",
+            "áed mac ainmuirech",
+            "conaire cóem"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "416342440baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tancred, king of sicily",
+            "roger iii, duke of apulia"
+          ],
+          "retrieved_paper_ids": [
+            "tancred, king of sicily",
+            "roger iii, duke of apulia",
+            "frederick ii, holy roman emperor",
+            "roger ii of sicily",
+            "karl von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "623ea4080bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince christian-sigismund of prussia",
+            "grand duchess kira kirillovna of russia"
+          ],
+          "retrieved_paper_ids": [
+            "prince christian-sigismund of prussia",
+            "princess barbara of prussia",
+            "grand duchess kira kirillovna of russia",
+            "prince friedrich sigismund of prussia (1891–1927)",
+            "princess marie of prussia (1855–1888)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f642ff480bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "peter the younger",
+            "doamna chiajna"
+          ],
+          "retrieved_paper_ids": [
+            "peter the younger",
+            "doamna chiajna",
+            "pierre de foix, le jeune",
+            "grand duchess natalia petrovna of russia (1718–1725)",
+            "peter burroughs"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f16f85580baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "empress huo chengjun",
+            "huo guang"
+          ],
+          "retrieved_paper_ids": [
+            "empress huo chengjun",
+            "sun quan",
+            "gao shilian",
+            "emperor gaozong of tang",
+            "huo guang"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6b6eb7bc0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alexandre berthier, 3rd prince of wagram",
+            "napoléon alexandre berthier, 2nd prince of wagram"
+          ],
+          "retrieved_paper_ids": [
+            "baroness gösta von dem bussche-haddenhausen",
+            "gilbert de umfraville, earl of angus",
+            "alexandre louis philippe marie berthier, 4th prince of wagram",
+            "alexandre berthier, 3rd prince of wagram",
+            "napoléon alexandre berthier, 2nd prince of wagram"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.225,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "03eecd9c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess elisabeth anna of prussia",
+            "princess maria anna of anhalt-dessau"
+          ],
+          "retrieved_paper_ids": [
+            "princess elisabeth of prussia",
+            "princess elisabeth anna of prussia",
+            "duchess anna of prussia",
+            "archduchess maria anna of austria (1882–1940)",
+            "princess barbara of prussia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "09bf63b20bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lady susan hamilton",
+            "susan hamilton, duchess of hamilton"
+          ],
+          "retrieved_paper_ids": [
+            "susan hamilton, duchess of hamilton",
+            "anne denman",
+            "william bowes",
+            "elizabeth howard, countess of effingham",
+            "thomas howard, 2nd earl of effingham"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "16a91a500bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "stefan zamoyski",
+            "władysław zdzisław zamoyski"
+          ],
+          "retrieved_paper_ids": [
+            "stefan zamoyski",
+            "władysław zdzisław zamoyski",
+            "adam zamoyski",
+            "karl von habsburg",
+            "ferdinand zvonimir von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "922e43120bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "joachim i, prince of anhalt-dessau",
+            "ernest i, prince of anhalt-dessau"
+          ],
+          "retrieved_paper_ids": [
+            "joachim i, prince of anhalt-dessau",
+            "george i, prince of anhalt-dessau",
+            "sigismund i, prince of anhalt-dessau",
+            "ernest i, prince of anhalt-dessau",
+            "william gustav of anhalt-dessau"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a9ef98760baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bernhard iii, prince of anhalt-bernburg",
+            "bernhard ii, prince of anhalt-bernburg"
+          ],
+          "retrieved_paper_ids": [
+            "bernhard iii, prince of anhalt-bernburg",
+            "bernhard ii, prince of anhalt-bernburg",
+            "otto iii, prince of anhalt-bernburg",
+            "bernhard iv, prince of anhalt-bernburg",
+            "prince friedrich karl of prussia (1828–1885)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4294eaae0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john kemys spencer-churchill",
+            "lord charles spencer-churchill"
+          ],
+          "retrieved_paper_ids": [
+            "john kemys spencer-churchill",
+            "lord charles spencer-churchill",
+            "margaret coke, countess of leicester",
+            "john kennedy, 5th earl of cassilis",
+            "john breckin"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "05befb340baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "adela of normandy",
+            "william the conqueror"
+          ],
+          "retrieved_paper_ids": [
+            "adela of normandy",
+            "adela of champagne",
+            "theobald ii, count of champagne",
+            "stephen, count of blois",
+            "adela of france"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6577dfbe0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eustace iv, count of boulogne",
+            "stephen, king of england"
+          ],
+          "retrieved_paper_ids": [
+            "eustace iv, count of boulogne",
+            "stephen, king of england",
+            "eustace iii, count of boulogne",
+            "matilda ii, countess of boulogne",
+            "matthew, count of boulogne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f0d4919c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "albert, margrave of baden-hachberg",
+            "charles i, margrave of baden-baden"
+          ],
+          "retrieved_paper_ids": [
+            "albert, margrave of baden-hachberg",
+            "louis william, margrave of baden-baden",
+            "charles i, margrave of baden-baden",
+            "albert, duke of schleswig-holstein",
+            "alexander von hanstein, count of pölzig and beiersdorf"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6a957b9a0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "archduke leopold of austria, prince of tuscany",
+            "infanta blanca of spain"
+          ],
+          "retrieved_paper_ids": [
+            "archduke leopold of austria, prince of tuscany",
+            "archduke anton of austria",
+            "archduke leopold franz of austria",
+            "archduke stefan of austria",
+            "archduke rainer of austria (1895–1930)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "c4edf1f40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alexander, son of herod",
+            "mariamne i"
+          ],
+          "retrieved_paper_ids": [
+            "alexander, son of herod",
+            "maria alexandrovna (marie of hesse)",
+            "cassander",
+            "aristobulus of chalcis",
+            "prince feodor alexandrovich of russia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "8da9b95c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john ii of luxembourg, count of ligny",
+            "john of luxembourg, lord of beauvoir"
+          ],
+          "retrieved_paper_ids": [
+            "john ii of luxembourg, count of ligny",
+            "joan, countess of ligny",
+            "john of luxembourg, lord of beauvoir",
+            "marie of luxembourg, countess of vendôme",
+            "margaret, countess of brienne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "b99c67ae0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "waleran i, lord of ligny",
+            "margaret of bar"
+          ],
+          "retrieved_paper_ids": [
+            "waleran i, lord of ligny",
+            "waleran ii, lord of ligny",
+            "elizabeth boleyn, countess of wiltshire",
+            "waleran iii, count of ligny",
+            "henry ii, lord of ligny"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "619580300bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john of hesse-braubach",
+            "johannetta of sayn-wittgenstein (1632–1701)"
+          ],
+          "retrieved_paper_ids": [
+            "john of hesse-braubach",
+            "john george ii, duke of saxe-eisenach",
+            "johannetta of sayn-wittgenstein (1632–1701)",
+            "johann of brandenburg-ansbach, viceroy of valencia",
+            "fredericka elisabeth of saxe-eisenach"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1f38945c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george frederick, count of erbach-breuberg",
+            "george albert i, count of erbach-schönberg"
+          ],
+          "retrieved_paper_ids": [
+            "george frederick, count of erbach-breuberg",
+            "george louis i, count of erbach-erbach",
+            "george iv, count of erbach-fürstenau",
+            "george albert ii, count of erbach-fürstenau",
+            "george iii, count of erbach-breuberg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6a7458d40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ameera al-taweel",
+            "al-waleed bin talal"
+          ],
+          "retrieved_paper_ids": [
+            "ameera al-taweel",
+            "al-waleed bin talal",
+            "maher al-taweel",
+            "bashar al-assad",
+            "timothy west"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "519aee780baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "catherine fitzcharles",
+            "charles ii of england"
+          ],
+          "retrieved_paper_ids": [
+            "catherine fitzcharles",
+            "elizabeth fitzhugh",
+            "william bowes",
+            "george fitzroy, 1st duke of northumberland",
+            "frances bowes-lyon, countess of strathmore and kinghorne"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "82e88a160bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "theobald ii, count of champagne",
+            "stephen, count of blois"
+          ],
+          "retrieved_paper_ids": [
+            "theobald ii, count of champagne",
+            "adela of champagne",
+            "stephen, count of blois",
+            "theobald ii of navarre",
+            "adela of normandy"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a702db460baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "konstantine bagration of mukhrani (1889–1915)",
+            "princess tatiana constantinovna of russia"
+          ],
+          "retrieved_paper_ids": [
+            "natasha bagration",
+            "nicholas bagration of mukhrani",
+            "konstantine bagration of mukhrani (1838–1903)",
+            "irakli bagration of mukhrani (1813–1892)",
+            "konstantine bagration of mukhrani (1889–1915)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.1,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "200805ca0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "reginar iv, count of mons",
+            "reginar iii, count of hainaut"
+          ],
+          "retrieved_paper_ids": [
+            "reginar v, count of mons",
+            "reginar iv, count of mons",
+            "werner, count of valenciennes",
+            "herman, count of hainaut",
+            "manasses de ramerupt"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "74c6f7200baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "robert sidney, 1st earl of leicester",
+            "henry sidney"
+          ],
+          "retrieved_paper_ids": [
+            "robert sidney, 1st earl of leicester",
+            "robert sidney, 4th earl of leicester",
+            "robert sidney, 2nd earl of leicester",
+            "philip sidney, 5th earl of leicester",
+            "jocelyn sidney, 7th earl of leicester"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "049f6dbe0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ibrahim ibn al-walid",
+            "al-walid i"
+          ],
+          "retrieved_paper_ids": [
+            "al-walid i",
+            "ibrahim ibn al-walid",
+            "ibrahim ibn al-husayn (ibn al-walid)",
+            "abd al-muttalib",
+            "hubba bint hulail"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "899fb6360bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "shahuji ii",
+            "serfoji i"
+          ],
+          "retrieved_paper_ids": [
+            "shahuji ii",
+            "hulagu khan",
+            "sarduri ii",
+            "argishti ii",
+            "emine hatun"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f3b1d5820baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gülçiçek hatun",
+            "murad i"
+          ],
+          "retrieved_paper_ids": [
+            "gülbahar hatun (wife of mehmed ii)",
+            "gülbahar hatun (wife of bayezid ii)",
+            "gülçiçek hatun",
+            "hüma hatun",
+            "emine hatun"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "8976d4d20bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "floris de voogd",
+            "matilda of brabant, countess of holland"
+          ],
+          "retrieved_paper_ids": [
+            "floris de voogd",
+            "matilda of brabant, countess of holland",
+            "bob de voogd",
+            "theobald ii, count of champagne",
+            "floris de tier"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "062884f40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "caroline emily nevill",
+            "william nevill, 4th earl of abergavenny"
+          ],
+          "retrieved_paper_ids": [
+            "caroline emily nevill",
+            "william nevill, 4th earl of abergavenny",
+            "edith ewing bouvier beale",
+            "john vernou bouvier iii",
+            "david carnegie, 4th duke of fife"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "cb255ec20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "isabel of barcelos",
+            "beatriz pereira de alvim"
+          ],
+          "retrieved_paper_ids": [
+            "isabel of barcelos",
+            "beatriz pereira de alvim",
+            "diogo, constable of portugal",
+            "infanta isabel fernanda of spain",
+            "infanta blanca of spain"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4d8f2e6a0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elizabeth hervey, countess of bristol",
+            "john hervey, 1st earl of bristol"
+          ],
+          "retrieved_paper_ids": [
+            "peter burroughs",
+            "elizabeth hervey, countess of bristol",
+            "john hervey, 1st earl of bristol",
+            "eustace iv, count of boulogne",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fa3b93d40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince karl franz of prussia",
+            "princess marie-auguste of anhalt"
+          ],
+          "retrieved_paper_ids": [
+            "prince friedrich karl of prussia (1828–1885)",
+            "prince karl franz of prussia",
+            "prince wilhelm of prussia (1783–1851)",
+            "prince christian-sigismund of prussia",
+            "archduke franz karl of austria"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "fec888ea0bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eustace iii, count of boulogne",
+            "ida of lorraine"
+          ],
+          "retrieved_paper_ids": [
+            "eustace iii, count of boulogne",
+            "eustace i, count of boulogne",
+            "eustace iv, count of boulogne",
+            "arnulf iii, count of boulogne",
+            "arnulf ii, count of boulogne"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "0caebed80bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "francesco ruspoli, 10th prince of cerveteri",
+            "alessandro ruspoli, 9th prince of cerveteri"
+          ],
+          "retrieved_paper_ids": [
+            "francesco ruspoli, 8th prince of cerveteri",
+            "francesco ruspoli, 10th prince of cerveteri",
+            "francesco ruspoli, 3rd prince of cerveteri",
+            "alessandro ruspoli, 4th prince of cerveteri",
+            "alessandro ruspoli, 9th prince of cerveteri"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "60b814940baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "bolesław januszowic",
+            "danutė of lithuania"
+          ],
+          "retrieved_paper_ids": [
+            "anna of greater poland",
+            "elisabeth of wrocław",
+            "bolesław januszowic",
+            "bolesław the pious",
+            "elisabeth of greater poland, duchess of bohemia"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e9940b6a0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elizabeth howard, countess of effingham",
+            "thomas howard, 2nd earl of effingham"
+          ],
+          "retrieved_paper_ids": [
+            "elizabeth howard, countess of effingham",
+            "thomas howard, 2nd earl of effingham",
+            "henry howard, 4th earl of effingham",
+            "elizabeth boleyn, countess of wiltshire",
+            "anne howard, countess of effingham"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6a953aae0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "graziano rossi",
+            "valentino rossi"
+          ],
+          "retrieved_paper_ids": [
+            "graziano rossi",
+            "valentino rossi",
+            "maire gullichsen",
+            "augusto ruspoli, 11th duke of fiano",
+            "ferdinand zvonimir von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "534cb9fe0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles d'orléans, duke of penthièvre",
+            "louis philippe i"
+          ],
+          "retrieved_paper_ids": [
+            "jean ii de brosse",
+            "sébastien, duke of penthièvre",
+            "louis jean marie de bourbon, duke of penthièvre",
+            "charles d'orléans, duke of penthièvre",
+            "constance of penthièvre"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.125,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "e2c19fd80bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lady helen taylor",
+            "prince edward, duke of kent"
+          ],
+          "retrieved_paper_ids": [
+            "william montagu douglas scott, 6th duke of buccleuch",
+            "lady helen taylor",
+            "helen taylor (writer)",
+            "héctor barrantes",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "7bb816f40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "máel coba mac áedo",
+            "áed mac ainmuirech"
+          ],
+          "retrieved_paper_ids": [
+            "máel coba mac áedo",
+            "cellach mac máele coba",
+            "áed mac ainmuirech",
+            "óengus mac colmáin",
+            "suibne menn"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8e71c6c80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "tiberius julius cotys i",
+            "gepaepyris"
+          ],
+          "retrieved_paper_ids": [
+            "tiberius julius cotys i",
+            "gepaepyris",
+            "julia livia",
+            "tiberius junius brutus",
+            "titus junius brutus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c80712260baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "affreca de courcy",
+            "guðrøðr óláfsson"
+          ],
+          "retrieved_paper_ids": [
+            "affreca de courcy",
+            "henri roussel de courcy",
+            "alfred de courcy",
+            "frédéric de courcy",
+            "michael de courcy (artist)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "656a0ea60bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "guitier, count of rethel",
+            "matilda, countess of rethel"
+          ],
+          "retrieved_paper_ids": [
+            "guitier, count of rethel",
+            "matilda, countess of rethel",
+            "manasses iv, count of rethel",
+            "gervais, count of rethel",
+            "joan, countess of rethel"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "362f76f40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "phelan beale jr.",
+            "edith ewing bouvier beale"
+          ],
+          "retrieved_paper_ids": [
+            "phelan beale jr.",
+            "edith ewing bouvier beale",
+            "john vernou bouvier iii",
+            "bradley orr",
+            "greg penner"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "21fa6dce0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "argishti i of urartu",
+            "sarduri ii"
+          ],
+          "retrieved_paper_ids": [
+            "argishti i of urartu",
+            "sarduri ii",
+            "argishti ii",
+            "sarduri i",
+            "agustín jerónimo de iturbide y huarte"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "286b03160bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "richard white, 2nd earl of bantry",
+            "richard white, 1st earl of bantry"
+          ],
+          "retrieved_paper_ids": [
+            "richard white, 2nd earl of bantry",
+            "richard white, 1st earl of bantry",
+            "william hedges-white, 3rd earl of bantry",
+            "richard white (fl. 1402)",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f23c75180baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alfonso de castilla y molina",
+            "maría de molina"
+          ],
+          "retrieved_paper_ids": [
+            "sancho alfonso, 1st count of alburquerque",
+            "philip of castile, lord of cabrera and ribera",
+            "alfonso de castilla y molina",
+            "alfonso de la cerda",
+            "maría de molina"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "8140e36c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "queen gongye",
+            "injong of goryeo"
+          ],
+          "retrieved_paper_ids": [
+            "queen gongye",
+            "injong of goryeo",
+            "princess hyomyeong",
+            "baroness gösta von dem bussche-haddenhausen",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "593584760bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "prince charles louis, duke of chartres",
+            "prince jacques, duke of orléans"
+          ],
+          "retrieved_paper_ids": [
+            "prince charles louis, duke of chartres",
+            "charles ii, duke of parma",
+            "charles d'orléans, duke of penthièvre",
+            "louis, prince of brionne",
+            "prince charles of luxembourg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "86aedade0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "archduke charles joseph of austria (1745–1761)",
+            "maria theresa"
+          ],
+          "retrieved_paper_ids": [
+            "archduke charles joseph of austria (1745–1761)",
+            "archduke otto of austria (1865–1906)",
+            "karl von habsburg",
+            "archduchess maria carolina of austria (1740–1741)",
+            "archduke franz karl of austria"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "ef5046be0bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "edward despenser, 1st baron despenser",
+            "edward despenser (died 1342)"
+          ],
+          "retrieved_paper_ids": [
+            "elizabeth le despenser",
+            "edward despenser (died 1342)",
+            "john fitzalan, 2nd baron arundel",
+            "edward despenser, 1st baron despenser",
+            "hugh despenser (justiciar)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5c8c93ae0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "louis i, cardinal of guise",
+            "antoinette de bourbon"
+          ],
+          "retrieved_paper_ids": [
+            "louis i, count of nevers",
+            "louis i, cardinal of guise",
+            "louis i, count of erbach-erbach",
+            "louis ii, cardinal of guise",
+            "louis i, grand duke of hesse"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "02f574780baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "empress liu e",
+            "liu cong (han zhao)"
+          ],
+          "retrieved_paper_ids": [
+            "empress liu e",
+            "liu cong (han zhao)",
+            "prince edward, duke of kent",
+            "charles ii, duke of parma",
+            "empress wang (chenghua)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "e6606da80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lockwood west",
+            "timothy west"
+          ],
+          "retrieved_paper_ids": [
+            "lockwood west",
+            "timothy west",
+            "lionel sackville-west, 3rd baron sackville",
+            "george west, viscount cantelupe",
+            "mortimer sackville-west, 1st baron sackville"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "53e7e9d80baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charlotte of schaumburg-lippe",
+            "princess bathildis of anhalt-dessau"
+          ],
+          "retrieved_paper_ids": [
+            "heinrich donatus, hereditary prince of schaumburg-lippe",
+            "charlotte of schaumburg-lippe",
+            "prince frederick of schaumburg-lippe",
+            "princess adelheid of schaumburg-lippe",
+            "prince wilhelm of schaumburg-lippe (b. 1939)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "97c6181e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess christina margarethe of hesse",
+            "princess sophie of greece and denmark"
+          ],
+          "retrieved_paper_ids": [
+            "princess christina margarethe of hesse",
+            "princess sophie of greece and denmark",
+            "friedrich ferdinand, hereditary prince of schleswig-holstein",
+            "prince christian-sigismund of prussia",
+            "christine of hesse-kassel (1578–1658)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "72a501e40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george willoughby, 7th baron willoughby of parham",
+            "william willoughby, 6th baron willoughby of parham"
+          ],
+          "retrieved_paper_ids": [
+            "george willoughby, 17th baron willoughby of parham",
+            "george willoughby, 7th baron willoughby of parham",
+            "john willoughby, 8th baron willoughby of parham",
+            "john willoughby, 9th baron willoughby of parham",
+            "william willoughby, 6th baron willoughby of parham"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6a7e42180bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "diya al-dawla",
+            "'adud al-dawla"
+          ],
+          "retrieved_paper_ids": [
+            "'adud al-dawla",
+            "diya al-dawla",
+            "baha al-dawla",
+            "sultan al-dawla",
+            "sharaf al-dawla"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "81c8173c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "nicholas eliot, 9th earl of st germans",
+            "montague eliot, 8th earl of st germans"
+          ],
+          "retrieved_paper_ids": [
+            "nicholas eliot, 9th earl of st germans",
+            "montague eliot, 8th earl of st germans",
+            "john eliot, 6th earl of st germans",
+            "henry eliot, 5th earl of st germans",
+            "jago eliot"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0290cd840baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "donnchadh iv, earl of fife",
+            "mary de monthermer"
+          ],
+          "retrieved_paper_ids": [
+            "david carnegie, 4th duke of fife",
+            "donnchadh iv, earl of fife",
+            "thomas fitzgerald, 5th earl of desmond",
+            "áed mac ainmuirech",
+            "cellach mac máele coba"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "80cea3ec0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "johann, count of cleves",
+            "dietrich vii, count of cleves"
+          ],
+          "retrieved_paper_ids": [
+            "johann, count of cleves",
+            "dietrich vii, count of cleves",
+            "adolph ii of the marck",
+            "william i of berg",
+            "dietrich viii, count of cleves"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "2f6aa3ba0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "adolf viii of berg",
+            "adolf vii of berg"
+          ],
+          "retrieved_paper_ids": [
+            "adolf vii of berg",
+            "adolf ix of berg",
+            "adolf viii of berg",
+            "henry of berg, lord of windeck",
+            "adolf ii of berg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "73ab605a0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "albert v, prince of anhalt-dessau",
+            "sigismund i, prince of anhalt-dessau"
+          ],
+          "retrieved_paper_ids": [
+            "william montagu douglas scott, 6th duke of buccleuch",
+            "albert v, prince of anhalt-dessau",
+            "albert iv, prince of anhalt-köthen",
+            "héctor barrantes",
+            "albert vi, prince of anhalt-köthen"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5498821a0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "lionel sackville-west, 3rd baron sackville",
+            "vita sackville-west"
+          ],
+          "retrieved_paper_ids": [
+            "lionel sackville-west, 3rd baron sackville",
+            "victoria sackville-west, baroness sackville",
+            "mortimer sackville-west, 1st baron sackville",
+            "charles sackville-west, 6th earl de la warr",
+            "charles sackville-west, 4th baron sackville"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6b6f51940bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles bruce, 5th earl of elgin",
+            "william bruce, 8th earl of kincardine"
+          ],
+          "retrieved_paper_ids": [
+            "martha bruce, countess of elgin and kincardine",
+            "charles bruce, 5th earl of elgin",
+            "william bruce, 8th earl of kincardine",
+            "thomas bruce, 2nd earl of ailesbury",
+            "charles andrew bruce"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "87a715180bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "johann wilhelm, duke of saxe-jena",
+            "bernhard ii, duke of saxe-jena"
+          ],
+          "retrieved_paper_ids": [
+            "johann wilhelm, duke of saxe-jena",
+            "charlotte marie of saxe-jena",
+            "bernhard ii, duke of saxe-jena",
+            "wilhelm heinrich, duke of saxe-eisenach",
+            "friedrich wilhelm i, duke of saxe-weimar"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "07aae62e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "empress wang (gaozong)",
+            "emperor gaozong of tang"
+          ],
+          "retrieved_paper_ids": [
+            "emperor gaozong of tang",
+            "empress wang (gaozong)",
+            "empress wang (jingtai)",
+            "empress wang (chenghua)",
+            "gao shilian"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "656745cc0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess adelheid of schaumburg-lippe",
+            "friedrich, duke of schleswig-holstein-sonderburg-glücksburg"
+          ],
+          "retrieved_paper_ids": [
+            "princess adelheid of schaumburg-lippe",
+            "heinrich donatus, hereditary prince of schaumburg-lippe",
+            "prince alexander of prussia",
+            "prince frederick of schaumburg-lippe",
+            "prince wilhelm of schaumburg-lippe (b. 1939)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "ace961ec0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "shepseskare",
+            "neferefre"
+          ],
+          "retrieved_paper_ids": [
+            "gepaepyris",
+            "tiberius julius cotys i",
+            "shepseskare",
+            "william montagu douglas scott, 6th duke of buccleuch",
+            "neferefre"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "29b5eaf60bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hulagu khan",
+            "tolui"
+          ],
+          "retrieved_paper_ids": [
+            "hulagu khan",
+            "tolui",
+            "george, son of david vii of georgia",
+            "purnima (hindi actress)",
+            "hubba bint hulail"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "43d525ba0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "infante francisco de paula, duke of cádiz",
+            "princess luisa carlotta of naples and sicily"
+          ],
+          "retrieved_paper_ids": [
+            "infante francisco de paula, duke of cádiz",
+            "infanta isabel fernanda of spain",
+            "infanta luisa teresa of spain",
+            "infanta amalia of spain",
+            "infanta josefina fernanda of spain"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "941b72e40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george tuchet, 1st earl of castlehaven",
+            "henry tuchet, 10th baron audley"
+          ],
+          "retrieved_paper_ids": [
+            "john tuchet, 8th earl of castlehaven",
+            "george tuchet, 1st earl of castlehaven",
+            "james tuchet, 7th earl of castlehaven",
+            "james tuchet, 3rd earl of castlehaven",
+            "james tuchet, 5th earl of castlehaven"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "eb18a27a0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "yasho brahma shah",
+            "dravya shah"
+          ],
+          "retrieved_paper_ids": [
+            "yasho brahma shah",
+            "prithvipati shah",
+            "merlin holland",
+            "bam shah",
+            "dravya shah"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "89956f1e0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "publius licinius crassus (son of triumvir)",
+            "cornelia metella"
+          ],
+          "retrieved_paper_ids": [
+            "publius licinius crassus (son of triumvir)",
+            "publius licinius crassus dives (consul 97 bc)",
+            "publius licinius crassus dives (consul 205 bc)",
+            "publius licinius crassus (consul 171 bc)",
+            "publius licinius crassus dives mucianus"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "df77d6d40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "joan, lady of wales",
+            "john, king of england"
+          ],
+          "retrieved_paper_ids": [
+            "joan, lady of wales",
+            "john, king of england",
+            "joan, countess of ligny",
+            "joan ii of navarre",
+            "elizabeth lyon, countess of strathmore"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f243705c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "empress xu (ming dynasty)",
+            "yongle emperor"
+          ],
+          "retrieved_paper_ids": [
+            "empress xu (ming dynasty)",
+            "yongle emperor",
+            "empress wang (chenghua)",
+            "empress wang (jingtai)",
+            "empress huo chengjun"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3e1323ac0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "audovera",
+            "chilperic i"
+          ],
+          "retrieved_paper_ids": [
+            "eldon howard",
+            "audovera",
+            "priscilla pointer",
+            "ebba eriksdotter vasa",
+            "infanta luisa teresa of spain"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "6842323e0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "charles xiii of sweden",
+            "adolf frederick, king of sweden"
+          ],
+          "retrieved_paper_ids": [
+            "charles xiii of sweden",
+            "adolf frederick, king of sweden",
+            "alexander ramsay of mar",
+            "sophia albertina, abbess of quedlinburg",
+            "charles ii of england"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "a704ed8c0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "princess adelheid of schaumburg-lippe",
+            "friedrich, duke of schleswig-holstein-sonderburg-glücksburg"
+          ],
+          "retrieved_paper_ids": [
+            "princess adelheid of schaumburg-lippe",
+            "heinrich donatus, hereditary prince of schaumburg-lippe",
+            "charlotte of schaumburg-lippe",
+            "prince frederick of schaumburg-lippe",
+            "princess bathildis of anhalt-dessau"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "1faf51ba0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "li qi (emperor)",
+            "li xiong"
+          ],
+          "retrieved_paper_ids": [
+            "li qi (emperor)",
+            "li xiong",
+            "sun quan",
+            "liu cong (han zhao)",
+            "zhao shoushan"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "4c064bb40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "john tuchet, 8th earl of castlehaven",
+            "james tuchet, 6th earl of castlehaven"
+          ],
+          "retrieved_paper_ids": [
+            "george tuchet, 1st earl of castlehaven",
+            "mervyn tuchet, 2nd earl of castlehaven",
+            "john tuchet, 8th earl of castlehaven",
+            "audley mervyn",
+            "james tuchet, 7th earl of castlehaven"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.0,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "adde63860baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "grand duke paul alexandrovich of russia",
+            "maria alexandrovna (marie of hesse)"
+          ],
+          "retrieved_paper_ids": [
+            "grand duke paul alexandrovich of russia",
+            "natalia pavlovna paley",
+            "irina paley",
+            "princess olga paley",
+            "maria alexandrovna (marie of hesse)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3d24d6740bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "augusta fitzalan-howard, duchess of norfolk",
+            "edmund lyons, 1st baron lyons"
+          ],
+          "retrieved_paper_ids": [
+            "william montagu douglas scott, 6th duke of buccleuch",
+            "augusta fitzalan-howard, duchess of norfolk",
+            "georgina fitzalan-howard, duchess of norfolk",
+            "gwendolen fitzalan-howard, duchess of norfolk",
+            "héctor barrantes"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.25,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f9d3a86e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "henrique da veiga de nápoles",
+            "henrique esteves da veiga de nápoles"
+          ],
+          "retrieved_paper_ids": [
+            "henrique da veiga de nápoles",
+            "henrique esteves da veiga de nápoles",
+            "joão esteves da veiga de nápoles",
+            "leonardo esteves de nápoles",
+            "isabel of braganza, duchess of guimarães"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "308416280bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "geoffrey iii, count of perche",
+            "rotrou iv, count of perche"
+          ],
+          "retrieved_paper_ids": [
+            "geoffrey ii, count of perche",
+            "rotrou iii, count of perche",
+            "geoffrey iii, count of perche",
+            "thomas, count of perche",
+            "rotrou iv, count of perche"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.26666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5c7842780baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "dui finn",
+            "sétna innarraid"
+          ],
+          "retrieved_paper_ids": [
+            "dui finn",
+            "sétna innarraid",
+            "fred le deux",
+            "bill dundee",
+            "friedrich ferdinand, hereditary prince of schleswig-holstein"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "25a3e4780baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "frederick iii, landgrave of thuringia",
+            "frederick ii, margrave of meissen"
+          ],
+          "retrieved_paper_ids": [
+            "frederick iii, landgrave of thuringia",
+            "princess barbara of prussia",
+            "princess feodora of saxe-meiningen",
+            "friedrich ferdinand, hereditary prince of schleswig-holstein",
+            "karl von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "77f2d5bc0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "louisa grace beauclerk, duchess of st albans",
+            "john manners (english politician)"
+          ],
+          "retrieved_paper_ids": [
+            "louisa grace beauclerk, duchess of st albans",
+            "charles beauclerk, 2nd duke of st albans",
+            "suzanne beauclerk, duchess of st albans",
+            "catherine beauclerk, duchess of st albans",
+            "dean of st albans"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "60814b660bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "roger clifford, 5th baron clifford",
+            "robert clifford, 3rd baron clifford"
+          ],
+          "retrieved_paper_ids": [
+            "roger clifford, 2nd baron clifford",
+            "robert clifford, 4th baron clifford",
+            "roger clifford, 5th baron clifford",
+            "robert clifford, 3rd baron clifford",
+            "lady helen taylor"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.29166666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c987d3880baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sir william monson, 4th baronet",
+            "john monson"
+          ],
+          "retrieved_paper_ids": [
+            "sir william monson, 4th baronet",
+            "john monson",
+            "william monson (royal navy officer)",
+            "william bowes",
+            "sir humphrey de trafford, 4th baronet"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "c7fa16700baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "archduchess charlotte of austria",
+            "zita of bourbon-parma"
+          ],
+          "retrieved_paper_ids": [
+            "archduchess charlotte of austria",
+            "archduke otto of austria (1865–1906)",
+            "archduchess maria anna of austria (1882–1940)",
+            "archduke ludwig viktor of austria",
+            "zita of bourbon-parma"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "36a3fe2a0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "richard burke, 4th earl of clanricarde",
+            "ulick burke, 3rd earl of clanricarde"
+          ],
+          "retrieved_paper_ids": [
+            "richard burke, 4th earl of clanricarde",
+            "ulick burke, 3rd earl of clanricarde",
+            "william burke, 7th earl of clanricarde",
+            "frances walsingham, countess of essex",
+            "sir henry lynch, 1st baronet"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f77e556e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "władysław i of płock",
+            "siemowit iv, duke of masovia"
+          ],
+          "retrieved_paper_ids": [
+            "anna of greater poland",
+            "władysław i of płock",
+            "bolesław the pious",
+            "siemowit iv, duke of masovia",
+            "mieszko iii the old"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.375,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "3e4f77020bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "władysław i herman",
+            "casimir i the restorer"
+          ],
+          "retrieved_paper_ids": [
+            "władysław i herman",
+            "casimir i the restorer",
+            "władysław i of płock",
+            "eckhard (bishop of poznań)",
+            "herman, count of hainaut"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "59a1aeae0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elisabeth of greater poland, duchess of bohemia",
+            "mieszko iii the old"
+          ],
+          "retrieved_paper_ids": [
+            "elisabeth of greater poland, duchess of bohemia",
+            "elisabeth of wrocław",
+            "anna of greater poland",
+            "bolesław the pious",
+            "mieszko iii the old"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "56fb5d4e0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sophie winkleman",
+            "lord frederick windsor"
+          ],
+          "retrieved_paper_ids": [
+            "sophie winkleman",
+            "lord frederick windsor",
+            "marian shields robinson",
+            "frances bowes-lyon, countess of strathmore and kinghorne",
+            "princess sophie of romania"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "66137ff40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "robert, count of eu",
+            "william i, count of eu"
+          ],
+          "retrieved_paper_ids": [
+            "robert, count of eu",
+            "robert iv of artois, count of eu",
+            "john, count of eu",
+            "robert, count of clermont",
+            "william i, count of eu"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "948c33ea0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "naja rosa",
+            "thomas koppel"
+          ],
+          "retrieved_paper_ids": [
+            "naja rosa",
+            "thomas koppel",
+            "frédéric prinz von anhalt",
+            "john mackay (poet)",
+            "lolo soetoro"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f78d85300bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "joan de beauchamp, countess of ormond",
+            "james butler, 4th earl of ormond"
+          ],
+          "retrieved_paper_ids": [
+            "margaret, countess of soissons",
+            "mary of avesnes",
+            "joan de beauchamp, countess of ormond",
+            "john iii, count of soissons",
+            "thomas fitzgerald, 5th earl of desmond"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "3d28c6da0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elizabeth rockefeller strong",
+            "margaret rockefeller strong"
+          ],
+          "retrieved_paper_ids": [
+            "elizabeth rockefeller strong",
+            "margaret rockefeller strong",
+            "elizabeth howard, countess of effingham",
+            "sophie winkleman",
+            "elizabeth butler, countess of desmond"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5702c1920baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "sabina de iturbide y huarte",
+            "ana maría huarte"
+          ],
+          "retrieved_paper_ids": [
+            "sabina de iturbide y huarte",
+            "salvador de iturbide y marzán",
+            "maría de jesús de iturbide",
+            "josefa de iturbide y huarte",
+            "ángel de iturbide y huarte"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "fc031d360baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "berthold (patriarch of aquileia)",
+            "agnes of rochlitz"
+          ],
+          "retrieved_paper_ids": [
+            "john i, duke of bavaria",
+            "margaret of bohemia, duchess of bavaria",
+            "berthold (patriarch of aquileia)",
+            "elisabeth of bohemia (1358–1373)",
+            "anne of bohemia (1290–1313)"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "5ead80ee0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "asma al-assad",
+            "bashar al-assad"
+          ],
+          "retrieved_paper_ids": [
+            "bushra al-assad",
+            "bashar al-assad",
+            "asma al-assad",
+            "anisa makhlouf",
+            "bassel al-assad"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "18dadca00bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "george cochrane (politician)",
+            "thomas cochrane, 8th earl of dundonald"
+          ],
+          "retrieved_paper_ids": [
+            "george cochrane (politician)",
+            "thomas cochrane, 8th earl of dundonald",
+            "george frederick, count of erbach-breuberg",
+            "anna dorothea, abbess of quedlinburg",
+            "zhao shoushan"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5492d11c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "patricius (caesar)",
+            "aspar"
+          ],
+          "retrieved_paper_ids": [
+            "patricius (caesar)",
+            "aspar",
+            "lucius vibullius hipparchus (grandson of herodes atticus)",
+            "publius licinius crassus dives mucianus",
+            "publius licinius crassus (son of triumvir)"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6c80bc4e0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "hugh montgomerie, 7th earl of eglinton",
+            "alexander montgomerie, 6th earl of eglinton"
+          ],
+          "retrieved_paper_ids": [
+            "hugh montgomerie, 7th earl of eglinton",
+            "alexander montgomerie, 6th earl of eglinton",
+            "hugh montgomerie, 12th earl of eglinton",
+            "hugh montgomerie, 3rd earl of eglinton",
+            "hugh montgomerie, 1st earl of eglinton"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "56c857fe0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "william viii of jülich, count of ravensberg",
+            "william vii of jülich, 1st duke of berg"
+          ],
+          "retrieved_paper_ids": [
+            "william viii of jülich, count of ravensberg",
+            "gerhard vii, duke of jülich-berg",
+            "william v, duke of jülich",
+            "william ii, duke of jülich",
+            "gerhard v of jülich"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "676bf7000bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "eustace iii, count of boulogne",
+            "ida of lorraine"
+          ],
+          "retrieved_paper_ids": [
+            "eustace iii, count of boulogne",
+            "eustace i, count of boulogne",
+            "eustace iv, count of boulogne",
+            "arnulf iii, count of boulogne",
+            "arnulf ii, count of boulogne"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.5,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "f64359840bae11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "mehmet i of karaman",
+            "karaman bey"
+          ],
+          "retrieved_paper_ids": [
+            "mehmet i of karaman",
+            "firman of karamanoğlu mehmet bey",
+            "karaman bey",
+            "mahmut of karaman",
+            "ahmet of karaman"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.6666666666666666,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f3c9cb920baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gaius rubellius blandus",
+            "julia livia"
+          ],
+          "retrieved_paper_ids": [
+            "gaius rubellius blandus",
+            "rubellius blandus",
+            "rubellia bassa",
+            "julia livia",
+            "publius licinius crassus dives mucianus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "1869092c0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "taj al-dawla",
+            "'adud al-dawla"
+          ],
+          "retrieved_paper_ids": [
+            "taj al-dawla",
+            "'adud al-dawla",
+            "baha al-dawla",
+            "sultan al-dawla",
+            "sharaf al-dawla"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "f77cc1a40baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "alexander of courland",
+            "margravine louise charlotte of brandenburg"
+          ],
+          "retrieved_paper_ids": [
+            "alexander of courland",
+            "archduke anton of austria",
+            "archduke rainer of austria (1895–1930)",
+            "margravine louise charlotte of brandenburg",
+            "alexander, son of herod"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "070e11d20baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "cuthburh",
+            "aldfrith of northumbria"
+          ],
+          "retrieved_paper_ids": [
+            "cuthburh",
+            "aldfrith of northumbria",
+            "áed mac ainmuirech",
+            "robert bruce, lord of liddesdale",
+            "charles williams, baron williams of elvel"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6565ed260bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ian leslie, 21st earl of rothes",
+            "malcolm leslie, 20th earl of rothes"
+          ],
+          "retrieved_paper_ids": [
+            "ian leslie, 21st earl of rothes",
+            "malcolm leslie, 20th earl of rothes",
+            "jane elizabeth leslie, 12th countess of rothes",
+            "john leslie, 1st duke of rothes",
+            "michael howard, 21st earl of suffolk"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "fcd1f6ba0baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elizabeth lyon, countess of strathmore",
+            "john lyon, 4th earl of strathmore and kinghorne"
+          ],
+          "retrieved_paper_ids": [
+            "james lyon, 7th earl of strathmore and kinghorne",
+            "elizabeth lyon, countess of strathmore",
+            "john lyon, 4th earl of strathmore and kinghorne",
+            "john bowes-lyon",
+            "frances bowes-lyon, countess of strathmore and kinghorne"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.41666666666666663,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "0cafe4700bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "anna dorothea, abbess of quedlinburg",
+            "john ernest ii, duke of saxe-weimar"
+          ],
+          "retrieved_paper_ids": [
+            "marie of luxembourg, countess of vendôme",
+            "beatrice of luxembourg",
+            "anna dorothea, abbess of quedlinburg",
+            "anna amalia, abbess of quedlinburg",
+            "marie of savoy, countess of saint-pol"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "7da84dd40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "teresa pàmies",
+            "sergi pàmies"
+          ],
+          "retrieved_paper_ids": [
+            "teresa pàmies",
+            "sergi pàmies",
+            "jean-marie alexandre",
+            "timothy west",
+            "prince edward, duke of kent"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "77e657d80bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "elaine tettemer marshall",
+            "e. pierce marshall"
+          ],
+          "retrieved_paper_ids": [
+            "elaine tettemer marshall",
+            "e. pierce marshall",
+            "prince edward, duke of kent",
+            "edith ewing bouvier beale",
+            "ameera al-taweel"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "6dd659b40bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "ian leslie, 21st earl of rothes",
+            "malcolm leslie, 20th earl of rothes"
+          ],
+          "retrieved_paper_ids": [
+            "ian leslie, 21st earl of rothes",
+            "malcolm leslie, 20th earl of rothes",
+            "michael howard, 21st earl of suffolk",
+            "john leslie, 1st duke of rothes",
+            "jane elizabeth leslie, 12th countess of rothes"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "286321f00bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "beltrán vélez de guevara, marquis of campo real",
+            "íñigo vélez de guevara, 8th count of oñate"
+          ],
+          "retrieved_paper_ids": [
+            "beltrán vélez de guevara, marquis of campo real",
+            "íñigo vélez de guevara, 8th count of oñate",
+            "íñigo vélez de guevara, 7th count of oñate",
+            "luis vélez de guevara",
+            "manuel rafael huerta"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "5c04f9c00bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "gilbert de umfraville, earl of angus",
+            "gilbert de umfraville"
+          ],
+          "retrieved_paper_ids": [
+            "gilbert de umfraville, earl of angus",
+            "gilbert de umfraville",
+            "robert de umfraville, earl of angus",
+            "gille críst, earl of angus",
+            "william douglas, 2nd earl of angus"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.75,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "d39e16700baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "henry (vii) of germany",
+            "frederick ii, holy roman emperor"
+          ],
+          "retrieved_paper_ids": [
+            "margaret beauchamp of bletso",
+            "meynnart wewyck",
+            "henry (vii) of germany",
+            "beatrice of luxembourg",
+            "henry, son of robert i of burgundy"
+          ],
+          "metrics": {
+            "hit_at_k": 0.0,
+            "mrr": 0.16666666666666666,
+            "answer_span_recall_at_k": 0.5,
+            "bridge_coverage_at_k": 0.0
+          }
+        },
+        {
+          "qa_id": "09b8a2ac0bb011ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "thessalonike of macedon",
+            "cassander"
+          ],
+          "retrieved_paper_ids": [
+            "thessalonike of macedon",
+            "nicesipolis",
+            "antipater ii of macedon",
+            "cassander",
+            "thomas, count of perche"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.625,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        },
+        {
+          "qa_id": "37f3bd380baf11ebab90acde48001122",
+          "qtype": "inference",
+          "domain": "unknown",
+          "hop_count": 2,
+          "multihop": true,
+          "gold_paper_ids": [
+            "karl von habsburg",
+            "otto von habsburg"
+          ],
+          "retrieved_paper_ids": [
+            "christine of hesse-kassel (1578–1658)",
+            "karl von habsburg",
+            "lucius vibullius hipparchus (grandson of herodes atticus)",
+            "andrea von habsburg",
+            "otto von habsburg"
+          ],
+          "metrics": {
+            "hit_at_k": 1.0,
+            "mrr": 0.35,
+            "answer_span_recall_at_k": 1.0,
+            "bridge_coverage_at_k": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

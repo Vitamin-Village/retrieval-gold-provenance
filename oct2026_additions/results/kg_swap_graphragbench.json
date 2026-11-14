@@ -1,0 +1,52 @@
+[
+  {
+    "name": "GraphRAG-Bench-sub200",
+    "system": "proposed_v3",
+    "n": 200,
+    "silver": {
+      "graph": 0.565,
+      "bm25": 0.52,
+      "delta": 0.045
+    },
+    "openie": {
+      "graph": 0.5,
+      "bm25": 0.52,
+      "delta": -0.02
+    },
+    "swap_delta": 0.065,
+    "mean_paired_diff": 0.065,
+    "ci95": [
+      0.035,
+      0.1
+    ],
+    "discordant_pos": 13,
+    "discordant_neg": 0,
+    "sign_test_p": 0.000244140625,
+    "bm25_identical_across_conditions": true
+  },
+  {
+    "name": "GraphRAG-Bench-holdout200",
+    "system": "proposed_v3",
+    "n": 200,
+    "silver": {
+      "graph": 0.58,
+      "bm25": 0.505,
+      "delta": 0.075
+    },
+    "openie": {
+      "graph": 0.52,
+      "bm25": 0.505,
+      "delta": 0.015
+    },
+    "swap_delta": 0.06,
+    "mean_paired_diff": 0.06,
+    "ci95": [
+      0.025,
+      0.1
+    ],
+    "discordant_pos": 13,
+    "discordant_neg": 1,
+    "sign_test_p": 0.0018310546875,
+    "bm25_identical_across_conditions": true
+  }
+]

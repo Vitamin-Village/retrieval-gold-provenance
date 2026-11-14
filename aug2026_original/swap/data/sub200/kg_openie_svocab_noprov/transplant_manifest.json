@@ -1,0 +1,21 @@
+{
+ "ablation": "E2 inventory transplant, provenance-neutralized (T1b kg_openie_svocab_noprov)",
+ "rule": "T1 union with source_docs=[] on every silver-sourced node (node_id in the silver id set); OpenIE-only nodes keep their source_docs; edges = OpenIE edges only, sorted by edge_id.",
+ "n_source_docs_emptied": 589,
+ "counts": {
+  "n_openie_nodes": 9949,
+  "n_silver_nodes": 589,
+  "n_union": 10136,
+  "n_collisions": 402,
+  "n_silver_only_added": 187,
+  "n_edges": 9497,
+  "n_silver_edges_excluded": 391,
+  "n_openie_internal_dup_node_ids": 0,
+  "n_silver_internal_dup_node_ids": 0,
+  "n_silver_srcdoc_refs_missing_from_passages": 0,
+  "openie_nodes_file_was_id_sorted": false,
+  "openie_edges_file_was_id_sorted": false,
+  "n_t1b_source_docs_emptied": 589
+ },
+ "determinism": "pure file transform; no RNG; rerun is byte-identical"
+}

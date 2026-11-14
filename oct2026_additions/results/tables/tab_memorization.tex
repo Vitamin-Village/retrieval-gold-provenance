@@ -1,0 +1,30 @@
+\begin{tabular}{lllrrrr}
+\toprule
+ & & & \multicolumn{2}{c}{Llama-3.1-8B} & \multicolumn{2}{c}{Qwen2.5-14B}\\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Benchmark & Retriever & Questions & $n$ & swap & $n$ & swap\\
+\midrule
+2WikiMultiHop & Hybrid & all questions & 400 & $+0.055^{**}$ & 400 & $+0.055^{**}$\\
+ &  & closed-book wrong & 386 & $+0.062^{**}$ & 381 & $+0.058^{**}$\\
+ &  & c.b. wrong, not all triples recalled & 369 & $+0.065^{**}$ & 362 & $+0.050^{*}$\\
+ &  & c.b. wrong, no triple recalled & 277 & $+0.069^{**}$ & 295 & $+0.044$\\
+ & Hybrid-PPR & all questions & 400 & $+0.120^{**}$ & 400 & $+0.168^{**}$\\
+ &  & closed-book wrong & 386 & $+0.130^{**}$ & 381 & $+0.165^{**}$\\
+ &  & c.b. wrong, not all triples recalled & 369 & $+0.136^{**}$ & 362 & $+0.166^{**}$\\
+ &  & c.b. wrong, no triple recalled & 277 & $+0.123^{**}$ & 295 & $+0.176^{**}$\\
+ & PPR & all questions & 400 & $+0.295^{**}$ & 400 & $+0.323^{**}$\\
+ &  & closed-book wrong & 386 & $+0.288^{**}$ & 381 & $+0.331^{**}$\\
+ &  & c.b. wrong, not all triples recalled & 369 & $+0.293^{**}$ & 362 & $+0.329^{**}$\\
+ &  & c.b. wrong, no triple recalled & 277 & $+0.289^{**}$ & 295 & $+0.325^{**}$\\
+\midrule
+GraphRAG-Bench & Hybrid & all questions & 400 & $+0.028$ & 400 & $+0.013$\\
+ &  & closed-book wrong & 167 & $+0.036$ & 175 & $+0.011$\\
+ &  & closed-book right & 233 & $+0.021$ & 225 & $+0.013$\\
+ & Hybrid-PPR & all questions & 400 & $+0.080^{**}$ & 400 & $+0.052^{*}$\\
+ &  & closed-book wrong & 167 & $+0.078$ & 175 & $+0.080^{*}$\\
+ &  & closed-book right & 233 & $+0.082^{*}$ & 225 & $+0.031$\\
+ & PPR & all questions & 400 & $+0.110^{**}$ & 400 & $+0.160^{**}$\\
+ &  & closed-book wrong & 167 & $+0.162^{**}$ & 175 & $+0.206^{**}$\\
+ &  & closed-book right & 233 & $+0.073$ & 225 & $+0.124^{**}$\\
+\bottomrule
+\end{tabular}

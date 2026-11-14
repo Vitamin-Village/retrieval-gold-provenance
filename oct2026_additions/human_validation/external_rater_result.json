@@ -1,0 +1,186 @@
+{
+  "rated_by": "independent rater, not an author (blind to reference bins, randomized sheet order)",
+  "sheet": "rating_sheet_external.csv",
+  "n": 29,
+  "exact": 20,
+  "off_by_one": 8,
+  "ge2": 1,
+  "quadratic_weighted_cohen_kappa": 0.908,
+  "krippendorff_alpha_ordinal": 0.8786,
+  "detail": [
+    {
+      "item_id": "NQ_PASSAGE",
+      "external": 0,
+      "reference": 1,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "STARK_ANSWERENTITY",
+      "external": 4,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "MHRAG_EVIDENCE",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "WEBQSP_PATH",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "HOTPOT_SENTENCE",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "MUSIQUE_PASSAGE",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "STARK_TEXTUAL",
+      "external": 1,
+      "reference": 1,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "GRB_SUBGRAPH",
+      "external": 4,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "TWOWIKI_SENTENCE",
+      "external": 2,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "OURSLOW_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "TWOWIKI_ANSWER",
+      "external": 4,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "OURSUP_EDGE",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "GRADE_PASSAGE",
+      "external": 2,
+      "reference": 1,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "TRIVIA_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "GRADE_EDGE",
+      "external": 4,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "TRIVIA_EVIDENCE",
+      "external": 0,
+      "reference": 3,
+      "abs_diff": 3
+    },
+    {
+      "item_id": "OURSUP_ANSWER",
+      "external": 4,
+      "reference": 3,
+      "abs_diff": 1
+    },
+    {
+      "item_id": "WEBQSP_ANSWERENTITY",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "NQ_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "HOTPOT_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "OURSLOW_PASSAGE",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "GRB_ANSWER",
+      "external": 3,
+      "reference": 3,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "TWOWIKI_EDGE",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "OURSUP_ENTITY",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "MUSIQUE_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "MHRAG_ANSWER",
+      "external": 0,
+      "reference": 0,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "OURSUP_PATH",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "METAQA_PATH",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    },
+    {
+      "item_id": "METAQA_ANSWER",
+      "external": 4,
+      "reference": 4,
+      "abs_diff": 0
+    }
+  ]
+}

@@ -1,0 +1,1673 @@
+{
+ "meta": {
+  "seed": 20260930,
+  "null_reps": 10,
+  "pool": 2000,
+  "trace_dir": "<local path>",
+  "verified_twice": true,
+  "output_sha256": "e5bfb210796831986fc39c5e7785ef0f710017d6bed056a9e3d0d88f2582bf41"
+ },
+ "quotes": [
+  {
+   "id": "G-release-v1",
+   "quote": "We release our code and data at https://github.com/anonymous/anonymous",
+   "pages": {
+    "grade_v1": [
+     3
+    ],
+    "grade_v2": [],
+    "grade_findings": []
+   }
+  },
+  {
+   "id": "G-release-v2",
+   "quote": "We release our code to facilitate reproducibility",
+   "pages": {
+    "grade_v1": [],
+    "grade_v2": [
+     3
+    ],
+    "grade_findings": [
+     3
+    ]
+   }
+  },
+  {
+   "id": "G-kg",
+   "quote": "The knowledge graph is composed of entities and relationships extracted from factual claims.",
+   "pages": {
+    "grade_v1": [
+     "4-5"
+    ],
+    "grade_v2": [
+     4
+    ],
+    "grade_findings": [
+     4
+    ]
+   }
+  },
+  {
+   "id": "G-augment",
+   "quote": "we augmented the knowledge graph by adding mirrored inbound and outbound edges",
+   "pages": {
+    "grade_v1": [
+     5
+    ],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-paths",
+   "quote": "We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph",
+   "pages": {
+    "grade_v1": [
+     5
+    ],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-validation",
+   "quote": "an additional validation step was done to remove ambiguous QA pairs",
+   "pages": {
+    "grade_v1": [],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-edgeset-v2",
+   "quote": "all supporting facts are contained within the edge set P",
+   "pages": {
+    "grade_v1": [],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-edgeset-v1",
+   "quote": "all supporting facts are contained in the edge set P",
+   "pages": {
+    "grade_v1": [
+     5
+    ],
+    "grade_v2": [],
+    "grade_findings": []
+   }
+  },
+  {
+   "id": "G-chunks",
+   "quote": "Retriever-side difficulty was defined based on the semantic distance between a question q and its associated supporting chunks",
+   "pages": {
+    "grade_v1": [
+     5
+    ],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-segment",
+   "quote": "we first segmented all articles into overlapping chunks and embedded them using a frozen encoder",
+   "pages": {
+    "grade_v1": [
+     5
+    ],
+    "grade_v2": [
+     5
+    ],
+    "grade_findings": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "G-human-limit",
+   "quote": "Future work may benefit from integrating more robust validation mechanisms, such as human-in-the-loop verification",
+   "pages": {
+    "grade_v1": [
+     9
+    ],
+    "grade_v2": [
+     9
+    ],
+    "grade_findings": [
+     9
+    ]
+   }
+  },
+  {
+   "id": "G-human-A6",
+   "quote": "we manually analyzed 30 randomly sampled entity groups from the augmentation phase",
+   "pages": {
+    "grade_v1": [],
+    "grade_v2": [
+     13
+    ],
+    "grade_findings": [
+     13
+    ]
+   }
+  },
+  {
+   "id": "S-template-v1",
+   "quote": "Initially, we sample a relation template, such as",
+   "pages": {
+    "stark_v1": [
+     6
+    ],
+    "stark_v2": [
+     6
+    ],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-candidates-v1",
+   "quote": "Each relational requirement yields a set of candidate entities that meet the requirement",
+   "pages": {
+    "stark_v1": [
+     6
+    ],
+    "stark_v2": [
+     6
+    ],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-gold-v1",
+   "quote": "Subsequently, we select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer.",
+   "pages": {
+    "stark_v1": [
+     7
+    ],
+    "stark_v2": [],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-extract-v1",
+   "quote": "We extract textual properties that align with the interests of specific roles from the textual information of the gold answer.",
+   "pages": {
+    "stark_v1": [
+     7
+    ],
+    "stark_v2": [],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-filter-v1",
+   "quote": "we assess whether each remaining candidate, excluding the gold answer used for extracting textual properties, meets the additional textual requirement. For the verification, we employ three Claude models.",
+   "pages": {
+    "stark_v1": [
+     7
+    ],
+    "stark_v2": [],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-exclude-gold",
+   "quote": "excluding the gold answer used for extracting textual properties",
+   "pages": {
+    "stark_v1": [
+     7
+    ],
+    "stark_v2": [
+     6
+    ],
+    "stark_v3": [],
+    "stark_neurips": []
+   }
+  },
+  {
+   "id": "S-gold-v3",
+   "quote": "We randomly sample a candidate entity from the first step, referred to as the gold answer, from which LLMs extract properties",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [],
+    "stark_v3": [
+     5
+    ],
+    "stark_neurips": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "S-filter-v3",
+   "quote": "we employ multiple LLMs to verify if the candidates from the first step meet the extracted textual properties. Only candidates passing all LLM verifications are included in the final ground truth set.",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [],
+    "stark_v3": [
+     5
+    ],
+    "stark_neurips": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "S-verify-rate",
+   "quote": "86.6%, 98.9%",
+   "pages": {
+    "stark_v1": [
+     7
+    ],
+    "stark_v2": [
+     7
+    ],
+    "stark_v3": [
+     5
+    ],
+    "stark_neurips": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "S-human-gen",
+   "quote": "We manually verified and filtered the ground truth answers to ensure the answer correctness.",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [],
+    "stark_v3": [
+     6
+    ],
+    "stark_neurips": [
+     6
+    ]
+   }
+  },
+  {
+   "id": "S-human-eval",
+   "quote": "rated the queries neutral or above in naturalness, diversity, and practicality",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [],
+    "stark_v3": [
+     6
+    ],
+    "stark_neurips": [
+     6
+    ]
+   }
+  },
+  {
+   "id": "S-prime-paraphrase",
+   "quote": "Ensure that the query uses different descriptions than the original property descriptions while retaining similar meanings.",
+   "pages": {
+    "stark_v1": [
+     23
+    ],
+    "stark_v2": [
+     24
+    ],
+    "stark_v3": [
+     23
+    ],
+    "stark_neurips": [
+     23
+    ]
+   }
+  },
+  {
+   "id": "S-prime-relational-only",
+   "quote": "the queries rely solely on relational data due to limited textual information",
+   "pages": {
+    "stark_v1": [
+     6
+    ],
+    "stark_v2": [
+     5
+    ],
+    "stark_v3": [
+     4
+    ],
+    "stark_neurips": [
+     4
+    ]
+   }
+  },
+  {
+   "id": "S-task-def",
+   "quote": "it satisfies the relational requirements imposed by the structure of G as specified in Q, and the associated documents Di satisfy the textual requirements specified in Q.",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [
+     4
+    ],
+    "stark_v3": [
+     3
+    ],
+    "stark_neurips": [
+     3
+    ]
+   }
+  },
+  {
+   "id": "S-step4-llms",
+   "quote": "claude-2.1, claude-2.0, claude-instant-1.2",
+   "pages": {
+    "stark_v1": [],
+    "stark_v2": [
+     20
+    ],
+    "stark_v3": [
+     19
+    ],
+    "stark_neurips": [
+     19
+    ]
+   }
+  }
+ ],
+ "paper_files": {
+  "grade_v1": {
+   "file": "grade_v1.pdf",
+   "md5": "e8f510e639abe93ef56b2dfedd2e59fd",
+   "pages": 15
+  },
+  "grade_v2": {
+   "file": "grade_v2.pdf",
+   "md5": "d8cb7a4d3d0e37e2bf95de8bb559c603",
+   "pages": 20
+  },
+  "grade_findings": {
+   "file": "grade_findings.pdf",
+   "md5": "a5ffaf71aa30634945805d31fa81f0b1",
+   "pages": 20
+  },
+  "stark_v1": {
+   "file": "stark_v1.pdf",
+   "md5": "bd6c141ebb3b36e8b3f1af71ed851dec",
+   "pages": 25
+  },
+  "stark_v2": {
+   "file": "stark_v2.pdf",
+   "md5": "1bf52875d4a3ffebb8aad85d234d17b7",
+   "pages": 26
+  },
+  "stark_v3": {
+   "file": "stark_v3.pdf",
+   "md5": "15d3caa9020f5712b0189d15a686cfc5",
+   "pages": 25
+  },
+  "stark_neurips": {
+   "file": "stark_neurips.pdf",
+   "md5": "c969a6897863553e37d9bed48bb508aa",
+   "pages": 25
+  }
+ },
+ "grade": {
+  "repo": "https://github.com/DaeyongKwon98/GRADE",
+  "head": "d4b16af95e18dc762ea12afbb5470007f1ad9ac7",
+  "commits": [
+   "d4b16af|2026-02-15 21:33:53 +0900|Update README.md",
+   "25b3342|2025-09-30 22:53:36 +0900|Update README.md",
+   "7f438e4|2025-09-30 22:46:48 +0900|Update README.md",
+   "ab6c433|2025-09-30 22:39:06 +0900|Add files via upload",
+   "2023617|2025-09-19 01:50:55 +0900|Update README.md",
+   "042a537|2025-09-05 14:25:53 +0900|Initial commit"
+  ],
+  "construction_code_added": "ab6c433|2025-09-30 22:39:06 +0900",
+  "tracked_files": 23,
+  "tracked_data_files": [],
+  "facts": [
+   {
+    "id": "chunk_is_article",
+    "file": "code/ingestion/crawl_news.py",
+    "lines": [
+     188
+    ],
+    "code": "df = df[(df['token_count']>=512) & (df['token_count']<=8192)]",
+    "meaning": "the unit written to chunk.csv is a whole news article of 512-8192 tokens"
+   },
+   {
+    "id": "chunk_is_article2",
+    "file": "code/ingestion/crawl_news.py",
+    "lines": [
+     190
+    ],
+    "code": "df.to_csv(f\"{category}/chunk.csv\", index=False)",
+    "meaning": "articles saved as chunk.csv"
+   },
+   {
+    "id": "sentence_chunk_id",
+    "file": "code/ingestion/crawl_news.py",
+    "lines": [
+     205
+    ],
+    "code": "chunk_id = idx  # use DataFrame index as chunk_id",
+    "meaning": "each sentence keeps the index of its source article"
+   },
+   {
+    "id": "claim_from_sentence",
+    "file": "code/claims/generate_claim_from_sentence.py",
+    "lines": [
+     40
+    ],
+    "code": "user_prompt = f\"\"\"Context: {row['chunk']}",
+    "meaning": "claims are LLM rewrites of fact sentences, with the article as context"
+   },
+   {
+    "id": "triples_from_claims",
+    "file": "code/triples/extract_triples.py",
+    "lines": [
+     56
+    ],
+    "code": "for i, sentence in enumerate(batch['claim']):",
+    "meaning": "triples are LLM-extracted from claims"
+   },
+   {
+    "id": "mirror_copy_row",
+    "file": "code/clustering/add_contextually_same_path.py",
+    "lines": [
+     64
+    ],
+    "code": "new_row = row.to_dict()",
+    "meaning": "a mirrored edge copies the original row (claim, sentence, chunk_id)"
+   },
+   {
+    "id": "mirror_flag",
+    "file": "code/clustering/add_contextually_same_path.py",
+    "lines": [
+     67
+    ],
+    "code": "new_row['is_added'] = True",
+    "meaning": "mirrored edges are flagged is_added"
+   },
+   {
+    "id": "graph_from_triples",
+    "file": "code/graph/find_DAG_path_shortest.py",
+    "lines": [
+     15
+    ],
+    "code": "G.add_edge(row['source'], row['target'], relationship=row['relationship'])",
+    "meaning": "the KG is a DiGraph built from the (augmented, merged) triple table"
+   },
+   {
+    "id": "all_shortest_paths",
+    "file": "code/graph/find_DAG_path_shortest.py",
+    "lines": [
+     25
+    ],
+    "code": "for path in nx.all_shortest_paths(G, start_node, end_node):",
+    "meaning": "all shortest paths are enumerated between every node pair"
+   },
+   {
+    "id": "edge_from_graph",
+    "file": "code/graph/find_DAG_path_shortest.py",
+    "lines": [
+     30
+    ],
+    "code": "rel = G[src][tgt]['relationship']",
+    "meaning": "every path triple is read from the graph edge"
+   },
+   {
+    "id": "chunks_by_triple",
+    "file": "code/graph/find_DAG_path_shortest.py",
+    "lines": [
+     76
+    ],
+    "code": "if key in triple_lookup:",
+    "meaning": "supporting chunks are looked up by the path's triples"
+   },
+   {
+    "id": "chunk_body",
+    "file": "code/graph/find_DAG_path_shortest.py",
+    "lines": [
+     82
+    ],
+    "code": "body = chunk_id_to_body.get(info['chunk_id'])",
+    "meaning": "the chunk attached to a triple is its source article body"
+   },
+   {
+    "id": "hops_filter",
+    "file": "code/sampling/sample_path.py",
+    "lines": [
+     9
+    ],
+    "code": "path = path[(path['hops']>=2) & (path['hops']<=5)]",
+    "meaning": "2-5 hop paths kept"
+   },
+   {
+    "id": "dedup_endpoints",
+    "file": "code/sampling/sample_path.py",
+    "lines": [
+     13
+    ],
+    "code": "path.drop_duplicates(subset=['first_entity', 'last_entity'], inplace=True)",
+    "meaning": "one path per (start, end) pair"
+   },
+   {
+    "id": "sample_400",
+    "file": "code/sampling/sample_path.py",
+    "lines": [
+     21
+    ],
+    "code": "one_sample = one.sample(n=400, random_state=42)",
+    "meaning": "400 paths per hop"
+   },
+   {
+    "id": "qa_input",
+    "file": "code/qa/qa_generation.py",
+    "lines": [
+     62
+    ],
+    "code": "user_prompt = f\"Triples: {row['triples']}\\n\\nClaims: {row['claims']}\\n\\nContext: {row['chunks']}\"",
+    "meaning": "the QA generator sees the path triples, their claims and their source articles"
+   },
+   {
+    "id": "qa_from_triples",
+    "file": "code/qa/qa_generation.py",
+    "lines": [
+     29
+    ],
+    "code": "- Do not add external knowledge or assumptions beyond the given triples.",
+    "meaning": "answers derived from the triples"
+   },
+   {
+    "id": "validation_llm",
+    "file": "code/qa/final_validation.py",
+    "lines": [
+     50,
+     62
+    ],
+    "code": "model=\"o1-mini\",",
+    "meaning": "the only post-generation filter is an LLM ambiguity check"
+   },
+   {
+    "id": "final_rows",
+    "file": "code/qa/final_validation.py",
+    "lines": [
+     94
+    ],
+    "code": "selected_rows = pd.concat([metadata, qa], axis=1).loc[indices]",
+    "meaning": "released QA rows carry the path metadata (triples, claims, chunks) unchanged"
+   },
+   {
+    "id": "db_after",
+    "file": "code/db/generate_db_from_chunk.py",
+    "lines": [
+     23
+    ],
+    "code": "chunk_size=256,",
+    "meaning": "the retrieval DB re-splits the articles into 256-token chunks (pipeline step 14, after QA)"
+   },
+   {
+    "id": "dr_uses_chunks",
+    "file": "code/eval/retriever_correlation.py",
+    "lines": [
+     65
+    ],
+    "code": "for chunk_text in row['chunks']:",
+    "meaning": "retrieval difficulty is computed against the path's source articles"
+   },
+   {
+    "id": "dr_power_mean",
+    "file": "code/eval/retriever_correlation.py",
+    "lines": [
+     41
+    ],
+    "code": "p_value = -3",
+    "meaning": "code uses a power mean (p=-3) where paper Eq. 1 uses the minimum"
+   },
+   {
+    "id": "judge_only",
+    "file": "code/eval/score_llm_eval.py",
+    "lines": [
+     49
+    ],
+    "code": "user_prompt = f\"Question: {row['question']}\\nGround Truth Answer: {row['answer']}\\nResponse: {row['rag_answer']}\"",
+    "meaning": "evaluation scores answers by LLM judge; no overlap scoring of edges or chunks"
+   }
+  ]
+ },
+ "stark_release": {
+  "repo_head": "b246b9490b1dc216892ce78303140014506932c1",
+  "files_ever_tracked": 137,
+  "generation_like_paths": [
+   "data/amazon/stark_qa/stark_qa_human_generated_eval.csv",
+   "data/mag/stark_qa/stark_qa_human_generated_eval.csv",
+   "data/primekg/stark_qa/stark_qa_human_generated_eval.csv",
+   "emb_generate.py",
+   "generate_emb.py"
+  ],
+  "kb_sampler_lines": {
+   "sample_paths": [
+    174
+   ],
+   "get_all_paths": [
+    208
+   ],
+   "get_tuples": [
+    235
+   ]
+  },
+  "kb_sampler_lines_first_commit_df59d09": {
+   "sample_paths": [
+    188
+   ],
+   "get_all_paths": [
+    227
+   ]
+  },
+  "first_loader_meta_info": [
+   26,
+   29,
+   30,
+   32,
+   35,
+   38,
+   39
+  ],
+  "hf_revisions": {
+   "01ee1e10": 25,
+   "289141cb": 26,
+   "3382df04": 25,
+   "7b0352c7": 25,
+   "82e85aad": 29,
+   "88269e23": 28,
+   "8b07fb29": 2,
+   "d4e40544": 25,
+   "e3387ba9": 29,
+   "f0164c84": 25,
+   "f721c636": 25,
+   "f8ecdb60": 26
+  },
+  "hf_qa_files_any_revision": [
+   "qa/amazon/split/test-0.1.index",
+   "qa/amazon/split/test.index",
+   "qa/amazon/split/test_0.1.index",
+   "qa/amazon/split/train.index",
+   "qa/amazon/split/val.index",
+   "qa/amazon/stark_qa/stark_qa.csv",
+   "qa/amazon/stark_qa/stark_qa_human_generated_eval.csv",
+   "qa/mag/split/test-0.1.index",
+   "qa/mag/split/test.index",
+   "qa/mag/split/test_0.1.index",
+   "qa/mag/split/train.index",
+   "qa/mag/split/val.index",
+   "qa/mag/stark_qa/stark_qa.csv",
+   "qa/mag/stark_qa/stark_qa_human_generated_eval.csv",
+   "qa/prime/split/test-0.1.index",
+   "qa/prime/split/test.index",
+   "qa/prime/split/test_0.1.index",
+   "qa/prime/split/train.index",
+   "qa/prime/split/val.index",
+   "qa/prime/stark_qa/stark_qa.csv",
+   "qa/prime/stark_qa/stark_qa_human_generated_eval.csv",
+   "qa/prime/stark_qa/stark_qa_human_generated_eval_uncleaned.csv",
+   "qa/primekg/split/test.index",
+   "qa/primekg/split/train.index",
+   "qa/primekg/split/val.index",
+   "qa/primekg/stark_qa/stark_qa.csv",
+   "qa/primekg/stark_qa/stark_qa_human_generated_eval.csv"
+  ],
+  "qa": {
+   "amazon": {
+    "current_md5": "61c046d7f31a1faa05290c9d43803d66",
+    "first_release_md5": "e4d247427b637ba63317d114c4c9d03e",
+    "columns": "id,query,answer_ids",
+    "n": 9100,
+    "same_query": {
+     "num": 9100,
+     "den": 9100,
+     "frac": 1.0
+    },
+    "same_answer_set": {
+     "num": 9100,
+     "den": 9100,
+     "frac": 1.0
+    },
+    "same_id": {
+     "num": 0,
+     "den": 9100,
+     "frac": 0.0
+    },
+    "first_release_id_in_answers": {
+     "num": 9100,
+     "den": 9100,
+     "frac": 1.0
+    },
+    "current_id_in_answers": {
+     "num": 0,
+     "den": 9100,
+     "frac": 0.0
+    },
+    "hf_f721c636_amazon.csv": {
+     "md5": "e4d247427b637ba63317d114c4c9d03e",
+     "id_in_answers": {
+      "num": 9100,
+      "den": 9100,
+      "frac": 1.0
+     }
+    },
+    "hf_01ee1e10_amazon.csv": {
+     "md5": "61c046d7f31a1faa05290c9d43803d66",
+     "id_in_answers": {
+      "num": 0,
+      "den": 9100,
+      "frac": 0.0
+     }
+    }
+   },
+   "mag": {
+    "current_md5": "5509ac4b029a48e84147fc0eca097f43",
+    "first_release_md5": "81953c43400c747290d82268e5155d89",
+    "columns": "id,query,answer_ids",
+    "n": 13323,
+    "same_query": {
+     "num": 13323,
+     "den": 13323,
+     "frac": 1.0
+    },
+    "same_answer_set": {
+     "num": 13323,
+     "den": 13323,
+     "frac": 1.0
+    },
+    "same_id": {
+     "num": 13323,
+     "den": 13323,
+     "frac": 1.0
+    },
+    "first_release_id_in_answers": {
+     "num": 0,
+     "den": 13323,
+     "frac": 0.0
+    },
+    "current_id_in_answers": {
+     "num": 0,
+     "den": 13323,
+     "frac": 0.0
+    }
+   },
+   "prime": {
+    "current_md5": "d0264d331b2dcb029a0ac1218b8021fa",
+    "first_release_md5": "8321f21eba03a724ed2321d37bb7c0d2",
+    "columns": "id,query,answer_ids",
+    "n": 11204,
+    "same_query": {
+     "num": 11204,
+     "den": 11204,
+     "frac": 1.0
+    },
+    "same_answer_set": {
+     "num": 11204,
+     "den": 11204,
+     "frac": 1.0
+    },
+    "same_id": {
+     "num": 11204,
+     "den": 11204,
+     "frac": 1.0
+    },
+    "first_release_id_in_answers": {
+     "num": 2,
+     "den": 11204,
+     "frac": 0.0002
+    },
+    "current_id_in_answers": {
+     "num": 2,
+     "den": 11204,
+     "frac": 0.0002
+    }
+   }
+  },
+  "amazon_seed_position_in_answer_list": {
+   "0": 3110,
+   "1": 1064,
+   "2": 678,
+   "3": 472,
+   "4": 322,
+   "5": 270
+  }
+ },
+ "stark_openreview": {
+  "forum": "QSS5cGmKb1",
+  "source": "web.archive.org capture 20260430203713 of api2.openreview.net notes",
+  "md5": "ce8c6c49debd24bad92b6cd81b404ad8",
+  "notes": 13,
+  "kinds": {
+   "Decision": 1,
+   "Official_Comment": 4,
+   "Rebuttal": 4,
+   "Official_Review": 3,
+   "Submission": 1
+  },
+  "matches": [
+   {
+    "note": "auK7T92UiE",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "Besides, all baseline results on the human-generated dataset are also provided to reflect the data quality"
+   },
+   {
+    "note": "auK7T92UiE",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "Note that we used two different LLMs in `Step 3: Combining relational and textual requirements` to rewrite the querie, and three LLMs to validate the answer"
+   },
+   {
+    "note": "auK7T92UiE",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "### **Comment 4: Human-generated query as seed**"
+   },
+   {
+    "note": "auK7T92UiE",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "This is a great idea! We think human-generated queries will be a great addition to increase query types"
+   },
+   {
+    "note": "auK7T92UiE",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "Additionally, we have discussed potential future improvements, including the use of human-generated queries to increase query diversity"
+   },
+   {
+    "note": "joGoWB6HT9",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "### **Comment 2: Experimental results on sampled synthetic dataset and human-generated dataset**"
+   },
+   {
+    "note": "joGoWB6HT9",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "Regarding the Recall@20 metric on the human-generated dataset, our previous concern was that this metric may downweight queries with more than 20 answers (e"
+   },
+   {
+    "note": "vkPAZmD4bF",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "”| `We clarify that all synthetic and human-generated data, SKB data, and code are fully available"
+   },
+   {
+    "note": "vkPAZmD4bF",
+    "by": "Authors",
+    "field": "rebuttal",
+    "text": "BM25…dense retrieval methods like ANCE and TAS-B”|”Comparisons with human-generated datasets are also conducted, enhancing the reliability of the results"
+   },
+   {
+    "note": "H2J3YntoaP",
+    "by": "Reviewer_bote",
+    "field": "review",
+    "text": "* Comparisons with human-generated datasets are also conducted, enhancing the reliability of the results"
+   },
+   {
+    "note": "VhJHDN8PA2",
+    "by": "Reviewer_CdN8",
+    "field": "review",
+    "text": "The authors seem to disentangle this by using human generated queries in their analysis"
+   },
+   {
+    "note": "VhJHDN8PA2",
+    "by": "Reviewer_CdN8",
+    "field": "review",
+    "text": "Moreover, they do not include results with dense retrieval models in the human generated data, which could be a good way to gauge if there are biases induced by the LLMs in their synthetic data evaluation"
+   },
+   {
+    "note": "VhJHDN8PA2",
+    "by": "Reviewer_CdN8",
+    "field": "documentation",
+    "text": "In my opinion, the human generated dataset, despite being small in size, would be a great contribution to the community as it could be used as the starting point for others to build on top of it"
+   },
+   {
+    "note": "QSS5cGmKb1",
+    "by": "Authors",
+    "field": "abstract",
+    "text": "We design a novel pipeline to synthesize realistic user queries that integrate diverse relational information and complex textual properties, together with their ground-truth answers (items)"
+   },
+   {
+    "note": "QSS5cGmKb1",
+    "by": "Authors",
+    "field": "abstract",
+    "text": "We further enhance the benchmark with high-quality human-generated queries to provide an authentic reference"
+   }
+  ]
+ },
+ "stark": {
+  "prime": {
+   "n": 11204,
+   "with_anchor": {
+    "num": 10863,
+    "den": 11204,
+    "frac": 0.9696
+   },
+   "with_phrase_anchor": {
+    "num": 10413,
+    "den": 11204,
+    "frac": 0.9294
+   },
+   "answer_types": {
+    "disease": 3457,
+    "gene/protein": 3146,
+    "drug": 2445,
+    "pathway": 807,
+    "anatomy": 478,
+    "effect/phenotype": 404,
+    "cellular_component": 278,
+    "biological_process": 161,
+    "exposure": 28
+   },
+   "mixed_type_gold": 0,
+   "relaxed": {
+    "gold_all": {
+     "num": 6220,
+     "den": 11204,
+     "frac": 0.5552
+    },
+    "gold_given_anchor": {
+     "num": 6220,
+     "den": 10863,
+     "frac": 0.5726
+    },
+    "null_given_anchor": 0.0516
+   },
+   "strict": {
+    "gold_all": {
+     "num": 4681,
+     "den": 11204,
+     "frac": 0.4178
+    },
+    "gold_given_anchor": {
+     "num": 4681,
+     "den": 10863,
+     "frac": 0.4309
+    },
+    "null_given_anchor": 0.0248
+   },
+   "hop1": {
+    "gold_all": {
+     "num": 7416,
+     "den": 11204,
+     "frac": 0.6619
+    },
+    "gold_given_anchor": {
+     "num": 7416,
+     "den": 10863,
+     "frac": 0.6827
+    },
+    "null_given_anchor": 0.0411
+   },
+   "any": {
+    "gold_all": {
+     "num": 9298,
+     "den": 11204,
+     "frac": 0.8299
+    },
+    "gold_given_anchor": {
+     "num": 9298,
+     "den": 10863,
+     "frac": 0.8559
+    },
+    "null_given_anchor": 0.0652
+   },
+   "relaxed_by_gold_size": {
+    "1": {
+     "n": 6817,
+     "relaxed": 0.5699,
+     "null_relaxed": 0.0733
+    },
+    "2-5": {
+     "n": 2699,
+     "relaxed": 0.5958,
+     "null_relaxed": 0.0218
+    },
+    ">5": {
+     "n": 1347,
+     "relaxed": 0.5397,
+     "null_relaxed": 0.0013
+    }
+   },
+   "anchor_free_cover": {
+    "multi_answer_queries": 4188,
+    "all_gold_share_one_neighbour": {
+     "num": 4098,
+     "den": 4188,
+     "frac": 0.9785
+    },
+    "null_all": 0.111,
+    "cover_ge_0.75": 0.989,
+    "null_ge_0.75": 0.162,
+    "cover_median": 1.0,
+    "null_median": 0.5
+   },
+   "gold_with_no_skb_edge": {
+    "num": 0,
+    "den": 28706,
+    "frac": 0.0
+   },
+   "queries_with_an_edgeless_gold": {
+    "num": 0,
+    "den": 11204,
+    "frac": 0.0
+   },
+   "by_answer_type": {
+    "disease": {
+     "n_with_anchor": 3369,
+     "relaxed": 0.3657,
+     "null_relaxed": 0.0012,
+     "strict": 0.1971,
+     "null_strict": 0.0008,
+     "hop1": 0.7415,
+     "null_hop1": 0.0071,
+     "any": 0.8008,
+     "null_any": 0.0078,
+     "textual": {
+      "gold_units": 6162,
+      "recall_mean": 0.2347,
+      "recall_zero": 0.3414,
+      "pct_mid_median": 0.1653,
+      "share_top1pct": 0.1082,
+      "share_top10pct": 0.3267
+     }
+    },
+    "gene/protein": {
+     "n_with_anchor": 3098,
+     "relaxed": 0.6869,
+     "null_relaxed": 0.0925,
+     "strict": 0.5119,
+     "null_strict": 0.0112,
+     "hop1": 0.8531,
+     "null_hop1": 0.1167,
+     "any": 0.8964,
+     "null_any": 0.1312,
+     "textual": {
+      "gold_units": 6119,
+      "recall_mean": 0.1777,
+      "recall_zero": 0.4264,
+      "pct_mid_median": 0.182,
+      "share_top1pct": 0.1853,
+      "share_top10pct": 0.3546
+     }
+    },
+    "drug": {
+     "n_with_anchor": 2311,
+     "relaxed": 0.5785,
+     "null_relaxed": 0.1123,
+     "strict": 0.5015,
+     "null_strict": 0.1005,
+     "hop1": 0.6465,
+     "null_hop1": 0.0247,
+     "any": 0.8879,
+     "null_any": 0.1135,
+     "textual": {
+      "gold_units": 8903,
+      "recall_mean": 0.2486,
+      "recall_zero": 0.221,
+      "pct_mid_median": 0.1133,
+      "share_top1pct": 0.1769,
+      "share_top10pct": 0.4148
+     }
+    },
+    "pathway": {
+     "n_with_anchor": 791,
+     "relaxed": 0.5752,
+     "null_relaxed": 0.0123,
+     "strict": 0.2579,
+     "null_strict": 0.0,
+     "hop1": 0.8698,
+     "null_hop1": 0.0046,
+     "any": 0.8761,
+     "null_any": 0.0148,
+     "textual": {
+      "gold_units": 1087,
+      "recall_mean": 0.2561,
+      "recall_zero": 0.3855,
+      "pct_mid_median": 0.1683,
+      "share_top1pct": 0.1518,
+      "share_top10pct": 0.333
+     }
+    },
+    "anatomy": {
+     "n_with_anchor": 478,
+     "relaxed": 0.887,
+     "null_relaxed": 0.0008,
+     "strict": 0.887,
+     "null_strict": 0.0008,
+     "hop1": 0.0042,
+     "null_hop1": 0.0002,
+     "any": 0.887,
+     "null_any": 0.001,
+     "textual": {
+      "gold_units": 1815,
+      "recall_mean": 0.0001,
+      "recall_zero": 0.9994,
+      "pct_mid_median": 0.5,
+      "share_top1pct": 0.0,
+      "share_top10pct": 0.0006
+     }
+    },
+    "effect/phenotype": {
+     "n_with_anchor": 372,
+     "relaxed": 0.8629,
+     "null_relaxed": 0.0,
+     "strict": 0.8629,
+     "null_strict": 0.0,
+     "hop1": 0.2285,
+     "null_hop1": 0.0,
+     "any": 0.8898,
+     "null_any": 0.0,
+     "textual": {
+      "gold_units": 1667,
+      "recall_mean": 0.0086,
+      "recall_zero": 0.9622,
+      "pct_mid_median": 0.5,
+      "share_top1pct": 0.033,
+      "share_top10pct": 0.0378
+     }
+    },
+    "cellular_component": {
+     "n_with_anchor": 275,
+     "relaxed": 0.9455,
+     "null_relaxed": 0.0,
+     "strict": 0.9455,
+     "null_strict": 0.0,
+     "hop1": 0.0,
+     "null_hop1": 0.0,
+     "any": 0.9455,
+     "null_any": 0.0,
+     "textual": {
+      "gold_units": 1573,
+      "recall_mean": 0.0023,
+      "recall_zero": 0.9917,
+      "pct_mid_median": 0.501,
+      "share_top1pct": 0.0019,
+      "share_top10pct": 0.0083
+     }
+    },
+    "biological_process": {
+     "n_with_anchor": 141,
+     "relaxed": 0.2482,
+     "null_relaxed": 0.0,
+     "strict": 0.2482,
+     "null_strict": 0.0,
+     "hop1": 0.0,
+     "null_hop1": 0.0,
+     "any": 0.2482,
+     "null_any": 0.0,
+     "textual": {
+      "gold_units": 957,
+      "recall_mean": 0.037,
+      "recall_zero": 0.8642,
+      "pct_mid_median": 0.5028,
+      "share_top1pct": 0.0825,
+      "share_top10pct": 0.1108
+     }
+    },
+    "exposure": {
+     "n_with_anchor": 28,
+     "relaxed": 1.0,
+     "null_relaxed": 0.0,
+     "strict": 1.0,
+     "null_strict": 0.0,
+     "hop1": 0.2143,
+     "null_hop1": 0.0214,
+     "any": 1.0,
+     "null_any": 0.0214,
+     "textual": {
+      "gold_units": 37,
+      "recall_mean": 0.0108,
+      "recall_zero": 0.9459,
+      "pct_mid_median": 0.5,
+      "share_top1pct": 0.0,
+      "share_top10pct": 0.0541
+     }
+    }
+   },
+   "relaxed_template_hits": {
+    "1": 156,
+    "2": 861,
+    "3": 479,
+    "4": 361,
+    "5": 315,
+    "6": 176,
+    "7": 106,
+    "8": 241,
+    "9": 79,
+    "10": 165,
+    "11": 146,
+    "12": 295,
+    "13": 233,
+    "14": 282,
+    "15": 39,
+    "16": 28,
+    "17": 354,
+    "18": 108,
+    "20": 35,
+    "21": 44,
+    "22": 260,
+    "23": 342,
+    "24": 101,
+    "25": 597,
+    "26": 455,
+    "27": 999,
+    "28": 988
+   },
+   "retention_tightest_1hop_branch": {
+    "n": 3805,
+    "median": 0.0769,
+    "q25": 0.0131,
+    "q75": 0.5,
+    "share_eq_1": 0.1879
+   },
+   "textual": {
+    "gold_units": 28320,
+    "recall_mean": 0.1793,
+    "recall_zero": 0.4569,
+    "pct_mid_median": 0.4019,
+    "share_top1pct": 0.1299,
+    "share_top10pct": 0.2974,
+    "queries_with_resid": {
+     "num": 10851,
+     "den": 11204,
+     "frac": 0.9685
+    }
+   },
+   "skb_md5": {
+    "edge_index.pt": "9f71fb71b14afcd8585fc442ede4bb70",
+    "edge_types.pt": "fdf8caa2020ce01aac1ad94012c67fae",
+    "node_types.pt": "8b205026520db126e35cd3382f465fd3",
+    "edge_type_dict.pkl": "22f2263f7656e672903c2185b0780742",
+    "node_type_dict.pkl": "0389d506821cfb4954871d5c90f3a9ae",
+    "node_info.pkl": "f81a2453b5d87738d7a3c446ecc00d92"
+   },
+   "runtime_s": {
+    "load": 2.1,
+    "tests": 16.8
+   }
+  },
+  "mag": {
+   "n": 13323,
+   "with_anchor": {
+    "num": 13166,
+    "den": 13323,
+    "frac": 0.9882
+   },
+   "with_phrase_anchor": {
+    "num": 13166,
+    "den": 13323,
+    "frac": 0.9882
+   },
+   "answer_types": {
+    "paper": 13323
+   },
+   "mixed_type_gold": 0,
+   "relaxed": {
+    "gold_all": {
+     "num": 12369,
+     "den": 13323,
+     "frac": 0.9284
+    },
+    "gold_given_anchor": {
+     "num": 12369,
+     "den": 13166,
+     "frac": 0.9395
+    },
+    "null_given_anchor": 0.3694
+   },
+   "strict": {
+    "gold_all": {
+     "num": 12363,
+     "den": 13323,
+     "frac": 0.9279
+    },
+    "gold_given_anchor": {
+     "num": 12363,
+     "den": 13166,
+     "frac": 0.939
+    },
+    "null_given_anchor": 0.0475
+   },
+   "hop1": {
+    "gold_all": {
+     "num": 9719,
+     "den": 13323,
+     "frac": 0.7295
+    },
+    "gold_given_anchor": {
+     "num": 9719,
+     "den": 13166,
+     "frac": 0.7382
+    },
+    "null_given_anchor": 0.0475
+   },
+   "any": {
+    "gold_all": {
+     "num": 12369,
+     "den": 13323,
+     "frac": 0.9284
+    },
+    "gold_given_anchor": {
+     "num": 12369,
+     "den": 13166,
+     "frac": 0.9395
+    },
+    "null_given_anchor": 0.3694
+   },
+   "relaxed_by_gold_size": {
+    "1": {
+     "n": 6380,
+     "relaxed": 0.9708,
+     "null_relaxed": 0.3078
+    },
+    "2-5": {
+     "n": 5144,
+     "relaxed": 0.9331,
+     "null_relaxed": 0.4066
+    },
+    ">5": {
+     "n": 1642,
+     "relaxed": 0.8374,
+     "null_relaxed": 0.4926
+    }
+   },
+   "anchor_free_cover": {
+    "multi_answer_queries": 6872,
+    "all_gold_share_one_neighbour": {
+     "num": 6872,
+     "den": 6872,
+     "frac": 1.0
+    },
+    "null_all": 1.0,
+    "cover_ge_0.75": 1.0,
+    "null_ge_0.75": 1.0,
+    "cover_median": 1.0,
+    "null_median": 1.0
+   },
+   "gold_with_no_skb_edge": {
+    "num": 0,
+    "den": 37044,
+    "frac": 0.0
+   },
+   "queries_with_an_edgeless_gold": {
+    "num": 0,
+    "den": 13323,
+    "frac": 0.0
+   },
+   "by_answer_type": {
+    "paper": {
+     "n_with_anchor": 13166,
+     "relaxed": 0.9395,
+     "null_relaxed": 0.3694,
+     "strict": 0.939,
+     "null_strict": 0.0475,
+     "hop1": 0.7382,
+     "null_hop1": 0.0475,
+     "any": 0.9395,
+     "null_any": 0.3694,
+     "textual": {
+      "gold_units": 36928,
+      "recall_mean": 0.324,
+      "recall_zero": 0.195,
+      "pct_mid_median": 0.0215,
+      "share_top1pct": 0.3729,
+      "share_top10pct": 0.5998
+     }
+    }
+   },
+   "relaxed_template_hits": {
+    "1": 1989,
+    "2": 2063,
+    "3": 7246,
+    "4": 3762,
+    "5": 2731,
+    "6": 4380,
+    "7": 8538
+   },
+   "retention_tightest_1hop_branch": {
+    "n": 9719,
+    "median": 0.0909,
+    "q25": 0.0012,
+    "q75": 0.4,
+    "share_eq_1": 0.0618
+   },
+   "textual": {
+    "gold_units": 36928,
+    "recall_mean": 0.324,
+    "recall_zero": 0.195,
+    "pct_mid_median": 0.0215,
+    "share_top1pct": 0.3729,
+    "share_top10pct": 0.5998,
+    "queries_with_resid": {
+     "num": 13290,
+     "den": 13323,
+     "frac": 0.9975
+    }
+   },
+   "skb_md5": {
+    "edge_index.pt": "0729f73a2b7e8c03c12fe33ff2fe1ea5",
+    "edge_types.pt": "e7c75d3762591d1169290c4906ff435f",
+    "node_types.pt": "21c0202e66123eb9664a2b36b6005544",
+    "edge_type_dict.pkl": "c8ea40d67b8c11dff27953d6bd327620",
+    "node_type_dict.pkl": "aced4bff4969cc3977b1738bba19164b",
+    "node_info.pkl": "1e23ee5b19d275b7118dc9b3f675d236"
+   },
+   "runtime_s": {
+    "load": 4.1,
+    "tests": 81.9
+   }
+  },
+  "amazon": {
+   "n": 9100,
+   "with_anchor": {
+    "num": 9056,
+    "den": 9100,
+    "frac": 0.9952
+   },
+   "with_phrase_anchor": {
+    "num": 9056,
+    "den": 9100,
+    "frac": 0.9952
+   },
+   "answer_types": {
+    "product": 9100
+   },
+   "mixed_type_gold": 0,
+   "relaxed": {
+    "gold_all": {
+     "num": 3480,
+     "den": 9100,
+     "frac": 0.3824
+    },
+    "gold_given_anchor": {
+     "num": 3480,
+     "den": 9056,
+     "frac": 0.3843
+    },
+    "null_given_anchor": 0.0015
+   },
+   "strict": {
+    "gold_all": {
+     "num": 3480,
+     "den": 9100,
+     "frac": 0.3824
+    },
+    "gold_given_anchor": {
+     "num": 3480,
+     "den": 9056,
+     "frac": 0.3843
+    },
+    "null_given_anchor": 0.0015
+   },
+   "hop1": {
+    "gold_all": {
+     "num": 3480,
+     "den": 9100,
+     "frac": 0.3824
+    },
+    "gold_given_anchor": {
+     "num": 3480,
+     "den": 9056,
+     "frac": 0.3843
+    },
+    "null_given_anchor": 0.0015
+   },
+   "any": {
+    "gold_all": {
+     "num": 3480,
+     "den": 9100,
+     "frac": 0.3824
+    },
+    "gold_given_anchor": {
+     "num": 3480,
+     "den": 9056,
+     "frac": 0.3843
+    },
+    "null_given_anchor": 0.0015
+   },
+   "relaxed_by_gold_size": {
+    "1": {
+     "n": 2012,
+     "relaxed": 0.7132,
+     "null_relaxed": 0.007
+    },
+    "2-5": {
+     "n": 2131,
+     "relaxed": 0.4594,
+     "null_relaxed": 0.0
+    },
+    ">5": {
+     "n": 4913,
+     "relaxed": 0.217,
+     "null_relaxed": 0.0
+    }
+   },
+   "anchor_free_cover": {
+    "multi_answer_queries": 7082,
+    "all_gold_share_one_neighbour": {
+     "num": 3056,
+     "den": 7082,
+     "frac": 0.4315
+    },
+    "null_all": 0.0013,
+    "cover_ge_0.75": 0.6563,
+    "null_ge_0.75": 0.0015,
+    "cover_median": 0.9091,
+    "null_median": 0.125
+   },
+   "gold_with_no_skb_edge": {
+    "num": 4474,
+    "den": 166363,
+    "frac": 0.0269
+   },
+   "queries_with_an_edgeless_gold": {
+    "num": 1659,
+    "den": 9100,
+    "frac": 0.1823
+   },
+   "by_answer_type": {
+    "product": {
+     "n_with_anchor": 9056,
+     "relaxed": 0.3843,
+     "null_relaxed": 0.0015,
+     "strict": 0.3843,
+     "null_strict": 0.0015,
+     "hop1": 0.3843,
+     "null_hop1": 0.0015,
+     "any": 0.3843,
+     "null_any": 0.0015,
+     "textual": {
+      "gold_units": 165989,
+      "recall_mean": 0.3754,
+      "recall_zero": 0.1048,
+      "pct_mid_median": 0.055,
+      "share_top1pct": 0.2031,
+      "share_top10pct": 0.5361
+     }
+    }
+   },
+   "relaxed_template_hits": {
+    "1": 2419,
+    "2": 488,
+    "3": 635,
+    "4": 20,
+    "5": 758
+   },
+   "retention_tightest_1hop_branch": {
+    "n": 3480,
+    "median": 0.0417,
+    "q25": 0.0063,
+    "q75": 0.2,
+    "share_eq_1": 0.0612
+   },
+   "textual": {
+    "gold_units": 165989,
+    "recall_mean": 0.3754,
+    "recall_zero": 0.1048,
+    "pct_mid_median": 0.055,
+    "share_top1pct": 0.2031,
+    "share_top10pct": 0.5361,
+    "queries_with_resid": {
+     "num": 9031,
+     "den": 9100,
+     "frac": 0.9924
+    }
+   },
+   "seed": {
+    "seed_in_answers": {
+     "num": 9100,
+     "den": 9100,
+     "frac": 1.0
+    },
+    "seed_pct_mid_median": 0.0168,
+    "seed_top1pct": 0.3749,
+    "seed_top10pct": 0.7103,
+    "seed_recall_mean": 0.4859,
+    "multi_answer_queries": 7050,
+    "seed_minus_other_mean": 0.0902,
+    "seed_gt_other_mean": 0.6241,
+    "seed_ge_other_max": 0.4299,
+    "seed_hop1_given_anchor": 0.4834
+   },
+   "skb_md5": {
+    "edge_index.pt": "9c9f3d17259cde313ee464a4bb4bbead",
+    "edge_types.pt": "fdfedc0b1b44ba8848c5532f3b3e9b40",
+    "node_types.pt": "4605c02ed1d2c9da24d6401a6e7d6de8",
+    "edge_type_dict.pkl": "969e267f43d6414ba9061b25bf05ed44",
+    "node_type_dict.pkl": "01da2d4f2b59696e04b26384e2d843bc",
+    "node_info.pkl": "78c404b0a90aafcc360f94c28b05f16e"
+   },
+   "runtime_s": {
+    "load": 1.1,
+    "tests": 131.1
+   }
+  }
+ }
+}

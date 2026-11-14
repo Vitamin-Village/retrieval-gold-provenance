@@ -1,0 +1,4 @@
+{
+ "ablation": "E2 order control (kg_openie_resorted)",
+ "rule": "OpenIE nodes+edges only, sorted by node_id/edge_id; no vocabulary change"
+}

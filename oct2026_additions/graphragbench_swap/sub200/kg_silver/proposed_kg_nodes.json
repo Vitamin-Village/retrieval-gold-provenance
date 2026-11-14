@@ -1,0 +1,7953 @@
+[
+  {
+    "node_id": "n::genetic alterations",
+    "name": "Genetic alterations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::mutations",
+    "name": "mutations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::cdkn2a",
+    "name": "CDKN2A",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::fgfr3",
+    "name": "FGFR3",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::pik3ca",
+    "name": "PIK3CA",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::erbb",
+    "name": "ERBB",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388"
+    ]
+  },
+  {
+    "node_id": "n::bladder cancer",
+    "name": "bladder cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1423",
+      "c1388",
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::mri",
+    "name": "MRI",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484",
+      "c1547",
+      "c0495",
+      "c0387",
+      "c0351",
+      "c0871",
+      "c0761",
+      "c0450",
+      "c0256",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::pelvis",
+    "name": "pelvis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484"
+    ]
+  },
+  {
+    "node_id": "n::rectal cancer",
+    "name": "rectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484",
+      "c0473",
+      "c0475",
+      "c0488",
+      "c0974",
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::ct scan",
+    "name": "CT scan",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484",
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::chest",
+    "name": "chest",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484"
+    ]
+  },
+  {
+    "node_id": "n::abdomen",
+    "name": "abdomen",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484"
+    ]
+  },
+  {
+    "node_id": "n::metastasis",
+    "name": "metastasis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484",
+      "c0516",
+      "c0325",
+      "c0253",
+      "c0999",
+      "c0258",
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::staging rectal cancer",
+    "name": "staging rectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484"
+    ]
+  },
+  {
+    "node_id": "n::detect metastasis",
+    "name": "detect metastasis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0482",
+      "c0484"
+    ]
+  },
+  {
+    "node_id": "n::screening for liver cancer",
+    "name": "Screening for liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::individuals",
+    "name": "individuals",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1164",
+      "c1160",
+      "c1159",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::cirrhosis",
+    "name": "cirrhosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1271",
+      "c1279",
+      "c1274",
+      "c1276",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::chronic hepatitis b",
+    "name": "chronic hepatitis B",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1271",
+      "c1279",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::ultrasound",
+    "name": "ultrasound",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c0387",
+      "c0351",
+      "c0871",
+      "c0761",
+      "c0450",
+      "c0256",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::alpha-fetoprotein (afp) test",
+    "name": "alpha-fetoprotein (AFP) test",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::primary liver cancer",
+    "name": "primary liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1279",
+      "c0174",
+      "c1272",
+      "c0195"
+    ]
+  },
+  {
+    "node_id": "n::cirrhosis and chronic hepatitis b",
+    "name": "cirrhosis and chronic hepatitis B",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275"
+    ]
+  },
+  {
+    "node_id": "n::alpha-1-antitrypsin deficiency",
+    "name": "Alpha-1-antitrypsin deficiency",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::liver cancer",
+    "name": "liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1271",
+      "c1279",
+      "c1274",
+      "c1272",
+      "c1276",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::chronic hepatitis c",
+    "name": "chronic hepatitis C",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1271",
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::alcohol use",
+    "name": "alcohol use",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1279",
+      "c1276"
+    ]
+  },
+  {
+    "node_id": "n::non-alcoholic fatty liver disease (nafld)",
+    "name": "Non-alcoholic fatty liver disease (NAFLD)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275"
+    ]
+  },
+  {
+    "node_id": "n::genetic hemochromatosis",
+    "name": "Genetic hemochromatosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1277",
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::stage 4 primary biliary cholangitis",
+    "name": "Stage 4 primary biliary cholangitis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1279",
+      "c1274"
+    ]
+  },
+  {
+    "node_id": "n::hepatitis b virus (hbv)",
+    "name": "Hepatitis B virus (HBV)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275"
+    ]
+  },
+  {
+    "node_id": "n::risk factors",
+    "name": "risk factors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::developing liver cancer",
+    "name": "developing liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1274"
+    ]
+  },
+  {
+    "node_id": "n::cirrhosis and liver cancer",
+    "name": "cirrhosis and liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1275",
+      "c1276"
+    ]
+  },
+  {
+    "node_id": "n::risk factor that determine screening eligibility",
+    "name": "risk factor that determine screening eligibility",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1277"
+    ]
+  },
+  {
+    "node_id": "n::risk factor for cirrhosis and liver cancer",
+    "name": "risk factor for cirrhosis and liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1277"
+    ]
+  },
+  {
+    "node_id": "n::screening method for primary liver cancer",
+    "name": "screening method for primary liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1277"
+    ]
+  },
+  {
+    "node_id": "n::should have screening for liver cancer",
+    "name": "should have Screening for liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1277"
+    ]
+  },
+  {
+    "node_id": "n::t-all",
+    "name": "T-ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0460",
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::t-cell lymphocytes",
+    "name": "T-cell lymphocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0460",
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::thymus",
+    "name": "thymus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0460",
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::an enlarged thymus",
+    "name": "an enlarged thymus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0460",
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::mgzl",
+    "name": "MGZL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1160",
+      "c1158",
+      "c1161",
+      "c1159"
+    ]
+  },
+  {
+    "node_id": "n::years",
+    "name": "years",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1160",
+      "c1159"
+    ]
+  },
+  {
+    "node_id": "n::assigned male at birth",
+    "name": "Assigned male at birth",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::epidemiology of mgzl",
+    "name": "Epidemiology of MGZL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::symptoms of large thyroid nodules",
+    "name": "Symptoms of large thyroid nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::symptom",
+    "name": "Symptom",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::papillary thyroid carcinoma symptom list",
+    "name": "Papillary thyroid carcinoma symptom list",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::thyroid nodules",
+    "name": "Thyroid nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::thyroid cancer",
+    "name": "thyroid cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1211",
+      "c1165",
+      "c1166",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::individuals aged 20 to 40 years",
+    "name": "individuals aged 20 to 40 years",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::age 20-40 years",
+    "name": "Age 20-40 years",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::visible neck lump",
+    "name": "visible neck lump",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::neck pain",
+    "name": "neck pain",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::voice changes",
+    "name": "voice changes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::trouble breathing",
+    "name": "trouble breathing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::swallowing problems",
+    "name": "swallowing problems",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::problems swallowing",
+    "name": "problems swallowing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164",
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::often benign",
+    "name": "often benign",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::be the origin of thyroid cancer",
+    "name": "be the origin of thyroid cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::a core concept associated with thyroid cancer",
+    "name": "a core concept associated with thyroid cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1164"
+    ]
+  },
+  {
+    "node_id": "n::intrathecal chemotherapy",
+    "name": "Intrathecal chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c0922"
+    ]
+  },
+  {
+    "node_id": "n::cancer cells",
+    "name": "cancer cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c0922",
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::cerebrospinal fluid",
+    "name": "cerebrospinal fluid",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c0922"
+    ]
+  },
+  {
+    "node_id": "n::intraocular chemotherapy",
+    "name": "Intraocular chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::radiation",
+    "name": "radiation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c1548",
+      "c1533",
+      "c1514",
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::primary cns lymphoma",
+    "name": "Primary CNS lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c0913",
+      "c0916",
+      "c0907",
+      "c0944",
+      "c0922",
+      "c0918",
+      "c0902",
+      "c0894",
+      "c0895"
+    ]
+  },
+  {
+    "node_id": "n::csf",
+    "name": "CSF",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::eyes",
+    "name": "Eyes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0951",
+      "c0894",
+      "c0895"
+    ]
+  },
+  {
+    "node_id": "n::lumbar puncture",
+    "name": "lumbar puncture",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0943",
+      "c0922",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::treatment for primary cns lymphoma",
+    "name": "Treatment for Primary CNS lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::intrathecal chemotherapy for csf involvement",
+    "name": "Intrathecal chemotherapy for CSF involvement",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::intraocular chemotherapy for eye involvement",
+    "name": "Intraocular chemotherapy for eye involvement",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::radiation therapy for ocular involvement",
+    "name": "Radiation therapy for ocular involvement",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::disease location",
+    "name": "disease location",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951",
+      "c0913",
+      "c0922"
+    ]
+  },
+  {
+    "node_id": "n::ocular involvement",
+    "name": "ocular involvement",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0951"
+    ]
+  },
+  {
+    "node_id": "n::bcr::abl1-positive b-all",
+    "name": "BCR::ABL1-positive B-ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466"
+    ]
+  },
+  {
+    "node_id": "n::all",
+    "name": "ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c0608",
+      "c0199",
+      "c0131",
+      "c0461",
+      "c0525"
+    ]
+  },
+  {
+    "node_id": "n::lymphocytes",
+    "name": "lymphocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c1375",
+      "c1369",
+      "c0461",
+      "c0918"
+    ]
+  },
+  {
+    "node_id": "n::b-cell all",
+    "name": "B-cell ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c0461",
+      "c0525"
+    ]
+  },
+  {
+    "node_id": "n::t-cell all",
+    "name": "T-cell ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c0461",
+      "c0525"
+    ]
+  },
+  {
+    "node_id": "n::steroids",
+    "name": "steroids",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c0461"
+    ]
+  },
+  {
+    "node_id": "n::multiagent chemotherapy",
+    "name": "multiagent chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466",
+      "c0461"
+    ]
+  },
+  {
+    "node_id": "n::a fast-growing blood cancer",
+    "name": "a fast-growing blood cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466"
+    ]
+  },
+  {
+    "node_id": "n::in lymphocytes",
+    "name": "in lymphocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466"
+    ]
+  },
+  {
+    "node_id": "n::treated with intensive systemic therapies",
+    "name": "treated with intensive systemic therapies",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466"
+    ]
+  },
+  {
+    "node_id": "n::treated with steroids and multiagent chemotherapy",
+    "name": "treated with steroids and multiagent chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0466"
+    ]
+  },
+  {
+    "node_id": "n::uncommon fl",
+    "name": "Uncommon FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::classic fl",
+    "name": "classic FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203",
+      "c0202"
+    ]
+  },
+  {
+    "node_id": "n::pediatric-type fl",
+    "name": "Pediatric-type FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::ptfl",
+    "name": "PTFL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::ontology",
+    "name": "ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203",
+      "c0516",
+      "c1095",
+      "c1296",
+      "c1299",
+      "c1014",
+      "c0218",
+      "c0134",
+      "c0759",
+      "c0174",
+      "c0001",
+      "c0976",
+      "c0511",
+      "c0510",
+      "c1272",
+      "c1369",
+      "c0390",
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::t(14;18)-negative",
+    "name": "t(14;18)-negative",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::the standard classification for most fl",
+    "name": "the standard classification for most FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::a single enlarged lymph node in the head and neck",
+    "name": "a single enlarged lymph node in the head and neck",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::minimal symptoms",
+    "name": "minimal symptoms",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::a distinct cancer subtype in the ontology",
+    "name": "a distinct cancer subtype in the ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0203"
+    ]
+  },
+  {
+    "node_id": "n::richter transformation",
+    "name": "Richter transformation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1350",
+      "c1346"
+    ]
+  },
+  {
+    "node_id": "n::cll",
+    "name": "CLL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1350",
+      "c1346",
+      "c0516",
+      "c0602"
+    ]
+  },
+  {
+    "node_id": "n::dlbcl",
+    "name": "DLBCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1350",
+      "c1346",
+      "c0527",
+      "c0201",
+      "c0202"
+    ]
+  },
+  {
+    "node_id": "n::hodgkin lymphoma",
+    "name": "Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1350",
+      "c1346",
+      "c0185",
+      "c0186",
+      "c1160",
+      "c0190",
+      "c1158",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::kidney cancer",
+    "name": "Kidney cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073",
+      "c1218",
+      "c1217",
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::gerota’s fascia",
+    "name": "Gerota’s fascia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073"
+    ]
+  },
+  {
+    "node_id": "n::stage",
+    "name": "Stage",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073",
+      "c1014",
+      "c0218",
+      "c0134",
+      "c0173",
+      "c0325",
+      "c0976",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::tumors",
+    "name": "tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::lungs",
+    "name": "lungs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::lymph nodes",
+    "name": "lymph nodes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073",
+      "c0185",
+      "c0186",
+      "c1160",
+      "c0190",
+      "c0009",
+      "c0199",
+      "c0131"
+    ]
+  },
+  {
+    "node_id": "n::bones",
+    "name": "bones",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::liver",
+    "name": "liver",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0759",
+      "c0174",
+      "c1272",
+      "c0195",
+      "c0176",
+      "c1297"
+    ]
+  },
+  {
+    "node_id": "n::brain",
+    "name": "brain",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0913",
+      "c0916",
+      "c0759",
+      "c0174",
+      "c0176",
+      "c0894",
+      "c0895"
+    ]
+  },
+  {
+    "node_id": "n::renal cell carcinoma",
+    "name": "Renal cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::rcc",
+    "name": "RCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0509",
+      "c0511",
+      "c0510",
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::clear cell rcc",
+    "name": "Clear cell RCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::blood",
+    "name": "blood",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0602"
+    ]
+  },
+  {
+    "node_id": "n::bone marrow",
+    "name": "bone marrow",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0608",
+      "c0602"
+    ]
+  },
+  {
+    "node_id": "n::surrounding fat",
+    "name": "surrounding fat",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073"
+    ]
+  },
+  {
+    "node_id": "n::blood vessels",
+    "name": "blood vessels",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073"
+    ]
+  },
+  {
+    "node_id": "n::adrenal glands",
+    "name": "adrenal glands",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073"
+    ]
+  },
+  {
+    "node_id": "n::local spread to surrounding fat, blood vessels, lymph nodes, adrenal glands, and gerota’s fascia",
+    "name": "local spread to surrounding fat, blood vessels, lymph nodes, adrenal glands, and Gerota’s fascia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0073"
+    ]
+  },
+  {
+    "node_id": "n::distant sites",
+    "name": "distant sites",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516",
+      "c0009",
+      "c1272"
+    ]
+  },
+  {
+    "node_id": "n::the most common type of kidney cancer",
+    "name": "the most common type of kidney cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::the most common subtype of rcc",
+    "name": "the most common subtype of RCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::the primary site of cll",
+    "name": "the primary site of CLL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0516"
+    ]
+  },
+  {
+    "node_id": "n::upper body",
+    "name": "upper body",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0186",
+      "c0190"
+    ]
+  },
+  {
+    "node_id": "n::people",
+    "name": "people",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0186",
+      "c0148",
+      "c0140",
+      "c0630"
+    ]
+  },
+  {
+    "node_id": "n::ages 15 to 30",
+    "name": "ages 15 to 30",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::age 55",
+    "name": "age 55",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::common sites",
+    "name": "Common Sites",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185"
+    ]
+  },
+  {
+    "node_id": "n::risk factor",
+    "name": "Risk Factor",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::classic hodgkin lymphoma",
+    "name": "Classic Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0190",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::chl",
+    "name": "CHL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::nlphl",
+    "name": "NLPHL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0190",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::reed-sternberg cells",
+    "name": "Reed-Sternberg cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c1160",
+      "c0190",
+      "c1158",
+      "c1159",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::popcorn-shaped cells",
+    "name": "popcorn-shaped cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0190",
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::lymph nodes in the upper body",
+    "name": "lymph nodes in the upper body",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0185",
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::most people",
+    "name": "Most people",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::between ages 15 to 30 or after age 55",
+    "name": "between ages 15 to 30 or after age 55",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::common sites for hodgkin lymphoma",
+    "name": "Common Sites for Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::lymph nodes in upper body",
+    "name": "lymph nodes in upper body",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::risk factor for hodgkin lymphoma",
+    "name": "Risk Factor for Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0186"
+    ]
+  },
+  {
+    "node_id": "n::laboratory tests",
+    "name": "Laboratory tests",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::aml diagnosis",
+    "name": "AML diagnosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::complete blood count",
+    "name": "complete blood count",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::cbc",
+    "name": "CBC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::comprehensive metabolic panel",
+    "name": "comprehensive metabolic panel",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::cmp",
+    "name": "CMP",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::lactate dehydrogenase",
+    "name": "lactate dehydrogenase",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::ldh",
+    "name": "LDH",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::blood clotting tests",
+    "name": "blood clotting tests",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0276",
+      "c0273"
+    ]
+  },
+  {
+    "node_id": "n::chemoradiation",
+    "name": "Chemoradiation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095",
+      "c1501",
+      "c1514",
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::cervical cancer",
+    "name": "cervical cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095",
+      "c1061",
+      "c0039",
+      "c1069",
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::surgery",
+    "name": "Surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095",
+      "c1182",
+      "c1195",
+      "c0001",
+      "c0000",
+      "c0390",
+      "c0145",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::nsclc",
+    "name": "NSCLC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c0148",
+      "c0140",
+      "c0137",
+      "c0145",
+      "c0630"
+    ]
+  },
+  {
+    "node_id": "n::radiation therapy",
+    "name": "radiation therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095",
+      "c0008",
+      "c1158",
+      "c1161",
+      "c0006",
+      "c0036"
+    ]
+  },
+  {
+    "node_id": "n::systemic therapy",
+    "name": "systemic therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095",
+      "c0008",
+      "c0106",
+      "c0312"
+    ]
+  },
+  {
+    "node_id": "n::platinum-based chemotherapy",
+    "name": "platinum-based chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::ebrt",
+    "name": "EBRT",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095"
+    ]
+  },
+  {
+    "node_id": "n::locally advanced cervical cancer",
+    "name": "locally advanced cervical cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095"
+    ]
+  },
+  {
+    "node_id": "n::early-stage cervical cancer",
+    "name": "early-stage cervical cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095"
+    ]
+  },
+  {
+    "node_id": "n::early nsclc",
+    "name": "early NSCLC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143"
+    ]
+  },
+  {
+    "node_id": "n::locally advanced nsclc",
+    "name": "locally advanced NSCLC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143"
+    ]
+  },
+  {
+    "node_id": "n::lung cancer",
+    "name": "lung cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1218",
+      "c1217",
+      "c0137",
+      "c0630"
+    ]
+  },
+  {
+    "node_id": "n::supportive care",
+    "name": "supportive care",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c0630",
+      "c0106",
+      "c0312"
+    ]
+  },
+  {
+    "node_id": "n::systemic therapy and radiation therapy",
+    "name": "systemic therapy and radiation therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c1095"
+    ]
+  },
+  {
+    "node_id": "n::early or locally advanced nsclc",
+    "name": "early or locally advanced NSCLC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143",
+      "c0145"
+    ]
+  },
+  {
+    "node_id": "n::some early nsclc cases",
+    "name": "some early NSCLC cases",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143"
+    ]
+  },
+  {
+    "node_id": "n::some locally advanced nsclc cases",
+    "name": "some locally advanced NSCLC cases",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143"
+    ]
+  },
+  {
+    "node_id": "n::people with lung cancer",
+    "name": "people with lung cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0143"
+    ]
+  },
+  {
+    "node_id": "n::symptoms",
+    "name": "Symptoms",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299",
+      "c1375",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::ulcer",
+    "name": "ulcer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299"
+    ]
+  },
+  {
+    "node_id": "n::mass",
+    "name": "mass",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299"
+    ]
+  },
+  {
+    "node_id": "n::stomach",
+    "name": "stomach",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299",
+      "c1298",
+      "c0173",
+      "c0120"
+    ]
+  },
+  {
+    "node_id": "n::cancer",
+    "name": "cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299",
+      "c0154",
+      "c1490",
+      "c1014",
+      "c1298",
+      "c0473",
+      "c0387",
+      "c0351",
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::mucosa",
+    "name": "mucosa",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1298"
+    ]
+  },
+  {
+    "node_id": "n::adenocarcinomas",
+    "name": "adenocarcinomas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1298"
+    ]
+  },
+  {
+    "node_id": "n::stomach wall layer",
+    "name": "stomach wall layer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1298"
+    ]
+  },
+  {
+    "node_id": "n::stomach cancer",
+    "name": "stomach cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1299",
+      "c1298",
+      "c0173",
+      "c0120"
+    ]
+  },
+  {
+    "node_id": "n::ulcer and mass",
+    "name": "ulcer and mass",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296"
+    ]
+  },
+  {
+    "node_id": "n::precancerous changes",
+    "name": "precancerous changes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1298"
+    ]
+  },
+  {
+    "node_id": "n::cells lining the inside of the stomach",
+    "name": "cells lining the inside of the stomach",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296"
+    ]
+  },
+  {
+    "node_id": "n::mucus",
+    "name": "mucus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296",
+      "c1298"
+    ]
+  },
+  {
+    "node_id": "n::early-stage stomach cancer",
+    "name": "early-stage stomach cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1296"
+    ]
+  },
+  {
+    "node_id": "n::ulcer formation",
+    "name": "ulcer formation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1299"
+    ]
+  },
+  {
+    "node_id": "n::mass formation",
+    "name": "mass formation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1299"
+    ]
+  },
+  {
+    "node_id": "n::cdk4/6 inhibitors",
+    "name": "CDK4/6 inhibitors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::pik3ca inhibitors",
+    "name": "PIK3CA inhibitors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::hormone receptor-positive",
+    "name": "hormone receptor-positive",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::her2-negative breast cancer",
+    "name": "HER2-negative breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::pik3ca-mutated",
+    "name": "PIK3CA-mutated",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::metastatic breast cancer",
+    "name": "Metastatic breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838",
+      "c1218"
+    ]
+  },
+  {
+    "node_id": "n::mbc",
+    "name": "MBC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838",
+      "c1218"
+    ]
+  },
+  {
+    "node_id": "n::hormone receptor-positive, her2-negative breast cancer",
+    "name": "hormone receptor-positive, HER2-negative breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::pik3ca-mutated, hormone receptor-positive, her2-negative breast cancer",
+    "name": "PIK3CA-mutated, hormone receptor-positive, HER2-negative breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::breast cancer that has spread to distant organs",
+    "name": "breast cancer that has spread to distant organs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0838"
+    ]
+  },
+  {
+    "node_id": "n::nasopharyngeal carcinoma",
+    "name": "Nasopharyngeal carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154"
+    ]
+  },
+  {
+    "node_id": "n::npc",
+    "name": "NPC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154",
+      "c1046",
+      "c1011"
+    ]
+  },
+  {
+    "node_id": "n::squamous cell carcinoma",
+    "name": "Squamous cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154",
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::scc",
+    "name": "SCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154",
+      "c1014",
+      "c0976",
+      "c0242",
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::pharynx",
+    "name": "Pharynx",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154"
+    ]
+  },
+  {
+    "node_id": "n::nasopharynx",
+    "name": "Nasopharynx",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154"
+    ]
+  },
+  {
+    "node_id": "n::head and neck cancer",
+    "name": "Head and neck cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154",
+      "c0242",
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::nasopharyngeal cancer",
+    "name": "nasopharyngeal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0215",
+      "c0154"
+    ]
+  },
+  {
+    "node_id": "n::cancer subtype",
+    "name": "Cancer Subtype",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c1490",
+      "c1014",
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::adenomas",
+    "name": "adenomas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::adenocarcinoma",
+    "name": "Adenocarcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0473",
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::adenoma",
+    "name": "adenoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::hyperplastic polyp",
+    "name": "hyperplastic polyp",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::inflammatory polyp",
+    "name": "inflammatory polyp",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::invasive colon cancer",
+    "name": "invasive colon cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154",
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::origin ontology",
+    "name": "Origin ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0154"
+    ]
+  },
+  {
+    "node_id": "n::biopsy",
+    "name": "Biopsy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1490",
+      "c1014",
+      "c1375",
+      "c0871",
+      "c0761",
+      "c1373",
+      "c0450",
+      "c0256",
+      "c0125",
+      "c0012",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::diagnosis",
+    "name": "diagnosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1490",
+      "c1014",
+      "c0871",
+      "c0761",
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::subtype",
+    "name": "subtype",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1490",
+      "c1014"
+    ]
+  },
+  {
+    "node_id": "n::treatment",
+    "name": "treatment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014",
+      "c0387",
+      "c0351",
+      "c0907",
+      "c0446",
+      "c1231",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::planning",
+    "name": "planning",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014"
+    ]
+  },
+  {
+    "node_id": "n::tumor",
+    "name": "tumor",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014",
+      "c0387",
+      "c0351",
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::location",
+    "name": "location",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::tumor location",
+    "name": "tumor location",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014",
+      "c0218",
+      "c0134",
+      "c0976",
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::anatomic site",
+    "name": "anatomic site",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1014",
+      "c0218",
+      "c0134",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::performance status",
+    "name": "performance status",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218",
+      "c0134",
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::treatment planning",
+    "name": "treatment planning",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218",
+      "c0173",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::mouth cancer management",
+    "name": "mouth cancer management",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218"
+    ]
+  },
+  {
+    "node_id": "n::treatment selection",
+    "name": "treatment selection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218",
+      "c0134",
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::treatment decision process",
+    "name": "treatment decision process",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218",
+      "c0134"
+    ]
+  },
+  {
+    "node_id": "n::assessment of performance status",
+    "name": "assessment of performance status",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0218",
+      "c0134"
+    ]
+  },
+  {
+    "node_id": "n::mouth cancer",
+    "name": "mouth cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0134",
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::bone pain",
+    "name": "Bone pain",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218"
+    ]
+  },
+  {
+    "node_id": "n::primary bone cancer",
+    "name": "Primary bone cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::sarcomas",
+    "name": "Sarcomas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::secondary bone malignancies",
+    "name": "Secondary bone malignancies",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217",
+      "c0274"
+    ]
+  },
+  {
+    "node_id": "n::breast cancer",
+    "name": "Breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217",
+      "c0858",
+      "c1211",
+      "c0761",
+      "c0680",
+      "c0141",
+      "c0888"
+    ]
+  },
+  {
+    "node_id": "n::bone or cartilage",
+    "name": "bone or cartilage",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::most primary bone cancers",
+    "name": "Most primary bone cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218"
+    ]
+  },
+  {
+    "node_id": "n::bone",
+    "name": "bone",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1218",
+      "c1217",
+      "c0759",
+      "c0174",
+      "c1272",
+      "c0176",
+      "c0274"
+    ]
+  },
+  {
+    "node_id": "n::family history of colorectal cancer",
+    "name": "Family history of colorectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::colorectal cancer",
+    "name": "colorectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979",
+      "c0974"
+    ]
+  },
+  {
+    "node_id": "n::lynch syndrome",
+    "name": "Lynch syndrome",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::familial adenomatous polyposis",
+    "name": "familial adenomatous polyposis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::fap",
+    "name": "FAP",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979",
+      "c1165",
+      "c1166"
+    ]
+  },
+  {
+    "node_id": "n::attenuated fap",
+    "name": "attenuated FAP",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::risk factor ontology",
+    "name": "risk factor ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::first-degree relative",
+    "name": "first-degree relative",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::inherited syndromes",
+    "name": "inherited syndromes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0367",
+      "c0979"
+    ]
+  },
+  {
+    "node_id": "n::collar bone",
+    "name": "collar bone",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160"
+    ]
+  },
+  {
+    "node_id": "n::mediastinal mass",
+    "name": "mediastinal mass",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160",
+      "c1159"
+    ]
+  },
+  {
+    "node_id": "n::expert hematopathologist",
+    "name": "expert hematopathologist",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160",
+      "c1158"
+    ]
+  },
+  {
+    "node_id": "n::gray zone lymphomas",
+    "name": "Gray zone lymphomas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160"
+    ]
+  },
+  {
+    "node_id": "n::primary mediastinal b-cell lymphoma",
+    "name": "primary mediastinal B-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160",
+      "c1158"
+    ]
+  },
+  {
+    "node_id": "n::expert hematopathologist review",
+    "name": "expert hematopathologist review",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1160",
+      "c1158"
+    ]
+  },
+  {
+    "node_id": "n::mixed-type tumors",
+    "name": "Mixed-type tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::hepatocellular carcinoma",
+    "name": "Hepatocellular carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271",
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::cholangiocarcinoma",
+    "name": "Cholangiocarcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::fibrolamellar hepatocellular carcinoma",
+    "name": "Fibrolamellar hepatocellular carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271",
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::hcc",
+    "name": "HCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::the most common type of primary liver cancer",
+    "name": "the most common type of primary liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::a major risk factor for developing liver cancer",
+    "name": "a major risk factor for developing liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::the risk of liver cancer",
+    "name": "the risk of liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::at a younger age",
+    "name": "at a younger age",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::both hcc and cholangiocarcinoma components",
+    "name": "both HCC and cholangiocarcinoma components",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1271"
+    ]
+  },
+  {
+    "node_id": "n::cells",
+    "name": "cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1298",
+      "c0509"
+    ]
+  },
+  {
+    "node_id": "n::pcl",
+    "name": "PCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::non-hodgkin lymphoma",
+    "name": "non-Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::nhl",
+    "name": "NHL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374"
+    ]
+  },
+  {
+    "node_id": "n::primary cutaneous lymphoma",
+    "name": "Primary cutaneous lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::cutaneous b-cell lymphoma",
+    "name": "Cutaneous B-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::cbcl",
+    "name": "CBCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::b cells",
+    "name": "B cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374",
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::the skin",
+    "name": "the skin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1374"
+    ]
+  },
+  {
+    "node_id": "n::her2-targeted therapy",
+    "name": "HER2-targeted therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0869"
+    ]
+  },
+  {
+    "node_id": "n::her2-positive breast cancer",
+    "name": "HER2-positive breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0869"
+    ]
+  },
+  {
+    "node_id": "n::invasive ductal carcinoma",
+    "name": "invasive ductal carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0869"
+    ]
+  },
+  {
+    "node_id": "n::treatment options",
+    "name": "Treatment options",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0869",
+      "c0630"
+    ]
+  },
+  {
+    "node_id": "n::colon cancer",
+    "name": "colon cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0473",
+      "c0174",
+      "c0195"
+    ]
+  },
+  {
+    "node_id": "n::polyps",
+    "name": "polyps",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::invasive rectal cancer",
+    "name": "invasive rectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0473"
+    ]
+  },
+  {
+    "node_id": "n::endoscopic submucosal dissection",
+    "name": "Endoscopic submucosal dissection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0493"
+    ]
+  },
+  {
+    "node_id": "n::t1 rectal tumors",
+    "name": "T1 rectal tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0493"
+    ]
+  },
+  {
+    "node_id": "n::cartilage",
+    "name": "Cartilage",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::cancers that have metastasized to bone from other organs",
+    "name": "cancers that have metastasized to bone from other organs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::secondary bone malignancy",
+    "name": "Secondary bone malignancy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1217"
+    ]
+  },
+  {
+    "node_id": "n::lung cancer screening",
+    "name": "Lung cancer screening",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::lung nodule",
+    "name": "Lung nodule",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::people at high risk",
+    "name": "people at high risk",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::cancer at an early, more treatable stage",
+    "name": "cancer at an early, more treatable stage",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::imaging",
+    "name": "imaging",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140",
+      "c0858",
+      "c1211",
+      "c1547",
+      "c0495",
+      "c0387",
+      "c0351",
+      "c0871",
+      "c0431",
+      "c0242",
+      "c0113",
+      "c0450",
+      "c0256",
+      "c0853",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::screening",
+    "name": "Screening",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::high risk individuals",
+    "name": "high risk individuals",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::early detection",
+    "name": "early detection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0148",
+      "c0140"
+    ]
+  },
+  {
+    "node_id": "n::cystoscopy",
+    "name": "cystoscopy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1072"
+    ]
+  },
+  {
+    "node_id": "n::proctoscopy",
+    "name": "proctoscopy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1072"
+    ]
+  },
+  {
+    "node_id": "n::physical exam",
+    "name": "physical exam",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1072",
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::nodular lymphocyte-predominant hodgkin lymphoma",
+    "name": "Nodular lymphocyte-predominant Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0190"
+    ]
+  },
+  {
+    "node_id": "n::diffuse large b-cell lymphoma",
+    "name": "diffuse large B-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0190",
+      "c0527",
+      "c0202"
+    ]
+  },
+  {
+    "node_id": "n::fl",
+    "name": "FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0190",
+      "c0199",
+      "c0201",
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::lymphoma",
+    "name": "lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0190",
+      "c1375",
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::molecular biomarker testing",
+    "name": "Molecular biomarker testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::germline genetic testing",
+    "name": "Germline genetic testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::patients",
+    "name": "patients",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345",
+      "c0907"
+    ]
+  },
+  {
+    "node_id": "n::prostate cancer",
+    "name": "prostate cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345",
+      "c1173",
+      "c0648"
+    ]
+  },
+  {
+    "node_id": "n::biomarker",
+    "name": "Biomarker",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345",
+      "c0761",
+      "c0446",
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::molecular biomarker tests",
+    "name": "Molecular biomarker tests",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::genetic alteration",
+    "name": "Genetic Alteration",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::brca1",
+    "name": "BRCA1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345",
+      "c0680",
+      "c0888"
+    ]
+  },
+  {
+    "node_id": "n::brca2",
+    "name": "BRCA2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345",
+      "c0680",
+      "c0888"
+    ]
+  },
+  {
+    "node_id": "n::atm",
+    "name": "ATM",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::chek2",
+    "name": "CHEK2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::mlh1",
+    "name": "MLH1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::msh2",
+    "name": "MSH2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::msh6",
+    "name": "MSH6",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::palb2",
+    "name": "PALB2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::pms2",
+    "name": "PMS2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::fanca",
+    "name": "FANCA",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::follow-up strategy",
+    "name": "Follow-up Strategy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0679",
+      "c0345"
+    ]
+  },
+  {
+    "node_id": "n::bcc",
+    "name": "BCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0008",
+      "c0009",
+      "c0006",
+      "c0003",
+      "c0001",
+      "c0000",
+      "c0036",
+      "c0007"
+    ]
+  },
+  {
+    "node_id": "n::mri with gadolinium contrast",
+    "name": "MRI with gadolinium contrast",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0913",
+      "c0916"
+    ]
+  },
+  {
+    "node_id": "n::stereotactic biopsy",
+    "name": "stereotactic biopsy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0913",
+      "c0916",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::high-dose methotrexate",
+    "name": "high-dose methotrexate",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0916",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::induction",
+    "name": "induction",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0916",
+      "c0907",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::consolidation",
+    "name": "consolidation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0916",
+      "c0907",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::induction and consolidation",
+    "name": "induction and consolidation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0916",
+      "c0944"
+    ]
+  },
+  {
+    "node_id": "n::non-alcoholic fatty liver disease",
+    "name": "Non-alcoholic fatty liver disease",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1279",
+      "c1276"
+    ]
+  },
+  {
+    "node_id": "n::hepatitis b virus",
+    "name": "Hepatitis B virus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1279"
+    ]
+  },
+  {
+    "node_id": "n::lymphoblasts",
+    "name": "lymphoblasts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0608"
+    ]
+  },
+  {
+    "node_id": "n::20 percent or more lymphoblasts are present in the bone marrow",
+    "name": "20 percent or more lymphoblasts are present in the bone marrow",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0608"
+    ]
+  },
+  {
+    "node_id": "n::diagnosis of cbcl",
+    "name": "Diagnosis of CBCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375"
+    ]
+  },
+  {
+    "node_id": "n::skin exam",
+    "name": "skin exam",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::blood tests",
+    "name": "blood tests",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c0871",
+      "c0761",
+      "c1373",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::imaging tests",
+    "name": "imaging tests",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373",
+      "c1281",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::immunophenotyping",
+    "name": "immunophenotyping",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::testing for cbcl",
+    "name": "Testing for CBCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375"
+    ]
+  },
+  {
+    "node_id": "n::assessment of biomarkers",
+    "name": "assessment of biomarkers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375"
+    ]
+  },
+  {
+    "node_id": "n::genetic changes",
+    "name": "genetic changes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375"
+    ]
+  },
+  {
+    "node_id": "n::cutaneous t-cell lymphoma",
+    "name": "Cutaneous T-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::ctcl",
+    "name": "CTCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::skin",
+    "name": "skin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373",
+      "c0290",
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::t cells",
+    "name": "T cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375"
+    ]
+  },
+  {
+    "node_id": "n::skin nodules",
+    "name": "skin nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::papules",
+    "name": "papules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::abnormal t cells",
+    "name": "abnormal T cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1375",
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::esophageal squamous cell carcinoma",
+    "name": "Esophageal squamous cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::upper esophagus",
+    "name": "Upper esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::middle esophagus",
+    "name": "Middle esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::lower esophagus",
+    "name": "Lower esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::esophageal adenocarcinoma",
+    "name": "Esophageal adenocarcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172",
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::squamous cells",
+    "name": "Squamous cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172"
+    ]
+  },
+  {
+    "node_id": "n::mucus-secreting cells",
+    "name": "Mucus-secreting cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172"
+    ]
+  },
+  {
+    "node_id": "n::squamous cells of the esophagus",
+    "name": "squamous cells of the esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172"
+    ]
+  },
+  {
+    "node_id": "n::mucus-secreting cells of the esophagus",
+    "name": "mucus-secreting cells of the esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0172"
+    ]
+  },
+  {
+    "node_id": "n::external beam radiation therapy",
+    "name": "External beam radiation therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195"
+    ]
+  },
+  {
+    "node_id": "n::anaplastic",
+    "name": "anaplastic",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195"
+    ]
+  },
+  {
+    "node_id": "n::recurrent",
+    "name": "recurrent",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195"
+    ]
+  },
+  {
+    "node_id": "n::metastatic",
+    "name": "metastatic",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195"
+    ]
+  },
+  {
+    "node_id": "n::cancers",
+    "name": "cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195",
+      "c0274"
+    ]
+  },
+  {
+    "node_id": "n::rai",
+    "name": "RAI",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182",
+      "c1195"
+    ]
+  },
+  {
+    "node_id": "n::anaplastic, recurrent, or metastatic cancers",
+    "name": "anaplastic, recurrent, or metastatic cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182"
+    ]
+  },
+  {
+    "node_id": "n::cancers not amenable to surgery",
+    "name": "cancers not amenable to surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182"
+    ]
+  },
+  {
+    "node_id": "n::cancers not amenable to rai",
+    "name": "cancers not amenable to RAI",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1182"
+    ]
+  },
+  {
+    "node_id": "n::rituximab",
+    "name": "Rituximab",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158",
+      "c1161"
+    ]
+  },
+  {
+    "node_id": "n::chemotherapy",
+    "name": "chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158",
+      "c1161",
+      "c1006",
+      "c0976",
+      "c1548",
+      "c1533",
+      "c0390",
+      "c1464",
+      "c0391",
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::involved-site radiation therapy",
+    "name": "Involved-site radiation therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158",
+      "c1161"
+    ]
+  },
+  {
+    "node_id": "n::gray zone lymphoma",
+    "name": "gray zone lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158"
+    ]
+  },
+  {
+    "node_id": "n::large mediastinal mass",
+    "name": "large mediastinal mass",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158"
+    ]
+  },
+  {
+    "node_id": "n::localized mgzl",
+    "name": "localized MGZL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1158",
+      "c1161"
+    ]
+  },
+  {
+    "node_id": "n::isrt",
+    "name": "ISRT",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1161"
+    ]
+  },
+  {
+    "node_id": "n::chemoimmunotherapy",
+    "name": "chemoimmunotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1161"
+    ]
+  },
+  {
+    "node_id": "n::siewert types",
+    "name": "Siewert types",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::esophagogastric junction",
+    "name": "Esophagogastric junction",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::esophagus",
+    "name": "Esophagus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::tumors at the esophagogastric junction",
+    "name": "tumors at the esophagogastric junction",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::cancer type",
+    "name": "cancer type",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0173"
+    ]
+  },
+  {
+    "node_id": "n::idh1",
+    "name": "IDH1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250",
+      "c0613",
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::ivosidenib",
+    "name": "ivosidenib",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250",
+      "c0613",
+      "c1219"
+    ]
+  },
+  {
+    "node_id": "n::chondrosarcoma",
+    "name": "chondrosarcoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250",
+      "c0613",
+      "c1219"
+    ]
+  },
+  {
+    "node_id": "n::cartilage-forming cells",
+    "name": "cartilage-forming cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250",
+      "c1219"
+    ]
+  },
+  {
+    "node_id": "n::idh1 mutation",
+    "name": "IDH1 mutation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250",
+      "c0613",
+      "c1219"
+    ]
+  },
+  {
+    "node_id": "n::in cartilage-forming cells",
+    "name": "in cartilage-forming cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1250"
+    ]
+  },
+  {
+    "node_id": "n::biomarker testing",
+    "name": "Biomarker testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0613",
+      "c0475",
+      "c0249",
+      "c0446",
+      "c1249",
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::identification of gene mutations",
+    "name": "identification of gene mutations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0613",
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::gene mutations",
+    "name": "gene mutations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0613",
+      "c0475"
+    ]
+  },
+  {
+    "node_id": "n::site",
+    "name": "site",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0009"
+    ]
+  },
+  {
+    "node_id": "n::original site",
+    "name": "original site",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0009"
+    ]
+  },
+  {
+    "node_id": "n::metastatic esophageal cancer",
+    "name": "Metastatic esophageal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759",
+      "c0174",
+      "c0176"
+    ]
+  },
+  {
+    "node_id": "n::lung",
+    "name": "lung",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759",
+      "c0174",
+      "c1272",
+      "c0176"
+    ]
+  },
+  {
+    "node_id": "n::distant lymph nodes",
+    "name": "distant lymph nodes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759",
+      "c0174",
+      "c1297"
+    ]
+  },
+  {
+    "node_id": "n::esophageal cancer",
+    "name": "esophageal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759",
+      "c0174"
+    ]
+  },
+  {
+    "node_id": "n::distant organs",
+    "name": "distant organs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759"
+    ]
+  },
+  {
+    "node_id": "n::metastatic sites for esophageal cancer",
+    "name": "metastatic sites for esophageal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0759",
+      "c0174"
+    ]
+  },
+  {
+    "node_id": "n::secondary liver cancer",
+    "name": "Secondary liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0174",
+      "c0195"
+    ]
+  },
+  {
+    "node_id": "n::other primary cancers",
+    "name": "other primary cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0174",
+      "c0195"
+    ]
+  },
+  {
+    "node_id": "n::uv radiation exposure",
+    "name": "UV radiation exposure",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006"
+    ]
+  },
+  {
+    "node_id": "n::immune suppression",
+    "name": "immune suppression",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006",
+      "c0036"
+    ]
+  },
+  {
+    "node_id": "n::basal cell carcinoma",
+    "name": "Basal cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006",
+      "c0003",
+      "c0000"
+    ]
+  },
+  {
+    "node_id": "n::uv radiation",
+    "name": "UV radiation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006"
+    ]
+  },
+  {
+    "node_id": "n::sun exposure",
+    "name": "Sun exposure",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006"
+    ]
+  },
+  {
+    "node_id": "n::tanning beds",
+    "name": "Tanning beds",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0006"
+    ]
+  },
+  {
+    "node_id": "n::follow-up",
+    "name": "Follow-up",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0858"
+    ]
+  },
+  {
+    "node_id": "n::physical exams",
+    "name": "physical exams",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0858",
+      "c1211",
+      "c0853"
+    ]
+  },
+  {
+    "node_id": "n::monitoring",
+    "name": "monitoring",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0858"
+    ]
+  },
+  {
+    "node_id": "n::recurrence",
+    "name": "recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0858",
+      "c0390",
+      "c0853"
+    ]
+  },
+  {
+    "node_id": "n::surveillance",
+    "name": "Surveillance",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0858",
+      "c1547",
+      "c0495",
+      "c0042",
+      "c0124",
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::neck",
+    "name": "neck",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c0003",
+      "c0001",
+      "c1165",
+      "c1166",
+      "c0000",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::head",
+    "name": "head",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c0003",
+      "c0001",
+      "c1165",
+      "c1166",
+      "c0000",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::neck lump",
+    "name": "neck lump",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::tsh blood test",
+    "name": "TSH blood test",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::neck ultrasound",
+    "name": "neck ultrasound",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::fine-needle aspiration biopsy",
+    "name": "fine-needle aspiration biopsy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::monitoring for recurrence",
+    "name": "monitoring for recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1211"
+    ]
+  },
+  {
+    "node_id": "n::surveillance after local excision or esd",
+    "name": "Surveillance after local excision or ESD",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::sigmoidoscopy",
+    "name": "sigmoidoscopy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::flexible sigmoidoscopy",
+    "name": "Flexible sigmoidoscopy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::eus",
+    "name": "EUS",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::colonoscopy",
+    "name": "Colonoscopy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::t1 tumors",
+    "name": "T1 tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::regular sigmoidoscopy and imaging",
+    "name": "regular sigmoidoscopy and imaging",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::part of the surveillance strategy for t1 tumors",
+    "name": "part of the surveillance strategy for T1 tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::imaging (eus or mri)",
+    "name": "Imaging (EUS or MRI)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::surveillance strategy",
+    "name": "Surveillance Strategy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1547",
+      "c0495"
+    ]
+  },
+  {
+    "node_id": "n::actinic keratosis",
+    "name": "Actinic keratosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0042",
+      "c0124"
+    ]
+  },
+  {
+    "node_id": "n::cscc",
+    "name": "CSCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0042",
+      "c0124"
+    ]
+  },
+  {
+    "node_id": "n::clinical management",
+    "name": "Clinical Management",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0042",
+      "c0124",
+      "c1231"
+    ]
+  },
+  {
+    "node_id": "n::fertility-sparing surgery",
+    "name": "Fertility-sparing surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::fertility preservation",
+    "name": "Fertility Preservation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124",
+      "c1231"
+    ]
+  },
+  {
+    "node_id": "n::trachelectomy",
+    "name": "Trachelectomy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::ovarian transposition",
+    "name": "Ovarian transposition",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::egg freezing",
+    "name": "Egg freezing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::surrogacy",
+    "name": "Surrogacy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::cervical cancer patients",
+    "name": "cervical cancer patients",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::selected early-stage cases",
+    "name": "selected early-stage cases",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::fertility preservation strategies for cervical cancer patients",
+    "name": "fertility preservation strategies for cervical cancer patients",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1123",
+      "c1124"
+    ]
+  },
+  {
+    "node_id": "n::b-all",
+    "name": "B-ALL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::b-cell lymphocytes",
+    "name": "B-cell lymphocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0457"
+    ]
+  },
+  {
+    "node_id": "n::pheochromocytoma",
+    "name": "Pheochromocytoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::adrenal medulla",
+    "name": "adrenal medulla",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::high blood pressure",
+    "name": "high blood pressure",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::headache",
+    "name": "headache",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::rapid heartbeat",
+    "name": "rapid heartbeat",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::sweating",
+    "name": "sweating",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0017"
+    ]
+  },
+  {
+    "node_id": "n::physical",
+    "name": "physical",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::pelvic",
+    "name": "pelvic",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::exams",
+    "name": "exams",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::ca-125",
+    "name": "CA-125",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::markers",
+    "name": "markers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::ct",
+    "name": "CT",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351",
+      "c0871",
+      "c0761",
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::ovarian",
+    "name": "ovarian",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::monitored",
+    "name": "monitored",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::indicated",
+    "name": "indicated",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0387",
+      "c0351"
+    ]
+  },
+  {
+    "node_id": "n::renal tubules",
+    "name": "renal tubules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0509"
+    ]
+  },
+  {
+    "node_id": "n::primary peritoneal cancer",
+    "name": "Primary peritoneal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0322"
+    ]
+  },
+  {
+    "node_id": "n::fallopian tube cancer",
+    "name": "Fallopian tube cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0322"
+    ]
+  },
+  {
+    "node_id": "n::ovarian cancer",
+    "name": "Ovarian cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0322",
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::tnm system",
+    "name": "TNM system",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::lymph node",
+    "name": "Lymph node",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c1548",
+      "c1533"
+    ]
+  },
+  {
+    "node_id": "n::tumor grade",
+    "name": "Tumor grade",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::histologic differentiation",
+    "name": "Histologic differentiation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::related cancers under ovarian cancer",
+    "name": "related cancers under Ovarian cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0322"
+    ]
+  },
+  {
+    "node_id": "n::tumor size/location",
+    "name": "Tumor size/location",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::lymph node involvement",
+    "name": "Lymph node involvement",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0253",
+      "c0999",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::combining t, n, m, and g scores",
+    "name": "combining T, N, M, and G scores",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0325",
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::basal cells",
+    "name": "basal cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::epidermis",
+    "name": "epidermis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::face",
+    "name": "face",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001",
+      "c0000"
+    ]
+  },
+  {
+    "node_id": "n::arms",
+    "name": "arms",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::legs",
+    "name": "legs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::trunk",
+    "name": "trunk",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::body",
+    "name": "body",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001"
+    ]
+  },
+  {
+    "node_id": "n::skin cancer",
+    "name": "skin cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001",
+      "c0000"
+    ]
+  },
+  {
+    "node_id": "n::sun-exposed areas",
+    "name": "sun-exposed areas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0003",
+      "c0001",
+      "c0000"
+    ]
+  },
+  {
+    "node_id": "n::radiation exposure",
+    "name": "Radiation exposure",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1165",
+      "c1166",
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::family history",
+    "name": "Family history",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1165",
+      "c1166",
+      "c0761",
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::carney complex",
+    "name": "Carney complex",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1165",
+      "c1166"
+    ]
+  },
+  {
+    "node_id": "n::cowden syndrome",
+    "name": "Cowden syndrome",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1165",
+      "c1166"
+    ]
+  },
+  {
+    "node_id": "n::men",
+    "name": "MEN",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1165",
+      "c1166"
+    ]
+  },
+  {
+    "node_id": "n::active surveillance",
+    "name": "Active surveillance",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196",
+      "c1173",
+      "c0648"
+    ]
+  },
+  {
+    "node_id": "n::papillary thyroid cancers",
+    "name": "papillary thyroid cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::lobectomy",
+    "name": "Lobectomy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::small",
+    "name": "small",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::low-risk",
+    "name": "low-risk",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::differentiated thyroid cancers",
+    "name": "differentiated thyroid cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::cm",
+    "name": "cm",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::small, low-risk differentiated thyroid cancers",
+    "name": "small, low-risk differentiated thyroid cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::small, noninvasive tumors 1-4 cm",
+    "name": "small, noninvasive tumors 1-4 cm",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::no spread",
+    "name": "no spread",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1197",
+      "c1196"
+    ]
+  },
+  {
+    "node_id": "n::colectomy",
+    "name": "colectomy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::stage 3",
+    "name": "stage 3",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::stage 2",
+    "name": "stage 2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::colon cancers",
+    "name": "colon cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::stage 3 colon cancers",
+    "name": "stage 3 colon cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::some stage 2 colon cancers",
+    "name": "some stage 2 colon cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1006",
+      "c0976"
+    ]
+  },
+  {
+    "node_id": "n::mammogram",
+    "name": "Mammogram",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0871",
+      "c0761"
+    ]
+  },
+  {
+    "node_id": "n::pet",
+    "name": "PET",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0871",
+      "c0761"
+    ]
+  },
+  {
+    "node_id": "n::definitive diagnosis and biomarker testing",
+    "name": "definitive diagnosis and biomarker testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0871"
+    ]
+  },
+  {
+    "node_id": "n::brca mutations",
+    "name": "BRCA mutations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0761",
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::breast lump",
+    "name": "Breast lump",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0761",
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::being assigned female at birth",
+    "name": "being assigned female at birth",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0761",
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::wilms tumor",
+    "name": "Wilms tumor",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::nephroblastoma",
+    "name": "nephroblastoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::urothelial carcinoma",
+    "name": "Urothelial carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510",
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::renal sarcoma",
+    "name": "Renal sarcoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::young children",
+    "name": "young children",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::cancer subtype under kidney cancer",
+    "name": "Cancer Subtype under Kidney cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::a separate subtype under cancer type: kidney cancer in the ontology",
+    "name": "a separate subtype under Cancer Type: Kidney cancer in the ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0511",
+      "c0510"
+    ]
+  },
+  {
+    "node_id": "n::gallbladder",
+    "name": "gallbladder",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::epithelium",
+    "name": "epithelium",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::lamina propria",
+    "name": "lamina propria",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::muscularis",
+    "name": "muscularis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::perimuscular fibrous tissue",
+    "name": "perimuscular fibrous tissue",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::serosa",
+    "name": "serosa",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0170",
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::histological layer",
+    "name": "Histological Layer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::bile ducts",
+    "name": "bile ducts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0194"
+    ]
+  },
+  {
+    "node_id": "n::lymph node recurrence",
+    "name": "Lymph node recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1548",
+      "c1533"
+    ]
+  },
+  {
+    "node_id": "n::groin dissection",
+    "name": "Groin dissection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1548",
+      "c1533"
+    ]
+  },
+  {
+    "node_id": "n::the liver",
+    "name": "the liver",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1272"
+    ]
+  },
+  {
+    "node_id": "n::the lung",
+    "name": "the lung",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1272"
+    ]
+  },
+  {
+    "node_id": "n::metastasis sites",
+    "name": "metastasis sites",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1272"
+    ]
+  },
+  {
+    "node_id": "n::pd-l1",
+    "name": "PD-L1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c0249",
+      "c0446",
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::msi-h/dmmr",
+    "name": "MSI-H/dMMR",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c0249",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::tumor mutational burden",
+    "name": "Tumor mutational burden",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c0249",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::mismatch repair deficiency",
+    "name": "Mismatch repair deficiency",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c0488"
+    ]
+  },
+  {
+    "node_id": "n::microsatellite instability-high",
+    "name": "Microsatellite instability-high",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c0488"
+    ]
+  },
+  {
+    "node_id": "n::pembrolizumab",
+    "name": "Pembrolizumab",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::nivolumab",
+    "name": "Nivolumab",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::ipilimumab",
+    "name": "Ipilimumab",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::protein expression",
+    "name": "Protein expression",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::tumor mutational burden-high",
+    "name": "Tumor mutational burden-high",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0475",
+      "c1249"
+    ]
+  },
+  {
+    "node_id": "n::non-metastatic anal cancers",
+    "name": "non-metastatic anal cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1501",
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::stages i-iii",
+    "name": "stages I-III",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1501",
+      "c1514",
+      "c0141"
+    ]
+  },
+  {
+    "node_id": "n::i-iii",
+    "name": "I-III",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1501"
+    ]
+  },
+  {
+    "node_id": "n::risk",
+    "name": "risk",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::evaluation",
+    "name": "evaluation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::suspicious thyroid nodules",
+    "name": "suspicious thyroid nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::radiation exposure to the head or neck",
+    "name": "Radiation exposure to the head or neck",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1170"
+    ]
+  },
+  {
+    "node_id": "n::male",
+    "name": "male",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1159"
+    ]
+  },
+  {
+    "node_id": "n::primary cutaneous marginal zone lymphoma",
+    "name": "primary cutaneous marginal zone lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::pcmzl",
+    "name": "PCMZL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::primary cutaneous follicle center lymphoma",
+    "name": "primary cutaneous follicle center lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::pcfcl",
+    "name": "PCFCL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::primary cutaneous diffuse large b-cell lymphoma, leg type",
+    "name": "primary cutaneous diffuse large B-cell lymphoma, leg type",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::pc-dlbcl, leg type",
+    "name": "PC-DLBCL, leg type",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369",
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::hodgkin",
+    "name": "Hodgkin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::unregulated growth of lymphocytes",
+    "name": "Unregulated growth of lymphocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1369"
+    ]
+  },
+  {
+    "node_id": "n::nodules",
+    "name": "nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::nodules or papules under the skin",
+    "name": "nodules or papules under the skin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::indolent or slow-growing",
+    "name": "indolent or slow-growing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::diagnosis of cutaneous b-cell lymphoma",
+    "name": "Diagnosis of Cutaneous B-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::symptoms of cutaneous b-cell lymphoma",
+    "name": "Symptoms of Cutaneous B-cell lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1373"
+    ]
+  },
+  {
+    "node_id": "n::nasopharyngeal carcinoma (npc)",
+    "name": "Nasopharyngeal carcinoma (NPC)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1008"
+    ]
+  },
+  {
+    "node_id": "n::human papillomavirus",
+    "name": "human papillomavirus",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::hpv",
+    "name": "HPV",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::cervical cancers",
+    "name": "cervical cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::smoking",
+    "name": "smoking",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::immunosuppression",
+    "name": "immunosuppression",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::hiv infection",
+    "name": "HIV infection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::cervical dysplasia",
+    "name": "cervical dysplasia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::cin",
+    "name": "CIN",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::hpv infection",
+    "name": "HPV infection",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1061",
+      "c0039"
+    ]
+  },
+  {
+    "node_id": "n::panoramic dental x-ray",
+    "name": "Panoramic dental x-ray",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0431",
+      "c0242",
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::panorex",
+    "name": "Panorex",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0431",
+      "c0242",
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::diagnostic methods",
+    "name": "diagnostic methods",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0431",
+      "c0242"
+    ]
+  },
+  {
+    "node_id": "n::dental health assessment",
+    "name": "dental health assessment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0431",
+      "c0242"
+    ]
+  },
+  {
+    "node_id": "n::a diagnostic method",
+    "name": "a diagnostic method",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0242"
+    ]
+  },
+  {
+    "node_id": "n::dental health",
+    "name": "dental health",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0242",
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::ontology for scc",
+    "name": "ontology for SCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0242"
+    ]
+  },
+  {
+    "node_id": "n::b lymphocyte",
+    "name": "B lymphocyte",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0195"
+    ]
+  },
+  {
+    "node_id": "n::the most common subtype of hodgkin lymphoma",
+    "name": "the most common subtype of Hodgkin lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0527"
+    ]
+  },
+  {
+    "node_id": "n::bpdcn",
+    "name": "BPDCN",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0290"
+    ]
+  },
+  {
+    "node_id": "n::aml",
+    "name": "AML",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0290"
+    ]
+  },
+  {
+    "node_id": "n::clinical trial",
+    "name": "Clinical trial",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0907",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::clinical trial participation",
+    "name": "Clinical trial participation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0907"
+    ]
+  },
+  {
+    "node_id": "n::phases",
+    "name": "phases",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0907"
+    ]
+  },
+  {
+    "node_id": "n::an option in induction",
+    "name": "an option in induction",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0907"
+    ]
+  },
+  {
+    "node_id": "n::an option in consolidation",
+    "name": "an option in consolidation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0907"
+    ]
+  },
+  {
+    "node_id": "n::fertility counseling",
+    "name": "Fertility counseling",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0233"
+    ]
+  },
+  {
+    "node_id": "n::radiation therapy and immune suppression",
+    "name": "Radiation therapy and immune suppression",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0036"
+    ]
+  },
+  {
+    "node_id": "n::management of recurrence",
+    "name": "Management of recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0036"
+    ]
+  },
+  {
+    "node_id": "n::risk and recurrence",
+    "name": "risk and recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0036"
+    ]
+  },
+  {
+    "node_id": "n::localized prostate cancer",
+    "name": "Localized prostate cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0646"
+    ]
+  },
+  {
+    "node_id": "n::prostate",
+    "name": "prostate",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0646"
+    ]
+  },
+  {
+    "node_id": "n::depth of invasion",
+    "name": "Depth of invasion",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::tnm classification",
+    "name": "TNM Classification",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::doi",
+    "name": "DOI",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::in the definitions for t1, t2, and t3",
+    "name": "in the definitions for T1, T2, and T3",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::in the ontology",
+    "name": "in the ontology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::in mouth cancer",
+    "name": "in mouth cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0261"
+    ]
+  },
+  {
+    "node_id": "n::apr",
+    "name": "APR",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0501"
+    ]
+  },
+  {
+    "node_id": "n::parp inhibitors",
+    "name": "PARP inhibitors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680",
+      "c0888"
+    ]
+  },
+  {
+    "node_id": "n::brca-mutated",
+    "name": "BRCA-mutated",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::her2-negative",
+    "name": "HER2-negative",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::a common symptom of breast cancer",
+    "name": "a common symptom of breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::the risk of breast cancer",
+    "name": "the risk of breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680"
+    ]
+  },
+  {
+    "node_id": "n::brca-mutated, her2-negative breast cancer",
+    "name": "BRCA-mutated, HER2-negative breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0680",
+      "c0888"
+    ]
+  },
+  {
+    "node_id": "n::diagnosis of liver cancer",
+    "name": "Diagnosis of liver cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1281",
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::a diagnostic method in the ontology for scc",
+    "name": "a diagnostic method in the ontology for SCC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0227"
+    ]
+  },
+  {
+    "node_id": "n::ewing sarcoma",
+    "name": "Ewing sarcoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1248"
+    ]
+  },
+  {
+    "node_id": "n::ewsr1-ets",
+    "name": "EWSR1-ETS",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1248"
+    ]
+  },
+  {
+    "node_id": "n::ewsr1-fli1",
+    "name": "EWSR1-FLI1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1248"
+    ]
+  },
+  {
+    "node_id": "n::ewsr1-ets gene fusions",
+    "name": "EWSR1-ETS gene fusions",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1248"
+    ]
+  },
+  {
+    "node_id": "n::lung nodules",
+    "name": "Lung nodules",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0113"
+    ]
+  },
+  {
+    "node_id": "n::nafld",
+    "name": "NAFLD",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1276"
+    ]
+  },
+  {
+    "node_id": "n::dmmr",
+    "name": "dMMR",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0488",
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::msi-h",
+    "name": "MSI-H",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0488",
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::biomarkers",
+    "name": "biomarkers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0488"
+    ]
+  },
+  {
+    "node_id": "n::biomarkers in",
+    "name": "biomarkers in",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0488"
+    ]
+  },
+  {
+    "node_id": "n::biomarkers in rectal cancer",
+    "name": "biomarkers in rectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0488"
+    ]
+  },
+  {
+    "node_id": "n::b-cell lymphoblastic lymphoma",
+    "name": "B-cell lymphoblastic lymphoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0199",
+      "c0131"
+    ]
+  },
+  {
+    "node_id": "n::b-cell lymphoblasts",
+    "name": "B-cell lymphoblasts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0199",
+      "c0131"
+    ]
+  },
+  {
+    "node_id": "n::lymphoid progenitor cells",
+    "name": "lymphoid progenitor cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0199",
+      "c0131"
+    ]
+  },
+  {
+    "node_id": "n::nodal or extranodal disease",
+    "name": "nodal or extranodal disease",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0199"
+    ]
+  },
+  {
+    "node_id": "n::b-cell lymphoblasts grow mostly in lymph nodes",
+    "name": "B-cell lymphoblasts grow mostly in lymph nodes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0199",
+      "c0131"
+    ]
+  },
+  {
+    "node_id": "n::mitomycin",
+    "name": "mitomycin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::capecitabine",
+    "name": "capecitabine",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::5-fu",
+    "name": "5-FU",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::cisplatin",
+    "name": "cisplatin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::anal squamous cell carcinoma",
+    "name": "Anal squamous cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::anal cancer",
+    "name": "anal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1514"
+    ]
+  },
+  {
+    "node_id": "n::low-grade gliomas",
+    "name": "Low-grade gliomas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1317"
+    ]
+  },
+  {
+    "node_id": "n::prognosis",
+    "name": "prognosis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1317"
+    ]
+  },
+  {
+    "node_id": "n::diagnostic method",
+    "name": "Diagnostic Method",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0245",
+      "c1046"
+    ]
+  },
+  {
+    "node_id": "n::core needle biopsy (cnb)",
+    "name": "Core needle biopsy (CNB)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0245"
+    ]
+  },
+  {
+    "node_id": "n::the most common type of lung cancer",
+    "name": "the most common type of lung cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0137"
+    ]
+  },
+  {
+    "node_id": "n::aldosteronoma",
+    "name": "Aldosteronoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0016"
+    ]
+  },
+  {
+    "node_id": "n::aldosterone",
+    "name": "aldosterone",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0016"
+    ]
+  },
+  {
+    "node_id": "n::immunotherapy",
+    "name": "immunotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0446",
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::decisions",
+    "name": "decisions",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0446"
+    ]
+  },
+  {
+    "node_id": "n::testing",
+    "name": "testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0446"
+    ]
+  },
+  {
+    "node_id": "n::immunotherapy treatment decisions",
+    "name": "immunotherapy treatment decisions",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0446"
+    ]
+  },
+  {
+    "node_id": "n::treatment decisions",
+    "name": "treatment decisions",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0446"
+    ]
+  },
+  {
+    "node_id": "n::cancer staging",
+    "name": "Cancer staging",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::ajcc tnm system",
+    "name": "AJCC TNM system",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::tumor size",
+    "name": "tumor size",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999",
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::tis",
+    "name": "Tis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::t1",
+    "name": "T1",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::t2",
+    "name": "T2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::t3",
+    "name": "T3",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::t4a",
+    "name": "T4a",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::t4b",
+    "name": "T4b",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999",
+      "c0259"
+    ]
+  },
+  {
+    "node_id": "n::ajcc tnm staging",
+    "name": "AJCC TNM staging",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0253",
+      "c0999"
+    ]
+  },
+  {
+    "node_id": "n::n",
+    "name": "N",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::m",
+    "name": "M",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::g",
+    "name": "G",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0258"
+    ]
+  },
+  {
+    "node_id": "n::clinical trials",
+    "name": "Clinical trials",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::platinum",
+    "name": "Platinum",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::targeted therapy",
+    "name": "Targeted therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::bevacizumab",
+    "name": "Bevacizumab",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::cytoreductive surgery",
+    "name": "Cytoreductive surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::clinical trial enrollment for recurrent or persistent disease",
+    "name": "clinical trial enrollment for recurrent or persistent disease",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::platinum sensitivity, biomarker status",
+    "name": "platinum sensitivity, biomarker status",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::surgery, chemotherapy, targeted therapy, immunotherapy, or clinical trial enrollment",
+    "name": "surgery, chemotherapy, targeted therapy, immunotherapy, or clinical trial enrollment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::platinum-sensitive recurrence",
+    "name": "Platinum-sensitive recurrence",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::platinum-based chemotherapy, possibly with bevacizumab, and may include secondary cytoreductive surgery",
+    "name": "platinum-based chemotherapy, possibly with bevacizumab, and may include secondary cytoreductive surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::platinum-resistant ovarian cancer",
+    "name": "Platinum-resistant ovarian cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390",
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::non-platinum chemotherapy, bevacizumab, or targeted therapies",
+    "name": "non-platinum chemotherapy, bevacizumab, or targeted therapies",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0390"
+    ]
+  },
+  {
+    "node_id": "n::stage i pancreatic cancer",
+    "name": "Stage I pancreatic cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0623"
+    ]
+  },
+  {
+    "node_id": "n::pancreas",
+    "name": "pancreas",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0623"
+    ]
+  },
+  {
+    "node_id": "n::4 cm or smaller",
+    "name": "4 cm or smaller",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0623"
+    ]
+  },
+  {
+    "node_id": "n::counseling",
+    "name": "counseling",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1231"
+    ]
+  },
+  {
+    "node_id": "n::fertility preservation counseling",
+    "name": "fertility preservation counseling",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1231"
+    ]
+  },
+  {
+    "node_id": "n::organs",
+    "name": "organs",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0274"
+    ]
+  },
+  {
+    "node_id": "n::local excision",
+    "name": "Local excision",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1519"
+    ]
+  },
+  {
+    "node_id": "n::perianal cancers",
+    "name": "perianal cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1519"
+    ]
+  },
+  {
+    "node_id": "n::some early-stage, low-grade perianal cancers",
+    "name": "some early-stage, low-grade perianal cancers",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1519"
+    ]
+  },
+  {
+    "node_id": "n::genetic cancer risk testing",
+    "name": "Genetic cancer risk testing",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::germline mutations",
+    "name": "germline mutations",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::family history of cancer",
+    "name": "Family history of cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::increased cancer risk",
+    "name": "increased cancer risk",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1245",
+      "c0356"
+    ]
+  },
+  {
+    "node_id": "n::blood and bone marrow",
+    "name": "blood and bone marrow",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0602"
+    ]
+  },
+  {
+    "node_id": "n::numbered stages",
+    "name": "Numbered Stages",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371"
+    ]
+  },
+  {
+    "node_id": "n::stage 0",
+    "name": "Stage 0",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371",
+      "c0453"
+    ]
+  },
+  {
+    "node_id": "n::stage i",
+    "name": "Stage I",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371",
+      "c0453"
+    ]
+  },
+  {
+    "node_id": "n::stage ii",
+    "name": "Stage II",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371",
+      "c0453"
+    ]
+  },
+  {
+    "node_id": "n::stage iii",
+    "name": "Stage III",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371",
+      "c0453"
+    ]
+  },
+  {
+    "node_id": "n::stage iv",
+    "name": "Stage IV",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046",
+      "c0371",
+      "c0453"
+    ]
+  },
+  {
+    "node_id": "n::nutrition assessment",
+    "name": "Nutrition assessment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046"
+    ]
+  },
+  {
+    "node_id": "n::speech and swallowing assessment",
+    "name": "speech and swallowing assessment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1046"
+    ]
+  },
+  {
+    "node_id": "n::trimodal therapy",
+    "name": "Trimodal therapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::turbt",
+    "name": "TURBT",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::bladder",
+    "name": "bladder",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::turbt, chemotherapy, and radiation",
+    "name": "TURBT, chemotherapy, and radiation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::bladder-preserving approach",
+    "name": "bladder-preserving approach",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1464"
+    ]
+  },
+  {
+    "node_id": "n::clinical stage",
+    "name": "Clinical stage",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::pet/ct",
+    "name": "PET/CT",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::imaging studies",
+    "name": "imaging studies",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0450"
+    ]
+  },
+  {
+    "node_id": "n::staging",
+    "name": "staging",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0450",
+      "c0256"
+    ]
+  },
+  {
+    "node_id": "n::osteosarcoma",
+    "name": "Osteosarcoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1221"
+    ]
+  },
+  {
+    "node_id": "n::metaphysis",
+    "name": "Metaphysis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1221"
+    ]
+  },
+  {
+    "node_id": "n::giant cell tumor of bone",
+    "name": "Giant cell tumor of bone",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1221"
+    ]
+  },
+  {
+    "node_id": "n::epiphysis",
+    "name": "Epiphysis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1221"
+    ]
+  },
+  {
+    "node_id": "n::growth plates",
+    "name": "Growth plates",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1221"
+    ]
+  },
+  {
+    "node_id": "n::nsclc when possible",
+    "name": "NSCLC when possible",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0145"
+    ]
+  },
+  {
+    "node_id": "n::life",
+    "name": "life",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0630"
+    ]
+  },
+  {
+    "node_id": "n::all treatment",
+    "name": "ALL treatment",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0106",
+      "c0312"
+    ]
+  },
+  {
+    "node_id": "n::sensitivity",
+    "name": "sensitivity",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::status",
+    "name": "status",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::secondary cytoreductive surgery",
+    "name": "secondary cytoreductive surgery",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::non-platinum chemotherapy",
+    "name": "non-platinum chemotherapy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::targeted therapies",
+    "name": "targeted therapies",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0391"
+    ]
+  },
+  {
+    "node_id": "n::small cell carcinoma",
+    "name": "small cell carcinoma",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::the most common subtype of bladder cancer",
+    "name": "the most common subtype of bladder cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::less common subtypes of bladder cancer",
+    "name": "less common subtypes of bladder cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1385"
+    ]
+  },
+  {
+    "node_id": "n::cone biopsy",
+    "name": "Cone biopsy",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1069"
+    ]
+  },
+  {
+    "node_id": "n::diagnostic and therapeutic for early-stage cervical cancer",
+    "name": "diagnostic and therapeutic for early-stage cervical cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1069"
+    ]
+  },
+  {
+    "node_id": "n::general health",
+    "name": "General health",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::eastern cooperative oncology group",
+    "name": "Eastern Cooperative Oncology Group",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::ecog score",
+    "name": "ECOG score",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::karnofsky performance status",
+    "name": "Karnofsky Performance Status",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::kps",
+    "name": "KPS",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0288"
+    ]
+  },
+  {
+    "node_id": "n::liver cancer screening",
+    "name": "liver cancer screening",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::ultrasound and alpha-fetoprotein (afp) test",
+    "name": "ultrasound and alpha-fetoprotein (AFP) test",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::ultrasound and alpha-fetoprotein (afp) test every 6 months",
+    "name": "ultrasound and alpha-fetoprotein (AFP) test every 6 months",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0125",
+      "c0012"
+    ]
+  },
+  {
+    "node_id": "n::fair skin",
+    "name": "Fair skin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0007"
+    ]
+  },
+  {
+    "node_id": "n::light hair",
+    "name": "light hair",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0007"
+    ]
+  },
+  {
+    "node_id": "n::light eye color",
+    "name": "light eye color",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0007"
+    ]
+  },
+  {
+    "node_id": "n::everyone",
+    "name": "Everyone",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0461"
+    ]
+  },
+  {
+    "node_id": "n::acute lymphoblastic leukemia",
+    "name": "Acute lymphoblastic leukemia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0461"
+    ]
+  },
+  {
+    "node_id": "n::b-cell",
+    "name": "B-cell",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0525"
+    ]
+  },
+  {
+    "node_id": "n::t-cell",
+    "name": "T-cell",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0525"
+    ]
+  },
+  {
+    "node_id": "n::grade 3a fl",
+    "name": "Grade 3A FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201",
+      "c0202"
+    ]
+  },
+  {
+    "node_id": "n::grade 3b fl",
+    "name": "Grade 3B FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201",
+      "c0202"
+    ]
+  },
+  {
+    "node_id": "n::grade 1 fl",
+    "name": "Grade 1 FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::grade 2 fl",
+    "name": "Grade 2 FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::centrocytes",
+    "name": "centrocytes",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201",
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::centroblasts",
+    "name": "centroblasts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201",
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::classic fl or as diffuse large b-cell lymphoma (dlbcl)",
+    "name": "classic FL or as diffuse large B-cell lymphoma (DLBCL)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::the proportion of centrocytes and centroblasts",
+    "name": "the proportion of centrocytes and centroblasts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::the type of cells in fl",
+    "name": "The type of cells in FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::which guides treatment decisions",
+    "name": "which guides treatment decisions",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201"
+    ]
+  },
+  {
+    "node_id": "n::centrocytes and centroblasts",
+    "name": "centrocytes and centroblasts",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0201",
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::oxaliplatin",
+    "name": "oxaliplatin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::irinotecan",
+    "name": "irinotecan",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::locally advanced rectal cancer",
+    "name": "locally advanced rectal cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0503",
+      "c0497"
+    ]
+  },
+  {
+    "node_id": "n::grade group",
+    "name": "Grade Group",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0692"
+    ]
+  },
+  {
+    "node_id": "n::gleason score",
+    "name": "Gleason score",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0692"
+    ]
+  },
+  {
+    "node_id": "n::cancer aggressiveness",
+    "name": "cancer aggressiveness",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0692"
+    ]
+  },
+  {
+    "node_id": "n::bcr::abl1 gene",
+    "name": "BCR::ABL1 gene",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::chromosome 9",
+    "name": "chromosome 9",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::chromosome 22",
+    "name": "chromosome 22",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::philadelphia chromosome",
+    "name": "Philadelphia chromosome",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132"
+    ]
+  },
+  {
+    "node_id": "n::cml",
+    "name": "CML",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::translocation",
+    "name": "translocation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132"
+    ]
+  },
+  {
+    "node_id": "n::translocation between chromosome 9 and chromosome 22",
+    "name": "translocation between chromosome 9 and chromosome 22",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::bcr::abl1 fusion gene",
+    "name": "BCR::ABL1 fusion gene",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0132",
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::philadelphia chromosome (ph)",
+    "name": "Philadelphia chromosome (Ph)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0126"
+    ]
+  },
+  {
+    "node_id": "n::alk fusion",
+    "name": "ALK fusion",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::ntrk fusion",
+    "name": "NTRK fusion",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::braf mutation",
+    "name": "BRAF mutation",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::ret fusion",
+    "name": "RET fusion",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::tmb-h",
+    "name": "TMB-H",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1213",
+      "c0355"
+    ]
+  },
+  {
+    "node_id": "n::her2",
+    "name": "HER2",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0888",
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::cerebrospinal fluid (csf)",
+    "name": "Cerebrospinal fluid (CSF)",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0922"
+    ]
+  },
+  {
+    "node_id": "n::central nervous system",
+    "name": "central nervous system",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0918"
+    ]
+  },
+  {
+    "node_id": "n::type of cells",
+    "name": "type of cells",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::grade 1 and 2 fl",
+    "name": "grade 1 and 2 FL",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::grade 3b",
+    "name": "grade 3B",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0868"
+    ]
+  },
+  {
+    "node_id": "n::histology",
+    "name": "histology",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::presence of metastasis",
+    "name": "presence of metastasis",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::treatment factor",
+    "name": "Treatment Factor",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0518",
+      "c0650"
+    ]
+  },
+  {
+    "node_id": "n::asia",
+    "name": "Asia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1011"
+    ]
+  },
+  {
+    "node_id": "n::native america",
+    "name": "Native America",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1011"
+    ]
+  },
+  {
+    "node_id": "n::north africa",
+    "name": "North Africa",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1011"
+    ]
+  },
+  {
+    "node_id": "n::people from parts of asia",
+    "name": "people from parts of Asia",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1011"
+    ]
+  },
+  {
+    "node_id": "n::neurological exam",
+    "name": "neurological exam",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::eye exam",
+    "name": "eye exam",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0902"
+    ]
+  },
+  {
+    "node_id": "n::spinal cord",
+    "name": "spinal cord",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0894",
+      "c0895"
+    ]
+  },
+  {
+    "node_id": "n::adrenal tumors",
+    "name": "Adrenal tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::benign adrenal tumors",
+    "name": "Benign adrenal tumors",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::adrenal gland",
+    "name": "Adrenal gland",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::benign or malignant",
+    "name": "benign or malignant",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::metastasize",
+    "name": "metastasize",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::most common type of adrenal gland tumor",
+    "name": "most common type of adrenal gland tumor",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0018",
+      "c0015"
+    ]
+  },
+  {
+    "node_id": "n::msi",
+    "name": "MSI",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::tmb",
+    "name": "TMB",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::mmr",
+    "name": "MMR",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::ret",
+    "name": "RET",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::ntrk",
+    "name": "NTRK",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::recurrent or metastatic cervical cancer",
+    "name": "recurrent or metastatic cervical cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1144"
+    ]
+  },
+  {
+    "node_id": "n::metastatic stomach cancer",
+    "name": "Metastatic stomach cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1297"
+    ]
+  },
+  {
+    "node_id": "n::peritoneum",
+    "name": "peritoneum",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c1297"
+    ]
+  },
+  {
+    "node_id": "n::inflammatory breast cancer",
+    "name": "Inflammatory breast cancer",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::ibc",
+    "name": "IBC",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::lymph vessels",
+    "name": "lymph vessels",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::a rare, aggressive subtype",
+    "name": "a rare, aggressive subtype",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0796"
+    ]
+  },
+  {
+    "node_id": "n::in the skin",
+    "name": "in the skin",
+    "type": "entity",
+    "aliases": [],
+    "source_docs": [
+      "c0796"
+    ]
+  }
+]

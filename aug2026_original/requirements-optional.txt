@@ -1,0 +1,15 @@
+# Optional live-API, plotting, and learned-retrieval dependencies.
+# Versions marked VERIFIED were installed during the final package audit.
+# UNPINNED means no installed or historical version could be verified; choose
+# a version compatible with Python 3.9 and the provider API at rerun time.
+openai==2.21.0                    # VERIFIED locally; historical version unknown
+google-generativeai==0.8.6       # VERIFIED locally; historical version unknown
+python-dotenv==1.1.1             # VERIFIED locally; historical version unknown
+matplotlib==3.9.4                # VERIFIED locally
+torch==2.6.0                     # VERIFIED locally as build 2.6.0+cu124
+transformers==4.57.6             # VERIFIED locally
+sentence-transformers==5.1.2    # VERIFIED locally
+rank-bm25==0.2.2                 # VERIFIED locally
+anthropic                        # UNPINNED: not installed in verification env
+ollama                           # UNPINNED: not installed in verification env
+FlagEmbedding                    # UNPINNED: not installed in verification env

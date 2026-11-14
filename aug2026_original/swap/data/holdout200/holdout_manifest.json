@@ -1,0 +1,18 @@
+{
+  "source_dev": "paper\\external\\2wiki\\raw\\data_ids\\dev.json",
+  "excluded_from": "paper\\external\\2wiki\\sub200\\qa.jsonl",
+  "n_excluded_qa_ids": 200,
+  "seed": 20260531,
+  "limit": 200,
+  "n_dev": 12576,
+  "n_pool_after_exclude": 12376,
+  "n_subsample": 200,
+  "n_passages": 1229,
+  "n_qa": 200,
+  "qtype_counts": {
+    "inference": 200
+  },
+  "qa_overlap_with_excluded": 0,
+  "n_silver_nodes": 593,
+  "n_silver_edges": 392
+}

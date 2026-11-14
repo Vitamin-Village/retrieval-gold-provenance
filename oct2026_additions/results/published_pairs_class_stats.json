@@ -1,0 +1,306 @@
+{
+ "class1_all": {
+  "n": 11,
+  "median": 23.7,
+  "IQR": [
+   16.05,
+   39.5
+  ],
+  "min": -13.0,
+  "max": 58.6,
+  "mean": 26.07
+ },
+ "class1_sparse": {
+  "n": 11,
+  "median": 23.7,
+  "IQR": [
+   16.05,
+   39.5
+  ],
+  "min": -13.0,
+  "max": 58.6,
+  "mean": 26.07
+ },
+ "class2_all": {
+  "n": 17,
+  "median": 18.9,
+  "IQR": [
+   5.1,
+   23.4
+  ],
+  "min": -11.7,
+  "max": 31.2,
+  "mean": 14.37
+ },
+ "class2_sparse": {
+  "n": 15,
+  "median": 10.7,
+  "IQR": [
+   4.85,
+   23.5
+  ],
+  "min": -11.7,
+  "max": 31.2,
+  "mean": 13.32
+ },
+ "class3_all": {
+  "n": 0
+ },
+ "class3_sparse": {
+  "n": 0
+ },
+ "class4_all": {
+  "n": 2,
+  "median": 2.9,
+  "IQR": null,
+  "min": 1.0,
+  "max": 4.8,
+  "mean": 2.9
+ },
+ "class4_sparse": {
+  "n": 2,
+  "median": 2.9,
+  "IQR": null,
+  "min": 1.0,
+  "max": 4.8,
+  "mean": 2.9
+ },
+ "hiC_class1": {
+  "n": 11,
+  "median": 23.7,
+  "IQR": [
+   16.05,
+   39.5
+  ],
+  "min": -13.0,
+  "max": 58.6,
+  "mean": 26.07
+ },
+ "hiC_class2_all": {
+  "n": 5,
+  "median": 23.4,
+  "IQR": [
+   21.1,
+   25.1
+  ],
+  "min": 18.9,
+  "max": 27.2,
+  "mean": 23.14
+ },
+ "hiC_class2_sparse(2Wiki)": {
+  "n": 3,
+  "median": 25.1,
+  "IQR": null,
+  "min": 18.9,
+  "max": 27.2,
+  "mean": 23.73
+ },
+ "loC_class2": {
+  "n": 12,
+  "median": 7.05,
+  "IQR": [
+   3.92,
+   21.6
+  ],
+  "min": -11.7,
+  "max": 31.2,
+  "mean": 10.72
+ },
+ "loC_class4": {
+  "n": 2,
+  "median": 2.9,
+  "IQR": null,
+  "min": 1.0,
+  "max": 4.8,
+  "mean": 2.9
+ },
+ "benchmarks": [
+  {
+   "benchmark": "TriviaQA",
+   "C_KG": 0.0,
+   "n": 1,
+   "median": 1.0,
+   "classes": [
+    4
+   ],
+   "class_counts": {
+    "4": 1
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "MultiHop-RAG",
+   "C_KG": 0.0,
+   "n": 3,
+   "median": 1.9,
+   "classes": [
+    2
+   ],
+   "class_counts": {
+    "2": 3
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "NaturalQuestions",
+   "C_KG": 0.0,
+   "n": 3,
+   "median": 4.8,
+   "classes": [
+    2,
+    4
+   ],
+   "class_counts": {
+    "2": 2,
+    "4": 1
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "HotpotQA",
+   "C_KG": 0.0,
+   "n": 3,
+   "median": 5.5,
+   "classes": [
+    2
+   ],
+   "class_counts": {
+    "2": 3
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "MuSiQue",
+   "C_KG": 0.0,
+   "n": 4,
+   "median": 19.55,
+   "classes": [
+    2
+   ],
+   "class_counts": {
+    "2": 4
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "STaRK-Amazon",
+   "C_KG": 0.75,
+   "n": 1,
+   "median": 7.3,
+   "classes": [
+    1
+   ],
+   "class_counts": {
+    "1": 1
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "STaRK-MAG",
+   "C_KG": 0.75,
+   "n": 2,
+   "median": 9.65,
+   "classes": [
+    1
+   ],
+   "class_counts": {
+    "1": 2
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "GraphRAG-Bench",
+   "C_KG": 0.75,
+   "n": 2,
+   "median": 22.25,
+   "classes": [
+    2
+   ],
+   "class_counts": {
+    "2": 2
+   },
+   "dense": true
+  },
+  {
+   "benchmark": "STaRK-Prime",
+   "C_KG": 0.75,
+   "n": 1,
+   "median": 23.7,
+   "classes": [
+    1
+   ],
+   "class_counts": {
+    "1": 1
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "2WikiMultiHopQA",
+   "C_KG": 1.0,
+   "n": 3,
+   "median": 25.1,
+   "classes": [
+    2
+   ],
+   "class_counts": {
+    "2": 3
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "MetaQA",
+   "C_KG": 1.0,
+   "n": 4,
+   "median": 28.2,
+   "classes": [
+    1
+   ],
+   "class_counts": {
+    "1": 4
+   },
+   "dense": false
+  },
+  {
+   "benchmark": "WebQSP",
+   "C_KG": 1.0,
+   "n": 3,
+   "median": 41.5,
+   "classes": [
+    1
+   ],
+   "class_counts": {
+    "1": 3
+   },
+   "dense": false
+  }
+ ],
+ "bench_medians_modalclass1": {
+  "n": 5,
+  "values": [
+   7.3,
+   9.65,
+   23.7,
+   28.2,
+   41.5
+  ],
+  "median_of_medians": 23.7
+ },
+ "bench_medians_modalclass2": {
+  "n": 5,
+  "values": [
+   1.9,
+   4.8,
+   5.5,
+   19.55,
+   25.1
+  ],
+  "median_of_medians": 5.5
+ },
+ "bench_medians_modalclass4": {
+  "n": 1,
+  "values": [
+   1.0
+  ],
+  "median_of_medians": 1.0
+ }
+}

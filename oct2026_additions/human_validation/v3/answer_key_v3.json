@@ -1,0 +1,1206 @@
+{
+ "_comment": "Answer key; used only by the scorer.",
+ "partA_census": {
+  "MUSIQUE_PASSAGE": 0,
+  "MUSIQUE_ANSWER": 0,
+  "HOTPOT_SENTENCE": 0,
+  "HOTPOT_ANSWER": 0,
+  "MHRAG_EVIDENCE": 0,
+  "MHRAG_ANSWER": 0,
+  "OURSLOW_PASSAGE": 0,
+  "OURSLOW_ANSWER": 0,
+  "NQ_ANSWER": 0,
+  "NQ_PASSAGE": 1,
+  "GRADE_PASSAGE": 1,
+  "GRADE_EDGE": 3,
+  "STARK_TEXTUAL": 1,
+  "STARK_ANSWERENTITY": 3,
+  "TRIVIA_ANSWER": 0,
+  "TRIVIA_EVIDENCE": 3,
+  "GRB_SUBGRAPH": 3,
+  "GRB_ANSWER": 3,
+  "TWOWIKI_SENTENCE": 3,
+  "TWOWIKI_ANSWER": 3,
+  "TWOWIKI_EDGE": 4,
+  "METAQA_ANSWER": 4,
+  "METAQA_PATH": 4,
+  "WEBQSP_ANSWERENTITY": 4,
+  "WEBQSP_PATH": 4,
+  "OURSUP_ANSWER": 3,
+  "OURSUP_ENTITY": 4,
+  "OURSUP_EDGE": 4,
+  "OURSUP_PATH": 4
+ },
+ "anchors": {
+  "CHECK_TEXT": 0,
+  "CHECK_KG": 4
+ },
+ "quiz": {
+  "Q1": {
+   "source": "K",
+   "base": 4,
+   "corr": "none",
+   "final": 4
+  },
+  "Q2": {
+   "source": "K",
+   "base": 3,
+   "corr": "none",
+   "final": 3
+  },
+  "Q3": {
+   "source": "A",
+   "base": 3,
+   "corr": "none",
+   "final": 3
+  },
+  "Q4": {
+   "source": "K",
+   "base": 4,
+   "corr": "B3-1",
+   "final": 3
+  },
+  "Q5": {
+   "source": "T",
+   "base": 0,
+   "corr": "none",
+   "final": 0
+  },
+  "Q6": {
+   "source": "T",
+   "base": 1,
+   "corr": "none",
+   "final": 1
+  }
+ },
+ "partB_idmap": {
+  "B1-001": {
+   "v2_item_id": "B1_2WIKI_45899096",
+   "question": "Who was born earlier, Marco Guida or Alfred Bonaventura Von Rauch?"
+  },
+  "B1-002": {
+   "v2_item_id": "B1_2WIKI_6fd8bb2f",
+   "question": "Who was born first out of Amol Redij and Philip Yorke, 3Rd Earl Of Hardwicke?"
+  },
+  "B1-003": {
+   "v2_item_id": "B1_2WIKI_57bfca9a",
+   "question": "Which film has more directors, The Sailor'S Song or 88:88?"
+  },
+  "B1-004": {
+   "v2_item_id": "B1_2WIKI_c467dc5e",
+   "question": "Who was born first out of Felix Cicaterri and Rajiv Gandhi?"
+  },
+  "B1-005": {
+   "v2_item_id": "B1_2WIKI_d3867189",
+   "question": "Are both businesses, Quarry (Company) and Fields (Department Store), located in the same country?"
+  },
+  "B1-006": {
+   "v2_item_id": "B1_2WIKI_10054933",
+   "question": "Which film was released first, Briton And Boer or Flaming Frontiers?"
+  },
+  "B1-007": {
+   "v2_item_id": "B1_2WIKI_3d699105",
+   "question": "Who was born later, Rüdiger Kruse or Jérôme Palatsi?"
+  },
+  "B1-008": {
+   "v2_item_id": "B1_2WIKI_5410b503",
+   "question": "Who was born later, Azad Al-Barazi or Joel Anderson?"
+  },
+  "B1-009": {
+   "v2_item_id": "B1_2WIKI_e0906daa",
+   "question": "Which film was released earlier, Son Contento or Tadbir?"
+  },
+  "B1-010": {
+   "v2_item_id": "B1_2WIKI_bc5a9fef",
+   "question": "Who died later, Giovanni Dei Conti Di Segni or Sakari Simelius?"
+  },
+  "B1-011": {
+   "v2_item_id": "B1_2WIKI_eb3ff190",
+   "question": "Who is Thomas Lloyd-Mostyn's paternal grandfather?"
+  },
+  "B1-012": {
+   "v2_item_id": "B1_2WIKI_fccfc480",
+   "question": "Who is the paternal grandfather of Matthew Spender?"
+  },
+  "B1-013": {
+   "v2_item_id": "B1_2WIKI_2002bf0c",
+   "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?"
+  },
+  "B1-014": {
+   "v2_item_id": "B1_2WIKI_77cecc80",
+   "question": "Who is the paternal grandmother of Charles Stuart, 1St Earl Of Lennox?"
+  },
+  "B1-015": {
+   "v2_item_id": "B1_2WIKI_27efedf2",
+   "question": "Who is Walter Butler, 11Th Earl Of Ormond's paternal grandfather?"
+  },
+  "B1-016": {
+   "v2_item_id": "B1_2WIKI_922e4312",
+   "question": "Who is Joachim I, Prince Of Anhalt-Dessau's paternal grandfather?"
+  },
+  "B1-017": {
+   "v2_item_id": "B1_2WIKI_46e2b272",
+   "question": "Who is Sir Mordaunt Martin, 4Th Baronet's paternal grandfather?"
+  },
+  "B1-018": {
+   "v2_item_id": "B1_2WIKI_054fb79c",
+   "question": "Who is Giacomo Feo's father-in-law?"
+  },
+  "B1-019": {
+   "v2_item_id": "B1_2WIKI_bd45d822",
+   "question": "Who is Prince Alexander Ferdinand Of Prussia's paternal grandmother?"
+  },
+  "B1-020": {
+   "v2_item_id": "B1_2WIKI_494c0f0e",
+   "question": "Who is the paternal grandmother of Publius Licinius Egnatius Marinianus?"
+  },
+  "B1-021": {
+   "v2_item_id": "B1_2WIKI_65615614",
+   "question": "Which country Luitgard (Frankish Queen)'s husband is from?"
+  },
+  "B1-022": {
+   "v2_item_id": "B1_2WIKI_c05e16a4",
+   "question": "Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?"
+  },
+  "B1-023": {
+   "v2_item_id": "B1_2WIKI_4b7eed90",
+   "question": "Where did the director of film Wolves Of The North die?"
+  },
+  "B1-024": {
+   "v2_item_id": "B1_2WIKI_a8bff83c",
+   "question": "Which country Heinz Heydrich's father is from?"
+  },
+  "B1-025": {
+   "v2_item_id": "B1_2WIKI_97f5e236",
+   "question": "What nationality is the director of film That Summer Of White Roses?"
+  },
+  "B1-026": {
+   "v2_item_id": "B1_2WIKI_d0d400bc",
+   "question": "When is the director of film The Last Dragon 's birthday?"
+  },
+  "B1-027": {
+   "v2_item_id": "B1_2WIKI_a2148cba",
+   "question": "Where was the place of burial of the director of film Maiden'S Cheek?"
+  },
+  "B1-028": {
+   "v2_item_id": "B1_2WIKI_52e7463a",
+   "question": "Where was the place of death of the director of film Partners Of The Trail (1931 Film)?"
+  },
+  "B1-029": {
+   "v2_item_id": "B1_2WIKI_c691d2a4",
+   "question": "Where did the performer of song Crying, Waiting, Hoping die?"
+  },
+  "B1-030": {
+   "v2_item_id": "B1_2WIKI_6b539324",
+   "question": "Which award the composer of film Pataakha won?"
+  },
+  "B1-031": {
+   "v2_item_id": "B1_2WIKI_7253afc8",
+   "question": "Which film has the director who was born later, The Eternal Tone or He Who Rides A Tiger?"
+  },
+  "B1-032": {
+   "v2_item_id": "B1_2WIKI_7e0974ba",
+   "question": "Which film has the director born later, Partner (1968 Film) or The Devil'S Rejects?"
+  },
+  "B1-033": {
+   "v2_item_id": "B1_2WIKI_c5b68948",
+   "question": "Which film whose director is younger, Widow'S Might or Pappa E Ciccia?"
+  },
+  "B1-034": {
+   "v2_item_id": "B1_2WIKI_bef0f4db",
+   "question": "Which film has the director died first, Hell'S Hole or Ateşten Gömlek?"
+  },
+  "B1-035": {
+   "v2_item_id": "B1_2WIKI_62e816ab",
+   "question": "Which film whose director was born first, Sextette or Kelkkaatha Sabdham?"
+  },
+  "B1-036": {
+   "v2_item_id": "B1_2WIKI_d84ec746",
+   "question": "Which film has the director died later, A Farmyard Drama or Vienna - Berlin?"
+  },
+  "B1-037": {
+   "v2_item_id": "B1_2WIKI_b10a2620",
+   "question": "Which film has the director died earlier, Kalos Ilthe To Dollario or Our Mother'S House?"
+  },
+  "B1-038": {
+   "v2_item_id": "B1_2WIKI_5485e4ac",
+   "question": "Which film has the director who is older than the other, Gas, Oil And Water or Monte Carlo Or Bust!? "
+  },
+  "B1-039": {
+   "v2_item_id": "B1_2WIKI_1adcd9bc",
+   "question": "Do both films Operation Petticoat and War Book have the directors from the same country?"
+  },
+  "B1-040": {
+   "v2_item_id": "B1_2WIKI_de2f91c8",
+   "question": "Which film has the director who was born earlier, We Are The Freaks or Road Hard?"
+  },
+  "B2-001": {
+   "v2_item_id": "B2_GRB_b73b866c",
+   "question": "Who should undergo screening for liver cancer?"
+  },
+  "B2-002": {
+   "v2_item_id": "B2_GRB_2f6c215a",
+   "question": "What is the most common subtype of rectal cancer?"
+  },
+  "B2-003": {
+   "v2_item_id": "B2_GRB_252d49cb",
+   "question": "How does adenocarcinoma of the colon typically arise?"
+  },
+  "B2-004": {
+   "v2_item_id": "B2_GRB_33142c97",
+   "question": "Which syndrome is characterized by increased risk of both melanoma and pancreatic cancer?"
+  },
+  "B2-005": {
+   "v2_item_id": "B2_GRB_640ee9ee",
+   "question": "What surgery removes the cancerous part of the colon?"
+  },
+  "B2-006": {
+   "v2_item_id": "B2_GRB_203a2d6b",
+   "question": "How is regional CSCC with lymph node involvement treated?"
+  },
+  "B2-007": {
+   "v2_item_id": "B2_GRB_fa265328",
+   "question": "What are the two main cell origins for primary cutaneous lymphoma?"
+  },
+  "B2-008": {
+   "v2_item_id": "B2_GRB_185686b9",
+   "question": "What is the most common type of kidney cancer?"
+  },
+  "B2-009": {
+   "v2_item_id": "B2_GRB_b4100b78",
+   "question": "What is the aim of lung cancer screening?"
+  },
+  "B2-010": {
+   "v2_item_id": "B2_GRB_c68b6022",
+   "question": "What is the most common site of origin for anal cancer?"
+  },
+  "B2-011": {
+   "v2_item_id": "B2_GRB_87c96cae",
+   "question": "Does alpha-1-antitrypsin deficiency increase liver cancer risk?"
+  },
+  "B2-012": {
+   "v2_item_id": "B2_GRB_f80cbf85",
+   "question": "What is the most common location affected by primary CNS lymphoma?"
+  },
+  "B2-013": {
+   "v2_item_id": "B2_GRB_babba8f2",
+   "question": "What is the recommended follow-up strategy for patients on active surveillance?"
+  },
+  "B2-014": {
+   "v2_item_id": "B2_GRB_420f3886",
+   "question": "What procedure is used to sample suspicious thyroid nodules?"
+  },
+  "B2-015": {
+   "v2_item_id": "B2_GRB_213847bd",
+   "question": "Why is clinical trial enrollment especially considered for certain B-ALL and T-ALL cases in children?"
+  },
+  "B2-016": {
+   "v2_item_id": "B2_GRB_2a61ebd2",
+   "question": "How does the identification of the PML::RARA fusion gene influence both the classification and treatment of AML?"
+  },
+  "B2-017": {
+   "v2_item_id": "B2_GRB_57f0c93d",
+   "question": "Which combination of therapies may be considered for an AML patient with CD33-positive blasts and why?"
+  },
+  "B2-018": {
+   "v2_item_id": "B2_GRB_a73aa030",
+   "question": "Why is polypectomy during colonoscopy considered a preventive strategy for rectal cancer?"
+  },
+  "B2-019": {
+   "v2_item_id": "B2_GRB_3c536762",
+   "question": "Why is tumor size and extent of spread important in staging bile duct cancer?"
+  },
+  "B2-020": {
+   "v2_item_id": "B2_GRB_669af50b",
+   "question": "How does performance status impact the treatment plan for an AML patient?"
+  },
+  "B2-021": {
+   "v2_item_id": "B2_GRB_fe83d01e",
+   "question": "What two assessments are necessary for comprehensive care due to the effects of mouth cancer and its treatment on dental health and swallowing?"
+  },
+  "B2-022": {
+   "v2_item_id": "B2_GRB_535c413f",
+   "question": "Which diagnostic steps should be taken if a screening ultrasound and AFP test suggest liver cancer in a patient with hepatitis B?"
+  },
+  "B2-023": {
+   "v2_item_id": "B2_GRB_3aa8a2c6",
+   "question": "How does the site of disease involvement influence the presentation of follicular lymphoma symptoms?"
+  },
+  "B2-024": {
+   "v2_item_id": "B2_GRB_2521e4dd",
+   "question": "Why is genetic testing for BRCA mutations recommended for all ovarian cancer patients?"
+  },
+  "B2-025": {
+   "v2_item_id": "B2_GRB_299b8b83",
+   "question": "How do risk factors and performance status together influence mouth cancer management?"
+  },
+  "B2-026": {
+   "v2_item_id": "B2_GRB_781a9787",
+   "question": "What diagnostic tests are used for both initial evaluation and staging of colon cancer, and what unique information does each provide?"
+  },
+  "B2-027": {
+   "v2_item_id": "B2_GRB_024819a8",
+   "question": "What are the most significant risk factors for NSCLC according to current biomedical knowledge?"
+  },
+  "B2-028": {
+   "v2_item_id": "B2_GRB_704ecbec",
+   "question": "Which symptoms are commonly observed in patients with adrenal cancer and what is their origin?"
+  },
+  "B2-029": {
+   "v2_item_id": "B2_GRB_0002d2de",
+   "question": "How are bone cancers staged and what factors are considered in determining the stage?"
+  },
+  "B2-030": {
+   "v2_item_id": "B2_GRB_67b7cadd",
+   "question": "How is chemotherapy utilized in the management of colon cancer across different stages?"
+  },
+  "B2-031": {
+   "v2_item_id": "B2_GRB_83b86188",
+   "question": "What risk factors and inherited conditions are associated with increased colon cancer risk?"
+  },
+  "B2-032": {
+   "v2_item_id": "B2_GRB_14de13d0",
+   "question": "What are the standard initial treatments and surgical procedures for ovarian cancer?"
+  },
+  "B2-033": {
+   "v2_item_id": "B2_GRB_2148aacc",
+   "question": "What diagnostic methods are used to identify and classify gliomas?"
+  },
+  "B2-034": {
+   "v2_item_id": "B2_GRB_226ee2f8",
+   "question": "What populations are most affected by neuroblastoma and what are its diagnostic features?"
+  },
+  "B2-035": {
+   "v2_item_id": "B2_GRB_f8205c0e",
+   "question": "You are a gynecologic oncologist seeing a 54-year-old woman newly diagnosed with Stage IIIC high-grade serous ovarian carcinoma. Write a detailed initial management plan, including diagnostic confirmation, surgical approach, adjuvant therapy, genetic testing, and plans for follow-up."
+  },
+  "B2-036": {
+   "v2_item_id": "B2_GRB_09c35fc8",
+   "question": "You are a medical oncologist preparing a multidisciplinary treatment plan for a patient diagnosed with locoregional esophageal adenocarcinoma at the esophagogastric junction. Detail your diagnostic confirmation steps, staging process, and key considerations for therapy selection, using the guideline."
+  },
+  "B2-037": {
+   "v2_item_id": "B2_GRB_e6da7d3c",
+   "question": "Rewrite the core recommendations for the diagnosis and management of primary CNS lymphoma into a formal referral letter from a general neurologist to a neuro-oncologist, ensuring all key clinical, diagnostic, and management considerations are included."
+  },
+  "B2-038": {
+   "v2_item_id": "B2_GRB_5b2de94d",
+   "question": "You are a public health official drafting an advisory for primary care providers about prevention, early detection, and high-risk populations for cutaneous squamous cell carcinoma (CSCC). Use guideline facts to inform your advisory."
+  },
+  "B2-039": {
+   "v2_item_id": "B2_GRB_caab7a58",
+   "question": "You are a radiation oncologist preparing an initial case summary for a patient with locally advanced, unresectable nasopharyngeal carcinoma (NPC). Summarize the diagnostic findings, relevant biomarkers, staging, and multidisciplinary considerations for the tumor board."
+  },
+  "B2-040": {
+   "v2_item_id": "B2_GRB_bcc6b060",
+   "question": "Imagine you are a medical intern presenting a multidisciplinary case summary for a patient diagnosed with anaplastic thyroid cancer. Summarize the diagnostic findings, genetic considerations, staging, and recommended therapeutic approach."
+  },
+  "B3-001": {
+   "v2_item_id": "B3_HOTPOT_5ac3a0b2",
+   "question": "Which of Mabel Keyes Babcock's distant relatives wrote \"Of Plymouth Plantation\" and served as Governor of the Plymouth Colony? "
+  },
+  "B3-002": {
+   "v2_item_id": "B3_HOTPOT_5ac01e77",
+   "question": "By what type of music was this English composer who collaborated with Ella Mary Leather on \"Twelve Traditional Carols from Herefordshire\" influenced strongly?"
+  },
+  "B3-003": {
+   "v2_item_id": "B3_HOTPOT_5ab92307",
+   "question": "What Pakistani actor and writer from Islamabad helped write for the 2012 Pakistani comedy drama sitcom, \"Coke Kahani\"?"
+  },
+  "B3-004": {
+   "v2_item_id": "B3_HOTPOT_5a8319b2",
+   "question": "Who composed the theme music in 1989 of an animated television series which has the current arrangement by a person who  has scored or orchestrated music for more than 30 films and television shows?"
+  },
+  "B3-005": {
+   "v2_item_id": "B3_HOTPOT_5a745815",
+   "question": "What Japanese Auto Manufacturer headquarted in Minato, Tokyo, Japan did Nissan aquire controlling interest in?"
+  },
+  "B3-006": {
+   "v2_item_id": "B3_HOTPOT_5adde73f",
+   "question": "What do both Spider-Man and Spider-Man in film have in comman"
+  },
+  "B3-007": {
+   "v2_item_id": "B3_HOTPOT_5a865d11",
+   "question": "What is the original name of the place where The 1st Minnesota Light Artillery Battery mustered?"
+  },
+  "B3-008": {
+   "v2_item_id": "B3_HOTPOT_5a8740ee",
+   "question": "Which KaBoom! Entertainment Inc. film is based on a story by Rudyard Kipling?"
+  },
+  "B3-009": {
+   "v2_item_id": "B3_HOTPOT_5a7c0dab",
+   "question": "Los Angeles Historic-Cultural Monument (No. 139) hosted an event by what organization on Oct 12, 1991?"
+  },
+  "B3-010": {
+   "v2_item_id": "B3_HOTPOT_5abaee4f",
+   "question": "Were Cinderella and The Emperor's New Groove released by the same picture company?"
+  },
+  "B3-011": {
+   "v2_item_id": "B3_HOTPOT_5adde515",
+   "question": "How old was Virginia Bruce when she starred in Let Freedom Ring?"
+  },
+  "B3-012": {
+   "v2_item_id": "B3_HOTPOT_5a8afb99",
+   "question": "The eighth-longest rollercoaster in the world is located in what theme park?"
+  },
+  "B3-013": {
+   "v2_item_id": "B3_HOTPOT_5abbf640",
+   "question": "What county is Keene High School located in?"
+  },
+  "B3-014": {
+   "v2_item_id": "B3_HOTPOT_5a89e95c",
+   "question": "Javier Frana and Thomaz Koch both share what occupation?"
+  },
+  "B3-015": {
+   "v2_item_id": "B3_HOTPOT_5adc8d4f",
+   "question": "Edwyn Collins and Ian Gillan both have which profession in common?"
+  },
+  "B3-016": {
+   "v2_item_id": "B3_HOTPOT_5abe8221",
+   "question": "Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?"
+  },
+  "B3-017": {
+   "v2_item_id": "B3_HOTPOT_5ac289ff",
+   "question": "Is the Marsilea or the Brabejum the genus of more individual species of plants?"
+  },
+  "B3-018": {
+   "v2_item_id": "B3_HOTPOT_5abd6be5",
+   "question": "What is Peter Daou's website's slogan?"
+  },
+  "B3-019": {
+   "v2_item_id": "B3_HOTPOT_5ab64284",
+   "question": "Are Broughtonia and Laeliocattleya both orchids?"
+  },
+  "B3-020": {
+   "v2_item_id": "B3_HOTPOT_5a76f45a",
+   "question": "What band formed in 1995 and came out with an album called \"Welcome Interstate Managers'?"
+  },
+  "B4-001": {
+   "v2_item_id": "B4_MUSIQUE_4hop2__71753_6",
+   "question": "When was the region immediately north of the region where Israel is located and the location of the Battle of Qurah and Umm al Maradim created?"
+  },
+  "B4-002": {
+   "v2_item_id": "B4_MUSIQUE_3hop1__465684_",
+   "question": "Where did they film The Beach in the country where Bodindecha died?"
+  },
+  "B4-003": {
+   "v2_item_id": "B4_MUSIQUE_2hop__21075_50",
+   "question": "What was the average per capita GVA in 2013 of the country which created Burma's academic system?"
+  },
+  "B4-004": {
+   "v2_item_id": "B4_MUSIQUE_2hop__21103_16",
+   "question": "By 1931, what percentage of the world's Jews were the group of Jews that represented the bulk of modern Jewry?"
+  },
+  "B4-005": {
+   "v2_item_id": "B4_MUSIQUE_4hop1__813171_",
+   "question": "Who won the indy car race in the largest populated city in the state that the performer of Changes Two is from?"
+  },
+  "B4-006": {
+   "v2_item_id": "B4_MUSIQUE_3hop2__79978_9",
+   "question": "What was the language from which the last name Sylvester originates during the era of the person crowned new Roman emperor in 800 A.D. later known as?"
+  },
+  "B4-007": {
+   "v2_item_id": "B4_MUSIQUE_2hop__77233_33",
+   "question": "How did did the people fare during the reign of the abolisher of sati partha in India?"
+  },
+  "B4-008": {
+   "v2_item_id": "B4_MUSIQUE_4hop1__344155_",
+   "question": "What is the capital of the county that shares a border with the county where KRSU is licensed to broadcast?"
+  },
+  "B4-009": {
+   "v2_item_id": "B4_MUSIQUE_3hop1__280834_",
+   "question": "How many times did plague occur in the place where Bajazet's composer was born?"
+  },
+  "B4-010": {
+   "v2_item_id": "B4_MUSIQUE_4hop3__507819_",
+   "question": "How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country where Route 3 is found?"
+  },
+  "B4-011": {
+   "v2_item_id": "B4_MUSIQUE_3hop2__88342_9",
+   "question": "When was the last time the team that won the American League East in 2017 and the Dodgers met in the championship event that precedes the MLB MVP award?"
+  },
+  "B4-012": {
+   "v2_item_id": "B4_MUSIQUE_4hop1__131113_",
+   "question": "Which county shares a border with the county where the most populous city in the state where Washington State Prison can be found is located?"
+  },
+  "B4-013": {
+   "v2_item_id": "B4_MUSIQUE_4hop3__175072_",
+   "question": "How were the same people who the Somali Muslim Ajuran Empire declared independence from expelled from the natural boundary between Thailand and the country Setthathirath is a citizen of?"
+  },
+  "B4-014": {
+   "v2_item_id": "B4_MUSIQUE_2hop__861157_1",
+   "question": "What is the competition the 1972 Federation Cup is part of named after?"
+  },
+  "B4-015": {
+   "v2_item_id": "B4_MUSIQUE_3hop1__857_846",
+   "question": "What other types of theater performance are seen in the city where the Yongle emperor greeted the person to whom the edict was addressed?"
+  },
+  "B4-016": {
+   "v2_item_id": "B4_MUSIQUE_4hop1__752321_",
+   "question": "Who won the Indy car race in the largest populated city in the state where the Pithecanthropus Erectus performer is from?"
+  },
+  "B4-017": {
+   "v2_item_id": "B4_MUSIQUE_2hop__76314_17",
+   "question": "Who was the spouse of a leading speaker against slavery and publisher of an antislavery newspaper?"
+  },
+  "B4-018": {
+   "v2_item_id": "B4_MUSIQUE_2hop__474885_2",
+   "question": "How many students attend the school that granted Francis Travis a Ph.D.?"
+  },
+  "B4-019": {
+   "v2_item_id": "B4_MUSIQUE_2hop__10515_21",
+   "question": "Who introduced a system of musical notation in the 14th century that is used in the area where most of the invasion of the eastern Roman Empire took place?"
+  },
+  "B4-020": {
+   "v2_item_id": "B4_MUSIQUE_3hop1__857_846",
+   "question": "How many miles of highways are in the city where the Yongle emperor greeted the person to whom the edict was addressed?"
+  },
+  "B5-001": {
+   "v2_item_id": "B5_METAQA_0d067aff5a1c",
+   "question": "who wrote films together with [Clare Peploe]"
+  },
+  "B5-002": {
+   "v2_item_id": "B5_METAQA_812354964880",
+   "question": "what genres are the movies written by [Ray Harryhausen] in"
+  },
+  "B5-003": {
+   "v2_item_id": "B5_METAQA_21ebdc094b59",
+   "question": "what were the release years the films written by [Pinchas Perry]"
+  },
+  "B5-004": {
+   "v2_item_id": "B5_METAQA_fd3cd61a04d4",
+   "question": "the films directed by [Jon Erwin] were in which genres"
+  },
+  "B5-005": {
+   "v2_item_id": "B5_METAQA_b8f2d42dfbc2",
+   "question": "who starred together with [Howard Da Silva]"
+  },
+  "B5-006": {
+   "v2_item_id": "B5_METAQA_ab75e4bc2efb",
+   "question": "the screenwriter [Jørgen Leth] wrote films together with who"
+  },
+  "B5-007": {
+   "v2_item_id": "B5_METAQA_22aeb0810063",
+   "question": "the films written by [Sandra Goldbacher] were released in which years"
+  },
+  "B5-008": {
+   "v2_item_id": "B5_METAQA_a11385523de8",
+   "question": "who are the writers of the movies acted by [Jon Bernthal]"
+  },
+  "B5-009": {
+   "v2_item_id": "B5_METAQA_012ac1448d6a",
+   "question": "what were the release dates of [Scoot McNairy] starred movies"
+  },
+  "B5-010": {
+   "v2_item_id": "B5_METAQA_74aa37d0f0cc",
+   "question": "what are the main languages in [Jens Lien] directed films"
+  }
+ },
+ "partB_v2_keys": {
+  "B1_2WIKI_45899096": {
+   "item_id": "B1_2WIKI_45899096",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_6fd8bb2f": {
+   "item_id": "B1_2WIKI_6fd8bb2f",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_57bfca9a": {
+   "item_id": "B1_2WIKI_57bfca9a",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_c467dc5e": {
+   "item_id": "B1_2WIKI_c467dc5e",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_d3867189": {
+   "item_id": "B1_2WIKI_d3867189",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_10054933": {
+   "item_id": "B1_2WIKI_10054933",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_3d699105": {
+   "item_id": "B1_2WIKI_3d699105",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_5410b503": {
+   "item_id": "B1_2WIKI_5410b503",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_e0906daa": {
+   "item_id": "B1_2WIKI_e0906daa",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_bc5a9fef": {
+   "item_id": "B1_2WIKI_bc5a9fef",
+   "lexical_realization": 0,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_eb3ff190": {
+   "item_id": "B1_2WIKI_eb3ff190",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_fccfc480": {
+   "item_id": "B1_2WIKI_fccfc480",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_2002bf0c": {
+   "item_id": "B1_2WIKI_2002bf0c",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_77cecc80": {
+   "item_id": "B1_2WIKI_77cecc80",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_27efedf2": {
+   "item_id": "B1_2WIKI_27efedf2",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_922e4312": {
+   "item_id": "B1_2WIKI_922e4312",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_46e2b272": {
+   "item_id": "B1_2WIKI_46e2b272",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_054fb79c": {
+   "item_id": "B1_2WIKI_054fb79c",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_bd45d822": {
+   "item_id": "B1_2WIKI_bd45d822",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_494c0f0e": {
+   "item_id": "B1_2WIKI_494c0f0e",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_65615614": {
+   "item_id": "B1_2WIKI_65615614",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_c05e16a4": {
+   "item_id": "B1_2WIKI_c05e16a4",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_4b7eed90": {
+   "item_id": "B1_2WIKI_4b7eed90",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_a8bff83c": {
+   "item_id": "B1_2WIKI_a8bff83c",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_97f5e236": {
+   "item_id": "B1_2WIKI_97f5e236",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_d0d400bc": {
+   "item_id": "B1_2WIKI_d0d400bc",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_a2148cba": {
+   "item_id": "B1_2WIKI_a2148cba",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_52e7463a": {
+   "item_id": "B1_2WIKI_52e7463a",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_c691d2a4": {
+   "item_id": "B1_2WIKI_c691d2a4",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_6b539324": {
+   "item_id": "B1_2WIKI_6b539324",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_7253afc8": {
+   "item_id": "B1_2WIKI_7253afc8",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_7e0974ba": {
+   "item_id": "B1_2WIKI_7e0974ba",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_c5b68948": {
+   "item_id": "B1_2WIKI_c5b68948",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_bef0f4db": {
+   "item_id": "B1_2WIKI_bef0f4db",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_62e816ab": {
+   "item_id": "B1_2WIKI_62e816ab",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_d84ec746": {
+   "item_id": "B1_2WIKI_d84ec746",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_b10a2620": {
+   "item_id": "B1_2WIKI_b10a2620",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_5485e4ac": {
+   "item_id": "B1_2WIKI_5485e4ac",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_1adcd9bc": {
+   "item_id": "B1_2WIKI_1adcd9bc",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B1_2WIKI_de2f91c8": {
+   "item_id": "B1_2WIKI_de2f91c8",
+   "lexical_realization": 1,
+   "title_matches_subject": 1
+  },
+  "B2_GRB_b73b866c": {
+   "item_id": "B2_GRB_b73b866c",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_2f6c215a": {
+   "item_id": "B2_GRB_2f6c215a",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_252d49cb": {
+   "item_id": "B2_GRB_252d49cb",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_33142c97": {
+   "item_id": "B2_GRB_33142c97",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_640ee9ee": {
+   "item_id": "B2_GRB_640ee9ee",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_203a2d6b": {
+   "item_id": "B2_GRB_203a2d6b",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_fa265328": {
+   "item_id": "B2_GRB_fa265328",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_185686b9": {
+   "item_id": "B2_GRB_185686b9",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_b4100b78": {
+   "item_id": "B2_GRB_b4100b78",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_c68b6022": {
+   "item_id": "B2_GRB_c68b6022",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_87c96cae": {
+   "item_id": "B2_GRB_87c96cae",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_f80cbf85": {
+   "item_id": "B2_GRB_f80cbf85",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_babba8f2": {
+   "item_id": "B2_GRB_babba8f2",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_420f3886": {
+   "item_id": "B2_GRB_420f3886",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_213847bd": {
+   "item_id": "B2_GRB_213847bd",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_2a61ebd2": {
+   "item_id": "B2_GRB_2a61ebd2",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_57f0c93d": {
+   "item_id": "B2_GRB_57f0c93d",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_a73aa030": {
+   "item_id": "B2_GRB_a73aa030",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_3c536762": {
+   "item_id": "B2_GRB_3c536762",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_669af50b": {
+   "item_id": "B2_GRB_669af50b",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_fe83d01e": {
+   "item_id": "B2_GRB_fe83d01e",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_535c413f": {
+   "item_id": "B2_GRB_535c413f",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_3aa8a2c6": {
+   "item_id": "B2_GRB_3aa8a2c6",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_2521e4dd": {
+   "item_id": "B2_GRB_2521e4dd",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_299b8b83": {
+   "item_id": "B2_GRB_299b8b83",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_781a9787": {
+   "item_id": "B2_GRB_781a9787",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_024819a8": {
+   "item_id": "B2_GRB_024819a8",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_704ecbec": {
+   "item_id": "B2_GRB_704ecbec",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_0002d2de": {
+   "item_id": "B2_GRB_0002d2de",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_67b7cadd": {
+   "item_id": "B2_GRB_67b7cadd",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_83b86188": {
+   "item_id": "B2_GRB_83b86188",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_14de13d0": {
+   "item_id": "B2_GRB_14de13d0",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 1
+  },
+  "B2_GRB_2148aacc": {
+   "item_id": "B2_GRB_2148aacc",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_226ee2f8": {
+   "item_id": "B2_GRB_226ee2f8",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_f8205c0e": {
+   "item_id": "B2_GRB_f8205c0e",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_09c35fc8": {
+   "item_id": "B2_GRB_09c35fc8",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_e6da7d3c": {
+   "item_id": "B2_GRB_e6da7d3c",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_5b2de94d": {
+   "item_id": "B2_GRB_5b2de94d",
+   "majority_token_rule": 1,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_caab7a58": {
+   "item_id": "B2_GRB_caab7a58",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B2_GRB_bcc6b060": {
+   "item_id": "B2_GRB_bcc6b060",
+   "majority_token_rule": 0,
+   "near_verbatim_rule": 0
+  },
+  "B3_HOTPOT_5ac3a0b2": {
+   "item_id": "B3_HOTPOT_5ac3a0b2",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5ac01e77": {
+   "item_id": "B3_HOTPOT_5ac01e77",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5ab92307": {
+   "item_id": "B3_HOTPOT_5ab92307",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5a8319b2": {
+   "item_id": "B3_HOTPOT_5a8319b2",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5a745815": {
+   "item_id": "B3_HOTPOT_5a745815",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5adde73f": {
+   "item_id": "B3_HOTPOT_5adde73f",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5a865d11": {
+   "item_id": "B3_HOTPOT_5a865d11",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5a8740ee": {
+   "item_id": "B3_HOTPOT_5a8740ee",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5a7c0dab": {
+   "item_id": "B3_HOTPOT_5a7c0dab",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5abaee4f": {
+   "item_id": "B3_HOTPOT_5abaee4f",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5adde515": {
+   "item_id": "B3_HOTPOT_5adde515",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5a8afb99": {
+   "item_id": "B3_HOTPOT_5a8afb99",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5abbf640": {
+   "item_id": "B3_HOTPOT_5abbf640",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5a89e95c": {
+   "item_id": "B3_HOTPOT_5a89e95c",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5adc8d4f": {
+   "item_id": "B3_HOTPOT_5adc8d4f",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5abe8221": {
+   "item_id": "B3_HOTPOT_5abe8221",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5ac289ff": {
+   "item_id": "B3_HOTPOT_5ac289ff",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5abd6be5": {
+   "item_id": "B3_HOTPOT_5abd6be5",
+   "answer_in_unit": 1
+  },
+  "B3_HOTPOT_5ab64284": {
+   "item_id": "B3_HOTPOT_5ab64284",
+   "answer_in_unit": 0
+  },
+  "B3_HOTPOT_5a76f45a": {
+   "item_id": "B3_HOTPOT_5a76f45a",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_4hop2__71753_6": {
+   "item_id": "B4_MUSIQUE_4hop2__71753_6",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_3hop1__465684_": {
+   "item_id": "B4_MUSIQUE_3hop1__465684_",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_2hop__21075_50": {
+   "item_id": "B4_MUSIQUE_2hop__21075_50",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_2hop__21103_16": {
+   "item_id": "B4_MUSIQUE_2hop__21103_16",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop1__813171_": {
+   "item_id": "B4_MUSIQUE_4hop1__813171_",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_3hop2__79978_9": {
+   "item_id": "B4_MUSIQUE_3hop2__79978_9",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_2hop__77233_33": {
+   "item_id": "B4_MUSIQUE_2hop__77233_33",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop1__344155_": {
+   "item_id": "B4_MUSIQUE_4hop1__344155_",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_3hop1__280834_": {
+   "item_id": "B4_MUSIQUE_3hop1__280834_",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop3__507819_": {
+   "item_id": "B4_MUSIQUE_4hop3__507819_",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_3hop2__88342_9": {
+   "item_id": "B4_MUSIQUE_3hop2__88342_9",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop1__131113_": {
+   "item_id": "B4_MUSIQUE_4hop1__131113_",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop3__175072_": {
+   "item_id": "B4_MUSIQUE_4hop3__175072_",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_2hop__861157_1": {
+   "item_id": "B4_MUSIQUE_2hop__861157_1",
+   "answer_in_unit": 1
+  },
+  "B4_MUSIQUE_3hop1__857_846": {
+   "item_id": "B4_MUSIQUE_3hop1__857_846",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_4hop1__752321_": {
+   "item_id": "B4_MUSIQUE_4hop1__752321_",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_2hop__76314_17": {
+   "item_id": "B4_MUSIQUE_2hop__76314_17",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_2hop__474885_2": {
+   "item_id": "B4_MUSIQUE_2hop__474885_2",
+   "answer_in_unit": 0
+  },
+  "B4_MUSIQUE_2hop__10515_21": {
+   "item_id": "B4_MUSIQUE_2hop__10515_21",
+   "answer_in_unit": 1
+  },
+  "B5_METAQA_0d067aff5a1c": {
+   "item_id": "B5_METAQA_0d067aff5a1c",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_812354964880": {
+   "item_id": "B5_METAQA_812354964880",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_21ebdc094b59": {
+   "item_id": "B5_METAQA_21ebdc094b59",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_fd3cd61a04d4": {
+   "item_id": "B5_METAQA_fd3cd61a04d4",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_b8f2d42dfbc2": {
+   "item_id": "B5_METAQA_b8f2d42dfbc2",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_ab75e4bc2efb": {
+   "item_id": "B5_METAQA_ab75e4bc2efb",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_22aeb0810063": {
+   "item_id": "B5_METAQA_22aeb0810063",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_a11385523de8": {
+   "item_id": "B5_METAQA_a11385523de8",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_012ac1448d6a": {
+   "item_id": "B5_METAQA_012ac1448d6a",
+   "expected_q1": 2,
+   "expected_q2": 0
+  },
+  "B5_METAQA_74aa37d0f0cc": {
+   "item_id": "B5_METAQA_74aa37d0f0cc",
+   "expected_q1": 2,
+   "expected_q2": 0
+  }
+ }
+}

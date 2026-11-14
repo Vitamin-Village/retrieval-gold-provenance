@@ -1,0 +1,30 @@
+[
+  {
+    "name": "STaRK-sub200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 1250,
+      "mean_gold_name_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 7130,
+      "mean_gold_name_coverage": 0.805,
+      "frac_questions_fully_covered": 0.725
+    }
+  },
+  {
+    "name": "STaRK-holdout200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 1250,
+      "mean_gold_name_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 7824,
+      "mean_gold_name_coverage": 0.79,
+      "frac_questions_fully_covered": 0.74
+    }
+  }
+]

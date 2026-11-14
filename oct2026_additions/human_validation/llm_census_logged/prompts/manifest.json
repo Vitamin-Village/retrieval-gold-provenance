@@ -1,0 +1,12 @@
+{
+ "generated_utc": "2026-10-01T13:08:07.824891+00:00",
+ "files": {
+  "system_stage1.txt": "c32b0f2f23cdf7734e7ae615d6ce87162555a81aa5c90da9711deb9cc435e275",
+  "system_stage2.txt": "81b116fecbd9d7154ce92577f41ccb1e1c7d16878ccef6f9fa9f9d2a23dde41b",
+  "quiz_both_conditions.jsonl": "153fb7f4fb1e6c78708e573373a00cc77bd707250b2c6ffe3e695089f6b2c17e",
+  "partA_conditionA.jsonl": "7a10efbac433eaccb08207bc0c6c3b66a71c40267460d57f111340e7c132b836",
+  "partA_conditionB.jsonl": "9976a83d123d5a4acc8947aa3b7c39ff620bc25a12c1723d67f01274f5575079",
+  "partB_conditionA.jsonl": "ea1c088b521e3aa1821c24065a7f630318f0b77d9b3c268d7233f12030deeeaa"
+ },
+ "note": "Item texts are shown with position 0; in each run the position is the row's place in that run's shuffled sheet. The exact user text of every request is stored in raw.jsonl."
+}

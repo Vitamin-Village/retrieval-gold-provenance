@@ -1,0 +1,8 @@
+{
+ "n": 100,
+ "n_unsure": 0,
+ "agreement": 0.86,
+ "kappa": 0.72,
+ "judge_precision_vs_human": 0.98,
+ "judge_recall_vs_human": 0.7903225806451613
+}

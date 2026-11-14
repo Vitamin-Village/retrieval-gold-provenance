@@ -1,0 +1,138 @@
+[
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v5_graphcentric",
+    "condition": "T1_openie_svocab",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.42,
+      "bm25": 0.365,
+      "delta": 0.055
+    },
+    "openie": {
+      "graph": 0.395,
+      "bm25": 0.365,
+      "delta": 0.03
+    },
+    "silver": {
+      "graph": 0.75,
+      "bm25": 0.365,
+      "delta": 0.385
+    },
+    "delta_graph_vs_openie": 0.025,
+    "delta_graph_vs_silver": -0.33,
+    "swap_gap_closed_fraction": 0.0704,
+    "mean_paired_diff": 0.025,
+    "ci95": [
+      -0.015,
+      0.065
+    ],
+    "discordant_pos": 12,
+    "discordant_neg": 7,
+    "sign_test_p": 0.359283447265625,
+    "bm25_max_abs_dev": 0.0
+  },
+  {
+    "name": "2Wiki-sub200",
+    "system": "proposed_v5_graphcentric",
+    "condition": "T1b_openie_svocab_noprov",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.36,
+      "bm25": 0.365,
+      "delta": -0.005
+    },
+    "openie": {
+      "graph": 0.395,
+      "bm25": 0.365,
+      "delta": 0.03
+    },
+    "silver": {
+      "graph": 0.75,
+      "bm25": 0.365,
+      "delta": 0.385
+    },
+    "delta_graph_vs_openie": -0.035,
+    "delta_graph_vs_silver": -0.39,
+    "swap_gap_closed_fraction": -0.0986,
+    "mean_paired_diff": -0.035,
+    "ci95": [
+      -0.075,
+      0.0
+    ],
+    "discordant_pos": 4,
+    "discordant_neg": 11,
+    "sign_test_p": 0.11846923828125,
+    "bm25_max_abs_dev": 0.0
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v5_graphcentric",
+    "condition": "T1_openie_svocab",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.395,
+      "bm25": 0.355,
+      "delta": 0.04
+    },
+    "openie": {
+      "graph": 0.37,
+      "bm25": 0.355,
+      "delta": 0.015
+    },
+    "silver": {
+      "graph": 0.705,
+      "bm25": 0.355,
+      "delta": 0.35
+    },
+    "delta_graph_vs_openie": 0.025,
+    "delta_graph_vs_silver": -0.31,
+    "swap_gap_closed_fraction": 0.0746,
+    "mean_paired_diff": 0.025,
+    "ci95": [
+      -0.015,
+      0.065
+    ],
+    "discordant_pos": 11,
+    "discordant_neg": 6,
+    "sign_test_p": 0.332305908203125,
+    "bm25_max_abs_dev": 0.0
+  },
+  {
+    "name": "2Wiki-holdout200",
+    "system": "proposed_v5_graphcentric",
+    "condition": "T1b_openie_svocab_noprov",
+    "n": 200,
+    "paired_against": "openie",
+    "transplant": {
+      "graph": 0.325,
+      "bm25": 0.355,
+      "delta": -0.03
+    },
+    "openie": {
+      "graph": 0.37,
+      "bm25": 0.355,
+      "delta": 0.015
+    },
+    "silver": {
+      "graph": 0.705,
+      "bm25": 0.355,
+      "delta": 0.35
+    },
+    "delta_graph_vs_openie": -0.045,
+    "delta_graph_vs_silver": -0.38,
+    "swap_gap_closed_fraction": -0.1343,
+    "mean_paired_diff": -0.045,
+    "ci95": [
+      -0.085,
+      -0.005
+    ],
+    "discordant_pos": 4,
+    "discordant_neg": 13,
+    "sign_test_p": 0.049041748046875,
+    "bm25_max_abs_dev": 0.0
+  }
+]

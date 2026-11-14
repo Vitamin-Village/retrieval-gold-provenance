@@ -1,0 +1,146 @@
+[
+ {
+  "bench": "2wiki",
+  "split": "sub200",
+  "n_passages": 1256,
+  "n_gold": 386,
+  "kg_silver": {
+   "linked": 342,
+   "linked_gold": 342,
+   "gold_frac_of_linked": 1.0,
+   "gold_covered": 0.886
+  },
+  "kg_openie": {
+   "linked": 1251,
+   "linked_gold": 384,
+   "gold_frac_of_linked": 0.307,
+   "gold_covered": 0.995
+  }
+ },
+ {
+  "bench": "2wiki",
+  "split": "holdout200",
+  "n_passages": 1229,
+  "n_gold": 388,
+  "kg_silver": {
+   "linked": 342,
+   "linked_gold": 342,
+   "gold_frac_of_linked": 1.0,
+   "gold_covered": 0.881
+  },
+  "kg_openie": {
+   "linked": 1219,
+   "linked_gold": 382,
+   "gold_frac_of_linked": 0.313,
+   "gold_covered": 0.985
+  }
+ },
+ {
+  "bench": "metaqa",
+  "split": "sub200",
+  "n_passages": 1250,
+  "n_gold": 386,
+  "kg_silver": {
+   "linked": 391,
+   "linked_gold": 386,
+   "gold_frac_of_linked": 0.987,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1246,
+   "linked_gold": 384,
+   "gold_frac_of_linked": 0.308,
+   "gold_covered": 0.995
+  }
+ },
+ {
+  "bench": "metaqa",
+  "split": "holdout200",
+  "n_passages": 1250,
+  "n_gold": 385,
+  "kg_silver": {
+   "linked": 391,
+   "linked_gold": 385,
+   "gold_frac_of_linked": 0.985,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1246,
+   "linked_gold": 384,
+   "gold_frac_of_linked": 0.308,
+   "gold_covered": 0.997
+  }
+ },
+ {
+  "bench": "stark",
+  "split": "sub200",
+  "n_passages": 1250,
+  "n_gold": 251,
+  "kg_silver": {
+   "linked": 1250,
+   "linked_gold": 251,
+   "gold_frac_of_linked": 0.201,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1249,
+   "linked_gold": 251,
+   "gold_frac_of_linked": 0.201,
+   "gold_covered": 1.0
+  }
+ },
+ {
+  "bench": "stark",
+  "split": "holdout200",
+  "n_passages": 1250,
+  "n_gold": 230,
+  "kg_silver": {
+   "linked": 1250,
+   "linked_gold": 230,
+   "gold_frac_of_linked": 0.184,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1249,
+   "linked_gold": 230,
+   "gold_frac_of_linked": 0.184,
+   "gold_covered": 1.0
+  }
+ },
+ {
+  "bench": "graphragbench",
+  "split": "sub200",
+  "n_passages": 1584,
+  "n_gold": 202,
+  "kg_silver": {
+   "linked": 202,
+   "linked_gold": 202,
+   "gold_frac_of_linked": 1.0,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1581,
+   "linked_gold": 202,
+   "gold_frac_of_linked": 0.128,
+   "gold_covered": 1.0
+  }
+ },
+ {
+  "bench": "graphragbench",
+  "split": "holdout200",
+  "n_passages": 1584,
+  "n_gold": 208,
+  "kg_silver": {
+   "linked": 208,
+   "linked_gold": 208,
+   "gold_frac_of_linked": 1.0,
+   "gold_covered": 1.0
+  },
+  "kg_openie": {
+   "linked": 1581,
+   "linked_gold": 207,
+   "gold_frac_of_linked": 0.131,
+   "gold_covered": 0.995
+  }
+ }
+]

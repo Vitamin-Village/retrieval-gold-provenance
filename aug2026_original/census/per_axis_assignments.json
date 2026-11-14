@@ -1,0 +1,238 @@
+{
+  "description": "Per-axis provenance-circularity census: one row per axis-level judgment. rater_A_bin and rater_B_bin are the two primary blind raters' ordinal bins (0-4); census_bin is the adjudicated per-axis C-hat value of the paper's full per-axis census table on the {0, 0.25, 0.5, 0.75, 1.0} scale; mechanism marks whether the axis gold derives from the evaluation KG, from the answer surface, or is independent of both. Label aliases vs reliability_kappa_ci.py ROWS: 'GRADE'+'edge' = GRADE/answer-edge, 'Ours, upper' = qa_v4, 'Ours, lower' = qa_indep; rows are otherwise positionally and numerically identical.",
+  "n_judgments": 29,
+  "rows": [
+    {
+      "benchmark": "MuSiQue",
+      "axis": "passage",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "MuSiQue",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "HotpotQA",
+      "axis": "sentence",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "HotpotQA",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "2WikiMultiHop",
+      "axis": "edge",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "2WikiMultiHop",
+      "axis": "sentence",
+      "rater_A_bin": 3,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "2WikiMultiHop",
+      "axis": "answer",
+      "rater_A_bin": 4,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "GraphRAG-Bench",
+      "axis": "subgraph",
+      "rater_A_bin": 3,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "GraphRAG-Bench",
+      "axis": "answer",
+      "rater_A_bin": 3,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "GRADE",
+      "axis": "edge",
+      "rater_A_bin": 3,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "GRADE",
+      "axis": "passage",
+      "rater_A_bin": 1,
+      "rater_B_bin": 1,
+      "census_bin": 0.25,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "Ours, upper",
+      "axis": "edge",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "Ours, upper",
+      "axis": "entity",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "Ours, upper",
+      "axis": "path",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "Ours, upper",
+      "axis": "answer",
+      "rater_A_bin": 4,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "Ours, lower",
+      "axis": "passage",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "Ours, lower",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "MultiHop-RAG",
+      "axis": "evidence",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "MultiHop-RAG",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "STaRK",
+      "axis": "answer-entity",
+      "rater_A_bin": 3,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "STaRK",
+      "axis": "textual",
+      "rater_A_bin": 1,
+      "rater_B_bin": 1,
+      "census_bin": 0.25,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "MetaQA",
+      "axis": "answer",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "MetaQA",
+      "axis": "path",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "Natural Questions",
+      "axis": "passage",
+      "rater_A_bin": 1,
+      "rater_B_bin": 1,
+      "census_bin": 0.25,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "Natural Questions",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 1,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "TriviaQA",
+      "axis": "evidence",
+      "rater_A_bin": 4,
+      "rater_B_bin": 3,
+      "census_bin": 0.75,
+      "mechanism": "answer-surface"
+    },
+    {
+      "benchmark": "TriviaQA",
+      "axis": "answer",
+      "rater_A_bin": 0,
+      "rater_B_bin": 0,
+      "census_bin": 0.0,
+      "mechanism": "independent"
+    },
+    {
+      "benchmark": "WebQSP",
+      "axis": "answer-entity",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    },
+    {
+      "benchmark": "WebQSP",
+      "axis": "path",
+      "rater_A_bin": 4,
+      "rater_B_bin": 4,
+      "census_bin": 1.0,
+      "mechanism": "KG-derivation"
+    }
+  ]
+}

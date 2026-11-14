@@ -1,0 +1,10 @@
+{
+ "split": "holdout200",
+ "n_passages": 1229,
+ "n_resolved": 1086,
+ "n_exact_label_match": 947,
+ "n_triples": 23708,
+ "n_nodes": 11973,
+ "n_edges": 47144,
+ "n_object_entities": 11847
+}

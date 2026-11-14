@@ -1,0 +1,85 @@
+{
+ "per_rater": {
+  "1": {
+   "n": 100,
+   "n_unsure": 0,
+   "agreement": 0.87,
+   "kappa": 0.74,
+   "precision": 0.84,
+   "recall_sample": 0.8936170212765957,
+   "recall_pool_weighted": 0.897794077989321
+  },
+  "2": {
+   "n": 100,
+   "n_unsure": 0,
+   "agreement": 0.88,
+   "kappa": 0.76,
+   "precision": 0.82,
+   "recall_sample": 0.9318181818181818,
+   "recall_pool_weighted": 0.9346050613496932
+  },
+  "3": {
+   "n": 100,
+   "n_unsure": 0,
+   "agreement": 0.81,
+   "kappa": 0.6200000000000001,
+   "precision": 0.62,
+   "recall_sample": 1.0,
+   "recall_pool_weighted": 1.0
+  }
+ },
+ "v1_human_rater": {
+  "n": 100,
+  "n_unsure": 0,
+  "agreement": 0.86,
+  "kappa": 0.72,
+  "precision": 0.98,
+  "recall_sample": 0.7903225806451613,
+  "recall_pool_weighted": 0.7976369759864188
+ },
+ "pairwise_raters": {
+  "R1-R2": {
+   "n": 100,
+   "agreement": 0.93,
+   "kappa": 0.8589846897663176
+  },
+  "R1-R3": {
+   "n": 100,
+   "agreement": 0.82,
+   "kappa": 0.631600491199345
+  },
+  "R2-R3": {
+   "n": 100,
+   "agreement": 0.87,
+   "kappa": 0.727577535624476
+  }
+ },
+ "fleiss_kappa_3raters": 0.7375207220482592,
+ "majority_vs_judge": {
+  "n": 100,
+  "n_unsure": 0,
+  "agreement": 0.87,
+  "kappa": 0.74,
+  "precision": 0.8,
+  "recall_sample": 0.9302325581395349,
+  "recall_pool_weighted": 0.9330795942790998
+ },
+ "majority_vs_judge_qwen2_5_14b": {
+  "n": 80,
+  "n_unsure": 0,
+  "agreement": 0.9,
+  "kappa": 0.7965670692943421,
+  "precision": 0.8108108108108109,
+  "recall_sample": 0.967741935483871,
+  "recall_pool_weighted": 0.9733044224842136
+ },
+ "majority_vs_judge_llama3_1_8b": {
+  "n": 20,
+  "n_unsure": 0,
+  "agreement": 0.75,
+  "kappa": 0.4680851063829787,
+  "precision": 0.7692307692307693,
+  "recall_sample": 0.8333333333333334,
+  "recall_pool_weighted": 0.7379069437548762
+ }
+}

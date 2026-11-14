@@ -1,0 +1,27 @@
+{
+ "dataset": "qa_independent_v2_twohop",
+ "frozen": true,
+ "n_total": 13,
+ "per_domain_n": {
+  "construction": 1,
+  "steel": 2,
+  "textile": 10
+ },
+ "scope_limitation": "Feasibility slice only: 13 items across three represented domains, heavily concentrated in textile (10/13), with no semiconductor item; not a powered retrieval evaluation.",
+ "hop_count": 2,
+ "qtype": "multihop_bridge",
+ "models": {
+  "generator": "claude-sonnet",
+  "verifiers": [
+   "gemini-2.5-flash",
+   "qwen2.5:14b"
+  ],
+  "verifier_rule": "kept only when BOTH cross-family verifiers keep"
+ },
+ "verifier_cohen_kappa": 0.6377,
+ "selection_rule": "content-blind deterministic freeze: stable sort on (domain, question), per-domain cap 13, total cap 50; rule fixed before inspecting any candidate",
+ "discovery": "bridge pairs are discovered from corpus passage text only (discover_bridge_pairs_textonly.py, inside the gold_v2 no-KG-imports CI boundary); the KG is never read at any stage",
+ "non_circularity_guarantee": "The gold labels are decided solely from raw corpus passage text, a text-only bridge discovery, and a dual cross-family non-extraction verifier panel. The proposed KG (its nodes, edges, and source_docs) is never imported or referenced anywhere in the gold-build pipeline (statically enforced by test_no_kg_imports), including bridge-pair discovery.",
+ "freeze_provenance": "88 audited candidates -> 14 kept by BOTH cross-family verifiers (twohop_verify_stats.json n_kept_both=14) -> the S5 relative leakage gate then removed one steel item, qa00001 (non-answer paper overlap >= answer paper on jaccard and rouge_l; see twohop_leakage_report.json, gate.per_qa) -> 13 questions entered the content-blind freeze and all 13 were released.",
+ "release_scope": "Released: the 13 frozen two-hop questions with answers, bridge/evidence fields, dual-verifier audit trail, and leakage-gate report. Source passage text is EXCLUDED because per-paper redistribution rights could not be verified; see DATA_LICENSES.md and README."
+}

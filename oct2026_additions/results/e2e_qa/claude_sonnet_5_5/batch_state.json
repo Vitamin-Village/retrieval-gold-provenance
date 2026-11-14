@@ -1,0 +1,19 @@
+{
+ "batch_id": "msgbatch_011MMfGKoHhxr8TuyAAvV3TJ",
+ "n_requests": 4252,
+ "submitted_utc": "2026-10-02T14:32:38.386773+00:00",
+ "params": {
+  "max_tokens": 256,
+  "thinking": {
+   "type": "between_tools"
+  }
+ },
+ "model": "claude-sonnet-5-5",
+ "status": "collected",
+ "succeeded": 4252,
+ "not_succeeded": 0,
+ "input_tokens": 5327503,
+ "output_tokens": 195729,
+ "estimated_cost_usd": 6.306148,
+ "collected_utc": "2026-10-02T14:40:01.312854+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "protocol": "results/twowiki_comp200/PROTOCOL.md",
+  "source_dev": "paper\\external\\2wiki\\raw\\data_ids\\dev.json",
+  "question_type": "compositional",
+  "excluded_from": [
+    "paper\\external\\2wiki\\sub200\\qa.jsonl",
+    "paper\\external\\2wiki\\holdout200\\qa.jsonl"
+  ],
+  "n_excluded_qa_ids": 400,
+  "seed": 20261002,
+  "limit": 200,
+  "n_dev": 12576,
+  "n_dev_of_type": 5236,
+  "n_pool_after_exclude": 5236,
+  "n_subsample": 200,
+  "n_passages": 1155,
+  "n_qa": 200,
+  "qtype_counts": {
+    "compositional": 200
+  },
+  "gold_per_question": {
+    "2": 200
+  },
+  "qa_overlap_with_excluded": 0,
+  "n_silver_nodes": 585,
+  "n_silver_nodes_with_source_docs": 376,
+  "n_silver_edges": 399
+}

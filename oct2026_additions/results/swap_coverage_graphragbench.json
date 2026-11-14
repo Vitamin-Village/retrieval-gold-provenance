@@ -1,0 +1,34 @@
+[
+  {
+    "name": "GraphRAG-Bench-sub200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 783,
+      "n_mapped_passages": 202,
+      "mean_gold_mapping_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 10345,
+      "n_mapped_passages": 1581,
+      "mean_gold_mapping_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    }
+  },
+  {
+    "name": "GraphRAG-Bench-holdout200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 846,
+      "n_mapped_passages": 208,
+      "mean_gold_mapping_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 10345,
+      "n_mapped_passages": 1581,
+      "mean_gold_mapping_coverage": 0.9975,
+      "frac_questions_fully_covered": 0.995
+    }
+  }
+]

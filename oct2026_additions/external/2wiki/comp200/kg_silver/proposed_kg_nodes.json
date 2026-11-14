@@ -1,0 +1,9358 @@
+[
+  {
+    "node_id": "n::bartolomeo ruspoli and khevenhüller-metsch",
+    "name": "Bartolomeo Ruspoli and Khevenhüller-Metsch",
+    "type": "entity",
+    "aliases": [
+      "Q30646525",
+      "Don Bartolomeo Ruspoli",
+      "Bartolomeo Ruspoli and Khevenhüller-Metsch"
+    ],
+    "source_docs": [
+      "bartolomeo ruspoli and khevenhüller-metsch"
+    ],
+    "wikidata_ids": [
+      "Q30646525"
+    ]
+  },
+  {
+    "node_id": "n::francesco ruspoli, 3rd prince of cerveteri",
+    "name": "Francesco Ruspoli, 3rd Prince of Cerveteri",
+    "type": "entity",
+    "aliases": [
+      "Q3750568",
+      "Francesco Ruspoli, 3rd Prince of Cerveteri"
+    ],
+    "source_docs": [
+      "francesco ruspoli, 3rd prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q3750568"
+    ]
+  },
+  {
+    "node_id": "n::march 8, 1829",
+    "name": "March 8, 1829",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::eric orlando young jr.",
+    "name": "Eric Orlando Young Jr.",
+    "type": "entity",
+    "aliases": [
+      "Q3056444",
+      "Eric Orlando Young, Jr.",
+      "Eric Orlando Young Jr.",
+      "Eric Young, Jr.",
+      "Eric Young Jr.",
+      "Eric Jr. Young"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3056444"
+    ]
+  },
+  {
+    "node_id": "n::eric young",
+    "name": "Eric Young",
+    "type": "entity",
+    "aliases": [
+      "Q1046029",
+      "Eric Orlando Young Sr.",
+      "Eric Young (baseball)",
+      "E.Y.",
+      "Eric Young"
+    ],
+    "source_docs": [
+      "eric young jr.",
+      "eric young (baseball)"
+    ],
+    "wikidata_ids": [
+      "Q1046029"
+    ]
+  },
+  {
+    "node_id": "n::new brunswick, new jersey",
+    "name": "New Brunswick, New Jersey",
+    "type": "entity",
+    "aliases": [
+      "Q138338",
+      "New Brunswick, N. J.",
+      "New Brunswick",
+      "New Brunswick, New Jersey",
+      "New Brunswick, NJ",
+      "New Brunswickan",
+      "New Brunswickian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q138338"
+    ]
+  },
+  {
+    "node_id": "n::only you",
+    "name": "Only You",
+    "type": "entity",
+    "aliases": [
+      "Q17059948",
+      "Only You",
+      "Only You (Cee Lo Green song)"
+    ],
+    "source_docs": [
+      "only you (cee lo green song)"
+    ],
+    "wikidata_ids": [
+      "Q17059948"
+    ]
+  },
+  {
+    "node_id": "n::ceelo green",
+    "name": "CeeLo Green",
+    "type": "entity",
+    "aliases": [
+      "Q4042",
+      "Cee-Lo",
+      "Thomas DeCarlo Callaway",
+      "Cielo Green",
+      "Cee-Lo Green",
+      "Cee Lo Green",
+      "Thomas Callaway",
+      "Ce Lo",
+      "CeeLo Green",
+      "Celo Green",
+      "Gnarly Davidson"
+    ],
+    "source_docs": [
+      "ceelo green"
+    ],
+    "wikidata_ids": [
+      "Q4042"
+    ]
+  },
+  {
+    "node_id": "n::atlanta, georgia",
+    "name": "Atlanta, Georgia",
+    "type": "entity",
+    "aliases": [
+      "Q23556",
+      "The ATL",
+      "Atlanta",
+      "Atlanta, Georgia",
+      "Hotlanta",
+      "The Big Peach",
+      "Atlanta, GA",
+      "Terminus",
+      "The A",
+      "Atlantan"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q23556"
+    ]
+  },
+  {
+    "node_id": "n::the color of pomegranates",
+    "name": "The Color of Pomegranates",
+    "type": "entity",
+    "aliases": [
+      "Q2235380",
+      "The Color of Pomegranates",
+      "Color of Pomegranates"
+    ],
+    "source_docs": [
+      "the color of pomegranates"
+    ],
+    "wikidata_ids": [
+      "Q2235380"
+    ]
+  },
+  {
+    "node_id": "n::sergei parajanov",
+    "name": "Sergei Parajanov",
+    "type": "entity",
+    "aliases": [
+      "Q311311",
+      "Sergei Parajanov"
+    ],
+    "source_docs": [
+      "sergei parajanov"
+    ],
+    "wikidata_ids": [
+      "Q311311"
+    ]
+  },
+  {
+    "node_id": "n::komitas pantheon",
+    "name": "Komitas Pantheon",
+    "type": "entity",
+    "aliases": [
+      "Q4344336",
+      "Komitas Pantheon"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4344336"
+    ]
+  },
+  {
+    "node_id": "n::lila & eve",
+    "name": "Lila & Eve",
+    "type": "entity",
+    "aliases": [
+      "Q17021912",
+      "Lila & Eve"
+    ],
+    "source_docs": [
+      "lila & eve"
+    ],
+    "wikidata_ids": [
+      "Q17021912"
+    ]
+  },
+  {
+    "node_id": "n::charles stone iii",
+    "name": "Charles Stone III",
+    "type": "entity",
+    "aliases": [
+      "Q5082704",
+      "Charles Stone III"
+    ],
+    "source_docs": [
+      "charles stone iii"
+    ],
+    "wikidata_ids": [
+      "Q5082704"
+    ]
+  },
+  {
+    "node_id": "n::chuck stone",
+    "name": "Chuck Stone",
+    "type": "entity",
+    "aliases": [
+      "Q5115724",
+      "Charles Sumner \"Chuck\" Stone, Jr.",
+      "Chuck Stone"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q5115724"
+    ]
+  },
+  {
+    "node_id": "n::alessandro ruspoli, 9th prince of cerveteri",
+    "name": "Alessandro Ruspoli, 9th Prince of Cerveteri",
+    "type": "entity",
+    "aliases": [
+      "Q2832816",
+      "Алессандро Русполи, 9-й князь Черветери",
+      "Alessandro Ruspoli, 9th Prince of Cerveteri"
+    ],
+    "source_docs": [
+      "alessandro ruspoli, 9th prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q2832816"
+    ]
+  },
+  {
+    "node_id": "n::francesco ruspoli, 8th prince of cerveteri",
+    "name": "Francesco Ruspoli, 8th Prince of Cerveteri",
+    "type": "entity",
+    "aliases": [
+      "Q3750569",
+      "Francesco Ruspoli, 8th Prince of Cerveteri"
+    ],
+    "source_docs": [
+      "francesco ruspoli, 8th prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q3750569"
+    ]
+  },
+  {
+    "node_id": "n::27 october 1989",
+    "name": "27 October 1989",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::fight of the tertia",
+    "name": "Fight of the Tertia",
+    "type": "entity",
+    "aliases": [
+      "Q5447808",
+      "Fight of the Tertia (1952 film)",
+      "Fight of the Tertia"
+    ],
+    "source_docs": [
+      "fight of the tertia (1952 film)"
+    ],
+    "wikidata_ids": [
+      "Q5447808"
+    ]
+  },
+  {
+    "node_id": "n::erik ode",
+    "name": "Erik Ode",
+    "type": "entity",
+    "aliases": [
+      "Q77585",
+      "Erik Ode",
+      "Fritz Erik Signy Odemar"
+    ],
+    "source_docs": [
+      "erik ode"
+    ],
+    "wikidata_ids": [
+      "Q77585"
+    ]
+  },
+  {
+    "node_id": "n::kreuth",
+    "name": "Kreuth",
+    "type": "entity",
+    "aliases": [
+      "Q503352",
+      "Kreuth"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q503352"
+    ]
+  },
+  {
+    "node_id": "n::fox trap",
+    "name": "Fox Trap",
+    "type": "entity",
+    "aliases": [
+      "Q25345361",
+      "Fox Trap"
+    ],
+    "source_docs": [
+      "fox trap"
+    ],
+    "wikidata_ids": [
+      "Q25345361"
+    ]
+  },
+  {
+    "node_id": "n::jamie weston",
+    "name": "Jamie Weston",
+    "type": "entity",
+    "aliases": [
+      "Q21716308",
+      "Jamie Weston"
+    ],
+    "source_docs": [
+      "jamie weston"
+    ],
+    "wikidata_ids": [
+      "Q21716308"
+    ]
+  },
+  {
+    "node_id": "n::scotland",
+    "name": "Scotland",
+    "type": "entity",
+    "aliases": [
+      "Q22",
+      "Scotland",
+      "Scot",
+      "SCT",
+      "Sputnik",
+      "Scotland, United Kingdom",
+      "Caledonia",
+      "Alba",
+      "Jock",
+      "Scots",
+      "Scottish"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q22"
+    ]
+  },
+  {
+    "node_id": "n::det brinner ett ljus",
+    "name": "Det brinner ett ljus",
+    "type": "entity",
+    "aliases": [
+      "Q10469914",
+      "Det brinner ett ljus för en gammal sång",
+      "Det brinner ett ljus"
+    ],
+    "source_docs": [
+      "det brinner ett ljus"
+    ],
+    "wikidata_ids": [
+      "Q10469914"
+    ]
+  },
+  {
+    "node_id": "n::stefan borsch",
+    "name": "Stefan Borsch",
+    "type": "entity",
+    "aliases": [
+      "Q175272",
+      "Stefan Borsch"
+    ],
+    "source_docs": [
+      "stefan borsch"
+    ],
+    "wikidata_ids": [
+      "Q175272"
+    ]
+  },
+  {
+    "node_id": "n::hagfors",
+    "name": "Hagfors",
+    "type": "entity",
+    "aliases": [
+      "Q1012813",
+      "Hagfors"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1012813"
+    ]
+  },
+  {
+    "node_id": "n::catch my soul",
+    "name": "Catch My Soul",
+    "type": "entity",
+    "aliases": [
+      "Q5051666",
+      "Catch My Soul",
+      "Santa Fe Satan"
+    ],
+    "source_docs": [
+      "catch my soul"
+    ],
+    "wikidata_ids": [
+      "Q5051666"
+    ]
+  },
+  {
+    "node_id": "n::patrick mcgoohan",
+    "name": "Patrick McGoohan",
+    "type": "entity",
+    "aliases": [
+      "Q298908",
+      "Patrick McGoohan",
+      "Patrick MacGoohan"
+    ],
+    "source_docs": [
+      "patrick mcgoohan"
+    ],
+    "wikidata_ids": [
+      "Q298908"
+    ]
+  },
+  {
+    "node_id": "n::american",
+    "name": "American",
+    "type": "entity",
+    "aliases": [
+      "Q30",
+      "the US",
+      "US",
+      "the USA",
+      "🇺🇸",
+      "U.S.A.",
+      "U.S.",
+      "America",
+      "the United States",
+      "US of A",
+      "USA",
+      "the United States of America",
+      "United States",
+      "United States of America",
+      "American"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q30"
+    ]
+  },
+  {
+    "node_id": "n::april showers",
+    "name": "April Showers",
+    "type": "entity",
+    "aliases": [
+      "Q20814440",
+      "April Showers (1948 film)",
+      "April Showers"
+    ],
+    "source_docs": [
+      "april showers (1948 film)"
+    ],
+    "wikidata_ids": [
+      "Q20814440"
+    ]
+  },
+  {
+    "node_id": "n::james v. kern",
+    "name": "James V. Kern",
+    "type": "entity",
+    "aliases": [
+      "Q2400077",
+      "James V. Kern"
+    ],
+    "source_docs": [
+      "james v. kern"
+    ],
+    "wikidata_ids": [
+      "Q2400077"
+    ]
+  },
+  {
+    "node_id": "n::encino",
+    "name": "Encino",
+    "type": "entity",
+    "aliases": [
+      "Q1190590",
+      "Encino, Los Angeles",
+      "Encino"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1190590"
+    ]
+  },
+  {
+    "node_id": "n::roger de beaumont, 2nd earl of warwick",
+    "name": "Roger de Beaumont, 2nd Earl of Warwick",
+    "type": "entity",
+    "aliases": [
+      "Q1392289",
+      "Roger de Beaumont, 2nd Earl of Warwick"
+    ],
+    "source_docs": [
+      "roger de beaumont, 2nd earl of warwick"
+    ],
+    "wikidata_ids": [
+      "Q1392289"
+    ]
+  },
+  {
+    "node_id": "n::henry de beaumont, 1st earl of warwick",
+    "name": "Henry de Beaumont, 1st Earl of Warwick",
+    "type": "entity",
+    "aliases": [
+      "Q973978",
+      "Henry de Beaumont, 1st Earl of Warwick",
+      "Henry de Beaumont, Earl of, d. 1119 -- Family Warwick"
+    ],
+    "source_docs": [
+      "henry de beaumont, 1st earl of warwick"
+    ],
+    "wikidata_ids": [
+      "Q973978"
+    ]
+  },
+  {
+    "node_id": "n::kingdom of england",
+    "name": "Kingdom of England",
+    "type": "entity",
+    "aliases": [
+      "Q179876",
+      "England",
+      "Kingdom of England",
+      "Englishman",
+      "Englishwoman",
+      "English"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q179876"
+    ]
+  },
+  {
+    "node_id": "n::louis de vilmorin",
+    "name": "Louis de Vilmorin",
+    "type": "entity",
+    "aliases": [
+      "Q2613598",
+      "Vilm.",
+      "Louis de Vilmorin"
+    ],
+    "source_docs": [
+      "louis de vilmorin"
+    ],
+    "wikidata_ids": [
+      "Q2613598"
+    ]
+  },
+  {
+    "node_id": "n::philippe andré de vilmorin",
+    "name": "Philippe André de Vilmorin",
+    "type": "entity",
+    "aliases": [
+      "Q3379227",
+      "(Pierre Philippe) André (Lévêque) de Vilmorin",
+      "A.Vilm.",
+      "Philippe André de Vilmorin",
+      "Philippe Andre de Vilmorin"
+    ],
+    "source_docs": [
+      "philippe andré de vilmorin"
+    ],
+    "wikidata_ids": [
+      "Q3379227"
+    ]
+  },
+  {
+    "node_id": "n::french",
+    "name": "French",
+    "type": "entity",
+    "aliases": [
+      "Q142",
+      "French Republic",
+      "Republic of France",
+      "France",
+      "La France",
+      "fr",
+      "FRA",
+      "FR",
+      "🇫🇷",
+      "République française",
+      "French",
+      "Frenchwoman",
+      "Frenchman"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q142"
+    ]
+  },
+  {
+    "node_id": "n::the loving women",
+    "name": "The Loving Women",
+    "type": "entity",
+    "aliases": [
+      "Q24000029",
+      "The Loving Women",
+      "Loving Women"
+    ],
+    "source_docs": [
+      "the loving women"
+    ],
+    "wikidata_ids": [
+      "Q24000029"
+    ]
+  },
+  {
+    "node_id": "n::fernando cortés",
+    "name": "Fernando Cortés",
+    "type": "entity",
+    "aliases": [
+      "Q2838246",
+      "Fernando Cortes",
+      "Fernando Cortés"
+    ],
+    "source_docs": [
+      "fernando cortés"
+    ],
+    "wikidata_ids": [
+      "Q2838246"
+    ]
+  },
+  {
+    "node_id": "n::san juan, puerto rico",
+    "name": "San Juan, Puerto Rico",
+    "type": "entity",
+    "aliases": [
+      "Q41211",
+      "San Juan Bautista",
+      "San Juan",
+      "San Juan, Puerto Rico",
+      "Sanjuanino"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q41211"
+    ]
+  },
+  {
+    "node_id": "n::the witnesses",
+    "name": "The Witnesses",
+    "type": "entity",
+    "aliases": [
+      "Q586836",
+      "Les Temoins",
+      "Les Témoins",
+      "Witnesses",
+      "The Witnesses"
+    ],
+    "source_docs": [
+      "the witnesses"
+    ],
+    "wikidata_ids": [
+      "Q586836"
+    ]
+  },
+  {
+    "node_id": "n::andré téchiné",
+    "name": "André Téchiné",
+    "type": "entity",
+    "aliases": [
+      "Q523144",
+      "André Téchiné",
+      "Andre Techine"
+    ],
+    "source_docs": [
+      "andré téchiné"
+    ],
+    "wikidata_ids": [
+      "Q523144"
+    ]
+  },
+  {
+    "node_id": "n::cahiers du cinéma",
+    "name": "Cahiers du cinéma",
+    "type": "entity",
+    "aliases": [
+      "Q909176",
+      "Cahiers du cinema",
+      "Cahiers du cinéma"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q909176"
+    ]
+  },
+  {
+    "node_id": "n::the false step",
+    "name": "The False Step",
+    "type": "entity",
+    "aliases": [
+      "Q17155975",
+      "False Step",
+      "The False Step"
+    ],
+    "source_docs": [
+      "the false step"
+    ],
+    "wikidata_ids": [
+      "Q17155975"
+    ]
+  },
+  {
+    "node_id": "n::gustaf gründgens",
+    "name": "Gustaf Gründgens",
+    "type": "entity",
+    "aliases": [
+      "Q61260",
+      "Gustaf Gründgens"
+    ],
+    "source_docs": [
+      "gustaf gründgens"
+    ],
+    "wikidata_ids": [
+      "Q61260"
+    ]
+  },
+  {
+    "node_id": "n::düsseldorf",
+    "name": "Düsseldorf",
+    "type": "entity",
+    "aliases": [
+      "Q1718",
+      "Düsseldorf",
+      "Duesseldorf",
+      "Dusseldorf"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1718"
+    ]
+  },
+  {
+    "node_id": "n::robert bertie, 3rd earl of lindsey",
+    "name": "Robert Bertie, 3rd Earl of Lindsey",
+    "type": "entity",
+    "aliases": [
+      "Q7342074",
+      "Robert Bertie, 3rd Earl of Lindsey"
+    ],
+    "source_docs": [
+      "robert bertie, 3rd earl of lindsey"
+    ],
+    "wikidata_ids": [
+      "Q7342074"
+    ]
+  },
+  {
+    "node_id": "n::montagu bertie, 2nd earl of lindsey",
+    "name": "Montagu Bertie, 2nd Earl of Lindsey",
+    "type": "entity",
+    "aliases": [
+      "Q3861098",
+      "Montagu Bertie, 2nd Earl of Lindsey"
+    ],
+    "source_docs": [
+      "montagu bertie, 2nd earl of lindsey"
+    ],
+    "wikidata_ids": [
+      "Q3861098"
+    ]
+  },
+  {
+    "node_id": "n::25 july 1666",
+    "name": "25 July 1666",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::evil alien conquerors",
+    "name": "Evil Alien Conquerors",
+    "type": "entity",
+    "aliases": [
+      "Q5418398",
+      "Evil Alien Conquerors"
+    ],
+    "source_docs": [
+      "evil alien conquerors"
+    ],
+    "wikidata_ids": [
+      "Q5418398"
+    ]
+  },
+  {
+    "node_id": "n::chris matheson",
+    "name": "Chris Matheson",
+    "type": "entity",
+    "aliases": [
+      "Q16732130",
+      "Chris Matheson (screenwriter)",
+      "Chris Matheson"
+    ],
+    "source_docs": [
+      "chris matheson (screenwriter)"
+    ],
+    "wikidata_ids": [
+      "Q16732130"
+    ]
+  },
+  {
+    "node_id": "n::university of california, los angeles",
+    "name": "University of California, Los Angeles",
+    "type": "entity",
+    "aliases": [
+      "Q174710",
+      "University of California Los Angeles",
+      "Los Angeles University of California",
+      "University of California Southern Branch",
+      "State Normal School at Los Angeles",
+      "University of California-Los Angeles",
+      "UCLA",
+      "UC Los Angeles",
+      "University of California, Los Angeles",
+      "University of California at Los Angeles"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q174710"
+    ]
+  },
+  {
+    "node_id": "n::la yuma",
+    "name": "La Yuma",
+    "type": "entity",
+    "aliases": [
+      "Q3213992",
+      "Yuma",
+      "La Yuma"
+    ],
+    "source_docs": [
+      "la yuma"
+    ],
+    "wikidata_ids": [
+      "Q3213992"
+    ]
+  },
+  {
+    "node_id": "n::florence jaugey",
+    "name": "Florence Jaugey",
+    "type": "entity",
+    "aliases": [
+      "Q16910119",
+      "Florence Jaugey",
+      "jenny"
+    ],
+    "source_docs": [
+      "florence jaugey"
+    ],
+    "wikidata_ids": [
+      "Q16910119"
+    ]
+  },
+  {
+    "node_id": "n::andrée yanacopoulo",
+    "name": "Andrée Yanacopoulo",
+    "type": "entity",
+    "aliases": [
+      "Q2848986",
+      "Andrée Yanacopoulo",
+      "Andree Yanacopoulo"
+    ],
+    "source_docs": [
+      "andrée yanacopoulo"
+    ],
+    "wikidata_ids": [
+      "Q2848986"
+    ]
+  },
+  {
+    "node_id": "n::hubert aquin",
+    "name": "Hubert Aquin",
+    "type": "entity",
+    "aliases": [
+      "Q732980",
+      "Hubert Aquin"
+    ],
+    "source_docs": [
+      "hubert aquin"
+    ],
+    "wikidata_ids": [
+      "Q732980"
+    ]
+  },
+  {
+    "node_id": "n::montreal",
+    "name": "Montreal",
+    "type": "entity",
+    "aliases": [
+      "Q340",
+      "Montreal, Quebec",
+      "Ville-Marie",
+      "Montreal",
+      "Ville de Montréal",
+      "Montréal",
+      "Ville de Montreal",
+      "City of Montreal",
+      "Montréaler",
+      "Montréalais",
+      "Montrealer"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q340"
+    ]
+  },
+  {
+    "node_id": "n::los secretos del buzón",
+    "name": "Los secretos del buzón",
+    "type": "entity",
+    "aliases": [
+      "Q5981168",
+      "Los secretos del buzón",
+      "Los secretos del buzon"
+    ],
+    "source_docs": [
+      "los secretos del buzón"
+    ],
+    "wikidata_ids": [
+      "Q5981168"
+    ]
+  },
+  {
+    "node_id": "n::catrano catrani",
+    "name": "Catrano Catrani",
+    "type": "entity",
+    "aliases": [
+      "Q3663628",
+      "Catrano Catrani"
+    ],
+    "source_docs": [
+      "catrano catrani"
+    ],
+    "wikidata_ids": [
+      "Q3663628"
+    ]
+  },
+  {
+    "node_id": "n::città di castello",
+    "name": "Città di Castello",
+    "type": "entity",
+    "aliases": [
+      "Q20413",
+      "Citta di Castello",
+      "Città di Castello"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q20413"
+    ]
+  },
+  {
+    "node_id": "n::musbah bint nasser",
+    "name": "Musbah bint Nasser",
+    "type": "entity",
+    "aliases": [
+      "Q6940198",
+      "Musbah bint Nasser"
+    ],
+    "source_docs": [
+      "musbah bint nasser"
+    ],
+    "wikidata_ids": [
+      "Q6940198"
+    ]
+  },
+  {
+    "node_id": "n::king abdullah i",
+    "name": "King Abdullah I",
+    "type": "entity",
+    "aliases": [
+      "Q192780",
+      "King Abdullah",
+      "Abdullah I of Jordan",
+      "King Abdullah I",
+      "'Abdallah I"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q192780"
+    ]
+  },
+  {
+    "node_id": "n::abdullah i of jordan",
+    "name": "Abdullah I of Jordan",
+    "type": "entity",
+    "aliases": [
+      "Q192780",
+      "King Abdullah",
+      "Abdullah I of Jordan",
+      "King Abdullah I",
+      "'Abdallah I"
+    ],
+    "source_docs": [
+      "abdullah i of jordan"
+    ],
+    "wikidata_ids": [
+      "Q192780"
+    ]
+  },
+  {
+    "node_id": "n::jerusalem",
+    "name": "Jerusalem",
+    "type": "entity",
+    "aliases": [
+      "Q1218",
+      "Yerushalayim",
+      "Jerusalem, Middle East",
+      "Al-Quds",
+      "Jerusalem",
+      "J'lem",
+      "Jerusalemite",
+      "Yerushalmi"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1218"
+    ]
+  },
+  {
+    "node_id": "n::the karate kid",
+    "name": "The Karate Kid",
+    "type": "entity",
+    "aliases": [
+      "Q327685",
+      "Karate Kid",
+      "The Karate Kid (2010 film)",
+      "Karate Kid 5",
+      "The Karate Kid"
+    ],
+    "source_docs": [
+      "the karate kid (2010 film)"
+    ],
+    "wikidata_ids": [
+      "Q327685"
+    ]
+  },
+  {
+    "node_id": "n::harald zwart",
+    "name": "Harald Zwart",
+    "type": "entity",
+    "aliases": [
+      "Q962552",
+      "Harald Zwart"
+    ],
+    "source_docs": [
+      "harald zwart"
+    ],
+    "wikidata_ids": [
+      "Q962552"
+    ]
+  },
+  {
+    "node_id": "n::dutch",
+    "name": "Dutch",
+    "type": "entity",
+    "aliases": [
+      "Q55",
+      "nl",
+      "Netherlands",
+      "🇳🇱",
+      "Netherlands (after 1945)",
+      "NL",
+      "Holland",
+      "Nederland",
+      "the Netherlands",
+      "NED",
+      "Dutch",
+      "Hollander",
+      "Netherlandic"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q55"
+    ]
+  },
+  {
+    "node_id": "n::undiscovered",
+    "name": "Undiscovered",
+    "type": "entity",
+    "aliases": [
+      "Q533321",
+      "Undiscovered"
+    ],
+    "source_docs": [
+      "undiscovered"
+    ],
+    "wikidata_ids": [
+      "Q533321"
+    ]
+  },
+  {
+    "node_id": "n::meiert avis",
+    "name": "Meiert Avis",
+    "type": "entity",
+    "aliases": [
+      "Q5562800",
+      "Meiert Avis"
+    ],
+    "source_docs": [
+      "meiert avis"
+    ],
+    "wikidata_ids": [
+      "Q5562800"
+    ]
+  },
+  {
+    "node_id": "n::irish",
+    "name": "Irish",
+    "type": "entity",
+    "aliases": [
+      "Q22890",
+      "Hiberna",
+      "Mikra Britannia",
+      "Anne Douglas-Hamilton, 2nd Countess of Orkney",
+      "Island of Ireland",
+      "Airlan",
+      "Irlanda",
+      "Island Ireland",
+      "Irlande",
+      "Airlann",
+      "Shan van vok",
+      "Ireland (island)",
+      "Auld Sod",
+      "Ireland",
+      "Ireland and Ulster",
+      "Scotia major",
+      "Irlandia",
+      "Erin's Isle",
+      "Irland",
+      "Ireland Ulster",
+      "Irish",
+      "Irishman",
+      "Irishwoman"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q22890"
+    ]
+  },
+  {
+    "node_id": "n::princess béatrice of bourbon-two sicilies",
+    "name": "Princess Béatrice of Bourbon-Two Sicilies",
+    "type": "entity",
+    "aliases": [
+      "Q4925346",
+      "Princess Beatrice of the Two Sicilies",
+      "Princess Béatrice of Bourbon-Two Sicilies",
+      "Beatrice di Borbone, Principessa di Borbone delle Due Sicilie"
+    ],
+    "source_docs": [
+      "princess béatrice of bourbon-two sicilies"
+    ],
+    "wikidata_ids": [
+      "Q4925346"
+    ]
+  },
+  {
+    "node_id": "n::prince ferdinand, duke of castro",
+    "name": "Prince Ferdinand, Duke of Castro",
+    "type": "entity",
+    "aliases": [
+      "Q2324276",
+      "Prince Ferdinand, Duke of Castro",
+      "Ferdinando Maria Andrea Alfonso Marcus",
+      "Ferdinando Maria"
+    ],
+    "source_docs": [
+      "prince ferdinand, duke of castro"
+    ],
+    "wikidata_ids": [
+      "Q2324276"
+    ]
+  },
+  {
+    "node_id": "n::20 march 2008",
+    "name": "20 March 2008",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::publius aelius hadrianus afer",
+    "name": "Publius Aelius Hadrianus Afer",
+    "type": "entity",
+    "aliases": [
+      "Q2280800",
+      "Publius Aelius Hadrianus Afer"
+    ],
+    "source_docs": [
+      "publius aelius hadrianus afer"
+    ],
+    "wikidata_ids": [
+      "Q2280800"
+    ]
+  },
+  {
+    "node_id": "n::publius aelius hadrianus marullinus",
+    "name": "Publius Aelius Hadrianus Marullinus",
+    "type": "entity",
+    "aliases": [
+      "Q4687704",
+      "Publius Aelius Hadrianus Marullinus",
+      "Aelius Hadrianus Marullinus"
+    ],
+    "source_docs": [
+      "aelius hadrianus marullinus"
+    ],
+    "wikidata_ids": [
+      "Q4687704"
+    ]
+  },
+  {
+    "node_id": "n::91",
+    "name": "91",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::william nevill, 4th earl of abergavenny",
+    "name": "William Nevill, 4th Earl of Abergavenny",
+    "type": "entity",
+    "aliases": [
+      "Q7611188",
+      "William Nevill, 4th Earl of Abergavenny"
+    ],
+    "source_docs": [
+      "william nevill, 4th earl of abergavenny"
+    ],
+    "wikidata_ids": [
+      "Q7611188"
+    ]
+  },
+  {
+    "node_id": "n::henry nevill, 2nd earl of abergavenny",
+    "name": "Henry Nevill, 2nd Earl of Abergavenny",
+    "type": "entity",
+    "aliases": [
+      "Q7611230",
+      "Henry Nevill, 2nd Earl of Abergavenny"
+    ],
+    "source_docs": [
+      "henry nevill, 2nd earl of abergavenny"
+    ],
+    "wikidata_ids": [
+      "Q7611230"
+    ]
+  },
+  {
+    "node_id": "n::east grinstead",
+    "name": "East Grinstead",
+    "type": "entity",
+    "aliases": [
+      "Q1277887",
+      "East Grinstead",
+      "East Grinstead, West Sussex"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1277887"
+    ]
+  },
+  {
+    "node_id": "n::chha mana atha guntha",
+    "name": "Chha Mana Atha Guntha",
+    "type": "entity",
+    "aliases": [
+      "Q15724107",
+      "Chha Mana Atha Guntha",
+      "Chamana Atha Guntha"
+    ],
+    "source_docs": [
+      "chha mana atha guntha"
+    ],
+    "wikidata_ids": [
+      "Q15724107"
+    ]
+  },
+  {
+    "node_id": "n::parbati ghose",
+    "name": "Parbati Ghose",
+    "type": "entity",
+    "aliases": [
+      "Q15724579",
+      "Parbati Ghose",
+      "Srabani",
+      "Chandana",
+      "Chapala Naik"
+    ],
+    "source_docs": [
+      "parbati ghose"
+    ],
+    "wikidata_ids": [
+      "Q15724579"
+    ]
+  },
+  {
+    "node_id": "n::odisha",
+    "name": "Odisha",
+    "type": "entity",
+    "aliases": [
+      "Q22048",
+      "Utkal",
+      "Kalinga",
+      "Odisha",
+      "Orissa",
+      "Kalingan",
+      "Oriya",
+      "Odishan",
+      "Odissi",
+      "Odia"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q22048"
+    ]
+  },
+  {
+    "node_id": "n::i'll say it",
+    "name": "I'll Say It",
+    "type": "entity",
+    "aliases": [
+      "Q16985429",
+      "I'll Say It"
+    ],
+    "source_docs": [
+      "i'll say it"
+    ],
+    "wikidata_ids": [
+      "Q16985429"
+    ]
+  },
+  {
+    "node_id": "n::kathy griffin",
+    "name": "Kathy Griffin",
+    "type": "entity",
+    "aliases": [
+      "Q432437",
+      "Kathy Griffin",
+      "Kathleen Mary \"Kathy\" Griffin"
+    ],
+    "source_docs": [
+      "kathy griffin"
+    ],
+    "wikidata_ids": [
+      "Q432437"
+    ]
+  },
+  {
+    "node_id": "n::lee strasberg theatre and film institute",
+    "name": "Lee Strasberg Theatre and Film Institute",
+    "type": "entity",
+    "aliases": [
+      "Q1542213",
+      "Lee Strasberg Theatre and Film Institute",
+      "Lee Strasberg Theatre Institute"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1542213"
+    ]
+  },
+  {
+    "node_id": "n::prince leka of albania",
+    "name": "Prince Leka of Albania",
+    "type": "entity",
+    "aliases": [
+      "Q921021",
+      "Prince Leka of Albania",
+      "Leka, Crown Prince of Albania (born 1982)",
+      "Leka II"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q921021"
+    ]
+  },
+  {
+    "node_id": "n::susan cullen-ward",
+    "name": "Susan Cullen-Ward",
+    "type": "entity",
+    "aliases": [
+      "Q3299525",
+      "Mrs. Susan Williams",
+      "Susan Cullen Ward",
+      "Susan Cullen-Ward",
+      "Susan Barbara Zogu",
+      "Susan Barbara Cullen-Ward",
+      "Queen Susan",
+      "Susan of Albania",
+      "Mrs. Richard Williams"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3299525"
+    ]
+  },
+  {
+    "node_id": "n::susan of albania",
+    "name": "Susan of Albania",
+    "type": "entity",
+    "aliases": [
+      "Q3299525",
+      "Mrs. Susan Williams",
+      "Susan Cullen Ward",
+      "Susan Cullen-Ward",
+      "Susan Barbara Zogu",
+      "Susan Barbara Cullen-Ward",
+      "Queen Susan",
+      "Susan of Albania",
+      "Mrs. Richard Williams"
+    ],
+    "source_docs": [
+      "susan of albania"
+    ],
+    "wikidata_ids": [
+      "Q3299525"
+    ]
+  },
+  {
+    "node_id": "n::17 july 2004",
+    "name": "17 July 2004",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::breakaway",
+    "name": "Breakaway",
+    "type": "entity",
+    "aliases": [
+      "Q4959374",
+      "Breakaway (Donna Summer song)",
+      "Breakaway"
+    ],
+    "source_docs": [
+      "breakaway (donna summer song)"
+    ],
+    "wikidata_ids": [
+      "Q4959374"
+    ]
+  },
+  {
+    "node_id": "n::donna summer",
+    "name": "Donna Summer",
+    "type": "entity",
+    "aliases": [
+      "Q908933",
+      "00087936029 IPI",
+      "Donna Summer",
+      "00087935816 IPI",
+      "LaDonna Adrian Gaines"
+    ],
+    "source_docs": [
+      "breakaway (donna summer song)",
+      "donna summer"
+    ],
+    "wikidata_ids": [
+      "Q908933"
+    ]
+  },
+  {
+    "node_id": "n::naples",
+    "name": "Naples",
+    "type": "entity",
+    "aliases": [
+      "Q257830",
+      "Naples, Florida",
+      "Naples",
+      "Neapolitan",
+      "Napoletano"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q257830"
+    ]
+  },
+  {
+    "node_id": "n::cursed for gold",
+    "name": "Cursed for Gold",
+    "type": "entity",
+    "aliases": [
+      "Q3184047",
+      "Cursed for Gold"
+    ],
+    "source_docs": [
+      "cursed for gold"
+    ],
+    "wikidata_ids": [
+      "Q3184047"
+    ]
+  },
+  {
+    "node_id": "n::olivier weber",
+    "name": "Olivier Weber",
+    "type": "entity",
+    "aliases": [
+      "Q316765",
+      "Olivier Weber"
+    ],
+    "source_docs": [
+      "olivier weber"
+    ],
+    "wikidata_ids": [
+      "Q316765"
+    ]
+  },
+  {
+    "node_id": "n::institut d'études politiques de paris",
+    "name": "Institut d'études politiques de Paris",
+    "type": "entity",
+    "aliases": [
+      "Q859363",
+      "Paris Institute of Political Studies",
+      "Sciences Po",
+      "Sciences Po Undergraduate College",
+      "Institut d'études politiques de Paris"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q859363"
+    ]
+  },
+  {
+    "node_id": "n::margarita pérez pallares",
+    "name": "Margarita Pérez Pallares",
+    "type": "entity",
+    "aliases": [
+      "Q23932531",
+      "Margarita Pérez Pallares"
+    ],
+    "source_docs": [
+      "margarita pérez pallares"
+    ],
+    "wikidata_ids": [
+      "Q23932531"
+    ]
+  },
+  {
+    "node_id": "n::osvaldo hurtado",
+    "name": "Osvaldo Hurtado",
+    "type": "entity",
+    "aliases": [
+      "Q878508",
+      "Osvaldo Hurtado"
+    ],
+    "source_docs": [
+      "osvaldo hurtado"
+    ],
+    "wikidata_ids": [
+      "Q878508"
+    ]
+  },
+  {
+    "node_id": "n::university of new mexico",
+    "name": "University of New Mexico",
+    "type": "entity",
+    "aliases": [
+      "Q1190812",
+      "UNM",
+      "Universitatis Novus Mexico",
+      "University of New Mexico"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1190812"
+    ]
+  },
+  {
+    "node_id": "n::carolina blues",
+    "name": "Carolina Blues",
+    "type": "entity",
+    "aliases": [
+      "Q3660545",
+      "Carolina Blues"
+    ],
+    "source_docs": [
+      "carolina blues"
+    ],
+    "wikidata_ids": [
+      "Q3660545"
+    ]
+  },
+  {
+    "node_id": "n::leigh jason",
+    "name": "Leigh Jason",
+    "type": "entity",
+    "aliases": [
+      "Q3229161",
+      "Leigh Jason"
+    ],
+    "source_docs": [
+      "leigh jason"
+    ],
+    "wikidata_ids": [
+      "Q3229161"
+    ]
+  },
+  {
+    "node_id": "n::new york",
+    "name": "New York",
+    "type": "entity",
+    "aliases": [
+      "Q60",
+      "Big Apple",
+      "New York",
+      "the five boroughs",
+      "NYC",
+      "NY City",
+      "City of New York",
+      "New York City",
+      "New York, New York",
+      "New Yorker",
+      "Knickerbocker"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q60"
+    ]
+  },
+  {
+    "node_id": "n::hannah callowhill penn",
+    "name": "Hannah Callowhill Penn",
+    "type": "entity",
+    "aliases": [
+      "Q292162",
+      "Hannah Callowhill Penn"
+    ],
+    "source_docs": [
+      "hannah callowhill penn"
+    ],
+    "wikidata_ids": [
+      "Q292162"
+    ]
+  },
+  {
+    "node_id": "n::william penn",
+    "name": "William Penn",
+    "type": "entity",
+    "aliases": [
+      "Q209152",
+      "William Penn"
+    ],
+    "source_docs": [
+      "william penn"
+    ],
+    "wikidata_ids": [
+      "Q209152"
+    ]
+  },
+  {
+    "node_id": "n::london",
+    "name": "London",
+    "type": "entity",
+    "aliases": [
+      "Q84",
+      "London, UK",
+      "London, United Kingdom",
+      "London",
+      "London, England",
+      "Cockney",
+      "Londoner"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q84"
+    ]
+  },
+  {
+    "node_id": "n::me and bobby mcgee",
+    "name": "Me and Bobby McGee",
+    "type": "entity",
+    "aliases": [
+      "Q378429",
+      "Me and Bobby McGee"
+    ],
+    "source_docs": [
+      "me and bobby mcgee"
+    ],
+    "wikidata_ids": [
+      "Q378429"
+    ]
+  },
+  {
+    "node_id": "n::roger miller",
+    "name": "Roger Miller",
+    "type": "entity",
+    "aliases": [
+      "Q712359",
+      "Roger Dean Miller",
+      "Roger Miller"
+    ],
+    "source_docs": [
+      "roger miller"
+    ],
+    "wikidata_ids": [
+      "Q712359"
+    ]
+  },
+  {
+    "node_id": "n::dean miller",
+    "name": "Dean Miller",
+    "type": "entity",
+    "aliases": [
+      "Q5246362",
+      "Dean Miller"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q5246362"
+    ]
+  },
+  {
+    "node_id": "n::fahd hariri",
+    "name": "Fahd Hariri",
+    "type": "entity",
+    "aliases": [
+      "Q10279737",
+      "Fahd Hariri"
+    ],
+    "source_docs": [
+      "fahd hariri"
+    ],
+    "wikidata_ids": [
+      "Q10279737"
+    ]
+  },
+  {
+    "node_id": "n::rafic hariri",
+    "name": "Rafic Hariri",
+    "type": "entity",
+    "aliases": [
+      "Q192778",
+      "Rafic Hariri",
+      "Rafic Baha El Deen Al Hariri",
+      "Al-Hriri",
+      "Rafik Hariri"
+    ],
+    "source_docs": [
+      "rafic hariri"
+    ],
+    "wikidata_ids": [
+      "Q192778"
+    ]
+  },
+  {
+    "node_id": "n::assassination",
+    "name": "assassination",
+    "type": "entity",
+    "aliases": [
+      "Q3882219",
+      "assassination",
+      "political killing",
+      "Assassination"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3882219"
+    ]
+  },
+  {
+    "node_id": "n::octavie coudreau",
+    "name": "Octavie Coudreau",
+    "type": "entity",
+    "aliases": [
+      "Q16198098",
+      "Octavie Coudreau"
+    ],
+    "source_docs": [
+      "octavie coudreau"
+    ],
+    "wikidata_ids": [
+      "Q16198098"
+    ]
+  },
+  {
+    "node_id": "n::henri coudreau",
+    "name": "Henri Coudreau",
+    "type": "entity",
+    "aliases": [
+      "Q1365431",
+      "Henri Coudreau"
+    ],
+    "source_docs": [
+      "henri coudreau"
+    ],
+    "wikidata_ids": [
+      "Q1365431"
+    ]
+  },
+  {
+    "node_id": "n::sonnac",
+    "name": "Sonnac",
+    "type": "entity",
+    "aliases": [
+      "Q1408470",
+      "Sonnac, Charente-Maritime",
+      "Sonnac"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1408470"
+    ]
+  },
+  {
+    "node_id": "n::fort bliss",
+    "name": "Fort Bliss",
+    "type": "entity",
+    "aliases": [
+      "Q16250528",
+      "Fort Bliss (film)",
+      "Fort Bliss"
+    ],
+    "source_docs": [
+      "fort bliss (film)"
+    ],
+    "wikidata_ids": [
+      "Q16250528"
+    ]
+  },
+  {
+    "node_id": "n::claudia myers",
+    "name": "Claudia Myers",
+    "type": "entity",
+    "aliases": [
+      "Q23769999",
+      "Claudia Myers"
+    ],
+    "source_docs": [
+      "claudia myers"
+    ],
+    "wikidata_ids": [
+      "Q23769999"
+    ]
+  },
+  {
+    "node_id": "n::american university",
+    "name": "American University",
+    "type": "entity",
+    "aliases": [
+      "Q168000",
+      "AU",
+      "American University"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q168000"
+    ]
+  },
+  {
+    "node_id": "n::that certain feeling",
+    "name": "That Certain Feeling",
+    "type": "entity",
+    "aliases": [
+      "Q7711148",
+      "That Certain Feeling"
+    ],
+    "source_docs": [
+      "that certain feeling"
+    ],
+    "wikidata_ids": [
+      "Q7711148"
+    ]
+  },
+  {
+    "node_id": "n::george gershwin",
+    "name": "George Gershwin",
+    "type": "entity",
+    "aliases": [
+      "Q123829",
+      "Dzhordzh Gershvin",
+      "Jacob Gershvin",
+      "George Gershwin",
+      "Jacob Bruskin Gershowitz",
+      "George Jacob Gershwin"
+    ],
+    "source_docs": [
+      "george gershwin"
+    ],
+    "wikidata_ids": [
+      "Q123829"
+    ]
+  },
+  {
+    "node_id": "n::hollywood",
+    "name": "Hollywood",
+    "type": "entity",
+    "aliases": [
+      "Q34006",
+      "Hollywood, California",
+      "Tinseltown",
+      "Hollywood"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q34006"
+    ]
+  },
+  {
+    "node_id": "n::şehzade murad",
+    "name": "Şehzade Murad",
+    "type": "entity",
+    "aliases": [
+      "Q29035292",
+      "Şehzade Murad"
+    ],
+    "source_docs": [
+      "şehzade murad"
+    ],
+    "wikidata_ids": [
+      "Q29035292"
+    ]
+  },
+  {
+    "node_id": "n::şehzade ahmet",
+    "name": "Şehzade Ahmet",
+    "type": "entity",
+    "aliases": [
+      "Q2606697",
+      "Şehzade Ahmet",
+      "Sehzade Ahmet"
+    ],
+    "source_docs": [
+      "şehzade ahmet"
+    ],
+    "wikidata_ids": [
+      "Q2606697"
+    ]
+  },
+  {
+    "node_id": "n::ottoman empire",
+    "name": "Ottoman Empire",
+    "type": "entity",
+    "aliases": [
+      "Q12560",
+      "Turkish Empire",
+      "Exalted Ottoman State",
+      "Osmanli Empire",
+      "Ottoman Empire"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q12560"
+    ]
+  },
+  {
+    "node_id": "n::the flashlight",
+    "name": "The Flashlight",
+    "type": "entity",
+    "aliases": [
+      "Q7734380",
+      "The Flashlight",
+      "Flashlight"
+    ],
+    "source_docs": [
+      "the flashlight"
+    ],
+    "wikidata_ids": [
+      "Q7734380"
+    ]
+  },
+  {
+    "node_id": "n::ida may park",
+    "name": "Ida May Park",
+    "type": "entity",
+    "aliases": [
+      "Q971059",
+      "Ida May Park"
+    ],
+    "source_docs": [
+      "ida may park"
+    ],
+    "wikidata_ids": [
+      "Q971059"
+    ]
+  },
+  {
+    "node_id": "n::los angeles",
+    "name": "Los Angeles",
+    "type": "entity",
+    "aliases": [
+      "Q65",
+      "Pink City",
+      "LA, California",
+      "City of Los Angeles",
+      "L.A.",
+      "Los Angeles",
+      "LA",
+      "City of Angels",
+      "Los Angeles, California",
+      "Double Dubuque",
+      "La La Land",
+      "The town of Our Lady the Queen of the Angels of the Little Portion",
+      "Tinsel Town",
+      "Los Angelean",
+      "Angeleno",
+      "Los Angelino",
+      "Los Angeleno"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q65"
+    ]
+  },
+  {
+    "node_id": "n::meritites i",
+    "name": "Meritites I",
+    "type": "entity",
+    "aliases": [
+      "Q464954",
+      "Meritites I"
+    ],
+    "source_docs": [
+      "meritites i"
+    ],
+    "wikidata_ids": [
+      "Q464954"
+    ]
+  },
+  {
+    "node_id": "n::khufu",
+    "name": "Khufu",
+    "type": "entity",
+    "aliases": [
+      "Q161904",
+      "Suphis",
+      "Khufu",
+      "Sofe",
+      "Khêops",
+      "Saurid",
+      "Kheops",
+      "Cheops",
+      "Khnum-Khufu",
+      "Súphis",
+      "Salhuk"
+    ],
+    "source_docs": [
+      "khufu"
+    ],
+    "wikidata_ids": [
+      "Q161904"
+    ]
+  },
+  {
+    "node_id": "n::great pyramid of giza",
+    "name": "Great Pyramid of Giza",
+    "type": "entity",
+    "aliases": [
+      "Q37200",
+      "Pyramid of Cheops",
+      "Pyramid of Khufu",
+      "Great Pyramid of Giza"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q37200"
+    ]
+  },
+  {
+    "node_id": "n::geodeung of gaya",
+    "name": "Geodeung of Gaya",
+    "type": "entity",
+    "aliases": [
+      "Q496806",
+      "Geodeung of Gaya",
+      "Geodeung of Geumgwan Gaya"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q496806"
+    ]
+  },
+  {
+    "node_id": "n::heo hwang-ok",
+    "name": "Heo Hwang-ok",
+    "type": "entity",
+    "aliases": [
+      "Q496574",
+      "Heo Hwang-ok"
+    ],
+    "source_docs": [
+      "heo hwang-ok"
+    ],
+    "wikidata_ids": [
+      "Q496574"
+    ]
+  },
+  {
+    "node_id": "n::india",
+    "name": "India",
+    "type": "entity",
+    "aliases": [
+      "Q668",
+      "IND",
+      "Hindustan",
+      "IN",
+      "🇮🇳",
+      "Bharatvarsh",
+      "Republic of India",
+      "India",
+      "Bharat",
+      "in",
+      "Indian",
+      "Bharati"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q668"
+    ]
+  },
+  {
+    "node_id": "n::flavia maximiana theodora",
+    "name": "Flavia Maximiana Theodora",
+    "type": "entity",
+    "aliases": [
+      "Q232094",
+      "Flavia Maximiana Theodora"
+    ],
+    "source_docs": [
+      "flavia maximiana theodora"
+    ],
+    "wikidata_ids": [
+      "Q232094"
+    ]
+  },
+  {
+    "node_id": "n::constantius chlorus",
+    "name": "Constantius Chlorus",
+    "type": "entity",
+    "aliases": [
+      "Q131195",
+      "Constantius Chlorus",
+      "Flavius Valerius Constantius"
+    ],
+    "source_docs": [
+      "constantius chlorus"
+    ],
+    "wikidata_ids": [
+      "Q131195"
+    ]
+  },
+  {
+    "node_id": "n::eboracum",
+    "name": "Eboracum",
+    "type": "entity",
+    "aliases": [
+      "Q958954",
+      "Eboracum"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q958954"
+    ]
+  },
+  {
+    "node_id": "n::softly, as in a morning sunrise",
+    "name": "Softly, as in a Morning Sunrise",
+    "type": "entity",
+    "aliases": [
+      "Q2297573",
+      "Softly, as in a Morning Sunrise"
+    ],
+    "source_docs": [
+      "softly, as in a morning sunrise"
+    ],
+    "wikidata_ids": [
+      "Q2297573"
+    ]
+  },
+  {
+    "node_id": "n::sigmund romberg",
+    "name": "Sigmund Romberg",
+    "type": "entity",
+    "aliases": [
+      "Q742945",
+      "Sigmund Romberg"
+    ],
+    "source_docs": [
+      "sigmund romberg"
+    ],
+    "wikidata_ids": [
+      "Q742945"
+    ]
+  },
+  {
+    "node_id": "n::katherine reback",
+    "name": "Katherine Reback",
+    "type": "entity",
+    "aliases": [
+      "Q6376521",
+      "Katherine Reback"
+    ],
+    "source_docs": [
+      "katherine reback"
+    ],
+    "wikidata_ids": [
+      "Q6376521"
+    ]
+  },
+  {
+    "node_id": "n::sonny king",
+    "name": "Sonny King",
+    "type": "entity",
+    "aliases": [
+      "Q19662837",
+      "Sonny King (artist)",
+      "Sonny King"
+    ],
+    "source_docs": [
+      "sonny king (artist)"
+    ],
+    "wikidata_ids": [
+      "Q19662837"
+    ]
+  },
+  {
+    "node_id": "n::sydney, australia",
+    "name": "Sydney, Australia",
+    "type": "entity",
+    "aliases": [
+      "Q3130",
+      "Sydney, NSW",
+      "Sydney, New South Wales, Australia",
+      "Sydney, Australia",
+      "Sydney, New South Wales",
+      "Sydney, NSW, Australia",
+      "Sydney",
+      "Sydney-Sider",
+      "Sydneysider"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3130"
+    ]
+  },
+  {
+    "node_id": "n::in the castle by the lake",
+    "name": "In the Castle by the Lake",
+    "type": "entity",
+    "aliases": [
+      "Q16565369",
+      "In the Castle by the Lake"
+    ],
+    "source_docs": [
+      "in the castle by the lake"
+    ],
+    "wikidata_ids": [
+      "Q16565369"
+    ]
+  },
+  {
+    "node_id": "n::eugen burg",
+    "name": "Eugen Burg",
+    "type": "entity",
+    "aliases": [
+      "Q87816",
+      "Eugen Burg"
+    ],
+    "source_docs": [
+      "eugen burg"
+    ],
+    "wikidata_ids": [
+      "Q87816"
+    ]
+  },
+  {
+    "node_id": "n::theresienstadt concentration camp",
+    "name": "Theresienstadt concentration camp",
+    "type": "entity",
+    "aliases": [
+      "Q160175",
+      "KZ Theresienstadt",
+      "Theresienstadt concentration camp",
+      "Theresienstadt Ghetto"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q160175"
+    ]
+  },
+  {
+    "node_id": "n::august wilhelm, duke of brunswick-bevern",
+    "name": "August Wilhelm, Duke of Brunswick-Bevern",
+    "type": "entity",
+    "aliases": [
+      "Q68683",
+      "Augustus William, Duke of Brunswick-Bevern",
+      "August Wilhelm, Duke of Brunswick-Bevern"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q68683"
+    ]
+  },
+  {
+    "node_id": "n::ernest ferdinand, duke of brunswick-lüneburg",
+    "name": "Ernest Ferdinand, Duke of Brunswick-Lüneburg",
+    "type": "entity",
+    "aliases": [
+      "Q319027",
+      "Ernest Ferdinand, Duke of Brunswick-Lüneburg"
+    ],
+    "source_docs": [
+      "ernest ferdinand, duke of brunswick-lüneburg"
+    ],
+    "wikidata_ids": [
+      "Q319027"
+    ]
+  },
+  {
+    "node_id": "n::osterholz",
+    "name": "Osterholz",
+    "type": "entity",
+    "aliases": [
+      "Q2035210",
+      "Osterholz"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2035210"
+    ]
+  },
+  {
+    "node_id": "n::paulding farnham",
+    "name": "Paulding Farnham",
+    "type": "entity",
+    "aliases": [
+      "Q13476260",
+      "George Paulding Farnham",
+      "Paulding Farnham"
+    ],
+    "source_docs": [
+      "paulding farnham"
+    ],
+    "wikidata_ids": [
+      "Q13476260"
+    ]
+  },
+  {
+    "node_id": "n::sally james farnham",
+    "name": "Sally James Farnham",
+    "type": "entity",
+    "aliases": [
+      "Q7405175",
+      "Sarah Welles James",
+      "Sally James Farnham"
+    ],
+    "source_docs": [
+      "sally james farnham"
+    ],
+    "wikidata_ids": [
+      "Q7405175"
+    ]
+  },
+  {
+    "node_id": "n::şirin hatun",
+    "name": "Şirin Hatun",
+    "type": "entity",
+    "aliases": [
+      "Q18071668",
+      "Şirin Hatun"
+    ],
+    "source_docs": [
+      "şirin hatun"
+    ],
+    "wikidata_ids": [
+      "Q18071668"
+    ]
+  },
+  {
+    "node_id": "n::sultan bayezid ii",
+    "name": "Sultan Bayezid II",
+    "type": "entity",
+    "aliases": [
+      "Q165983",
+      "Sultan Bayezid II",
+      "Adlî",
+      "Bayezid II",
+      "Sultan Bayazid II",
+      "Sultan of the Turks Bayazid II",
+      "Sultan of the Turks Bayezid II",
+      "Sultan of the Turks Bayezit II",
+      "Sultan Bayezit II",
+      "Sultan of the Turks Baiazet II",
+      "Sultan of the Turks Bajezid II"
+    ],
+    "source_docs": [
+      "bayezid ii"
+    ],
+    "wikidata_ids": [
+      "Q165983"
+    ]
+  },
+  {
+    "node_id": "n::bayezid ii",
+    "name": "Bayezid II",
+    "type": "entity",
+    "aliases": [
+      "Q165983",
+      "Sultan Bayezid II",
+      "Adlî",
+      "Bayezid II",
+      "Sultan Bayazid II",
+      "Sultan of the Turks Bayazid II",
+      "Sultan of the Turks Bayezid II",
+      "Sultan of the Turks Bayezit II",
+      "Sultan Bayezit II",
+      "Sultan of the Turks Baiazet II",
+      "Sultan of the Turks Bajezid II"
+    ],
+    "source_docs": [
+      "bayezid ii"
+    ],
+    "wikidata_ids": [
+      "Q165983"
+    ]
+  },
+  {
+    "node_id": "n::turkish",
+    "name": "Turkish",
+    "type": "entity",
+    "aliases": [
+      "Q43",
+      "tr",
+      "İhsan Sabancı",
+      "Republic of Turkey",
+      "🇹🇷",
+      "Turkey",
+      "TUR",
+      "Turkic",
+      "Turkish",
+      "Turk"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q43"
+    ]
+  },
+  {
+    "node_id": "n::surviving picasso",
+    "name": "Surviving Picasso",
+    "type": "entity",
+    "aliases": [
+      "Q1680069",
+      "Surviving Picasso"
+    ],
+    "source_docs": [
+      "surviving picasso"
+    ],
+    "wikidata_ids": [
+      "Q1680069"
+    ]
+  },
+  {
+    "node_id": "n::james ivory",
+    "name": "James Ivory",
+    "type": "entity",
+    "aliases": [
+      "Q51577",
+      "James Ivory"
+    ],
+    "source_docs": [
+      "james ivory"
+    ],
+    "wikidata_ids": [
+      "Q51577"
+    ]
+  },
+  {
+    "node_id": "n::america",
+    "name": "America",
+    "type": "entity",
+    "aliases": [
+      "Q30",
+      "the US",
+      "US",
+      "the USA",
+      "🇺🇸",
+      "U.S.A.",
+      "U.S.",
+      "America",
+      "the United States",
+      "US of A",
+      "USA",
+      "the United States of America",
+      "United States",
+      "United States of America",
+      "American"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q30"
+    ]
+  },
+  {
+    "node_id": "n::augustus paulet, 15th marquess of winchester",
+    "name": "Augustus Paulet, 15th Marquess of Winchester",
+    "type": "entity",
+    "aliases": [
+      "Q18378179",
+      "Augustus Paulet, 15th Marquess of Winchester"
+    ],
+    "source_docs": [
+      "augustus paulet, 15th marquess of winchester"
+    ],
+    "wikidata_ids": [
+      "Q18378179"
+    ]
+  },
+  {
+    "node_id": "n::john paulet, 14th marquess of winchester",
+    "name": "John Paulet, 14th Marquess of Winchester",
+    "type": "entity",
+    "aliases": [
+      "Q26222237",
+      "John Paulet",
+      "John Paulet, 14th Marquess of Winchester"
+    ],
+    "source_docs": [
+      "john paulet, 14th marquess of winchester"
+    ],
+    "wikidata_ids": [
+      "Q26222237"
+    ]
+  },
+  {
+    "node_id": "n::3 june 1801",
+    "name": "3 June 1801",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::infanta cristina of spain",
+    "name": "Infanta Cristina of Spain",
+    "type": "entity",
+    "aliases": [
+      "Q230580",
+      "Cristina Federica Victoria de Borbón y Grecia, Infanta de España",
+      "Infanta Cristina of Spain"
+    ],
+    "source_docs": [
+      "infanta cristina of spain"
+    ],
+    "wikidata_ids": [
+      "Q230580"
+    ]
+  },
+  {
+    "node_id": "n::king juan carlos",
+    "name": "King Juan Carlos",
+    "type": "entity",
+    "aliases": [
+      "Q19943",
+      "His Majesty Juan Carlos I, King of Spain",
+      "Juan Carlos",
+      "Juan Carlos of Spain",
+      "Juan Carlos Alfonso Victor Maria de Borbon y Borbon-Dos Sicilias",
+      "Juan Carlos Alfonso Víctor María de Borbón y Borbón-Dos Sicilias",
+      "Juan Carlos I of Spain",
+      "King Juan Carlos",
+      "Juan Carlos Alfonso Victor Maria de Borbón y de Borbón, Rey de España",
+      "Juan Carlos I"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q19943"
+    ]
+  },
+  {
+    "node_id": "n::juan carlos i",
+    "name": "Juan Carlos I",
+    "type": "entity",
+    "aliases": [
+      "Q19943",
+      "His Majesty Juan Carlos I, King of Spain",
+      "Juan Carlos",
+      "Juan Carlos of Spain",
+      "Juan Carlos Alfonso Victor Maria de Borbon y Borbon-Dos Sicilias",
+      "Juan Carlos Alfonso Víctor María de Borbón y Borbón-Dos Sicilias",
+      "Juan Carlos I of Spain",
+      "King Juan Carlos",
+      "Juan Carlos Alfonso Victor Maria de Borbón y de Borbón, Rey de España",
+      "Juan Carlos I"
+    ],
+    "source_docs": [
+      "juan carlos i of spain"
+    ],
+    "wikidata_ids": [
+      "Q19943"
+    ]
+  },
+  {
+    "node_id": "n::rome",
+    "name": "Rome",
+    "type": "entity",
+    "aliases": [
+      "Q220",
+      "Roma",
+      "The Eternal City",
+      "Rome Italy",
+      "Rome",
+      "Roman"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q220"
+    ]
+  },
+  {
+    "node_id": "n::downloaded",
+    "name": "Downloaded",
+    "type": "entity",
+    "aliases": [
+      "Q5303236",
+      "Downloaded (film)",
+      "Downloaded"
+    ],
+    "source_docs": [
+      "downloaded (film)"
+    ],
+    "wikidata_ids": [
+      "Q5303236"
+    ]
+  },
+  {
+    "node_id": "n::alex winter",
+    "name": "Alex Winter",
+    "type": "entity",
+    "aliases": [
+      "Q1398367",
+      "Alex Winter"
+    ],
+    "source_docs": [
+      "alex winter"
+    ],
+    "wikidata_ids": [
+      "Q1398367"
+    ]
+  },
+  {
+    "node_id": "n::george howard, 4th earl of suffolk",
+    "name": "George Howard, 4th Earl of Suffolk",
+    "type": "entity",
+    "aliases": [
+      "Q5540774",
+      "George Howard, 4th Earl of Suffolk"
+    ],
+    "source_docs": [
+      "george howard, 4th earl of suffolk"
+    ],
+    "wikidata_ids": [
+      "Q5540774"
+    ]
+  },
+  {
+    "node_id": "n::theophilus howard, 2nd earl of suffolk",
+    "name": "Theophilus Howard, 2nd Earl of Suffolk",
+    "type": "entity",
+    "aliases": [
+      "Q2419136",
+      "Theophilus Howard, 2nd Earl of Suffolk"
+    ],
+    "source_docs": [
+      "theophilus howard, 2nd earl of suffolk"
+    ],
+    "wikidata_ids": [
+      "Q2419136"
+    ]
+  },
+  {
+    "node_id": "n::saffron walden",
+    "name": "Saffron Walden",
+    "type": "entity",
+    "aliases": [
+      "Q183329",
+      "Saffron Walden, Essex",
+      "Saffron Walden"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q183329"
+    ]
+  },
+  {
+    "node_id": "n::alessandro ruspoli, 2nd prince of cerveteri",
+    "name": "Alessandro Ruspoli, 2nd Prince of Cerveteri",
+    "type": "entity",
+    "aliases": [
+      "Q3610276",
+      "Alessandro Ruspoli, 2nd Prince of Cerveteri"
+    ],
+    "source_docs": [
+      "alessandro ruspoli, 2nd prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q3610276"
+    ]
+  },
+  {
+    "node_id": "n::francesco maria marescotti ruspoli, 1st prince of cerveteri",
+    "name": "Francesco Maria Marescotti Ruspoli, 1st Prince of Cerveteri",
+    "type": "entity",
+    "aliases": [
+      "Q1978892",
+      "Francesco Maria Marescotti Ruspoli, 1st Prince of Cerveteri",
+      "Francesco Maria Marescotti Ruspoli"
+    ],
+    "source_docs": [
+      "francesco maria marescotti ruspoli, 1st prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q1978892"
+    ]
+  },
+  {
+    "node_id": "n::francesco maria marescotti ruspoli",
+    "name": "Francesco Maria Marescotti Ruspoli",
+    "type": "entity",
+    "aliases": [
+      "Q1978892",
+      "Francesco Maria Marescotti Ruspoli, 1st Prince of Cerveteri",
+      "Francesco Maria Marescotti Ruspoli"
+    ],
+    "source_docs": [
+      "francesco maria marescotti ruspoli, 1st prince of cerveteri"
+    ],
+    "wikidata_ids": [
+      "Q1978892"
+    ]
+  },
+  {
+    "node_id": "n::isabel de la cerda",
+    "name": "Isabel de la Cerda",
+    "type": "entity",
+    "aliases": [
+      "Q6077835",
+      "Isabel de la Cerda"
+    ],
+    "source_docs": [
+      "isabel de la cerda"
+    ],
+    "wikidata_ids": [
+      "Q6077835"
+    ]
+  },
+  {
+    "node_id": "n::luis de la cerda",
+    "name": "Luis de la Cerda",
+    "type": "entity",
+    "aliases": [
+      "Q2917985",
+      "Luis de la Cerda"
+    ],
+    "source_docs": [
+      "luis de la cerda"
+    ],
+    "wikidata_ids": [
+      "Q2917985"
+    ]
+  },
+  {
+    "node_id": "n::france",
+    "name": "France",
+    "type": "entity",
+    "aliases": [
+      "Q70972",
+      "Royaume de France",
+      "France",
+      "Kingdom of France",
+      "French",
+      "Frenchwoman",
+      "Frenchman",
+      "Q142",
+      "French Republic",
+      "Republic of France",
+      "La France",
+      "fr",
+      "FRA",
+      "FR",
+      "🇫🇷",
+      "République française"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q70972",
+      "Q142"
+    ]
+  },
+  {
+    "node_id": "n::imagina of isenburg-limburg",
+    "name": "Imagina of Isenburg-Limburg",
+    "type": "entity",
+    "aliases": [
+      "Q462848",
+      "Imagina of Isenburg",
+      "Imagina of Isenburg-Limburg"
+    ],
+    "source_docs": [
+      "imagina of isenburg-limburg"
+    ],
+    "wikidata_ids": [
+      "Q462848"
+    ]
+  },
+  {
+    "node_id": "n::adolf of nassau",
+    "name": "Adolf of Nassau",
+    "type": "entity",
+    "aliases": [
+      "Q160101",
+      "Adolf of Nassau",
+      "Adolf I",
+      "Adolf of Germany"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q160101"
+    ]
+  },
+  {
+    "node_id": "n::adolf of germany",
+    "name": "Adolf of Germany",
+    "type": "entity",
+    "aliases": [
+      "Q160101",
+      "Adolf of Nassau",
+      "Adolf I",
+      "Adolf of Germany"
+    ],
+    "source_docs": [
+      "adolf of germany"
+    ],
+    "wikidata_ids": [
+      "Q160101"
+    ]
+  },
+  {
+    "node_id": "n::göllheim",
+    "name": "Göllheim",
+    "type": "entity",
+    "aliases": [
+      "Q566711",
+      "Göllheim"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q566711"
+    ]
+  },
+  {
+    "node_id": "n::halldóra eldjárn",
+    "name": "Halldóra Eldjárn",
+    "type": "entity",
+    "aliases": [
+      "Q5642816",
+      "Halldóra Eldjárn",
+      "Halldora Eldjarn"
+    ],
+    "source_docs": [
+      "halldóra eldjárn"
+    ],
+    "wikidata_ids": [
+      "Q5642816"
+    ]
+  },
+  {
+    "node_id": "n::kristján eldjárn",
+    "name": "Kristján Eldjárn",
+    "type": "entity",
+    "aliases": [
+      "Q310396",
+      "Kristjan Eldjarn",
+      "Kristján Thórarinsson Eldjárn",
+      "Kristjan Thorarinsson Eldjarn",
+      "Kristján Eldjárn"
+    ],
+    "source_docs": [
+      "kristján eldjárn"
+    ],
+    "wikidata_ids": [
+      "Q310396"
+    ]
+  },
+  {
+    "node_id": "n::cleveland, ohio",
+    "name": "Cleveland, Ohio",
+    "type": "entity",
+    "aliases": [
+      "Q37320",
+      "Cleveland",
+      "Cleveland, Ohio",
+      "Cleveland, OH",
+      "Clevelander"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q37320"
+    ]
+  },
+  {
+    "node_id": "n::george lane-fox",
+    "name": "George Lane-Fox",
+    "type": "entity",
+    "aliases": [
+      "Q5541527",
+      "George Lane-Fox (MP)",
+      "George Lane-Fox"
+    ],
+    "source_docs": [
+      "george lane-fox (mp)"
+    ],
+    "wikidata_ids": [
+      "Q5541527"
+    ]
+  },
+  {
+    "node_id": "n::james fox-lane",
+    "name": "James Fox-Lane",
+    "type": "entity",
+    "aliases": [
+      "Q20810895",
+      "James Fox-Lane"
+    ],
+    "source_docs": [
+      "james fox-lane"
+    ],
+    "wikidata_ids": [
+      "Q20810895"
+    ]
+  },
+  {
+    "node_id": "n::christ's college, cambridge",
+    "name": "Christ's College, Cambridge",
+    "type": "entity",
+    "aliases": [
+      "Q714717",
+      "Christ's College, Cambridge",
+      "Christ's College",
+      "Christ's College, Cambridge University"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q714717"
+    ]
+  },
+  {
+    "node_id": "n::margaret stafford",
+    "name": "Margaret Stafford",
+    "type": "entity",
+    "aliases": [
+      "Q6760059",
+      "Margaret de Stafford",
+      "Margaret Stafford"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q6760059"
+    ]
+  },
+  {
+    "node_id": "n::philippa de beauchamp",
+    "name": "Philippa de Beauchamp",
+    "type": "entity",
+    "aliases": [
+      "Q7184742",
+      "Philippa de Beauchamp"
+    ],
+    "source_docs": [
+      "philippa de beauchamp"
+    ],
+    "wikidata_ids": [
+      "Q7184742"
+    ]
+  },
+  {
+    "node_id": "n::6 april 1386",
+    "name": "6 April 1386",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::johann nicolaus bach",
+    "name": "Johann Nicolaus Bach",
+    "type": "entity",
+    "aliases": [
+      "Q698797",
+      "Johann Nicolaus Bach",
+      "Johann Nikolaus Bach"
+    ],
+    "source_docs": [
+      "johann nicolaus bach"
+    ],
+    "wikidata_ids": [
+      "Q698797"
+    ]
+  },
+  {
+    "node_id": "n::johann christoph bach",
+    "name": "Johann Christoph Bach",
+    "type": "entity",
+    "aliases": [
+      "Q57829",
+      "Johann Christoph Bach",
+      "Johann Christoph Bach I"
+    ],
+    "source_docs": [
+      "johann christoph bach"
+    ],
+    "wikidata_ids": [
+      "Q57829"
+    ]
+  },
+  {
+    "node_id": "n::arnstadt",
+    "name": "Arnstadt",
+    "type": "entity",
+    "aliases": [
+      "Q490665",
+      "Arnstadt"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q490665"
+    ]
+  },
+  {
+    "node_id": "n::aashiq",
+    "name": "Aashiq",
+    "type": "entity",
+    "aliases": [
+      "Q2820106",
+      "Aashiq",
+      "Aashiq (2001 film)"
+    ],
+    "source_docs": [
+      "aashiq (2001 film)"
+    ],
+    "wikidata_ids": [
+      "Q2820106"
+    ]
+  },
+  {
+    "node_id": "n::indra kumar",
+    "name": "Indra Kumar",
+    "type": "entity",
+    "aliases": [
+      "Q3150542",
+      "Indra Kumar"
+    ],
+    "source_docs": [
+      "indra kumar"
+    ],
+    "wikidata_ids": [
+      "Q3150542"
+    ]
+  },
+  {
+    "node_id": "n::gujarati",
+    "name": "Gujarati",
+    "type": "entity",
+    "aliases": [
+      "Q1061",
+      "Dil",
+      "Gujarat State",
+      "Gujarat",
+      "Gujarati"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1061"
+    ]
+  },
+  {
+    "node_id": "n::thado hsinhtein (also known as athinkhaya of tagaung",
+    "name": "Thado Hsinhtein (also known as Athinkhaya of Tagaung",
+    "type": "entity",
+    "aliases": [
+      "Q20992097",
+      "Thado Hsinhtein (also known as Athinkhaya of Tagaung",
+      "Thado Hsinhtein of Tagaung"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q20992097"
+    ]
+  },
+  {
+    "node_id": "n::soe min kodawgyi",
+    "name": "Soe Min Kodawgyi",
+    "type": "entity",
+    "aliases": [
+      "Q17147137",
+      "Soe Min Kodawgyi"
+    ],
+    "source_docs": [
+      "soe min kodawgyi"
+    ],
+    "wikidata_ids": [
+      "Q17147137"
+    ]
+  },
+  {
+    "node_id": "n::inwa",
+    "name": "Inwa",
+    "type": "entity",
+    "aliases": [
+      "Q2199759",
+      "Ava",
+      "Inwa"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2199759"
+    ]
+  },
+  {
+    "node_id": "n::paris: xy",
+    "name": "Paris: XY",
+    "type": "entity",
+    "aliases": [
+      "Q7137182",
+      "Paris: XY"
+    ],
+    "source_docs": [
+      "paris: xy"
+    ],
+    "wikidata_ids": [
+      "Q7137182"
+    ]
+  },
+  {
+    "node_id": "n::zeka laplaine",
+    "name": "Zeka Laplaine",
+    "type": "entity",
+    "aliases": [
+      "Q3575116",
+      "Zeka Laplaine"
+    ],
+    "source_docs": [
+      "zeka laplaine"
+    ],
+    "wikidata_ids": [
+      "Q3575116"
+    ]
+  },
+  {
+    "node_id": "n::democratic republic of the congo",
+    "name": "Democratic Republic of the Congo",
+    "type": "entity",
+    "aliases": [
+      "Q974",
+      "Zaire",
+      "Congo",
+      "Democratic Republic of the Congo",
+      "Democratic Republic of Congo",
+      "Dem. Rep. Congo",
+      "🇨🇩",
+      "Dem. Republic of Congo",
+      "Dem. Republic of the Congo",
+      "cd",
+      "Congo (Kinshasa)",
+      "DRC",
+      "DR Congo",
+      "COD",
+      "Congo-Kinshasa",
+      "Zairean"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q974"
+    ]
+  },
+  {
+    "node_id": "n::a walk in the spring rain",
+    "name": "A Walk in the Spring Rain",
+    "type": "entity",
+    "aliases": [
+      "Q4660529",
+      "Walk in the Spring Rain",
+      "A Walk in the Spring Rain"
+    ],
+    "source_docs": [
+      "a walk in the spring rain"
+    ],
+    "wikidata_ids": [
+      "Q4660529"
+    ]
+  },
+  {
+    "node_id": "n::guy green",
+    "name": "Guy Green",
+    "type": "entity",
+    "aliases": [
+      "Q707321",
+      "Guy Green (filmmaker)",
+      "Guy Green"
+    ],
+    "source_docs": [
+      "guy green (filmmaker)"
+    ],
+    "wikidata_ids": [
+      "Q707321"
+    ]
+  },
+  {
+    "node_id": "n::british",
+    "name": "British",
+    "type": "entity",
+    "aliases": [
+      "Q145",
+      "U.K.",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "UK",
+      "GBR",
+      "🇬🇧",
+      "United Kingdom",
+      "British",
+      "Uk"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q145"
+    ]
+  },
+  {
+    "node_id": "n::you've been trumped",
+    "name": "You've Been Trumped",
+    "type": "entity",
+    "aliases": [
+      "Q8056695",
+      "You've Been Trumped"
+    ],
+    "source_docs": [
+      "you've been trumped"
+    ],
+    "wikidata_ids": [
+      "Q8056695"
+    ]
+  },
+  {
+    "node_id": "n::anthony baxter",
+    "name": "Anthony Baxter",
+    "type": "entity",
+    "aliases": [
+      "Q4772080",
+      "Anthony Baxter",
+      "Anthony Stuart Baxter",
+      "Anthony S. Baxter"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4772080"
+    ]
+  },
+  {
+    "node_id": "n::anthony stuart baxter",
+    "name": "Anthony Stuart Baxter",
+    "type": "entity",
+    "aliases": [
+      "Q4772080",
+      "Anthony Baxter",
+      "Anthony Stuart Baxter",
+      "Anthony S. Baxter"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4772080"
+    ]
+  },
+  {
+    "node_id": "n::rochdale",
+    "name": "Rochdale",
+    "type": "entity",
+    "aliases": [
+      "Q474605",
+      "Rochdale"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q474605"
+    ]
+  },
+  {
+    "node_id": "n::the trail of the lonesome pine",
+    "name": "The Trail of the Lonesome Pine",
+    "type": "entity",
+    "aliases": [
+      "Q7769879",
+      "The Trail of the Lonesome Pine",
+      "The Trail of the Lonesome Pine (1923 film)",
+      "Trail of the Lonesome Pine"
+    ],
+    "source_docs": [
+      "the trail of the lonesome pine (1923 film)"
+    ],
+    "wikidata_ids": [
+      "Q7769879"
+    ]
+  },
+  {
+    "node_id": "n::charles maigne",
+    "name": "Charles Maigne",
+    "type": "entity",
+    "aliases": [
+      "Q1123531",
+      "Charles Maigne"
+    ],
+    "source_docs": [
+      "charles maigne"
+    ],
+    "wikidata_ids": [
+      "Q1123531"
+    ]
+  },
+  {
+    "node_id": "n::richmond",
+    "name": "Richmond",
+    "type": "entity",
+    "aliases": [
+      "Q43421",
+      "Richmond",
+      "Richmond, VA",
+      "Richmond, Virginia",
+      "Richmonder"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q43421"
+    ]
+  },
+  {
+    "node_id": "n::maria",
+    "name": "Maria",
+    "type": "entity",
+    "aliases": [
+      "Q20500853",
+      "Maria",
+      "Maria (wife of Boris I of Bulgaria)"
+    ],
+    "source_docs": [
+      "maria (wife of boris i of bulgaria)"
+    ],
+    "wikidata_ids": [
+      "Q20500853"
+    ]
+  },
+  {
+    "node_id": "n::boris i of bulgaria",
+    "name": "Boris I of Bulgaria",
+    "type": "entity",
+    "aliases": [
+      "Q311057",
+      "Boris I of Bulgaria"
+    ],
+    "source_docs": [
+      "maria (wife of boris i of bulgaria)",
+      "boris i of bulgaria"
+    ],
+    "wikidata_ids": [
+      "Q311057"
+    ]
+  },
+  {
+    "node_id": "n::preslav",
+    "name": "Preslav",
+    "type": "entity",
+    "aliases": [
+      "Q243616",
+      "Veliki Preslav",
+      "Preslav"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q243616"
+    ]
+  },
+  {
+    "node_id": "n::bounce",
+    "name": "Bounce",
+    "type": "entity",
+    "aliases": [
+      "Q4949794",
+      "Bounce",
+      "Bounce (Sarah Connor song)"
+    ],
+    "source_docs": [
+      "bounce (sarah connor song)"
+    ],
+    "wikidata_ids": [
+      "Q4949794"
+    ]
+  },
+  {
+    "node_id": "n::sarah connor",
+    "name": "Sarah Connor",
+    "type": "entity",
+    "aliases": [
+      "Q63664",
+      "Sarah Terenzi",
+      "Sarah Connor (singer)",
+      "Sarah Connor",
+      "Sarah Marianne Corina Lewe"
+    ],
+    "source_docs": [
+      "bounce (sarah connor song)",
+      "sarah connor (singer)"
+    ],
+    "wikidata_ids": [
+      "Q63664"
+    ]
+  },
+  {
+    "node_id": "n::marc terenzi",
+    "name": "Marc Terenzi",
+    "type": "entity",
+    "aliases": [
+      "Q1354872",
+      "Marc Terenzi"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1354872"
+    ]
+  },
+  {
+    "node_id": "n::citizen mavzik",
+    "name": "Citizen Mavzik",
+    "type": "entity",
+    "aliases": [
+      "Q5122570",
+      "Citizen Mavzik"
+    ],
+    "source_docs": [
+      "citizen mavzik"
+    ],
+    "wikidata_ids": [
+      "Q5122570"
+    ]
+  },
+  {
+    "node_id": "n::alan melikdjanian",
+    "name": "Alan Melikdjanian",
+    "type": "entity",
+    "aliases": [
+      "Q4707305",
+      "Captain Disillusion",
+      "Alan Melikdjanian"
+    ],
+    "source_docs": [
+      "alan melikdjanian"
+    ],
+    "wikidata_ids": [
+      "Q4707305"
+    ]
+  },
+  {
+    "node_id": "n::latvian",
+    "name": "Latvian",
+    "type": "entity",
+    "aliases": [
+      "Q211",
+      "Republic of Latvia",
+      "Latvia",
+      "Latvian Republic",
+      "LVA",
+      "lv",
+      "🇱🇻",
+      "LAT",
+      "Latvija",
+      "Latvian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q211"
+    ]
+  },
+  {
+    "node_id": "n::eel girl",
+    "name": "Eel Girl",
+    "type": "entity",
+    "aliases": [
+      "Q5347047",
+      "Eel Girl"
+    ],
+    "source_docs": [
+      "eel girl"
+    ],
+    "wikidata_ids": [
+      "Q5347047"
+    ]
+  },
+  {
+    "node_id": "n::paul campion",
+    "name": "Paul Campion",
+    "type": "entity",
+    "aliases": [
+      "Q7149703",
+      "Paul Campion (film director)",
+      "Paul Campion"
+    ],
+    "source_docs": [
+      "paul campion (film director)"
+    ],
+    "wikidata_ids": [
+      "Q7149703"
+    ]
+  },
+  {
+    "node_id": "n::english",
+    "name": "English",
+    "type": "entity",
+    "aliases": [
+      "Q21",
+      "England",
+      "Lady Katherine Percy",
+      "Englishman",
+      "Englishwoman",
+      "English",
+      "Q179876",
+      "Kingdom of England"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q21",
+      "Q179876"
+    ]
+  },
+  {
+    "node_id": "n::duchy originals from waitrose",
+    "name": "Duchy Originals from Waitrose",
+    "type": "entity",
+    "aliases": [
+      "Q5311341",
+      "Waitrose Duchy Organic",
+      "Duchy Originals from Waitrose"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q5311341"
+    ]
+  },
+  {
+    "node_id": "n::charles, prince of wales",
+    "name": "Charles, Prince of Wales",
+    "type": "entity",
+    "aliases": [
+      "Q43274",
+      "Charles Windsor",
+      "HRH The Duke of Rothesay",
+      "Charles Philip Arthur George Mountbatten-Windsor",
+      "Charles Mountbatten-Windsor",
+      "Charles Wales",
+      "HRH Prince Charles, The Prince of Wales",
+      "Prince of Wales Charles",
+      "Prince Charles, The Prince of Wales",
+      "Charles Philip Arthur George",
+      "The Prince Of Wales",
+      "HRH The Prince Charles, Duke of Rothesay",
+      "Hrh The Prince of Wales",
+      "The Prince Charles, Duke of Rothesay",
+      "HRH The Prince Charles",
+      "Prince of Wales",
+      "Prince Charles, Duke of Rothesay",
+      "The Duke of Rothesay",
+      "HRH The Duke of Cornwall",
+      "Prince of Wales and Duke of Rothesay Charles Philip Arthur George",
+      "Prince Charles",
+      "HRH The Prince of Wales",
+      "HRH Prince Charles",
+      "The Duke of Cornwall",
+      "Charles Windsor, Prince of Wales",
+      "Charles, Prince of Wales"
+    ],
+    "source_docs": [
+      "charles, prince of wales"
+    ],
+    "wikidata_ids": [
+      "Q43274"
+    ]
+  },
+  {
+    "node_id": "n::elizabeth ii",
+    "name": "Elizabeth II",
+    "type": "entity",
+    "aliases": [
+      "Q9682",
+      "E.R. II",
+      "Elizabeth Alexandra Mary",
+      "Queen of Great Britain Elizabeth II",
+      "Queen Elizabeth II of the United Kingdom",
+      "Queen",
+      "Elizabeth II",
+      "Queen of Great Britain Elizabeth",
+      "HM Queen Elizabeth II",
+      "ER II",
+      "Elizabeth Mountbatten-Windsor",
+      "Queen of England",
+      "Her Royal Highness The Princess Elizabeth, Duchess of Edinburgh",
+      "Elizabeth Windsor",
+      "Princess Elizabeth, Duchess of Edinburgh",
+      "Queen of Great Britain Elisabetta",
+      "Her Royal Highness Princess Elizabeth of York",
+      "Her Royal Highness The Princess Elizabeth",
+      "Elizabeth the second",
+      "Queen Elizabeth II",
+      "Queen Elizabeth",
+      "Queen of United Kingdom Elizabeth II",
+      "Elizabeth Alexandra Mary Windsor",
+      "Elizabeth Windsor-Mountbatten"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q9682"
+    ]
+  },
+  {
+    "node_id": "n::like someone in love",
+    "name": "Like Someone in Love",
+    "type": "entity",
+    "aliases": [
+      "Q6547136",
+      "Like Someone in Love"
+    ],
+    "source_docs": [
+      "like someone in love"
+    ],
+    "wikidata_ids": [
+      "Q6547136"
+    ]
+  },
+  {
+    "node_id": "n::bing crosby",
+    "name": "Bing Crosby",
+    "type": "entity",
+    "aliases": [
+      "Q72984",
+      "Bing Crosby",
+      "Harry Lillis Crosby"
+    ],
+    "source_docs": [
+      "bing crosby"
+    ],
+    "wikidata_ids": [
+      "Q72984"
+    ]
+  },
+  {
+    "node_id": "n::heavenly swallows",
+    "name": "Heavenly Swallows",
+    "type": "entity",
+    "aliases": [
+      "Q4315515",
+      "Heavenly Swallows"
+    ],
+    "source_docs": [
+      "heavenly swallows"
+    ],
+    "wikidata_ids": [
+      "Q4315515"
+    ]
+  },
+  {
+    "node_id": "n::leonid kvinikhidze",
+    "name": "Leonid Kvinikhidze",
+    "type": "entity",
+    "aliases": [
+      "Q4218671",
+      "Leonid Kvinikhidze"
+    ],
+    "source_docs": [
+      "leonid kvinikhidze"
+    ],
+    "wikidata_ids": [
+      "Q4218671"
+    ]
+  },
+  {
+    "node_id": "n::st. petersburg",
+    "name": "St. Petersburg",
+    "type": "entity",
+    "aliases": [
+      "Q656",
+      "Leningrad",
+      "Petrograd",
+      "St. Petersburg",
+      "Sankt-Peterburg",
+      "St Petersburg",
+      "Saint Petersburg",
+      "Petersburg",
+      "Saint Petersburgian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q656"
+    ]
+  },
+  {
+    "node_id": "n::maggie mae hathaway",
+    "name": "Maggie Mae Hathaway",
+    "type": "entity",
+    "aliases": [
+      "Q50323445",
+      "Maggie Mae Hathaway",
+      "Maggie Hathaway"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q50323445"
+    ]
+  },
+  {
+    "node_id": "n::king coleman",
+    "name": "King Coleman",
+    "type": "entity",
+    "aliases": [
+      "Q6411347",
+      "Carlton Coleman",
+      "King Coleman"
+    ],
+    "source_docs": [
+      "king coleman"
+    ],
+    "wikidata_ids": [
+      "Q6411347"
+    ]
+  },
+  {
+    "node_id": "n::tampa",
+    "name": "Tampa",
+    "type": "entity",
+    "aliases": [
+      "Q49255",
+      "Tampa, Florida",
+      "Tampa, FL",
+      "Tampa",
+      "Tampanian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q49255"
+    ]
+  },
+  {
+    "node_id": "n::margaret, countess of anjou",
+    "name": "Margaret, Countess of Anjou",
+    "type": "entity",
+    "aliases": [
+      "Q241350",
+      "Margaret, Countess of Anjou"
+    ],
+    "source_docs": [
+      "margaret, countess of anjou"
+    ],
+    "wikidata_ids": [
+      "Q241350"
+    ]
+  },
+  {
+    "node_id": "n::charles of valois",
+    "name": "Charles of Valois",
+    "type": "entity",
+    "aliases": [
+      "Q270438",
+      "Charles, Count of Valois",
+      "Charles of Valois"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q270438"
+    ]
+  },
+  {
+    "node_id": "n::laughter and tears",
+    "name": "Laughter and Tears",
+    "type": "entity",
+    "aliases": [
+      "Q6498210",
+      "Laughter and Tears (1921 film)",
+      "Laughter and Tears"
+    ],
+    "source_docs": [
+      "laughter and tears (1921 film)"
+    ],
+    "wikidata_ids": [
+      "Q6498210"
+    ]
+  },
+  {
+    "node_id": "n::b. e. doxat-pratt",
+    "name": "B. E. Doxat-Pratt",
+    "type": "entity",
+    "aliases": [
+      "Q16864213",
+      "Bernard Edwin Doxat-Pratt",
+      "B. E. Doxat-Pratt"
+    ],
+    "source_docs": [
+      "b. e. doxat-pratt"
+    ],
+    "wikidata_ids": [
+      "Q16864213"
+    ]
+  },
+  {
+    "node_id": "n::hollandia",
+    "name": "Hollandia",
+    "type": "entity",
+    "aliases": [
+      "Q2387732",
+      "Hollandia Kloos",
+      "Hollandia"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2387732"
+    ]
+  },
+  {
+    "node_id": "n::behind the mask",
+    "name": "Behind the Mask",
+    "type": "entity",
+    "aliases": [
+      "Q4880861",
+      "Behind the Mask",
+      "Behind the Mask (1932 film)"
+    ],
+    "source_docs": [
+      "behind the mask (1932 film)"
+    ],
+    "wikidata_ids": [
+      "Q4880861"
+    ]
+  },
+  {
+    "node_id": "n::john francis dillon",
+    "name": "John Francis Dillon",
+    "type": "entity",
+    "aliases": [
+      "Q1752340",
+      "John F. Dillon",
+      "Jack Dillon",
+      "John Francis Dillon",
+      "John Dillon",
+      "John Francis Dillon (director)"
+    ],
+    "source_docs": [
+      "john francis dillon (director)"
+    ],
+    "wikidata_ids": [
+      "Q1752340"
+    ]
+  },
+  {
+    "node_id": "n::jiang mianheng",
+    "name": "Jiang Mianheng",
+    "type": "entity",
+    "aliases": [
+      "Q4120678",
+      "Jiang Mianheng"
+    ],
+    "source_docs": [
+      "jiang mianheng"
+    ],
+    "wikidata_ids": [
+      "Q4120678"
+    ]
+  },
+  {
+    "node_id": "n::wang yeping",
+    "name": "Wang Yeping",
+    "type": "entity",
+    "aliases": [
+      "Q717483",
+      "Wang Yeping"
+    ],
+    "source_docs": [
+      "wang yeping"
+    ],
+    "wikidata_ids": [
+      "Q717483"
+    ]
+  },
+  {
+    "node_id": "n::yangzhou",
+    "name": "Yangzhou",
+    "type": "entity",
+    "aliases": [
+      "Q57906",
+      "Yangzhou"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q57906"
+    ]
+  },
+  {
+    "node_id": "n::bernard",
+    "name": "Bernard",
+    "type": "entity",
+    "aliases": [
+      "Q1652432",
+      "Bernard (son of Charles the Fat)",
+      "Bernhard",
+      "Bernard"
+    ],
+    "source_docs": [
+      "bernard (son of charles the fat)"
+    ],
+    "wikidata_ids": [
+      "Q1652432"
+    ]
+  },
+  {
+    "node_id": "n::charles the fat",
+    "name": "Charles the Fat",
+    "type": "entity",
+    "aliases": [
+      "Q150712",
+      "Charles the Fat"
+    ],
+    "source_docs": [
+      "bernard (son of charles the fat)",
+      "charles the fat"
+    ],
+    "wikidata_ids": [
+      "Q150712"
+    ]
+  },
+  {
+    "node_id": "n::east francia",
+    "name": "East Francia",
+    "type": "entity",
+    "aliases": [
+      "Q153080",
+      "Kingdom of the East Franks",
+      "East Francia"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q153080"
+    ]
+  },
+  {
+    "node_id": "n::you are the life",
+    "name": "You Are the Life",
+    "type": "entity",
+    "aliases": [
+      "Q21870031",
+      "You Are the Life"
+    ],
+    "source_docs": [
+      "you are the life"
+    ],
+    "wikidata_ids": [
+      "Q21870031"
+    ]
+  },
+  {
+    "node_id": "n::franz eckstein",
+    "name": "Franz Eckstein",
+    "type": "entity",
+    "aliases": [
+      "Q15062295",
+      "Franz Eckstein"
+    ],
+    "source_docs": [
+      "franz eckstein"
+    ],
+    "wikidata_ids": [
+      "Q15062295"
+    ]
+  },
+  {
+    "node_id": "n::1945",
+    "name": "1945",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::karl eduard zachariae von lingenthal",
+    "name": "Karl Eduard Zachariae von Lingenthal",
+    "type": "entity",
+    "aliases": [
+      "Q95543",
+      "Karl Eduard Zachariae von Lingenthal"
+    ],
+    "source_docs": [
+      "karl eduard zachariae von lingenthal"
+    ],
+    "wikidata_ids": [
+      "Q95543"
+    ]
+  },
+  {
+    "node_id": "n::karl salomo zachariae von lingenthal",
+    "name": "Karl Salomo Zachariae von Lingenthal",
+    "type": "entity",
+    "aliases": [
+      "Q86155",
+      "Karl Salomo Zachariae von Lingenthal"
+    ],
+    "source_docs": [
+      "karl salomo zachariae von lingenthal"
+    ],
+    "wikidata_ids": [
+      "Q86155"
+    ]
+  },
+  {
+    "node_id": "n::university of leipzig",
+    "name": "University of Leipzig",
+    "type": "entity",
+    "aliases": [
+      "Q154804",
+      "Karl-Marx-Universität",
+      "Universität Leipzig",
+      "University of Leipzig",
+      "Leipzig University"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q154804"
+    ]
+  },
+  {
+    "node_id": "n::kailangan ko'y ikaw",
+    "name": "Kailangan Ko'y Ikaw",
+    "type": "entity",
+    "aliases": [
+      "Q6347859",
+      "Kailangan Ko'y Ikaw"
+    ],
+    "source_docs": [
+      "kailangan ko'y ikaw"
+    ],
+    "wikidata_ids": [
+      "Q6347859"
+    ]
+  },
+  {
+    "node_id": "n::joyce e. bernal",
+    "name": "Joyce E. Bernal",
+    "type": "entity",
+    "aliases": [
+      "Q6297464",
+      "Joyce E. Bernal",
+      "Joyce Bernal"
+    ],
+    "source_docs": [
+      "joyce e. bernal"
+    ],
+    "wikidata_ids": [
+      "Q6297464"
+    ]
+  },
+  {
+    "node_id": "n::philippines",
+    "name": "Philippines",
+    "type": "entity",
+    "aliases": [
+      "Q928",
+      "Philippine Islands",
+      "the Philippines",
+      "PHI",
+      "🇵🇭",
+      "ph",
+      "PHL",
+      "PH",
+      "Philippines",
+      "Republic of the Philippines",
+      "RP",
+      "Pinay",
+      "Pinoy",
+      "Philippine",
+      "Filipino"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q928"
+    ]
+  },
+  {
+    "node_id": "n::(otto)",
+    "name": "(Otto)",
+    "type": "entity",
+    "aliases": [
+      "Q21427903",
+      "(Otto)"
+    ],
+    "source_docs": [
+      "(otto)"
+    ],
+    "wikidata_ids": [
+      "Q21427903"
+    ]
+  },
+  {
+    "node_id": "n::job roggeveen",
+    "name": "Job Roggeveen",
+    "type": "entity",
+    "aliases": [
+      "Q21100251",
+      "Job Roggeveen"
+    ],
+    "source_docs": [
+      "job roggeveen"
+    ],
+    "wikidata_ids": [
+      "Q21100251"
+    ]
+  },
+  {
+    "node_id": "n::design academy",
+    "name": "Design Academy",
+    "type": "entity",
+    "aliases": [
+      "Q1200661",
+      "Design Academy",
+      "Design Academy Eindhoven"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1200661"
+    ]
+  },
+  {
+    "node_id": "n::the wounded angel",
+    "name": "The Wounded Angel",
+    "type": "entity",
+    "aliases": [
+      "Q22905790",
+      "The Wounded Angel",
+      "The Wounded Angel (film)",
+      "Wounded Angel"
+    ],
+    "source_docs": [
+      "the wounded angel (film)"
+    ],
+    "wikidata_ids": [
+      "Q22905790"
+    ]
+  },
+  {
+    "node_id": "n::emir baigazin",
+    "name": "Emir Baigazin",
+    "type": "entity",
+    "aliases": [
+      "Q12269954",
+      "Emir Baigazin",
+      "Emir Baighazin"
+    ],
+    "source_docs": [
+      "emir baigazin"
+    ],
+    "wikidata_ids": [
+      "Q12269954"
+    ]
+  },
+  {
+    "node_id": "n::kazakh national academy of arts",
+    "name": "Kazakh National Academy of Arts",
+    "type": "entity",
+    "aliases": [
+      "Q4208080",
+      "Kazakh National Academy of Arts"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4208080"
+    ]
+  },
+  {
+    "node_id": "n::small town boy",
+    "name": "Small Town Boy",
+    "type": "entity",
+    "aliases": [
+      "Q7542932",
+      "Small Town Boy"
+    ],
+    "source_docs": [
+      "small town boy"
+    ],
+    "wikidata_ids": [
+      "Q7542932"
+    ]
+  },
+  {
+    "node_id": "n::glenn tryon",
+    "name": "Glenn Tryon",
+    "type": "entity",
+    "aliases": [
+      "Q4503619",
+      "Glenn Monroe Kunkel",
+      "Glenn Tryon"
+    ],
+    "source_docs": [
+      "glenn tryon"
+    ],
+    "wikidata_ids": [
+      "Q4503619"
+    ]
+  },
+  {
+    "node_id": "n::orlando, florida",
+    "name": "Orlando, Florida",
+    "type": "entity",
+    "aliases": [
+      "Q49233",
+      "Orlando, Florida",
+      "City of Orlando",
+      "Orlando"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q49233"
+    ]
+  },
+  {
+    "node_id": "n::the united states of america",
+    "name": "The United States of America",
+    "type": "entity",
+    "aliases": [
+      "Q60791225",
+      "The United States of America (film)",
+      "The United States of America"
+    ],
+    "source_docs": [
+      "the united states of america (film)"
+    ],
+    "wikidata_ids": [
+      "Q60791225"
+    ]
+  },
+  {
+    "node_id": "n::james benning",
+    "name": "James Benning",
+    "type": "entity",
+    "aliases": [
+      "Q1680032",
+      "James Benning (film director)",
+      "James Benning"
+    ],
+    "source_docs": [
+      "james benning (film director)"
+    ],
+    "wikidata_ids": [
+      "Q1680032"
+    ]
+  },
+  {
+    "node_id": "n::milwaukee",
+    "name": "Milwaukee",
+    "type": "entity",
+    "aliases": [
+      "Q37836",
+      "Milwaukee City, Wisconsin",
+      "Milwaukee",
+      "Porkopolis",
+      "Milwaukee, Wisconsin",
+      "Milwaukeean"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q37836"
+    ]
+  },
+  {
+    "node_id": "n::good people",
+    "name": "Good People",
+    "type": "entity",
+    "aliases": [
+      "Q14833945",
+      "Good People",
+      "Good People (film)"
+    ],
+    "source_docs": [
+      "good people (film)"
+    ],
+    "wikidata_ids": [
+      "Q14833945"
+    ]
+  },
+  {
+    "node_id": "n::henrik ruben genz",
+    "name": "Henrik Ruben Genz",
+    "type": "entity",
+    "aliases": [
+      "Q5716496",
+      "Henrik Ruben Genz"
+    ],
+    "source_docs": [
+      "henrik ruben genz"
+    ],
+    "wikidata_ids": [
+      "Q5716496"
+    ]
+  },
+  {
+    "node_id": "n::denmark",
+    "name": "Denmark",
+    "type": "entity",
+    "aliases": [
+      "Q35",
+      "metropolitan Denmark",
+      "Denmark",
+      "🇩🇰",
+      "Danmark",
+      "TAN",
+      "DNK",
+      "DEK",
+      "Denmark proper",
+      "DEN",
+      "dk",
+      "DK",
+      "Danish",
+      "Dansker",
+      "Dane"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q35"
+    ]
+  },
+  {
+    "node_id": "n::when you're smiling",
+    "name": "When You're Smiling",
+    "type": "entity",
+    "aliases": [
+      "Q7992841",
+      "When You're Smiling"
+    ],
+    "source_docs": [
+      "when you're smiling"
+    ],
+    "wikidata_ids": [
+      "Q7992841"
+    ]
+  },
+  {
+    "node_id": "n::louis armstrong",
+    "name": "Louis Armstrong",
+    "type": "entity",
+    "aliases": [
+      "Q1779",
+      "Louis Armstrong",
+      "Pops",
+      "Satchmo"
+    ],
+    "source_docs": [
+      "louis armstrong"
+    ],
+    "wikidata_ids": [
+      "Q1779"
+    ]
+  },
+  {
+    "node_id": "n::prince ioann konstantinovich of russia",
+    "name": "Prince Ioann Konstantinovich of Russia",
+    "type": "entity",
+    "aliases": [
+      "Q524437",
+      "Prince John Konstantinovich of Russia",
+      "Prince Ioann Konstantinovich of Russia",
+      "Prince John Constantinovich of Russia"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q524437"
+    ]
+  },
+  {
+    "node_id": "n::princess elisabeth of saxe-altenburg",
+    "name": "Princess Elisabeth of Saxe-Altenburg",
+    "type": "entity",
+    "aliases": [
+      "Q235609",
+      "Princess Elisabeth of Saxe-Altenburg",
+      "Princess Elisabeth of Saxe-Altenburg (1865–1927)"
+    ],
+    "source_docs": [
+      "princess elisabeth of saxe-altenburg (1865–1927)"
+    ],
+    "wikidata_ids": [
+      "Q235609"
+    ]
+  },
+  {
+    "node_id": "n::24 march 1927",
+    "name": "24 March 1927",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::ginevra d'este",
+    "name": "Ginevra d'Este",
+    "type": "entity",
+    "aliases": [
+      "Q2946984",
+      "Ginevra d'Este"
+    ],
+    "source_docs": [
+      "ginevra d'este"
+    ],
+    "wikidata_ids": [
+      "Q2946984"
+    ]
+  },
+  {
+    "node_id": "n::sigismondo pandolfo malatesta",
+    "name": "Sigismondo Pandolfo Malatesta",
+    "type": "entity",
+    "aliases": [
+      "Q506640",
+      "Sigismondo Pandolfo Malatesti",
+      "Sigismondo Pandolfo Malatesta Rimini",
+      "Sigismondo Pandolfo Malatesta"
+    ],
+    "source_docs": [
+      "sigismondo pandolfo malatesta"
+    ],
+    "wikidata_ids": [
+      "Q506640"
+    ]
+  },
+  {
+    "node_id": "n::rimini",
+    "name": "Rimini",
+    "type": "entity",
+    "aliases": [
+      "Q13369",
+      "Rimini"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q13369"
+    ]
+  },
+  {
+    "node_id": "n::sixteen",
+    "name": "Sixteen",
+    "type": "entity",
+    "aliases": [
+      "Q7533039",
+      "Sixteen",
+      "Sixteen (1943 film)"
+    ],
+    "source_docs": [
+      "sixteen (1943 film)"
+    ],
+    "wikidata_ids": [
+      "Q7533039"
+    ]
+  },
+  {
+    "node_id": "n::carlos hugo christensen",
+    "name": "Carlos Hugo Christensen",
+    "type": "entity",
+    "aliases": [
+      "Q4241251",
+      "Carlos Hugo Christensen"
+    ],
+    "source_docs": [
+      "carlos hugo christensen"
+    ],
+    "wikidata_ids": [
+      "Q4241251"
+    ]
+  },
+  {
+    "node_id": "n::santiago del estero",
+    "name": "Santiago del Estero",
+    "type": "entity",
+    "aliases": [
+      "Q44253",
+      "Santiago del Estero"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q44253"
+    ]
+  },
+  {
+    "node_id": "n::tutyu and totyo",
+    "name": "Tutyu and Totyo",
+    "type": "entity",
+    "aliases": [
+      "Q21647237",
+      "Tutyu and Totyo"
+    ],
+    "source_docs": [
+      "tutyu and totyo"
+    ],
+    "wikidata_ids": [
+      "Q21647237"
+    ]
+  },
+  {
+    "node_id": "n::alexander korda",
+    "name": "Alexander Korda",
+    "type": "entity",
+    "aliases": [
+      "Q55221",
+      "Sir Alexander Korda",
+      "Alexander Korda"
+    ],
+    "source_docs": [
+      "alexander korda"
+    ],
+    "wikidata_ids": [
+      "Q55221"
+    ]
+  },
+  {
+    "node_id": "n::gustav von leonhard",
+    "name": "Gustav von Leonhard",
+    "type": "entity",
+    "aliases": [
+      "Q105207",
+      "Gustav von Leonhard",
+      "Gustav Leonhard"
+    ],
+    "source_docs": [
+      "gustav von leonhard"
+    ],
+    "wikidata_ids": [
+      "Q105207"
+    ]
+  },
+  {
+    "node_id": "n::karl cäsar von leonhard",
+    "name": "Karl Cäsar von Leonhard",
+    "type": "entity",
+    "aliases": [
+      "Q124569",
+      "Karl Cäsar von Leonhard",
+      "Karl Caesar von Leonhard",
+      "von Leonhard K C",
+      "Leonhard K C"
+    ],
+    "source_docs": [
+      "karl cäsar von leonhard"
+    ],
+    "wikidata_ids": [
+      "Q124569"
+    ]
+  },
+  {
+    "node_id": "n::23 january 1862",
+    "name": "23 January 1862",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::dip",
+    "name": "Dip",
+    "type": "entity",
+    "aliases": [
+      "Q60744747",
+      "Dip (song)",
+      "Dip"
+    ],
+    "source_docs": [
+      "dip (song)"
+    ],
+    "wikidata_ids": [
+      "Q60744747"
+    ]
+  },
+  {
+    "node_id": "n::nicki minaj",
+    "name": "Nicki Minaj",
+    "type": "entity",
+    "aliases": [
+      "Q162202",
+      "Onika Maraj",
+      "Nicki Minaj"
+    ],
+    "source_docs": [
+      "nicki minaj"
+    ],
+    "wikidata_ids": [
+      "Q162202"
+    ]
+  },
+  {
+    "node_id": "n::port of spain",
+    "name": "Port of Spain",
+    "type": "entity",
+    "aliases": [
+      "Q39178",
+      "Port of Spain",
+      "Puerto España",
+      "Port-of-Spain"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q39178"
+    ]
+  },
+  {
+    "node_id": "n::aahuti",
+    "name": "Aahuti",
+    "type": "entity",
+    "aliases": [
+      "Q15716483",
+      "Aahuti (1985 film)",
+      "Aahuti"
+    ],
+    "source_docs": [
+      "aahuti (1985 film)"
+    ],
+    "wikidata_ids": [
+      "Q15716483"
+    ]
+  },
+  {
+    "node_id": "n::t. s. nagabharana",
+    "name": "T. S. Nagabharana",
+    "type": "entity",
+    "aliases": [
+      "Q3764204",
+      "T. S. Nagabharana"
+    ],
+    "source_docs": [
+      "t. s. nagabharana"
+    ],
+    "wikidata_ids": [
+      "Q3764204"
+    ]
+  },
+  {
+    "node_id": "n::bangalore",
+    "name": "Bangalore",
+    "type": "entity",
+    "aliases": [
+      "Q1355",
+      "ಬೆಂದಕಾಳೂರು",
+      "Namma Bengaluru",
+      "Bangalore",
+      "Bengaluru",
+      "Bangalorean"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1355"
+    ]
+  },
+  {
+    "node_id": "n::eleanor de clare",
+    "name": "Eleanor de Clare",
+    "type": "entity",
+    "aliases": [
+      "Q2160835",
+      "Eleanor de Clare, suo jure 6th Lady of Glamorgan",
+      "Eleanor de Clare"
+    ],
+    "source_docs": [
+      "eleanor de clare"
+    ],
+    "wikidata_ids": [
+      "Q2160835"
+    ]
+  },
+  {
+    "node_id": "n::hugh despenser the younger",
+    "name": "Hugh Despenser the Younger",
+    "type": "entity",
+    "aliases": [
+      "Q711383",
+      "Hugh le Despenser",
+      "Hugh Despenser the younger",
+      "Hugh Despenser the Younger",
+      "the younger Despenser"
+    ],
+    "source_docs": [
+      "hugh despenser the younger"
+    ],
+    "wikidata_ids": [
+      "Q711383"
+    ]
+  },
+  {
+    "node_id": "n::hanged, drawn and quartered",
+    "name": "hanged, drawn and quartered",
+    "type": "entity",
+    "aliases": [
+      "Q877524",
+      "hanging, drawing, and quartering",
+      "Hanged, drawn and quartered",
+      "drawn and quartered",
+      "hanged, drawn, and quartered",
+      "hanged, drawn and quartered",
+      "drawing and quartering"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q877524"
+    ]
+  },
+  {
+    "node_id": "n::abu al-ala idris",
+    "name": "Abu al-Ala Idris",
+    "type": "entity",
+    "aliases": [
+      "Q1361969",
+      "Almohad Caliph Idris I",
+      "Idris al-Ma'mun",
+      "Abu al-Ala Idris"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1361969"
+    ]
+  },
+  {
+    "node_id": "n::abu yusuf yaqub al-mansur",
+    "name": "Abu Yusuf Yaqub al-Mansur",
+    "type": "entity",
+    "aliases": [
+      "Q455739",
+      "Yaqub",
+      "Abu Yusuf Yaqub al-Mansur"
+    ],
+    "source_docs": [
+      "abu yusuf yaqub al-mansur"
+    ],
+    "wikidata_ids": [
+      "Q455739"
+    ]
+  },
+  {
+    "node_id": "n::morocco",
+    "name": "Morocco",
+    "type": "entity",
+    "aliases": [
+      "Q1028",
+      "Marocco",
+      "Arab Maghreb",
+      "al-Maġrib",
+      "Kingdom of Morocco",
+      "Maroc",
+      "🇲🇦",
+      "Lmaġrib",
+      "MAR",
+      "Morocco",
+      "ma",
+      "Moses",
+      "Moroccan"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1028"
+    ]
+  },
+  {
+    "node_id": "n::charles james irwin grant",
+    "name": "Charles James Irwin Grant",
+    "type": "entity",
+    "aliases": [
+      "Q2959435",
+      "Charles James Irwin Grant",
+      "Charles James Irwin Grant, 6th Baron de Longueuil",
+      "Charles Grant"
+    ],
+    "source_docs": [
+      "charles james irwin grant, 6th baron de longueuil"
+    ],
+    "wikidata_ids": [
+      "Q2959435"
+    ]
+  },
+  {
+    "node_id": "n::charles william grant",
+    "name": "Charles William Grant",
+    "type": "entity",
+    "aliases": [
+      "Q2960446",
+      "Charles William Grant, 5th Baron de Longueuil",
+      "Charles William Grant",
+      "Charles Grant"
+    ],
+    "source_docs": [
+      "charles william grant, 5th baron de longueuil"
+    ],
+    "wikidata_ids": [
+      "Q2960446"
+    ]
+  },
+  {
+    "node_id": "n::kingston",
+    "name": "Kingston",
+    "type": "entity",
+    "aliases": [
+      "Q202973",
+      "Kingston, Ontario",
+      "Kingston",
+      "Kingstonian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q202973"
+    ]
+  },
+  {
+    "node_id": "n::the alster case",
+    "name": "The Alster Case",
+    "type": "entity",
+    "aliases": [
+      "Q14453378",
+      "Alster Case",
+      "The Alster Case"
+    ],
+    "source_docs": [
+      "the alster case"
+    ],
+    "wikidata_ids": [
+      "Q14453378"
+    ]
+  },
+  {
+    "node_id": "n::j. charles haydon",
+    "name": "J. Charles Haydon",
+    "type": "entity",
+    "aliases": [
+      "Q2076716",
+      "J. Charles Haydon"
+    ],
+    "source_docs": [
+      "j. charles haydon"
+    ],
+    "wikidata_ids": [
+      "Q2076716"
+    ]
+  },
+  {
+    "node_id": "n::frederick, maryland",
+    "name": "Frederick, Maryland",
+    "type": "entity",
+    "aliases": [
+      "Q472675",
+      "Frederick",
+      "Frederick, MD",
+      "Frederick, Maryland"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q472675"
+    ]
+  },
+  {
+    "node_id": "n::2 days in new york",
+    "name": "2 Days in New York",
+    "type": "entity",
+    "aliases": [
+      "Q2778386",
+      "Two Days in New York",
+      "2 Days in New York"
+    ],
+    "source_docs": [
+      "2 days in new york"
+    ],
+    "wikidata_ids": [
+      "Q2778386"
+    ]
+  },
+  {
+    "node_id": "n::julie delpy",
+    "name": "Julie Delpy",
+    "type": "entity",
+    "aliases": [
+      "Q110462",
+      "Julie Delpy"
+    ],
+    "source_docs": [
+      "julie delpy"
+    ],
+    "wikidata_ids": [
+      "Q110462"
+    ]
+  },
+  {
+    "node_id": "n::tisch",
+    "name": "Tisch",
+    "type": "entity",
+    "aliases": [
+      "Q797078",
+      "Tisch School of the Arts",
+      "New York University Film School",
+      "New York University Tisch School of the Arts",
+      "Tisch"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q797078"
+    ]
+  },
+  {
+    "node_id": "n::the dressmaker from paris",
+    "name": "The Dressmaker from Paris",
+    "type": "entity",
+    "aliases": [
+      "Q7731010",
+      "The Dressmaker from Paris",
+      "Dressmaker from Paris"
+    ],
+    "source_docs": [
+      "the dressmaker from paris"
+    ],
+    "wikidata_ids": [
+      "Q7731010"
+    ]
+  },
+  {
+    "node_id": "n::paul bern",
+    "name": "Paul Bern",
+    "type": "entity",
+    "aliases": [
+      "Q64678",
+      "Paul Bern"
+    ],
+    "source_docs": [
+      "paul bern"
+    ],
+    "wikidata_ids": [
+      "Q64678"
+    ]
+  },
+  {
+    "node_id": "n::jean harlow",
+    "name": "Jean Harlow",
+    "type": "entity",
+    "aliases": [
+      "Q105719",
+      "Harlean Harlow Carpenter",
+      "Jean Harlow",
+      "The Blonde Bombshell",
+      "The Baby",
+      "Harlean Carpenter",
+      "The Platinum Blonde"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q105719"
+    ]
+  },
+  {
+    "node_id": "n::pontianak harum sundal malam 2",
+    "name": "Pontianak Harum Sundal Malam 2",
+    "type": "entity",
+    "aliases": [
+      "Q12506204",
+      "Pontianak Harum Sundal Malam 2"
+    ],
+    "source_docs": [
+      "pontianak harum sundal malam 2"
+    ],
+    "wikidata_ids": [
+      "Q12506204"
+    ]
+  },
+  {
+    "node_id": "n::shuhaimi baba",
+    "name": "Shuhaimi Baba",
+    "type": "entity",
+    "aliases": [
+      "Q7504691",
+      "Shuhaimi Baba"
+    ],
+    "source_docs": [
+      "shuhaimi baba"
+    ],
+    "wikidata_ids": [
+      "Q7504691"
+    ]
+  },
+  {
+    "node_id": "n::negeri sembilan",
+    "name": "Negeri Sembilan",
+    "type": "entity",
+    "aliases": [
+      "Q213893",
+      "Negeri Sembilan",
+      "Negeri Sembilanese"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q213893"
+    ]
+  },
+  {
+    "node_id": "n::the venice project",
+    "name": "The Venice Project",
+    "type": "entity",
+    "aliases": [
+      "Q7772175",
+      "The Venice Project",
+      "Venice Project"
+    ],
+    "source_docs": [
+      "the venice project"
+    ],
+    "wikidata_ids": [
+      "Q7772175"
+    ]
+  },
+  {
+    "node_id": "n::robert dornhelm",
+    "name": "Robert Dornhelm",
+    "type": "entity",
+    "aliases": [
+      "Q79060",
+      "Robert Dornhelm"
+    ],
+    "source_docs": [
+      "robert dornhelm"
+    ],
+    "wikidata_ids": [
+      "Q79060"
+    ]
+  },
+  {
+    "node_id": "n::temesvár",
+    "name": "Temesvár",
+    "type": "entity",
+    "aliases": [
+      "Q83404",
+      "Temesvár",
+      "Timisoara",
+      "Timişoara",
+      "Timișoara",
+      "Temeswar",
+      "Temesvar"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q83404"
+    ]
+  },
+  {
+    "node_id": "n::beautiful mexico",
+    "name": "Beautiful Mexico",
+    "type": "entity",
+    "aliases": [
+      "Q24514521",
+      "Beautiful Mexico"
+    ],
+    "source_docs": [
+      "beautiful mexico"
+    ],
+    "wikidata_ids": [
+      "Q24514521"
+    ]
+  },
+  {
+    "node_id": "n::ramón pereda",
+    "name": "Ramón Pereda",
+    "type": "entity",
+    "aliases": [
+      "Q20685112",
+      "Ramón Pereda"
+    ],
+    "source_docs": [
+      "ramón pereda"
+    ],
+    "wikidata_ids": [
+      "Q20685112"
+    ]
+  },
+  {
+    "node_id": "n::maría antonieta pons",
+    "name": "María Antonieta Pons",
+    "type": "entity",
+    "aliases": [
+      "Q3296422",
+      "María Antonieta Pons",
+      "Maria Antonieta Pons"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3296422"
+    ]
+  },
+  {
+    "node_id": "n::dog pound",
+    "name": "Dog Pound",
+    "type": "entity",
+    "aliases": [
+      "Q1234633",
+      "Dog Pound",
+      "Dog Pound (film)"
+    ],
+    "source_docs": [
+      "dog pound (film)"
+    ],
+    "wikidata_ids": [
+      "Q1234633"
+    ]
+  },
+  {
+    "node_id": "n::kim chapiron",
+    "name": "Kim Chapiron",
+    "type": "entity",
+    "aliases": [
+      "Q3196691",
+      "Kim Chapiron"
+    ],
+    "source_docs": [
+      "kim chapiron"
+    ],
+    "wikidata_ids": [
+      "Q3196691"
+    ]
+  },
+  {
+    "node_id": "n::sweetly you'll die through love",
+    "name": "Sweetly You'll Die Through Love",
+    "type": "entity",
+    "aliases": [
+      "Q5967175",
+      "La llamada del sexo",
+      "Sweetly You'll Die Through Love"
+    ],
+    "source_docs": [
+      "sweetly you'll die through love"
+    ],
+    "wikidata_ids": [
+      "Q5967175"
+    ]
+  },
+  {
+    "node_id": "n::tulio demicheli",
+    "name": "Tulio Demicheli",
+    "type": "entity",
+    "aliases": [
+      "Q364348",
+      "Tulio Demicheli"
+    ],
+    "source_docs": [
+      "tulio demicheli"
+    ],
+    "wikidata_ids": [
+      "Q364348"
+    ]
+  },
+  {
+    "node_id": "n::madrid",
+    "name": "Madrid",
+    "type": "entity",
+    "aliases": [
+      "Q2807",
+      "Madrid, Spain",
+      "City of Madrid",
+      "Madrid",
+      "Mayrití",
+      "Madrileño",
+      "Madrideño",
+      "Mageritense",
+      "Matritense"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2807"
+    ]
+  },
+  {
+    "node_id": "n::lady magdalene's",
+    "name": "Lady Magdalene's",
+    "type": "entity",
+    "aliases": [
+      "Q6470385",
+      "Lady Magdalene's"
+    ],
+    "source_docs": [
+      "lady magdalene's"
+    ],
+    "wikidata_ids": [
+      "Q6470385"
+    ]
+  },
+  {
+    "node_id": "n::j. neil schulman",
+    "name": "J. Neil Schulman",
+    "type": "entity",
+    "aliases": [
+      "Q29621",
+      "J. Neil Schulman",
+      "Joseph Neil Schulman"
+    ],
+    "source_docs": [
+      "j. neil schulman"
+    ],
+    "wikidata_ids": [
+      "Q29621"
+    ]
+  },
+  {
+    "node_id": "n::prometheus award",
+    "name": "Prometheus Award",
+    "type": "entity",
+    "aliases": [
+      "Q142392",
+      "Prometheus Award"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q142392"
+    ]
+  },
+  {
+    "node_id": "n::i live on danger",
+    "name": "I Live on Danger",
+    "type": "entity",
+    "aliases": [
+      "Q5978013",
+      "I Live on Danger"
+    ],
+    "source_docs": [
+      "i live on danger"
+    ],
+    "wikidata_ids": [
+      "Q5978013"
+    ]
+  },
+  {
+    "node_id": "n::sam white",
+    "name": "Sam White",
+    "type": "entity",
+    "aliases": [
+      "Q2216676",
+      "Sam White (film producer)",
+      "Sam White"
+    ],
+    "source_docs": [
+      "sam white (film producer)"
+    ],
+    "wikidata_ids": [
+      "Q2216676"
+    ]
+  },
+  {
+    "node_id": "n::the zone",
+    "name": "The Zone",
+    "type": "entity",
+    "aliases": [
+      "Q50828038",
+      "The Zone",
+      "Zone",
+      "The Zone (2017 film)"
+    ],
+    "source_docs": [
+      "the zone (2017 film)"
+    ],
+    "wikidata_ids": [
+      "Q50828038"
+    ]
+  },
+  {
+    "node_id": "n::denys desjardins",
+    "name": "Denys Desjardins",
+    "type": "entity",
+    "aliases": [
+      "Q3023402",
+      "Denys Desjardins"
+    ],
+    "source_docs": [
+      "denys desjardins"
+    ],
+    "wikidata_ids": [
+      "Q3023402"
+    ]
+  },
+  {
+    "node_id": "n::montreal, quebec",
+    "name": "Montreal, Quebec",
+    "type": "entity",
+    "aliases": [
+      "Q340",
+      "Montreal, Quebec",
+      "Ville-Marie",
+      "Montreal",
+      "Ville de Montréal",
+      "Montréal",
+      "Ville de Montreal",
+      "City of Montreal",
+      "Montréaler",
+      "Montréalais",
+      "Montrealer"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q340"
+    ]
+  },
+  {
+    "node_id": "n::princess augusta of saxe-meiningen",
+    "name": "Princess Augusta of Saxe-Meiningen",
+    "type": "entity",
+    "aliases": [
+      "Q3629562",
+      "Augusta de Saxònia-Meiningen",
+      "Princess Augusta of Saxe-Meiningen",
+      "Augusta de Saxonia-Meiningen"
+    ],
+    "source_docs": [
+      "princess augusta of saxe-meiningen"
+    ],
+    "wikidata_ids": [
+      "Q3629562"
+    ]
+  },
+  {
+    "node_id": "n::bernhard ii, duke of saxe-meiningen",
+    "name": "Bernhard II, Duke of Saxe-Meiningen",
+    "type": "entity",
+    "aliases": [
+      "Q702910",
+      "Bernhard II, Duke of Saxe-Meiningen"
+    ],
+    "source_docs": [
+      "bernhard ii, duke of saxe-meiningen"
+    ],
+    "wikidata_ids": [
+      "Q702910"
+    ]
+  },
+  {
+    "node_id": "n::3 december 1882",
+    "name": "3 December 1882",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::elizabeth fitzalan, duchess of norfolk",
+    "name": "Elizabeth Fitzalan, Duchess of Norfolk",
+    "type": "entity",
+    "aliases": [
+      "Q5362776",
+      "Elizabeth FitzAlan",
+      "Elizabeth Fitzalan, Duchess of Norfolk"
+    ],
+    "source_docs": [
+      "elizabeth fitzalan, duchess of norfolk"
+    ],
+    "wikidata_ids": [
+      "Q5362776"
+    ]
+  },
+  {
+    "node_id": "n::thomas mowbray",
+    "name": "Thomas Mowbray",
+    "type": "entity",
+    "aliases": [
+      "Q711992",
+      "Thomas Mowbray",
+      "Thomas de Mowbray",
+      "Thomas de Mowbray, 1st Duke of Norfolk"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q711992"
+    ]
+  },
+  {
+    "node_id": "n::thomas de mowbray, 1st duke of norfolk",
+    "name": "Thomas de Mowbray, 1st Duke of Norfolk",
+    "type": "entity",
+    "aliases": [
+      "Q711992",
+      "Thomas Mowbray",
+      "Thomas de Mowbray",
+      "Thomas de Mowbray, 1st Duke of Norfolk"
+    ],
+    "source_docs": [
+      "thomas de mowbray, 1st duke of norfolk"
+    ],
+    "wikidata_ids": [
+      "Q711992"
+    ]
+  },
+  {
+    "node_id": "n::venice",
+    "name": "Venice",
+    "type": "entity",
+    "aliases": [
+      "Q641",
+      "Venetia",
+      "Venice",
+      "Venezia",
+      "Venice, Italy",
+      "Serenissima",
+      "Venexia",
+      "Fenenna of Kuyavia",
+      "Venetian",
+      "Q773853",
+      "Venice, Los Angeles",
+      "Venice, California"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q641",
+      "Q773853"
+    ]
+  },
+  {
+    "node_id": "n::henry scott, 1st earl of deloraine",
+    "name": "Henry Scott, 1st Earl of Deloraine",
+    "type": "entity",
+    "aliases": [
+      "Q5728124",
+      "Henry Scott, 1st Earl of Deloraine"
+    ],
+    "source_docs": [
+      "henry scott, 1st earl of deloraine"
+    ],
+    "wikidata_ids": [
+      "Q5728124"
+    ]
+  },
+  {
+    "node_id": "n::james scott, 1st duke of monmouth",
+    "name": "James Scott, 1st Duke of Monmouth",
+    "type": "entity",
+    "aliases": [
+      "Q140235",
+      "James Scott",
+      "James Scott, 1st Duke of Monmouth"
+    ],
+    "source_docs": [
+      "james scott, 1st duke of monmouth"
+    ],
+    "wikidata_ids": [
+      "Q140235"
+    ]
+  },
+  {
+    "node_id": "n::george ernest, count of erbach-wildenstein",
+    "name": "George Ernest, Count of Erbach-Wildenstein",
+    "type": "entity",
+    "aliases": [
+      "Q19902305",
+      "George Ernest, Count of Erbach-Wildenstein"
+    ],
+    "source_docs": [
+      "george ernest, count of erbach-wildenstein"
+    ],
+    "wikidata_ids": [
+      "Q19902305"
+    ]
+  },
+  {
+    "node_id": "n::george albert i, count of erbach-schönberg",
+    "name": "George Albert I, Count of Erbach-Schönberg",
+    "type": "entity",
+    "aliases": [
+      "Q11928267",
+      "George Albert I, Count of Erbach-Schönberg",
+      "Georg Albrecht I von Erbach-Erbach"
+    ],
+    "source_docs": [
+      "george albert i, count of erbach-schönberg"
+    ],
+    "wikidata_ids": [
+      "Q11928267"
+    ]
+  },
+  {
+    "node_id": "n::16 december 1597",
+    "name": "16 December 1597",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::princess eugénie of greece and denmark",
+    "name": "Princess Eugénie of Greece and Denmark",
+    "type": "entity",
+    "aliases": [
+      "Q2379307",
+      "Princess Eugenie of Greece and Denmark",
+      "Princess Eugénie of Greece and Denmark"
+    ],
+    "source_docs": [
+      "princess eugénie of greece and denmark"
+    ],
+    "wikidata_ids": [
+      "Q2379307"
+    ]
+  },
+  {
+    "node_id": "n::princess marie bonaparte",
+    "name": "Princess Marie Bonaparte",
+    "type": "entity",
+    "aliases": [
+      "Q115472",
+      "Princess Marie Bonaparte",
+      "Marie Bonaparte"
+    ],
+    "source_docs": [
+      "princess marie bonaparte"
+    ],
+    "wikidata_ids": [
+      "Q115472"
+    ]
+  },
+  {
+    "node_id": "n::21 september 1962",
+    "name": "21 September 1962",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::oh boy, oh boy, oh boy!",
+    "name": "Oh boy, oh boy, oh boy!",
+    "type": "entity",
+    "aliases": [
+      "Q17397566",
+      "Oh boy, oh boy, oh boy!"
+    ],
+    "source_docs": [
+      "oh boy, oh boy, oh boy!"
+    ],
+    "wikidata_ids": [
+      "Q17397566"
+    ]
+  },
+  {
+    "node_id": "n::lasse dahlquist",
+    "name": "Lasse Dahlquist",
+    "type": "entity",
+    "aliases": [
+      "Q4562653",
+      "Lasse Dahlquist"
+    ],
+    "source_docs": [
+      "lasse dahlquist"
+    ],
+    "wikidata_ids": [
+      "Q4562653"
+    ]
+  },
+  {
+    "node_id": "n::laryngeal cancer",
+    "name": "laryngeal cancer",
+    "type": "entity",
+    "aliases": [
+      "Q852423",
+      "Malignant Laryngeal Tumor",
+      "Malignant Tumor of Larynx",
+      "Malignant Neoplasm of the Larynx",
+      "Malignant Laryngeal Neoplasm",
+      "malignant neoplasm of larynx",
+      "larynx cancer",
+      "cancer of larynx",
+      "malignant larynx neoplasm",
+      "laryngeal cancer",
+      "cancer of the larynx",
+      "Malignant Larynx Tumor",
+      "Malignant Tumor of the Larynx",
+      "Laryngeal cancer"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q852423"
+    ]
+  },
+  {
+    "node_id": "n::francisca pizarro yupanqui",
+    "name": "Francisca Pizarro Yupanqui",
+    "type": "entity",
+    "aliases": [
+      "Q5864929",
+      "Francisca Pizarro Yupanqui"
+    ],
+    "source_docs": [
+      "francisca pizarro yupanqui"
+    ],
+    "wikidata_ids": [
+      "Q5864929"
+    ]
+  },
+  {
+    "node_id": "n::francisco pizarro",
+    "name": "Francisco Pizarro",
+    "type": "entity",
+    "aliases": [
+      "Q44741",
+      "Francisco Pizarro"
+    ],
+    "source_docs": [
+      "francisco pizarro"
+    ],
+    "wikidata_ids": [
+      "Q44741"
+    ]
+  },
+  {
+    "node_id": "n::lima",
+    "name": "Lima",
+    "type": "entity",
+    "aliases": [
+      "Q2868",
+      "Lima",
+      "City of the Kings",
+      "Limeño",
+      "Limenian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2868"
+    ]
+  },
+  {
+    "node_id": "n::kathputli",
+    "name": "Kathputli",
+    "type": "entity",
+    "aliases": [
+      "Q6376977",
+      "Kathputli",
+      "Kathputli (1971 film)"
+    ],
+    "source_docs": [
+      "kathputli (1971 film)"
+    ],
+    "wikidata_ids": [
+      "Q6376977"
+    ]
+  },
+  {
+    "node_id": "n::brij",
+    "name": "Brij",
+    "type": "entity",
+    "aliases": [
+      "Q4967979",
+      "Brij Sadanah",
+      "Brij"
+    ],
+    "source_docs": [
+      "brij sadanah"
+    ],
+    "wikidata_ids": [
+      "Q4967979"
+    ]
+  },
+  {
+    "node_id": "n::kamal sadanah",
+    "name": "Kamal Sadanah",
+    "type": "entity",
+    "aliases": [
+      "Q6355516",
+      "Kamal Sadanah"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q6355516"
+    ]
+  },
+  {
+    "node_id": "n::dreaming lhasa",
+    "name": "Dreaming Lhasa",
+    "type": "entity",
+    "aliases": [
+      "Q4476275",
+      "Dreaming Lhasa"
+    ],
+    "source_docs": [
+      "dreaming lhasa"
+    ],
+    "wikidata_ids": [
+      "Q4476275"
+    ]
+  },
+  {
+    "node_id": "n::ritu sarin",
+    "name": "Ritu Sarin",
+    "type": "entity",
+    "aliases": [
+      "Q2950268",
+      "Ritu Sarin"
+    ],
+    "source_docs": [
+      "ritu sarin"
+    ],
+    "wikidata_ids": [
+      "Q2950268"
+    ]
+  },
+  {
+    "node_id": "n::delhi university",
+    "name": "Delhi University",
+    "type": "entity",
+    "aliases": [
+      "Q665105",
+      "DU",
+      "University of Delhi",
+      "Delhi University"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q665105"
+    ]
+  },
+  {
+    "node_id": "n::brief encounter",
+    "name": "Brief Encounter",
+    "type": "entity",
+    "aliases": [
+      "Q814296",
+      "Brief Encounter"
+    ],
+    "source_docs": [
+      "brief encounter"
+    ],
+    "wikidata_ids": [
+      "Q814296"
+    ]
+  },
+  {
+    "node_id": "n::sergei rachmaninoff",
+    "name": "Sergei Rachmaninoff",
+    "type": "entity",
+    "aliases": [
+      "Q131861",
+      "Rachmaninoff",
+      "Sergei Vasilievich Rachmaninoff",
+      "Sergei Rachmaninoff",
+      "Rach"
+    ],
+    "source_docs": [
+      "sergei rachmaninoff"
+    ],
+    "wikidata_ids": [
+      "Q131861"
+    ]
+  },
+  {
+    "node_id": "n::beverly hills, california",
+    "name": "Beverly Hills, California",
+    "type": "entity",
+    "aliases": [
+      "Q127856",
+      "Beverly Hills",
+      "Beverly Hills, California",
+      "City of Beverly Hills"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q127856"
+    ]
+  },
+  {
+    "node_id": "n::yazid iii",
+    "name": "Yazid III",
+    "type": "entity",
+    "aliases": [
+      "Q128413",
+      "Yazid III",
+      "Yazid ibn al-Walid ibn 'Abd al-Malik"
+    ],
+    "source_docs": [
+      "yazid iii"
+    ],
+    "wikidata_ids": [
+      "Q128413"
+    ]
+  },
+  {
+    "node_id": "n::al-walid i",
+    "name": "Al-Walid I",
+    "type": "entity",
+    "aliases": [
+      "Q284003",
+      "Al-Walid ibn Abd al-Malik",
+      "Al-Walid I"
+    ],
+    "source_docs": [
+      "al-walid i"
+    ],
+    "wikidata_ids": [
+      "Q284003"
+    ]
+  },
+  {
+    "node_id": "n::damascus",
+    "name": "Damascus",
+    "type": "entity",
+    "aliases": [
+      "Q3766",
+      "Damascus",
+      "ash-Sham",
+      "City of Jasmine",
+      "Damascene"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3766"
+    ]
+  },
+  {
+    "node_id": "n::war italian style",
+    "name": "War Italian Style",
+    "type": "entity",
+    "aliases": [
+      "Q3024919",
+      "War Italian Style",
+      "Due Marines e un Generale",
+      "Due marines e un generale"
+    ],
+    "source_docs": [
+      "war italian style"
+    ],
+    "wikidata_ids": [
+      "Q3024919"
+    ]
+  },
+  {
+    "node_id": "n::luigi scattini",
+    "name": "Luigi Scattini",
+    "type": "entity",
+    "aliases": [
+      "Q1584126",
+      "Arthur Scott",
+      "Luigi Scattini"
+    ],
+    "source_docs": [
+      "luigi scattini"
+    ],
+    "wikidata_ids": [
+      "Q1584126"
+    ]
+  },
+  {
+    "node_id": "n::17 may 1927",
+    "name": "17 May 1927",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::today i started loving you again",
+    "name": "Today I Started Loving You Again",
+    "type": "entity",
+    "aliases": [
+      "Q18529332",
+      "Today I Started Loving You Again"
+    ],
+    "source_docs": [
+      "today i started loving you again"
+    ],
+    "wikidata_ids": [
+      "Q18529332"
+    ]
+  },
+  {
+    "node_id": "n::merle haggard",
+    "name": "Merle Haggard",
+    "type": "entity",
+    "aliases": [
+      "Q183092",
+      "Merle Ronald Haggard",
+      "Merle Haggard"
+    ],
+    "source_docs": [
+      "merle haggard"
+    ],
+    "wikidata_ids": [
+      "Q183092"
+    ]
+  },
+  {
+    "node_id": "n::bakersfield",
+    "name": "Bakersfield",
+    "type": "entity",
+    "aliases": [
+      "Q49256",
+      "Bakersfield",
+      "Bakersfield, California"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q49256"
+    ]
+  },
+  {
+    "node_id": "n::prince gustav of thurn and taxis (1848–1914)",
+    "name": "Prince Gustav of Thurn and Taxis (1848–1914)",
+    "type": "entity",
+    "aliases": [
+      "Q7233046",
+      "Prince Gustav of Thurn and Taxis",
+      "Prince Gustav of Thurn and Taxis (1848–1914)"
+    ],
+    "source_docs": [
+      "prince gustav of thurn and taxis (1848–1914)"
+    ],
+    "wikidata_ids": [
+      "Q7233046"
+    ]
+  },
+  {
+    "node_id": "n::princess mathilde sophie of oettingen-oettingen and oettingen-spielberg",
+    "name": "Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg",
+    "type": "entity",
+    "aliases": [
+      "Q3851872",
+      "Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg"
+    ],
+    "source_docs": [
+      "princess mathilde sophie of oettingen-oettingen and oettingen-spielberg"
+    ],
+    "wikidata_ids": [
+      "Q3851872"
+    ]
+  },
+  {
+    "node_id": "n::meran",
+    "name": "Meran",
+    "type": "entity",
+    "aliases": [
+      "Q131605",
+      "Meran",
+      "Merano"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q131605"
+    ]
+  },
+  {
+    "node_id": "n::visit or memories and confessions",
+    "name": "Visit or Memories and Confessions",
+    "type": "entity",
+    "aliases": [
+      "Q2091781",
+      "Visit or Memories and Confessions"
+    ],
+    "source_docs": [
+      "visit or memories and confessions"
+    ],
+    "wikidata_ids": [
+      "Q2091781"
+    ]
+  },
+  {
+    "node_id": "n::manoel de oliveira",
+    "name": "Manoel de Oliveira",
+    "type": "entity",
+    "aliases": [
+      "Q43264",
+      "Manoel de Oliveira"
+    ],
+    "source_docs": [
+      "manoel de oliveira"
+    ],
+    "wikidata_ids": [
+      "Q43264"
+    ]
+  },
+  {
+    "node_id": "n::porto",
+    "name": "Porto",
+    "type": "entity",
+    "aliases": [
+      "Q36433",
+      "Oporto",
+      "Porto Municipality",
+      "Porto",
+      "Portuense"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q36433"
+    ]
+  },
+  {
+    "node_id": "n::frances scott \"scottie\" fitzgerald",
+    "name": "Frances Scott \"Scottie\" Fitzgerald",
+    "type": "entity",
+    "aliases": [
+      "Q5478929",
+      "Frances Scott Fitzgerald",
+      "Frances Scott \"Scottie\" Fitzgerald"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q5478929"
+    ]
+  },
+  {
+    "node_id": "n::zelda sayre fitzgerald",
+    "name": "Zelda Sayre Fitzgerald",
+    "type": "entity",
+    "aliases": [
+      "Q187324",
+      "Zelda Sayre Fitzgerald",
+      "Zelda Sayre",
+      "Zelda Fitzgerald"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q187324"
+    ]
+  },
+  {
+    "node_id": "n::zelda fitzgerald",
+    "name": "Zelda Fitzgerald",
+    "type": "entity",
+    "aliases": [
+      "Q187324",
+      "Zelda Sayre Fitzgerald",
+      "Zelda Sayre",
+      "Zelda Fitzgerald"
+    ],
+    "source_docs": [
+      "zelda fitzgerald"
+    ],
+    "wikidata_ids": [
+      "Q187324"
+    ]
+  },
+  {
+    "node_id": "n::montgomery",
+    "name": "Montgomery",
+    "type": "entity",
+    "aliases": [
+      "Q29364",
+      "Montgomery, AL",
+      "Montgomery",
+      "Montgomery, Alabama"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q29364"
+    ]
+  },
+  {
+    "node_id": "n::sir theodore henry lavington brinckman, 1st baronet",
+    "name": "Sir Theodore Henry Lavington Brinckman, 1st Baronet",
+    "type": "entity",
+    "aliases": [
+      "Q16063365",
+      "Sir Theodore Brinckman, 1st Baronet",
+      "Theodore Brinckman",
+      "Sir Theodore Henry Lavington Brinckman, 1st Baronet"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q16063365"
+    ]
+  },
+  {
+    "node_id": "n::theodore henry broadhead",
+    "name": "Theodore Henry Broadhead",
+    "type": "entity",
+    "aliases": [
+      "Q20829505",
+      "Theodore Henry Broadhead"
+    ],
+    "source_docs": [
+      "theodore henry broadhead"
+    ],
+    "wikidata_ids": [
+      "Q20829505"
+    ]
+  },
+  {
+    "node_id": "n::12 december 1820",
+    "name": "12 December 1820",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::gaby: a true story",
+    "name": "Gaby: A True Story",
+    "type": "entity",
+    "aliases": [
+      "Q773069",
+      "Gaby: A True Story"
+    ],
+    "source_docs": [
+      "gaby: a true story"
+    ],
+    "wikidata_ids": [
+      "Q773069"
+    ]
+  },
+  {
+    "node_id": "n::luis mandoki",
+    "name": "Luis Mandoki",
+    "type": "entity",
+    "aliases": [
+      "Q939894",
+      "Luis Mandoki"
+    ],
+    "source_docs": [
+      "luis mandoki"
+    ],
+    "wikidata_ids": [
+      "Q939894"
+    ]
+  },
+  {
+    "node_id": "n::mexico city",
+    "name": "Mexico City",
+    "type": "entity",
+    "aliases": [
+      "Q1489",
+      "Mexico D.F.",
+      "Ciudad de México",
+      "City of Mexico",
+      "Mexico City",
+      "Chilango",
+      "Capitalino"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1489"
+    ]
+  },
+  {
+    "node_id": "n::lost in the dark",
+    "name": "Lost in the Dark",
+    "type": "entity",
+    "aliases": [
+      "Q3966513",
+      "Lost in the Dark",
+      "Lost in the Dark (1914 film)"
+    ],
+    "source_docs": [
+      "lost in the dark (1914 film)"
+    ],
+    "wikidata_ids": [
+      "Q3966513"
+    ]
+  },
+  {
+    "node_id": "n::nino martoglio",
+    "name": "Nino Martoglio",
+    "type": "entity",
+    "aliases": [
+      "Q518152",
+      "Nino Martoglio"
+    ],
+    "source_docs": [
+      "nino martoglio"
+    ],
+    "wikidata_ids": [
+      "Q518152"
+    ]
+  },
+  {
+    "node_id": "n::belpasso",
+    "name": "Belpasso",
+    "type": "entity",
+    "aliases": [
+      "Q478226",
+      "Belpasso"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q478226"
+    ]
+  },
+  {
+    "node_id": "n::old man drinking a glass of beer",
+    "name": "Old Man Drinking a Glass of Beer",
+    "type": "entity",
+    "aliases": [
+      "Q7084452",
+      "Old Man Drinking a Glass of Beer"
+    ],
+    "source_docs": [
+      "old man drinking a glass of beer"
+    ],
+    "wikidata_ids": [
+      "Q7084452"
+    ]
+  },
+  {
+    "node_id": "n::george albert smith",
+    "name": "George Albert Smith",
+    "type": "entity",
+    "aliases": [
+      "Q768790",
+      "George Albert Smith (film pioneer)",
+      "George Albert Smith"
+    ],
+    "source_docs": [
+      "george albert smith (film pioneer)"
+    ],
+    "wikidata_ids": [
+      "Q768790"
+    ]
+  },
+  {
+    "node_id": "n::brighton",
+    "name": "Brighton",
+    "type": "entity",
+    "aliases": [
+      "Q131491",
+      "Brighton",
+      "Brightonian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q131491"
+    ]
+  },
+  {
+    "node_id": "n::living on tokyo time",
+    "name": "Living on Tokyo Time",
+    "type": "entity",
+    "aliases": [
+      "Q6659507",
+      "Living on Tokyo Time"
+    ],
+    "source_docs": [
+      "living on tokyo time"
+    ],
+    "wikidata_ids": [
+      "Q6659507"
+    ]
+  },
+  {
+    "node_id": "n::steven okazaki",
+    "name": "Steven Okazaki",
+    "type": "entity",
+    "aliases": [
+      "Q5256332",
+      "Steven Okazaki"
+    ],
+    "source_docs": [
+      "steven okazaki"
+    ],
+    "wikidata_ids": [
+      "Q5256332"
+    ]
+  },
+  {
+    "node_id": "n::oosaravelli",
+    "name": "Oosaravelli",
+    "type": "entity",
+    "aliases": [
+      "Q3764194",
+      "Oosaravelli"
+    ],
+    "source_docs": [
+      "oosaravelli"
+    ],
+    "wikidata_ids": [
+      "Q3764194"
+    ]
+  },
+  {
+    "node_id": "n::surender reddy",
+    "name": "Surender Reddy",
+    "type": "entity",
+    "aliases": [
+      "Q7645646",
+      "Surender Reddy"
+    ],
+    "source_docs": [
+      "surender reddy"
+    ],
+    "wikidata_ids": [
+      "Q7645646"
+    ]
+  },
+  {
+    "node_id": "n::karimnagar",
+    "name": "Karimnagar",
+    "type": "entity",
+    "aliases": [
+      "Q25563078",
+      "Karimnagar"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q25563078"
+    ]
+  },
+  {
+    "node_id": "n::yandé codou, la griotte de senghor",
+    "name": "Yandé Codou, la griotte de Senghor",
+    "type": "entity",
+    "aliases": [
+      "Q3571532",
+      "Yandé Codou, la griotte de Senghor"
+    ],
+    "source_docs": [
+      "yandé codou, la griotte de senghor"
+    ],
+    "wikidata_ids": [
+      "Q3571532"
+    ]
+  },
+  {
+    "node_id": "n::yandé codou sène",
+    "name": "Yandé Codou Sène",
+    "type": "entity",
+    "aliases": [
+      "Q2174556",
+      "Yandé Codou Sène",
+      "Yande Codou Sene"
+    ],
+    "source_docs": [
+      "yandé codou sène"
+    ],
+    "wikidata_ids": [
+      "Q2174556"
+    ]
+  },
+  {
+    "node_id": "n::somb",
+    "name": "Somb",
+    "type": "entity",
+    "aliases": [
+      "Q3489754",
+      "Somb"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3489754"
+    ]
+  },
+  {
+    "node_id": "n::one love",
+    "name": "One Love",
+    "type": "entity",
+    "aliases": [
+      "Q7092834",
+      "One Love",
+      "One Love (Carlene Carter song)"
+    ],
+    "source_docs": [
+      "one love (carlene carter song)"
+    ],
+    "wikidata_ids": [
+      "Q7092834"
+    ]
+  },
+  {
+    "node_id": "n::carlene carter",
+    "name": "Carlene Carter",
+    "type": "entity",
+    "aliases": [
+      "Q508212",
+      "Carlene Carter"
+    ],
+    "source_docs": [
+      "one love (carlene carter song)",
+      "carlene carter"
+    ],
+    "wikidata_ids": [
+      "Q508212"
+    ]
+  },
+  {
+    "node_id": "n::june carter",
+    "name": "June Carter",
+    "type": "entity",
+    "aliases": [
+      "Q233253",
+      "June Carter",
+      "June Carter Cash",
+      "Valerie June Carter"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q233253"
+    ]
+  },
+  {
+    "node_id": "n::francis i rákóczi",
+    "name": "Francis I Rákóczi",
+    "type": "entity",
+    "aliases": [
+      "Q919475",
+      "Francis I Rakoczi",
+      "Francis I Rákóczi"
+    ],
+    "source_docs": [
+      "francis i rákóczi"
+    ],
+    "wikidata_ids": [
+      "Q919475"
+    ]
+  },
+  {
+    "node_id": "n::jelena zrinska",
+    "name": "Jelena Zrinska",
+    "type": "entity",
+    "aliases": [
+      "Q284188",
+      "Ilona Zrínyi",
+      "Jelena Zrinska",
+      "Ilona Zrinyi"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q284188"
+    ]
+  },
+  {
+    "node_id": "n::18 february 1703",
+    "name": "18 February 1703",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::tum: my pledge of love",
+    "name": "Tum: My Pledge of Love",
+    "type": "entity",
+    "aliases": [
+      "Q12129856",
+      "Tum, My Pledge of Love",
+      "Tum: My Pledge of Love"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q12129856"
+    ]
+  },
+  {
+    "node_id": "n::robin padilla",
+    "name": "Robin Padilla",
+    "type": "entity",
+    "aliases": [
+      "Q3543654",
+      "Robin Padilla"
+    ],
+    "source_docs": [
+      "robin padilla"
+    ],
+    "wikidata_ids": [
+      "Q3543654"
+    ]
+  },
+  {
+    "node_id": "n::camarines norte",
+    "name": "Camarines Norte",
+    "type": "entity",
+    "aliases": [
+      "Q13763",
+      "Province of Camarines Norte",
+      "Camarines Norte",
+      "North Camarinean"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q13763"
+    ]
+  },
+  {
+    "node_id": "n::abdul rashid ghazi",
+    "name": "Abdul Rashid Ghazi",
+    "type": "entity",
+    "aliases": [
+      "Q317426",
+      "Abdul Rashid Ghazi"
+    ],
+    "source_docs": [
+      "abdul rashid ghazi"
+    ],
+    "wikidata_ids": [
+      "Q317426"
+    ]
+  },
+  {
+    "node_id": "n::muhammad abdullah ghazi",
+    "name": "Muhammad Abdullah Ghazi",
+    "type": "entity",
+    "aliases": [
+      "Q5541125",
+      "Muhammad Abdullah Ghazi"
+    ],
+    "source_docs": [
+      "muhammad abdullah ghazi"
+    ],
+    "wikidata_ids": [
+      "Q5541125"
+    ]
+  },
+  {
+    "node_id": "n::lal masjid",
+    "name": "Lal Masjid",
+    "type": "entity",
+    "aliases": [
+      "Q915851",
+      "Lal Masjid",
+      "Lal Masjid, Islamabad"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q915851"
+    ]
+  },
+  {
+    "node_id": "n::princess catherine of schleswig-holstein-sonderburg-beck",
+    "name": "Princess Catherine of Schleswig-Holstein-Sonderburg-Beck",
+    "type": "entity",
+    "aliases": [
+      "Q1736037",
+      "Princess Catherine of Schleswig-Holstein-Sonderburg-Beck"
+    ],
+    "source_docs": [
+      "princess catherine of schleswig-holstein-sonderburg-beck"
+    ],
+    "wikidata_ids": [
+      "Q1736037"
+    ]
+  },
+  {
+    "node_id": "n::peter august",
+    "name": "Peter August",
+    "type": "entity",
+    "aliases": [
+      "Q62380",
+      "Peter August, Duke of Schleswig-Holstein-Sonderburg-Beck",
+      "Peter August"
+    ],
+    "source_docs": [
+      "peter august, duke of schleswig-holstein-sonderburg-beck"
+    ],
+    "wikidata_ids": [
+      "Q62380"
+    ]
+  },
+  {
+    "node_id": "n::reval",
+    "name": "Reval",
+    "type": "entity",
+    "aliases": [
+      "Q1770",
+      "Tallinn, Estonia",
+      "tallinn, estonia",
+      "Tallinn",
+      "Reval",
+      "Tallinner"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1770"
+    ]
+  },
+  {
+    "node_id": "n::hedwig maria adolphine gobertina von trapp",
+    "name": "Hedwig Maria Adolphine Gobertina von Trapp",
+    "type": "entity",
+    "aliases": [
+      "Q3784099",
+      "Hedwig von Trapp",
+      "Hedwig Maria Adolphine Gobertina von Trapp"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3784099"
+    ]
+  },
+  {
+    "node_id": "n::georg von trapp",
+    "name": "Georg von Trapp",
+    "type": "entity",
+    "aliases": [
+      "Q89518",
+      "Georg von Trapp"
+    ],
+    "source_docs": [
+      "georg von trapp"
+    ],
+    "wikidata_ids": [
+      "Q89518"
+    ]
+  },
+  {
+    "node_id": "n::austria",
+    "name": "Austria",
+    "type": "entity",
+    "aliases": [
+      "Q40",
+      "at",
+      "🇦🇹",
+      "Republic of Austria",
+      "Sunday of Life",
+      "Österreich",
+      "Republik Österreich",
+      "AUT",
+      "Austria",
+      "AT",
+      "Austrian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q40"
+    ]
+  },
+  {
+    "node_id": "n::xiahou wei",
+    "name": "Xiahou Wei",
+    "type": "entity",
+    "aliases": [
+      "Q1066719",
+      "Xiahou Wei"
+    ],
+    "source_docs": [
+      "xiahou wei"
+    ],
+    "wikidata_ids": [
+      "Q1066719"
+    ]
+  },
+  {
+    "node_id": "n::xiahou yuan",
+    "name": "Xiahou Yuan",
+    "type": "entity",
+    "aliases": [
+      "Q378510",
+      "Xiahou Yuan"
+    ],
+    "source_docs": [
+      "xiahou yuan"
+    ],
+    "wikidata_ids": [
+      "Q378510"
+    ]
+  },
+  {
+    "node_id": "n::eastern han dynasty",
+    "name": "Eastern Han Dynasty",
+    "type": "entity",
+    "aliases": [
+      "Q1147037",
+      "Eastern Han Dynasty",
+      "Eastern Han Empire",
+      "Later Han",
+      "Tong Hàn",
+      "Eastern Han",
+      "Later Han Dynasty"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1147037"
+    ]
+  },
+  {
+    "node_id": "n::humphry waldo sibthorp",
+    "name": "Humphry Waldo Sibthorp",
+    "type": "entity",
+    "aliases": [
+      "Q3143271",
+      "Humphry Sibthorp",
+      "Humphry Sibthorp (botanist)",
+      "H.Sibth."
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3143271"
+    ]
+  },
+  {
+    "node_id": "n::john sibthorpe",
+    "name": "John Sibthorpe",
+    "type": "entity",
+    "aliases": [
+      "Q6257813",
+      "John Sibthorpe"
+    ],
+    "source_docs": [
+      "john sibthorpe"
+    ],
+    "wikidata_ids": [
+      "Q6257813"
+    ]
+  },
+  {
+    "node_id": "n::christ church",
+    "name": "Christ Church",
+    "type": "entity",
+    "aliases": [
+      "Q745967",
+      "The House",
+      "Euseby Isham",
+      "Christ Church College",
+      "Christ Church",
+      "Christ Church, Oxford"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q745967"
+    ]
+  },
+  {
+    "node_id": "n::i'll be a bachelor 'til i die",
+    "name": "I'll Be a Bachelor 'Til I Die",
+    "type": "entity",
+    "aliases": [
+      "Q20709019",
+      "I'll Be a Bachelor 'Til I Die"
+    ],
+    "source_docs": [
+      "i'll be a bachelor 'til i die"
+    ],
+    "wikidata_ids": [
+      "Q20709019"
+    ]
+  },
+  {
+    "node_id": "n::hank williams",
+    "name": "Hank Williams",
+    "type": "entity",
+    "aliases": [
+      "Q206181",
+      "00058262177 IPI",
+      "Hiram King \"Hank\" Williams",
+      "Hank Williams",
+      "00058261964 IPI",
+      "Hiram King Williams",
+      "Hank Williams, Sr.",
+      "Hiram Hank Williams",
+      "Hiram King Williams, Sr."
+    ],
+    "source_docs": [
+      "hank williams"
+    ],
+    "wikidata_ids": [
+      "Q206181"
+    ]
+  },
+  {
+    "node_id": "n::mount olive",
+    "name": "Mount Olive",
+    "type": "entity",
+    "aliases": [
+      "Q1274884",
+      "Mount Olive, Jefferson County, Alabama",
+      "Mount Olive, Jefferson County",
+      "Mount Olive"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1274884"
+    ]
+  },
+  {
+    "node_id": "n::gülşah hatun",
+    "name": "Gülşah Hatun",
+    "type": "entity",
+    "aliases": [
+      "Q14213946",
+      "Gülşah Hatun"
+    ],
+    "source_docs": [
+      "gülşah hatun"
+    ],
+    "wikidata_ids": [
+      "Q14213946"
+    ]
+  },
+  {
+    "node_id": "n::mehmed the conqueror",
+    "name": "Mehmed the Conqueror",
+    "type": "entity",
+    "aliases": [
+      "Q34503",
+      "Mehmed II",
+      "Mehmed bin Murad Khan",
+      "Sultan of the Turks Mehmed II",
+      "Mehmed the Conqueror"
+    ],
+    "source_docs": [
+      "mehmed the conqueror"
+    ],
+    "wikidata_ids": [
+      "Q34503"
+    ]
+  },
+  {
+    "node_id": "n::fatih mosque",
+    "name": "Fatih Mosque",
+    "type": "entity",
+    "aliases": [
+      "Q756189",
+      "Fatih Mosque",
+      "Fatih Mosque, Istanbul"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q756189"
+    ]
+  },
+  {
+    "node_id": "n::words of love",
+    "name": "Words of Love",
+    "type": "entity",
+    "aliases": [
+      "Q2565537",
+      "Words of Love"
+    ],
+    "source_docs": [
+      "words of love"
+    ],
+    "wikidata_ids": [
+      "Q2565537"
+    ]
+  },
+  {
+    "node_id": "n::buddy holly",
+    "name": "Buddy Holly",
+    "type": "entity",
+    "aliases": [
+      "Q5977",
+      "00085469927 IPI",
+      "Charles Hardin Holley",
+      "Buddy Holly"
+    ],
+    "source_docs": [
+      "buddy holly"
+    ],
+    "wikidata_ids": [
+      "Q5977"
+    ]
+  },
+  {
+    "node_id": "n::clear lake, iowa",
+    "name": "Clear Lake, Iowa",
+    "type": "entity",
+    "aliases": [
+      "Q957089",
+      "Clear Lake, Iowa"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q957089"
+    ]
+  },
+  {
+    "node_id": "n::playing it wild",
+    "name": "Playing It Wild",
+    "type": "entity",
+    "aliases": [
+      "Q63348173",
+      "Playing It Wild"
+    ],
+    "source_docs": [
+      "playing it wild"
+    ],
+    "wikidata_ids": [
+      "Q63348173"
+    ]
+  },
+  {
+    "node_id": "n::william duncan",
+    "name": "William Duncan",
+    "type": "entity",
+    "aliases": [
+      "Q3568578",
+      "William Duncan",
+      "William Duncan (actor)"
+    ],
+    "source_docs": [
+      "william duncan (actor)"
+    ],
+    "wikidata_ids": [
+      "Q3568578"
+    ]
+  },
+  {
+    "node_id": "n::william everett",
+    "name": "William Everett",
+    "type": "entity",
+    "aliases": [
+      "Q1419918",
+      "Changing base, Author of,",
+      "William Everett"
+    ],
+    "source_docs": [
+      "william everett"
+    ],
+    "wikidata_ids": [
+      "Q1419918"
+    ]
+  },
+  {
+    "node_id": "n::edward everett",
+    "name": "Edward Everett",
+    "type": "entity",
+    "aliases": [
+      "Q434905",
+      "Edward Everett"
+    ],
+    "source_docs": [
+      "edward everett"
+    ],
+    "wikidata_ids": [
+      "Q434905"
+    ]
+  },
+  {
+    "node_id": "n::boston",
+    "name": "Boston",
+    "type": "entity",
+    "aliases": [
+      "Q100",
+      "Boston, MA",
+      "Bostonia",
+      "The Walking City",
+      "Boston",
+      "The Athens of America",
+      "Beantown",
+      "The Cradle of Modern America",
+      "The Hub of the Universe",
+      "The Hub",
+      "Boston, Mass.",
+      "The Cradle of Liberty",
+      "Boston, Massachusetts",
+      "Bostonian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q100"
+    ]
+  },
+  {
+    "node_id": "n::last known address",
+    "name": "Last Known Address",
+    "type": "entity",
+    "aliases": [
+      "Q600674",
+      "Last Known Address",
+      "Dernier domicile connu"
+    ],
+    "source_docs": [
+      "last known address"
+    ],
+    "wikidata_ids": [
+      "Q600674"
+    ]
+  },
+  {
+    "node_id": "n::françois de roubaix",
+    "name": "François de Roubaix",
+    "type": "entity",
+    "aliases": [
+      "Q1353562",
+      "François de Roubaix"
+    ],
+    "source_docs": [
+      "françois de roubaix"
+    ],
+    "wikidata_ids": [
+      "Q1353562"
+    ]
+  },
+  {
+    "node_id": "n::tenerife",
+    "name": "Tenerife",
+    "type": "entity",
+    "aliases": [
+      "Q40846",
+      "Tenerife"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q40846"
+    ]
+  },
+  {
+    "node_id": "n::ma che freddo fa",
+    "name": "Ma che freddo fa",
+    "type": "entity",
+    "aliases": [
+      "Q63282851",
+      "Ma che freddo fa"
+    ],
+    "source_docs": [
+      "ma che freddo fa"
+    ],
+    "wikidata_ids": [
+      "Q63282851"
+    ]
+  },
+  {
+    "node_id": "n::claudio mattone",
+    "name": "Claudio Mattone",
+    "type": "entity",
+    "aliases": [
+      "Q3680129",
+      "Claudio Mattone",
+      "00034779361 IPI"
+    ],
+    "source_docs": [
+      "claudio mattone"
+    ],
+    "wikidata_ids": [
+      "Q3680129"
+    ]
+  },
+  {
+    "node_id": "n::santa maria a vico",
+    "name": "Santa Maria a Vico",
+    "type": "entity",
+    "aliases": [
+      "Q58895",
+      "Santa Maria a Vico"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q58895"
+    ]
+  },
+  {
+    "node_id": "n::eestlane olen ja eestlaseks jään",
+    "name": "Eestlane olen ja eestlaseks jään",
+    "type": "entity",
+    "aliases": [
+      "Q20744026",
+      "Eestlane olen ja eestlaseks jään"
+    ],
+    "source_docs": [
+      "eestlane olen ja eestlaseks jään"
+    ],
+    "wikidata_ids": [
+      "Q20744026"
+    ]
+  },
+  {
+    "node_id": "n::ivo linna",
+    "name": "Ivo Linna",
+    "type": "entity",
+    "aliases": [
+      "Q1375381",
+      "Ivo Linna"
+    ],
+    "source_docs": [
+      "ivo linna"
+    ],
+    "wikidata_ids": [
+      "Q1375381"
+    ]
+  },
+  {
+    "node_id": "n::kuressaare",
+    "name": "Kuressaare",
+    "type": "entity",
+    "aliases": [
+      "Q188179",
+      "Kuressaare"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q188179"
+    ]
+  },
+  {
+    "node_id": "n::margaret of bourbon",
+    "name": "Margaret of Bourbon",
+    "type": "entity",
+    "aliases": [
+      "Q292205",
+      "Marguerite de Bourbon",
+      "Margaret of Bourbon",
+      "Margaret of Bourbon (1438–1483)"
+    ],
+    "source_docs": [
+      "margaret of bourbon (1438–1483)"
+    ],
+    "wikidata_ids": [
+      "Q292205"
+    ]
+  },
+  {
+    "node_id": "n::charles i",
+    "name": "Charles I",
+    "type": "entity",
+    "aliases": [
+      "Q692291",
+      "Charles I, Duke of Bourbon",
+      "Charles I"
+    ],
+    "source_docs": [
+      "charles i, duke of bourbon"
+    ],
+    "wikidata_ids": [
+      "Q692291"
+    ]
+  },
+  {
+    "node_id": "n::moulins",
+    "name": "Moulins",
+    "type": "entity",
+    "aliases": [
+      "Q184883",
+      "Moulins",
+      "Moulins, Allier"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q184883"
+    ]
+  },
+  {
+    "node_id": "n::homage at siesta time",
+    "name": "Homage at Siesta Time",
+    "type": "entity",
+    "aliases": [
+      "Q16575719",
+      "Homage at Siesta Time"
+    ],
+    "source_docs": [
+      "homage at siesta time"
+    ],
+    "wikidata_ids": [
+      "Q16575719"
+    ]
+  },
+  {
+    "node_id": "n::leopoldo torre nilsson",
+    "name": "Leopoldo Torre Nilsson",
+    "type": "entity",
+    "aliases": [
+      "Q716563",
+      "Leopoldo Torre Nilsson"
+    ],
+    "source_docs": [
+      "leopoldo torre nilsson"
+    ],
+    "wikidata_ids": [
+      "Q716563"
+    ]
+  },
+  {
+    "node_id": "n::leopoldo torres ríos",
+    "name": "Leopoldo Torres Ríos",
+    "type": "entity",
+    "aliases": [
+      "Q3229821",
+      "Leopoldo Torres Ríos",
+      "Leopoldo Torres Rios"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q3229821"
+    ]
+  },
+  {
+    "node_id": "n::clare winnicott",
+    "name": "Clare Winnicott",
+    "type": "entity",
+    "aliases": [
+      "Q18922135",
+      "Clare Winnicott"
+    ],
+    "source_docs": [
+      "clare winnicott"
+    ],
+    "wikidata_ids": [
+      "Q18922135"
+    ]
+  },
+  {
+    "node_id": "n::d. w. winnicott",
+    "name": "D. W. Winnicott",
+    "type": "entity",
+    "aliases": [
+      "Q451348",
+      "D. W. Winnicott",
+      "Donald Woods Winnicott",
+      "Donald W. Winnicott",
+      "Donald Winnicott"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q451348"
+    ]
+  },
+  {
+    "node_id": "n::donald woods winnicott",
+    "name": "Donald Woods Winnicott",
+    "type": "entity",
+    "aliases": [
+      "Q451348",
+      "D. W. Winnicott",
+      "Donald Woods Winnicott",
+      "Donald W. Winnicott",
+      "Donald Winnicott"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q451348"
+    ]
+  },
+  {
+    "node_id": "n::safeguard",
+    "name": "Safeguard",
+    "type": "entity",
+    "aliases": [
+      "Q7398563",
+      "Safeguard (magazine)",
+      "Safeguard"
+    ],
+    "source_docs": [
+      "safeguard (magazine)"
+    ],
+    "wikidata_ids": [
+      "Q7398563"
+    ]
+  },
+  {
+    "node_id": "n::thomson reuters",
+    "name": "Thomson Reuters",
+    "type": "entity",
+    "aliases": [
+      "Q1141267",
+      "Thomson Reuters",
+      "Thomson Reuters Corporation"
+    ],
+    "source_docs": [
+      "thomson reuters"
+    ],
+    "wikidata_ids": [
+      "Q1141267"
+    ]
+  },
+  {
+    "node_id": "n::canadian",
+    "name": "Canadian",
+    "type": "entity",
+    "aliases": [
+      "Q16",
+      "can",
+      "One Law for the Woman",
+      "🇨🇦",
+      "CAN",
+      "Canada",
+      "British North America",
+      "ca",
+      "CDN",
+      "Dominion of Canada",
+      "CA",
+      "Canadien",
+      "Canuck",
+      "Canadienne",
+      "Canadian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q16"
+    ]
+  },
+  {
+    "node_id": "n::the blue and white lion",
+    "name": "The Blue and White Lion",
+    "type": "entity",
+    "aliases": [
+      "Q5261275",
+      "The Blue and White Lion",
+      "Der weißblaue Löwe"
+    ],
+    "source_docs": [
+      "the blue and white lion"
+    ],
+    "wikidata_ids": [
+      "Q5261275"
+    ]
+  },
+  {
+    "node_id": "n::werner jacobs",
+    "name": "Werner Jacobs",
+    "type": "entity",
+    "aliases": [
+      "Q97799",
+      "Werner Jacobs"
+    ],
+    "source_docs": [
+      "werner jacobs"
+    ],
+    "wikidata_ids": [
+      "Q97799"
+    ]
+  },
+  {
+    "node_id": "n::berlin",
+    "name": "Berlin",
+    "type": "entity",
+    "aliases": [
+      "Q64",
+      "Berlin",
+      "Berlin, Germany",
+      "Berliner"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q64"
+    ]
+  },
+  {
+    "node_id": "n::louis françois \"armand\" de vignerot du plessis",
+    "name": "Louis François \"Armand\" de Vignerot du Plessis",
+    "type": "entity",
+    "aliases": [
+      "Q697562",
+      "Armand de Vignerot du Plessis",
+      "Louis François Armand de Vignerot du Plessis Richelieu"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q697562"
+    ]
+  },
+  {
+    "node_id": "n::armand jean de vignerot du plessis",
+    "name": "Armand Jean de Vignerot du Plessis",
+    "type": "entity",
+    "aliases": [
+      "Q2861881",
+      "Armand Jean de Vignerot du Plessis, 2nd Duke of Richelieu",
+      "Armand Jean de Vignerot du Plessis"
+    ],
+    "source_docs": [
+      "armand jean de vignerot du plessis"
+    ],
+    "wikidata_ids": [
+      "Q2861881"
+    ]
+  },
+  {
+    "node_id": "n::armand jean de vignerot du plessis, 2nd duke of richelieu",
+    "name": "Armand Jean de Vignerot du Plessis, 2nd Duke of Richelieu",
+    "type": "entity",
+    "aliases": [
+      "Q2861881",
+      "Armand Jean de Vignerot du Plessis, 2nd Duke of Richelieu",
+      "Armand Jean de Vignerot du Plessis"
+    ],
+    "source_docs": [
+      "armand jean de vignerot du plessis"
+    ],
+    "wikidata_ids": [
+      "Q2861881"
+    ]
+  },
+  {
+    "node_id": "n::20 may 1715",
+    "name": "20 May 1715",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::lovely man",
+    "name": "Lovely Man",
+    "type": "entity",
+    "aliases": [
+      "Q18788543",
+      "Lovely Man"
+    ],
+    "source_docs": [
+      "lovely man"
+    ],
+    "wikidata_ids": [
+      "Q18788543"
+    ]
+  },
+  {
+    "node_id": "n::teddy soeriaatmadja",
+    "name": "Teddy Soeriaatmadja",
+    "type": "entity",
+    "aliases": [
+      "Q7694097",
+      "Teddy Soeriaatmadja"
+    ],
+    "source_docs": [
+      "teddy soeriaatmadja"
+    ],
+    "wikidata_ids": [
+      "Q7694097"
+    ]
+  },
+  {
+    "node_id": "n::japan",
+    "name": "Japan",
+    "type": "entity",
+    "aliases": [
+      "Q17",
+      "Nippon-koku",
+      "JPN",
+      "🗾",
+      "Japan",
+      "Land of the Rising Sun",
+      "jp",
+      "JAP",
+      "State of Japan",
+      "Nihon-koku",
+      "JP",
+      "Nippon",
+      "🇯🇵",
+      "Nihon",
+      "JA",
+      "Nihonjin",
+      "Japanese",
+      "Nipponjin"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q17"
+    ]
+  },
+  {
+    "node_id": "n::princess helena of nassau",
+    "name": "Princess Helena of Nassau",
+    "type": "entity",
+    "aliases": [
+      "Q64553",
+      "Princess Helena of Nassau"
+    ],
+    "source_docs": [
+      "princess helena of nassau"
+    ],
+    "wikidata_ids": [
+      "Q64553"
+    ]
+  },
+  {
+    "node_id": "n::william, duke of nassau",
+    "name": "William, Duke of Nassau",
+    "type": "entity",
+    "aliases": [
+      "Q705120",
+      "Wilhelm",
+      "William of Nassau",
+      "William, Duke of Nassau"
+    ],
+    "source_docs": [
+      "william, duke of nassau"
+    ],
+    "wikidata_ids": [
+      "Q705120"
+    ]
+  },
+  {
+    "node_id": "n::kirchheimbolanden",
+    "name": "Kirchheimbolanden",
+    "type": "entity",
+    "aliases": [
+      "Q200763",
+      "Kirchheimbolanden"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q200763"
+    ]
+  },
+  {
+    "node_id": "n::nartaki",
+    "name": "Nartaki",
+    "type": "entity",
+    "aliases": [
+      "Q6966400",
+      "Nartakee",
+      "Nartaki",
+      "Nartaki (1963 film)"
+    ],
+    "source_docs": [
+      "nartaki (1963 film)"
+    ],
+    "wikidata_ids": [
+      "Q6966400"
+    ]
+  },
+  {
+    "node_id": "n::nitin bose",
+    "name": "Nitin Bose",
+    "type": "entity",
+    "aliases": [
+      "Q13058417",
+      "Nitin Bose"
+    ],
+    "source_docs": [
+      "nitin bose"
+    ],
+    "wikidata_ids": [
+      "Q13058417"
+    ]
+  },
+  {
+    "node_id": "n::calcutta",
+    "name": "Calcutta",
+    "type": "entity",
+    "aliases": [
+      "Q1348",
+      "City of joy",
+      "Calcutta",
+      "Kolkata",
+      "City of Palaces",
+      "City of Processions",
+      "Calcuttan"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1348"
+    ]
+  },
+  {
+    "node_id": "n::até que a sorte nos separe 2",
+    "name": "Até que a Sorte nos Separe 2",
+    "type": "entity",
+    "aliases": [
+      "Q15461365",
+      "Até que a Sorte nos Separe 2"
+    ],
+    "source_docs": [
+      "até que a sorte nos separe 2"
+    ],
+    "wikidata_ids": [
+      "Q15461365"
+    ]
+  },
+  {
+    "node_id": "n::roberto santucci",
+    "name": "Roberto Santucci",
+    "type": "entity",
+    "aliases": [
+      "Q10363433",
+      "Roberto Santucci"
+    ],
+    "source_docs": [
+      "roberto santucci"
+    ],
+    "wikidata_ids": [
+      "Q10363433"
+    ]
+  },
+  {
+    "node_id": "n::university of california",
+    "name": "University of California",
+    "type": "entity",
+    "aliases": [
+      "Q184478",
+      "University of California",
+      "UC"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q184478"
+    ]
+  },
+  {
+    "node_id": "n::ängeln i rummet",
+    "name": "Ängeln i rummet",
+    "type": "entity",
+    "aliases": [
+      "Q8077064",
+      "Ängeln i rummet"
+    ],
+    "source_docs": [
+      "ängeln i rummet"
+    ],
+    "wikidata_ids": [
+      "Q8077064"
+    ]
+  },
+  {
+    "node_id": "n::eva dahlgren",
+    "name": "Eva Dahlgren",
+    "type": "entity",
+    "aliases": [
+      "Q446588",
+      "Eva Dahlgren"
+    ],
+    "source_docs": [
+      "eva dahlgren"
+    ],
+    "wikidata_ids": [
+      "Q446588"
+    ]
+  },
+  {
+    "node_id": "n::efva attling",
+    "name": "Efva Attling",
+    "type": "entity",
+    "aliases": [
+      "Q449563",
+      "Efva Attling"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q449563"
+    ]
+  },
+  {
+    "node_id": "n::bhagyada bagilu",
+    "name": "Bhagyada Bagilu",
+    "type": "entity",
+    "aliases": [
+      "Q19571037",
+      "Bhagyada Bagilu"
+    ],
+    "source_docs": [
+      "bhagyada bagilu"
+    ],
+    "wikidata_ids": [
+      "Q19571037"
+    ]
+  },
+  {
+    "node_id": "n::k. s. l. swamy",
+    "name": "K. S. L. Swamy",
+    "type": "entity",
+    "aliases": [
+      "Q18707151",
+      "Kikkeri Shamanna Lakshminarasimha Swamy",
+      "K. S. L. Swamy"
+    ],
+    "source_docs": [
+      "k. s. l. swamy"
+    ],
+    "wikidata_ids": [
+      "Q18707151"
+    ]
+  },
+  {
+    "node_id": "n::b. v. radha",
+    "name": "B. V. Radha",
+    "type": "entity",
+    "aliases": [
+      "Q4834242",
+      "B. V. Radha"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4834242"
+    ]
+  },
+  {
+    "node_id": "n::prince welf ernst of hanover",
+    "name": "Prince Welf Ernst of Hanover",
+    "type": "entity",
+    "aliases": [
+      "Q6530079",
+      "Prince Welf Ernst of Hanover"
+    ],
+    "source_docs": [
+      "prince welf ernst of hanover"
+    ],
+    "wikidata_ids": [
+      "Q6530079"
+    ]
+  },
+  {
+    "node_id": "n::prince george william of hanover",
+    "name": "Prince George William of Hanover",
+    "type": "entity",
+    "aliases": [
+      "Q61777",
+      "Prince George William of Hanover",
+      "Prince George William of Hanover (1915–2006)"
+    ],
+    "source_docs": [
+      "prince george william of hanover (1915–2006)"
+    ],
+    "wikidata_ids": [
+      "Q61777"
+    ]
+  },
+  {
+    "node_id": "n::german",
+    "name": "German",
+    "type": "entity",
+    "aliases": [
+      "Q183",
+      "de",
+      "Bundesrepublik Deutschland",
+      "Germany",
+      "🇩🇪",
+      "Deutschland",
+      "FRG",
+      "Federal Republic of Germany",
+      "BRD",
+      "GER",
+      "German"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q183"
+    ]
+  },
+  {
+    "node_id": "n::marie of blois, duchess of anjou",
+    "name": "Marie of Blois, Duchess of Anjou",
+    "type": "entity",
+    "aliases": [
+      "Q4993282",
+      "Marie of Blois, Duchess of Anjou"
+    ],
+    "source_docs": [
+      "marie of blois, duchess of anjou"
+    ],
+    "wikidata_ids": [
+      "Q4993282"
+    ]
+  },
+  {
+    "node_id": "n::louis i",
+    "name": "Louis I",
+    "type": "entity",
+    "aliases": [
+      "Q348961",
+      "Louis I of Anjou",
+      "Louis I",
+      "Louis 01 Of Naples"
+    ],
+    "source_docs": [
+      "louis i of anjou"
+    ],
+    "wikidata_ids": [
+      "Q348961"
+    ]
+  },
+  {
+    "node_id": "n::vincennes",
+    "name": "Vincennes",
+    "type": "entity",
+    "aliases": [
+      "Q193819",
+      "Vincennes"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q193819"
+    ]
+  },
+  {
+    "node_id": "n::summer's blood",
+    "name": "Summer's Blood",
+    "type": "entity",
+    "aliases": [
+      "Q2299803",
+      "Summer's Blood"
+    ],
+    "source_docs": [
+      "summer's blood"
+    ],
+    "wikidata_ids": [
+      "Q2299803"
+    ]
+  },
+  {
+    "node_id": "n::lee demarbre",
+    "name": "Lee Demarbre",
+    "type": "entity",
+    "aliases": [
+      "Q6513443",
+      "Lee Demarbre"
+    ],
+    "source_docs": [
+      "lee demarbre"
+    ],
+    "wikidata_ids": [
+      "Q6513443"
+    ]
+  },
+  {
+    "node_id": "n::chicoutimi",
+    "name": "Chicoutimi",
+    "type": "entity",
+    "aliases": [
+      "Q952269",
+      "Chicoutimi"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q952269"
+    ]
+  },
+  {
+    "node_id": "n::abdulla the great",
+    "name": "Abdulla the Great",
+    "type": "entity",
+    "aliases": [
+      "Q4665898",
+      "Abdulla the Great"
+    ],
+    "source_docs": [
+      "abdulla the great"
+    ],
+    "wikidata_ids": [
+      "Q4665898"
+    ]
+  },
+  {
+    "node_id": "n::georges auric",
+    "name": "Georges Auric",
+    "type": "entity",
+    "aliases": [
+      "Q251818",
+      "Georges Auric"
+    ],
+    "source_docs": [
+      "georges auric"
+    ],
+    "wikidata_ids": [
+      "Q251818"
+    ]
+  },
+  {
+    "node_id": "n::lodève",
+    "name": "Lodève",
+    "type": "entity",
+    "aliases": [
+      "Q198650",
+      "Lodève"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q198650"
+    ]
+  },
+  {
+    "node_id": "n::iva mihanović",
+    "name": "Iva Mihanović",
+    "type": "entity",
+    "aliases": [
+      "Q106846",
+      "Iva Schell",
+      "Iva Mihanovic",
+      "Iva Mihanović"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q106846"
+    ]
+  },
+  {
+    "node_id": "n::maximilian schell",
+    "name": "Maximilian Schell",
+    "type": "entity",
+    "aliases": [
+      "Q153018",
+      "Maximilian Schell"
+    ],
+    "source_docs": [
+      "maximilian schell"
+    ],
+    "wikidata_ids": [
+      "Q153018"
+    ]
+  },
+  {
+    "node_id": "n::vienna",
+    "name": "Vienna",
+    "type": "entity",
+    "aliases": [
+      "Q1741",
+      "W",
+      "Wien",
+      "Vienna, Austria",
+      "Vienna",
+      "Viennese",
+      "Wiener"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1741"
+    ]
+  },
+  {
+    "node_id": "n::george amias fitzwarrine poulett",
+    "name": "George Amias FitzWarrine Poulett",
+    "type": "entity",
+    "aliases": [
+      "Q26220760",
+      "George Poulett, 8th Earl Poulett",
+      "George Amias FitzWarrine Poulett"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q26220760"
+    ]
+  },
+  {
+    "node_id": "n::william poulett, 7th earl poulett",
+    "name": "William Poulett, 7th Earl Poulett",
+    "type": "entity",
+    "aliases": [
+      "Q26220757",
+      "William Poulett, 7th Earl Poulett"
+    ],
+    "source_docs": [
+      "william poulett, 7th earl poulett"
+    ],
+    "wikidata_ids": [
+      "Q26220757"
+    ]
+  },
+  {
+    "node_id": "n::cheltenham college",
+    "name": "Cheltenham College",
+    "type": "entity",
+    "aliases": [
+      "Q467269",
+      "Cheltenham College"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q467269"
+    ]
+  },
+  {
+    "node_id": "n::adolphe de leuven",
+    "name": "Adolphe de Leuven",
+    "type": "entity",
+    "aliases": [
+      "Q2087458",
+      "Adolphe de Leuven"
+    ],
+    "source_docs": [
+      "adolphe de leuven"
+    ],
+    "wikidata_ids": [
+      "Q2087458"
+    ]
+  },
+  {
+    "node_id": "n::adolph ribbing",
+    "name": "Adolph Ribbing",
+    "type": "entity",
+    "aliases": [
+      "Q1648141",
+      "Adolph Ribbing"
+    ],
+    "source_docs": [
+      "adolph ribbing"
+    ],
+    "wikidata_ids": [
+      "Q1648141"
+    ]
+  },
+  {
+    "node_id": "n::stockholm",
+    "name": "Stockholm",
+    "type": "entity",
+    "aliases": [
+      "Q1754",
+      "Stockholm",
+      "Tukholma",
+      "Estocolmo",
+      "Stockholmer"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1754"
+    ]
+  },
+  {
+    "node_id": "n::the interrogation",
+    "name": "The Interrogation",
+    "type": "entity",
+    "aliases": [
+      "Q11873769",
+      "Interrogation",
+      "The Interrogation (film)",
+      "The Interrogation"
+    ],
+    "source_docs": [
+      "the interrogation (film)"
+    ],
+    "wikidata_ids": [
+      "Q11873769"
+    ]
+  },
+  {
+    "node_id": "n::jörn donner",
+    "name": "Jörn Donner",
+    "type": "entity",
+    "aliases": [
+      "Q982339",
+      "Jörn Johan Donner",
+      "Jörn Donner"
+    ],
+    "source_docs": [
+      "jörn donner"
+    ],
+    "wikidata_ids": [
+      "Q982339"
+    ]
+  },
+  {
+    "node_id": "n::johan donner",
+    "name": "Johan Donner",
+    "type": "entity",
+    "aliases": [
+      "Q5623543",
+      "Johan Anders Donner-Amnell",
+      "Johan Donner"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q5623543"
+    ]
+  },
+  {
+    "node_id": "n::life marathon",
+    "name": "Life Marathon",
+    "type": "entity",
+    "aliases": [
+      "Q22101327",
+      "Life Marathon",
+      "Life Marathon (Eason Chan)"
+    ],
+    "source_docs": [
+      "life marathon (eason chan)"
+    ],
+    "wikidata_ids": [
+      "Q22101327"
+    ]
+  },
+  {
+    "node_id": "n::eason chan",
+    "name": "Eason Chan",
+    "type": "entity",
+    "aliases": [
+      "Q704041",
+      "Chan Yick Shun",
+      "Eason Chan",
+      "Chen Yixun"
+    ],
+    "source_docs": [
+      "life marathon (eason chan)",
+      "eason chan"
+    ],
+    "wikidata_ids": [
+      "Q704041"
+    ]
+  },
+  {
+    "node_id": "n::china",
+    "name": "China",
+    "type": "entity",
+    "aliases": [
+      "Q148",
+      "Communist China",
+      "China",
+      "Asia Brewery",
+      "PR China",
+      "cn",
+      "CHN",
+      "CN",
+      "🇨🇳",
+      "PRC",
+      "People's Republic of China",
+      "Chino",
+      "Chinese"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q148"
+    ]
+  },
+  {
+    "node_id": "n::rumors",
+    "name": "Rumors",
+    "type": "entity",
+    "aliases": [
+      "Q7379354",
+      "Rumors (film)",
+      "Rumors"
+    ],
+    "source_docs": [
+      "rumors (film)"
+    ],
+    "wikidata_ids": [
+      "Q7379354"
+    ]
+  },
+  {
+    "node_id": "n::friz freleng",
+    "name": "Friz Freleng",
+    "type": "entity",
+    "aliases": [
+      "Q457864",
+      "Isadore Freleng",
+      "Isadore \"Friz\" Freleng",
+      "Friz Freleng",
+      "I. Freleng"
+    ],
+    "source_docs": [
+      "friz freleng"
+    ],
+    "wikidata_ids": [
+      "Q457864"
+    ]
+  },
+  {
+    "node_id": "n::seven women",
+    "name": "Seven Women",
+    "type": "entity",
+    "aliases": [
+      "Q6128106",
+      "Seven Women",
+      "Siete mujeres",
+      "Seven Women (1944 film)"
+    ],
+    "source_docs": [
+      "seven women (1944 film)"
+    ],
+    "wikidata_ids": [
+      "Q6128106"
+    ]
+  },
+  {
+    "node_id": "n::benito perojo",
+    "name": "Benito Perojo",
+    "type": "entity",
+    "aliases": [
+      "Q638713",
+      "Benito Perojo"
+    ],
+    "source_docs": [
+      "benito perojo"
+    ],
+    "wikidata_ids": [
+      "Q638713"
+    ]
+  },
+  {
+    "node_id": "n::julie berwald",
+    "name": "Julie Berwald",
+    "type": "entity",
+    "aliases": [
+      "Q3436152",
+      "Julia Matilda Berwald",
+      "Julie Berwald"
+    ],
+    "source_docs": [
+      "julie berwald"
+    ],
+    "wikidata_ids": [
+      "Q3436152"
+    ]
+  },
+  {
+    "node_id": "n::mathilda berwald",
+    "name": "Mathilda Berwald",
+    "type": "entity",
+    "aliases": [
+      "Q4938880",
+      "Mathilda Berwald"
+    ],
+    "source_docs": [
+      "mathilda berwald"
+    ],
+    "wikidata_ids": [
+      "Q4938880"
+    ]
+  },
+  {
+    "node_id": "n::helsinki",
+    "name": "Helsinki",
+    "type": "entity",
+    "aliases": [
+      "Q1757",
+      "Helsingfors",
+      "Helsinki",
+      "Helsingia",
+      "Helsinkian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1757"
+    ]
+  },
+  {
+    "node_id": "n::olaf iii of norway",
+    "name": "Olaf III of Norway",
+    "type": "entity",
+    "aliases": [
+      "Q316042",
+      "Olaf III of Norway"
+    ],
+    "source_docs": [
+      "olaf iii of norway"
+    ],
+    "wikidata_ids": [
+      "Q316042"
+    ]
+  },
+  {
+    "node_id": "n::harald hardrada",
+    "name": "Harald Hardrada",
+    "type": "entity",
+    "aliases": [
+      "Q203647",
+      "Harald Hardrada",
+      "Harald III Sigurdsson",
+      "Harald III of Norway"
+    ],
+    "source_docs": [
+      "harald hardrada"
+    ],
+    "wikidata_ids": [
+      "Q203647"
+    ]
+  },
+  {
+    "node_id": "n::varangian guard",
+    "name": "Varangian Guard",
+    "type": "entity",
+    "aliases": [
+      "Q1464130",
+      "Varangian Guard"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1464130"
+    ]
+  },
+  {
+    "node_id": "n::there's no tomorrow",
+    "name": "There's No Tomorrow",
+    "type": "entity",
+    "aliases": [
+      "Q3472440",
+      "There's No Tomorrow",
+      "There's No Tomorrow (film)",
+      "Sans lendemain"
+    ],
+    "source_docs": [
+      "there's no tomorrow (film)"
+    ],
+    "wikidata_ids": [
+      "Q3472440"
+    ]
+  },
+  {
+    "node_id": "n::max ophüls",
+    "name": "Max Ophüls",
+    "type": "entity",
+    "aliases": [
+      "Q55410",
+      "Max Ophuls",
+      "Max Ophüls",
+      "Maximillian Oppenheimer"
+    ],
+    "source_docs": [
+      "max ophüls"
+    ],
+    "wikidata_ids": [
+      "Q55410"
+    ]
+  },
+  {
+    "node_id": "n::saarbrücken",
+    "name": "Saarbrücken",
+    "type": "entity",
+    "aliases": [
+      "Q1724",
+      "Saarbrücken",
+      "Saarbrucken"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q1724"
+    ]
+  },
+  {
+    "node_id": "n::henry st john, 18th baron st john of bletso",
+    "name": "Henry St John, 18th Baron St John of Bletso",
+    "type": "entity",
+    "aliases": [
+      "Q5728591",
+      "Henry St John, 18th Baron St John of Bletso"
+    ],
+    "source_docs": [
+      "henry st john, 18th baron st john of bletso"
+    ],
+    "wikidata_ids": [
+      "Q5728591"
+    ]
+  },
+  {
+    "node_id": "n::beauchamp st john, 17th baron st john of bletso",
+    "name": "Beauchamp St John, 17th Baron St John of Bletso",
+    "type": "entity",
+    "aliases": [
+      "Q4877420",
+      "Beauchamp St John, 17th Baron St John of Bletso"
+    ],
+    "source_docs": [
+      "beauchamp st john, 17th baron st john of bletso"
+    ],
+    "wikidata_ids": [
+      "Q4877420"
+    ]
+  },
+  {
+    "node_id": "n::10 may 1912",
+    "name": "10 May 1912",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::samaanta",
+    "name": "Samaanta",
+    "type": "entity",
+    "aliases": [
+      "Q7408419",
+      "Samaanta"
+    ],
+    "source_docs": [
+      "samaanta"
+    ],
+    "wikidata_ids": [
+      "Q7408419"
+    ]
+  },
+  {
+    "node_id": "n::margaret lloyd george",
+    "name": "Margaret Lloyd George",
+    "type": "entity",
+    "aliases": [
+      "Q6759649",
+      "Margaret Lloyd George"
+    ],
+    "source_docs": [
+      "margaret lloyd george"
+    ],
+    "wikidata_ids": [
+      "Q6759649"
+    ]
+  },
+  {
+    "node_id": "n::david lloyd george",
+    "name": "David Lloyd George",
+    "type": "entity",
+    "aliases": [
+      "Q134982",
+      "David Lloyd George",
+      "David Lloyd George, 1st Earl Lloyd-George of Dwyfor",
+      "Lord Lloyd-George",
+      "George Lloyd",
+      "George David Lloyd",
+      "Earl Lloyd-George"
+    ],
+    "source_docs": [
+      "david lloyd george"
+    ],
+    "wikidata_ids": [
+      "Q134982"
+    ]
+  },
+  {
+    "node_id": "n::manchester",
+    "name": "Manchester",
+    "type": "entity",
+    "aliases": [
+      "Q18125",
+      "Manchester",
+      "Mancunian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q18125"
+    ]
+  },
+  {
+    "node_id": "n::blood and henna",
+    "name": "Blood and Henna",
+    "type": "entity",
+    "aliases": [
+      "Q18163014",
+      "Blood and Henna"
+    ],
+    "source_docs": [
+      "blood and henna"
+    ],
+    "wikidata_ids": [
+      "Q18163014"
+    ]
+  },
+  {
+    "node_id": "n::kenneth gyang",
+    "name": "Kenneth Gyang",
+    "type": "entity",
+    "aliases": [
+      "Q6390155",
+      "Kenneth Gyang"
+    ],
+    "source_docs": [
+      "kenneth gyang"
+    ],
+    "wikidata_ids": [
+      "Q6390155"
+    ]
+  },
+  {
+    "node_id": "n::barkin ladi",
+    "name": "Barkin Ladi",
+    "type": "entity",
+    "aliases": [
+      "Q11279375",
+      "Barakin Ladi",
+      "Barkin Ladi"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q11279375"
+    ]
+  },
+  {
+    "node_id": "n::lothair ii",
+    "name": "Lothair II",
+    "type": "entity",
+    "aliases": [
+      "Q298945",
+      "Lothair II",
+      "Lothair II of Lotharingia"
+    ],
+    "source_docs": [
+      "lothair ii"
+    ],
+    "wikidata_ids": [
+      "Q298945"
+    ]
+  },
+  {
+    "node_id": "n::ermengarde of tours",
+    "name": "Ermengarde of Tours",
+    "type": "entity",
+    "aliases": [
+      "Q235653",
+      "Ermengarde of Tours"
+    ],
+    "source_docs": [
+      "ermengarde of tours"
+    ],
+    "wikidata_ids": [
+      "Q235653"
+    ]
+  },
+  {
+    "node_id": "n::20 march 851",
+    "name": "20 March 851",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::moonlighting",
+    "name": "Moonlighting",
+    "type": "entity",
+    "aliases": [
+      "Q2364520",
+      "Moonlighting",
+      "Moonlighting (film)"
+    ],
+    "source_docs": [
+      "moonlighting (film)"
+    ],
+    "wikidata_ids": [
+      "Q2364520"
+    ]
+  },
+  {
+    "node_id": "n::jerzy skolimowski",
+    "name": "Jerzy Skolimowski",
+    "type": "entity",
+    "aliases": [
+      "Q51530",
+      "Jerzy Skolimowski"
+    ],
+    "source_docs": [
+      "jerzy skolimowski"
+    ],
+    "wikidata_ids": [
+      "Q51530"
+    ]
+  },
+  {
+    "node_id": "n::łódź",
+    "name": "Łódź",
+    "type": "entity",
+    "aliases": [
+      "Q580",
+      "Litzmannstadt",
+      "Lodz",
+      "Lodzh",
+      "Łódź",
+      "Łodzi",
+      "Lodsch",
+      "Lodz'",
+      "Lodž"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q580"
+    ]
+  },
+  {
+    "node_id": "n::a man's country",
+    "name": "A Man's Country",
+    "type": "entity",
+    "aliases": [
+      "Q18349588",
+      "A Man's Country",
+      "Man's Country"
+    ],
+    "source_docs": [
+      "a man's country"
+    ],
+    "wikidata_ids": [
+      "Q18349588"
+    ]
+  },
+  {
+    "node_id": "n::henry kolker",
+    "name": "Henry Kolker",
+    "type": "entity",
+    "aliases": [
+      "Q1158727",
+      "Henry Kolker"
+    ],
+    "source_docs": [
+      "henry kolker"
+    ],
+    "wikidata_ids": [
+      "Q1158727"
+    ]
+  },
+  {
+    "node_id": "n::mohammed ahmed al-modiahki",
+    "name": "Mohammed Ahmed Al-Modiahki",
+    "type": "entity",
+    "aliases": [
+      "Q429448",
+      "Mohammed Al-Modiahki",
+      "Mohammed Ahmed Al-Modiahki"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q429448"
+    ]
+  },
+  {
+    "node_id": "n::zhu chen",
+    "name": "Zhu Chen",
+    "type": "entity",
+    "aliases": [
+      "Q198104",
+      "Zhu Chen"
+    ],
+    "source_docs": [
+      "zhu chen"
+    ],
+    "wikidata_ids": [
+      "Q198104"
+    ]
+  },
+  {
+    "node_id": "n::top secret",
+    "name": "Top Secret",
+    "type": "entity",
+    "aliases": [
+      "Q25552",
+      "Secret defense",
+      "Secret défense",
+      "Secret Defense (1998 film)",
+      "Top Secret"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q25552"
+    ]
+  },
+  {
+    "node_id": "n::jacques rivette",
+    "name": "Jacques Rivette",
+    "type": "entity",
+    "aliases": [
+      "Q167475",
+      "Jacques Rivette"
+    ],
+    "source_docs": [
+      "jacques rivette"
+    ],
+    "wikidata_ids": [
+      "Q167475"
+    ]
+  },
+  {
+    "node_id": "n::inescapable",
+    "name": "Inescapable",
+    "type": "entity",
+    "aliases": [
+      "Q17051769",
+      "Inescapable (song)",
+      "Inescapable"
+    ],
+    "source_docs": [
+      "inescapable (song)"
+    ],
+    "wikidata_ids": [
+      "Q17051769"
+    ]
+  },
+  {
+    "node_id": "n::jessica mauboy",
+    "name": "Jessica Mauboy",
+    "type": "entity",
+    "aliases": [
+      "Q443892",
+      "Jessica Mauboy",
+      "Jessica Hilda Mauboy"
+    ],
+    "source_docs": [
+      "jessica mauboy"
+    ],
+    "wikidata_ids": [
+      "Q443892"
+    ]
+  },
+  {
+    "node_id": "n::darwin",
+    "name": "Darwin",
+    "type": "entity",
+    "aliases": [
+      "Q11568",
+      "Darwin",
+      "Darwin, Northern Territory",
+      "Darwinian"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q11568"
+    ]
+  },
+  {
+    "node_id": "n::countess anastasia mikhailovna of torby",
+    "name": "Countess Anastasia Mikhailovna of Torby",
+    "type": "entity",
+    "aliases": [
+      "Q2734291",
+      "Anastasia de Torby",
+      "Countess Anastasia Mikhailovna of Torby"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q2734291"
+    ]
+  },
+  {
+    "node_id": "n::sophie of merenberg",
+    "name": "Sophie of Merenberg",
+    "type": "entity",
+    "aliases": [
+      "Q63012",
+      "Sophie of Merenberg"
+    ],
+    "source_docs": [
+      "sophie of merenberg"
+    ],
+    "wikidata_ids": [
+      "Q63012"
+    ]
+  },
+  {
+    "node_id": "n::14 september 1927",
+    "name": "14 September 1927",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::teofila ludwika zasławska",
+    "name": "Teofila Ludwika Zasławska",
+    "type": "entity",
+    "aliases": [
+      "Q7701149",
+      "Teofila Ludwika Zasławska"
+    ],
+    "source_docs": [
+      "teofila ludwika zasławska"
+    ],
+    "wikidata_ids": [
+      "Q7701149"
+    ]
+  },
+  {
+    "node_id": "n::władysław dominik zasławski",
+    "name": "Władysław Dominik Zasławski",
+    "type": "entity",
+    "aliases": [
+      "Q1390443",
+      "Władysław Dominik Zasławski"
+    ],
+    "source_docs": [
+      "władysław dominik zasławski"
+    ],
+    "wikidata_ids": [
+      "Q1390443"
+    ]
+  },
+  {
+    "node_id": "n::stare selo",
+    "name": "Stare Selo",
+    "type": "entity",
+    "aliases": [
+      "Q7601771",
+      "Stare Selo"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q7601771"
+    ]
+  },
+  {
+    "node_id": "n::tumbleweed",
+    "name": "Tumbleweed",
+    "type": "entity",
+    "aliases": [
+      "Q2252977",
+      "Tumbleweed (film)",
+      "Tumbleweed"
+    ],
+    "source_docs": [
+      "tumbleweed (film)"
+    ],
+    "wikidata_ids": [
+      "Q2252977"
+    ]
+  },
+  {
+    "node_id": "n::nathan juran",
+    "name": "Nathan Juran",
+    "type": "entity",
+    "aliases": [
+      "Q588246",
+      "Nathan H. Juran",
+      "Naftuli \"Nathan\" Hertz Juran",
+      "Nathan Juran"
+    ],
+    "source_docs": [
+      "nathan juran"
+    ],
+    "wikidata_ids": [
+      "Q588246"
+    ]
+  },
+  {
+    "node_id": "n::gura humorului",
+    "name": "Gura Humorului",
+    "type": "entity",
+    "aliases": [
+      "Q837170",
+      "Gura Humorului",
+      "Gura Humora"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q837170"
+    ]
+  },
+  {
+    "node_id": "n::appointment with love",
+    "name": "Appointment with Love",
+    "type": "entity",
+    "aliases": [
+      "Q4781643",
+      "Appointment of Love",
+      "Appointment with Love"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q4781643"
+    ]
+  },
+  {
+    "node_id": "n::henry barakat",
+    "name": "Henry Barakat",
+    "type": "entity",
+    "aliases": [
+      "Q3132612",
+      "Henry Barakat"
+    ],
+    "source_docs": [
+      "henry barakat"
+    ],
+    "wikidata_ids": [
+      "Q3132612"
+    ]
+  },
+  {
+    "node_id": "n::cairo",
+    "name": "Cairo",
+    "type": "entity",
+    "aliases": [
+      "Q85",
+      "Cairo",
+      "Cairo, Egypt",
+      "Cairene"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q85"
+    ]
+  },
+  {
+    "node_id": "n::charles ii of naples",
+    "name": "Charles II of Naples",
+    "type": "entity",
+    "aliases": [
+      "Q314331",
+      "Charles II of Naples"
+    ],
+    "source_docs": [
+      "charles ii of naples"
+    ],
+    "wikidata_ids": [
+      "Q314331"
+    ]
+  },
+  {
+    "node_id": "n::kingdom of sicily",
+    "name": "Kingdom of Sicily",
+    "type": "entity",
+    "aliases": [
+      "Q173065",
+      "Kingdom of Naples",
+      "Kingdom of Sicily",
+      "Regno di Napoli",
+      "Sicily, Kingdom of"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q173065"
+    ]
+  },
+  {
+    "node_id": "n::george carnegie, 6th earl of northesk",
+    "name": "George Carnegie, 6th Earl of Northesk",
+    "type": "entity",
+    "aliases": [
+      "Q3760458",
+      "George Carnegie, 6th Earl of Northesk",
+      "George Carnegie",
+      "6th Earl of Northesk"
+    ],
+    "source_docs": [
+      "george carnegie, 6th earl of northesk"
+    ],
+    "wikidata_ids": [
+      "Q3760458"
+    ]
+  },
+  {
+    "node_id": "n::david carnegie, 4th earl of northesk",
+    "name": "David Carnegie, 4th Earl of Northesk",
+    "type": "entity",
+    "aliases": [
+      "Q3703132",
+      "David Carnegie",
+      "David Carnegie, 4th Earl of Northesk",
+      "4th Earl of Northesk"
+    ],
+    "source_docs": [
+      "david carnegie, 4th earl of northesk"
+    ],
+    "wikidata_ids": [
+      "Q3703132"
+    ]
+  },
+  {
+    "node_id": "n::david carnegie",
+    "name": "David Carnegie",
+    "type": "entity",
+    "aliases": [
+      "Q3703132",
+      "David Carnegie",
+      "David Carnegie, 4th Earl of Northesk",
+      "4th Earl of Northesk"
+    ],
+    "source_docs": [
+      "david carnegie, 4th earl of northesk"
+    ],
+    "wikidata_ids": [
+      "Q3703132"
+    ]
+  },
+  {
+    "node_id": "n::14 january 1729",
+    "name": "14 January 1729",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::i love you, beth cooper",
+    "name": "I Love You, Beth Cooper",
+    "type": "entity",
+    "aliases": [
+      "Q297147",
+      "I Love You, Beth Cooper (film)",
+      "I Love You, Beth Cooper"
+    ],
+    "source_docs": [
+      "i love you, beth cooper (film)"
+    ],
+    "wikidata_ids": [
+      "Q297147"
+    ]
+  },
+  {
+    "node_id": "n::chris columbus",
+    "name": "Chris Columbus",
+    "type": "entity",
+    "aliases": [
+      "Q75079",
+      "Chris Columbus (filmmaker)",
+      "Chris Joseph Columbus",
+      "Chris Columbus"
+    ],
+    "source_docs": [
+      "chris columbus (filmmaker)"
+    ],
+    "wikidata_ids": [
+      "Q75079"
+    ]
+  },
+  {
+    "node_id": "n::mad youth",
+    "name": "Mad Youth",
+    "type": "entity",
+    "aliases": [
+      "Q6726078",
+      "Mad Youth"
+    ],
+    "source_docs": [
+      "mad youth"
+    ],
+    "wikidata_ids": [
+      "Q6726078"
+    ]
+  },
+  {
+    "node_id": "n::melville shyer",
+    "name": "Melville Shyer",
+    "type": "entity",
+    "aliases": [
+      "Q3854318",
+      "Melville Shyer"
+    ],
+    "source_docs": [
+      "melville shyer"
+    ],
+    "wikidata_ids": [
+      "Q3854318"
+    ]
+  },
+  {
+    "node_id": "n::chattanooga",
+    "name": "Chattanooga",
+    "type": "entity",
+    "aliases": [
+      "Q186702",
+      "Chattanooga",
+      "Chattanooga, Tennessee"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q186702"
+    ]
+  },
+  {
+    "node_id": "n::renegade force",
+    "name": "Renegade Force",
+    "type": "entity",
+    "aliases": [
+      "Q4340105",
+      "Renegade Force"
+    ],
+    "source_docs": [
+      "renegade force"
+    ],
+    "wikidata_ids": [
+      "Q4340105"
+    ]
+  },
+  {
+    "node_id": "n::martin kunert",
+    "name": "Martin Kunert",
+    "type": "entity",
+    "aliases": [
+      "Q6775934",
+      "Martin Kunert"
+    ],
+    "source_docs": [
+      "martin kunert"
+    ],
+    "wikidata_ids": [
+      "Q6775934"
+    ]
+  },
+  {
+    "node_id": "n::a string of pearls",
+    "name": "A String of Pearls",
+    "type": "entity",
+    "aliases": [
+      "Q4659865",
+      "A String of Pearls (song)",
+      "A String of Pearls",
+      "String of Pearls"
+    ],
+    "source_docs": [
+      "a string of pearls (song)"
+    ],
+    "wikidata_ids": [
+      "Q4659865"
+    ]
+  },
+  {
+    "node_id": "n::jerry gray",
+    "name": "Jerry Gray",
+    "type": "entity",
+    "aliases": [
+      "Q1687824",
+      "00012587693 IPI",
+      "Jerry Gray (arranger)",
+      "Jerry Gray",
+      "Generoso Graziano"
+    ],
+    "source_docs": [
+      "jerry gray (arranger)"
+    ],
+    "wikidata_ids": [
+      "Q1687824"
+    ]
+  },
+  {
+    "node_id": "n::dallas",
+    "name": "Dallas",
+    "type": "entity",
+    "aliases": [
+      "Q16557",
+      "Dallas TX",
+      "Dallas, Texas",
+      "D-Town",
+      "Dallas, Tx.",
+      "Dallas",
+      "Big D",
+      "Dallasite"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q16557"
+    ]
+  },
+  {
+    "node_id": "n::sabiha gökçen",
+    "name": "Sabiha Gökçen",
+    "type": "entity",
+    "aliases": [
+      "Q459104",
+      "Sabiha Gökçen"
+    ],
+    "source_docs": [
+      "sabiha gökçen"
+    ],
+    "wikidata_ids": [
+      "Q459104"
+    ]
+  },
+  {
+    "node_id": "n::mustafa kemal atatürk",
+    "name": "Mustafa Kemal Atatürk",
+    "type": "entity",
+    "aliases": [
+      "Q5152",
+      "Mustafa Kemal",
+      "Gazi Mustafa Kemal Pasha",
+      "Ataturk",
+      "Mustapha Kemal",
+      "Mustafa Kemal Pasha",
+      "K. Atatürk",
+      "Kemal Pasha",
+      "Mustafa Pascha Kemal",
+      "Gazi Mustafa Kemal",
+      "Ghazi Mustapha Kemal Ataturk",
+      "Kamâl Atatürk",
+      "Gazi Mustafa Kemal Atatürk",
+      "Kemal Ataturk",
+      "Atatürk",
+      "Kamal Ataturk",
+      "Mustapha Kemal Ataturk",
+      "Attaturk",
+      "Mustafa Kemal Ataturk",
+      "Kemal Atatürk",
+      "Ghazi Mustapha Kemal",
+      "Ghazi Mustapha Kemal Pasha",
+      "Mustafa Kemal Atatürk",
+      "Mustafa K. Atatürk"
+    ],
+    "source_docs": [
+      "mustafa kemal atatürk"
+    ],
+    "wikidata_ids": [
+      "Q5152"
+    ]
+  },
+  {
+    "node_id": "n::dolmabahçe palace",
+    "name": "Dolmabahçe Palace",
+    "type": "entity",
+    "aliases": [
+      "Q274141",
+      "Dolmabahçe Palace",
+      "Dolmabahçe Sarayı"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "Q274141"
+    ]
+  },
+  {
+    "node_id": "n::humphrey de bohun, 2nd earl of hereford",
+    "name": "Humphrey de Bohun, 2nd Earl of Hereford",
+    "type": "entity",
+    "aliases": [
+      "Q445991",
+      "Humphrey de Bohun, 2nd Earl of Hereford"
+    ],
+    "source_docs": [
+      "humphrey de bohun, 2nd earl of hereford"
+    ],
+    "wikidata_ids": [
+      "Q445991"
+    ]
+  },
+  {
+    "node_id": "n::henry de bohun, 1st earl of hereford",
+    "name": "Henry de Bohun, 1st Earl of Hereford",
+    "type": "entity",
+    "aliases": [
+      "Q513118",
+      "Henry de Bohun, 1st Earl of Hereford"
+    ],
+    "source_docs": [
+      "henry de bohun, 1st earl of hereford"
+    ],
+    "wikidata_ids": [
+      "Q513118"
+    ]
+  },
+  {
+    "node_id": "n::1 june 1220",
+    "name": "1 June 1220",
+    "type": "entity",
+    "aliases": [
+      "date_information"
+    ],
+    "source_docs": [],
+    "wikidata_ids": [
+      "date_information"
+    ]
+  },
+  {
+    "node_id": "n::hail, hail, the gang's all here",
+    "name": "Hail, Hail, the Gang's All Here",
+    "type": "entity",
+    "aliases": [
+      "Q5639165",
+      "The Gang's All Here",
+      "Hail, Hail, the Gang's All Here"
+    ],
+    "source_docs": [
+      "hail, hail, the gang's all here"
+    ],
+    "wikidata_ids": [
+      "Q5639165"
+    ]
+  },
+  {
+    "node_id": "n::arthur sullivan",
+    "name": "Arthur Sullivan",
+    "type": "entity",
+    "aliases": [
+      "Q212692",
+      "Arthur S. Sullivan",
+      "Arthur Sullivan",
+      "Sir Arthur Sullivan",
+      "Arthur Seymour Sullivan"
+    ],
+    "source_docs": [
+      "arthur sullivan"
+    ],
+    "wikidata_ids": [
+      "Q212692"
+    ]
+  }
+]

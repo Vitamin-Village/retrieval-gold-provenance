@@ -1,0 +1,3411 @@
+{
+ "generated_utc": "2026-10-10T10:42:13.007106+00:00",
+ "models": [
+  "claude-opus-5-5",
+  "claude-sonnet-5-5",
+  "claude-haiku-4-5",
+  "gemini-3.8-flash"
+ ],
+ "n_items": 29,
+ "anchors": [
+  "OURSLOW_PASSAGE",
+  "OURSLOW_ANSWER",
+  "OURSUP_ANSWER",
+  "OURSUP_ENTITY",
+  "OURSUP_EDGE",
+  "OURSUP_PATH"
+ ],
+ "n_external": 23,
+ "qc": {
+  "claude-opus-5-5_A_1": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 72757,
+    "cache_read": 607302,
+    "cache_write": 0
+   },
+   "cost_usd": 1.8603203999999998
+  },
+  "claude-opus-5-5_A_2": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 74073,
+    "cache_read": 607302,
+    "cache_write": 0
+   },
+   "cost_usd": 1.8866403999999988
+  },
+  "claude-opus-5-5_A_3": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 72739,
+    "cache_read": 607302,
+    "cache_write": 0
+   },
+   "cost_usd": 1.8599604000000007
+  },
+  "claude-opus-5-5_B_1": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 23408,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.5605004
+  },
+  "claude-opus-5-5_B_2": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 23641,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.5651603999999999
+  },
+  "claude-opus-5-5_B_3": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 23596,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.5642604
+  },
+  "claude-sonnet-5-5_A_1": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 48316,
+    "cache_read": 593658,
+    "cache_write": 13644
+   },
+   "cost_usd": 0.7778615999999997
+  },
+  "claude-sonnet-5-5_A_2": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 47810,
+    "cache_read": 607302,
+    "cache_write": 0
+   },
+   "cost_usd": 0.7414204000000001
+  },
+  "claude-sonnet-5-5_A_3": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 70930,
+    "output": 47622,
+    "cache_read": 607302,
+    "cache_write": 0
+   },
+   "cost_usd": 0.7395404000000001
+  },
+  "claude-sonnet-5-5_B_1": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 15459,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.2139884
+  },
+  "claude-sonnet-5-5_B_2": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 15513,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.21452839999999998
+  },
+  "claude-sonnet-5-5_B_3": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 16471,
+    "output": 14975,
+    "cache_read": 132282,
+    "cache_write": 0
+   },
+   "cost_usd": 0.20914839999999996
+  },
+  "claude-haiku-4-5_A_1": {
+   "n_requests": 167,
+   "quiz_correct_final": 4,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 517622,
+    "output": 83658,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.9359120000000003
+  },
+  "claude-haiku-4-5_A_2": {
+   "n_requests": 167,
+   "quiz_correct_final": 4,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 517622,
+    "output": 84522,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.9402319999999998
+  },
+  "claude-haiku-4-5_A_3": {
+   "n_requests": 167,
+   "quiz_correct_final": 4,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 167
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 517622,
+    "output": 82106,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.9281519999999996
+  },
+  "claude-haiku-4-5_B_1": {
+   "n_requests": 37,
+   "quiz_correct_final": 4,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 113412,
+    "output": 25339,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.24010699999999996
+  },
+  "claude-haiku-4-5_B_2": {
+   "n_requests": 37,
+   "quiz_correct_final": 4,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 113412,
+    "output": 24972,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.23827200000000007
+  },
+  "claude-haiku-4-5_B_3": {
+   "n_requests": 37,
+   "quiz_correct_final": 5,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "end_turn": 37
+   },
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 113412,
+    "output": 24584,
+    "cache_read": 0,
+    "cache_write": 0
+   },
+   "cost_usd": 0.23633200000000001
+  },
+  "gemini-3.8-flash_A_1": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 167
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 491119,
+    "output": 7198,
+    "thoughts": 121598,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 619915
+   },
+   "cost_usd": 0.0
+  },
+  "gemini-3.8-flash_A_2": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 167
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 491119,
+    "output": 6689,
+    "thoughts": 108927,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 606735
+   },
+   "cost_usd": 0.0
+  },
+  "gemini-3.8-flash_A_3": {
+   "n_requests": 167,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 167
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 491119,
+    "output": 6802,
+    "thoughts": 117579,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 615500
+   },
+   "cost_usd": 0.0
+  },
+  "gemini-3.8-flash_B_1": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 37
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 108005,
+    "output": 3068,
+    "thoughts": 29139,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 140212
+   },
+   "cost_usd": 0.0
+  },
+  "gemini-3.8-flash_B_2": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 37
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {
+    "partA:MUSIQUE_ANSWER": "no RATING line (stop STOP)"
+   },
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 108005,
+    "output": 3175,
+    "thoughts": 27144,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 138324
+   },
+   "cost_usd": 0.0
+  },
+  "gemini-3.8-flash_B_3": {
+   "n_requests": 37,
+   "quiz_correct_final": 6,
+   "attention": {
+    "CHECK_TEXT": 0,
+    "CHECK_KG": 4
+   },
+   "attention_pass": {
+    "CHECK_TEXT": true,
+    "CHECK_KG": true
+   },
+   "excluded_by_human_rules": false,
+   "complete": true,
+   "stop_reasons": {
+    "STOP": 37
+   },
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "failed_parses": {},
+   "corrections_not_in_list": [],
+   "usage": {
+    "input": 108005,
+    "output": 3090,
+    "thoughts": 30915,
+    "cache_read": 0,
+    "cache_write": 0,
+    "total": 142010
+   },
+   "cost_usd": 0.0
+  }
+ },
+ "per_run": {
+  "claude-opus-5-5_A_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8850118953211736,
+     "exact": 0.7931034482758621,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9208316595840645
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8480845442536328,
+     "exact": 0.7391304347826086,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8871442809090747
+    }
+   }
+  },
+  "claude-opus-5-5_A_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8850118953211736,
+     "exact": 0.7931034482758621,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9208316595840645
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8480845442536328,
+     "exact": 0.7391304347826086,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8871442809090747
+    }
+   }
+  },
+  "claude-opus-5-5_A_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8850118953211736,
+     "exact": 0.7931034482758621,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9208316595840645
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8480845442536328,
+     "exact": 0.7391304347826086,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8871442809090747
+    }
+   }
+  },
+  "claude-opus-5-5_B_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.7889041904387173,
+     "exact": 0.7586206896551724,
+     "within_1": 0.8275862068965517,
+     "binary_agree": 0.8275862068965517,
+     "alpha_ordinal": 0.8463084517259072
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.719234576047509,
+     "exact": 0.6956521739130435,
+     "within_1": 0.782608695652174,
+     "binary_agree": 0.782608695652174,
+     "alpha_ordinal": 0.7834312411763298
+    }
+   }
+  },
+  "claude-opus-5-5_B_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.7911164465786314,
+     "exact": 0.7931034482758621,
+     "within_1": 0.8275862068965517,
+     "binary_agree": 0.8275862068965517,
+     "alpha_ordinal": 0.8563259673395729
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.7200811359026369,
+     "exact": 0.7391304347826086,
+     "within_1": 0.782608695652174,
+     "binary_agree": 0.782608695652174,
+     "alpha_ordinal": 0.7900351066702673
+    }
+   }
+  },
+  "claude-opus-5-5_B_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.7889041904387173,
+     "exact": 0.7586206896551724,
+     "within_1": 0.8275862068965517,
+     "binary_agree": 0.8275862068965517,
+     "alpha_ordinal": 0.8463084517259072
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.719234576047509,
+     "exact": 0.6956521739130435,
+     "within_1": 0.782608695652174,
+     "binary_agree": 0.782608695652174,
+     "alpha_ordinal": 0.7834312411763298
+    }
+   }
+  },
+  "claude-sonnet-5-5_A_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9590312815338042,
+     "exact": 0.8620689655172413,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9610324895355791
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9456631792102599,
+     "exact": 0.8260869565217391,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9479978855557024
+    }
+   }
+  },
+  "claude-sonnet-5-5_A_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9355685720056555,
+     "exact": 0.8275862068965517,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.95271126525712
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9148434870414002,
+     "exact": 0.782608695652174,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9344724716446124
+    }
+   }
+  },
+  "claude-sonnet-5-5_A_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9590312815338042,
+     "exact": 0.8620689655172413,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9610324895355791
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9456631792102599,
+     "exact": 0.8260869565217391,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9479978855557024
+    }
+   }
+  },
+  "claude-sonnet-5-5_B_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8913429303884836,
+     "exact": 0.8275862068965517,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9265233482171289
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8569558101472995,
+     "exact": 0.782608695652174,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8963111977340087
+    }
+   }
+  },
+  "claude-sonnet-5-5_B_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9355685720056555,
+     "exact": 0.8275862068965517,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.95271126525712
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9148434870414002,
+     "exact": 0.782608695652174,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9344724716446124
+    }
+   }
+  },
+  "claude-sonnet-5-5_B_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8913429303884836,
+     "exact": 0.8275862068965517,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9265233482171289
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8569558101472995,
+     "exact": 0.782608695652174,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8963111977340087
+    }
+   }
+  },
+  "claude-haiku-4-5_A_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9018123879705238,
+     "exact": 0.7931034482758621,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.9222361100899443
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8693618443033746,
+     "exact": 0.7391304347826086,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.8893133696754192
+    }
+   }
+  },
+  "claude-haiku-4-5_A_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8928131416837782,
+     "exact": 0.6896551724137931,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.8927229601186434
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8680391495106311,
+     "exact": 0.6521739130434783,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8860843134663671
+    }
+   }
+  },
+  "claude-haiku-4-5_A_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8749509996079969,
+     "exact": 0.7241379310344828,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9026935256861365
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8353936239427455,
+     "exact": 0.6521739130434783,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8670202564140393
+    }
+   }
+  },
+  "claude-haiku-4-5_B_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8317865429234339,
+     "exact": 0.7241379310344828,
+     "within_1": 0.8620689655172413,
+     "binary_agree": 0.8620689655172413,
+     "alpha_ordinal": 0.8584505425279507
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.7771317829457365,
+     "exact": 0.6521739130434783,
+     "within_1": 0.8260869565217391,
+     "binary_agree": 0.8260869565217391,
+     "alpha_ordinal": 0.8100373350786119
+    }
+   }
+  },
+  "claude-haiku-4-5_B_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8336747234739861,
+     "exact": 0.7931034482758621,
+     "within_1": 0.8620689655172413,
+     "binary_agree": 0.8275862068965517,
+     "alpha_ordinal": 0.8864770685810551
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.7752965806001396,
+     "exact": 0.7391304347826086,
+     "within_1": 0.8260869565217391,
+     "binary_agree": 0.782608695652174,
+     "alpha_ordinal": 0.8348330413547804
+    }
+   }
+  },
+  "claude-haiku-4-5_B_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.7978311386522076,
+     "exact": 0.6896551724137931,
+     "within_1": 0.8620689655172413,
+     "binary_agree": 0.8620689655172413,
+     "alpha_ordinal": 0.8217831987630991
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.7472527472527473,
+     "exact": 0.6521739130434783,
+     "within_1": 0.8260869565217391,
+     "binary_agree": 0.8260869565217391,
+     "alpha_ordinal": 0.78233881197204
+    }
+   }
+  },
+  "gemini-3.8-flash_A_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.965074267362505,
+     "exact": 0.896551724137931,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9647430383169071
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9538461538461539,
+     "exact": 0.8695652173913043,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9537928976248589
+    }
+   }
+  },
+  "gemini-3.8-flash_A_2": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.965074267362505,
+     "exact": 0.896551724137931,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9647430383169071
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9538461538461539,
+     "exact": 0.8695652173913043,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9537928976248589
+    }
+   }
+  },
+  "gemini-3.8-flash_A_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.941743672157493,
+     "exact": 0.8620689655172413,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.957584549354205
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.923282188125417,
+     "exact": 0.8260869565217391,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9423016852846242
+    }
+   }
+  },
+  "gemini-3.8-flash_B_1": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9355685720056555,
+     "exact": 0.8275862068965517,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.95271126525712
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9148434870414002,
+     "exact": 0.782608695652174,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9344724716446124
+    }
+   }
+  },
+  "gemini-3.8-flash_B_2": {
+   "census": {
+    "all29": {
+     "n": 28,
+     "kappa_qw": 0.9319787985865724,
+     "exact": 0.8214285714285714,
+     "within_1": 0.9285714285714286,
+     "binary_agree": 0.9285714285714286,
+     "alpha_ordinal": 0.9493801652892562
+    },
+    "external23": {
+     "n": 22,
+     "kappa_qw": 0.9090909090909091,
+     "exact": 0.7727272727272727,
+     "within_1": 0.9090909090909091,
+     "binary_agree": 0.9090909090909091,
+     "alpha_ordinal": 0.9284646324257165
+    }
+   }
+  },
+  "gemini-3.8-flash_B_3": {
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9355685720056555,
+     "exact": 0.8275862068965517,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.95271126525712
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9148434870414002,
+     "exact": 0.782608695652174,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9344724716446124
+    }
+   }
+  }
+ },
+ "per_model_median": {
+  "claude-opus-5-5_A": {
+   "runs_used": [
+    "claude-opus-5-5_A_1",
+    "claude-opus-5-5_A_2",
+    "claude-opus-5-5_A_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 3,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 0,
+    "GRB_ANSWER": 2,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8850118953211736,
+     "exact": 0.7931034482758621,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9208316595840645
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8480845442536328,
+     "exact": 0.7391304347826086,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8871442809090747
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "claude-opus-5-5_B": {
+   "runs_used": [
+    "claude-opus-5-5_B_1",
+    "claude-opus-5-5_B_2",
+    "claude-opus-5-5_B_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 3,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 0,
+    "GRB_ANSWER": 0,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 1,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.7889041904387173,
+     "exact": 0.7586206896551724,
+     "within_1": 0.8275862068965517,
+     "binary_agree": 0.8275862068965517,
+     "alpha_ordinal": 0.8463084517259072
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.719234576047509,
+     "exact": 0.6956521739130435,
+     "within_1": 0.782608695652174,
+     "binary_agree": 0.782608695652174,
+     "alpha_ordinal": 0.7834312411763298
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "claude-sonnet-5-5_A": {
+   "runs_used": [
+    "claude-sonnet-5-5_A_1",
+    "claude-sonnet-5-5_A_2",
+    "claude-sonnet-5-5_A_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 1,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 3,
+    "GRB_ANSWER": 2,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9590312815338042,
+     "exact": 0.8620689655172413,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9610324895355791
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9456631792102599,
+     "exact": 0.8260869565217391,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9479978855557024
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "claude-sonnet-5-5_B": {
+   "runs_used": [
+    "claude-sonnet-5-5_B_1",
+    "claude-sonnet-5-5_B_2",
+    "claude-sonnet-5-5_B_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 3,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 3,
+    "GRB_ANSWER": 0,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8913429303884836,
+     "exact": 0.8275862068965517,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9265233482171289
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8569558101472995,
+     "exact": 0.782608695652174,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8963111977340087
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "claude-haiku-4-5_A": {
+   "runs_used": [
+    "claude-haiku-4-5_A_1",
+    "claude-haiku-4-5_A_2",
+    "claude-haiku-4-5_A_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 3,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 2,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 4,
+    "GRB_SUBGRAPH": 0,
+    "GRB_ANSWER": 2,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8749509996079969,
+     "exact": 0.7241379310344828,
+     "within_1": 0.896551724137931,
+     "binary_agree": 0.896551724137931,
+     "alpha_ordinal": 0.9026935256861365
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.8353936239427455,
+     "exact": 0.6521739130434783,
+     "within_1": 0.8695652173913043,
+     "binary_agree": 0.8695652173913043,
+     "alpha_ordinal": 0.8670202564140393
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "claude-haiku-4-5_B": {
+   "runs_used": [
+    "claude-haiku-4-5_B_1",
+    "claude-haiku-4-5_B_2",
+    "claude-haiku-4-5_B_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 0,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 1,
+    "GRB_ANSWER": 0,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 1,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.8346766266954984,
+     "exact": 0.7586206896551724,
+     "within_1": 0.8620689655172413,
+     "binary_agree": 0.8620689655172413,
+     "alpha_ordinal": 0.8693229246270149
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.7793582533906716,
+     "exact": 0.6956521739130435,
+     "within_1": 0.8260869565217391,
+     "binary_agree": 0.8260869565217391,
+     "alpha_ordinal": 0.8186024079168304
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "gemini-3.8-flash_A": {
+   "runs_used": [
+    "gemini-3.8-flash_A_1",
+    "gemini-3.8-flash_A_2",
+    "gemini-3.8-flash_A_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 1,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 3,
+    "GRB_ANSWER": 3,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.965074267362505,
+     "exact": 0.896551724137931,
+     "within_1": 0.9655172413793104,
+     "binary_agree": 0.9655172413793104,
+     "alpha_ordinal": 0.9647430383169071
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9538461538461539,
+     "exact": 0.8695652173913043,
+     "within_1": 0.9565217391304348,
+     "binary_agree": 0.9565217391304348,
+     "alpha_ordinal": 0.9537928976248589
+    }
+   },
+   "with_excluded_runs": "same"
+  },
+  "gemini-3.8-flash_B": {
+   "runs_used": [
+    "gemini-3.8-flash_B_1",
+    "gemini-3.8-flash_B_2",
+    "gemini-3.8-flash_B_3"
+   ],
+   "bins": {
+    "MUSIQUE_PASSAGE": 0,
+    "MUSIQUE_ANSWER": 0,
+    "HOTPOT_SENTENCE": 0,
+    "HOTPOT_ANSWER": 0,
+    "MHRAG_EVIDENCE": 0,
+    "MHRAG_ANSWER": 0,
+    "OURSLOW_PASSAGE": 0,
+    "OURSLOW_ANSWER": 0,
+    "NQ_ANSWER": 0,
+    "NQ_PASSAGE": 0,
+    "GRADE_PASSAGE": 3,
+    "GRADE_EDGE": 3,
+    "STARK_TEXTUAL": 3,
+    "STARK_ANSWERENTITY": 3,
+    "TRIVIA_ANSWER": 0,
+    "TRIVIA_EVIDENCE": 3,
+    "GRB_SUBGRAPH": 3,
+    "GRB_ANSWER": 2,
+    "TWOWIKI_SENTENCE": 3,
+    "TWOWIKI_ANSWER": 4,
+    "TWOWIKI_EDGE": 4,
+    "METAQA_ANSWER": 4,
+    "METAQA_PATH": 4,
+    "WEBQSP_ANSWERENTITY": 4,
+    "WEBQSP_PATH": 4,
+    "OURSUP_ANSWER": 3,
+    "OURSUP_ENTITY": 4,
+    "OURSUP_EDGE": 4,
+    "OURSUP_PATH": 4
+   },
+   "census": {
+    "all29": {
+     "n": 29,
+     "kappa_qw": 0.9355685720056555,
+     "exact": 0.8275862068965517,
+     "within_1": 0.9310344827586207,
+     "binary_agree": 0.9310344827586207,
+     "alpha_ordinal": 0.95271126525712
+    },
+    "external23": {
+     "n": 23,
+     "kappa_qw": 0.9148434870414002,
+     "exact": 0.782608695652174,
+     "within_1": 0.9130434782608695,
+     "binary_agree": 0.9130434782608695,
+     "alpha_ordinal": 0.9344724716446124
+    }
+   },
+   "with_excluded_runs": "same"
+  }
+ },
+ "alpha": {
+  "within_claude-opus-5-5_A": {
+   "all29": 1.0,
+   "external23": 1.0
+  },
+  "within_claude-sonnet-5-5_A": {
+   "all29": 0.9954931348915208,
+   "external23": 0.9927210255054844
+  },
+  "within_claude-haiku-4-5_A": {
+   "all29": 0.9554001246097179,
+   "external23": 0.958060102510297
+  },
+  "within_gemini-3.8-flash_A": {
+   "all29": 0.9963186682520808,
+   "external23": 0.9941747001014609
+  },
+  "across_model_medians_A": {
+   "all29": 0.962690347326509,
+   "external23": 0.9474729828943724,
+   "with_census": 0.9522397891465466
+  },
+  "all_runs_A": {
+   "n_runs": 12,
+   "all29": 0.966511987920293,
+   "external23": 0.9576036847636349,
+   "with_census": 0.9619459806483066
+  },
+  "within_claude-opus-5-5_B": {
+   "all29": 0.9895805400026493,
+   "external23": 0.988620805062829
+  },
+  "within_claude-sonnet-5-5_B": {
+   "all29": 0.9933977352696565,
+   "external23": 0.9907936671260807
+  },
+  "within_claude-haiku-4-5_B": {
+   "all29": 0.8929961692153603,
+   "external23": 0.8754484922973396
+  },
+  "within_gemini-3.8-flash_B": {
+   "all29": 1.0,
+   "external23": 1.0
+  },
+  "across_model_medians_B": {
+   "all29": 0.93601250444493,
+   "external23": 0.9106424173766985,
+   "with_census": 0.9208900449918072
+  },
+  "all_runs_B": {
+   "n_runs": 12,
+   "all29": 0.9278712765614212,
+   "external23": 0.9062688742597852,
+   "with_census": 0.9233207421236915
+  }
+ },
+ "headline_KG": {
+  "claude-opus-5-5_A_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_A_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_A_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_B_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_B_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_B_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-sonnet-5-5_A_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_A_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_A_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_B_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_B_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_B_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-haiku-4-5_A_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 2,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": false,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 4
+  },
+  "claude-haiku-4-5_A_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 1,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-haiku-4-5_A_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 2,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": false,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 4
+  },
+  "claude-haiku-4-5_B_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 4,
+    "GraphRAG-Bench": 1,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-haiku-4-5_B_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 1,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-haiku-4-5_B_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "gemini-3.8-flash_A_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_A_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_A_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_B_1": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_B_2": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_B_3": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-opus-5-5_A_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-opus-5-5_B_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "claude-sonnet-5-5_A_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-sonnet-5-5_B_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "claude-haiku-4-5_A_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 2,
+    "GraphRAG-Bench": 0,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": false,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 4
+  },
+  "claude-haiku-4-5_B_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 1,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": false,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 5
+  },
+  "gemini-3.8-flash_A_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "gemini-3.8-flash_B_median": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   },
+   "n_external_ge3": 6
+  },
+  "census": {
+   "bins": {
+    "GRADE": 3,
+    "STaRK": 3,
+    "GraphRAG-Bench": 3,
+    "2WikiMultiHop": 4,
+    "MetaQA": 4,
+    "WebQSP": 4
+   },
+   "ge3": {
+    "GRADE": true,
+    "STaRK": true,
+    "GraphRAG-Bench": true,
+    "2WikiMultiHop": true,
+    "MetaQA": true,
+    "WebQSP": true
+   }
+  }
+ },
+ "condition_A_minus_B": {
+  "claude-opus-5-5": {
+   "all29": {
+    "kappa_qw": {
+     "diff": 0.09610770488245635,
+     "ci95": [
+      0.0,
+      0.24984807666187164
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.034482758620689724,
+     "ci95": [
+      0.0,
+      0.10344827586206895
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.06896551724137934,
+     "ci95": [
+      0.0,
+      0.1724137931034483
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.06896551724137934,
+     "ci95": [
+      0.0,
+      0.1724137931034483
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   },
+   "external23": {
+    "kappa_qw": {
+     "diff": 0.12884996820612382,
+     "ci95": [
+      0.0,
+      0.3290903719157063
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.04347826086956519,
+     "ci95": [
+      0.0,
+      0.13043478260869568
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.08695652173913038,
+     "ci95": [
+      0.0,
+      0.21739130434782605
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.08695652173913038,
+     "ci95": [
+      0.0,
+      0.21739130434782605
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    }
+   },
+   "all29_mean_over_runs": {
+    "kappa_qw": {
+     "diff": 0.09537028616915155,
+     "ci95": [
+      -0.0023956871511602446,
+      0.24974916101259503
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.02298850574712652,
+     "ci95": [
+      -0.03448275862068961,
+      0.10344827586206895
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   }
+  },
+  "claude-sonnet-5-5": {
+   "all29": {
+    "kappa_qw": {
+     "diff": 0.06768835114532068,
+     "ci95": [
+      0.0,
+      0.19316683262704656
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.03448275862068961,
+     "ci95": [
+      0.0,
+      0.10344827586206895
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.06896551724137934,
+     "ci95": [
+      0.0,
+      0.1724137931034483
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.06896551724137934,
+     "ci95": [
+      0.0,
+      0.1724137931034483
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   },
+   "external23": {
+    "kappa_qw": {
+     "diff": 0.0887073690629604,
+     "ci95": [
+      0.0,
+      0.25054181774571355
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.04347826086956519,
+     "ci95": [
+      0.0,
+      0.13043478260869568
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.08695652173913049,
+     "ci95": [
+      0.0,
+      0.21739130434782605
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.08695652173913049,
+     "ci95": [
+      0.0,
+      0.21739130434782605
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    }
+   },
+   "all29_mean_over_runs": {
+    "kappa_qw": {
+     "diff": 0.045125567430213676,
+     "ci95": [
+      0.0,
+      0.1287778884180311
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.02298850574712652,
+     "ci95": [
+      0.0,
+      0.06896551724137934
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   }
+  },
+  "claude-haiku-4-5": {
+   "all29": {
+    "kappa_qw": {
+     "diff": 0.04027437291249858,
+     "ci95": [
+      -0.09652525613984207,
+      0.20347689382888273
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": -0.03448275862068961,
+     "ci95": [
+      -0.13793103448275867,
+      0.06896551724137934
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.034482758620689724,
+     "ci95": [
+      -0.06896551724137934,
+      0.13793103448275867
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.034482758620689724,
+     "ci95": [
+      -0.06896551724137934,
+      0.13793103448275867
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   },
+   "external23": {
+    "kappa_qw": {
+     "diff": 0.05603537055207397,
+     "ci95": [
+      -0.12258419387282347,
+      0.26661541277745004
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": -0.04347826086956519,
+     "ci95": [
+      -0.17391304347826092,
+      0.08695652173913049
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.04347826086956519,
+     "ci95": [
+      -0.08695652173913049,
+      0.17391304347826086
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.04347826086956519,
+     "ci95": [
+      -0.08695652173913049,
+      0.17391304347826086
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    }
+   },
+   "all29_mean_over_runs": {
+    "kappa_qw": {
+     "diff": 0.06876137473755717,
+     "ci95": [
+      -0.029906882289556187,
+      0.19813255614325762
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.0,
+     "ci95": [
+      -0.05747126436781613,
+      0.05747126436781602
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   }
+  },
+  "gemini-3.8-flash": {
+   "all29": {
+    "kappa_qw": {
+     "diff": 0.02950569535684955,
+     "ci95": [
+      0.0,
+      0.09562612415491745
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.06896551724137934,
+     "ci95": [
+      0.0,
+      0.1724137931034483
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.034482758620689724,
+     "ci95": [
+      0.0,
+      0.10344827586206906
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.034482758620689724,
+     "ci95": [
+      0.0,
+      0.10344827586206906
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   },
+   "external23": {
+    "kappa_qw": {
+     "diff": 0.03900266680475373,
+     "ci95": [
+      0.0,
+      0.12671479075546543
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.08695652173913038,
+     "ci95": [
+      0.0,
+      0.21739130434782605
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.0434782608695653,
+     "ci95": [
+      0.0,
+      0.13043478260869568
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.0434782608695653,
+     "ci95": [
+      0.0,
+      0.13043478260869568
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    }
+   },
+   "all29_mean_over_runs": {
+    "kappa_qw": {
+     "diff": 0.022957745214504555,
+     "ci95": [
+      0.0,
+      0.0720251827461641
+     ],
+     "B": 10000,
+     "n_items": 28,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.05952380952380942,
+     "ci95": [
+      0.0,
+      0.15476190476190477
+     ],
+     "B": 10000,
+     "n_items": 28,
+     "n_boot_undefined": 0
+    }
+   }
+  },
+  "mean_over_models": {
+   "all29": {
+    "kappa_qw": {
+     "diff": 0.058394031074281316,
+     "ci95": [
+      -0.010995121915384473,
+      0.15915813179302746
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.025862068965517238,
+     "ci95": [
+      -0.025862068965517238,
+      0.08620689655172409
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.051724137931034586,
+     "ci95": [
+      0.0,
+      0.12068965517241381
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.051724137931034586,
+     "ci95": [
+      0.0,
+      0.12068965517241381
+     ],
+     "B": 10000,
+     "n_items": 29,
+     "n_boot_undefined": 0
+    }
+   },
+   "external23": {
+    "kappa_qw": {
+     "diff": 0.0781488436564779,
+     "ci95": [
+      -0.01350578612209393,
+      0.21044720419113613
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "exact": {
+     "diff": 0.03260869565217395,
+     "ci95": [
+      -0.03260869565217395,
+      0.10869565217391297
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "within_1": {
+     "diff": 0.0652173913043479,
+     "ci95": [
+      0.0,
+      0.15217391304347816
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    },
+    "binary_agree": {
+     "diff": 0.0652173913043479,
+     "ci95": [
+      0.0,
+      0.15217391304347816
+     ],
+     "B": 10000,
+     "n_items": 23,
+     "n_boot_undefined": 0
+    }
+   }
+  }
+ },
+ "partB": {
+  "claude-opus-5-5": {
+   "runs": [
+    "claude-opus-5-5_A_1",
+    "claude-opus-5-5_A_2",
+    "claude-opus-5-5_A_3"
+   ],
+   "missing": {
+    "claude-opus-5-5_A_1": 0,
+    "claude-opus-5-5_A_2": 0,
+    "claude-opus-5-5_A_3": 0
+   },
+   "B1": {
+    "n": 40,
+    "Q1_alpha_runs": 0.8642042042042042,
+    "Q1_majority": {
+     "2": 35,
+     "1": 3,
+     "0": 2
+    },
+    "Q2_majority_rate": 1.0,
+    "Q2_all_agree": 1.0,
+    "Q2_majority_vs_object_rule": "34/40",
+    "rule_rate": 0.85,
+    "majority_vs_rule": "32/40"
+   },
+   "B2": {
+    "n": 40,
+    "Q1_alpha_runs": 1.0,
+    "Q1_majority": {
+     "1": 22,
+     "2": 12,
+     "0": 6
+    },
+    "Q2_majority_rate": 0.525,
+    "Q2_all_agree": 0.975,
+    "rule_rate": 0.6,
+    "majority_vs_rule": "28/40"
+   },
+   "B3": {
+    "n": 20,
+    "Q1_alpha_runs": 0.522911051212938,
+    "Q1_majority": {
+     "2": 18,
+     "1": 2
+    },
+    "Q2_majority_rate": 0.5,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.55,
+    "majority_vs_rule": "19/20"
+   },
+   "B4": {
+    "n": 20,
+    "Q1_alpha_runs": 1.0,
+    "Q1_majority": {
+     "2": 14,
+     "1": 6
+    },
+    "Q2_majority_rate": 0.3,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.3,
+    "majority_vs_rule": "20/20"
+   },
+   "B5": {
+    "n": 10,
+    "Q1_alpha_runs": NaN,
+    "Q1_majority": {
+     "2": 10
+    },
+    "Q2_majority_rate": 0.0,
+    "Q2_all_agree": 1.0
+   },
+   "flags": {
+    "claude-opus-5-5_A_1": {
+     "B3-008": "Gold answer 'The Jungle Book (1894)' names the 1894 book, but the question asks for a KaBoom! film; gold answer appears mismatched with question.",
+     "B5-006": "first triple shown with inverted direction (person written_by film); likely inverse-edge display, answer unaffected",
+     "B2-020": "evidence sentence is a near-verbatim restatement of the question, not source evidence",
+     "B3-006": "question says 'Spider-Man' but unit is from Spider-Man (pinball); typo 'comman'; vague answer",
+     "B4-012": "Gold answer Presque Isle County (Michigan) is inconsistent with the chain this paragraph starts (prison in Georgia -> Atlanta -> Fulton County); likely mis-composed chain",
+     "B4-008": "excerpt does not state Green Bay is capital/seat of Brown County; hop fact only implied",
+     "B4-009": "Excerpt does not state Bajazet's composer, Vivaldi's birthplace, or the plague count; only mentions Vivaldi and a Venice theatre, so it is weak as a gold supporting paragraph",
+     "B3-003": "Sentence credits writing to Syed Mohammad Ahmed and Yasir Rana; Yasir Hussain appears only as cast, contradicting the question's 'helped write' premise",
+     "B5-010": "first triple direction appears reversed (should be Jonny Vang directed_by Jens Lien); answer unaffected",
+     "B4-007": "Excerpt (first sentences) omits the abolisher of sati, the bridging fact; gold answer about 'British people' seems mismatched with the India question",
+     "B4-016": "Gold paragraph is about Tucson, not the state's largest city (Phoenix); it only indirectly links Nogales to Arizona, so its role as a supporting step is unclear"
+    },
+    "claude-opus-5-5_A_2": {
+     "B3-003": "Sentence credits writing to Syed Mohammad Ahmed and Yasir Rana; gold answer Yasir Hussain appears only as cast, so the unit does not support the 'helped write' claim",
+     "B4-008": "Excerpt mentions Green Bay and Brown County but never states Green Bay is the county's capital/seat; weak support for the final hop",
+     "B4-016": "Tucson is not Arizona's largest city (Phoenix is); gold paragraph looks mislabeled or unrelated to the reasoning chain",
+     "B2-011": "evidence sentence omits liver cancer, the part the question asks about; does not support the key part of the gold answer",
+     "B4-012": "Unit places prison in Georgia, but gold answer Presque Isle County is in Michigan and cannot border a Georgia county; question/gold chain appears mis-composed",
+     "B3-008": "gold answer names the 1894 Kipling book, not a KaBoom! film as the question asks",
+     "B2-020": "evidence sentence is a near-verbatim restatement of the question text",
+     "B5-010": "first triple direction looks reversed: should be (Jonny Vang, directed_by, Jens Lien); answer unaffected",
+     "B4-009": "Gold paragraph is about Orlando furioso RV 819, not Bajazet; excerpt states no chain fact (composer of Bajazet, birthplace, plague count); possibly mismatched unit",
+     "B3-006": "question garbled/ambiguous: bare 'Spider-Man' presumably means the pinball table (unit title), typo 'comman'"
+    },
+    "claude-opus-5-5_A_3": {
+     "B4-009": "Excerpt labeled gold but supplies no chain fact (no Bajazet link, no birthplace; Venice only as premiere venue)",
+     "B3-008": "gold answer names Kipling's 1894 story collection, not a KaBoom! film as the question asks",
+     "B4-016": "Gold paragraph is Tucson, but largest AZ city (and Indy race site for Andretti) is Phoenix; excerpt does not establish Tucson as largest; possibly mislabeled support",
+     "B2-011": "evidence sentence omits 'liver cancer', the part the question asks about; unit does not support the queried claim",
+     "B4-012": "Gold answer Presque Isle County (Michigan) contradicts the chain from this unit (Georgia -> Atlanta -> Fulton County); a Michigan county cannot border a Georgia county.",
+     "B3-003": "Unit lists writers as Syed Mohammad Ahmed and Yasir Rana; Yasir Hussain appears only in the cast, so the 'helped write' premise is not supported by this sentence",
+     "B3-006": "Question does not mention the pinball table (unit title Spider-Man (pinball)); typo 'comman'; answer 'comic' only appears as 'comics'",
+     "B4-008": "Gold paragraph never states Green Bay is the capital/seat of Brown County; it only co-mentions them, so it only weakly supports the final hop",
+     "B5-010": "first triple direction appears reversed (should be Jonny Vang directed_by Jens Lien); answer unaffected"
+    }
+   }
+  },
+  "claude-sonnet-5-5": {
+   "runs": [
+    "claude-sonnet-5-5_A_1",
+    "claude-sonnet-5-5_A_2",
+    "claude-sonnet-5-5_A_3"
+   ],
+   "missing": {
+    "claude-sonnet-5-5_A_1": 0,
+    "claude-sonnet-5-5_A_2": 0,
+    "claude-sonnet-5-5_A_3": 0
+   },
+   "B1": {
+    "n": 40,
+    "Q1_alpha_runs": 1.0,
+    "Q1_majority": {
+     "2": 35,
+     "1": 3,
+     "0": 2
+    },
+    "Q2_majority_rate": 1.0,
+    "Q2_all_agree": 1.0,
+    "Q2_majority_vs_object_rule": "34/40",
+    "rule_rate": 0.85,
+    "majority_vs_rule": "32/40"
+   },
+   "B2": {
+    "n": 40,
+    "Q1_alpha_runs": 0.9050286888063807,
+    "Q1_majority": {
+     "1": 19,
+     "2": 15,
+     "0": 6
+    },
+    "Q2_majority_rate": 0.425,
+    "Q2_all_agree": 0.95,
+    "rule_rate": 0.6,
+    "majority_vs_rule": "28/40"
+   },
+   "B3": {
+    "n": 20,
+    "Q1_alpha_runs": NaN,
+    "Q1_majority": {
+     "2": 20
+    },
+    "Q2_majority_rate": 0.5,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.55,
+    "majority_vs_rule": "19/20"
+   },
+   "B4": {
+    "n": 20,
+    "Q1_alpha_runs": 0.908578691423519,
+    "Q1_majority": {
+     "2": 17,
+     "0": 3
+    },
+    "Q2_majority_rate": 0.3,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.3,
+    "majority_vs_rule": "20/20"
+   },
+   "B5": {
+    "n": 10,
+    "Q1_alpha_runs": NaN,
+    "Q1_majority": {
+     "2": 10
+    },
+    "Q2_majority_rate": 0.0,
+    "Q2_all_agree": 1.0
+   },
+   "flags": {
+    "claude-sonnet-5-5_A_1": {
+     "B2-039": "Evidence sentence is a patient-case description (age/sex) unrelated to the SCC-subtype evidence relation",
+     "B4-016": "Paragraph is about Tucson, but the largest city in Arizona is Phoenix; the unit does not match the reasoning chain, so it is unlikely to be a true supporting paragraph.",
+     "B5-010": "First triple has reversed direction (Jens Lien directed_by Jonny Vang); Jonny Vang is a film, so it should be (Jonny Vang, directed_by, Jens Lien). Answer still follows the path.",
+     "B4-011": "Gold answer 1981 seems inconsistent with the question: the 2017 AL East winner (Red Sox) met the Dodgers in the 2018 World Series; 1981 was the Yankees.",
+     "B5-001": "minor: first triple shown with reversed direction (person as subject of written_by); answer unaffected",
+     "B2-037": "evidence sentence is a patient-case detail (age), unrelated to the diagnostic-methods relation",
+     "B4-012": "Gold answer Presque Isle County is in Michigan, but the paragraph places the prison in Georgia; the answer is inconsistent with this unit's chain.",
+     "B4-008": "Paragraph is a Jerome Quinn biography; it does not connect KRSU or its county to a county capital. Only the string 'Green Bay' matches the gold answer; the chain looks mismatched.",
+     "B4-009": "Paragraph is about Vivaldi's Orlando furioso RV 819; it does not say Vivaldi composed Bajazet or where he was born, so it seems not to be the supporting paragraph for the composer hop",
+     "B2-040": "Evidence sentence is a patient demographic statement, unrelated to the evidence relation (symptoms of large thyroid nodules)."
+    },
+    "claude-sonnet-5-5_A_2": {
+     "B2-007": "Evidence sentence mentions only B lymphocytes, while gold answer and relation say B or T; the sentence omits T.",
+     "B4-009": "Paragraph is about Vivaldi's Orlando furioso; it does not mention Bajazet or Vivaldi's birthplace, so it seems an odd supporting paragraph for this question.",
+     "B2-039": "Evidence sentence is a patient demographic statement; unrelated to the SCC-subtype relation it is paired with.",
+     "B2-037": "Evidence sentence is a patient-case detail (age) unrelated to the diagnostic relation; it does not support the question.",
+     "B2-017": "Evidence sentence mentions only chemotherapy for CD33+ AML; it omits gemtuzumab ozogamicin/targeted therapy, which the gold answer and relation state",
+     "B4-012": "Gold answer 'Presque Isle County' is in Michigan, but the unit places the prison in Georgia (most populous city Atlanta, Fulton County); the answer does not fit the chain.",
+     "B4-016": "Unit is labelled gold supporting paragraph but is about Tucson; the question needs Phoenix (largest city in Arizona), and the answer Mario Andretti is not in the text.",
+     "B2-011": "Sentence covers only cirrhosis; the question and gold answer ask about liver cancer, which the sentence does not state.",
+     "B4-013": "gold answer reads like a sentence about the Ajuran dynasty defeating the Portuguese, not obviously an answer to the final hop about expulsion from the Thailand-Laos boundary",
+     "B5-001": "first triple direction looks reversed (Clare Peploe written_by Rough Magic); answer unaffected",
+     "B4-008": "Question is about the county of KRSU (a radio station), but the paragraph is about a Wisconsin politician; the answer 'Green Bay' appears only incidentally and the paragraph supplies no fact about KRSU or county borders/capital."
+    },
+    "claude-sonnet-5-5_A_3": {
+     "B4-016": "Tucson is not the largest city in Arizona (Phoenix is); paragraph does not supply any step of the chain and does not contain the answer",
+     "B2-039": "Evidence sentence is a patient demographic statement unrelated to the SCC-subtype evidence relation; unit does not match structure.",
+     "B5-010": "First triple's direction looks inverted: Jens Lien is a director, so 'directed_by' should link the film to him. 'Jonny Vang' looks like a film title. The answer is still the end of the path.",
+     "B4-008": "Paragraph about Wisconsin politician Jerome Quinn is unrelated to KRSU/county-border question; it contains 'Green Bay' only incidentally (possible mismatched unit or gold answer)",
+     "B4-012": "Gold answer Presque Isle County (Michigan) is inconsistent with the unit, which places the prison in Georgia (most populous city Atlanta, Fulton County).",
+     "B2-017": "Evidence sentence mentions only chemotherapy; it omits gemtuzumab ozogamicin/targeted therapy that the gold answer and relation rely on",
+     "B2-007": "Sentence mentions only B lymphocytes; gold answer and relation say B or T, so the unit does not support the full answer",
+     "B4-009": "Paragraph is about Vivaldi's Orlando furioso RV 819; it does not mention Bajazet, Vivaldi's birthplace, or plague, so it does not look like a supporting step for this question.",
+     "B2-004": "Sentence mentions melanoma risk only; the relation is about pancreatic cancer risk, so the sentence covers a different object."
+    }
+   }
+  },
+  "claude-haiku-4-5": {
+   "runs": [
+    "claude-haiku-4-5_A_1",
+    "claude-haiku-4-5_A_2",
+    "claude-haiku-4-5_A_3"
+   ],
+   "missing": {
+    "claude-haiku-4-5_A_1": 0,
+    "claude-haiku-4-5_A_2": 0,
+    "claude-haiku-4-5_A_3": 0
+   },
+   "B1": {
+    "n": 40,
+    "Q1_alpha_runs": 0.8642857142857143,
+    "Q1_majority": {
+     "2": 38,
+     "0": 2
+    },
+    "Q2_majority_rate": 1.0,
+    "Q2_all_agree": 1.0,
+    "Q2_majority_vs_object_rule": "34/40",
+    "rule_rate": 0.85,
+    "majority_vs_rule": "32/40"
+   },
+   "B2": {
+    "n": 40,
+    "Q1_alpha_runs": 0.9230938228438228,
+    "Q1_majority": {
+     "1": 24,
+     "2": 10,
+     "0": 6
+    },
+    "Q2_majority_rate": 0.225,
+    "Q2_all_agree": 0.85,
+    "rule_rate": 0.6,
+    "majority_vs_rule": "28/40"
+   },
+   "B3": {
+    "n": 20,
+    "Q1_alpha_runs": 0.3933677863910422,
+    "Q1_majority": {
+     "2": 16,
+     "1": 4
+    },
+    "Q2_majority_rate": 0.5,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.55,
+    "majority_vs_rule": "19/20"
+   },
+   "B4": {
+    "n": 20,
+    "Q1_alpha_runs": 0.5332645440251573,
+    "Q1_majority": {
+     "1": 9,
+     "2": 9,
+     "0": 2
+    },
+    "Q2_majority_rate": 0.3,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.3,
+    "majority_vs_rule": "20/20"
+   },
+   "B5": {
+    "n": 10,
+    "Q1_alpha_runs": NaN,
+    "Q1_majority": {
+     "2": 10
+    },
+    "Q2_majority_rate": 0.0,
+    "Q2_all_agree": 1.0
+   },
+   "flags": {
+    "claude-haiku-4-5_A_1": {
+     "B2-004": "Evidence relation is about pancreatic cancer risk, but the evidence sentence is about melanoma risk; these appear to be mismatched or address different aspects of the syndrome's risk profile",
+     "B1-029": "Supporting sentence states 'written by' (composer) relation, but triple specifies 'performer' relation—different relations between same entities.",
+     "B4-020": "Paragraph discusses Zhengtong Emperor, but question asks about Yongle emperor—different rulers. This appears to be a mismatch between question and supporting paragraph.",
+     "B3-009": "The sentence identifies the monument but contains no information about the 1991 event or the organization; it does not support the answer.",
+     "B5-010": "KB path structure appears semantically mismatched: 'Jens Lien directed_by Jonny Vang' suggests Jonny Vang directed Jens Lien, but question asks about films Jens Lien directed",
+     "B1-022": "The supporting sentence establishes only the marriage relation; it contains no information about the cause of Princess Victoria Melita's death (the gold answer 'stroke'). The sentence does not actually support the gold answer to the question.",
+     "B1-013": "The supporting sentence does not mention Rupert or connect to the gold answer in the question; the sentence only confirms the spouse relation between Catherine and John.",
+     "B1-015": "The question asks for the paternal grandfather, and the gold answer is James Butler, but neither appears in the supporting sentence. The sentence only establishes the father relation (Walter→John). This suggests a mismatch between the question, gold answer, and supporting evidence.",
+     "B4-004": "Gold answer is '92 percent' but the excerpt only mentions 'up to 90% prior to World War II'—these don't match.",
+     "B2-039": "The evidence sentence (patient demographic) is unrelated to the stated evidence relation (SCC is most common NPC subtype). Likely a mismatch between sentence and relation assignments.",
+     "B4-007": "The supporting paragraph does not address whether people fared well, nor does it contain evidence of prosperity. It discusses Company policies on sati, which is unrelated to the gold answer about British prosperity.",
+     "B1-020": "Question asks for paternal grandmother, but supporting sentence only establishes father (Gallienus); doesn't contain gold_answer (Mariniana)",
+     "B2-017": "Evidence sentence mentions chemotherapy but gold answer and evidence relation both emphasize gemtuzumab ozogamicin (targeted therapy); sentence does not express the relation's core claim",
+     "B2-036": "The evidence relation (pathological origin in mucus cells) is unrelated to the evidence sentence (clinical presentation at esophagogastric junction). Relation seems mismatched to the sentence.",
+     "B2-035": "Evidence sentence is a patient case description; evidence relation is a general taxonomic statement about carcinoma subtypes. These are fundamentally misaligned.",
+     "B1-021": "The supporting sentence names Charlemagne but does not mention the Carolingian Empire; without external knowledge, the sentence cannot answer the question.",
+     "B4-010": "Question and gold answer appear unrelated to the provided unit; unit supplies no information relevant to answering the question.",
+     "B4-006": "Paragraph excerpt provides era context but doesn't supply the etymology fact needed to answer; answer string 'Medieval Latin' not in excerpt",
+     "B2-007": "Evidence sentence appears truncated: it states only 'B lymphocytes' while the relation and gold answer both state 'B or T lymphocytes.' This may be a data extraction error.",
+     "B3-003": "Unit lists Yasir Hussain only in the cast/starring section, not among the writers (Syed Mohammad Ahmed and Yasir Rana are listed as writers). The sentence does not clearly establish that Yasir Hussain was a writer, only that he acted in it.",
+     "B1-030": "Wikidata triple claims Vishal Bhardwaj is composer of Pataakha, but evidence sentence and gold answer (music award) suggest he is the director. Triple property may be mislabeled.",
+     "B1-017": "The sentence establishes the immediate father relation (Mordaunt → Roger 3rd Baronet) but the question asks for the paternal grandfather and the gold answer is Roger 2nd Baronet. The sentence does not directly support the grandfather relationship, only the father relationship."
+    },
+    "claude-haiku-4-5_A_2": {
+     "B1-017": "gold answer names 2nd Baronet (grandfather) but supporting sentence/triple concern 3rd Baronet (father) - possible benchmark error",
+     "B4-007": "The gold answer and supporting paragraph appear mismatched. The paragraph describes sati policy but does not establish that people experienced 'a long period of prosperity,' and the connection between the question and this paragraph is unclear.",
+     "B3-008": "Gold answer is the 1894 book; question asks for a KaBoom! film. Supporting sentence doesn't connect them.",
+     "B1-030": "Triple claims composer but sentence only identifies Bhardwaj as director; these are different relations. Sentence does not support the award-based gold answer.",
+     "B4-010": "The supporting paragraph is geographical context about Myanmar but does not contain the answer string and is not a necessary step for answering a question about the Ajuran Empire and Portuguese military history.",
+     "B4-013": "The question's construction appears problematic: the Ajuran paragraph does not clearly establish that the Empire 'declared independence from' the Portuguese (it says they 'defied' them), and the paragraph contains no information about Laos, Setthathirath, or the expulsion event that is central to the question.",
+     "B4-020": "Question asks about Yongle emperor (r. 1402-1424) but gold paragraph is about Zhengtong Emperor (r. 1435-1449); these are different rulers. Confirm the question or paragraph is correct.",
+     "B2-037": "The unit (patient age) is unrelated to the evidence relation (diagnostic methods for CNS lymphoma), as noted in instructions: background case information without the relation scores 0.",
+     "B2-013": "Evidence sentence omits 'regular PSA testing' which is part of both the evidence relation and gold answer",
+     "B2-004": "The evidence sentence addresses only melanoma risk, while the evidence relation addresses pancreatic cancer risk. The gold answer requires both, so this evidence sentence alone may be insufficient.",
+     "B2-035": "Evidence sentence is a case description unrelated to the evidence relation about disease subtypes. The sentence does not express the relation.",
+     "B3-009": "Supporting sentence does not mention the Oct 12, 1991 event or IFBB; it only establishes the monument designation in 1975",
+     "B1-021": "The supporting sentence establishes a spouse relation but does not answer the question about which country the husband is from. This may indicate an incomplete or mismatched gold annotation.",
+     "B1-015": "Row structural issue: question asks for paternal grandfather, but supporting sentence and triple only establish the father relation. Gold answer 'James Butler' does not appear in the sentence.",
+     "B3-006": "Question text truncated: 'have in comman' should be 'have in common'",
+     "B4-012": "Gold answer Presque Isle County is in Michigan; unclear how it borders a Georgia county",
+     "B1-013": "The gold answer 'Rupert' does not appear in the supporting sentence or Wikidata triple shown; the sentence/triple only support that John is the spouse, not that Rupert is the father-in-law.",
+     "B1-022": "The sentence describes the marriage but does not explain the cause of death asked in the question.",
+     "B4-015": "Paragraph mentions greeting in Nanjing but gold answer is about Suzhou theater; no connection evident",
+     "B1-024": "Supporting sentence names the father but doesn't state his country; gold answer 'German' requires external knowledge not in this sentence",
+     "B2-036": "The evidence relation (about mucus-secreting cell origin) does not align with the unit or question (about locoregional cancer at the esophagogastric junction); appears to be a data mismatch.",
+     "B2-040": "Evidence relation is about thyroid nodule symptoms, but evidence sentence is only demographic information with no relation to the symptoms described.",
+     "B3-003": "The sentence lists Yasir Hussain only in the cast/starring section, not as a writer. The question asks specifically about a writer, so this sentence does not establish the key fact needed, though it does mention the answer entity."
+    },
+    "claude-haiku-4-5_A_3": {
+     "B2-035": "The evidence sentence is a patient case description unrelated to the mined relation about cancer subtype prevalence; this pairing appears mismatched.",
+     "B4-007": "The gold answer claims prosperity for British people, but the unit discusses sati policy and doesn't address prosperity; the unit may be misaligned with the gold answer.",
+     "B2-004": "The evidence sentence only mentions melanoma risk, not pancreatic cancer risk, yet the gold answer claims FAMMM is associated with increased risk of both. The unit is incomplete or misaligned with the gold answer.",
+     "B1-015": "The supporting sentence establishes the father relation (John Butler of Kilcash) but the gold answer to the question is the grandfather (James Butler). The sentence does not support the stated answer.",
+     "B2-037": "The evidence sentence is a patient case detail (age) unrelated to the diagnostic relation about methods; appears to be a misaligned pairing.",
+     "B2-017": "Evidence sentence omits gemtuzumab ozogamicin, which is central to both the gold answer and the evidence relation; it only covers chemotherapy, not the targeted therapy component.",
+     "B3-003": "The sentence lists writers as 'Syed Mohammad Ahmed and Yasir Rana' but the gold answer is 'Yasir Hussain,' who appears only in the starring list, not the writing credits. The sentence does not support the gold answer to the question asked.",
+     "B2-036": "Evidence relation is about histological origin (mucus-secreting cells); evidence sentence is about patient's disease stage/location (locoregional, esophagogastric junction). These do not align.",
+     "B2-021": "Gold answer mentions two assessments but this unit text only covers dental exam; answer may be incomplete for the question asked",
+     "B3-013": "The sentence does not state which county Keene High School is in, nor does it contain the answer string 'Cheshire County'. It appears to be the wrong supporting sentence for this question.",
+     "B1-030": "The triple claims Vishal Bhardwaj is the composer, but the sentence only states he is the director. The sentence does not support the composer relation claimed by the triple.",
+     "B4-013": "The question is extremely convoluted and may be malformed; the supporting paragraph does not clearly connect to the final answer about how the Portuguese were defeated.",
+     "B5-010": "Structure may be malformed: (Jens Lien, directed_by, Jonny Vang) suggests Jonny Vang directed the person Jens Lien, not a film. Ratings assume the path is correct as shown.",
+     "B1-022": "The supporting sentence only establishes who his wife was (married in 1905), not how she died. It does not support the gold answer 'stroke'. The sentence may not be an appropriate supporting unit for this question.",
+     "B2-039": "The evidence relation (about SCC being the most common subtype) appears disconnected from the evidence sentence (a patient demographic). The relation seems to be a general medical fact, not a specific finding about this patient case that the sentence describes.",
+     "B1-017": "Question asks for paternal grandfather but evidence only establishes father relation—answer to the question would require additional inference beyond the provided sentence",
+     "B2-040": "The evidence sentence and the evidence relation are unrelated: the sentence provides patient demographics while the relation describes thyroid nodule symptoms. The unit does not substantiate the relation.",
+     "B4-020": "Question asks about Yongle emperor but unit discusses Zhengtong Emperor; possible question-unit mismatch or data error",
+     "B4-004": "Gold answer (92 percent) does not match the percentage stated in the supporting text (up to 90% prior to WWII)"
+    }
+   }
+  },
+  "gemini-3.8-flash": {
+   "runs": [
+    "gemini-3.8-flash_A_1",
+    "gemini-3.8-flash_A_2",
+    "gemini-3.8-flash_A_3"
+   ],
+   "missing": {
+    "gemini-3.8-flash_A_1": 0,
+    "gemini-3.8-flash_A_2": 0,
+    "gemini-3.8-flash_A_3": 0
+   },
+   "B1": {
+    "n": 40,
+    "Q1_alpha_runs": 0.9025431034482758,
+    "Q1_majority": {
+     "2": 37,
+     "0": 2,
+     "1": 1
+    },
+    "Q2_majority_rate": 1.0,
+    "Q2_all_agree": 1.0,
+    "Q2_majority_vs_object_rule": "34/40",
+    "rule_rate": 0.85,
+    "majority_vs_rule": "32/40"
+   },
+   "B2": {
+    "n": 40,
+    "Q1_alpha_runs": 0.9710763888888889,
+    "Q1_majority": {
+     "1": 20,
+     "2": 12,
+     "0": 8
+    },
+    "Q2_majority_rate": 0.475,
+    "Q2_all_agree": 0.95,
+    "rule_rate": 0.6,
+    "majority_vs_rule": "28/40"
+   },
+   "B3": {
+    "n": 20,
+    "Q1_alpha_runs": 0.0,
+    "Q1_majority": {
+     "2": 20
+    },
+    "Q2_majority_rate": 0.5,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.55,
+    "majority_vs_rule": "19/20"
+   },
+   "B4": {
+    "n": 20,
+    "Q1_alpha_runs": 0.9270604395604396,
+    "Q1_majority": {
+     "2": 15,
+     "1": 3,
+     "0": 2
+    },
+    "Q2_majority_rate": 0.3,
+    "Q2_all_agree": 1.0,
+    "rule_rate": 0.3,
+    "majority_vs_rule": "20/20"
+   },
+   "B5": {
+    "n": 10,
+    "Q1_alpha_runs": NaN,
+    "Q1_majority": {
+     "2": 10
+    },
+    "Q2_majority_rate": 0.0,
+    "Q2_all_agree": 1.0
+   },
+   "flags": {
+    "gemini-3.8-flash_A_1": {
+     "B3-006": "Unit is from Spider-Man (pinball) rather than Spider-Man in film; typo 'comman' in question",
+     "B4-012": "Gold answer Presque Isle County (Michigan) is incompatible with the state of Washington State Prison (Georgia).",
+     "B4-008": "Unit does not state that Green Bay is the capital of Brown County; biography of Jerome Quinn does not supply the required reasoning step.",
+     "B4-009": "unit is unrelated to Bajazet, Vivaldi's birthplace, or plague occurrences",
+     "B3-008": "The gold answer 'The Jungle Book (1894)' is the book collection, not the KaBoom! film asked for.",
+     "B3-003": "Sentence lists Yasir Hussain under starring, while naming Syed Mohammad Ahmed and Yasir Rana as writers.",
+     "B2-004": "evidence sentence is about melanoma risk but evidence relation is about pancreatic cancer risk"
+    },
+    "gemini-3.8-flash_A_2": {
+     "B3-003": "Sentence lists Yasir Hussain under starring rather than written by (written by Syed Mohammad Ahmed and Yasir Rana).",
+     "B4-008": "The excerpt mentions Green Bay and Brown County but does not state that Green Bay is the capital/seat of Brown County.",
+     "B4-007": "The excerpt provides background on sati but does not state who abolished it.",
+     "B4-012": "Gold answer Presque Isle County appears disconnected from or contradictory to Washington State Prison in Georgia.",
+     "B3-008": "Question asks for a film, but gold answer is a 1894 book collection",
+     "B4-009": "Paragraph does not mention Bajazet, Vivaldi's birthplace, or plague occurrences; unrelated gold unit",
+     "B3-006": "Unit is from Spider-Man (pinball) rather than Spider-Man in film; typo in question ('comman')."
+    },
+    "gemini-3.8-flash_A_3": {
+     "B1-030": "Sentence states director instead of composer",
+     "B3-003": "Sentence states Coke Kahani was written by Syed Mohammad Ahmed and Yasir Rana, and only lists Yasir Hussain under starring.",
+     "B4-009": "unit is unrelated to the question (mentions Vivaldi but not Bajazet or his birthplace)",
+     "B4-008": "Paragraph is a biography of Jerome Quinn and does not state that Green Bay is the capital of Brown County.",
+     "B4-012": "Gold answer (Presque Isle County, Michigan) contradicts the location established in this paragraph (Georgia).",
+     "B3-008": "Question asks for a film, but the gold answer is a book/story collection",
+     "B2-004": "Evidence sentence discusses melanoma risk, while structure relation is for pancreatic cancer risk."
+    }
+   }
+  }
+ },
+ "requests": {
+  "claude-opus-5-5": {
+   "lines": 612,
+   "api_errors_logged": 0,
+   "stored_replies": 612,
+   "unparsed_or_refused": 0,
+   "models_returned": [
+    "claude-opus-5-5"
+   ],
+   "cost_usd_est": 7.296842400000003,
+   "tokens": {
+    "input": 262203,
+    "output": 290214,
+    "cache_read": 2218752,
+    "cache_write": 0,
+    "thoughts": 0
+   }
+  },
+  "claude-sonnet-5-5": {
+   "lines": 612,
+   "api_errors_logged": 0,
+   "stored_replies": 612,
+   "unparsed_or_refused": 0,
+   "models_returned": [
+    "claude-sonnet-5-5"
+   ],
+   "cost_usd_est": 2.8964875999999995,
+   "tokens": {
+    "input": 262203,
+    "output": 189695,
+    "cache_read": 2205108,
+    "cache_write": 13644,
+    "thoughts": 0
+   }
+  },
+  "claude-haiku-4-5": {
+   "lines": 1039,
+   "api_errors_logged": 427,
+   "stored_replies": 612,
+   "unparsed_or_refused": 0,
+   "models_returned": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "cost_usd_est": 3.519006999999999,
+   "tokens": {
+    "input": 1893102,
+    "output": 325181,
+    "cache_read": 0,
+    "cache_write": 0,
+    "thoughts": 0
+   }
+  },
+  "gemini-3.8-flash": {
+   "lines": 612,
+   "api_errors_logged": 0,
+   "stored_replies": 612,
+   "unparsed_or_refused": 1,
+   "models_returned": [
+    "gemini-3.8-flash"
+   ],
+   "cost_usd_est": 0.0,
+   "tokens": {
+    "input": 1797372,
+    "output": 30022,
+    "cache_read": 0,
+    "cache_write": 0,
+    "thoughts": 435302
+   }
+  }
+ }
+}

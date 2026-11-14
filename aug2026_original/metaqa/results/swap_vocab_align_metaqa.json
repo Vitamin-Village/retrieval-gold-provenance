@@ -1,0 +1,30 @@
+[
+  {
+    "name": "MetaQA-sub200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 935,
+      "mean_gold_title_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 10601,
+      "mean_gold_title_coverage": 0.9575,
+      "frac_questions_fully_covered": 0.925
+    }
+  },
+  {
+    "name": "MetaQA-holdout200",
+    "n": 200,
+    "kg_silver": {
+      "n_nodes": 869,
+      "mean_gold_title_coverage": 1.0,
+      "frac_questions_fully_covered": 1.0
+    },
+    "kg_openie": {
+      "n_nodes": 10954,
+      "mean_gold_title_coverage": 0.9725,
+      "frac_questions_fully_covered": 0.95
+    }
+  }
+]

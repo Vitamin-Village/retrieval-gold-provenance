@@ -1,0 +1,1779 @@
+{
+ "_comment": "Condition-B (excerpt-only) inputs. Each item's excerpts are verbatim text of the benchmark's own paper, README, or (calibration anchors) generator source code. Assembly rule, fixed before any condition-B request: (census) each census-record / workbook / Table-quotes quote for the item, extended to the full sentence(s) in the source; (parity) for each factual statement of the condensed description, the source sentence(s) stating it, where one exists; (production) if neither covers how the gold unit of the axis was produced, the construction sentence(s) that do. Statements of the description with no source sentence are listed under 'description_statements_without_source_sentence'. PDF line-break hyphenation is rejoined, footnote markers are dropped, small caps are written in normal case, and sub/superscripts are written inline (qi = q_i).",
+ "verification": "EXACT = substring of the page text after whitespace/ligature/quote normalisation; LOOSE = substring after keeping letters and digits only (absorbs hyphenation, small caps and sub/superscript spacing; the word sequence is identical). Pages are 1-indexed PDF pages.",
+ "sources": {
+  "musique": {
+   "document": "Trivedi et al. 2022, MuSiQue: Multihop Questions via Single-hop Question Composition (TACL)",
+   "version": "arXiv:2108.00573v3",
+   "url": "https://arxiv.org/pdf/2108.00573v3"
+  },
+  "hotpotqa": {
+   "document": "Yang et al. 2018, HotpotQA (EMNLP)",
+   "version": "arXiv:1809.09600v1",
+   "url": "https://arxiv.org/pdf/1809.09600v1"
+  },
+  "multihoprag": {
+   "document": "Tang and Yang 2024, MultiHop-RAG",
+   "version": "arXiv:2401.15391v1",
+   "url": "https://arxiv.org/pdf/2401.15391v1"
+  },
+  "nq": {
+   "document": "Kwiatkowski et al. 2019, Natural Questions (TACL)",
+   "version": "ACL Anthology Q19-1026 (PDF page index, not journal page)",
+   "url": "https://aclanthology.org/Q19-1026.pdf"
+  },
+  "triviaqa": {
+   "document": "Joshi et al. 2017, TriviaQA (ACL)",
+   "version": "arXiv:1705.03551v2",
+   "url": "https://arxiv.org/pdf/1705.03551v2"
+  },
+  "grade_v1": {
+   "document": "GRADE: Generating multi-hop QA and fine-gRAined Difficulty matrix for RAG Evaluation",
+   "version": "arXiv:2508.16994v1 (the version in which the census-record quotes are verbatim; v2 rewords them)",
+   "url": "https://arxiv.org/pdf/2508.16994v1"
+  },
+  "stark_v1": {
+   "document": "Wu et al. 2024, STaRK (NeurIPS D&B)",
+   "version": "arXiv:2404.13207v1 (the version in which the census-record quotes are verbatim; v3 rewords them)",
+   "url": "https://arxiv.org/pdf/2404.13207v1"
+  },
+  "graphragbench": {
+   "document": "Xiang et al., When to use Graphs in RAG (GraphRAG-Bench, ICLR 2026)",
+   "version": "arXiv:2506.05690v3",
+   "url": "https://arxiv.org/pdf/2506.05690v3"
+  },
+  "twowiki": {
+   "document": "Ho et al. 2020, 2WikiMultiHopQA (COLING)",
+   "version": "arXiv:2011.01060v2",
+   "url": "https://arxiv.org/pdf/2011.01060v2"
+  },
+  "metaqa": {
+   "document": "Zhang et al. 2018, Variational Reasoning for Question Answering with Knowledge Graph (AAAI; MetaQA)",
+   "version": "arXiv:1709.04071v5",
+   "url": "https://arxiv.org/pdf/1709.04071v5"
+  },
+  "metaqa_readme": {
+   "document": "MetaQA dataset README (github.com/yuyuz/MetaQA)",
+   "version": "README.md at commit b1e69733b9ff5e274c8f83cd32e75f030a7a112d (2021-10-10)",
+   "url": "https://raw.githubusercontent.com/yuyuz/MetaQA/master/README.md"
+  },
+  "webqsp": {
+   "document": "Yih et al. 2016, The Value of Semantic Parse Labeling for Knowledge Base Question Answering (ACL; WebQSP)",
+   "version": "ACL Anthology P16-2033 (PDF page index)",
+   "url": "https://aclanthology.org/P16-2033.pdf"
+  },
+  "upper": {
+   "document": "calibration anchor generator source code",
+   "file": "gold/qa_from_kg.py",
+   "md5": "5047c31237b430c2ce6c4aa6c6f6ad7e"
+  },
+  "lower": {
+   "document": "calibration anchor generator source code",
+   "file": "gold_v2/generate_qa_candidates.py",
+   "md5": "b384f0e9a4020a4a140ecf0bc4e0dea4"
+  },
+  "lower_test": {
+   "document": "calibration anchor generator source code",
+   "file": "gold_v2/tests/test_no_kg_imports.py",
+   "md5": "231ac78d4e57d4b4c3a555b0bbcb5cf8"
+  }
+ },
+ "items": {
+  "MUSIQUE_PASSAGE": {
+   "excerpts": [
+    {
+     "text": "We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets, SQuAD (Rajpurkar et al., 2016), Natural Questions (Kwiatkowski et al., 2019), MLQA (en-en) (Lewis et al., 2020b), T-REx (ElSahar et al., 2018), Zero Shot RE (Levy et al., 2017), where instances are of the form (qi, pi, ai) referring to the question, the associated paragraph, and the answer, respectively.",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "For Natural Questions, as the context is very long (entire Wikipedia page), we use the annotated long answer (usually a paragraph) from the dataset as the context, and the annotated short answer as the answer.",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Such pairs can be combined to form a 2-hop question (Q, {p1, p2}, a2).",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "We want connected 2-hop questions – questions that cannot be answered without using the answers of the constituent single-hop questions.",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "We devise a procedure to create train, validation and test splits such that models cannot achieve high-scores via memorization enabled by train-test leakage, an issue observed in some existing datasets (Lewis et al., 2021).",
+     "source": "musique",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets ... (qi, pi, ai)\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets ... (qi, pi, ai)",
+      "pieces_found_in": {
+       "We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets": [
+        "musique"
+       ],
+       "(qi, pi, ai)": [
+        "musique",
+        "musique_v1"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'No knowledge graph is used' (no source sentence states this)"
+   ]
+  },
+  "MUSIQUE_ANSWER": {
+   "excerpts": [
+    {
+     "text": "ai is the answer to qi, and thereby, an is the answer to Q.",
+     "source": "musique",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "We begin with a large set of RC single-hop questions from 5 English Wikipedia-based datasets, SQuAD (Rajpurkar et al., 2016), Natural Questions (Kwiatkowski et al., 2019), MLQA (en-en) (Lewis et al., 2020b), T-REx (ElSahar et al., 2018), Zero Shot RE (Levy et al., 2017), where instances are of the form (qi, pi, ai) referring to the question, the associated paragraph, and the answer, respectively.",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "Such pairs can be combined to form a 2-hop question (Q, {p1, p2}, a2).",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "We want connected 2-hop questions – questions that cannot be answered without using the answers of the constituent single-hop questions.",
+     "source": "musique",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "We accept a head question if, on average, the predicted answers’ word overlap (computed using answer f1) with the answer label is < 0.5.",
+     "source": "musique",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "",
+   "workbook_excerpt_check": {
+    "status": "no workbook excerpt"
+   },
+   "description_statements_without_source_sentence": [
+    "'No knowledge graph is used' (no source sentence states this)"
+   ]
+  },
+  "HOTPOT_SENTENCE": {
+   "excerpts": [
+    {
+     "text": "HotpotQA is collected by crowdsourcing based on Wikipedia articles, where crowd workers are shown multiple supporting context documents and asked explicitly to come up with questions requiring reasoning about all of the documents.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Moreover, we also ask the crowd workers to provide the supporting facts they use to answer the question, which we also provide as part of the dataset (see Figure 1 for an example).",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "To this end, we also collect the sentences that determine the answers from crowd workers.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "With these hyperlinks, we build a directed graph G, where each edge (a, b) indicates there is a hyperlink from the first paragraph of article a to article b.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "One way to do so is to define reasoning chains based on a knowledge base (Welbl et al., 2018; Talmor and Berant, 2018). However, the resulting datasets are limited by the incompleteness of entity relations and the lack of diversity in the question types. Instead, in this work, we focus on text-based question answering in order to diversify the questions and answers.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "\"we also ask the crowd workers to provide the supporting facts they use to answer\"; \"we focus on text-based question answering\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "we also ask the crowd workers to provide the supporting facts they use to answer",
+      "pieces_found_in": {
+       "we also ask the crowd workers to provide the supporting facts they use to answer": [
+        "hotpotqa"
+       ]
+      }
+     },
+     {
+      "segment": "we focus on text-based question answering",
+      "pieces_found_in": {
+       "we focus on text-based question answering": [
+        "hotpotqa"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "HOTPOT_ANSWER": {
+   "excerpts": [
+    {
+     "text": "HotpotQA is collected by crowdsourcing based on Wikipedia articles, where crowd workers are shown multiple supporting context documents and asked explicitly to come up with questions requiring reasoning about all of the documents.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "production"
+    },
+    {
+     "text": "The overall setting is that given some context paragraphs (e.g., a few paragraphs, or the entire Web) and a question, a QA system answers the question by extracting a span of text from the context, similar to Rajpurkar et al. (2016).",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "We use the resulting sentence boundaries for collection of supporting facts, and use token boundaries to check whether Turkers are providing answers that cover spans of entire tokens to avoid nonsensical partial-word answers.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      11
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "One way to do so is to define reasoning chains based on a knowledge base (Welbl et al., 2018; Talmor and Berant, 2018). However, the resulting datasets are limited by the incompleteness of entity relations and the lack of diversity in the question types. Instead, in this work, we focus on text-based question answering in order to diversify the questions and answers.",
+     "source": "hotpotqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "",
+   "workbook_excerpt_check": {
+    "status": "no workbook excerpt"
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "MHRAG_EVIDENCE": {
+   "excerpts": [
+    {
+     "text": "For each article, we extract factual or opinion sentences using a trained language model.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "These factual sentences are later used as evidence for answering multi-hop queries.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Every news article is paired with metadata, including the title, publish date, author, category, URL, and news source.",
+     "source": "multihoprag",
+     "pages_or_line": {
+      "pages": [
+       4
+      ],
+      "skipped_non_sentence_text": [
+       "1httpsmediastackcom"
+      ]
+     },
+     "verified": "LOOSE-INTERRUPTED",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"For each article, we extract factual or opinion sentences using a trained language model\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "For each article, we extract factual or opinion sentences using a trained language model",
+      "pieces_found_in": {
+       "For each article, we extract factual or opinion sentences using a trained language model": [
+        "multihoprag"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'No knowledge graph is used' (no source sentence states this)"
+   ]
+  },
+  "MHRAG_ANSWER": {
+   "excerpts": [
+    {
+     "text": "To address this, we employ GPT-4 to paraphrase the evidence, which we refer to as claims, given the original evidence and its context.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "For each type of query, we feed the claim set to GPT-4 and prompt it with an instruction to generate a query with information from each claim.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "First, we manually review a subset sample of the generated multi-hop queries, their corresponding evidence sets, and the final answers.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Second, we utilize GPT-4 to assess each example in the dataset against the following criteria: 1) The generated query must utilize all provided evidence in formulating the response; 2) The query should be answerable solely based on the provided evidence; 3) The response to the generated query should be either a single word or a specific entity; 4) The query must conform to its designated query type.",
+     "source": "multihoprag",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"we feed the claim set to GPT-4 and prompt it ... to generate a query\"; \"we manually review a subset sample\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "we feed the claim set to GPT-4 and prompt it ... to generate a query",
+      "pieces_found_in": {
+       "we feed the claim set to GPT-4 and prompt it": [
+        "multihoprag"
+       ],
+       "to generate a query": [
+        "multihoprag"
+       ]
+      }
+     },
+     {
+      "segment": "we manually review a subset sample",
+      "pieces_found_in": {
+       "we manually review a subset sample": [
+        "multihoprag"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'No knowledge graph is used' (no source sentence states this)"
+   ]
+  },
+  "OURSLOW_PASSAGE": {
+   "excerpts": [
+    {
+     "text": "Process: a GENERATOR backend reads passage text and emits question / answer /\n         evidence span. The live CLI defaults to local Mistral-Small-24B,\n         matching the generator recorded in the frozen single-hop rows; Claude\n         Sonnet remains an explicit alternative. The answer is derived ONLY\n         from passage text; the KG is NEVER provided in the prompt.",
+     "source": "lower",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "'evidence' is the exact passage substring that supports the answer.",
+     "source": "lower",
+     "pages_or_line": [
+      166
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "ACYCLICITY (CI guard, see test_no_kg_imports): this module must NOT import\nprototype.baselines, proposed_kg, or qa_from_kg. The KG is never referenced.",
+     "source": "lower",
+     "pages_or_line": [
+      23
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "CI acyclicity guard: gold_v2 modules must NOT import KG-side symbols.",
+     "source": "lower_test",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "docstring: \"answer is derived ONLY from passage text; the KG is NEVER provided in the prompt\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "docstring:",
+    "segments": [
+     {
+      "segment": "answer is derived ONLY from passage text; the KG is NEVER provided in the prompt",
+      "pieces_found_in": {
+       "answer is derived ONLY from passage text; the KG is NEVER provided in the prompt": [
+        "lower"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "OURSLOW_ANSWER": {
+   "excerpts": [
+    {
+     "text": "(1) the answer must be a short span quoted verbatim from the passage; ",
+     "source": "lower",
+     "pages_or_line": [
+      161
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "    # Gate: answer must be grounded in the passage text.\n    if not answer_in_passage(answer, ptext):\n        return None",
+     "source": "lower",
+     "pages_or_line": [
+      536
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Process: a GENERATOR backend reads passage text and emits question / answer /\n         evidence span. The live CLI defaults to local Mistral-Small-24B,\n         matching the generator recorded in the frozen single-hop rows; Claude\n         Sonnet remains an explicit alternative. The answer is derived ONLY\n         from passage text; the KG is NEVER provided in the prompt.",
+     "source": "lower",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "ACYCLICITY (CI guard, see test_no_kg_imports): this module must NOT import\nprototype.baselines, proposed_kg, or qa_from_kg. The KG is never referenced.",
+     "source": "lower",
+     "pages_or_line": [
+      23
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "code: \"the answer must be a short span quoted verbatim from the passage\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "code:",
+    "segments": [
+     {
+      "segment": "the answer must be a short span quoted verbatim from the passage",
+      "pieces_found_in": {
+       "the answer must be a short span quoted verbatim from the passage": [
+        "lower"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "NQ_ANSWER": {
+   "excerpts": [
+    {
+     "text": "Natural Questions contains (question, wikipedia page, long answer, short answer) quadruples where: the question seeks factual information; the Wikipedia page may or may not contain the information required to answer the question; the long answer is a bounding box on this page containing all information required to infer the answer; and the short answer is one or more entities that give a short answer to the question, or a boolean yes or no.",
+     "source": "nq",
+     "pages_or_line": {
+      "pages": [
+       3,
+       4
+      ],
+      "skipped_non_sentence_text": [
+       "4551awheredoesthenatureconservancygetitsfunding1bwhoisthesongkillingmesoftlywrittenabout2whoownedmostoftherailroadsinthe1800s4howfarischardo"
+      ]
+     },
+     "verified": "LOOSE-INTERRUPTED",
+     "origin": "census"
+    },
+    {
+     "text": "Short Answer Identification: For examples with long answers, annotators select the entity or set of entities within the long answer that answer the question.",
+     "source": "nq",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "An annotator is presented with a question along with a Wikipedia page from the top 5 search results, and annotates a long answer (typically a paragraph) and a short answer (one or more entities) if present on the page, or marks null if no long/short answer is present.",
+     "source": "nq",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"the short answer is one or more entities that give a short answer to the question, or a boolean\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "the short answer is one or more entities that give a short answer to the question, or a boolean",
+      "pieces_found_in": {
+       "the short answer is one or more entities that give a short answer to the question, or a boolean": [
+        "nq"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "NQ_PASSAGE": {
+   "excerpts": [
+    {
+     "text": "Annotators identify long answers by selecting the smallest HTML bounding box that contains all of the information required to answer the question.",
+     "source": "nq",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Long Answer Identification: For good questions only, annotators select the earliest HTML bounding box containing enough information for a reader to completely infer the answer to the question.",
+     "source": "nq",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "An annotator is presented with a question along with a Wikipedia page from the top 5 search results, and annotates a long answer (typically a paragraph) and a short answer (one or more entities) if present on the page, or marks null if no long/short answer is present.",
+     "source": "nq",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"Annotators identify long answers by selecting the smallest HTML bounding box that contains all information required to answer the question\"",
+   "workbook_excerpt_check": {
+    "status": "NOT verbatim in any checked version",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "Annotators identify long answers by selecting the smallest HTML bounding box that contains all information required to answer the question",
+      "pieces_found_in": {
+       "Annotators identify long answers by selecting the smallest HTML bounding box that contains all information required to answer the question": []
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "GRADE_PASSAGE": {
+   "excerpts": [
+    {
+     "text": "For the RAG database, we split each article into chunks with a total length of 128 to 256 tokens, using a 50-token overlap between consecutive chunks, and embedded them using the OpenAI text-embedding-3-small model.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Figure 1: Overall process of GRADE comprises three stages: (1) Knowledge Graph Construction & Missing Link Detection, where factual claims are extracted from source documents, verified and decontextualized to form triples, and the KG is augmented by detecting missing links via semantic clustering; (2) Difficulty-labelled Question–Answer Generation, where multi-hop reasoning paths in a directed acyclic graph are used to generate QA pairs, with each query assigned a difficulty label based on reasoning depth and retrieval difficulty; and (3) RAG System Evaluation & Difficulty Matrix Derivation, where the RAG system’s performance is assessed via cell-wise error rates across a 2D difficulty matrix considering both generator-side and retriever-side complexity.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Retriever-side difficulty was defined based on the semantic distance between a question q and its associated supporting chunks.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "In contrast, GRADE leverages chunk-level grounding to compute query-evidence semantic similarity directly over the corpus, enabling automatic pre-labeling of retrieval difficulty—a key prerequisite for fine-grained RAG evaluation.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"we split each article into chunks ... and embedded them\"; \"supporting evidence traces back to original source documents\"",
+   "workbook_excerpt_check": {
+    "status": "NOT verbatim in any checked version",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "we split each article into chunks ... and embedded them",
+      "pieces_found_in": {
+       "we split each article into chunks": [
+        "grade",
+        "grade_v1"
+       ],
+       "and embedded them": [
+        "grade",
+        "grade_v1"
+       ]
+      }
+     },
+     {
+      "segment": "supporting evidence traces back to original source documents",
+      "pieces_found_in": {
+       "supporting evidence traces back to original source documents": []
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'supporting evidence traces back to original source documents' (census-record quote; not found in v1 or v2)",
+    "'selected by guidance from the question's path and answer' (no source sentence states how gold chunks are chosen)"
+   ]
+  },
+  "GRADE_EDGE": {
+   "excerpts": [
+    {
+     "text": "We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph and discarded redundant paths that shared the same start and end entities while differing only in intermediate nodes (e.g., e1 → e3 → e2 vs. e1 → e4 → e2).",
+     "source": "grade_v1",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Let P = {(e1, r1, e2), . . . , (ek, rk, ek+1)} denote a reasoning path of length k. We define a Logical Chaining Question (LCQ) qP such that its unique answer is the terminal node ek+1, and all supporting facts are contained in the edge set P.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "To address this limitation and better support multi-hop traversal on the knowledge graph, we performed the following augmentation steps. All claims were clustered using a GMM-based soft clustering approach.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "For contextually equivalent entities (e.g., “the Biden administration” and “the U.S. government”) within semantically similar clusters, we augmented the knowledge graph by adding mirrored inbound and outbound edges.",
+     "source": "grade_v1",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph\"; \"all supporting facts are contained in the edge set P\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph",
+      "pieces_found_in": {
+       "We first enumerated all shortest directed acyclic paths of length 2 to 5 within the knowledge graph": [
+        "grade",
+        "grade_v1"
+       ]
+      }
+     },
+     {
+      "segment": "all supporting facts are contained in the edge set P",
+      "pieces_found_in": {
+       "all supporting facts are contained in the edge set P": [
+        "grade_v1"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "STARK_TEXTUAL": {
+   "excerpts": [
+    {
+     "text": "Subsequently, we select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      7
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "We extract textual properties that align with the interests of specific roles from the textual information of the gold answer.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      7
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "With the textual and relational requirements, we simulate queries by fusing them using LLMs.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      7
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"We extract textual properties that align with the interests\" (from the gold node's free text)",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "(from the gold node's free text)",
+    "segments": [
+     {
+      "segment": "We extract textual properties that align with the interests",
+      "pieces_found_in": {
+       "We extract textual properties that align with the interests": [
+        "stark_v1"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "STARK_ANSWERENTITY": {
+   "excerpts": [
+    {
+     "text": "Initially, we sample a relation template, such as “(a product) belongs to <brand>” and instantiate it into a relational requirement, e.g., “belongs to Radio Flyer” shown in the first step of Figure 3.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Each relational requirement yields a set of candidate entities that meet the requirement, i.e., products belonging to Radio Flyer.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Subsequently, we select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      7
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "In the final step, we assess whether each remaining candidate, excluding the gold answer used for extracting textual properties, meets the additional textual requirement. For the verification, we employ three Claude models. Only candidates that pass the verification across all models are included in the final ground truth answer set.",
+     "source": "stark_v1",
+     "pages_or_line": [
+      7
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "\"we sample a relation template ... select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer\"; \"we employ three Claude models. Only candidates that pass the verification across all models are included in the final ground truth answer set\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "we sample a relation template ... select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer",
+      "pieces_found_in": {
+       "we sample a relation template": [
+        "stark_v1",
+        "stark_v2"
+       ],
+       "select one of the candidate nodes that satisfies the relational requirement, which is referred to as the gold answer": [
+        "stark_v1"
+       ]
+      }
+     },
+     {
+      "segment": "we employ three Claude models. Only candidates that pass the verification across all models are included in the final ground truth answer set",
+      "pieces_found_in": {
+       "we employ three Claude models. Only candidates that pass the verification across all models are included in the final ground truth answer set": [
+        "stark_v1"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "TRIVIA_ANSWER": {
+   "excerpts": [
+    {
+     "text": "TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "To our knowledge, TriviaQA is the first dataset where full-sentence questions are authored organically (i.e. independently of an NLP task) and evidence documents are collected retrospectively from Wikipedia and the Web.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "First we gathered question-answer pairs from 14 trivia and quiz-league websites.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "EXACT",
+     "origin": "production"
+    }
+   ],
+   "workbook_excerpt": "\"95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents",
+      "pieces_found_in": {
+       "95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents": [
+        "triviaqa"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "TRIVIA_EVIDENCE": {
+   "excerpts": [
+    {
+     "text": "Our evidence documents are automatically gathered from either Wikipedia or more general Web search results (details in Section 3).",
+     "source": "triviaqa",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "Therefore, they are best seen as a source of distant supervision, based on the assumption that the presence of the answer string in an evidence document implies that the document does answer the question.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Finally, to support learning from distant supervision, we further filtered the evidence documents to exclude those missing the correct answer string and formed evidence document sets as described in Section 2.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "To our knowledge, TriviaQA is the first dataset where full-sentence questions are authored organically (i.e. independently of an NLP task) and evidence documents are collected retrospectively from Wikipedia and the Web.",
+     "source": "triviaqa",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"the presence of the answer string in an evidence document implies that the document does answer the question\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "the presence of the answer string in an evidence document implies that the document does answer the question",
+      "pieces_found_in": {
+       "the presence of the answer string in an evidence document implies that the document does answer the question": [
+        "triviaqa"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "GRB_SUBGRAPH": {
+   "excerpts": [
+    {
+     "text": "To overcome the superficial treatment of reasoning in existing benchmarks, where multi-hop queries often reduce to linear fact retrieval, our framework systematically transforms raw text into structured domain ontologies.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "These ontologies preserve not only entities but also their contextual relationships and hierarchical dependencies, enabling the extraction of fine-grained evidence that reflects both localized factual clusters and interconnected reasoning chains.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "To address this, we transform text into formalized ontologies using GPT-4.1, which codifies vertical hierarchies (e.g., symptom → diagnosis) and horizontal dependencies (e.g., socio-economic factors influencing medical outcomes).",
+     "source": "graphragbench",
+     "pages_or_line": [
+      20
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Isolating evidence into localized subgraphs (dense concept clusters) and multi-hop chains (logically linked sequences) allows us to quantify difficulty through objective metrics like entity density, path length, and inferential distance.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      21
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Question generation. we generate the questions according to the complexity of the underlying evidence.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      6
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Our validation criteria are strict: given a question, if no evidence triple can be inferred from the corpus, the corresponding question is discarded.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      21
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "This verification and correction process is supported by advanced models combined with human checking for final confirmation.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      23
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "\"Logic Mining ... transform raw text into structured domain ontologies\"; \"isolating evidence into localized subgraphs ... and multi-hop chains\"; \"if no evidence triple can be inferred from the corpus, the question is discarded ... combined with human checking for final confirmation\"",
+   "workbook_excerpt_check": {
+    "status": "NOT verbatim in any checked version",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "Logic Mining ... transform raw text into structured domain ontologies",
+      "pieces_found_in": {
+       "Logic Mining": [
+        "graphragbench",
+        "graphragbench_v1",
+        "graphragbench_v2"
+       ],
+       "transform raw text into structured domain ontologies": []
+      }
+     },
+     {
+      "segment": "isolating evidence into localized subgraphs ... and multi-hop chains",
+      "pieces_found_in": {
+       "isolating evidence into localized subgraphs": [
+        "graphragbench",
+        "graphragbench_v1",
+        "graphragbench_v2"
+       ],
+       "and multi-hop chains": [
+        "graphragbench",
+        "graphragbench_v1",
+        "graphragbench_v2"
+       ]
+      }
+     },
+     {
+      "segment": "if no evidence triple can be inferred from the corpus, the question is discarded ... combined with human checking for final confirmation",
+      "pieces_found_in": {
+       "if no evidence triple can be inferred from the corpus, the question is discarded": [],
+       "combined with human checking for final confirmation": [
+        "graphragbench",
+        "graphragbench_v1",
+        "graphragbench_v2"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "GRB_ANSWER": {
+   "excerpts": [
+    {
+     "text": "Questions are generated by aligning their cognitive demands with the structural properties of the underlying evidence.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      21
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "We define the evidence validation process as follows: given the original corpus and the constructed evidence, we assess whether the evidence can be logically derived from the corpus.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      21
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Similarly, for answer correction, we check whether the provided answer can be logically inferred from the evidence.",
+     "source": "graphragbench",
+     "pages_or_line": {
+      "pages": [
+       21,
+       22,
+       23
+      ],
+      "skipped_non_sentence_text": [
+       "21publishedasaconferencepaperaticlr2026figure8examplepromptsusedforconstructingthenoveldatasetingraphragbench22publishedasaconferencepaperaticlr2026table11resultsofgenerationevaluationusingqwen2514bcoveringtasksofvaryingcomplexitycategorymodelfactretrievalcomplexreasoningcontextualsummarizecreativegenerationaccrougelaccrougelacccovaccfscovnoveldatasetbasicragragwrerank467419114236119051558300382352273876msgraphraglocaledgeetal2024398925934612277065286910395754643242msgraphragglobaledgeetal2024398911544222191060417545365984603430hipporag2gutirrezetal2025547930165045303061146899405252243205lightragguoetal202444001222402799152078620397478733967fastgraphragcirclemindai2024600841315381304362827445476057993031graphragraptorsarthietal202441121191411595852038104385663103477medicaldatasetbasicragragwrerank575621145601127161957932609153844791msgraphraglocaledgeetal2024492429176164274059013712617033394224msgraphragglobaledgeetal202440041701614021085110386959204317hipporag2gutirrezetal2025645033926405330264714827607739333676lightragguoetal2024644340376466282669375981632570844512fastgraphragcirclemindai2024620343596240294265094629629831983583graphragraptorsarthietal2024504813495286129658947863614549915446duetotimeandresourceconstraintswetestedourbenchmarkonarepresentativesetofgraphragmodels"
+      ]
+     },
+     "verified": "LOOSE-INTERRUPTED",
+     "origin": "parity"
+    },
+    {
+     "text": "This verification and correction process is supported by advanced models combined with human checking for final confirmation.",
+     "source": "graphragbench",
+     "pages_or_line": [
+      23
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"Questions are generated by aligning their cognitive demands with the structural properties of the underlying evidence\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "Questions are generated by aligning their cognitive demands with the structural properties of the underlying evidence",
+      "pieces_found_in": {
+       "Questions are generated by aligning their cognitive demands with the structural properties of the underlying evidence": [
+        "graphragbench",
+        "graphragbench_v1",
+        "graphragbench_v2"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'the answer is anchored to the mined subgraph with its surface present in text' (no source sentence states how the answer is written)"
+   ]
+  },
+  "TWOWIKI_SENTENCE": {
+   "excerpts": [
+    {
+     "text": "Subsequently, we obtained the set of statements of each entity from Wikidata.",
+     "source": "twowiki",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "With relation r1, we obtained the two values o1 and o2 from the two triples (e1, r1, o1) and (e2, r1, o2) of the two entities, respectively.",
+     "source": "twowiki",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "The requirement here is that the value o1 must appear in the Wikipedia article for the entity e1, which is the same condition for the second entity e2.",
+     "source": "twowiki",
+     "pages_or_line": {
+      "pages": [
+       4,
+       5
+      ],
+      "skipped_non_sentence_text": [
+       "4httpswwwwikipediaorg5httpswwwwikidataorg6httpsspacyio"
+      ]
+     },
+     "verified": "LOOSE-INTERRUPTED",
+     "origin": "census"
+    },
+    {
+     "text": "SF is a set of sentence indices where the values o1 and o2 are extracted.",
+     "source": "twowiki",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "\"SF is a set of sentence indices where the values o1 and o2 are extracted\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "SF is a set of sentence indices where the values o1 and o2 are extracted",
+      "pieces_found_in": {
+       "SF is a set of sentence indices where the values o1 and o2 are extracted": [
+        "twowiki"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "TWOWIKI_ANSWER": {
+   "excerpts": [
+    {
+     "text": "Further, by utilizing the logical rule information in the knowledge graph, such as father(a, b) ∧ father(b, c) ⇒ grandfather(a, c), we can create more natural questions that still require multi-hop reasoning.",
+     "source": "twowiki",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Q is obtained by replacing the two tokens #name in the template by the two entity labels.",
+     "source": "twowiki",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Inference question is created from the two triples (e, r1, e1) and (e1, r2, e2) in the KB. We utilized the logical rule to acquire the new triple (e, r, e2), where r is the inference relation obtained from the two relations r1 and r2. A question–answer pair is created by using the new triple (e, r, e2), its question is created from (e, r) and its answer is e2.",
+     "source": "twowiki",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "In this case, a question is created from the entity e and the two relations r1 and r2: Who is the founder of the company that distributed La La Land film? An answer is the entity e2 of the second triple: Bernd Eichinger (Section 3.2).",
+     "source": "twowiki",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "EXACT",
+     "origin": "production"
+    },
+    {
+     "text": "Because our dataset is a span extraction dataset, the answer is extracted from the Wikipedia article of each entity.",
+     "source": "twowiki",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "production"
+    },
+    {
+     "text": "Based on the type of questions, we undertake comparisons and obtain the final answer A.",
+     "source": "twowiki",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "production"
+    }
+   ],
+   "workbook_excerpt": "\"utilizing the logical rule information in the knowledge graph ... we can create more natural questions\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "utilizing the logical rule information in the knowledge graph ... we can create more natural questions",
+      "pieces_found_in": {
+       "utilizing the logical rule information in the knowledge graph": [
+        "twowiki"
+       ],
+       "we can create more natural questions": [
+        "twowiki"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "TWOWIKI_EDGE": {
+   "excerpts": [
+    {
+     "text": "Evidence information in our dataset is a set of triples, where each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata (see Figure 1 for an example).",
+     "source": "twowiki",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "E is the two triples (e1, r1, o1) and (e2, r1, o2).",
+     "source": "twowiki",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"Evidence information in our dataset is a set of triples, where each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "Evidence information in our dataset is a set of triples, where each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata",
+      "pieces_found_in": {
+       "Evidence information in our dataset is a set of triples, where each triple is a structured data (subject entity, property, object entity) obtained from the Wikidata": [
+        "twowiki"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "METAQA_ANSWER": {
+   "excerpts": [
+    {
+     "text": "All questions in MetaQA are generated from the movie knowledge base in MovieQA.",
+     "source": "metaqa_readme",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "For 2-hop questions, we design 21 question types in total: • Actor / Writer / Director to Movie to Actor / Writer / Director / Year / Language / Genre (18 types) • Movie to Actor / Writer / Director to Movie (3 types)",
+     "source": "metaqa",
+     "pages_or_line": [
+      17
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Following the way that WikiMovies is generated, we design 10 question templates and uniformly randomly sample from them when generating questions.",
+     "source": "metaqa",
+     "pages_or_line": [
+      17
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Furthermore, each edge from E(G) is a triplet (a^1_i, r_i, a^2_i), representing a directed relation r_i between subject entity a^1_i and object entity a^2_i both from the node set V(G).",
+     "source": "metaqa",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Question answering with KG: Given a question q, the algorithm is asked to output an entity in the knowledge graph which properly answers the question.",
+     "source": "metaqa",
+     "pages_or_line": [
+      4
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Given the topic entity y in question qi, one need to reason over the knowledge graph to find out the answer ai.",
+     "source": "metaqa",
+     "pages_or_line": [
+      5
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"each edge from E(G) is a triplet (a_i^1, r_i, a_i^2), representing a directed relation\"; \"we design 21 question types ... 10 question templates and uniformly randomly sample\"",
+   "workbook_excerpt_check": {
+    "status": "NOT verbatim in any checked version",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "each edge from E(G) is a triplet (a_i^1, r_i, a_i^2), representing a directed relation",
+      "pieces_found_in": {
+       "each edge from E(G) is a triplet (a_i^1, r_i, a_i^2), representing a directed relation": []
+      }
+     },
+     {
+      "segment": "we design 21 question types ... 10 question templates and uniformly randomly sample",
+      "pieces_found_in": {
+       "we design 21 question types": [
+        "metaqa",
+        "metaqa_readme"
+       ],
+       "10 question templates and uniformly randomly sample": [
+        "metaqa"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "METAQA_PATH": {
+   "excerpts": [
+    {
+     "text": "The 2-hop and 3-hop datasets are generated from the same knowledge base which will be described shortly.",
+     "source": "metaqa_readme",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Each line is one knowledge triple, and the schema is `subject|relation|object`.",
+     "source": "metaqa_readme",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "For 2-hop questions, we design 21 question types in total: • Actor / Writer / Director to Movie to Actor / Writer / Director / Year / Language / Genre (18 types) • Movie to Actor / Writer / Director to Movie (3 types)",
+     "source": "metaqa",
+     "pages_or_line": [
+      17
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "Instead, we construct meaningful 3-hop questions in 15 question types: • Movie to Actor / Writer / Director to Movie to Actor / Writer / Director / Year / Language / Genre (different roles for the former and latter roles)",
+     "source": "metaqa",
+     "pages_or_line": [
+      17
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"The 2-hop and 3-hop datasets are generated from the same knowledge base\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "The 2-hop and 3-hop datasets are generated from the same knowledge base",
+      "pieces_found_in": {
+       "The 2-hop and 3-hop datasets are generated from the same knowledge base": [
+        "metaqa_readme"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": [
+    "'The gold reasoning path is a sequence of knowledge-graph triples' (no source sentence describes a released path field)"
+   ]
+  },
+  "WEBQSP_ANSWERENTITY": {
+   "excerpts": [
+    {
+     "text": "In particular, we provide SPARQL queries for 4,737 questions.",
+     "source": "webqsp",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "Compared to the previous semantic parse dataset on Freebase, Free917 (Cai and Yates, 2013), our WebQuestionsSP is not only substantially larger, but also provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase.",
+     "source": "webqsp",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "In order to verify the benefits of having labeled semantic parses, we completely re-annotated the WebQuestions dataset (Berant et al., 2013) such that it contains both semantic parses and the derived answers.",
+     "source": "webqsp",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "For instance, the annotators should focus on giving the correct semantic parse of a question, based on the assumption that it will result in correct answers if the KB is complete and correct.",
+     "source": "webqsp",
+     "pages_or_line": [
+      3
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"... provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "... provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase",
+      "pieces_found_in": {
+       "provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase": [
+        "webqsp"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "WEBQSP_PATH": {
+   "excerpts": [
+    {
+     "text": "Following the notion of query graph in (Yih et al., 2015), the semantic parse is anchored to one of the entities in the question as the topic entity and the core component is to represent the relation between the entity and the answer, referred as the inferential chain.",
+     "source": "webqsp",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "census"
+    },
+    {
+     "text": "Once the entity is selected, the system then requests the user to pick the Freebase predicate that represents the relationship between the answers and this topic entity.",
+     "source": "webqsp",
+     "pages_or_line": [
+      2
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    },
+    {
+     "text": "Compared to the previous semantic parse dataset on Freebase, Free917 (Cai and Yates, 2013), our WebQuestionsSP is not only substantially larger, but also provides the semantic parses in SPARQL with standard Freebase entity identifiers, which are directly executable on Freebase.",
+     "source": "webqsp",
+     "pages_or_line": [
+      1
+     ],
+     "verified": "LOOSE",
+     "origin": "parity"
+    }
+   ],
+   "workbook_excerpt": "\"the core component is to represent the relation between the entity and the answer, referred as the inferential chain\"",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "",
+    "segments": [
+     {
+      "segment": "the core component is to represent the relation between the entity and the answer, referred as the inferential chain",
+      "pieces_found_in": {
+       "the core component is to represent the relation between the entity and the answer, referred as the inferential chain": [
+        "webqsp"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "OURSUP_ANSWER": {
+   "excerpts": [
+    {
+     "text": "def build_answer(\n    head: KGNodeEntry,\n    tail: KGNodeEntry,\n    relation_type: str,\n    context: str,\n) -> str:\n    head_name = _ascii_safe(head.name) or head.node_id\n    tail_name = _ascii_safe(tail.name) or tail.node_id\n    phrase = relation_phrase(relation_type)\n    base = \"{0} {1} {2}.\".format(head_name, phrase, tail_name)\n    ctx = _ascii_safe(context).strip()\n    if ctx:\n        return base + \" \" + ctx\n    return base",
+     "source": "upper",
+     "pages_or_line": [
+      276
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "\"answer\": build_answer(head, tail, edge.relation_type, edge.context),",
+     "source": "upper",
+     "pages_or_line": [
+      396
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "code: build_answer fills a template with the KG edge's relation_type and context",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "code: build_answer fills a template with the KG edge's relation_type and context",
+    "segments": []
+   },
+   "description_statements_without_source_sentence": [
+    "'no language model is involved' (shown only by the code itself; the docstring's 'No LLM is required' refers to the id fields)"
+   ]
+  },
+  "OURSUP_ENTITY": {
+   "excerpts": [
+    {
+     "text": "This module inverts the relationship: per eval paper, walk the KG edges\nwhose `source_doc == paper_id`, rank by `reliability_score`, and emit a\nQA row whose ground-truth fields are populated DETERMINISTICALLY from\nthe KG triple:\n\n    canonical_entity_ids = [head_node_id, tail_node_id]\n    canonical_edge_ids   = [\"{src_id}--{rel}-->{tgt_id}\"]\n    gold_paths           = [[head_node_id, tail_node_id]]\n    expected_entities    = [head_node_id, tail_node_id]\n\nBy construction the (QA -> KG) entity overlap is 100% and the\n(QA -> KG) edge overlap is 100%. No LLM is required for these fields.",
+     "source": "upper",
+     "pages_or_line": [
+      14
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "\"expected_entities\": [head.node_id, tail.node_id],",
+     "source": "upper",
+     "pages_or_line": [
+      401
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "code: \"expected_entities\": [head.node_id, tail.node_id]",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "code: : [head.node_id, tail.node_id]",
+    "segments": [
+     {
+      "segment": "expected_entities",
+      "pieces_found_in": {
+       "expected_entities": [
+        "upper"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "OURSUP_EDGE": {
+   "excerpts": [
+    {
+     "text": "This module inverts the relationship: per eval paper, walk the KG edges\nwhose `source_doc == paper_id`, rank by `reliability_score`, and emit a\nQA row whose ground-truth fields are populated DETERMINISTICALLY from\nthe KG triple:\n\n    canonical_entity_ids = [head_node_id, tail_node_id]\n    canonical_edge_ids   = [\"{src_id}--{rel}-->{tgt_id}\"]\n    gold_paths           = [[head_node_id, tail_node_id]]\n    expected_entities    = [head_node_id, tail_node_id]\n\nBy construction the (QA -> KG) entity overlap is 100% and the\n(QA -> KG) edge overlap is 100%. No LLM is required for these fields.",
+     "source": "upper",
+     "pages_or_line": [
+      14
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "canonical_edge = _format_edge_id(head.node_id, edge.relation_type, tail.node_id)",
+     "source": "upper",
+     "pages_or_line": [
+      372
+     ],
+     "verified": "EXACT",
+     "origin": "parity"
+    },
+    {
+     "text": "\"canonical_edge_ids\": [canonical_edge],",
+     "source": "upper",
+     "pages_or_line": [
+      405
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "code: canonical_edge_ids = [\"{src}--{rel}-->{tgt}\"]; docstring: \"edge overlap is 100%. No LLM is required for these fields\"",
+   "workbook_excerpt_check": {
+    "status": "NOT verbatim in any checked version",
+    "text_outside_quotes": "code: canonical_edge_ids = []; docstring:",
+    "segments": [
+     {
+      "segment": "{src}--{rel}-->{tgt}",
+      "pieces_found_in": {
+       "{src}--{rel}-->{tgt}": []
+      }
+     },
+     {
+      "segment": "edge overlap is 100%. No LLM is required for these fields",
+      "pieces_found_in": {
+       "edge overlap is 100%. No LLM is required for these fields": [
+        "upper"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  },
+  "OURSUP_PATH": {
+   "excerpts": [
+    {
+     "text": "This module inverts the relationship: per eval paper, walk the KG edges\nwhose `source_doc == paper_id`, rank by `reliability_score`, and emit a\nQA row whose ground-truth fields are populated DETERMINISTICALLY from\nthe KG triple:\n\n    canonical_entity_ids = [head_node_id, tail_node_id]\n    canonical_edge_ids   = [\"{src_id}--{rel}-->{tgt_id}\"]\n    gold_paths           = [[head_node_id, tail_node_id]]\n    expected_entities    = [head_node_id, tail_node_id]\n\nBy construction the (QA -> KG) entity overlap is 100% and the\n(QA -> KG) edge overlap is 100%. No LLM is required for these fields.",
+     "source": "upper",
+     "pages_or_line": [
+      14
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    },
+    {
+     "text": "\"gold_paths\": [[head.node_id, tail.node_id]],",
+     "source": "upper",
+     "pages_or_line": [
+      406
+     ],
+     "verified": "EXACT",
+     "origin": "census"
+    }
+   ],
+   "workbook_excerpt": "code: \"gold_paths\": [[head.node_id, tail.node_id]]",
+   "workbook_excerpt_check": {
+    "status": "verbatim (each piece found)",
+    "text_outside_quotes": "code: : [[head.node_id, tail.node_id]]",
+    "segments": [
+     {
+      "segment": "gold_paths",
+      "pieces_found_in": {
+       "gold_paths": [
+        "upper"
+       ]
+      }
+     }
+    ]
+   },
+   "description_statements_without_source_sentence": []
+  }
+ },
+ "items_without_workbook_excerpt": [
+  "HOTPOT_ANSWER",
+  "MUSIQUE_ANSWER"
+ ]
+}
