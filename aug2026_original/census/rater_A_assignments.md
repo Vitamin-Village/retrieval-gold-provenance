@@ -69,3 +69,37 @@
 - Observations = (benchmark x axis) pairs scored above: **6 external benchmarks** + **2 anchors** = 19 scored axis-rows (excl. KG-LLM q<->triplet which is question-source not supporting-gold — reported but flag as non-supporting-axis).
 - N/A (LightRAG) and △ (RAGAS-KG) excluded from kappa denominator per STEP6.
 - supporting-passage default-axis sub-vector for passage-only kappa: MuSiQue=bin0, HotpotQA=bin0(sentence), 2Wiki=bin3(sentence), GraphRAG-Bench=bin3, GRADE=bin1(chunk)|bin3(edges)**[split]**, KG-LLM=bin1, qa_v4=bin4(edge), qa_indep=bin0.
+
+---
+
+## Authors' note on the quotes (added November 2026)
+
+Everything above this line is rater A's record of 2026-06-01 and is left as written. Before the public release, the authors compared each string in quote marks that the record gives as text of a benchmark paper or of the generator code with that source. The sources were the PDF text of MuSiQue (arXiv:2108.00573v3), HotpotQA (arXiv:1809.09600v1), 2WikiMultiHopQA (arXiv:2011.01060v2), GraphRAG-Bench (arXiv:2506.05690, v1 to v3), GRADE (arXiv:2508.16994, v1 and v2), and KG-LLM QA Extraction (arXiv:2507.13827v1), and the generator code of the two anchors (`qa_from_kg.py`, which is not part of this release, and `paper/gold_v2/generate_qa_candidates.py`). A string counts as word for word when its letters and digits occur in the source in the same order; line-break hyphenation, punctuation, capitalization, and the layout of subscripts and superscripts are ignored. Strings in quote marks that are rater A's own terms or that cite the rubric were not part of this check.
+
+The strings not listed below are word for word in the source. For GRADE the source is arXiv v1: "its unique answer is the terminal node ek+1" and "all supporting facts are contained in the edge set P" are in v1 and not in v2.
+
+### Quote column
+
+The header of the record calls the quotes of this column verbatim. Three of them are not.
+
+| Row | In the record | In the source | Difference |
+|---|---|---|---|
+| GraphRAG-Bench, subgraph/passage | "transform raw text into structured domain ontologies" | "our framework systematically transforms raw text into structured domain ontologies" (Section 3.2, paragraph "Logic and evidence extraction"; v1 to v3) | "transform" for "transforms" |
+| GraphRAG-Bench, subgraph/passage | "if no evidence triple can be inferred from the corpus, the question is discarded" | "if no evidence triple can be inferred from the corpus, the corresponding question is discarded" (appendix section "Check & Correct"; v1 to v3) | "corresponding" is left out |
+| GRADE, supporting-passage; repeated in Section C, item 1 | abstract: "supporting evidence traces back to original source documents" | Neither the abstract nor the body of v1 or v2 contains these words. | The string is not a quotation. The other quote of the cell, "we split each article into chunks ... and embedded them", is word for word. |
+
+### Notes (trigger-signal column and Section C)
+
+These parts hold rater A's notes on what led to a bin. The strings below stand in quote marks there and are shortened or reworded.
+
+| Where | In the record | In the source |
+|---|---|---|
+| MuSiQue, supporting-passage, trigger signal | "No KG / Wikidata" | Rater A's own label. The paper does not contain these words. |
+| 2WikiMultiHopQA, sentence, trigger signal; Section C, item 2 | "whether the value o1 must appear in the Wikipedia article" (Section C continues "for entity e1") | "requirement here is that the value o1 must appear in the Wikipedia article for the entity e1" (Section 3.2) |
+| GraphRAG-Bench, subgraph/passage, trigger signal | "questions are generated according to the complexity of the underlying evidence" | "we generate the questions according to the complexity of the underlying evidence" (Section 3.2, paragraph "Question generation"; v1 to v3) |
+| GRADE, Section C, item 1 | "answer = terminal node ek+1", "supporting facts = edge set P" | Shorthand for the two v1 quotes of the GRADE answer and supporting-fact rows. |
+| qa_v4_from_kg, edge, trigger signal | `canonical_edge_ids = ["{src}--{rel}-->{tgt}"]` | `canonical_edge_ids   = ["{src_id}--{rel}-->{tgt_id}"]` (module docstring of `qa_from_kg.py`) |
+
+In the answer row of qa_independent_v1, the quoted sentence is word for word in the single-hop generation prompt of `generate_qa_candidates.py` (`GENERATOR_SYSTEM_PROMPT`), not in the body of `make_single_hop_candidate`.
+
+The source sentences behind the 29 census judgments, with their page numbers, are in `oct2026_additions/human_validation/llm_census_logged/excerpts.json`.

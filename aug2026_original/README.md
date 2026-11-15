@@ -41,8 +41,12 @@ Table 8 labels more finely: "KG, answer string" (the answer axes of
 passage), and "answer-surface" (TriviaQA evidence). The bins and C values are
 the same in both, and no script reads this field. Second, for GRADE and STaRK
 the quotes in rater A's records follow arXiv v1, whose wording later versions
-changed, and a few quotes in those records are not word for word in any
-version. `oct2026_additions/human_validation/llm_census_logged/excerpts.json`
+changed. Rater A's two records are left as written, and a note at the end of
+each lists the strings in quote marks that are not word for word in the
+source. In the quote column these are two GraphRAG-Bench quotes that differ
+from the paper by one word each and one GRADE string that is not in the
+paper; the others are shortened or reworded fragments in rater A's notes.
+`oct2026_additions/human_validation/llm_census_logged/excerpts.json`
 checks the census-record quotes that were shown to the later raters against
 the source text (`workbook_excerpt_check`) and lists the description
 statements that no source sentence states. The quotes printed in the paper's

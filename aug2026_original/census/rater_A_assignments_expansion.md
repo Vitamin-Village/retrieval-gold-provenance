@@ -55,3 +55,24 @@
   - MultiHop-RAG = bin0 (evidence), STaRK = bin3 (answer-entity, retrieval gold) | bin1 (textual) **[split]**, MetaQA = bin4 (answer/path).
 - All 3 PASS; none excluded from kappa denominator.
 - Cross-census placement: MetaQA joins the C=1 ceiling cluster (2Wiki-edge, qa_v4_from_kg); MultiHop-RAG joins the C=0 floor cluster (MuSiQue, HotpotQA, qa_independent_v1); STaRK is a new high-C KB-retrieval point (axis-split bin3/bin1), analogous structurally to GRADE.
+
+---
+
+## Authors' note on the quotes (added November 2026)
+
+Everything above this line is rater A's record of 2026-06-01 and is left as written. Before the public release, the authors compared each string in quote marks that the record gives as text of a benchmark paper or README with that source. The sources were the PDF text of MultiHop-RAG (arXiv:2401.15391v1), STaRK (arXiv:2404.13207, v1 to v3), and MetaQA (arXiv:1709.04071v5), and the README of the MetaQA dataset (github.com/yuyuz/MetaQA, commit b1e6973). A string counts as word for word when its letters and digits occur in the source in the same order; line-break hyphenation, punctuation, capitalization, and the layout of subscripts and superscripts are ignored. Strings in quote marks that are rater A's own terms or that cite the rubric were not part of this check.
+
+### Quote column
+
+Apart from the two MetaQA quotes described in the next paragraph, every quote of this column is word for word in the source. The STaRK quotes are all in arXiv v1, and not all of them remain in v2 or v3.
+
+The two MetaQA quotes have the words of the paper and write on one line what the paper typesets. "(a_i^1, r_i, a_i^2)" is the triplet that the paper prints with superscripts 1 and 2 and subscript i (Section 3). "author->authored paper->authored_by author to find answers" is the chain that the paper prints as "author → paper → author to find answers" with the labels "authored" and "authored by" above the two arrows (Section 1). `oct2026_additions/human_validation/llm_census_logged/excerpts.json` lists the first under its item METAQA_ANSWER as not found verbatim; the two differ only in the order in which the subscript and the superscript are written.
+
+### Notes (trigger-signal column)
+
+This column holds rater A's notes on what led to a bin. The strings below stand in quote marks there and are shortened or reworded.
+
+| Where | In the record | In the source |
+|---|---|---|
+| MultiHop-RAG, bridge-entity | "not formal structured representations" | Rater A's own wording. The paper does not contain these words. |
+| MetaQA, answer | "each edge ... is a triplet (a1, r, a2)" | Shortened form of the quote in the same row, with the indices left out. |
