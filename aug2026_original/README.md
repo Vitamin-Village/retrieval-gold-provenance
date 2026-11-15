@@ -1,7 +1,7 @@
 # First part of the released materials
 
-First part of the materials released with "Auditing Provenance
-Circularity in Knowledge-Grounded Question Answering Benchmarks" (Findings of
+First part of the materials released with "Auditing Retrieval-Gold
+Provenance in Knowledge-Grounded Question Answering Benchmarks" (Findings of
 EACL 2027). This folder holds the census records, the human validation, the
 provenance-audited benchmark, and the 2WikiMultiHop KG-swap experiment, laid
 out so that each claim in the paper points at a file here.

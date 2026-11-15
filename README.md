@@ -1,6 +1,6 @@
 # Retrieval-gold provenance audit: code and data
 
-Code, data, and rater records for the paper "Auditing Provenance Circularity in Knowledge-Grounded Question Answering Benchmarks" by Hyeonmin Kim and GyeongTaek Lee (Findings of EACL 2027).
+Code, data, and rater records for the paper "Auditing Retrieval-Gold Provenance in Knowledge-Grounded Question Answering Benchmarks" by Hyeonmin Kim and GyeongTaek Lee (Findings of EACL 2027).
 
 The paper asks where the retrieval gold of knowledge-grounded question answering benchmarks comes from. It scores eleven benchmarks with a rubric (the census) and then measures, with controlled knowledge-graph swaps on four of them, what happens when a graph retriever ranks over the structure the gold was derived from. This repository holds the census records, the human and language-model ratings, the knowledge graphs, the frozen per-question retrieval and reader outputs, and the scripts behind the paper's tables and figures.
 
@@ -55,7 +55,7 @@ Code written by the authors is under the MIT License (`LICENSE`); the license do
 
 ```bibtex
 @inproceedings{kim2027auditing,
-  title     = {Auditing Provenance Circularity in Knowledge-Grounded Question Answering Benchmarks},
+  title     = {Auditing Retrieval-Gold Provenance in Knowledge-Grounded Question Answering Benchmarks},
   author    = {Kim, Hyeonmin and Lee, GyeongTaek},
   booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
   year      = {2027}
