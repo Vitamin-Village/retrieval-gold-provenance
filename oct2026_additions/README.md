@@ -599,7 +599,7 @@ Models: readers llama3.1:8b, qwen2.5:14b, mistral-small:24b (third reader), clau
 - `human_validation/v4/to_send/rater_3_v4.zip` 06b47d2e187fea11
 - `human_validation/v4/WORKED_EXAMPLES_v4.md` 68da3e15c58c4cd8
 - `manuscript/eacl2027_camera_ready.aux` 1eaaffe65fe1ae65
-- `manuscript/eacl2027_camera_ready.tex` 55a330a5f70a9384
+- `manuscript/eacl2027_camera_ready.tex` aac5197ea7c09236
 - `realistic_structure/2wiki/holdout200/_kgswap_hipporag2_kg_wikidata.json` 404c23d72f107e2b
 - `realistic_structure/2wiki/holdout200/_kgswap_ppr_kg_wikidata.json` 2cec215470bd9b9e
 - `realistic_structure/2wiki/holdout200/_kgswap_proposed_v3_kg_wikidata.json` 7e0469cfb887ec32
